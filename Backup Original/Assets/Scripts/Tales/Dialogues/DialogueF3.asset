@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: DialogueF3
+  m_EditorClassIdentifier: 
+  Dialogue:
+  - Each skill is good in a certain situation.
+  - The male cannibal has high defense, true damage skills are good in this case
+  - 'The female cannibal has little defense, in this case double strike skills are
+    better
+
+'
+  idchara: 
+  instruction: 00000000000000000000000001000000

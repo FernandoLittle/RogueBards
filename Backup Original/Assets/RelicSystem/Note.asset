@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ddd83babbe3e8f499ed318839388642, type: 3}
+  m_Name: Note
+  m_EditorClassIdentifier: 
+  IdRelic: 0
+  SpriteRelic: {fileID: 0}
+  Description: 'Here is a restitution for the damages done, this judgment was carried
+    out by the Assassin Guild / Agency 3.
+
+    Executor: Bard of Bards
+
+    Judge:
+    Bard of Bards'
+  Name: Note
+  Type: 1
