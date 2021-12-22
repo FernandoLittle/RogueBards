@@ -125,6 +125,7 @@ public class D : MonoBehaviour
     public List<Transform> KeywordTransform;
     public Text Description;
     public List<Image> KeywordColor;
+    public List<Relic> Relics;
     // Start is called before the first frame update
     private void OnEnable()
     {

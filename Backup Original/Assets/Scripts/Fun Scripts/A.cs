@@ -107,13 +107,17 @@ public class A : MonoBehaviourPunCallbacks
     public List<Image> EnablerEye;
     public SetFight SetFight;
     public Dialogues Dialogues;
-
+    public List<Animator> BunecosAnimados;
+    public ControllerAnimation ControllerAnimation;
+    public RelicSystem RelicSystem;
+    public DeckSystem DeckSystem;
+    public int FinalTurn;
+    public GameObject ProtoVictory;
+    public GameObject ProtoDefeat;
     // Start is called before the first frame update
     void Start()
     {
-        //Remove this
-        StaticPlayer.Fight = 1;
-        //Remove
+        
         if (StaticPlayer.Adventure == false)
         {
 
@@ -340,6 +344,7 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 4].SetActive(true);
 
                 LifeT[x + 4].text = zoneid[x + 3].Lyoko[0].ToString();
+                RelicSystem.AddRelic(x + 3, player1,x);
             }
         }
         else
@@ -374,6 +379,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[5].SetActive(true);
 
             LifeT[5].text = zoneid[4].Lyoko[0].ToString();
+            RelicSystem.AddRelic(4, player1,0);
         }
         if (decklist.deck[player2].card.Count > 1)
         {
@@ -404,6 +410,7 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 1].SetActive(true);
 
                 LifeT[x + 1].text = zoneid[x].Lyoko[0].ToString();
+                RelicSystem.AddRelic(x, player2,x);
             }
             if (offline == false)
             {
@@ -438,6 +445,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[2].SetActive(true);
 
             LifeT[2].text = zoneid[1].Lyoko[0].ToString();
+            RelicSystem.AddRelic(1, player2,0);
             if (offline == false)
             {
                 GetAttacking1 = true;
@@ -657,9 +665,34 @@ public class A : MonoBehaviourPunCallbacks
     public void TurnUp()
     {
         turn += 1;
-        
+        END();
         StartofTurnEffects();
 
+    }
+    public void END()
+    {
+        if (FinalTurn > 0)
+        {
+            if (turn > FinalTurn)
+            {
+                if(Zone[1].Lyoko[0]+ Zone[2].Lyoko[0]+ Zone[3].Lyoko[0]> Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0])
+                {
+                    Defeat();
+                }
+                else
+                {
+                    Victory();
+                }
+            }
+        }
+    }
+    public void Victory()
+    {
+        ProtoVictory.SetActive(true);
+    }
+    public void Defeat()
+    {
+        ProtoDefeat.SetActive(true);
     }
     public void StartofTurnEffects()
     {
@@ -686,6 +719,8 @@ public class A : MonoBehaviourPunCallbacks
     //Effects Start of Game
     public void StartofGameEffects()
     {
+        RelicSystem.AddRelic2();
+        DeckSystem.AddCard();
         for (int x = 1; x < 11; x = x + 1)
         {
             //Passive Teemo
@@ -974,27 +1009,33 @@ public class A : MonoBehaviourPunCallbacks
         Debug.Log(idz);
         if (idz == 1)
         {
+            BunecosAnimados[3].Play("Run3");
             Zone[idz].anime.Play("Fight1");
         }
         if (idz == 2)
         {
+            BunecosAnimados[2].Play("Run2");
             Zone[idz].anime.Play("Fight2");
         }
         if (idz == 3)
         {
+            BunecosAnimados[1].Play("Run1");
             Zone[idz].anime.Play("Fight3");
         }
         if (idz == 4)
         {
+            BunecosAnimados[6].Play("Run6");
             Zone[idz].anime.Play("Fight4");
         }
         if (idz == 5)
         {
+            BunecosAnimados[5].Play("Run5");
             Zone[idz].anime.Play("Fight5");
 
         }
         if (idz == 6)
         {
+            BunecosAnimados[4].Play("Run4");
             Zone[idz].anime.Play("Fight6");
         }
 
@@ -1009,6 +1050,75 @@ public class A : MonoBehaviourPunCallbacks
         AnimeSkills[5].Play("standar4");
         AnimeSkills[6].Play("standar3");
         AnimeSkills[7].Play("standar4");
+
+    }
+    public void SetSentimento()
+    {
+
+        if (Zone[F.y].Lyoko[0] < 7 && Zone[F.y].Mana / Zone[F.z].Mana / Zone[F.y].Mana >= 2)
+        {
+            //Vida baixa, mana baixa = ódio
+            Zone[F.y].sentimento = 3;
+        }
+        else if (Zone[F.z].Lyoko[0] < Zone[F.y].Lyoko[1])
+        {
+            Zone[F.y].sentimento = 2;
+            //Vida oponente menor que ataque aliado = fúria
+        }
+        else if (Zone[F.y].Lyoko[0] < 7)
+        {
+            Zone[F.y].sentimento = 1;
+            //Vida alta = calma
+        }
+        else if (Zone[F.y].Lyoko[0] > 6)
+        {
+            Zone[F.y].sentimento = 0;
+            //Vida baixa = medo
+        }
+        if (0 > 1)
+        {
+            //Compaixão
+            Zone[F.y].sentimento = 4;
+          
+        }
+
+
+
+        if(Zone[F.z].Mana > 0)
+        {
+            if (Zone[F.z].Lyoko[0] < 7 && Zone[F.z].Mana / Zone[F.y].Mana / Zone[F.z].Mana >= 2)
+            {
+                //Vida baixa, mana baixa = ódio
+                Zone[F.z].sentimento = 3;
+            }
+
+            else if (Zone[F.y].Lyoko[0] < Zone[F.z].Lyoko[1])
+            {
+                Zone[F.z].sentimento = 2;
+                //Vida oponente menor que ataque aliado = fúria
+            }
+            else if (Zone[F.z].Lyoko[0] < 7)
+            {
+                Zone[F.z].sentimento = 1;
+                //Vida alta = calma
+            }
+            else if (Zone[F.z].Lyoko[0] > 6)
+            {
+                Zone[F.z].sentimento = 0;
+                //Vida baixa = medo
+            }
+        }
+        else
+        {
+            Zone[F.z].sentimento = 0;
+        }
+
+        if (0 > 1)
+        {
+            //Compaixão
+            Zone[F.y].sentimento = 4;
+
+        }
 
     }
 }

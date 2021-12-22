@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Roy
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: ab7434c82a1baa64190a4acf93fafe81, type: 3}
+  sprite: {fileID: 21300000, guid: c9dae0098efa8f149a4b34c07514125c, type: 3}
   sprite1: {fileID: 0}
   id: 27
   idPersonagem: 0
@@ -29,3 +29,4 @@ MonoBehaviour:
   Passive: lex dura lex lupus
   Passivebr: 
   KeyordId: 
+  Relics: 

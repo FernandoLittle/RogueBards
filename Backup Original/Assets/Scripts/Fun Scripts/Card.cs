@@ -25,7 +25,7 @@ public class Card : ScriptableObject
     [TextArea]
     public string Passivebr;
     public List<int>KeyordId;
-
+    public List<int> Relics;
     // Start is called before the first frame update
     void Start()
     {

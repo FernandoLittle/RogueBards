@@ -85,6 +85,9 @@ public class B : MonoBehaviourPunCallbacks
     public Button FightB;
     public Image FightI;
     public GameObject FightT;
+    public int sentimento;
+    public List<int> Relics;
+    //Calma 0 Medo 1 Fúria 2 Ódio 3 Compaixão 4
    
 
 
@@ -314,6 +317,7 @@ public class B : MonoBehaviourPunCallbacks
             a.EnablerEye[4].raycastTarget = true;
             a.EnablerEye[5].raycastTarget = true;
             a.EnablerEye[6].raycastTarget = true;
+            a.SetSentimento();
             a.NormalizatorAnimation();
 
         }

@@ -153,6 +153,7 @@ public class F : MonoBehaviour
         for (int x = 0; x < 2; x = x + 1)
         {
             ExChange(x);
+            a.RelicSystem.BonusSentimento(y0,z0,x);
             if (x40 == 15)//TeemoE
             {
                 if (Zone[y0].Code[11] == true)
@@ -1363,6 +1364,13 @@ public class F : MonoBehaviour
 
 
             }
+            if (c11[k] == 5)
+            {
+                Eye.sprite = D.Relics[c8[k]].SpriteRelic;
+                Eye2.text = D.Relics[c8[k]].Description;
+
+
+            }
             if (c9[k] == 1)
             {
                 anime[c6[k]].SetActive(true);
@@ -1525,6 +1533,7 @@ public class F : MonoBehaviour
     }
     public void E()
     {
+        a.ControllerAnimation.AnimationAttack();
         t1[0].SetActive(true);
         t1[1].SetActive(true);
         t[0].Play("draca");
@@ -1737,6 +1746,37 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void UpAttributeRelic(int a, int attribute, bool permanent, int idrelic)
+    {
+        Damage = a;
+        if (Damage > 0)
+        {
+            Zone[y0].Lyoko[attribute] += Damage;
+            if (permanent == true)
+            {
+                Zone[y0].Lyoko1[attribute] += Damage;
+            }
+            if (attribute == 0)
+            {
+                c6.Add(6);
+            }
+            if (attribute == 1)
+            {
+                c6.Add(8);
+            }
+            if (attribute == 2)
+            {
+                c6.Add(7);
+            }
+
+            target = 1;
+            XRelic(idrelic);
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
     public void DamageAttribute(int a, int attribute, bool permanent)
     {
         Damage = a;
@@ -1837,5 +1877,30 @@ public class F : MonoBehaviour
         {
             X4();
         }
+    }
+    public void XRelic(int a)
+    {
+        if (target == 1) 
+        {
+            c1.Add(Zone[y0].Lyoko[0]);
+            c2.Add(Zone[y0].Lyoko[1]);
+            c3.Add(Zone[y0].Lyoko[2]);
+
+            c5.Add(Zone[y0].Mana);
+        }
+        if (target == -1)
+        {
+            c1.Add(Zone[z0].Lyoko[0]);
+            c2.Add(Zone[z0].Lyoko[1]);
+            c3.Add(Zone[z0].Lyoko[2]);
+
+            c5.Add(Zone[z0].Mana);
+        }
+
+        c8.Add(a);
+        c9.Add(e0);
+        c10.Add(Damage);
+        c11.Add(5);
+        c12.Add(e0 * target);
     }
 }

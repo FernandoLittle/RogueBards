@@ -12,6 +12,7 @@ public class Dialogues : MonoBehaviour
     public A A;
     public GameObject DialogueObject;
     public Tutorial Tutorial;
+    public GameObject TutoIlustration;
 
     // Start is called before the first frame update
     void Start()
@@ -117,6 +118,7 @@ public class Dialogues : MonoBehaviour
         if (Dialogo[DialogueSelect].instruction[Index] == 1)
         {
             DialogueObject.SetActive(false);
+            TutoIlustration.SetActive(false);
         }
         if (Dialogo[DialogueSelect].instruction[Index] >=11 && Dialogo[DialogueSelect].instruction[Index]<=20)
         {

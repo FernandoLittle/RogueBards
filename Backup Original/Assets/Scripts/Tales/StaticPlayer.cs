@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class StaticPlayer : MonoBehaviour
 {
+    public static List<int> TrueAttack;
+    public static List<int> FakeAttack;
+    public static List<int> Block;
+    public static List<int> CounterAttack;
+
+
+
+
     public static bool Adventure;
     public static int[] PlayerId;
     public static int[] PlayerLife;
@@ -13,7 +21,6 @@ public class StaticPlayer : MonoBehaviour
     public static int[] PlayerMaxLife;
     public static int[] Attack;
     public static List<int> RelicsAlly;
-    public static List<int> RelicsEnemy;
     public static int [,] PlayerKeyword = new int [8,6];
     public static int Fight;
     // Start is called before the first frame update

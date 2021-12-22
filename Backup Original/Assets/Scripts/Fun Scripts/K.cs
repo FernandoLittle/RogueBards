@@ -119,6 +119,7 @@ public class K : MonoBehaviour
     }
     public void D1()
     {
+
         Eye.SetActive(false);
         FantasyDark.SetActive(false);
         for (int x = 0; x < FantasyObjects.Count; x = x + 1)
@@ -145,6 +146,7 @@ public class K : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
     public void G()
     {
 
@@ -236,6 +238,11 @@ public class K : MonoBehaviour
         }
 
 
+    }
+    public void NormalChara()
+    {
+        Debug.Log("END");
+        c.ControllerAnimation.NormalizeChara();
     }
 
 }

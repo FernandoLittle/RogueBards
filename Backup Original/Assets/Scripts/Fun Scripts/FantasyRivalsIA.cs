@@ -161,9 +161,65 @@ public class FantasyRivalsIA : MonoBehaviour
     public void SelectMana()
     {
         SelectorMana = 0;
-        if (A.turn < 5)
+        Debug.Log("Aliado atacando =" + A.Atacante);
+        if (A.Zone[F.z].sentimento == 0)//calma
         {
-            IdealManaA = Random.Range(0, 4);            
+            IdealManaA = Random.Range(0, 3);
+        }
+        if (A.Zone[F.z].sentimento == 1)//medo
+        {
+            if (A.Atacante == false)
+            {
+                IdealManaA = Random.Range(0, 3);
+
+            }
+            if (A.Atacante == true)
+            {
+                if (TotalManaA < 7)
+                {
+                    IdealManaA = TotalManaA;
+                }
+                else
+                {
+                    IdealManaA = Random.Range(6, TotalManaA+1);
+                }
+               
+            }         
+        }
+        if (A.Zone[F.z].sentimento == 2)//fúria
+        {
+            if (A.Atacante == true)
+            {
+                IdealManaA = Random.Range(0, 3);
+
+            }
+            if (A.Atacante == false)
+            {
+                if (TotalManaA < 7)
+                {
+                    IdealManaA = TotalManaA;
+                }
+                else
+                {
+                    IdealManaA = Random.Range(6, TotalManaA + 1);
+                }
+
+            }
+        }
+        if (A.Zone[F.z].sentimento == 3)//ódio
+        {
+            if (TotalManaA < 7)
+            {
+                IdealManaA = TotalManaA;
+            }
+            else
+            {
+                IdealManaA = Random.Range(6, TotalManaA + 1);
+            }
+        }
+        if (A.Zone[F.z].sentimento == 4)//compaixão
+        {
+            IdealManaA = -1;
         }
         else if(A.turn <8)
         {
