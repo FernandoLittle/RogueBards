@@ -126,6 +126,8 @@ public class D : MonoBehaviour
     public Text Description;
     public List<Image> KeywordColor;
     public List<Relic> Relics;
+    public List<Status> Status;
+    public List<FightParameters> FightParameters;
     // Start is called before the first frame update
     private void OnEnable()
     {

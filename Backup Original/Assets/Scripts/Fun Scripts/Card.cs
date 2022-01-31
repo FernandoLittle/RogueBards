@@ -26,6 +26,7 @@ public class Card : ScriptableObject
     public string Passivebr;
     public List<int>KeyordId;
     public List<int> Relics;
+    public List<int> skin;
     // Start is called before the first frame update
     void Start()
     {

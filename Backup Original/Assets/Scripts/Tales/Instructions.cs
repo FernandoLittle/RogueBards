@@ -22,6 +22,7 @@ public class Instructions : MonoBehaviour
         switch (a)
         {
             case 0:
+           
                 TalesVariables.ShowText();
                 break;
             case 11:
@@ -38,15 +39,22 @@ public class Instructions : MonoBehaviour
             case 13:
                 SetButtonST("Decline offer", "It's not up to me to make this decision.", "", "", "");
                 SetButton(1001, 1002, 0, 0, 0);
-                TalesVariables.ShowText();
+                TalesVariables.ShowText(); 
                 break;
             case 14:
                 StaticPlayer.PlayerId[1] = 11;
                 StaticPlayer.PlayerLife[0] = 3;
                 SceneManager.LoadScene("Battle");
                 break;
+            case 15:
+                StaticPlayer.Fight = 1;
+                SceneManager.LoadScene("Battle");
+                break;
 
-
+            //100 Set Tale
+            case 100:
+                TalesVariables.SetTale(1);
+                break;
 
 
 

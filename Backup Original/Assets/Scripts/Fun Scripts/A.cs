@@ -12,9 +12,10 @@ public class A : MonoBehaviourPunCallbacks
     public int player2;
     public Listinha decklist;
     public Listinha evolution;
-    public List<GameObject> b;
-    public List<GameObject> c;
-    public List<GameObject> d;
+
+
+
+
     public List<Image> zone;
     public List<B> zoneid;
     public List<B> Zone;
@@ -98,10 +99,19 @@ public class A : MonoBehaviourPunCallbacks
     public List<GameObject> Skills;
     public Text Orientation;
     //Eye
+    public GameObject ilz;
+    public Image ilz1;
+    public List<Text> EyeTZ;
+    public List<GameObject> EyeIconsz;
+
     public GameObject ilx;
     public Image ilx1;
     public List<Text> EyeTx;
+    public List<GameObject> EyeIcons;
     public List<Image> SkillsImage;
+
+
+
     public List<Animator> AnimeSkills;
     public List<RectTransform> SkillsTransform;
     public List<Image> EnablerEye;
@@ -114,10 +124,14 @@ public class A : MonoBehaviourPunCallbacks
     public int FinalTurn;
     public GameObject ProtoVictory;
     public GameObject ProtoDefeat;
+    public StaticData StaticData;
+    public List<GameObject> ZoneObject;
+    public List<GameObject> CharaObject;
+    public Skin Skin;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
         if (StaticPlayer.Adventure == false)
         {
 
@@ -168,6 +182,7 @@ public class A : MonoBehaviourPunCallbacks
         }
         if (StaticPlayer.Adventure == true)
         {
+            StaticData.Set();
             offline = true;
             SetFight.SetFighto();
         }

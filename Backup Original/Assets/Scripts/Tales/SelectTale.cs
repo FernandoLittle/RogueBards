@@ -22,7 +22,7 @@ public class SelectTale : MonoBehaviour
         {
             if (StaticPlayer.Fight == 1)
             {
-                TalesVariables.TaleSelect = 1;
+                TalesVariables.SetTale(0);
             }
         }
     }

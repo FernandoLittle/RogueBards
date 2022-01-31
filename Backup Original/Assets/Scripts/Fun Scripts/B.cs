@@ -87,6 +87,10 @@ public class B : MonoBehaviourPunCallbacks
     public GameObject FightT;
     public int sentimento;
     public List<int> Relics;
+    public List <int> status;
+    public List<Statos> statos;
+
+
     //Calma 0 Medo 1 Fúria 2 Ódio 3 Compaixão 4
    
 

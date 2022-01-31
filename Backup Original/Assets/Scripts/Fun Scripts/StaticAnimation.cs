@@ -22,4 +22,8 @@ public class StaticAnimation : MonoBehaviour
     {
         ControllerAnimation.Pain();
     }
+    public void D()
+    {
+        ControllerAnimation.BasicAttack();
+    }
 }

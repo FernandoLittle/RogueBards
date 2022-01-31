@@ -24,19 +24,21 @@ public class TalesVariables : MonoBehaviour
       
         Index = 0;
         SelectTale.NextTale();
-        MasterAction();
     }
     public void MasterAction()
     {
         Instructions.TaleSwitch(Tales[TaleSelect].instruction[Index]);
-
-
-
-
         Index += 1;
+    }
+    public void SetTale(int TaleS)
+    {
+        Index = 0;
+        TaleSelect = TaleS;
+        MasterAction();
     }
     public void ShowText()
     {
+
         TaleText.text = Tales[TaleSelect].Dialogue[Index];
     }
     public void ShowButtons(int NumberOptions)

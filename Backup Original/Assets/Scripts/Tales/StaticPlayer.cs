@@ -26,8 +26,14 @@ public class StaticPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        PlayerId=new int[6];
+
+        TrueAttack = new List<int>();
+        FakeAttack = new List<int>();
+        Block = new List<int>();
+        CounterAttack = new List<int>();
+        RelicsAlly=new List<int>();
+
+        PlayerId =new int[6];
         PlayerLife = new int[6];
         ManaRegen=new int[6];
         Mana= new int[6];

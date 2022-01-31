@@ -1,12 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RelicSystem : MonoBehaviour
 {
     public A A;
     public F F;
+    public D D;
     public List<int> Relics;
+    public List<GameObject> RelicAllyG;
+    public List<GameObject> RelicEnemyG;
+    public List<Image> RelicAlly;
+    public List<Image> RelicEnemy;
+    public List<RelicItem> RelicItemAlly;
+    public List<RelicItem> RelicItemEnemy;
+    public Relic teste;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +41,11 @@ public class RelicSystem : MonoBehaviour
         {
             Debug.Log("SemRelíquia");
         }
-            
+        //AddRelicEnemytoo
+
+        
+
+
     }
     public void AddRelic(int a, int player, int b)
     {
@@ -48,7 +61,8 @@ public class RelicSystem : MonoBehaviour
         {
             A.zoneid[4].Relics.Add(Relics[x]);
         }
-            
+        SetRelicSprite();
+
     }
     public void GeralRelic(int a)
     {
@@ -142,6 +156,22 @@ public class RelicSystem : MonoBehaviour
             {
                 F.UpAttributeRelic(1, 1, true,1);//Aumenta ataque em 1 permanentemente, idrelic==1
             }
+        }
+    }
+    public void SetRelicSprite()
+    {
+        for (int x = 0; x < A.zoneid[4].Relics.Count; x = x + 1)
+        {
+            RelicAllyG[x].SetActive(true);
+
+            RelicAlly[x].sprite = D.Relics[A.zoneid[4].Relics[x]].SpriteRelic;
+            RelicItemAlly[x].RelicId = D.Relics[A.zoneid[4].Relics[x]].IdRelic;
+        }
+        for (int x = 0; x < A.zoneid[1].Relics.Count; x = x + 1)
+        {
+            RelicEnemyG[x].SetActive(true);
+            RelicItemEnemy[x].RelicId = D.Relics[A.zoneid[1].Relics[x]].IdRelic;
+            RelicEnemy[x].sprite = D.Relics[A.zoneid[1].Relics[x]].SpriteRelic;
         }
     }
 }

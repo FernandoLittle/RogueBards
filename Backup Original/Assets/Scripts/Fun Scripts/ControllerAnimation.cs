@@ -29,39 +29,49 @@ public class ControllerAnimation : MonoBehaviour
         {
             idchara = Generic.Buneco(F.y);
             //Futuro adiciona classes
-            if (Combat.ManaSpendA < 4)
+            if (Combat.SkillIDA == 1)
             {
 
                 AttackClass(idchara, 1);
             }
-            if (Combat.ManaSpendA < 7 && Combat.ManaSpendA >= 4)
+            if (Combat.SkillIDA == 2)
             {
 
                 AttackClass(idchara, 2);
             }
-            if (Combat.ManaSpendA >= 7)
+            if (Combat.SkillIDA == 3)
             {
 
                 AttackClass(idchara, 3);
+            }
+            if (Combat.SkillIDA == 4)
+            {
+
+                AttackClass(idchara, 4);
             }
         }
         else
         {
             idchara = Generic.Buneco(F.z);
-            if (Combat.ManaSpendA < 4)
+            if (Combat.SkillIDE == 1)
             {
 
                 AttackClass(idchara, 1);
             }
-            if (Combat.ManaSpendA < 7 && Combat.ManaSpendA >= 4)
+            if (Combat.SkillIDE == 2)
             {
 
                 AttackClass(idchara, 2);
             }
-            if (Combat.ManaSpendA >= 7)
+            if (Combat.SkillIDE == 3)
             {
 
                 AttackClass(idchara, 3);
+            }
+            if (Combat.SkillIDE == 4)
+            {
+
+                AttackClass(idchara, 4);
             }
         }
 
@@ -96,17 +106,37 @@ public class ControllerAnimation : MonoBehaviour
     {
         if (Charas[id].Style == 1 && attack==1)
         {
-            A.BunecosAnimados[idchara].Play("DaggerAttack1");
+            A.BunecosAnimados[idchara].Play("DaggerAttack2");
         }
         if (Charas[id].Style == 1 && attack == 2)
         {
 
-            A.BunecosAnimados[idchara].Play("DaggerAttack2");
+            A.BunecosAnimados[idchara].Play("SuperAttack");
         }
         if (Charas[id].Style == 1 && attack == 3)
         {
-            A.BunecosAnimados[idchara].Play("SuperAttack");
+            A.BunecosAnimados[idchara].Play("BlockAnim");
         }
+        if (Charas[id].Style == 1 && attack == 4)
+        {
+            A.BunecosAnimados[idchara].Play("CounterAttack");
+        }
+    }
+    public void BasicAttack()
+    {
+        if (F.AllyWin == 1)
+        {
+            idchara = Generic.Buneco(F.z);
+        }
+        else
+        {
+            idchara = Generic.Buneco(F.y);
+        }
+        if (Charas[idchara].Style == 1)
+        {
+            A.BunecosAnimados[idchara].Play("DaggerAttack1");
+        }
+            
     }
     public void Pain()
     {

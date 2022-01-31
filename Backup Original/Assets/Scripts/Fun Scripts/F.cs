@@ -474,7 +474,12 @@ public class F : MonoBehaviour
             }
             if (x10 == 21)
             {
-                //Elimina um inimigo do jogo no final de cada turno
+                if (Win == 1)
+                {
+
+                    Attack();
+                    AddStatus(0, -1);
+                }
 
             }
 
@@ -826,18 +831,10 @@ public class F : MonoBehaviour
                 if (Win == 1)
                 {
 
-                    Damage = 7 - Zone[z0].Lyoko[2];
-
-                    if (Damage > 0)
-                    {
-                        Zone[z0].Lyoko[0] -= Damage;
-                        Zone[z0].Code[4] = true;
-                        Zone[y0].Code[1] = true;
-                        //Oponente toma dano na primeira vez que se move
-                    }
-
-
+                    Attack();
+                    AddStatus(1,1);
                 }
+
 
             }
             if (x20 == 19)//TeemoAF
@@ -1715,6 +1712,44 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void AddStatus(int IdStatus, int targ)
+    {
+        int indexo = 0;
+        
+        Damage = 0;
+        if (Zone[y0].status[0] == 0)
+        {
+            indexo = 0;
+        }
+        else if (Zone[y0].status[1] == 0)
+        {
+            indexo = 1;
+        }
+        else if (Zone[y0].status[2] == 0)
+        {
+            indexo = 2;
+        }
+        else if (Zone[y0].status[3] == 0)
+        {
+            indexo = 3;
+        }
+        target = targ;
+        if (target == 1)
+        {
+            Zone[y0].status[indexo] = IdStatus;
+            Zone[y0].statos[indexo].id= IdStatus;
+            Zone[y0].statos[indexo].self.sprite = D.Status[IdStatus].Icon;
+            Zone[y0].statos[indexo].selfG.SetActive(true);
+        }
+        if (target == -1)
+        {
+            Zone[z0].status[indexo] = IdStatus;
+            Zone[z0].statos[indexo].id = IdStatus;
+            Zone[z0].statos[indexo].self.sprite = D.Status[IdStatus].Icon;
+            Zone[z0].statos[indexo].selfG.SetActive(true);
+        }
+    }
+ 
     public void UpAttribute(int a, int attribute, bool permanent)
     {
         Damage = a;
@@ -1746,6 +1781,7 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+
     public void UpAttributeRelic(int a, int attribute, bool permanent, int idrelic)
     {
         Damage = a;
@@ -1836,6 +1872,7 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+
     public void DuelistF(int a)
     {
         duelist = true;
