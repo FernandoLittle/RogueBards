@@ -144,11 +144,15 @@ public class B : MonoBehaviourPunCallbacks
         {
             if (idzone1 == 1 || idzone1 == 2 || idzone1 == 3)
             {
-
-                a.Skills[0].SetActive(true);
+                Debug.Log("Analog");
+               a.Skills[0].SetActive(true);
                 a.Skills[1].SetActive(true);
-                a.Skills[6].SetActive(true);
+               a.Skills[6].SetActive(true);
                 a.Skills[7].SetActive(true);
+                a.Skills[2].SetActive(false);
+                a.Skills[3].SetActive(false);
+                a.Skills[4].SetActive(false);
+                a.Skills[5].SetActive(false);
 
                 Blue[7].SetActive(true);
                 Blue[8].SetActive(true);
@@ -242,9 +246,13 @@ public class B : MonoBehaviourPunCallbacks
                 Blue[4].SetActive(false);
                 Blue[5].SetActive(false);
                 Blue[6].SetActive(false);
-                Blue[1].SetActive(true);
-                Blue[2].SetActive(true);
-                Blue[3].SetActive(true);
+
+                a.ActiveBlue(1, true);
+                a.ActiveBlue(2, true);
+                a.ActiveBlue(3, true);
+
+
+
                 PlayerPrefs.SetInt("A", idcard1);
 
                 a.F.y = idzone1;
@@ -421,23 +429,85 @@ public class B : MonoBehaviourPunCallbacks
             
         }
     }
+    public void SentimentoText()
+    {
+        string unknown;
+        string calm;
+        string fear;
+        string rage;
+        string hate;
+        string compassion;
+        string calm1;
+        string fear1;
+        string rage1;
+        string hate1;
+        string compassion1;
+        a.SetSentimento();
+        unknown= "The human's feeling is unknown, but when he comes face to face with another human his feelings will awaken.";
+        calm = "<color=blue>Calm</color>: Tends to expend a small amount of mana. \n Cause: The human has high life, it calms him down.";
+        fear = "<color=purple>Fear</color>: Tends to use a lot of mana on defense and a small amount of mana on offense. \n Cause: The human has low life, it scares him.";
+        rage= "<color=orange>Rage</color>: Tends to use a lot of mana on offense and a small amount of mana on defense. \n Cause: The opponent has high life, this causes the human to attack enraged.";
+        hate = "<color=red>Hate</color>: Tends to spend all of his mana.. \n Cause: The human sees no chance of victory, it makes him hate reality.";
+        compassion = "<color=Pink>Compassion</color>: This is weird.";
+        calm1= "<color=blue>Calm</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana \n Cause: The human has high life, it calms him down."; ;
+        fear1= "<color=purple>Fear</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on defense or a small amount of mana on offense. \n Cause: The human has low life, it scares him."; ;
+        rage1 = "<color=orange>Rage</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on offense or a small amount of mana on defense. \n Cause: The opponent has high life, this causes the human to attack enraged.";
+        hate1 = "<color=red>Hate</color>: Your <color=blue>sentimental bonus</color> is activated when you spend all of his mana.. \n Cause: The human sees no chance of victory, it makes him hate reality."; ;
+        compassion1 = "<color=Pink>Compassion</color>: You shouldn't be feeling this.";
+
+        if (sentimento == -1)
+        {
+            a.EyeT[0].text = unknown;
+            a.EyeTx[0].text = unknown;
+        }
+        if (sentimento == 0)
+        {
+            a.EyeT[0].text = calm;
+            a.EyeTx[0].text = calm1;
+        }
+        if (sentimento == 1)
+        {
+            a.EyeT[0].text = fear;
+            a.EyeTx[0].text = fear1;
+        }
+        if (sentimento == 2)
+        {
+            a.EyeT[0].text = rage;
+            a.EyeTx[0].text = rage1;
+        }
+        if (sentimento == 3)
+        {
+            a.EyeT[0].text = hate;
+            a.EyeTx[0].text = hate1;
+        }
+        if (sentimento == 4)
+        {
+            a.EyeT[0].text = compassion;
+            a.EyeTx[0].text = compassion1;
+        }
+
+
+    }
     public void D()
     {
-        if(idzone1==1|| idzone1 == 2 || idzone1 == 3)
+        SentimentoText();
+        if (idzone1==1|| idzone1 == 2 || idzone1 == 3)
         {
             if (idcard1 != 0)
             {
                 il.SetActive(true);
-                il1.sprite = Zonesprite0.sprite;
+            
             }
 
             if (idcard1 > 0)
             {
-                a.EyeT[0].text = d.Chara[idcard1].Passive;
+
+                //  a.EyeT[0].text = d.Chara[idcard1].Passive;
+                il1.sprite = d.Chara[idcard1].sprite;
             }
             if (idcard1 < 0)
             {
-                a.EyeT[0].text = d.Chara[idcard1 * -1].Passive;
+                il1.sprite = d.Chara[idcard1*-1].sprite;
             }
             a.EyeT[1].text = Lyoko[0].ToString();
             a.EyeT[2].text = Lyoko[1].ToString();
@@ -452,16 +522,17 @@ public class B : MonoBehaviourPunCallbacks
             if (idcard1 != 0)
             {
                 a.ilx.SetActive(true);
-                a.ilx1.sprite = Zonesprite0.sprite;
             }
 
             if (idcard1 > 0)
             {
-                a.EyeTx[0].text = d.Chara[idcard1].Passive;
+
+                a.ilx1.sprite = d.Chara[idcard1].sprite;
             }
             if (idcard1 < 0)
             {
-                a.EyeTx[0].text = d.Chara[idcard1 * -1].Passive;
+              //  a.EyeTx[0].text = d.Chara[idcard1 * -1].Passive;
+                a.ilx1.sprite = d.Chara[idcard1*-1].sprite;
             }
             a.EyeTx[1].text = Lyoko[0].ToString();
             a.EyeTx[2].text = Lyoko[1].ToString();
@@ -580,7 +651,7 @@ public class B : MonoBehaviourPunCallbacks
     }
     public void MoveAlly()
     {
-        Debug.Log("MoveAlly1");
+
         O.SelectAlly();
     }
     public void ActiveSkills()

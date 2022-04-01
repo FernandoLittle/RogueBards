@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamTax1
+  m_EditorClassIdentifier: 
+  id: 6
+  Dialogue:
+  - William began to feel afraid, his job was simple, he just needed to arrest Vlad
+    Burarth, a bourgeois guilty of tax evasion.
+  - 'That bourgeois was weak, offered no resistance to arrest, and followed William''s
+    orders without hesitation. He disobeyed only one order from William:'
+  - Say something.
+  - Silence.
+  - That silence was terrifying.
+  - Why are you smiling? Answer me!
+  - Silence.
+  - William tried to ignore it, but it was difficult, he had never met someone so
+    calm and with such an air of superiority.
+  - His smile of pure satisfaction was frightening.
+  - I know why you're smiling, you're going to hire an assassin to kill me, be silent
+    if my hypothesis is correct.
+  - 'This time he managed to wrest an answer from the bourgeois:'
+  - I would never do that.
+  - Five days later an assassin was in front of him.
+  idchara: 
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000

@@ -114,6 +114,7 @@ public class G : MonoBehaviour
         il2.SetActive(false);
         if (id1 == 1)
         {
+            d.ScaleT1.text = d.AttackS[id].scale.ToString();
             t0.text = d.AttackS[id].Texto0;
             SetKeyword(d.AttackS[id]);
 
@@ -121,17 +122,20 @@ public class G : MonoBehaviour
         }
         if (id1 == 2)
         {
+            d.ScaleT1.text = d.AttackQ[id].scale.ToString();
             t0.text = d.AttackQ[id].Texto0;
             SetKeyword(d.AttackQ[id]);
         }
         if (id1 == 3)
         {
+            d.ScaleT1.text = d.Block[id].scale.ToString();
             t0.text = d.Block[id].Texto0;
             SetKeyword(d.Block[id]);
 
         }
         if (id1 == 4)
         {
+            d.ScaleT1.text = d.Dodge[id].scale.ToString();
             t0.text = d.Dodge[id].Texto0;
             SetKeyword(d.Dodge[id]);
 

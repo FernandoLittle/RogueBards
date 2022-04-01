@@ -19,7 +19,10 @@ public class FightParameters : ScriptableObject
     public List<int> IdDialogue2;
     public List<int> IdDialogue3;
     public List<int> IdDialogue4;
-
+    public int TaleVictory;
+    public int TaleDefeat;
     public int Cenário;
+    public int TaleTypeV;
+    public int TaleTypeD;
 
 }

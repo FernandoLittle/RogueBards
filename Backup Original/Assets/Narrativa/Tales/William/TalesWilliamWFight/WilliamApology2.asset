@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamApology2
+  m_EditorClassIdentifier: 
+  id: 1
+  Dialogue:
+  - "The third pillar\u2026"
+  - William already imagined that that bard would argue against the arrest and say
+    something about freedom of speech.
+  - Be quiet, nothing you say can prevent you from being arrested.
+  - "Kuvira's third pillar\u2026 freedom of speech."
+  - William thought how predictable that bard was, he didn't even understand that
+    he was being arrested for raising his daggers against a warrior and not for the
+    music he played.
+  - You bards are too cowardly to commit crimes into your own hands, but your music
+    constantly encourages people to break the law. Kuvira always made it very clear
+    that apology for crime would never be allowed.
+  - We are free only to agree with the law.
+  - The bard began to laugh.
+  - Why are you laughing? You lost.
+  - I lost a fight, but I won where it matters. I won in being happier, because while
+    you decided to be a slave to the law, I decided to be a slave to my passions.
+    Even if I die now, I will be satisfied that I lived my life to the fullest.
+  - Are you happier than me?
+  - William reduced the bard's happiness.
+  - And now?
+  - I'm sorry.
+  - William reduced the bard's happiness.
+  - Please! Stop... please.
+  - Are you even happier than I am?
+  - Please! Stop... please.
+  - No... No!
+  - That bard started having trouble breathing.
+  - "You're more\u2026happy\u2026than I am."
+  - William's happiness increased.
+  idchara: 
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

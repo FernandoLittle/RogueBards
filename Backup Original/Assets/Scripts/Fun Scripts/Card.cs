@@ -27,6 +27,7 @@ public class Card : ScriptableObject
     public List<int>KeyordId;
     public List<int> Relics;
     public List<int> skin;
+    public int SentimentoType;
     // Start is called before the first frame update
     void Start()
     {

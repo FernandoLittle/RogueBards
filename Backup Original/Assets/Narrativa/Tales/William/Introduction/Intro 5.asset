@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Intro 5
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - 'In Sarka an assassin said:'
+  - Warriors fight in bloody combat, face misery and hunger, and the people flourish
+    on the dung of their corpses.
+  - 'In Sarka a warrior said:'
+  - We will fight in bloody battles, we will face misery and hunger for the good
+    of our nation.
+  idchara: 
+  instruction: 0000000000000000000000000000000069000000

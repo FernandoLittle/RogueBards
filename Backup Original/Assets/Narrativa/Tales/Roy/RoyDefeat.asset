@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: RoyDefeat
+  m_EditorClassIdentifier: 
+  id: 7
+  Dialogue:
+  - "I can't take it anymore, I\u2026 I don't\u2026 no\u2026 what are we doing here?"
+  - Get up <color=blue>Roy</color>! We're not done yet!
+  - Can't you see what we're doing? Stop it now!
+  - Do you understand that you are disobeying the military hierarchy?
+  - <color=yellow>Yuri</color>! You are crazy? We can't go on with this!
+  - 'Next week:'
+  - You're lucky, <color=blue>Roy</color>, most would have gone to jail for doing
+    what you did, but I managed to make you just lose your sword.
+  - "I need the sword, I need the salary\u2026"
+  - Should have thought of that sooner! You will still earn a bonus for services
+    performed so far.
+  - "This money is not enough, I need\u2026"
+  - You really like to spit on the plate you ate. Get out of my way, the <color=blue>Roy</color>
+    I knew wasn't a parasite.
+  - 'Next week:'
+  - <color=blue>Roy</color>  flips a coin, unfortunately the result is a tail.
+  - <color=blue>Roy</color> chose his vanity
+  - This is <color=red>funny</color> .
+  idchara: 
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003b010000000000000100000002000000

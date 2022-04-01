@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Instructions : MonoBehaviour
 {
     public TalesVariables TalesVariables;
+    public List<int> Caos;
+    public List<int> Inteiro;
+    public List<string> Caracter;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,42 +28,137 @@ public class Instructions : MonoBehaviour
            
                 TalesVariables.ShowText();
                 break;
+
+            //SetFight
+            case 1:
+                StaticPlayer.Fight = 1;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 2:
+                StaticPlayer.Fight = 2;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 3:
+                StaticPlayer.Fight = 3;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 4:
+                StaticPlayer.Fight = 4;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 5:
+                StaticPlayer.Fight = 5;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 6:
+                StaticPlayer.Fight = 6;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 7:
+                StaticPlayer.Fight = 7;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 8:
+                StaticPlayer.Fight = 8;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 9:
+                StaticPlayer.Fight = 9;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 10:
+                StaticPlayer.Fight = 10;
+                SceneManager.LoadScene("Battle");
+                break;
             case 11:
-                SetButtonST("You don't go to hell", "Die, regicide", "", "", "");
-                SetButton( 1001, 1002, 0, 0, 0);
+                StaticPlayer.Fight =11;
+                SceneManager.LoadScene("Battle");
+                break;
+
+
+
+
+
+
+
+
+            //100 Set Tale
+            case 101:
+                TalesVariables.SetTale(a-100);
+                break;
+            case 102:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 105:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 106:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 107:
+                TalesVariables.SetTale(a - 100);
+                break;
+
+
+            //200 SetDialogue
+            case 201:
+                TalesVariables.Index = 1;
                 TalesVariables.ShowText();
                 break;
-            case 12:
-                SetButtonST("I can", "I can't", "", "", "");
-                SetButton(1001, 1002, 0, 0, 0);
+            case 202:
+                TalesVariables.Index = 2;
+                TalesVariables.ShowText();
+                break;
+            case 203:
+                TalesVariables.Index = 3;
+                TalesVariables.ShowText();
+                break;
+            case 204:
+                TalesVariables.Index = 4;
+                TalesVariables.ShowText();
+                break;
+            case 205:
+                TalesVariables.Index = 5;
+                TalesVariables.ShowText();
+                break;
+            case 206:
+                TalesVariables.Index = 6;
                 TalesVariables.ShowText();
                 break;
 
-            case 13:
-                SetButtonST("Decline offer", "It's not up to me to make this decision.", "", "", "");
-                SetButton(1001, 1002, 0, 0, 0);
-                TalesVariables.ShowText(); 
+            //300 Set Buttons
+
+            case 312:
+                SetButtonST("I can", "I can't", "", "", "");
+                SetButton(502, 703, 0, 0, 0);
+                TalesVariables.ShowText();
                 break;
-            case 14:
+
+            case 313:
+                SetButtonST("Decline offer", "It's not up to me to make this decision", "", "", "");
+                SetButton(1001, 1002, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 314:
                 StaticPlayer.PlayerId[1] = 11;
                 StaticPlayer.PlayerLife[0] = 3;
                 SceneManager.LoadScene("Battle");
                 break;
-            case 15:
-                StaticPlayer.Fight = 1;
-                SceneManager.LoadScene("Battle");
+            case 315:
+                SetButtonST("Accept the bad luck", "Flip the coin again", "", "", "");
+                SetButton(1013, 1014, 0, 0, 0);
+                TalesVariables.ShowText();
                 break;
 
-            //100 Set Tale
-            case 100:
-                TalesVariables.SetTale(1);
+        
+            //500 Genecric
+
+            case 500:
+                TalesVariables.Tales = TalesVariables.TalesAction;
+                TalesVariables.SetTale(0);
                 break;
-
-
-
             case -1:
-                SetButtonST("Cu", "Eae", "Pau", "", "");
-                SetButton( -4, -5, -6, 0, 0);
+                RandomActions();
                 break;
         }
     }
@@ -108,4 +206,63 @@ public class Instructions : MonoBehaviour
         TalesVariables.OptionsText[3] = st4;
         TalesVariables.OptionsText[4] = st5;
     }
+    public void RandomActions()
+    {
+
+        TalesVariables.FightL1.Clear();
+        for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
+        {
+            TalesVariables.FightL1.Add(TalesVariables.FightL[x]);
+        }
+
+        TalesVariables.FightL1.Sort();
+
+
+
+
+        for (int x = 0; x < 3; x = x + 1)
+        {
+            if (TalesVariables.FightL1[x] == 0)
+            {
+                Inteiro[x] = 1401;
+                Caracter[x] = "Apology for Crime";
+            }
+            if (TalesVariables.FightL1[x] == 1)
+            {
+                Inteiro[x] = 1402;
+                Caracter[x] = "Gambling Games";
+            }
+            if (TalesVariables.FightL1[x] == 2)
+            {
+                Inteiro[x] = 1403;
+                Caracter[x] = "Drug Trafficking";
+            }
+            if (TalesVariables.FightL1[x] == 3)
+            {
+                Inteiro[x] = 1404;
+                Caracter[x] = "Imigração Ilegal";
+            }
+            if (TalesVariables.FightL1[x] == 4)
+            {
+                Inteiro[x] = 1405;
+                Caracter[x] = "Organ Trafficking";
+            }
+            if (TalesVariables.FightL1[x] == 5)
+            {
+                Inteiro[x] = 1406;
+                Caracter[x] = "Tax Evasion";
+            }
+            if (TalesVariables.FightL1[x] == 6)
+            {
+                Inteiro[x] = 1407;
+                Caracter[x] = "Theft";
+            }
+        }
+
+        SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");
+        SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
+        TalesVariables.ShowText();
+
+    }
+
 }

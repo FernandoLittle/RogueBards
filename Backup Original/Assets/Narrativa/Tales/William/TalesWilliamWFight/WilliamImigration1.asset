@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamImigration1
+  m_EditorClassIdentifier: 
+  id: 2
+  Dialogue:
+  - Fuck where he was born, I've got better things to do than kick him out of the
+    country.
+  - You are unpatriotic.
+  - Yes I am. Believe what you want, the door is there, buddy.
+  - 'Just after Otterg opened the door, William shouted:'
+  - Hang on!
+  - You lied to me, didn't you?
+  - What? I didn't lie, I swear he's an illegal immigrant.
+  - ' Not on that part. Your name is Otterg Sasmark, you clearly come from a Serician
+    immigrant family, by the way, my grandfather also came from Sericia. In any case,
+    it makes no sense for you to hate immigrants to the point of wanting to expel
+    them if you are recently related to immigrants. Is there another reason behind
+    your order, am I wrong?'
+  - "The real reason is\u2026 my wife cheated on me with that man."
+  - Hm, so you're cuckold, it's a good reason and you had the guts to reveal it,
+    which is admirable.
+  - I'll help you then, adulterer has to fuck himself.
+  idchara: 
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000

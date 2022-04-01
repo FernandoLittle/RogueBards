@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tales.unity
     guid: ae4a5a994b68cfb4ea6d95795f0fd7f5
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: 00377640858013d4cba92b2266b1424b
   m_configObjects: {}

@@ -95,9 +95,9 @@ public class E : MonoBehaviourPunCallbacks
         {
             MasterE2.photonView.RPC("A1", RpcTarget.Others);
         }
-        
 
-        d.Attacking = 1;
+
+
 
 
 
@@ -854,7 +854,7 @@ public class E : MonoBehaviourPunCallbacks
     public void A1()
     {
 
-        d.Attacking = 0;
+
 
 
 

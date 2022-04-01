@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamDrug1
+  m_EditorClassIdentifier: 
+  id: 8
+  Dialogue:
+  - 'William liked the nights just as he liked the solitude. He was resting sitting
+    on a bench in a silent square, until his moment of peace was destroyed by a drug
+    dealer who asked:'
+  - Do you want opium?
+  - Do you have shit in your head or what? Can't you recognize a warrior when you
+    see one?
+  - The dealer never felt so stupid and never got so scared, he apologized and tried
+    to run, but Willian grabbed his arm.
+  - Don't worry, I won't arrest you or hurt you, but you have to tell me where the
+    guy who hired you is.
+  - The drug dealer felt stupid once again, he had no reason to be afraid, that warrior
+    would never hurt him.
+  - The guy who hired me? He's fucking his mother, that bitch.
+  - 'William took a deep breath:'
+  - I'll ask again, please answer me, who hired you?
+  - It is not obvious? Your father hired me, but you mustn't know him, he's a bard
+    with a half-meter dick.
+  - William was silent, looking at the dealer for a long, unpleasant time.
+  - I don't usually lie, so heed my warning, it's in your best interest to answer
+    this question, who hired you and where is he?
+  - Fuck you.
+  - The drug dealer felt like an idiot once again, that warrior was indeed capable
+    of hurting him. The punch was so strong that he lost a tooth. Fortunately, this
+    was not a very serious problem, as a new tooth was already growing to replace
+    the old one.
+  - 'After holding the drug dealer by the mouth, William said:'
+  - Is it in your best interest to stop crying and answer me, who hired you and where
+    is he?
+  - The dealer lied, giving the name and address of a killer he knew. Willian naively
+    believed and, the next day, he was faced with an opponent much stronger than
+    he imagined.
+  idchara: 
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000

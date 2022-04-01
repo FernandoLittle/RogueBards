@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Intro 4
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - 'In Sarka an assassin said:'
+  - The frog is not evil for killing a fly because he did not choose to be a frog.
+    The human is not bad for killing a frog because he didn't choose to be a human.
+    The angel is not evil for killing a human because he didn't choose to be an angel.
+  - But everyone sees their predators as evil, because even if they are predators
+    themselves, every damn animal thinks it's the most important being in the universe
+    and anyone who tries against its existence will be the incarnation of evil.
+  - 'In Sarka a warrior said:'
+  - Assassins are evil.
+  idchara: 
+  instruction: 000000000000000000000000000000000000000069000000

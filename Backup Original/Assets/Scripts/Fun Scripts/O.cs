@@ -42,17 +42,18 @@ public class O : MonoBehaviour
     }
     public void A()
     {
-
+        Debug.Log("IA");
 
         //a*=-1;
         //if (a == 1)
         if (Q.a.Count == 0 && AA.offline==true)
         {
-
+            Debug.Log("IA2");
+            Debug.Log(NexusE.id * NexusE.side);
 
             if (NexusE.id * NexusE.side < 0)
             {
-                Debug.Log("A");
+                Debug.Log("IA3");
                 SelectIA();
 
                /* AA.DisableA(true);
@@ -179,15 +180,16 @@ public class O : MonoBehaviour
     {
         if (NexusE.id * NexusE.side < 0)
         {
-            Debug.Log("MoveAlly2");
+
             AA.AnimeFight(ally);
         }
     }
     public void ActiveSkills()
     {
-
+        Debug.Log("IA");
         if (NexusE.id * NexusE.side < 0)
         {
+            Debug.Log("IA2");
             AA.Skills[2].SetActive(true);
             AA.Skills[3].SetActive(true);
             AA.Skills[4].SetActive(true);
@@ -206,7 +208,7 @@ public class O : MonoBehaviour
             AA.Blue[1].SetActive(false);
             AA.ib[0].enabled = true;
             //Blue[11].SetActive(true);
-            d.Attacking = 0;
+
             AA.Orientation.text = "Select Skill";
             AA.DD.SetInfo();
             AA.DD.Normalizator();
@@ -219,7 +221,7 @@ public class O : MonoBehaviour
     }
     public void SelectIA()
     {
-        Debug.Log("B");
+
         int SelectAlly;
         int SelectEnemy;
         Allys.Clear();
@@ -243,7 +245,7 @@ public class O : MonoBehaviour
         AA.F.z = SelectEnemy;
         AA.F.y = SelectAlly;
         AA.AnimeFight(SelectEnemy);
-        Debug.Log("D");
+
 
 
 
@@ -318,7 +320,6 @@ public class O : MonoBehaviour
 
 
         e1.A();
-        d.Attacking = 0;
     }
     public void F()
     {

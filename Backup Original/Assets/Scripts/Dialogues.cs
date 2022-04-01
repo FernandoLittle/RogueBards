@@ -32,7 +32,7 @@ public class Dialogues : MonoBehaviour
     }
     public void MasterDialogue()
     {
-        Debug.Log(StaticPlayer.Fight);
+
         if (StaticPlayer.Fight == 1)
         {
             if (A.turn == 1)
@@ -43,7 +43,10 @@ public class Dialogues : MonoBehaviour
         }
         if (StaticPlayer.Fight == 2)
         {
-
+            if (A.turn == 1)
+            {
+                SetDialogue(4);
+            }
         }
         if (StaticPlayer.Fight == 3)
         {
@@ -120,7 +123,7 @@ public class Dialogues : MonoBehaviour
             DialogueObject.SetActive(false);
             TutoIlustration.SetActive(false);
         }
-        if (Dialogo[DialogueSelect].instruction[Index] >=11 && Dialogo[DialogueSelect].instruction[Index]<=20)
+        if (Dialogo[DialogueSelect].instruction[Index] >=11 && Dialogo[DialogueSelect].instruction[Index]<=21)
         {
             ShowText();
             Tutorial.Tuto(Dialogo[DialogueSelect].instruction[Index]);

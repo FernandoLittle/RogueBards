@@ -20,14 +20,14 @@ public class Statos : MonoBehaviour
             ActiveEyeIcons(false, false, false, false);
             A.ilx.SetActive(true);
             A.ilx1.sprite = D.Status[id].BigIcon;
-            A.EyeTx[0].text = D.Status[id].description;
+           // A.EyeTx[0].text = D.Status[id].description;
         }
         if (side == 1)
         {
             ActiveEyeIconsZ(false, false, false, false);
             A.ilz.SetActive(true);
             A.ilz1.sprite = D.Status[id].BigIcon;
-            A.EyeTZ[0].text = D.Status[id].description;
+           // A.EyeTZ[0].text = D.Status[id].description;
         }
 
 

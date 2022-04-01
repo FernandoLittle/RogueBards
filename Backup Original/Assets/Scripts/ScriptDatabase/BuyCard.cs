@@ -63,7 +63,7 @@ public class BuyCard : MonoBehaviour
             }
             catch
             {
-                Debug.Log("cu");
+ 
             }
 
         }

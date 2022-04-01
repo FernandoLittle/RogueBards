@@ -40,6 +40,8 @@ public class K : MonoBehaviour
     public List<Text> ScaleT;
 
     // Start is called before the first frame update
+  
+
     void Start()
     {
         
@@ -128,7 +130,7 @@ public class K : MonoBehaviour
         }
         for (int x = 0; x < all.Count; x = x + 1)
         {
-            all[x].SetActive(true);
+           // all[x].SetActive(true);
         }
         for (int x = 0; x < d.Count; x = x + 1)
         {
@@ -162,53 +164,29 @@ public class K : MonoBehaviour
     //Tutorial
     public void I()
     {
-
-        o.A();
-        /*
-        if (o.a == 1)
+        //EndTurn
+        for (int x = 4; x < 7; x = x + 1)
         {
-
-            if (Tuto.tf == 1)
+            if (Zone[x].idcard1 <= 0)
             {
-
-
-                if (tutorial == 4)
-                {
-                 
-                    Tuto1.SetActive(true);
-                    Tuto.C(4);
-                    tutorial = 0;
-                }
-
-                else
-                {
-
-
-                    if (t > 0)
-                    {
-                        Tuto1.SetActive(true);
-                        Tuto.C(3);
-                        t = -10;
-                    }
-                    if (t == 0)
-                    {
-                        Tuto1.SetActive(true);
-                        Tuto.C(7);
-                        t += 1;
-                    }
-
-
-                }
-
-
-
-
+                c.ZoneButton[x].enabled = false;
+                c.EnablerEye[x].raycastTarget = true;
+            }
+            else
+            {
+                c.ActiveBlue(x, true);
+                c.ZoneButton[x].enabled = true;
+                c.EnablerEye[x].raycastTarget = false;
             }
         }
-        */
+        c.END();
+
+        o.A();
+   
     }
     public void Normalizator()
     {
+        
         c.Normalizator();
         Size[0].transform.localPosition = new Vector3(68.8f, 40.6f, 0);
         Size[1].transform.localPosition = new Vector3(151.2f, 40.6f, 0);
@@ -236,13 +214,15 @@ public class K : MonoBehaviour
             Rest[x].color = new Color(1, 1, 1, 1);
             ScaleT[x].color = new Color(1, 1, 1, 1);
         }
-
+        
 
     }
     public void NormalChara()
     {
-        Debug.Log("END");
+        
         c.ControllerAnimation.NormalizeChara();
+        
     }
+
 
 }

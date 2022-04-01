@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: DialogueF5
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Humans have feelings, you can find out how much mana your opponent is going to
+    use by looking at their feelings.
+  - You can find out the human's feeling by reading his description.
+  - Some relics give  <color=blue>sentimental bonuses</color>. To activate a <color=blue>sentimental
+    bonus</color>, you must spend an amount of mana that matches the sentiment of
+    the human you control.
+  idchara: 00000000000000000000000000000000
+  instruction: 15000000000000000000000001000000

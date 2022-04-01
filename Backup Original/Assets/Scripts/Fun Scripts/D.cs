@@ -128,6 +128,7 @@ public class D : MonoBehaviour
     public List<Relic> Relics;
     public List<Status> Status;
     public List<FightParameters> FightParameters;
+    public Text ScaleT1;
     // Start is called before the first frame update
     private void OnEnable()
     {
@@ -424,8 +425,8 @@ public class D : MonoBehaviour
             ScaleM[x].SetActive(true);
         }
 
-
-        if (Attacking == 1)
+/*
+        if (a.Atacante == true)
         {
             Skills[0].SetActive(true);
             Skills[1].SetActive(true);
@@ -441,7 +442,7 @@ public class D : MonoBehaviour
             Blue[2].SetActive(false);
             Blue[3].SetActive(false);
         }
-        if (Attacking == 0)
+        if (a.Atacante == false)
         {
             Skills[2].SetActive(true);
             Skills[3].SetActive(true);
@@ -458,6 +459,7 @@ public class D : MonoBehaviour
             Blue[1].SetActive(false);
 
         }
+*/
         Combat.ManaSpendA = 0;
         Combat.ManaSpendE = 0;
 
@@ -873,7 +875,7 @@ public class D : MonoBehaviour
     }
     public void Normalizator()
     {
-        Debug.Log("standar");
+
 
        anime[0].Play("standar1");
         anime[1].Play("standar2");

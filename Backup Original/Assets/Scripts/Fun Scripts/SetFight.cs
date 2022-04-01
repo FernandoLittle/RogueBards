@@ -56,7 +56,9 @@ public class SetFight : MonoBehaviour
                 CardData(D.FightParameters[id].IdChara[x], x);
             }
         }
-
+        A.ActiveBlue(4, true);
+        A.ActiveBlue(5, true);
+        A.ActiveBlue(6, true);
 
 
 

@@ -27,7 +27,7 @@ public class RelicItem : MonoBehaviour
     }
     public void EyeDesEnable()
     {
-        Debug.Log("COEEEEEEEEEEEEEEE");
+
         ActiveEyeIcons(true, true, true, true);
         A.ilx.SetActive(false);
        

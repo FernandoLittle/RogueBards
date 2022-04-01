@@ -41,7 +41,7 @@ public class FantasyRivalsIA : MonoBehaviour
     }
     public void IA()
     {
-        if (D.Attacking == 0)
+        if (A.Atacante == false)
         {
             AttackS();
         }
@@ -286,7 +286,7 @@ public class FantasyRivalsIA : MonoBehaviour
                 SelectorMana += 1;
                 ManaUp();
             }
-            if(IdealAttackE==IdealAttackA && D.Attacking == 1)
+            if(IdealAttackE==IdealAttackA && A.Atacante == true)
             {
                 SelectorMana += 1;
                 ManaUp();

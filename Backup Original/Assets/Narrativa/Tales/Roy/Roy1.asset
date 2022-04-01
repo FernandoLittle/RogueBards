@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Roy1
+  m_EditorClassIdentifier: 
+  id: 1
+  Dialogue:
+  - '"<color=blue>Roy</color>, our next mission is in <color=purple>Denai</color>,
+    the village of the cannibals who killed the <color=blue></color>emperor"'
+  - '"<color=purple>Denai</color>... <color=yellow>Yuri</color>, you have inside
+    information and stuff like that, you know how the <color=red>emperor</color>
+    ended up in that village?"'
+  - "\u201CGood question, we have weird rumors about it, but the most reasonable
+    explanation I saw was that he was taking food to the village and the bastards
+    killed him.\u201D"
+  - '"<i>To</i>" and "<i>from</i>" are very beautiful words.'
+  - "\u201CThe emperor was not in the habit of distributing food personally, on the
+    contrary\u2026\u201D"
+  - "\u201C<color=blue>Roy</color>! Let's respect the honor of our former leader,
+    organize your troops, the day after tomorrow we'll leave, let's defeat those
+    regicidal cannibals!\u201D"
+  idchara: 0b000000060000000b00000000000000060000000b000000
+  instruction: 00000000000000000000000000000000000000000000000001000000

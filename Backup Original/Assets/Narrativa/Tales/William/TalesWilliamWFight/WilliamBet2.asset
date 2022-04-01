@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamBet2
+  m_EditorClassIdentifier: 
+  id: 11
+  Dialogue:
+  - The following week Captain Parovy was furious.
+  - "William, you\u2026."
+  - He took a deep breath and lowered his voice.
+  - Is it true that you refused a bribe from a betting house and arrested the attendant?
+  - Yes.
+  - Why the hell didn't you take the fucking bribe?
+  - Because that would be against the law.
+  - Parovy was having trouble controlling himself.
+  - William, is your salary good?
+  - ye...
+  - No! It is not. The salary of all warriors sucks because we risked our damn lives
+    and there's no money to pay for it.
+  - The betting houses are our extra income and there's no reason to refuse the damn
+    bribes. Nobody gains anything from it.
+  - Capta...
+  - Nobody!
+  - "Captain! It is not our duty to legislate, we just follow the\u2026"
+  - Silence! You've given me a huge amount of work these days, luckily I managed
+    to negotiate with the betting houses, they'll ignore the shit you did as long
+    as I release the guy you arrested and fire you.
+  - William wasn't going to beg for forgiveness, he just looked at him with contempt
+    in his eyes, hoping that would upset Parovy.
+  - It may not seem like it, William, but this is for your own good, otherwise the
+    betting houses would hire an assassin to kill you.
+  idchara: 
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

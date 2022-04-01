@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StaticPlayer : MonoBehaviour
 {
+    public static int Day;
     public static List<int> TrueAttack;
     public static List<int> FakeAttack;
     public static List<int> Block;
@@ -40,7 +41,11 @@ public class StaticPlayer : MonoBehaviour
         Defense= new int[6];
         PlayerMaxLife= new int[6];
         Attack= new int[6];
-        Debug.Log("Fuck");
+        //Temporário
+        TrueAttack.Add(20);
+        FakeAttack.Add(20);
+        Block.Add(20);
+        CounterAttack.Add(20);
 
     }
 

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamOrgans1
+  m_EditorClassIdentifier: 
+  id: 12
+  Dialogue:
+  - William, you really want to go on this mission, you're going to put doctors in
+    prison, that's dangerous.
+  - More dangerous than our daily work?
+  - Yes. Doctors are rich and the sale of organs is a crime protected by the assassins'
+    guild. That means the assassins will come to you.
+  - These doctors are enriching themselves with our colleagues' organs, you saw what
+    Kain said about the investigations, Marlov was held captive for months only to
+    be quartered and had his organs implanted into corrupt aristocrats.
+  - "Marlov was a friend of mine for years, every month we had dinner together. I
+    thank you for avenging him, William. But take care, every good warrior ends up
+    getting a bounty on his head. A big bounty means assassins chasing you and\u2026"
+  - And what?
+  - And you are a very good warrior, be careful.
+  - William's mission was very successful and three surgeons linked to organ trafficking
+    were arrested. But Parov's prediction was correct, an assassin came to cut off
+    William's head.
+  idchara: 
+  instruction: 000000000000000000000000000000000000000000000000000000000000000008000000

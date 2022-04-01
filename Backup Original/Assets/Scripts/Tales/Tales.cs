@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Tale", menuName = "Tale")]
 public class Tales : ScriptableObject
 {
+    public int id;
     [TextArea]
     public List <string> Dialogue;
     public List<int> idchara;

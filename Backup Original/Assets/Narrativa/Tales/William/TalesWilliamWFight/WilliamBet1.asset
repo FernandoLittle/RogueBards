@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamBet1
+  m_EditorClassIdentifier: 
+  id: 19
+  Dialogue:
+  - It was easy to recognize a betting house, even if it didn't have any signs, as
+    practically every establishment with no name and a curtain to prevent its interior
+    from being seen by outsiders was a betting house in Sarka.
+  - The attendant quickly realized that William was a warrior.
+  - You came early this month, here's the pay.
+  - William gave him a menacing look.
+  - Are you trying to bribe me? You will be arrested.
+  - Calm, calm, calm, you don't need so much hostility, I can increase the pay, so
+    everyone is happy, right?
+  - "Foi bom fazer neg\xF3cio com voc\xEA."
+  idchara: 
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000

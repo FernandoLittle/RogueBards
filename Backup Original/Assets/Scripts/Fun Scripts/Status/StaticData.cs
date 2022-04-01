@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StaticData : MonoBehaviour
 {
+    public int Day;
     public List<int> TrueAttack;
     public List<int> FakeAttack;
     public List<int> Block;
@@ -32,6 +33,7 @@ public class StaticData : MonoBehaviour
         PlayerMaxLife = new int[6];
         Attack = new int[6];
         Fight = StaticPlayer.Fight;
+        Day= StaticPlayer.Day;
         if (StaticPlayer.TrueAttack.Count > 0)
         {
             for (int x = 0; x < StaticPlayer.TrueAttack.Count; x = x + 1)

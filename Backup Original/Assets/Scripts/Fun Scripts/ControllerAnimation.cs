@@ -150,9 +150,9 @@ public class ControllerAnimation : MonoBehaviour
         {
             idchara = Generic.Buneco(F.y);
         }
-        Debug.Log("WIIII");
+
         A.BunecosAnimados[idchara].Play("Pain");
-        Debug.Log("ssaas");
+
 
     }
     public void NormalizeChara()

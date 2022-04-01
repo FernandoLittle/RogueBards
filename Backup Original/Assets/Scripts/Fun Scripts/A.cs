@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class A : MonoBehaviourPunCallbacks
@@ -128,10 +129,11 @@ public class A : MonoBehaviourPunCallbacks
     public List<GameObject> ZoneObject;
     public List<GameObject> CharaObject;
     public Skin Skin;
+    public GameObject GateGO;
     // Start is called before the first frame update
     void Start()
     {
-       
+
         if (StaticPlayer.Adventure == false)
         {
 
@@ -271,7 +273,7 @@ public class A : MonoBehaviourPunCallbacks
     [PunRPC]
     public void Attacking(bool minhapica)
     {
-
+        Debug.Log("NOOOO");
         if (minhapica == false)
         {
             test.text = "<color=red>Opponent's Turn</color>";
@@ -359,7 +361,7 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 4].SetActive(true);
 
                 LifeT[x + 4].text = zoneid[x + 3].Lyoko[0].ToString();
-                RelicSystem.AddRelic(x + 3, player1,x);
+                RelicSystem.AddRelic(x + 3, player1, x);
             }
         }
         else
@@ -394,7 +396,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[5].SetActive(true);
 
             LifeT[5].text = zoneid[4].Lyoko[0].ToString();
-            RelicSystem.AddRelic(4, player1,0);
+            RelicSystem.AddRelic(4, player1, 0);
         }
         if (decklist.deck[player2].card.Count > 1)
         {
@@ -425,7 +427,7 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 1].SetActive(true);
 
                 LifeT[x + 1].text = zoneid[x].Lyoko[0].ToString();
-                RelicSystem.AddRelic(x, player2,x);
+                RelicSystem.AddRelic(x, player2, x);
             }
             if (offline == false)
             {
@@ -460,7 +462,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[2].SetActive(true);
 
             LifeT[2].text = zoneid[1].Lyoko[0].ToString();
-            RelicSystem.AddRelic(1, player2,0);
+            RelicSystem.AddRelic(1, player2, 0);
             if (offline == false)
             {
                 GetAttacking1 = true;
@@ -497,7 +499,7 @@ public class A : MonoBehaviourPunCallbacks
 
     }
 
-   
+
 
     // Update is called once per frame
     void Update()
@@ -680,39 +682,55 @@ public class A : MonoBehaviourPunCallbacks
     public void TurnUp()
     {
         turn += 1;
-        END();
+
         StartofTurnEffects();
 
     }
     public void END()
     {
+        int ScoreAlly;
+        int ScoreEnemy;
         if (FinalTurn > 0)
         {
             if (turn > FinalTurn)
             {
-                if(Zone[1].Lyoko[0]+ Zone[2].Lyoko[0]+ Zone[3].Lyoko[0]> Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0])
+                ScoreAlly = Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0];
+                ScoreEnemy = Zone[1].Lyoko[0] + Zone[2].Lyoko[0] + Zone[3].Lyoko[0];
+                PlayerPrefs.SetInt("Batalha", 1);
+                if (ScoreAlly >= ScoreEnemy)
                 {
-                    Defeat();
+                    PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleVictory);
+                    PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeV);
                 }
                 else
                 {
-                    Victory();
+                    PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleDefeat);
+                    PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeD);
                 }
+                PlayerPrefs.SetInt("AllyLife", ScoreAlly);
+                PlayerPrefs.SetInt("EnemyLife", ScoreEnemy);
+                GateGO.SetActive(true);
+                /*
+                                if (Zone[1].Lyoko[0]+ Zone[2].Lyoko[0]+ Zone[3].Lyoko[0]> Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0])
+                                {
+                                    Defeat();
+                                }
+                                else
+                                {
+                                    Victory();
+                                }
+                */
             }
         }
     }
     public void Victory()
     {
-        ProtoVictory.SetActive(true);
-    }
-    public void Defeat()
-    {
-        ProtoDefeat.SetActive(true);
+        SceneManager.LoadScene("Result");
     }
     public void StartofTurnEffects()
     {
 
-
+        Debug.Log("Start");
         if (Atacante == true)
         {
 
@@ -724,12 +742,8 @@ public class A : MonoBehaviourPunCallbacks
             Attacking(true);
 
         }
-        if (turn == 8)
-        {
-            Recall();
 
-        }
-        Poison();
+
     }
     //Effects Start of Game
     public void StartofGameEffects()
@@ -789,18 +803,7 @@ public class A : MonoBehaviourPunCallbacks
     public void StartOfRoundEffects()
     {
 
-        //Anivia Passive
-        /*if (Zone[k].Code[10] == true)
-                {
-                    Zone[k].Lyoko[0] = Zone[k].Lyoko2[0];
-                    Zone[k].Lyoko[1] = Zone[k].Lyoko2[1];
-                    Zone[k].Lyoko[2] = Zone[k].Lyoko2[2];
-                    Zone[k].mov = 2;
-                    Zone[k].act = 2;
-                    ZoneIm[k].sprite = Anivia;
-                }*/
 
-        VladAttack();
 
 
     }
@@ -820,19 +823,6 @@ public class A : MonoBehaviourPunCallbacks
         I[1].id *= -1;
         //....
 
-        for (int x = 4; x < 7; x = x + 1)
-        {
-            if (Zone[x].idcard1 <= 0)
-            {
-                ZoneButton[x].enabled = false;
-                EnablerEye[x].raycastTarget = true;
-            }
-            else
-            {
-                ZoneButton[x].enabled = true;
-                EnablerEye[x].raycastTarget = false;
-            }
-        }
 
 
     }
@@ -864,46 +854,13 @@ public class A : MonoBehaviourPunCallbacks
         DisableO.SetActive(x);
 
     }
-    public void VladAttack()
+    public void ActiveBlue(int idzo, bool active)
     {
-        if (Zone[k].Counter[2] > 0 && Zone[k].Lyoko[0] > 0)
+        if (Zone[idzo].idcard1 != 0)
         {
-            for (int w = 1; w < Zone.Count; w = w + 1)
-            {
-                if (Zone[w].idcard1 * Zone[k].idcard1 < 0)
-                {
-                    for (int w1 = 0; w1 < Zone[k].idzone0.Count; w1 = w1 + 1)
-                    {
-                        if (Zone[k].idzone0[w1] == Zone[w].idzone1)
-                        {
-                            Zone[w].Lyoko[0] -= Zone[k].Counter[2];
-                            Zone[k].Lyoko[0] += Zone[k].Counter[2];
-
-                            SetEffectValue(2, w, Zone[k].Counter[2]);
-                            SetEffectValue(3, k, Zone[k].Counter[2]);
-                            if (Zone[k].Lyoko[0] > Zone[k].Lyoko1[0] + Zone[k].Lyoko2[0])
-                            {
-                                Zone[k].Lyoko[0] = Zone[k].Lyoko1[0] + Zone[k].Lyoko2[0];
-                            }
-                            Zone[w].Code[4] = true;
-                        }
-                    }
-                }
-            }
-
+            Blue[idzo].SetActive(active);
         }
-    }
-    public void Poison()
-    {
-        for (int x = 1; x < 11; x = x + 1)
-        {
-            if (Zone[x].Counter[5] > 0)
-            {
-                Zone[x].Lyoko[0] -= Zone[x].Counter[5];
-                SetEffectValue(10, x, Zone[x].Counter[5]);
-            }
 
-        }
     }
     public void Recall()
     {
@@ -943,7 +900,7 @@ public class A : MonoBehaviourPunCallbacks
         {
             Skills[x].SetActive(false);
         }
-        Debug.Log("Normal");
+
         Anime[1].Play("Normal1");
         Anime[2].Play("Normal2");
         Anime[3].Play("Normal3");
@@ -1020,7 +977,7 @@ public class A : MonoBehaviourPunCallbacks
     }
     public void AnimeFight(int idz)
     {
-        Debug.Log("C");
+
         Debug.Log(idz);
         if (idz == 1)
         {
@@ -1070,70 +1027,93 @@ public class A : MonoBehaviourPunCallbacks
     public void SetSentimento()
     {
 
-        if (Zone[F.y].Lyoko[0] < 7 && Zone[F.y].Mana / Zone[F.z].Mana / Zone[F.y].Mana >= 2)
+        if (F.y == 0 || F.z == 0)
         {
-            //Vida baixa, mana baixa = ódio
-            Zone[F.y].sentimento = 3;
-        }
-        else if (Zone[F.z].Lyoko[0] < Zone[F.y].Lyoko[1])
-        {
-            Zone[F.y].sentimento = 2;
-            //Vida oponente menor que ataque aliado = fúria
-        }
-        else if (Zone[F.y].Lyoko[0] < 7)
-        {
-            Zone[F.y].sentimento = 1;
-            //Vida alta = calma
-        }
-        else if (Zone[F.y].Lyoko[0] > 6)
-        {
-            Zone[F.y].sentimento = 0;
-            //Vida baixa = medo
-        }
-        if (0 > 1)
-        {
-            //Compaixão
-            Zone[F.y].sentimento = 4;
-          
-        }
+            Zone[2].sentimento = -1;
+            Zone[5].sentimento = -1;
 
-
-
-        if(Zone[F.z].Mana > 0)
-        {
-            if (Zone[F.z].Lyoko[0] < 7 && Zone[F.z].Mana / Zone[F.y].Mana / Zone[F.z].Mana >= 2)
-            {
-                //Vida baixa, mana baixa = ódio
-                Zone[F.z].sentimento = 3;
-            }
-
-            else if (Zone[F.y].Lyoko[0] < Zone[F.z].Lyoko[1])
-            {
-                Zone[F.z].sentimento = 2;
-                //Vida oponente menor que ataque aliado = fúria
-            }
-            else if (Zone[F.z].Lyoko[0] < 7)
-            {
-                Zone[F.z].sentimento = 1;
-                //Vida alta = calma
-            }
-            else if (Zone[F.z].Lyoko[0] > 6)
-            {
-                Zone[F.z].sentimento = 0;
-                //Vida baixa = medo
-            }
         }
         else
         {
-            Zone[F.z].sentimento = 0;
+
+            if (DD.Chara[Zone[F.y].idcard1].SentimentoType == 0)
+            {
+
+
+                if (Zone[F.y].Lyoko[0] < 7 && Zone[F.y].Mana - Zone[F.z].Mana < -4)
+                {
+                    //Vida baixa, mana baixa = ódio
+                    Zone[F.y].sentimento = 3;
+                }
+
+
+                else if (Zone[F.z].Lyoko[0] < Zone[F.y].Lyoko[1])
+                {
+                    Zone[F.y].sentimento = 2;
+                    //Vida oponente menor que ataque aliado = fúria
+                }
+                else if (Zone[F.y].Lyoko[0] < 7)
+                {
+                    Zone[F.y].sentimento = 1;
+                    //Vida baixa = medo
+                }
+                else if (Zone[F.y].Lyoko[0] >= 7)
+                {
+                    Zone[F.y].sentimento = 0;
+                    //Vida alta = calma
+                }
+                if (0 > 1)
+                {
+                    //Compaixão
+                    Zone[F.y].sentimento = 4;
+
+                }
+
+            }
+            if (DD.Chara[Zone[F.z].idcard1].SentimentoType == 0)
+            {
+
+                if (Zone[F.z].Lyoko[0] < 7 && Zone[F.z].Mana - Zone[F.y].Mana < -4)
+                {
+                    //Vida baixa, mana baixa = ódio
+                    Zone[F.z].sentimento = 3;
+                }
+
+                else if (Zone[F.y].Lyoko[0] < Zone[F.z].Lyoko[1])
+                {
+                    Zone[F.z].sentimento = 2;
+                    //Vida oponente menor que ataque aliado = fúria
+                }
+                else if (Zone[F.z].Lyoko[0] < 7)
+                {
+                    Zone[F.z].sentimento = 1;
+                    //Vida baixa = medo
+                }
+                else if (Zone[F.z].Lyoko[0] >= 7)
+                {
+                    Zone[F.z].sentimento = 0;
+                    //Vida alta = calma
+                }
+
+
+                if (0 > 1)
+                {
+                    //Compaixão
+                    Zone[F.y].sentimento = 4;
+
+                }
+            }
+            if (DD.Chara[Zone[F.y].idcard1].SentimentoType == 1)// Type1 = medroso
+            {
+                Zone[F.y].sentimento = 1;
+            }
+            if (DD.Chara[Zone[F.z].idcard1].SentimentoType == 1)
+            {
+                Zone[F.z].sentimento = 1;
+            }
         }
 
-        if (0 > 1)
-        {
-            //Compaixão
-            Zone[F.y].sentimento = 4;
-
-        }
 
     }
+
 }

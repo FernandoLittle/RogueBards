@@ -80,10 +80,10 @@ public class RelicSystem : MonoBehaviour
     {
         if (F.Zone[ally].sentimento==0)
         {
-            Debug.Log("to calmo");
+
             if (F.Zone[ally].ManaSpend < 4)
             {
-                Debug.Log("calminho");
+
                 RelicSentimento(ally);
             } 
         }

@@ -1330,7 +1330,7 @@ public class F : MonoBehaviour
 
     public void B()
     {
-        Debug.Log("Cu");
+
         i1.SetActive(true);
         i2.SetActive(true);
         if (k + 1 <= c1.Count)
@@ -1387,6 +1387,7 @@ public class F : MonoBehaviour
         }
         else
         {
+            Debug.Log("O_O");
             c1.Clear();
             c2.Clear();
             c3.Clear();

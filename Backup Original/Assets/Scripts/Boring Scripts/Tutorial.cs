@@ -34,7 +34,7 @@ public class Tutorial : MonoBehaviour
     public GameObject YesNo;
     public Tutorial Tbutton;
     public int ax;
-
+    public Animator Sentimento;
 
     // Start is called before the first frame update
     void Start()
@@ -110,6 +110,11 @@ public class Tutorial : MonoBehaviour
         {
             Life.Play("Spectral1");
         }
+        if (a == 21)
+        {
+            Sentimento.Play("Spectral2");
+        }
+
         if (a == 2)
         {
 

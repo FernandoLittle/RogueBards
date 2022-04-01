@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
+  m_Name: Canibal1
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: c39100a73c6f42845ab8dba3f6e16b14, type: 3}
+  sprite1: {fileID: 0}
+  id: 11
+  idPersonagem: 0
+  AtaqueForte: 03000000
+  "AtaqueR\xE1pido": 03000000
+  Bloqueio: 03000000
+  Esquiva: 03000000
+  Vida: 3
+  Ataque: 2
+  Defesa: 10
+  act: 0
+  mov: 0
+  Level: 1
+  Passive: I like corn
+  Passivebr: 
+  KeyordId: 
+  Relics: 
+  skin: 0600000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
+  SentimentoType: 0
