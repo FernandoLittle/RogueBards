@@ -89,10 +89,12 @@ public class B : MonoBehaviourPunCallbacks
     public List<int> Relics;
     public List <int> status;
     public List<Statos> statos;
+    public bool SentimentalBool;
+    public int SentimentalInt;
 
 
     //Calma 0 Medo 1 Fúria 2 Ódio 3 Compaixão 4
-   
+
 
 
 
@@ -447,12 +449,12 @@ public class B : MonoBehaviourPunCallbacks
         calm = "<color=blue>Calm</color>: Tends to expend a small amount of mana. \n Cause: The human has high life, it calms him down.";
         fear = "<color=purple>Fear</color>: Tends to use a lot of mana on defense and a small amount of mana on offense. \n Cause: The human has low life, it scares him.";
         rage= "<color=orange>Rage</color>: Tends to use a lot of mana on offense and a small amount of mana on defense. \n Cause: The opponent has high life, this causes the human to attack enraged.";
-        hate = "<color=red>Hate</color>: Tends to spend all of his mana.. \n Cause: The human sees no chance of victory, it makes him hate reality.";
+        hate = "<color=red>Hate</color>: Tends to spend all of his mana. \n Cause: The human sees no chance of victory, it makes him hate reality.";
         compassion = "<color=Pink>Compassion</color>: This is weird.";
-        calm1= "<color=blue>Calm</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana \n Cause: The human has high life, it calms him down."; ;
-        fear1= "<color=purple>Fear</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on defense or a small amount of mana on offense. \n Cause: The human has low life, it scares him."; ;
-        rage1 = "<color=orange>Rage</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on offense or a small amount of mana on defense. \n Cause: The opponent has high life, this causes the human to attack enraged.";
-        hate1 = "<color=red>Hate</color>: Your <color=blue>sentimental bonus</color> is activated when you spend all of his mana.. \n Cause: The human sees no chance of victory, it makes him hate reality."; ;
+        calm1= "<color=blue>Calm</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana (less than 5). \n Cause: The human has high life, it calms him down."; ;
+        fear1= "<color=purple>Fear</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on defense (more than 4) or a small amount of mana on offense (less than 5). \n Cause: The human has low life, it scares him."; ;
+        rage1 = "<color=orange>Rage</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on offense (more than 4) or a small amount of mana on defense (less than 5). \n Cause: The opponent has high life, this causes the human to attack enraged.";
+        hate1 = "<color=red>Hate</color>: Your <color=blue>sentimental bonus</color> is activated when you spend all of his mana. \n Cause: The human sees no chance of victory, it makes him hate reality."; ;
         compassion1 = "<color=Pink>Compassion</color>: You shouldn't be feeling this.";
 
         if (sentimento == -1)
@@ -625,7 +627,7 @@ public class B : MonoBehaviourPunCallbacks
                 }
             }
 
-
+            Debug.Log("Death");
             idcard1 = 0;
             idPersonagem = 0;
             Zonesprite0.sprite = nada;

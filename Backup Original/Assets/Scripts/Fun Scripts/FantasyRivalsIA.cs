@@ -284,11 +284,13 @@ public class FantasyRivalsIA : MonoBehaviour
             if (IdealAttackE < IdealAttackA)
             {
                 SelectorMana += 1;
+                Combat.ManaE -= 1;
                 ManaUp();
             }
             if(IdealAttackE==IdealAttackA && A.Atacante == true)
             {
                 SelectorMana += 1;
+                Combat.ManaE -= 1;
                 ManaUp();
             }
         }

@@ -13,11 +13,12 @@ public class Dialogues : MonoBehaviour
     public GameObject DialogueObject;
     public Tutorial Tutorial;
     public GameObject TutoIlustration;
+    public List<ListString> DarkText;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

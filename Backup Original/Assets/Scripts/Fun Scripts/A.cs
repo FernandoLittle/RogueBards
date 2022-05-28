@@ -130,6 +130,10 @@ public class A : MonoBehaviourPunCallbacks
     public List<GameObject> CharaObject;
     public Skin Skin;
     public GameObject GateGO;
+    public Interface Interface;
+    public bool X1Lixo;
+    public int SkillAttack;
+    public Combat Combat;
     // Start is called before the first frame update
     void Start()
     {
@@ -278,7 +282,11 @@ public class A : MonoBehaviourPunCallbacks
         {
             test.text = "<color=red>Opponent's Turn</color>";
             Atacante = false;
-            DisableO.SetActive(true);
+            if (X1Lixo == false)
+            {
+                 DisableO.SetActive(true);
+            }
+           
         }
         else
         {
@@ -286,6 +294,7 @@ public class A : MonoBehaviourPunCallbacks
             Atacante = true;
             DisableO.SetActive(false);
         }
+
         GetAttacking2 = true;
         GetAttacking();
 
@@ -681,47 +690,66 @@ public class A : MonoBehaviourPunCallbacks
     }
     public void TurnUp()
     {
+        Debug.Log("New Turn");
         turn += 1;
+
+
 
         StartofTurnEffects();
 
     }
-    public void END()
+    public void END1()
     {
         int ScoreAlly;
         int ScoreEnemy;
+        ScoreAlly = Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0];
+        ScoreEnemy = Zone[1].Lyoko[0] + Zone[2].Lyoko[0] + Zone[3].Lyoko[0];
+        PlayerPrefs.SetInt("Batalha", 1);
+        if (ScoreAlly >= ScoreEnemy)
+        {
+            PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleVictory);
+            PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeV);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleDefeat);
+            PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeD);
+        }
+        PlayerPrefs.SetInt("AllyLife", ScoreAlly);
+        PlayerPrefs.SetInt("EnemyLife", ScoreEnemy);
+        GateGO.SetActive(true);
+        Debug.Log("HIHIEHI");
+
+    }
+    public void END()
+    {
+        Debug.Log("OIO");
+        if (X1Lixo == true)
+        {
+            ActiveSkills();
+        }
+        Interface.SetStatos();
+
         if (FinalTurn > 0)
         {
             if (turn > FinalTurn)
             {
-                ScoreAlly = Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0];
-                ScoreEnemy = Zone[1].Lyoko[0] + Zone[2].Lyoko[0] + Zone[3].Lyoko[0];
-                PlayerPrefs.SetInt("Batalha", 1);
-                if (ScoreAlly >= ScoreEnemy)
+                END1();
+            }
+            else
+            {
+                Debug.Log("EIEIEIEIE");
+                Debug.Log(Zone[5].Lyoko[0]);
+                Debug.Log(Zone[2].Lyoko[0]);
+
+                if (Zone[5].Lyoko[0] < 0 || Zone[2].Lyoko[0] < 0)
                 {
-                    PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleVictory);
-                    PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeV);
+                    Debug.Log("HAHAE");
+                    END1();
                 }
-                else
-                {
-                    PlayerPrefs.SetInt("Tale", DD.FightParameters[StaticData.Fight].TaleDefeat);
-                    PlayerPrefs.SetInt("IdList", DD.FightParameters[StaticData.Fight].TaleTypeD);
-                }
-                PlayerPrefs.SetInt("AllyLife", ScoreAlly);
-                PlayerPrefs.SetInt("EnemyLife", ScoreEnemy);
-                GateGO.SetActive(true);
-                /*
-                                if (Zone[1].Lyoko[0]+ Zone[2].Lyoko[0]+ Zone[3].Lyoko[0]> Zone[4].Lyoko[0] + Zone[5].Lyoko[0] + Zone[6].Lyoko[0])
-                                {
-                                    Defeat();
-                                }
-                                else
-                                {
-                                    Victory();
-                                }
-                */
             }
         }
+       
     }
     public void Victory()
     {
@@ -742,6 +770,12 @@ public class A : MonoBehaviourPunCallbacks
             Attacking(true);
 
         }
+        Combat.ManaSpendA = 0;
+        Combat.ManaSpendE = 0;
+        Combat.Calculus();
+        Combat.FantasyRivalsIA.TotalManaA = Combat.ManaA;
+        Combat.FantasyRivalsIA.TotalManaE = Combat.ManaE;
+        Debug.Log("CoEVEADO");
 
 
     }
@@ -896,10 +930,14 @@ public class A : MonoBehaviourPunCallbacks
     public void Normalizator()
     {
         DD.Normalizator();
-        for (int x = 0; x < 8; x = x + 1)
+        if (X1Lixo == false)
         {
-            Skills[x].SetActive(false);
+            for (int x = 0; x < 8; x = x + 1)
+            {
+                Skills[x].SetActive(false);
+            }
         }
+
 
         Anime[1].Play("Normal1");
         Anime[2].Play("Normal2");
@@ -1036,7 +1074,7 @@ public class A : MonoBehaviourPunCallbacks
         else
         {
 
-            if (DD.Chara[Zone[F.y].idcard1].SentimentoType == 0)
+            if (DD.Chara[Generic.Module(Zone[F.y].idcard1)].SentimentoType == 0)
             {
 
 
@@ -1070,7 +1108,7 @@ public class A : MonoBehaviourPunCallbacks
                 }
 
             }
-            if (DD.Chara[Zone[F.z].idcard1].SentimentoType == 0)
+            if (DD.Chara[Generic.Module(Zone[F.y].idcard1)].SentimentoType == 0)
             {
 
                 if (Zone[F.z].Lyoko[0] < 7 && Zone[F.z].Mana - Zone[F.y].Mana < -4)
@@ -1103,17 +1141,53 @@ public class A : MonoBehaviourPunCallbacks
 
                 }
             }
-            if (DD.Chara[Zone[F.y].idcard1].SentimentoType == 1)// Type1 = medroso
+            if (DD.Chara[Generic.Module(Zone[F.y].idcard1)].SentimentoType == 1)// Type1 = medroso
             {
                 Zone[F.y].sentimento = 1;
             }
-            if (DD.Chara[Zone[F.z].idcard1].SentimentoType == 1)
+            if (DD.Chara[Generic.Module(Zone[F.y].idcard1)].SentimentoType == 1)
             {
                 Zone[F.z].sentimento = 1;
             }
         }
 
 
+    }
+    public void ActiveSkills()
+    {
+        Debug.Log("ActiveSkill");
+        if (SkillAttack%2==0)
+        {
+            Skills[0].SetActive(true);
+            Skills[1].SetActive(true);
+            Skills[6].SetActive(true);
+            Skills[7].SetActive(true);
+
+            Skills[2].SetActive(false);
+            Skills[3].SetActive(false);
+            Skills[4].SetActive(false);
+            Skills[5].SetActive(false);
+
+        }
+        if (SkillAttack % 2 == 1)
+        {
+            Skills[2].SetActive(true);
+            Skills[3].SetActive(true);
+            Skills[4].SetActive(true);
+            Skills[5].SetActive(true);
+
+
+            Skills[0].SetActive(false);
+            Skills[1].SetActive(false);
+            Skills[6].SetActive(false);
+            Skills[7].SetActive(false);
+        }
+        Blue[7].SetActive(true);
+        Blue[8].SetActive(true);
+        Blue[9].SetActive(true);
+        Blue[10].SetActive(true);
+        DisableO.SetActive(false);
+        SkillAttack += 1;
     }
 
 }

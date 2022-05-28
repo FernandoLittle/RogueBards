@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Roy
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 120552f0d57f571448f92ecd97d764a3, type: 3}
+  sprite: {fileID: 21300000, guid: 3f7824084517924428691434b96fd14e, type: 3}
   sprite1: {fileID: 0}
+  Name: Roy
   id: 27
   idPersonagem: 0
-  AtaqueForte: 03000000
-  "AtaqueR\xE1pido": 03000000
+  AtaqueForte: 18000000
+  "AtaqueR\xE1pido": 18000000
   Bloqueio: 03000000
   Esquiva: 03000000
-  Vida: 4
-  Ataque: 3
+  Vida: 30
+  Ataque: 12
   Defesa: 0
   act: 0
   mov: 0
-  Level: 2
+  Level: 17
   Passive: lex dura lex lupus
   Passivebr: 
   KeyordId: 

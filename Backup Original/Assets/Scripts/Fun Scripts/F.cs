@@ -93,6 +93,7 @@ public class F : MonoBehaviour
     public List<int> c11;
     //Alvo do Efeito
     public List<int> c12;
+    public List<int> AttackId;
 
     public D D;
     public int k;
@@ -131,6 +132,7 @@ public class F : MonoBehaviour
     public O o;
     public bool duelist;
     public int pact;
+    public Generic Generic;
 
 
 
@@ -153,7 +155,19 @@ public class F : MonoBehaviour
         for (int x = 0; x < 2; x = x + 1)
         {
             ExChange(x);
-            a.RelicSystem.BonusSentimento(y0,z0,x);
+            a.RelicSystem.BonusSentimento(y0, z0, x);
+
+
+            if (x30 == 1)//Shua Protects
+            {
+                if (Zone[y0].Lyoko[0] > 11)
+                {
+                    UpAttribute(3, 2, true);
+                }
+
+
+            }
+
             if (x40 == 15)//TeemoE
             {
                 if (Zone[y0].Code[11] == true)
@@ -206,20 +220,9 @@ public class F : MonoBehaviour
             {
 
 
-                Damage = 10 - Zone[z0].Lyoko[2];
-                if (Damage > 0)
+                if (Zone[y0].Lyoko[0] > 15)
                 {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
-                if ((b30 == 1 && b60 == 1) || (b40 == 1 && b50 == 1))
-                {
-                    Zone[y0].Lyoko[0] += 1;
-                    Zone[y0].Lyoko[1] += 1;
-                    Zone[y0].Lyoko[2] += 1;
-                    Zone[y0].Lyoko1[0] += 1;
-                    Zone[y0].Lyoko1[1] += 1;
-                    Zone[y0].Lyoko1[2] += 1;
+                    TrueDamage(10);
                 }
 
 
@@ -228,49 +231,18 @@ public class F : MonoBehaviour
             {
 
 
-                Zone[y0].Lyoko[0] += 2;
-
-                Damage = 2;
-                c6.Add(2);
-                target = 1;
-                X1();
-                /*c1.Add(Zone[y0].Lyoko[0]);
-                c2.Add(Zone[y0].Lyoko[1]);
-                c3.Add(Zone[y0].Lyoko[2]);
-                c4.Add(Zone[y0].mov);
-                c5.Add(Zone[y0].act);
-                c6.Add(2);
-                c7.Add(3);
-                c8.Add(2);
-                c9.Add(e0);
-                c10.Add(2);
-                c11.Add(1);
-                c12.Add(e0);
-                */
-
                 if (Win == 1)
                 {
-
-                    Damage = 7 - Zone[z0].Lyoko[2];
-                    if (Damage > 0)
+                    //Se jogador tiver sabedoria (status=1), golpe triplo, else: Golpe duplo.
+                    if (Generic.HaveInt(Zone[y0].status, 1))
                     {
-                        Zone[z0].Lyoko[0] -= Damage;
-                        Zone[z0].Code[4] = true;
+                        TripleAttack();
                     }
                     else
                     {
-                        Damage = 0;
+                        DoubleAttack();
                     }
-                    c1.Add(Zone[z0].Lyoko[0]);
-                    c2.Add(Zone[z0].Lyoko[1]);
-                    c3.Add(Zone[z0].Lyoko[2]);
-                    c5.Add(Zone[z0].Mana);
-                    c6.Add(1);
-                    c8.Add(2);
-                    c9.Add(e0);
-                    c10.Add(Damage);
-                    c11.Add(1);
-                    c12.Add(e0 * -1);
+
                 }
 
 
@@ -280,23 +252,20 @@ public class F : MonoBehaviour
 
 
 
-                if (Zone[y0].Lyoko[1] > Zone[z0].Lyoko[1])
+                if (Win == 1)
                 {
-                    x50 = 0;
-                    x60 = 0;
-                }
+                    //Se jogador tiver coragem (status=2), golpe duplo, else: Golpe.
+                    if (Generic.HaveInt(Zone[y0].status, 2))
+                    {
+                        DoubleAttack();
+                    }
+                    else
+                    {
+                        Attack();
+                    }
+                    //if 0 mana, mana+=4
+                    ForceofWill(4);
 
-
-
-
-
-
-
-                Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
                 }
 
 
@@ -305,21 +274,21 @@ public class F : MonoBehaviour
             if (x10 == 4)
             {
 
-                x70 = 0;
-
-
-
-
-                Zone[z0].Lyoko[2] = 0;
-
-
-
-
-                Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
-                if (Damage > 0)
+                //Liberar Maná
+                if (Win == 1)
                 {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
+                    if (Zone[y0].SentimentalBool == true && Generic.HaveInt(Zone[y0].status, 3))
+                    {
+                        TripleAttack();
+                    }
+                    else if (Zone[y0].SentimentalBool == true)
+                    {
+                        DoubleAttack();
+                    }
+                    else
+                    {
+                        Attack();
+                    }
                 }
 
 
@@ -621,76 +590,44 @@ public class F : MonoBehaviour
 
             if (x20 == 1)
             {
-
-
-                Zone[y0].Lyoko[0] -= 2;
-                Zone[y0].Code[4] = true;
-
-
+                //Shua Bless
+                Altruism(4);
                 if (Win == 1)
                 {
-                    {
-                        Damage = Zone[y0].Lyoko[1] * 2 - Zone[z0].Lyoko[2];
-                        if (Damage > 0)
-                        {
-                            Zone[z0].Lyoko[0] -= Damage;
-                            Zone[z0].Code[4] = true;
-
-                        }
-                        else
-                        {
-                            Damage = 0;
-                        }
-
-                    }
+                    UpLife(4);
                 }
-
 
             }
             if (x20 == 2)
             {
-                //Transforma em Nehant
+                AddStatus(2, 1);
+                if (Win == 1)
+                {
+                    UpAttribute(2, 1, true);
+                    Attack();
+
+                }
+
 
             }
             if (x20 == 3)
             {
-
-                Zone[y0].Lyoko[1] += 3;
-                Zone[y0].Lyoko1[1] += 3;
-                b20 = 0;
+                if (Win == 1)
+                {
+                    AddStatus(3, 1);
+                }
+                NormalDamage(4);
 
             }
 
             if (x20 == 4)
             {
 
-                Zone[y0].Lyoko[0] += 1;
-                Zone[y0].Lyoko[1] += 1;
-                Zone[y0].Lyoko[2] += 1;
-                Zone[y0].Lyoko1[0] += 1;
-                Zone[y0].Lyoko1[1] += 1;
-                Zone[y0].Lyoko1[2] += 1;
-                if (Zone[y0].Lyoko[0] < (Zone[y0].Lyoko2[0] + Zone[y0].Lyoko1[0]))
+                if (Win == 1)
                 {
-                    Zone[y0].Lyoko[0] += 3;
-                    if (Zone[y0].Lyoko[0] > (Zone[y0].Lyoko2[0] + Zone[y0].Lyoko1[0]))
-                    {
-                        Zone[y0].Lyoko[0] = Zone[y0].Lyoko2[0] + Zone[y0].Lyoko1[0];
-                    }
+                    AddStatus(3, 1);
                 }
-                //Move oponente
-
-
-
-
-                Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
-
-
+                UpAttribute(2, 1, true);
             }
             if (x20 == 5)
             {
@@ -832,7 +769,7 @@ public class F : MonoBehaviour
                 {
 
                     Attack();
-                    AddStatus(1,1);
+                    AddStatus(1, 1);
                 }
 
 
@@ -928,14 +865,16 @@ public class F : MonoBehaviour
             if (x20 == 24)//FioraAR
             {
 
-
                 if (Win == 1)
                 {
                     Attack();
                     Attack();
 
-
                 }
+
+
+
+
 
 
 
@@ -943,36 +882,43 @@ public class F : MonoBehaviour
 
 
             //Bloqueios Ally
+            if (x30 == 1)
+            {
+                if (Win == 1)
+                {
+                    Altruism(4);
+                }
+
+            }
             if (x30 == 2)
             {
 
-                Zone[y0].Lyoko1[2] += 3;
-                Zone[y0].Lyoko[2] += 3;
-                Damage = 3;
-                c6.Add(7);
-                target = 1;
-                X3();
+                if (Win == 1)
+                {
+                    AddStatus(1, 1);
+                    UpAttribute(2, 2,true);
+                }
+
 
             }
 
             if (x30 == 3)
             {
 
-                Zone[y0].Lyoko[2] += 3;
-                Zone[y0].Lyoko[1] -= 3;
-                c6.Add(7);
-                target = 1;
-                X3();
-                c6.Add(3);
-                target = 1;
-                X3();
-
-
+                if (Win == 1)
+                {
+                    AddStatus(2, 1);
+                }
+                ForceofWill(4);
             }
 
             if (x30 == 4)
             {
-
+                AddStatus(3, 1);
+                if (Win == 1)
+                {
+                    UpAttribute(2, 2, true);
+                }
 
             }
             if (x30 == 5)
@@ -1074,32 +1020,31 @@ public class F : MonoBehaviour
             if (x40 == 1)
             {
 
-
-                if (Win == 1)
+                if (Zone[z0].Lyoko[0] > 20)
                 {
-                    {
-                        // Invoca um boneco que morre no inicio do combate
-                    }
+                    NormalDamage(100);
                 }
+                TrueDamageAlly(3);
+                
+
 
             }
             if (x40 == 2)
             {
 
-                if (Win == 1)
+                if (Generic.HaveInt(Zone[y0].status, 1))
                 {
-                    {
-                        // Se move no fim do combate
-                    }
+                    TrueDamage(Zone[y0].Lyoko[2]);
                 }
 
             }
             if (x40 == 3)
             {
 
-                Zone[y0].Lyoko[0] += 2;
-                Zone[y0].Lyoko[1] += 2;
-                Zone[y0].Lyoko[2] += 2;
+                if (Generic.HaveInt(Zone[y0].status, 2))
+                {
+                    UpLife(Zone[y0].Lyoko[2]);
+                }
 
 
             }
@@ -1108,13 +1053,7 @@ public class F : MonoBehaviour
 
                 if (Win == 1)
                 {
-                    {
-                        Zone[z0].Lyoko[1] -= 4;
-                        if (Zone[z0].Lyoko[1] == 0)
-                        {
-                            Zone[z0].Lyoko[1] = 0;
-                        }
-                    }
+                    UpLife(Zone[y0].SentimentalInt * 4);
                 }
 
             }
@@ -1327,15 +1266,31 @@ public class F : MonoBehaviour
         }
         D.B();
     }
+    public void AnimeSkill()
+    {
 
+            a.ControllerAnimation.AnimationSkill(c9[k], AttackId[k]);
+        
+       
+    }
     public void B()
     {
+        Debug.Log("F");
 
         i1.SetActive(true);
         i2.SetActive(true);
         if (k + 1 <= c1.Count)
         {
-            Eye1.SetActive(true);
+
+
+
+
+            AnimeSkill();
+
+
+
+
+            //Eye1.SetActive(true);
             if (c11[k] == 1)
             {
                 Eye.sprite = D.AttackS[c8[k]].sprite;
@@ -1369,8 +1324,8 @@ public class F : MonoBehaviour
 
             }
             if (c9[k] == 1)
-            {
-                anime[c6[k]].SetActive(true);
+            {              
+               anime[c6[k]].SetActive(true);
                 if (c10[k] > 0)
                 {
                     Value[c6[k]].text = c10[k].ToString();
@@ -1539,6 +1494,12 @@ public class F : MonoBehaviour
     }
     public void G()
     {
+        if (a.X1Lixo == true)
+        {
+            y = 5;
+            z = 2;
+        }
+
         D.p1 = y;
         D.p2 = z;
     }
@@ -1611,6 +1572,7 @@ public class F : MonoBehaviour
             Zone[z0].Code[4] = true;
 
             c6.Add(1);
+            AttackId.Add(1);
             target = -1;
             X();
             DrainLife();
@@ -1618,6 +1580,53 @@ public class F : MonoBehaviour
         else
         {
             Damage = 0;
+        }
+
+    }
+    public void DoubleAttack()
+    {
+        Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
+        for (int x = 0; x < 2; x = x + 1)
+        {
+            if (Damage > 0)
+            {
+                Zone[z0].Lyoko[0] -= Damage;
+                Zone[z0].Code[4] = true;
+
+                c6.Add(1);
+                AttackId.Add(1);
+                target = -1;
+                X();
+                DrainLife();
+            }
+            else
+            {
+                Damage = 0;
+            }
+        }
+
+
+    }
+    public void TripleAttack()
+    {
+        Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
+        for (int x = 0; x < 3; x = x + 1)
+        {
+            if (Damage > 0)
+            {
+                Zone[z0].Lyoko[0] -= Damage;
+                Zone[z0].Code[4] = true;
+
+                c6.Add(1);
+                AttackId.Add(1);
+                target = -1;
+                X();
+                DrainLife();
+            }
+            else
+            {
+                Damage = 0;
+            }
         }
 
     }
@@ -1631,6 +1640,7 @@ public class F : MonoBehaviour
             Zone[z0].Code[4] = true;
 
             c6.Add(1);
+            AttackId.Add(2);
             target = -1;
             X1();
             DrainLife();
@@ -1652,6 +1662,7 @@ public class F : MonoBehaviour
                 Zone[y0].Lyoko[0] = Zone[y0].Lyoko1[0] + Zone[y0].Lyoko2[0];
             }
             c6.Add(6);
+            AttackId.Add(2);
             target = 1;
             X();
         }
@@ -1666,6 +1677,7 @@ public class F : MonoBehaviour
             Zone[z0].Code[4] = true;
 
             c6.Add(1);
+            AttackId.Add(2);
             target = -1;
             X();
             DrainLife();
@@ -1685,6 +1697,7 @@ public class F : MonoBehaviour
             Zone[y0].Code[4] = true;
 
             c6.Add(11);
+            AttackId.Add(3);
             target = 1;
             X();
         }
@@ -1704,6 +1717,7 @@ public class F : MonoBehaviour
             Zone[z0].Code[4] = true;
 
             c6.Add(1);
+            AttackId.Add(5);
             target = -1;
             X();
             DrainLife();
@@ -1716,7 +1730,7 @@ public class F : MonoBehaviour
     public void AddStatus(int IdStatus, int targ)
     {
         int indexo = 0;
-        
+
         Damage = 0;
         if (Zone[y0].status[0] == 0)
         {
@@ -1738,7 +1752,7 @@ public class F : MonoBehaviour
         if (target == 1)
         {
             Zone[y0].status[indexo] = IdStatus;
-            Zone[y0].statos[indexo].id= IdStatus;
+            Zone[y0].statos[indexo].id = IdStatus;
             Zone[y0].statos[indexo].self.sprite = D.Status[IdStatus].Icon;
             Zone[y0].statos[indexo].selfG.SetActive(true);
         }
@@ -1750,7 +1764,7 @@ public class F : MonoBehaviour
             Zone[z0].statos[indexo].selfG.SetActive(true);
         }
     }
- 
+
     public void UpAttribute(int a, int attribute, bool permanent)
     {
         Damage = a;
@@ -1764,14 +1778,17 @@ public class F : MonoBehaviour
             if (attribute == 0)
             {
                 c6.Add(6);
+                AttackId.Add(3);
             }
             if (attribute == 1)
             {
                 c6.Add(8);
+                AttackId.Add(3);
             }
             if (attribute == 2)
             {
                 c6.Add(7);
+                AttackId.Add(3);
             }
 
             target = 1;
@@ -1782,7 +1799,35 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void Altruism(int a)
+    {
+        Damage = a;
 
+        Zone[z0].Lyoko[0] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = -1;
+        X();
+
+        Zone[y0].Lyoko[0] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = 1;
+        X();
+    }
+    public void UpLife(int a)
+    {
+        Damage = a;
+
+        Zone[y0].Lyoko[0] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = 1;
+        X();
+    }
     public void UpAttributeRelic(int a, int attribute, bool permanent, int idrelic)
     {
         Damage = a;
@@ -1796,14 +1841,17 @@ public class F : MonoBehaviour
             if (attribute == 0)
             {
                 c6.Add(6);
+                AttackId.Add(3);
             }
             if (attribute == 1)
             {
                 c6.Add(8);
+                AttackId.Add(3);
             }
             if (attribute == 2)
             {
                 c6.Add(7);
+                AttackId.Add(3);
             }
 
             target = 1;
@@ -1832,14 +1880,17 @@ public class F : MonoBehaviour
             if (attribute == 0)
             {
                 c6.Add(1);
+                AttackId.Add(4);
             }
             if (attribute == 1)
             {
                 c6.Add(3);
+                AttackId.Add(4);
             }
             if (attribute == 2)
             {
                 c6.Add(2);
+                AttackId.Add(4);
             }
 
             target = -1;
@@ -1863,6 +1914,7 @@ public class F : MonoBehaviour
 
 
             c6.Add(5);
+            AttackId.Add(4);
 
 
             target = -1;
@@ -1873,13 +1925,30 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void ForceofWill(int a)
+    {
+        Damage = a;
+        //if mana = 0 + a mana
+        if (Zone[y0].Mana <= 0)
+        {
+            Zone[y0].Mana += Damage;
 
+
+            c6.Add(5);
+            AttackId.Add(3);
+
+
+            target = 1;
+            X();
+        }
+
+    }
     public void DuelistF(int a)
     {
         duelist = true;
         for (int x = 0; x < Zone[a].idzone0.Count; x = x + 1)
         {
-            if (Zone[Zone[a].idzone0[x]].idcard1*Zone[a].idcard1 > 0)
+            if (Zone[Zone[a].idzone0[x]].idcard1 * Zone[a].idcard1 > 0)
             {
                 duelist = false;
             }
@@ -1891,7 +1960,7 @@ public class F : MonoBehaviour
         pact = 0;
         for (int x = 1; x < 11; x = x + 1)
         {
-            if(Zone[x].Code[6]==true && Zone[x].idcard1 * Zone[a].idcard1 > 0)
+            if (Zone[x].Code[6] == true && Zone[x].idcard1 * Zone[a].idcard1 > 0)
             {
                 pact += 1;
             }
@@ -1918,7 +1987,7 @@ public class F : MonoBehaviour
     }
     public void XRelic(int a)
     {
-        if (target == 1) 
+        if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
             c2.Add(Zone[y0].Lyoko[1]);

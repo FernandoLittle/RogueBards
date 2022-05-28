@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "New Action", menuName = "Action")]
 public class Action : ScriptableObject
 {
+    public string Name;
     public Sprite sprite;
     public int id;
     [TextArea]

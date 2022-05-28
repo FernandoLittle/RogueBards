@@ -16,6 +16,7 @@ public class SetFight : MonoBehaviour
     public List<Image> Chara5;
     public List<Image> Chara6;
     public Skin Skin;
+    public Interface Interface;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +57,10 @@ public class SetFight : MonoBehaviour
                 CardData(D.FightParameters[id].IdChara[x], x);
             }
         }
+        SetDataChara();
+        
+
+
         A.ActiveBlue(4, true);
         A.ActiveBlue(5, true);
         A.ActiveBlue(6, true);
@@ -112,7 +117,49 @@ public class SetFight : MonoBehaviour
         {
             A.Zone[zone].side = -1;
         }
-        
+
+        if (zone == 5)
+        {
+            Interface.BarAllyLife.OldInt = A.Zone[5].Lyoko[0]*10;
+            Interface.BarAllyMana.OldInt = A.Zone[5].Mana*10;
+            Interface.LifeAllyT.text = "Life " + A.Zone[5].Lyoko[0].ToString();
+            Interface.AttackAllyT.text= A.Zone[5].Lyoko[1].ToString();
+            Interface.DefenseAllyT.text = A.Zone[5].Lyoko[2].ToString();
+            Interface.ManaAllyT.text = "Mana " + A.Zone[5].Mana.ToString();
+
+            Interface.BarAllyLife.Slider.value = A.Zone[5].Lyoko[0] * 10;
+            Interface.BarAllyMana.Slider.value = A.Zone[5].Mana * 10;
+
+
+
+            Interface.LifeAlly = A.Zone[5].Lyoko[0];
+            Interface.AttackAlly = A.Zone[5].Lyoko[1];
+            Interface.DefenseAlly = A.Zone[5].Lyoko[2];
+            Interface.ManaAlly = A.Zone[5].Mana;
+
+            Interface.SetStatosOld();
+        }
+        if (zone == 2)
+        {
+            Interface.BarEnemyLife.OldInt = A.Zone[2].Lyoko[0]*10;
+            Interface.BarEnemyMana.OldInt = A.Zone[2].Mana*10;
+            Interface.LifeEnemyT.text = "Life " + A.Zone[2].Lyoko[0].ToString();
+            Interface.AttackEnemyT.text = A.Zone[2].Lyoko[1].ToString();
+            Interface.DefenseEnemyT.text = A.Zone[2].Lyoko[2].ToString();
+            Interface.ManaEnemyT.text = "Mana " + A.Zone[2].Mana.ToString();
+
+
+            Interface.BarEnemyLife.Slider.value = A.Zone[2].Lyoko[0] * 10;
+            Interface.BarEnemyMana.Slider.value= A.Zone[2].Mana * 10;
+
+            Interface.LifeEnemy= A.Zone[2].Lyoko[0];
+            Interface.AttackEnemy = A.Zone[2].Lyoko[1];
+            Interface.DefenseEnemy = A.Zone[2].Lyoko[2];
+            Interface.ManaEnemy = A.Zone[2].Mana;
+
+            Interface.SetStatosOld();
+        }
+
 
     }
     public void SetSkin(int id, int zone)
@@ -220,5 +267,22 @@ public class SetFight : MonoBehaviour
             Chara6[13].sprite = Skin.Foot2[Stuff.Cards[id].skin[13]];
         }
     }
+    public void SetDataChara()
+    {
+        if (A.X1Lixo == true)
+        {
+            A.DD.SetInfo();
+            A.F.z = 2;
+            A.F.y = 5;
 
+            PlayerPrefs.SetInt("A1", A.Zone[2].idcard1);
+            PlayerPrefs.SetInt("A", A.Zone[5].idcard1);
+            if (A.X1Lixo == true)
+            {
+                A.ActiveSkills();
+            }
+        }
+
+
+    }
 }

@@ -12,6 +12,8 @@ public class ControllerAnimation : MonoBehaviour
     public List<Transform> CharaTransform;
     public List<StaticAnimation> Charas;
     public int x;
+    public int debuga;
+    public List <GameObject> Gambiarra; 
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +23,33 @@ public class ControllerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("a"))
+        {
+            Debug.Log("Anime");
+            Gambiarra[5].SetActive(false);
+            Gambiarra[5].SetActive(true);
+
+            A.BunecosAnimados[5].Play("DaggerAttack2");
+        }
+    }
+    public void AnimationSkill(int Ally, int TypeAttack)
+    {
+        if (Ally == 1)
+        {
+            idchara = Generic.Buneco(F.y);
+        }
+        else
+        {
+            idchara = Generic.Buneco(F.z);
+        }
+
+
         
+        AttackClass(idchara, TypeAttack);
     }
     public void AnimationAttack()
     {
-        if (F.AllyWin == 1)
+     /*  if (F.AllyWin == 1)
         {
             idchara = Generic.Buneco(F.y);
             //Futuro adiciona classes
@@ -77,7 +101,7 @@ public class ControllerAnimation : MonoBehaviour
 
 
         Debug.Log("Animação");
-
+     */
 
     }
     public void SetPosition(int chara)
@@ -102,11 +126,24 @@ public class ControllerAnimation : MonoBehaviour
             
         }
     }
+    public void teste()
+    {
+        Debug.Log("IIIIIIII");
+        A.BunecosAnimados[idchara].Play("DaggerAttack2");
+        Debug.Log(idchara);
+    }
     public void AttackClass(int id, int attack)
     {
+        Debug.Log("debug");
+        Debug.Log(debuga);
+        debuga += 1;
+
         if (Charas[id].Style == 1 && attack==1)
         {
-            A.BunecosAnimados[idchara].Play("DaggerAttack2");
+            Debug.Log("AAAAAAAAAAAAAA");
+            Gambiarra[5].SetActive(false);
+            Gambiarra[5].SetActive(true);
+            A.BunecosAnimados[id].Play("DaggerAttack2");
         }
         if (Charas[id].Style == 1 && attack == 2)
         {
@@ -120,6 +157,12 @@ public class ControllerAnimation : MonoBehaviour
         if (Charas[id].Style == 1 && attack == 4)
         {
             A.BunecosAnimados[idchara].Play("CounterAttack");
+        }
+        if (Charas[id].Style == 1 && attack == 5)
+        {
+            Debug.Log("EEEEEEEEEEEE");
+            Invoke("teste", 1);
+            //A.BunecosAnimados[idchara].Play("DaggerAttack1");
         }
     }
     public void BasicAttack()
@@ -138,20 +181,17 @@ public class ControllerAnimation : MonoBehaviour
         }
             
     }
-    public void Pain()
+    public void Pain(bool Ally)
     {
-        if (F.AllyWin == 1)
+        if (Ally == true)
         {
-
-            idchara = Generic.Buneco(F.z);
-            Debug.Log(idchara);
+            A.BunecosAnimados[2].Play("Pain");
         }
         else
         {
-            idchara = Generic.Buneco(F.y);
+            A.BunecosAnimados[5].Play("Pain");
         }
 
-        A.BunecosAnimados[idchara].Play("Pain");
 
 
     }

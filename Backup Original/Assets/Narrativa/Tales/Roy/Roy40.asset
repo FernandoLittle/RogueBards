@@ -17,5 +17,6 @@ MonoBehaviour:
   - (...)
   - <color=blue>Roy</color>  found a female cannibal.
   - She didn't look like a female.
-  idchara: 
+  idchara: 000000000000000000000000
   instruction: 00000000000000000000000003000000
+  Cenario: 1

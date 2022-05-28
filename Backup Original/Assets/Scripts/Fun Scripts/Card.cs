@@ -8,6 +8,7 @@ public class Card : ScriptableObject
 {
     public Sprite sprite;
     public Sprite sprite1;
+    public string Name;
     public int id;
     public int idPersonagem;
     public List<int> AtaqueForte;

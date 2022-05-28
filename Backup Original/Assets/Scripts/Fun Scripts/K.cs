@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class K : MonoBehaviour
 {
-    public List <GameObject> a;
+    public List<GameObject> a;
     public List<B> b;
     public A c;
     public int x;
@@ -40,17 +40,17 @@ public class K : MonoBehaviour
     public List<Text> ScaleT;
 
     // Start is called before the first frame update
-  
+
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void A()
     {
@@ -58,7 +58,7 @@ public class K : MonoBehaviour
         {
             b[x].anime.Play("Normal");
         }
-            a[0].SetActive(true);
+        a[0].SetActive(true);
         a[1].SetActive(true);
         a[2].SetActive(false);
         a[3].SetActive(false);
@@ -66,19 +66,38 @@ public class K : MonoBehaviour
     }
     public void B()
     {
-        
+
         if (f == 1)
         {
-            
+
             Round.A();
-            for (int x = 1; x < 11; x = x + 1)
+            if (c.X1Lixo == false)
             {
-                if (Zone[x].Lyoko[0] <= 0)
+
+
+                for (int x = 1; x < 11; x = x + 1)
                 {
-                    Zone[x].I();
+
+
+                    if (Zone[x].Lyoko[0] <= 0)
+                    {
+                        Zone[x].I();
+                    }
+
+
+
                 }
-
-
+            }
+            else
+            {
+                if (Zone[2].Lyoko[0] <= 0)
+                {
+                    Zone[2].I();
+                }
+                if (Zone[5].Lyoko[0] <= 0)
+                {
+                    Zone[5].I();
+                }
             }
         }
         if (e == 1)
@@ -97,11 +116,11 @@ public class K : MonoBehaviour
         }
 
 
-      
+
 
         a[0].SetActive(false);
         a[1].SetActive(false);
-       
+
     }
     public void C()
     {
@@ -114,7 +133,7 @@ public class K : MonoBehaviour
     public void D()
     {
 
-        
+
         a[0].SetActive(true);
         a[1].SetActive(true);
         a[2].SetActive(false);
@@ -130,7 +149,7 @@ public class K : MonoBehaviour
         }
         for (int x = 0; x < all.Count; x = x + 1)
         {
-           // all[x].SetActive(true);
+            // all[x].SetActive(true);
         }
         for (int x = 0; x < d.Count; x = x + 1)
         {
@@ -164,6 +183,7 @@ public class K : MonoBehaviour
     //Tutorial
     public void I()
     {
+        Debug.Log("XXXXXXXXXXXXXXXXXXXXXXXXX");
         //EndTurn
         for (int x = 4; x < 7; x = x + 1)
         {
@@ -182,11 +202,11 @@ public class K : MonoBehaviour
         c.END();
 
         o.A();
-   
+
     }
     public void Normalizator()
     {
-        
+
         c.Normalizator();
         Size[0].transform.localPosition = new Vector3(68.8f, 40.6f, 0);
         Size[1].transform.localPosition = new Vector3(151.2f, 40.6f, 0);
@@ -203,9 +223,9 @@ public class K : MonoBehaviour
             MoldI[x].color = new Color(1, 1, 1, 1);
 
             Size[x].sizeDelta = new Vector2(63.7f, 92.9f);
-          
+
             Size[x].transform.rotation = new Quaternion(0, 0, 0, 0);
-            Size[x].localScale = new Vector3(0.60428f, 0.60428f, 0.60428f); 
+            Size[x].localScale = new Vector3(0.60428f, 0.60428f, 0.60428f);
             SizeM[x].sizeDelta = new Vector2(63.7f, 92.9f);
             SizeM[x].localScale = new Vector3(1, 1.05f, 1);
         }
@@ -214,14 +234,14 @@ public class K : MonoBehaviour
             Rest[x].color = new Color(1, 1, 1, 1);
             ScaleT[x].color = new Color(1, 1, 1, 1);
         }
-        
+
 
     }
     public void NormalChara()
     {
-        
+
         c.ControllerAnimation.NormalizeChara();
-        
+
     }
 
 

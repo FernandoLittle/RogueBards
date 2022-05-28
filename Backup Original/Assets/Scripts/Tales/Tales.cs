@@ -10,6 +10,7 @@ public class Tales : ScriptableObject
     public List <string> Dialogue;
     public List<int> idchara;
     public List<int> instruction;
+    public int Cenario;
     // Start is called before the first frame update
 
 }

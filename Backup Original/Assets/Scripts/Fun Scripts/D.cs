@@ -463,22 +463,22 @@ public class D : MonoBehaviour
         Combat.ManaSpendA = 0;
         Combat.ManaSpendE = 0;
 
-       /* if (Tuto.tf == 1)
-        {
-            if (Tuto.ax == 0)
-            {
-                Tuto1.SetActive(true);
-                Tuto.C(1);
-                Tuto.ax += 1;
-            }
-            if (Tuto.ax == 2)
-            {
-                Tuto1.SetActive(true);
-                Tuto.C(5);
-            }
+        /* if (Tuto.tf == 1)
+         {
+             if (Tuto.ax == 0)
+             {
+                 Tuto1.SetActive(true);
+                 Tuto.C(1);
+                 Tuto.ax += 1;
+             }
+             if (Tuto.ax == 2)
+             {
+                 Tuto1.SetActive(true);
+                 Tuto.C(5);
+             }
 
-        }
-       */
+         }
+        */
 
 
 
@@ -487,6 +487,13 @@ public class D : MonoBehaviour
              Blue[x].SetActive(true);
          }
         */
+        if (a.X1Lixo == true)
+        {
+            PlayerPrefs.SetInt("A1", a.Zone[2].idcard1);
+            PlayerPrefs.SetInt("A", a.Zone[5].idcard1);
+        }
+
+
         Ally = PlayerPrefs.GetInt("A");
         Enemy = PlayerPrefs.GetInt("A1");
         if (Ally < 0)

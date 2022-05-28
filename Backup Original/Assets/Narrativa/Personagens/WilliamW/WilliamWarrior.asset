@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: WilliamWarrior
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 130ac2f1d0bcf224ebf08ff81330cc8a, type: 3}
   sprite1: {fileID: 0}
+  Name: William
   id: 28
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
+  AtaqueForte: 02000000
+  "AtaqueR\xE1pido": 02000000
+  Bloqueio: 02000000
+  Esquiva: 02000000
   Vida: 10
   Ataque: 4
   Defesa: 1

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
   m_Name: Tale1
   m_EditorClassIdentifier: 
+  id: 0
   Dialogue:
   - Disseram em Denai
   - "N\xE3o fale de Denai, Ebu."
@@ -19,3 +20,4 @@ MonoBehaviour:
     Denai,Denai, Denai,
   idchara: 000000000000000000000000
   instruction: 00000000ffffffff00000000
+  Cenario: 0

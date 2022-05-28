@@ -46,7 +46,7 @@ public class O : MonoBehaviour
 
         //a*=-1;
         //if (a == 1)
-        if (Q.a.Count == 0 && AA.offline==true)
+        if (Q.a.Count == 0 && AA.offline==true && AA.X1Lixo==false)
         {
             Debug.Log("IA2");
             Debug.Log(NexusE.id * NexusE.side);

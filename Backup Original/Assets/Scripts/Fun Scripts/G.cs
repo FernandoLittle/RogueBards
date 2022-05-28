@@ -366,7 +366,7 @@ public class G : MonoBehaviour
         if (action.KeywordId.Count == 1)
         {
             d.KeywordTransform[0].localPosition = new Vector3(0.5f, -50, 0);
-            d.TextTransform.localPosition= new Vector3(3, -96, 0);
+            d.TextTransform.localPosition = new Vector3(3, -96, 0);
             d.TextRTransform.sizeDelta = new Vector2(164, 58);
         }
         if (action.KeywordId.Count == 2)
@@ -422,7 +422,7 @@ public class G : MonoBehaviour
         SetDescription(action);
 
     }
-  public void SetDescription(Action action)
+    public void SetDescription(Action action)
     {
         d.Description.text = "";
         NoDuplicates[0] = false;
@@ -462,29 +462,25 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 6)
             {
-                d.Description.text += "<color=#00C8FF>Global Frozen</color>: Reduces the mana of all opponents.\n";
-                d.KeywordsT[x].text = "<color=#00C8FF>Global Frozen</color> ";
+
 
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 7)
             {
-                d.Description.text += "<color=#00FF00>Attack Buff</color>: Increases your hero's attack, until the end of the turn.\n";
-                d.KeywordsT[x].text = "<color=#00FF00>Attack Buff</color> ";
+
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 8)
             {
-                d.Description.text += "<color=#7300FF>Attack Debuff</color>: Reduces the opponent's attack, until the end of the turn.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Attack Debuff</color> ";
+
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 9)
             {
-                d.Description.text += "<color=#00FF00>Defense Buff</color>: Increases your hero's defense, until the end of the turn.\n";
-                d.KeywordsT[x].text = "<color=#00FF00>Defense Buff</color> ";
+
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 10)
             {
-                d.Description.text += "<color=#7300FF>Defense Debuff</color>: Reduces the opponent's defense, until the end of the turn.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Defense Debuff</color> ";
+                d.Description.text += "<color=#7300FF>Defense -</color>: Reduces the opponent's defense, until the end of the turn.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Defense -</color> ";
 
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 11)
@@ -557,29 +553,64 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 23)
             {
-                d.Description.text += "<color=#00FF00>Attack Upgrade</color>: Permanently increases your hero's attack.\n";
-                d.KeywordsT[x].text = "<color=#00FF00>Attack Upgrade</color> ";
+                d.Description.text += "<color=#00FF00>Attack + </color>: Increases your hero's attack.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Attack + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 24)
             {
-                d.Description.text += "<color=#00FF00>Defense Upgrade</color>: Permanently increases your hero's defense.\n";
-                d.KeywordsT[x].text = "<color=#00FF00>Defense Upgrade</color> ";
+                d.Description.text += "<color=#00FF00>Defense + </color>: Increases your hero's defense.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Defense + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 25)
             {
-                d.Description.text += "<color=#7300FF>Attack Downgrade</color>: Permanently reduces the opponent's attack.\n";
+                d.Description.text += "<color=#7300FF>Attack Downgrade</color>: Reduces the opponent's attack.\n";
                 d.KeywordsT[x].text = "<color=#7300FF>Attack Downgrade</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 26)
             {
-                d.Description.text += "<color=#7300FF>Defense Downgrade</color>: Permanently reduces the opponent's defense.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Defense Downgrade</color> ";
+                d.Description.text += "<color=#7300FF>Defense - </color>: Reduces the opponent's defense.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Defense - </color> ";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 27)
+            {
+                d.Description.text += "<color=#FF62B4>Altruism</color>: Both humans gain life.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Altruism</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 28)
+            {
+                d.Description.text += "<color=#FF62B4>Life + </color>: Gain life.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Life + </color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 29)
+            {
+                d.Description.text += "<color=#67B2FF>Wisdom</color>: Until the end of the battle, gain mana when your skill wins.\n";
+                d.KeywordsT[x].text = "<color=#67B2FF>Wisdom</color> ";
+            }
+
+
+            if (d.Generic.Desc(action.KeywordId[x]) == 30)
+            {
+                d.Description.text += "<color=#FF62B4>Bravery</color>: Until the end of the battle, gains 2 attack if the human has less mana than the opponent at the end of the turn.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Bravery</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 31)
+            {
+                d.Description.text += "<color=#00C2FF>Willpower</color>: Gains mana if you have 0 mana at end of turn.\n";
+                d.KeywordsT[x].text = "<color=#00C2FF>Willpower /color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 32)
+            {
+                d.Description.text += "<color=#FF009C>Passion</color>:  Until the end of the battle, gains 2 life whenever you activate the sentimental bonuses.\n";
+                d.KeywordsT[x].text = "<color=#FF009C>Passion/color> ";
+            }
+
+
+
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {
                 NoDuplicates[0] = true;
                 d.Description.text += "<color=#007CD9>Blue Keyword</color>: Activates when you have more power than your opponent <color=#007CD9>(Victory)</color>.\n";
-                d.KeywordColor[x].color= new Color32 (0,255,248,255);
+                d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
             }
             if (action.KeywordId[x] < 0 && NoDuplicates[1] == false)
             {
@@ -621,7 +652,14 @@ public class G : MonoBehaviour
             {
                 d.Description.text += "<color=#FAFF1E>Pact</color>: The effect is activated if the ally who made a pact with you is alive.\n";
             }
-
+            if (action.NotesId[x] == -5)
+            {
+                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your hero's attack twice.\n";
+            }
+            if (action.NotesId[x] == -6)
+            {
+                d.Description.text += "<color=#FF2900>Triple Strike</color>: Deals damage equal to your hero's attack three times.\n";
+            }
 
 
 

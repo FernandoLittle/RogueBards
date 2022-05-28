@@ -18,6 +18,7 @@ public class Generic : MonoBehaviour
     {
 
     }
+
     public int Desc(int a)
     {
         if (a < 0)
@@ -142,5 +143,25 @@ public class Generic : MonoBehaviour
             return 0;
         }
 
+    }
+    public bool HaveInt(List<int> listinha, int inteirinho)
+    {
+        bool result;
+        result = false;
+        for(int x = 0; x < listinha.Count; x = x + 1)
+        {
+            if (listinha[x] == inteirinho)
+            {
+                result=true;
+            }
+        }
+        if (result == true)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

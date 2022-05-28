@@ -78,13 +78,14 @@ public class RelicSystem : MonoBehaviour
     }
     public void BonusSentimento(int ally, int enemy, int attack)
     {
+        F.Zone[ally].SentimentalBool = false;
         if (F.Zone[ally].sentimento==0)
         {
 
-            if (F.Zone[ally].ManaSpend < 4)
+            if (F.Zone[ally].ManaSpend < 5)
             {
 
-                RelicSentimento(ally);
+                BonusSentimento1(ally);
             } 
         }
         if (F.Zone[ally].sentimento == 1)
@@ -93,19 +94,19 @@ public class RelicSystem : MonoBehaviour
             if (attack == 0)
             {
                 Debug.Log(F.Zone[ally].idzone1 + "atacando");
-                if (F.Zone[ally].ManaSpend < 4)
+                if (F.Zone[ally].ManaSpend < 5)
                 {
                     Debug.Log("medinho");
-                    RelicSentimento(ally);
+                    BonusSentimento1(ally);
                 }
             }
             if (attack == 1)
             {
                 Debug.Log(F.Zone[ally].idzone1 + "defendendo");
-                if (F.Zone[ally].ManaSpend > 6)
+                if (F.Zone[ally].ManaSpend > 4)
                 {
                     Debug.Log("Medinho");
-                    RelicSentimento(ally);
+                    BonusSentimento1(ally);
                 }
             }
         }
@@ -115,46 +116,52 @@ public class RelicSystem : MonoBehaviour
             if (attack == 0)
             {
                 Debug.Log(F.Zone[ally].idzone1 + "atacando");
-                if (F.Zone[ally].ManaSpend > 6)
+                if (F.Zone[ally].ManaSpend > 4)
                 {
                     Debug.Log("putao");
-                    RelicSentimento(ally);
+                    BonusSentimento1(ally);
                 }
             }
             if (attack == 1)
             {
                 Debug.Log(F.Zone[ally].idzone1 + "defendendo");
-                if (F.Zone[ally].ManaSpend < 4)
+                if (F.Zone[ally].ManaSpend < 5)
                 {
                     Debug.Log("putao");
-                    RelicSentimento(ally);
+                    BonusSentimento1(ally);
                 }
             }
         }
         if (F.Zone[ally].sentimento == 3)
         {
             Debug.Log("odio");
-            if (F.Zone[ally].ManaSpend > 6)
+            if (F.Zone[ally].Mana ==0)
             {
                 Debug.Log("Odiador");
-                RelicSentimento(ally);
+                BonusSentimento1(ally);
             }
         }
         if (F.Zone[ally].sentimento == 4)
         {
             if (F.Zone[ally].ManaSpend == 0 )
             {
-                RelicSentimento(ally);
+                BonusSentimento1(ally);
             }
         }
+    }
+    public void BonusSentimento1(int ally)
+    {
+        F.Zone[ally].SentimentalBool = true;
+        F.Zone[ally].SentimentalInt += 1;
+        RelicSentimento(ally);
     }
     public void RelicSentimento(int ally)
     {
         for (int x = 0; x < F.Zone[ally].Relics.Count; x = x + 1)
         {
-            if (F.Zone[ally].Relics[x]==1)//WillianSword
+            if (F.Zone[ally].Relics[x] == 1)//WillianSword
             {
-                F.UpAttributeRelic(1, 1, true,1);//Aumenta ataque em 1 permanentemente, idrelic==1
+                F.UpAttributeRelic(1, 1, true, 1);//Aumenta ataque em 1 permanentemente, idrelic==1
             }
         }
     }

@@ -28,5 +28,6 @@ MonoBehaviour:
   - "\u201C<color=blue>Roy</color>! Let's respect the honor of our former leader,
     organize your troops, the day after tomorrow we'll leave, let's defeat those
     regicidal cannibals!\u201D"
-  idchara: 0b000000060000000b00000000000000060000000b000000
+  idchara: 0d0000001b0000000d000000000000001b0000000d000000
   instruction: 00000000000000000000000000000000000000000000000001000000
+  Cenario: 1

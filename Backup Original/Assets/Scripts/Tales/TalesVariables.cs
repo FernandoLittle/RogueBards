@@ -27,6 +27,7 @@ public class TalesVariables : MonoBehaviour
     public List<int> FightL;
     public List<int> FightL1;
     public int IdList;
+    public IlusControler IlusControler;
     // Start is called before the first frame update
     public void Start()
     {
@@ -49,14 +50,17 @@ public class TalesVariables : MonoBehaviour
         Index = 0;
 
         TaleSelect = TaleS;
+        IlusControler.SetCenario(TaleSelect);
 
-        MasterAction();
+
+        MasterAction();        
         Index = 0;
     }
     public void ShowText()
     {
 
         TaleText.text = Tales[TaleSelect].Dialogue[Index];
+        IlusControler.SetFaceName(Tales[TaleSelect].idchara[Index]);
     }
     public void ShowButtons(int NumberOptions)
     {

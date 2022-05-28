@@ -12,20 +12,20 @@ public class Instructions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
     }
     public void TaleSwitch(int a)
     {
         switch (a)
         {
             case 0:
-           
+
                 TalesVariables.ShowText();
                 break;
 
@@ -71,7 +71,7 @@ public class Instructions : MonoBehaviour
                 SceneManager.LoadScene("Battle");
                 break;
             case 11:
-                StaticPlayer.Fight =11;
+                StaticPlayer.Fight = 11;
                 SceneManager.LoadScene("Battle");
                 break;
 
@@ -84,7 +84,7 @@ public class Instructions : MonoBehaviour
 
             //100 Set Tale
             case 101:
-                TalesVariables.SetTale(a-100);
+                TalesVariables.SetTale(a - 100);
                 break;
             case 102:
                 TalesVariables.SetTale(a - 100);
@@ -150,7 +150,7 @@ public class Instructions : MonoBehaviour
                 TalesVariables.ShowText();
                 break;
 
-        
+
             //500 Genecric
 
             case 500:
@@ -165,7 +165,7 @@ public class Instructions : MonoBehaviour
 
 
 
-    public void SetButton( int id1, int id2, int id3, int id4, int id5)
+    public void SetButton(int id1, int id2, int id3, int id4, int id5)
     {
         int NumberButtons;
         NumberButtons = 0;
@@ -208,16 +208,19 @@ public class Instructions : MonoBehaviour
     }
     public void RandomActions()
     {
-
+        int CountFightL1;
+        int RandomRemove;
         TalesVariables.FightL1.Clear();
         for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
         {
             TalesVariables.FightL1.Add(TalesVariables.FightL[x]);
         }
-
-        TalesVariables.FightL1.Sort();
-
-
+        CountFightL1 = TalesVariables.FightL1.Count - 3;
+        for (int x = 0; x < CountFightL1; x = x + 1)
+        {
+            RandomRemove = Random.Range(0, TalesVariables.FightL1.Count);
+            TalesVariables.FightL1.Remove(RandomRemove);
+        }
 
 
         for (int x = 0; x < 3; x = x + 1)
