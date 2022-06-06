@@ -40,7 +40,52 @@ public class Interface : MonoBehaviour
     public List<Text> ChangeAllyT;
     public List<Text> ChangeEnemyT;
     public bool SkipFirstTurn;
+    public int index;
+    public F F;
     // Start is called before the first frame update
+    public void SetStatosX()
+    {
+
+
+
+        DefenseAlly = F.DefenseAlly[index];
+        AttackAlly = F.AttackAlly[index];
+        LifeAlly = F.LifeAlly[index];
+        ManaAlly = F.ManaAlly[index];
+        DefenseEnemy = F.DefenseEnemy[index];
+        AttackEnemy = F.AttackEnemy[index];
+        LifeEnemy = F.LifeEnemy[index];
+        ManaEnemy = F.ManaEnemy[index];
+
+        index += 1;
+
+
+
+
+        BarAllyLife.NewInt = LifeAlly * 10;
+        BarAllyMana.NewInt = ManaAlly * 10;
+
+        BarEnemyLife.NewInt = LifeEnemy * 10;
+        BarEnemyMana.NewInt = ManaEnemy * 10;
+
+
+        BarAllyLife.Change = true;
+        BarAllyMana.Change = true;
+
+        BarEnemyLife.Change = true;
+        BarEnemyMana.Change = true;
+
+        DefenseAllyT.text = DefenseAlly.ToString();
+        AttackAllyT.text = AttackAlly.ToString();
+        LifeAllyT.text = "Life " + LifeAlly.ToString();
+        ManaAllyT.text = "Mana " + ManaAlly.ToString();
+        DefenseEnemyT.text = DefenseEnemy.ToString();
+        AttackEnemyT.text = AttackEnemy.ToString();
+        LifeEnemyT.text = "Life " + LifeEnemy.ToString();
+        ManaEnemyT.text = "Mana " + ManaEnemy.ToString();
+        ActiveChange();
+
+    }
     public void SetStatos()
     {
 
@@ -97,6 +142,7 @@ public class Interface : MonoBehaviour
             ActiveChange1(AttackEnemyOld, AttackEnemy, ChangeEnemyT[1], ChangeEnemyO[1]);
             ActiveChange1(DefenseEnemyOld, DefenseEnemy, ChangeEnemyT[2], ChangeEnemyO[2]);
             ActiveChange1(ManaEnemyOld, ManaEnemy, ChangeEnemyT[3], ChangeEnemyO[3]);
+            SetStatosOld();
 
 
     }

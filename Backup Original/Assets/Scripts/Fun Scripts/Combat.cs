@@ -461,7 +461,7 @@ public class Combat : MonoBehaviourPunCallbacks
     }
     public void Victory()
     {
-
+        A.Interface.SetStatos();
         if (Win == 0)
         {
             F.AllyWin = 1;

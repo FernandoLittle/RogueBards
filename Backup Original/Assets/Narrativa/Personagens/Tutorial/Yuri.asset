@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: bf4878fd455f0264ba52047b0a76329d, type: 3}
   sprite1: {fileID: 0}
-  Name: Yuri
+  Name: <color=yellow>Yuri</color>
   id: 27
   idPersonagem: 0
   AtaqueForte: 03000000

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: BardW3
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - William was thinking about death, normally he felt angry at the thought of it,
+    but at that moment he felt gratitude.
+  - He was grateful thanks to the bard who played beautiful music, death would one
+    day come and he would have wasted most of his life thinking about a future that
+    would never come.
+  - But in that brief moment he appreciated the present
+  - That song reminded him that he could breathe and that no matter how ephemeral
+    his life was, at least in an instant he was happy, because in that instant he
+    noticed everything he had.
+  - Hey bard, thanks for the song, let me buy you a drink.
+  - The pleasure of playing is mine.
+  - The pleasure of drinking too.
+  - The bard have a small laugh.
+  - What's your name, young man?
+  - Willian Ulbricht.
+  - "Ulbricht? I remember someone with that name\u2026 who was it? Old age is melting
+    my memory. Whatever, it shouldn't be someone important."
+  - And your name, do you remember?
+  - My name is a secret, but you can call me Bard.
+  - Why don't you tell me?
+  - I'm not going to tell my name to a warrior, imagine if you guys find out I work
+    with drug dealers and assassins? I have to stay discreet.
+  - Very funny. Aren't you afraid to say that to a warrior?
+  - The bard smiled kindly.
+  - No.
+  - Whatever, your music put me in a good mood. If you teach me how to play it, I'll
+    pretend I didn't hear that.
+  - It will be my pleasure to teach you, young man.
+  idchara: 
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
+  Cenario: 0

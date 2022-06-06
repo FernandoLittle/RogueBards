@@ -149,7 +149,11 @@ public class Instructions : MonoBehaviour
                 SetButton(1013, 1014, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
-
+            case 316:
+                SetButtonST("Play a religious song.", "Play a love song.", "Play a patriotic song.", "Play an instrumental song.", "");
+                SetButton(1301, 1302, 1303, 1304, 0);
+                TalesVariables.ShowText();
+                break;
 
             //500 Genecric
 
@@ -157,6 +161,7 @@ public class Instructions : MonoBehaviour
                 TalesVariables.Tales = TalesVariables.TalesAction;
                 TalesVariables.SetTale(0);
                 break;
+            
             case -1:
                 RandomActions();
                 break;

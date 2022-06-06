@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: BardW2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - What existed in Bel Mont? The bard asked this question several times in his song,
+    but never answered it. This made William curious.
+  - '"Hey bard, I''ll buy you a drink if you answer a question."'
+  - I will be happy to answer you, young man.
+  - What was in Bel Mont?
+  - The bard laughed.
+  - This is a very difficult question, my friend. What would motivate a man to fight
+    an invincible enemy?
+  - There are no invincible enemies.
+  - You're absolutely right, there's a legendary battle where peasants defeated an
+    entire army, even though they were incredibly outnumbered. The only strength
+    they had was a deep desire to protect their families and their land.
+  - You bards exaggerate everything, that's impossible.
+  - The bard smiled.
+  - You're absolutely right,
+  - But I liked this song, I'll learn to play it.
+  - The bard laughed.
+  - A warrior learning to play a song where the national army is the villain, this
+    is the first time I've seen it.
+  - The army is the villain? I didn't even notice..
+  - Great! We bards write our songs subtly so the warriors don't realize we're doing
+    propaganda against them.
+  - Aren't you afraid to say that in front of a warrior?
+  - The bard smiled kindly.
+  - No.
+  idchara: 
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
+  Cenario: 0

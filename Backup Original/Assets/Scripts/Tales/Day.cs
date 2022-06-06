@@ -10,13 +10,15 @@ public class Day : MonoBehaviour
     public void SelectDay()
     {
         day = StaticPlayer.Day;
+        //teste
+        day = 2;
         if (day == 1)
         {
            RandomIntro();
         }
         if (day == 2)
         {
-
+            RandomBard();
         }
         if (day == 3)
         {
@@ -58,6 +60,14 @@ public class Day : MonoBehaviour
         int caos;
         caos = Random.Range(0, 5);
         TalesVariables.Tales = TalesVariables.TalesIntro;
+        TalesVariables.SetTale(caos);
+        TalesVariables.Index += 1;
+    }
+    public void RandomBard()
+    {
+        int caos;
+        caos = Random.Range(0, 3);
+        TalesVariables.Tales = TalesVariables.TalesWilliamWBard1;
         TalesVariables.SetTale(caos);
         TalesVariables.Index += 1;
     }

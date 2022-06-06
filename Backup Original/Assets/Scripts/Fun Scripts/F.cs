@@ -16,6 +16,31 @@ public class F : MonoBehaviour
     //Inimigos próximos
     //public List <int> z1;
 
+
+    public List<int> LifeAlly;
+
+    public List<int> AttackAlly;
+
+    public List<int> DefenseAlly;
+
+    public List<int> ManaAlly;
+
+    public List<int> LifeEnemy;
+
+    public List<int> AttackEnemy;
+
+    public List<int> DefenseEnemy;
+
+    public List<int> ManaEnemy;
+
+
+
+
+
+
+
+
+
     //Id Efeito
     public int x1;
     public int x2;
@@ -195,6 +220,7 @@ public class F : MonoBehaviour
     public void A()
 
     {
+        
         if (o.NexusE.id * o.NexusE.side < 0)
         {
             Attacking = 1;
@@ -1355,9 +1381,37 @@ public class F : MonoBehaviour
             c11.Clear();
             c12.Clear();
 
+            ClearAttributes();
+
+
             k = 0;
             Dark.SetActive(true);
         }
+    }
+    public void ClearAttributes()
+    {
+        LifeAlly.Clear();
+        AttackAlly.Clear();
+        DefenseAlly.Clear();
+        ManaAlly.Clear();
+
+        LifeEnemy.Clear();
+        AttackEnemy.Clear();
+        DefenseEnemy.Clear();
+        ManaEnemy.Clear();
+
+
+    }
+    public void SetAttributes()
+    {
+        LifeAlly.Add(Zone[5].Lyoko[0]);
+        AttackAlly.Add(Zone[5].Lyoko[1]);
+        DefenseAlly.Add(Zone[5].Lyoko[2]);
+        ManaAlly.Add(Zone[5].Mana);
+        LifeEnemy.Add(Zone[2].Lyoko[0]);
+        AttackEnemy.Add(Zone[2].Lyoko[1]);
+        DefenseEnemy.Add(Zone[2].Lyoko[2]);
+        ManaEnemy.Add(Zone[2].Mana);
     }
     public void C()
     {
@@ -1382,6 +1436,7 @@ public class F : MonoBehaviour
     }
     public void X1()
     {
+        SetAttributes();
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -1408,6 +1463,7 @@ public class F : MonoBehaviour
     }
     public void X2()
     {
+        SetAttributes();
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -1434,6 +1490,7 @@ public class F : MonoBehaviour
     }
     public void X3()
     {
+        SetAttributes();
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -1460,6 +1517,7 @@ public class F : MonoBehaviour
     }
     public void X4()
     {
+        SetAttributes();
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -1987,6 +2045,7 @@ public class F : MonoBehaviour
     }
     public void XRelic(int a)
     {
+        SetAttributes();
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);

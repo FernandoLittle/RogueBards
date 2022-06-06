@@ -14,15 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - "\u201CYour name is <color=blue>Roy Ulbricht</color>, your duty is to keep the
-    peace, your duty is to protect the weak, your duty is to fight for the nation,
-    your duty is to make money.\u201D"
+  - Your name is <color=blue>Roy Ulbricht</color>, your duty is to keep the peace,
+    your duty is to protect the weak, your duty is to fight for the nation, your
+    duty is to make money.
   - Roy repeated these virtuous words to himself over and over to inspire him to
     get out of bed. He hadn't eaten well in weeks and as much as his body wanted
     to save energy, his soul wouldn't allow it.
-  - "One more time:\n\u201CYour name is <color=blue>Roy Ulbricht</color>, your duty
+  - 'One more time:
+
+    Your name is <color=blue>Roy Ulbricht</color>, your duty
     is to keep the peace, your duty is to protect the weak, your duty is to fight
-    for the nation, your duty is to make money.\u201D"
+    for the nation, your duty is to make money.'
   - After getting up, like every good citizen of <color=green>Sarka</color>, he went
     to work. But Roy was no ordinary man, he had the noblest of jobs, he was a soldier
     of the <color=red>Blue Guard</color>.

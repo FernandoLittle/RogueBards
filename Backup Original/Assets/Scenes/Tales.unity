@@ -5968,6 +5968,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b74359322947fe342866b05febfae547, type: 2}
   - {fileID: 11400000, guid: 511e8f3f323b58645b92485f70c22632, type: 2}
   - {fileID: 11400000, guid: 8cfe0f04e7459b84f86f3ba79c9d5145, type: 2}
+  TalesWilliamWBard1:
+  - {fileID: 11400000, guid: f5207e3524a6eae4ba92757182d27d38, type: 2}
+  - {fileID: 11400000, guid: 85d2cbc7394949049818e13f5d8d7839, type: 2}
+  - {fileID: 11400000, guid: 5a7815a6c4c102d43b65bb5bfcd33b50, type: 2}
+  TalesWilliamWBard2:
+  - {fileID: 11400000, guid: bbb2c27a08a27c646b56875675fe4f67, type: 2}
+  - {fileID: 11400000, guid: cfe01e95353127142846e057722a278c, type: 2}
+  - {fileID: 11400000, guid: 9e6c9ef6119792741ab875471fd389b6, type: 2}
   TalesAction:
   - {fileID: 11400000, guid: 88780d113e0ffec45beebc8ac696b2ca, type: 2}
   - {fileID: 11400000, guid: 6429cccf0ea6c4e45aa5a9cb2211e9c2, type: 2}

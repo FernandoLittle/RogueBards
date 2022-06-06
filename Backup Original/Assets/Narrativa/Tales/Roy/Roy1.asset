@@ -14,20 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   Dialogue:
-  - '"<color=blue>Roy</color>, our next mission is in <color=purple>Denai</color>,
-    the village of the cannibals who killed the <color=blue></color>emperor"'
-  - '"<color=purple>Denai</color>... <color=yellow>Yuri</color>, you have inside
-    information and stuff like that, you know how the <color=red>emperor</color>
-    ended up in that village?"'
-  - "\u201CGood question, we have weird rumors about it, but the most reasonable
-    explanation I saw was that he was taking food to the village and the bastards
-    killed him.\u201D"
+  - <color=blue>Roy</color>, our next mission is in <color=purple>Denai</color>,
+    the village of the cannibals who killed the <color=blue></color>emperor
+  - <color=purple>Denai</color>... <color=yellow>Yuri</color>, you have inside information
+    and stuff like that, you know how the <color=red>emperor</color> ended up in
+    that village?
+  - Good question, we have weird rumors about it, but the most reasonable explanation
+    I saw was that he was taking food to the village and the bastards killed him.
   - '"<i>To</i>" and "<i>from</i>" are very beautiful words.'
-  - "\u201CThe emperor was not in the habit of distributing food personally, on the
-    contrary\u2026\u201D"
-  - "\u201C<color=blue>Roy</color>! Let's respect the honor of our former leader,
-    organize your troops, the day after tomorrow we'll leave, let's defeat those
-    regicidal cannibals!\u201D"
+  - This is strange, the <color=red>emperor</color> was not the kind of person who...
+  - <color=blue>Roy</color>! Let's respect the honor of our former leader, organize
+    your troops, the day after tomorrow we'll leave, let's defeat those regicidal
+    cannibals!
   idchara: 0d0000001b0000000d000000000000001b0000000d000000
   instruction: 00000000000000000000000000000000000000000000000001000000
   Cenario: 1

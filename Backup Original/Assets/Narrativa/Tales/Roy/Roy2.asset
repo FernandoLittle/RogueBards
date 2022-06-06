@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   Dialogue:
-  - '"It''s cold, very cold... I thought killing the emperor would ease my suffering,
-    but... end it soldier, I want to warm myself in the fires of hell."'
-  - '"I''ll see you there, <color=cyan>Kingslayer</color>." '
-  - "\"<color=cyan>Kingslayer</color>\u2026 yes, thanks for reminding me.\""
+  - It's cold, very cold... I thought killing the emperor would ease my suffering,
+    but... end it soldier, I want to warm myself in the fires of hell.
+  - I'll see you there, <color=cyan>Kingslayer</color>.
+  - "<color=cyan>Kingslayer</color>\u2026 yes, thanks for reminding me."
   - The clear blood of the cannibal heralded  <color=red>Roy</color>'s glorious victory,
     in time he would grow accustomed to success in his challenging battles.
   idchara: 0b0000000b0000000b000000

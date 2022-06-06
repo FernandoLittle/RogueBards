@@ -28,6 +28,10 @@ public class StaticAnimation : MonoBehaviour
     {
         ControllerAnimation.BasicAttack();
     }
+    public void E()
+    {
+        ControllerAnimation.ChangeBar();
+    }
     public void CallF()
     {
         F.C();

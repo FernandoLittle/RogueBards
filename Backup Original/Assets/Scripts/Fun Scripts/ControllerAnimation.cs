@@ -12,7 +12,7 @@ public class ControllerAnimation : MonoBehaviour
     public List<Transform> CharaTransform;
     public List<StaticAnimation> Charas;
     public int x;
-    public int debuga;
+
     public List <GameObject> Gambiarra; 
     // Start is called before the first frame update
     void Start()
@@ -23,14 +23,11 @@ public class ControllerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("a"))
-        {
-            Debug.Log("Anime");
-            Gambiarra[5].SetActive(false);
-            Gambiarra[5].SetActive(true);
 
-            A.BunecosAnimados[5].Play("DaggerAttack2");
-        }
+    }
+    public void ChangeBar()
+    {
+        A.Interface.SetStatosX();
     }
     public void AnimationSkill(int Ally, int TypeAttack)
     {
@@ -49,59 +46,6 @@ public class ControllerAnimation : MonoBehaviour
     }
     public void AnimationAttack()
     {
-     /*  if (F.AllyWin == 1)
-        {
-            idchara = Generic.Buneco(F.y);
-            //Futuro adiciona classes
-            if (Combat.SkillIDA == 1)
-            {
-
-                AttackClass(idchara, 1);
-            }
-            if (Combat.SkillIDA == 2)
-            {
-
-                AttackClass(idchara, 2);
-            }
-            if (Combat.SkillIDA == 3)
-            {
-
-                AttackClass(idchara, 3);
-            }
-            if (Combat.SkillIDA == 4)
-            {
-
-                AttackClass(idchara, 4);
-            }
-        }
-        else
-        {
-            idchara = Generic.Buneco(F.z);
-            if (Combat.SkillIDE == 1)
-            {
-
-                AttackClass(idchara, 1);
-            }
-            if (Combat.SkillIDE == 2)
-            {
-
-                AttackClass(idchara, 2);
-            }
-            if (Combat.SkillIDE == 3)
-            {
-
-                AttackClass(idchara, 3);
-            }
-            if (Combat.SkillIDE == 4)
-            {
-
-                AttackClass(idchara, 4);
-            }
-        }
-
-
-        Debug.Log("Animação");
-     */
 
     }
     public void SetPosition(int chara)
@@ -128,41 +72,38 @@ public class ControllerAnimation : MonoBehaviour
     }
     public void teste()
     {
-        Debug.Log("IIIIIIII");
-        A.BunecosAnimados[idchara].Play("DaggerAttack2");
-        Debug.Log(idchara);
+
     }
     public void AttackClass(int id, int attack)
     {
-        Debug.Log("debug");
-        Debug.Log(debuga);
-        debuga += 1;
+
+
 
         if (Charas[id].Style == 1 && attack==1)
         {
             Debug.Log("AAAAAAAAAAAAAA");
-            Gambiarra[5].SetActive(false);
-            Gambiarra[5].SetActive(true);
+            Gambiarrismo(id);
             A.BunecosAnimados[id].Play("DaggerAttack2");
         }
         if (Charas[id].Style == 1 && attack == 2)
         {
-
+            Gambiarrismo(id);
             A.BunecosAnimados[idchara].Play("SuperAttack");
         }
         if (Charas[id].Style == 1 && attack == 3)
         {
+            Gambiarrismo(id);
             A.BunecosAnimados[idchara].Play("BlockAnim");
         }
         if (Charas[id].Style == 1 && attack == 4)
         {
+            Gambiarrismo(id);
             A.BunecosAnimados[idchara].Play("CounterAttack");
         }
         if (Charas[id].Style == 1 && attack == 5)
         {
-            Debug.Log("EEEEEEEEEEEE");
-            Invoke("teste", 1);
-            //A.BunecosAnimados[idchara].Play("DaggerAttack1");
+            Gambiarrismo(id);
+            A.BunecosAnimados[id].Play("DaggerAttack1");
         }
     }
     public void BasicAttack()
@@ -185,10 +126,13 @@ public class ControllerAnimation : MonoBehaviour
     {
         if (Ally == true)
         {
+            Gambiarrismo(2);
+
             A.BunecosAnimados[2].Play("Pain");
         }
         else
         {
+            Gambiarrismo(5);
             A.BunecosAnimados[5].Play("Pain");
         }
 
@@ -210,5 +154,10 @@ public class ControllerAnimation : MonoBehaviour
         CharaTransform[4].localPosition = new Vector3(159.1f, 195.2f, 0);
         CharaTransform[5].localPosition = new Vector3(114.5f, 158.3f, 0);
         CharaTransform[6].localPosition = new Vector3(65.7f, 103.5f, 0);
+    }
+    public void Gambiarrismo(int indexa)
+    {
+        Gambiarra[indexa].SetActive(false);
+        Gambiarra[indexa].SetActive(true);
     }
 }

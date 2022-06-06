@@ -757,7 +757,7 @@ public class A : MonoBehaviourPunCallbacks
     }
     public void StartofTurnEffects()
     {
-
+        Interface.index = 0;
         Debug.Log("Start");
         if (Atacante == true)
         {

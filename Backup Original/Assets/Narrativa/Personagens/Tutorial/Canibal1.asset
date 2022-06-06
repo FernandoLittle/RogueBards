@@ -21,7 +21,7 @@ MonoBehaviour:
   "AtaqueR\xE1pido": 03000000
   Bloqueio: 03000000
   Esquiva: 03000000
-  Vida: 2
+  Vida: 10
   Ataque: 2
   Defesa: 10
   act: 0

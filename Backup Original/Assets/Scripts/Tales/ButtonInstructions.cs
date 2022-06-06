@@ -18,6 +18,23 @@ public class ButtonInstructions : MonoBehaviour
             case -6:
                 
                 break;
+            //1300 Set MiniGame
+            case 1301:
+                PlayerPrefs.SetInt("God", 1);//Shuá
+                SceneManager.LoadScene("Song");
+                break;
+            case 1302:
+                PlayerPrefs.SetInt("God", 2);//Maná
+                SceneManager.LoadScene("Song");
+                break;
+            case 1303:
+                PlayerPrefs.SetInt("God", 3);//Lyoko
+                SceneManager.LoadScene("Song");
+                break;
+            case 1304:
+                PlayerPrefs.SetInt("God", 4);//Akasha
+                SceneManager.LoadScene("Song");
+                break;
             //1400 Set Tale for other List
             case 1401:
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;

@@ -10,6 +10,8 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TalesRoy;
     public List<Tales> TalesWilliamWFight;
     public List<Tales> TalesWilliamWFight2;
+    public List<Tales> TalesWilliamWBard1;
+    public List<Tales> TalesWilliamWBard2;
     public List<Tales> TalesAction;
     public int instruction;
     public int TaleSelect;
@@ -58,9 +60,16 @@ public class TalesVariables : MonoBehaviour
     }
     public void ShowText()
     {
+        try
+        {
+            TaleText.text = Tales[TaleSelect].Dialogue[Index];
+            IlusControler.SetFaceName(Tales[TaleSelect].idchara[Index]);
+        }
+        catch
+        {
+            Debug.Log("Sem Face");
+        }
 
-        TaleText.text = Tales[TaleSelect].Dialogue[Index];
-        IlusControler.SetFaceName(Tales[TaleSelect].idchara[Index]);
     }
     public void ShowButtons(int NumberOptions)
     {
@@ -92,9 +101,13 @@ public class TalesVariables : MonoBehaviour
         {
             Tales = TalesRoy;
         }
-        if (IdList == 1)
+        else if (IdList == 1)
         {
             Tales = TalesWilliamWFight2;
+        }
+        else if (IdList == 2)
+        {
+            Tales = TalesWilliamWBard2;
         }
     }
 
