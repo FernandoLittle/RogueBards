@@ -22,19 +22,31 @@ public class ButtonInstructions : MonoBehaviour
             case 1301:
                 PlayerPrefs.SetInt("God", 1);//Shuá
                 SceneManager.LoadScene("Song");
+
                 break;
             case 1302:
-                PlayerPrefs.SetInt("God", 2);//Maná
+                PlayerPrefs.SetInt("God", 2);//Lyoko
                 SceneManager.LoadScene("Song");
+
                 break;
             case 1303:
-                PlayerPrefs.SetInt("God", 3);//Lyoko
+                PlayerPrefs.SetInt("God", 3);//Akasha
                 SceneManager.LoadScene("Song");
+
                 break;
             case 1304:
-                PlayerPrefs.SetInt("God", 4);//Akasha
+                PlayerPrefs.SetInt("God", 4);//Maná
                 SceneManager.LoadScene("Song");
                 break;
+            case 1305:
+                PlayerPrefs.SetInt("God", Random.Range(1,5));//RandomGod
+                SceneManager.LoadScene("Song");
+                break;
+            case 1306:
+                PlayerPrefs.SetInt("God", Random.Range(1, 5));//RandomGod
+                SceneManager.LoadScene("BookGame");
+                break;
+
             //1400 Set Tale for other List
             case 1401:
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Expensive Medicine
   m_EditorClassIdentifier: 
   IdRelic: 0
-  SpriteRelic: {fileID: 0}
-  Description: "\u201CYuck, it's too bitter\u201D \u201CBitter? I didn't think he's
-    that bad \""
+  SpriteRelic: {fileID: 21300000, guid: 189d324d913b0db4889e75cd7c0fdc89, type: 3}
+  Description: "\u201CYuck, it's too bitter\u201D \n\u201CBitter? I didn't think
+    he's that bad \""
   Name: 'Expensive Medicine:'
   Type: 1

@@ -22,14 +22,17 @@ MonoBehaviour:
   - Hang on!
   - You lied to me, didn't you?
   - What? I didn't lie, I swear he's an illegal immigrant.
-  - ' Not on that part. Your name is Otterg Sasmark, you clearly come from a Serician
+  - Not on that part. Your name is Otterg Sasmark, you clearly come from a Serician
     immigrant family, by the way, my grandfather also came from Sericia. In any case,
     it makes no sense for you to hate immigrants to the point of wanting to expel
     them if you are recently related to immigrants. Is there another reason behind
-    your order, am I wrong?'
+    your order, am I wrong?
   - "The real reason is\u2026 my wife cheated on me with that man."
   - Hm, so you're cuckold, it's a good reason and you had the guts to reveal it,
     which is admirable.
   - I'll help you then, adulterer has to fuck himself.
-  idchara: 
-  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000
+  - After the cuckold left the room, William let out a laugh that he struggled to
+    hold back.
+  idchara: 1c000000120000001c000000000000001c00000012000000000000001c000000120000001c0000001c00000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000
+  Cenario: 9

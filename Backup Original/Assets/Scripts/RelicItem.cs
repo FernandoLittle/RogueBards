@@ -20,6 +20,7 @@ public class RelicItem : MonoBehaviour
     }
     public void EyeEnable()
     {
+        A.EyeNameRight.text = D.Relics[RelicId].Name;
         A.ilx.SetActive(true);
         A.ilx1.sprite = D.Relics[RelicId].SpriteRelic;
         A.EyeTx[0].text = D.Relics[RelicId].Description;

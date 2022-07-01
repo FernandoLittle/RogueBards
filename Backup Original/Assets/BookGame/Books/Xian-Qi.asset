@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
+  m_Name: Xian-Qi
+  m_EditorClassIdentifier: 
+  BookSprite: {fileID: 21300000, guid: 765ba9a4f21e3434a8b919c81074cdb7, type: 3}
+  NameBook: 'Productive Determinism and the Development of Societies.
+
+    Chapter:
+    The Three Great World Powers.'
+  Question: What does the Party of Order advocate for children to learn in school?
+  Answer1: The value of meritocracy, government institutions and Xianquian culture
+  Answer2: Carpentry techniques
+  Answer3: Advanced math concepts
+  Answer4: I don't care, this chapter is poorly written
+  CorrectAnswer: 1
+  UltraCorrectAnswer: 4

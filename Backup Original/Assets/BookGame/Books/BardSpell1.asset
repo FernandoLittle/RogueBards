@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
+  m_Name: BardSpell1
+  m_EditorClassIdentifier: 
+  BookSprite: {fileID: 21300000, guid: 2ff455cce20029f41a7e0e286c2532e3, type: 3}
+  NameBook: Bard's spells
+  Question: What are the two types of mystics?
+  Answer1: Those who believe in magic and the good ones.
+  Answer2: The followers of the gods and the followers of the spirits.
+  Answer3: Those who are happy and those who are sad.
+  Answer4: Those who believe in magic and the bad ones.
+  CorrectAnswer: 2
+  UltraCorrectAnswer: 1

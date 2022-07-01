@@ -131,7 +131,7 @@ public class Interface : MonoBehaviour
     }
     public void ActiveChange()
     {
-        Debug.Log("YEEEEE");
+
 
             ActiveChange1(LifeAllyOld, LifeAlly, ChangeAllyT[0], ChangeAllyO[0]);
             ActiveChange1(AttackAllyOld, AttackAlly, ChangeAllyT[1], ChangeAllyO[1]);
@@ -167,7 +167,7 @@ public class Interface : MonoBehaviour
     }
     public void SetStatosOld()
     {
-        Debug.Log("Setado");
+
         DefenseAllyOld = DefenseAlly;
         AttackAllyOld = AttackAlly;
         LifeAllyOld = LifeAlly;

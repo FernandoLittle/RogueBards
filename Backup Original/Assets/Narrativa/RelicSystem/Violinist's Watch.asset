@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Violinist's Watch
   m_EditorClassIdentifier: 
   IdRelic: 0
-  SpriteRelic: {fileID: 0}
+  SpriteRelic: {fileID: 21300000, guid: a2aed7116f45d154f8a53ddc5bd7da6a, type: 3}
   Description: '"You killed me?"
 
     "Yes, now you have two choices"'

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 479c8fe4495a9914db52c976592aa1e8, type: 3}
   m_Name: Bravery
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 11985c52a71cee743985fe41016fcabb, type: 3}
-  BigIcon: {fileID: 21300000, guid: 11985c52a71cee743985fe41016fcabb, type: 3}
+  Icon: {fileID: 21300000, guid: b13784dcf3e1faf4e9aabbb445d1834f, type: 3}
+  BigIcon: {fileID: 21300000, guid: b13784dcf3e1faf4e9aabbb445d1834f, type: 3}
   id: 2
-  description: 
-  A: {fileID: 0}
+  description: You gain 3 attack at end of turn if you have less mana than your opponent.
+  Name: Bravery

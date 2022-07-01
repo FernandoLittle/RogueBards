@@ -11,7 +11,7 @@ public class Day : MonoBehaviour
     {
         day = StaticPlayer.Day;
         //teste
-        day = 2;
+        //Sincroniza 3 Controlers
         if (day == 1)
         {
            RandomIntro();
@@ -22,12 +22,12 @@ public class Day : MonoBehaviour
         }
         if (day == 3)
         {
-
+            FightCrime(2);
         }
         if (day == 4)
         {
 
-
+            Minigame();
         }
         if (day == 5)
         {
@@ -53,6 +53,8 @@ public class Day : MonoBehaviour
         {
 
         }
+        day += 1;
+        StaticPlayer.Day = day;
     }
 
     public void RandomIntro()
@@ -71,7 +73,16 @@ public class Day : MonoBehaviour
         TalesVariables.SetTale(caos);
         TalesVariables.Index += 1;
     }
-
+    public void FightCrime(int a)
+    {
+        TalesVariables.Tales = TalesVariables.TalesAction;
+        TalesVariables.SetTale(a);
+    }
+    public void Minigame()
+    {
+        TalesVariables.Tales = TalesVariables.TalesMinigames;
+        TalesVariables.SetTale(1);
+    }
 
 
 }

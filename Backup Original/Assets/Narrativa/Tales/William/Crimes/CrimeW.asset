@@ -16,5 +16,6 @@ MonoBehaviour:
   Dialogue:
   - A warrior's job is to fight crime.
   - What crime do you want to fight?
-  idchara: 
+  idchara: 0000000000000000
   instruction: 00000000ffffffff
+  Cenario: 0

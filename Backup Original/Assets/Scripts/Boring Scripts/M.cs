@@ -21,7 +21,7 @@ public class M : MonoBehaviour
     public void A()
     {
         gameObject.SetActive(false);
-        Debug.Log("Script M");
+
         //f.C();
     }
     public void B()

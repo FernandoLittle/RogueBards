@@ -19,7 +19,7 @@ MonoBehaviour:
   - William's face turned serious.
   - I mean, you have a lot of potential, but you need to train hard, please don't
     arrest me, warrior.
-  - Fuck you. (Remember PlayerPrefs(God)
-  idchara: 
-  instruction: 000000000000000000000000000000000000000000000000
-  Cenario: 0
+  - Fuck you.
+  idchara: 0a0000001c000000000000000a0000001c000000
+  instruction: 0000000000000000000000000000000000000000ea030000
+  Cenario: 2

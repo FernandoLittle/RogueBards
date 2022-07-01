@@ -12,12 +12,12 @@ public class Prayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log("a");
+
             Voar = true;
         }
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            Debug.Log("b");
+
             Voar = false;
         }
     }

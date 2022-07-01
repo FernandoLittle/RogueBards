@@ -53,6 +53,7 @@ public class RelicSystem : MonoBehaviour
         {
             A.zoneid[a].Relics.Add(A.decklist.deck[player].card[b].Relics[x]);
         }
+
     }
     public void AddRelic2()
     {
@@ -93,7 +94,7 @@ public class RelicSystem : MonoBehaviour
             Debug.Log("TO com medo");
             if (attack == 0)
             {
-                Debug.Log(F.Zone[ally].idzone1 + "atacando");
+
                 if (F.Zone[ally].ManaSpend < 5)
                 {
                     Debug.Log("medinho");
@@ -154,17 +155,14 @@ public class RelicSystem : MonoBehaviour
         F.Zone[ally].SentimentalBool = true;
         F.Zone[ally].SentimentalInt += 1;
         RelicSentimento(ally);
+        A.RelicEffects.DoubleFeeling(ally);
     }
+    // Tipos de efeitos************************************************************************************************************
     public void RelicSentimento(int ally)
     {
-        for (int x = 0; x < F.Zone[ally].Relics.Count; x = x + 1)
-        {
-            if (F.Zone[ally].Relics[x] == 1)//WillianSword
-            {
-                F.UpAttributeRelic(1, 1, true, 1);//Aumenta ataque em 1 permanentemente, idrelic==1
-            }
-        }
+        A.RelicEffects.SentimentalBonus(ally);
     }
+    // Tipos de efeitos************************************************************************************************************
     public void SetRelicSprite()
     {
         for (int x = 0; x < A.zoneid[4].Relics.Count; x = x + 1)
@@ -180,5 +178,15 @@ public class RelicSystem : MonoBehaviour
             RelicItemEnemy[x].RelicId = D.Relics[A.zoneid[1].Relics[x]].IdRelic;
             RelicEnemy[x].sprite = D.Relics[A.zoneid[1].Relics[x]].SpriteRelic;
         }
+    }
+    public void SetRelicX()
+    {
+        Debug.Log("Relic");
+        if (A.StaticData.RelicsAlly.Count > 0)
+        {
+            Debug.Log(A.StaticData.RelicsAlly[0]);
+            A.Zone[5].Relics.Add(A.StaticData.RelicsAlly[0]);
+        }
+
     }
 }

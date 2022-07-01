@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 479c8fe4495a9914db52c976592aa1e8, type: 3}
   m_Name: Passion
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 166eca04d4d08914ab9288ba905887a6, type: 3}
-  BigIcon: {fileID: 21300000, guid: 166eca04d4d08914ab9288ba905887a6, type: 3}
+  Icon: {fileID: 21300000, guid: bbb22d5acf6036249bbb4139231e8646, type: 3}
+  BigIcon: {fileID: 21300000, guid: bbb22d5acf6036249bbb4139231e8646, type: 3}
   id: 3
-  description: 
-  A: {fileID: 0}
+  description: You gain 3 health if you activate the sentimental bonuses.
+  Name: Passion

@@ -17,7 +17,7 @@ MonoBehaviour:
   - How many warriors did you kill? How many of my friends did you quarter to sell
     organs?
   - Four.
-  - Willian chutou ele.
+  - William kicked him.
   - That's all you have to say, "four?", are we a number for you?
   - You don't want to hear me, you just want to see me suffer.
   - Wrong, I want to hear you and make you suffer. Let's play a game, the better
@@ -34,12 +34,13 @@ MonoBehaviour:
     are too benevolent to treat people as objects.
   - 'You respect the corpses of even the vilest murderers.
 
-    But we murderers
+    But we assassins
     are different, we don''t respect traditions, we don''t respect corpses, we don''t
     respect morals, we only fight for money because we''re bad.'
   - And our wickedness saved the lives of the many people who bought our organs.
-  - In his last moments the killer felt like the worst arguer in the world when he
-    remembered the phrase "the better your arguments are, the less painful your death
-    will be".
-  idchara: 
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - In his last moments, the assassin felt like the worst arguer in the world when
+    he remembered the phrase "the better your arguments are, the less painful your
+    death will be".
+  idchara: 1c00000014000000000000001c000000140000001c000000000000001c0000000000000014000000140000001400000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
+  Cenario: 5

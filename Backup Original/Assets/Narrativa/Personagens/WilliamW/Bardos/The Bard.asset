@@ -10,25 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
-  m_Name: Assassin1
+  m_Name: The Bard
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 8997541dd7717ea4895652abc52265bd, type: 3}
   sprite1: {fileID: 0}
-  id: 12
+  Name: 
+  id: 10
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 
+  "AtaqueR\xE1pido": 
+  Bloqueio: 
+  Esquiva: 
+  Vida: 0
+  Ataque: 0
+  Defesa: 0
   act: 0
   mov: 0
-  Level: 8
+  Level: 0
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1a00000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
-  SentimentoType: 3
+  skin: 
+  SentimentoType: 0

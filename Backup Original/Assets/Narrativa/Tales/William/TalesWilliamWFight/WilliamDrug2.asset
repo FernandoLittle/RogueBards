@@ -18,5 +18,6 @@ MonoBehaviour:
     defeated his opponent with a fatal hit.
   - No words were said at the end of that fight.
   - William felt lonely.
-  idchara: 
-  instruction: 00000000000000000000000000000000
+  idchara: 000000000000000000000000
+  instruction: 000000000000000000000000ea030000
+  Cenario: 8

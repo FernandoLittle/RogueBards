@@ -12,7 +12,9 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TalesWilliamWFight2;
     public List<Tales> TalesWilliamWBard1;
     public List<Tales> TalesWilliamWBard2;
+    public List<Tales> TalesWilliamWBook;
     public List<Tales> TalesAction;
+    public List<Tales> TalesMinigames;
     public int instruction;
     public int TaleSelect;
     public int Index;
@@ -52,7 +54,8 @@ public class TalesVariables : MonoBehaviour
         Index = 0;
 
         TaleSelect = TaleS;
-        IlusControler.SetCenario(TaleSelect);
+        IlusControler.IlustrationChange = false;
+        IlusControler.SetCenario(Tales[TaleSelect].Cenario);
 
 
         MasterAction();        
@@ -108,6 +111,10 @@ public class TalesVariables : MonoBehaviour
         else if (IdList == 2)
         {
             Tales = TalesWilliamWBard2;
+        }
+        else if (IdList == 3)
+        {
+            Tales = TalesWilliamWBook;
         }
     }
 

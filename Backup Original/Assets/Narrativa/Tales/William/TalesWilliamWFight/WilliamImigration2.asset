@@ -19,5 +19,6 @@ MonoBehaviour:
     but if you misbehave I will come back.
   - "Why are you\u2026"
   - I don't want to talk to you, goodbye.
-  idchara: 
-  instruction: 0000000000000000000000000000000000000000
+  idchara: 000000001c000000130000001c000000
+  instruction: 00000000000000000000000000000000ea030000
+  Cenario: 9

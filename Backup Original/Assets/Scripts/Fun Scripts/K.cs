@@ -183,7 +183,7 @@ public class K : MonoBehaviour
     //Tutorial
     public void I()
     {
-        Debug.Log("XXXXXXXXXXXXXXXXXXXXXXXXX");
+
         //EndTurn
         for (int x = 4; x < 7; x = x + 1)
         {

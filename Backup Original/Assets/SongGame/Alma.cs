@@ -61,18 +61,18 @@ public class Alma : MonoBehaviour
     public void END()
     {
         PlayerPrefs.SetInt("Batalha", 1);
-        PlayerPrefs.SetInt("Tale", 2);
+        PlayerPrefs.SetInt("IdList", 2);
         if (ScoreJudge.RealScore > 3000)
         {
-            PlayerPrefs.SetInt("IdList", 3);
+            PlayerPrefs.SetInt("Tale", 2);
         }
         else if (ScoreJudge.RealScore > 2000)
         {
-            PlayerPrefs.SetInt("IdList", 2);
+            PlayerPrefs.SetInt("Tale", 1);
         }
         else
         {
-            PlayerPrefs.SetInt("IdList", 1);
+            PlayerPrefs.SetInt("Tale", 0);
         }
 
 

@@ -18,6 +18,7 @@ public class IlusControler : MonoBehaviour
     {
         if (IlustrationChange == false)
         {
+            Debug.Log(idCenario);
             Cenario.sprite = IlustrationList[idCenario];
             IlustrationChange = true;
         }

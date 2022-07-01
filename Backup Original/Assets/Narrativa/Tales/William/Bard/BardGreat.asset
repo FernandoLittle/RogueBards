@@ -16,6 +16,6 @@ MonoBehaviour:
   Dialogue:
   - Your music is perfect, I have nothing more to teach you.
   - William didn't know how to respond to that compliment, he could only smile.
-  idchara: 
-  instruction: 000000000000000000000000
-  Cenario: 0
+  idchara: 0a00000000000000
+  instruction: 00000000e8030000ea030000
+  Cenario: 2

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Talarico
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 328f9666d0f6cfd43ab9673f27fbe921, type: 3}
   sprite1: {fileID: 0}
-  id: 17
+  Name: Klaus
+  id: 19
   idPersonagem: 0
   AtaqueForte: 05000000
   "AtaqueR\xE1pido": 05000000

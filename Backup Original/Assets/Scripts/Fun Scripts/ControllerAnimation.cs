@@ -81,7 +81,7 @@ public class ControllerAnimation : MonoBehaviour
 
         if (Charas[id].Style == 1 && attack==1)
         {
-            Debug.Log("AAAAAAAAAAAAAA");
+
             Gambiarrismo(id);
             A.BunecosAnimados[id].Play("DaggerAttack2");
         }
@@ -93,7 +93,9 @@ public class ControllerAnimation : MonoBehaviour
         if (Charas[id].Style == 1 && attack == 3)
         {
             Gambiarrismo(id);
-            A.BunecosAnimados[idchara].Play("BlockAnim");
+            A.BunecosAnimados[id].Play("DaggerAttack2");//provisório
+            //Anime UpAtribute
+            // A.BunecosAnimados[idchara].Play("BlockAnim");
         }
         if (Charas[id].Style == 1 && attack == 4)
         {

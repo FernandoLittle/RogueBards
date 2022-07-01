@@ -8,9 +8,9 @@ public class Status : ScriptableObject
     public Sprite Icon;
     public Sprite BigIcon;
     public int id;
+    [TextArea]
     public string description;
-    public A A;
-
+    public string Name;
 
     // Start is called before the first frame update
     void Start()

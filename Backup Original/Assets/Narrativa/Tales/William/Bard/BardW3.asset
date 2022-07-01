@@ -19,7 +19,7 @@ MonoBehaviour:
   - He was grateful thanks to the bard who played beautiful music, death would one
     day come and he would have wasted most of his life thinking about a future that
     would never come.
-  - But in that brief moment he appreciated the present
+  - In that brief moment he appreciated the present
   - That song reminded him that he could breathe and that no matter how ephemeral
     his life was, at least in an instant he was happy, because in that instant he
     noticed everything he had.
@@ -42,6 +42,6 @@ MonoBehaviour:
   - Whatever, your music put me in a good mood. If you teach me how to play it, I'll
     pretend I didn't hear that.
   - It will be my pleasure to teach you, young man.
-  idchara: 
+  idchara: 000000000000000000000000000000001c0000000a0000000a000000000000000a0000001c0000000a0000001c0000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
-  Cenario: 0
+  Cenario: 2

@@ -146,7 +146,7 @@ public class B : MonoBehaviourPunCallbacks
         {
             if (idzone1 == 1 || idzone1 == 2 || idzone1 == 3)
             {
-                Debug.Log("Analog");
+ 
                a.Skills[0].SetActive(true);
                 a.Skills[1].SetActive(true);
                a.Skills[6].SetActive(true);
@@ -493,6 +493,8 @@ public class B : MonoBehaviourPunCallbacks
     public void D()
     {
         SentimentoText();
+        a.EyeNameLeft.text = d.Chara[idzone1].Name;
+        a.EyeNameRight.text = d.Chara[idzone1].Name;
         if (idzone1==1|| idzone1 == 2 || idzone1 == 3)
         {
             if (idcard1 != 0)
@@ -627,7 +629,7 @@ public class B : MonoBehaviourPunCallbacks
                 }
             }
 
-            Debug.Log("Death");
+
             idcard1 = 0;
             idPersonagem = 0;
             Zonesprite0.sprite = nada;

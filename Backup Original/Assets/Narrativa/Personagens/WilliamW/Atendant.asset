@@ -10,25 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
-  m_Name: Assassin2
+  m_Name: Atendant
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 468927136f0302b478fd4cd119b9d3d4, type: 3}
   sprite1: {fileID: 0}
-  id: 13
+  Name: Sopp
+  id: 26
   idPersonagem: 0
-  AtaqueForte: 06000000
-  "AtaqueR\xE1pido": 06000000
-  Bloqueio: 06000000
-  Esquiva: 05000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 
+  "AtaqueR\xE1pido": 
+  Bloqueio: 
+  Esquiva: 
+  Vida: 0
+  Ataque: 0
+  Defesa: 0
   act: 0
   mov: 0
-  Level: 8
+  Level: 0
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1b00000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
-  SentimentoType: 3
+  skin: 
+  SentimentoType: 0

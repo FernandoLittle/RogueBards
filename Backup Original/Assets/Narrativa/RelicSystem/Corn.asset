@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Corn
   m_EditorClassIdentifier: 
   IdRelic: 0
-  SpriteRelic: {fileID: 0}
+  SpriteRelic: {fileID: 21300000, guid: bbb22d5acf6036249bbb4139231e8646, type: 3}
   Description: "\u201CWhen we lost our hopes a man came, he brought the corn our
     bellies needed, but the poor man couldn't give us the food our souls needed.\r\nAt
     least he tried.\""

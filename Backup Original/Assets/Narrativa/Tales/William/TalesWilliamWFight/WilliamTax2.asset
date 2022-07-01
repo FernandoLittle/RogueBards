@@ -20,5 +20,6 @@ MonoBehaviour:
   - The next day he decided to pay the smiling tax evader a visit.
   - Are you happy Vlad Burarth? I am, look at my smile.
   - The tax evader never smiled again.
-  idchara: 
-  instruction: 00000000000000000000000000000000000000000000000000000000
+  idchara: 1c0000001600000000000000000000001c00000000000000
+  instruction: 000000000000000000000000000000000000000000000000ea030000
+  Cenario: 10

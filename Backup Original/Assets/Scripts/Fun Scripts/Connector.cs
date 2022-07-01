@@ -27,7 +27,7 @@ public class Connector : MonoBehaviourPunCallbacks
     }
     public override void OnConnectedToMaster()
     {
-        Debug.Log("Conectado");
+
     }
     // Update is called once per frame
     void Update()

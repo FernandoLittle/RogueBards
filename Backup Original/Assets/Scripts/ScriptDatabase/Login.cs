@@ -40,7 +40,7 @@ public class Login : MonoBehaviour
         Debug.Log(www.text);
         if (www.text.Contains("0"))
         {
-            Debug.Log("Usuário logado com sucesso CARALHO, ABRE O CHAMPANHE QUE HOJE TEM HENTAI");
+
             score1 = int.Parse(Generic.CodeLyoko(www.text, 1));
             id = int.Parse(Generic.CodeLyoko(www.text, 2));
             PlayerPrefs.SetInt("id", id);

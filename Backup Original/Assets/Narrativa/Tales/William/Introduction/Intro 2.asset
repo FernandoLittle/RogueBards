@@ -23,5 +23,6 @@ MonoBehaviour:
     create and execute the laws.
   - 'In Sarka a warrior said:'
   - We will give our sword and our heart to execute the law.
-  idchara: 
+  idchara: 0000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000069000000
+  Cenario: 4

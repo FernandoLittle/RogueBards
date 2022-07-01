@@ -58,7 +58,9 @@ public class SetFight : MonoBehaviour
             }
         }
         SetDataChara();
-        
+        A.RelicSystem.SetRelicX();
+        A.RelicSystem.SetRelicSprite();
+
 
 
         A.ActiveBlue(4, true);

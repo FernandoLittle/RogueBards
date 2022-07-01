@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 3f7824084517924428691434b96fd14e, type: 3}
   sprite1: {fileID: 0}
-  Name: '"<color=blue>Roy</color>'
+  Name: <color=blue>Roy</color>
   id: 27
   idPersonagem: 0
   AtaqueForte: 18000000

@@ -161,7 +161,7 @@ public class FantasyRivalsIA : MonoBehaviour
     public void SelectMana()
     {
         SelectorMana = 0;
-        Debug.Log("Aliado atacando =" + A.Atacante);
+
         if (A.Zone[F.z].sentimento == 0)//calma
         {
             IdealManaA = Random.Range(0, 3);

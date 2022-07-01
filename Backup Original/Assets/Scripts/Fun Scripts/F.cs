@@ -1223,73 +1223,11 @@ public class F : MonoBehaviour
 
 
 
-            //ExChange(x);
-            /*if ((Attacking + x) % 2 == 0)
-            {
-                x1 = x10;
-                x2 = x20;
-                x3 = x30;
-                x4 = x40;
-                x5 = x50;
-                x6 = x60;
-                x7 = x70;
-                x8 = x80;
-
-                b1 = b10;
-                b2 = b20;
-                b3 = b30;
-                b4 = b40;
-                b5 = b50;
-                b6 = b60;
-                b7 = b70;
-                b8 = b80;
-
-                y = y0;
-                z = z0;
-                card1 = card10;
-                card2 = card20;
-            }
-            if ((Attacking + x) % 2 == 1)
-            {
-                x5 = x10;
-                x6 = x20;
-                x7 = x30;
-                x8 = x40;
-                x1 = x50;
-                x2 = x60;
-                x3 = x70;
-                x4 = x80;
-
-                b5 = b10;
-                b6 = b20;
-                b7 = b30;
-                b8 = b40;
-                b1 = b50;
-                b2 = b60;
-                b3 = b70;
-                b4 = b80;
-
-                z = y0;
-                y = z0;
-                card2 = card10;
-                card1 = card20;
-            
-
-            }
-            */
+            a.RelicEffects.EndTurnEffectRelic(y0);
+            Debug.Log("FY0" + "="+ y0);
+            StatusEffect();
         }
-        //Efeitos De Fim de combate
-        Vlad = 0;
-        Devil = 0;
-        for (int x = 1; x < 11; x = x + 1)
-        {
-            //Se você tomou dano
-            if (Zone[x].Code[4] == true)
-            {
-                Zone[x].Code[0] = false;
-                Zone[x].Code[4] = false;
-            }
-        }
+    
         D.B();
     }
     public void AnimeSkill()
@@ -1301,7 +1239,7 @@ public class F : MonoBehaviour
     }
     public void B()
     {
-        Debug.Log("F");
+
 
         i1.SetActive(true);
         i2.SetActive(true);
@@ -1368,7 +1306,7 @@ public class F : MonoBehaviour
         }
         else
         {
-            Debug.Log("O_O");
+
             c1.Clear();
             c2.Clear();
             c3.Clear();
@@ -1380,6 +1318,7 @@ public class F : MonoBehaviour
             c10.Clear();
             c11.Clear();
             c12.Clear();
+            AttackId.Clear();
 
             ClearAttributes();
 
@@ -1920,6 +1859,41 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void UpManaRelic(int a, int idrelic)
+    {
+        Debug.Log("ManaUP");
+        Damage = a;
+        if (Damage > 0)
+        {
+            Zone[y0].Mana += Damage;
+            c6.Add(10);
+            AttackId.Add(3);
+            target = 1;
+            XRelic(idrelic);
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
+    public void AltruismRelic(int a, int idrelic)
+    {
+        Damage = a;
+
+        Zone[z0].Lyoko[0] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = -1;
+        XRelic(idrelic);
+
+        Zone[y0].Lyoko[0] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = 1;
+        XRelic(idrelic);
+    }
     public void DamageAttribute(int a, int attribute, bool permanent)
     {
         Damage = a;
@@ -2045,7 +2019,9 @@ public class F : MonoBehaviour
     }
     public void XRelic(int a)
     {
+        
         SetAttributes();
+        Debug.Log("Xrelic");
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -2062,11 +2038,44 @@ public class F : MonoBehaviour
 
             c5.Add(Zone[z0].Mana);
         }
+        Debug.Log(e0);
+        Debug.Log(e0*target);
 
         c8.Add(a);
         c9.Add(e0);
         c10.Add(Damage);
         c11.Add(5);
         c12.Add(e0 * target);
+        
+    }
+    public void StatusEffect()
+    {
+        for (int x = 0; x < 4; x = x + 1)
+        {
+            if (Zone[y0].status[x] == 1)//Sabedoria
+            {
+                if (Win == 1)
+                {
+                    Debug.Log("Bugou");
+                    UpManaRelic(2, 1);
+                    Debug.Log("Não Bugou");
+                }
+            }
+            if (Zone[y0].status[x] == 2)//Coragem
+            {
+                if(Zone[y0].Mana< Zone[z0].Mana)
+                {
+                    UpAttributeRelic(3, 1, true, 1);
+ 
+                }
+            }
+            if (Zone[y0].status[x] == 3)//Paixão
+            {
+                if (Zone[y0].SentimentalBool == true)
+                {
+                    UpAttributeRelic(3, 0, true, 1);
+                }
+            }
+        }
     }
 }

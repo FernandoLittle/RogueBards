@@ -25,6 +25,7 @@ public class G : MonoBehaviour
     public List<bool> NoDuplicates;
 
     public Button a;
+    public Text EyeName;
     // Start is called before the first frame update
 
 
@@ -108,7 +109,7 @@ public class G : MonoBehaviour
     public void E()
     {
 
-
+        
         il.SetActive(true);
         il1.sprite = Zonesprite0.sprite;
         il2.SetActive(false);
@@ -118,13 +119,17 @@ public class G : MonoBehaviour
             t0.text = d.AttackS[id].Texto0;
             SetKeyword(d.AttackS[id]);
 
-
+            EyeName.text = d.AttackS[id].Name;
         }
         if (id1 == 2)
         {
             d.ScaleT1.text = d.AttackQ[id].scale.ToString();
             t0.text = d.AttackQ[id].Texto0;
             SetKeyword(d.AttackQ[id]);
+
+
+
+            EyeName.text = d.AttackQ[id].Name;
         }
         if (id1 == 3)
         {
@@ -132,6 +137,9 @@ public class G : MonoBehaviour
             t0.text = d.Block[id].Texto0;
             SetKeyword(d.Block[id]);
 
+
+
+            EyeName.text = d.Block[id].Name;
         }
         if (id1 == 4)
         {
@@ -139,6 +147,9 @@ public class G : MonoBehaviour
             t0.text = d.Dodge[id].Texto0;
             SetKeyword(d.Dodge[id]);
 
+
+
+            EyeName.text = d.Dodge[id].Name;
         }
 
         t[0].SetActive(true);

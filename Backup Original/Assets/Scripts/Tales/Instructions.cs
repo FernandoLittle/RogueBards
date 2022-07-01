@@ -9,6 +9,7 @@ public class Instructions : MonoBehaviour
     public List<int> Caos;
     public List<int> Inteiro;
     public List<string> Caracter;
+    public SkillA SkillA;
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +84,9 @@ public class Instructions : MonoBehaviour
 
 
             //100 Set Tale
+            case 100:
+                TalesVariables.SetTale(a - 100);
+                break;
             case 101:
                 TalesVariables.SetTale(a - 100);
                 break;
@@ -154,14 +158,37 @@ public class Instructions : MonoBehaviour
                 SetButton(1301, 1302, 1303, 1304, 0);
                 TalesVariables.ShowText();
                 break;
+            case 317:
+                SetButtonST("Play a song.", "Read a book.", "", "", "");
+                SetButton(1305, 1306, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
 
             //500 Genecric
 
             case 500:
-                TalesVariables.Tales = TalesVariables.TalesAction;
-                TalesVariables.SetTale(0);
+                TalesVariables.Day.FightCrime(0);
                 break;
-            
+
+            //1000 Special Instructions
+            //*****************************************************
+            case 1000: //GreatReward
+                SkillA.RelicReward();
+                SkillA.GodReward1();
+                TalesVariables.ShowText();
+                break;
+            case 1001: //Reward
+                SkillA.GodReward1();
+                TalesVariables.ShowText();
+                break;
+            case 1002: //NextDay
+                TalesVariables.Day.SelectDay();
+                break;
+
+
+
+
+            //*****************************************************
             case -1:
                 RandomActions();
                 break;

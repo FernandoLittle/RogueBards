@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Song.unity
     guid: f68ff580ad9bb0e46a42056e14a6cb61
+  - enabled: 1
+    path: Assets/Scenes/BookGame.unity
+    guid: e615c147f7ce3f04f80ac6d8ec12f5a5
   m_configObjects: {}

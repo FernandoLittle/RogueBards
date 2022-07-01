@@ -24,5 +24,6 @@ MonoBehaviour:
   - Calm, calm, calm, you don't need so much hostility, I can increase the pay, so
     everyone is happy, right?
   - "Foi bom fazer neg\xF3cio com voc\xEA."
-  idchara: 
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000
+  idchara: 000000000000000010000000000000001c000000100000001c000000
+  instruction: 000000000000000000000000000000000000000000000000000000003c010000
+  Cenario: 5

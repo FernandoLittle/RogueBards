@@ -27,8 +27,8 @@ MonoBehaviour:
   IdDialogue2: 
   IdDialogue3: 
   IdDialogue4: 0b0000001b000000
-  TaleVictory: 5
+  TaleVictory: 6
   TaleDefeat: 7
   "Cen\xE1rio": 1
-  TaleTypeV: 0
+  TaleTypeV: 1
   TaleTypeD: 0

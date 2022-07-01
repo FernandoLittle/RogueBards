@@ -42,18 +42,18 @@ public class O : MonoBehaviour
     }
     public void A()
     {
-        Debug.Log("IA");
+
 
         //a*=-1;
         //if (a == 1)
         if (Q.a.Count == 0 && AA.offline==true && AA.X1Lixo==false)
         {
-            Debug.Log("IA2");
-            Debug.Log(NexusE.id * NexusE.side);
+
+
 
             if (NexusE.id * NexusE.side < 0)
             {
-                Debug.Log("IA3");
+
                 SelectIA();
 
                /* AA.DisableA(true);
@@ -186,10 +186,10 @@ public class O : MonoBehaviour
     }
     public void ActiveSkills()
     {
-        Debug.Log("IA");
+
         if (NexusE.id * NexusE.side < 0)
         {
-            Debug.Log("IA2");
+
             AA.Skills[2].SetActive(true);
             AA.Skills[3].SetActive(true);
             AA.Skills[4].SetActive(true);

@@ -82,4 +82,5 @@ public class StaticData : MonoBehaviour
             Attack[x] = StaticPlayer.Attack[x];
         }
     }
+    
 }
