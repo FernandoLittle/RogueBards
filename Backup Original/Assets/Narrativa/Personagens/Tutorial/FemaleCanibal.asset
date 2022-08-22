@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: c39100a73c6f42845ab8dba3f6e16b14, type: 3}
   sprite1: {fileID: 0}
-  Name: Female Cannibal
-  id: 11
+  Name: <color=#FF6C88>Female Cannibal</color>
+  id: 21
   idPersonagem: 0
-  AtaqueForte: 03000000
-  "AtaqueR\xE1pido": 03000000
-  Bloqueio: 03000000
-  Esquiva: 03000000
-  Vida: 3
+  AtaqueForte: 0b000000
+  "AtaqueR\xE1pido": 0b000000
+  Bloqueio: 0b000000
+  Esquiva: 0b000000
+  Vida: 11
   Ataque: 2
   Defesa: 10
   act: 0
@@ -31,5 +31,5 @@ MonoBehaviour:
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 0600000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
-  SentimentoType: 0
+  skin: 0500000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+  SentimentoType: 1

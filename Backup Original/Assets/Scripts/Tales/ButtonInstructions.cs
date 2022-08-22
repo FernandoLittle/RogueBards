@@ -18,6 +18,77 @@ public class ButtonInstructions : MonoBehaviour
             case -6:
                 
                 break;
+
+            //Set Tale 1000
+            case 1000:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1001:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1002:
+                TalesVariables.SetTale(a - 10000);
+                break;
+            case 1005:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1006:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1007:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1008:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1009:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1010:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1011:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1012:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1013:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1014:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1015:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1016:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1017:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1018:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1019:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1020:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1021:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1022:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1023:
+                TalesVariables.SetTale(a - 1000);
+                break;
+            case 1024:
+                TalesVariables.SetTale(a - 1000);
+                break;
             //1300 Set MiniGame
             case 1301:
                 PlayerPrefs.SetInt("God", 1);//Shuá
@@ -77,9 +148,28 @@ public class ButtonInstructions : MonoBehaviour
                 TalesVariables.SetTale(6);
                 break;
 
+            //1500 Set Tale for CustonRoute
 
-
-
+            case 1501:
+                TalesVariables.Tales = TalesVariables.TalesCustonRoute;
+                TalesVariables.SetTale(0);
+                break;
+            case 1502:
+                TalesVariables.Tales = TalesVariables.TalesCustonRoute;
+                TalesVariables.SetTale(1);
+                break;
+            case 1503:
+                TalesVariables.Tales = TalesVariables.TalesCustonRoute;
+                TalesVariables.SetTale(2);
+                break;
+            case 1504:
+                TalesVariables.Tales = TalesVariables.TalesCustonRoute;
+                TalesVariables.SetTale(3);
+                break;
+            case 1505:
+                TalesVariables.Tales = TalesVariables.TalesCustonRoute;
+                TalesVariables.SetTale(4);
+                break;
 
 
 
@@ -160,42 +250,6 @@ public class ButtonInstructions : MonoBehaviour
 
 
 
-            case 1001:
-                SetTale(a);
-                break;
-            case 1002:
-                SetTale(a);
-                break;
-            case 1003:
-                SetTale(a);
-                break;
-            case 1004:
-                SetTale(a);
-                break;
-            case 1005:
-                SetTale(a);
-                break;
-            case 1006:
-                SetTale(a);
-                break;
-            case 1007:
-                SetTale(a);
-                break;
-            case 1008:
-                SetTale(a);
-                break;
-            case 1009:
-                SetTale(a);
-                break;
-            case 1010:
-                SetTale(a);
-                break;
-            case 1013:
-                SetTale(a);
-                break;
-            case 1014:
-                SetTale(a);
-                break;
         }
     }
     //Only Work Index<11

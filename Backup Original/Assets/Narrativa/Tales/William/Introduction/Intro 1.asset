@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - 'In Sarka an assassin said:'
+  - 'In <color=yellow>Sarka</color> an assassin said:'
   - What is the difference between the assassin and the warrior? Is one kinder than
     the other? Is one smarter than the other? Is one more virtuous than the other?
   - No no and no. They did not trace different paths through a difference of morals,
@@ -25,7 +25,7 @@ MonoBehaviour:
   - A warrior is just a human who lives in a place where being a warrior is seen
     as good, an assassin is just a human who lives in a place where being an assassin
     is seen as good.
-  - 'In Sarka a warrior said:'
+  - 'In <color=yellow>Sarka</color> a warrior said:'
   - Assassins talk so fucking much.
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000069000000

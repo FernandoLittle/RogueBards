@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1Quest1"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Where did that anger come from?
+  - Was <color=purple>William</color> furious with those sinners?
+  - No.
+  - Even if those thugs were rapists and infanticides it didn't bother him because
+    he was already used to living with that kind of scum when he worked as a warrior.
+  - "<color=purple>William</color> was furious with the <color=#FF0080>monk</color>.
+    That damned follower of <color=#FF0080>Shu\xE1</color> was tending the wounds
+    of those bandits, listening to their sins and forgiving them."
+  - The criminals' physical pain did not disappear when their wounds were treated,
+    but their mental pain disappeared when they were forgiven by the <color=#FF0080>monk</color>.
+  - That stupid monk thought the criminals were sorry, but <color=purple>William</color>
+    knew they were just afraid of divine punishment.
+  - '"I hope they get an infection and die."'
+  - "\u201CThis motherfucking <color=#FF0080>monk</color> lied to me, I thought this
+    mission would help the real victims of the war.\u201D"
+  - '"I didn''t leave <color=yellow>Sarka</color> and come to a country at war wanting
+    to help these damn criminals."'
+  - "\u201CIf <color=#FF0080>Shu\xE1</color> forgives these thieves then I am an
+    idiot, it is much better to be a criminal and live for yourself. I just need
+    a <color=#FF0080>monk</color> to forgive me before I die.\u201D Pedir que o monge
+    o perdoe. Questionar o monge"
+  idchara: 000000000000000000000000000000000000000000000000000000001c0000001c0000001c0000001c000000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000041010000
+  Cenario: 14

@@ -12,23 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Assassin3
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 63fb22753b08f0f4e853a046122b8f0e, type: 3}
   sprite1: {fileID: 0}
+  Name: <color=yellow>Noji</color>
   id: 14
   idPersonagem: 0
-  AtaqueForte: 06000000
-  "AtaqueR\xE1pido": 06000000
-  Bloqueio: 06000000
-  Esquiva: 06000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 0e000000
+  "AtaqueR\xE1pido": 0e000000
+  Bloqueio: 0e000000
+  Esquiva: 0e000000
+  Vida: 20
+  Ataque: 0
+  Defesa: 0
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 0300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
-  SentimentoType: 3
+  skin: 1500000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
+  SentimentoType: 0

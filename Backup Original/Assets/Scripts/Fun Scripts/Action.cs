@@ -27,7 +27,7 @@ public class Action : ScriptableObject
      * 3:Damage
      * 4:True Damage
      * 5:Frozen (Mana Drain)
-     * 6:Global Frozen
+     * 6:Triple Attack
      * 7:Attack Buff
      * 8:Attack Debuff
      * 9:Defense Buff
@@ -44,6 +44,21 @@ public class Action : ScriptableObject
      * 20:Copy Level
      * 21:Poison
      * 22:Sacrifice
+     * 
+     *  
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     * 33:Sacrifice Attack
+     * 34:Useless
+     * 35:Scar
+     * 
+     * 
      * 
      * 
      */

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William was thinking about death, normally he felt angry at the thought of it,
-    but at that moment he felt gratitude.
+  - <color=purple>William</color> was thinking about death, normally he felt angry
+    at the thought of it, but at that moment he felt gratitude.
   - He was grateful thanks to the bard who played beautiful music, death would one
     day come and he would have wasted most of his life thinking about a future that
     would never come.
@@ -23,25 +23,25 @@ MonoBehaviour:
   - That song reminded him that he could breathe and that no matter how ephemeral
     his life was, at least in an instant he was happy, because in that instant he
     noticed everything he had.
-  - Hey bard, thanks for the song, let me buy you a drink.
+  - Hey <color=#00FFBF>bard</color>, thanks for the song, let me buy you a drink.
   - The pleasure of playing is mine.
   - The pleasure of drinking too.
-  - The bard have a small laugh.
-  - What's your name, young man?
-  - Willian Ulbricht.
+  - The <color=00FFBF>bard</color> have a small laugh.
+  - What's your name, <color=purple>young man</color>?
+  - <color=purple>Willian Ulbricht</color>.
   - "Ulbricht? I remember someone with that name\u2026 who was it? Old age is melting
     my memory. Whatever, it shouldn't be someone important."
   - And your name, do you remember?
-  - My name is a secret, but you can call me Bard.
+  - My name is a secret, but you can call me <color=#00FFBF>bard</color>.
   - Why don't you tell me?
   - I'm not going to tell my name to a warrior, imagine if you guys find out I work
     with drug dealers and assassins? I have to stay discreet.
   - Very funny. Aren't you afraid to say that to a warrior?
-  - The bard smiled kindly.
+  - The <color=#00FFBF>bard</color> smiled kindly.
   - No.
   - Whatever, your music put me in a good mood. If you teach me how to play it, I'll
     pretend I didn't hear that.
-  - It will be my pleasure to teach you, young man.
+  - It will be my pleasure to teach you, <color=purple>young man</color>.
   idchara: 000000000000000000000000000000001c0000000a0000000a000000000000000a0000001c0000000a0000001c0000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
   Cenario: 2

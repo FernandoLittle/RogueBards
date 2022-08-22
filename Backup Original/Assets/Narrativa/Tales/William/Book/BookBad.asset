@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William realized that this book was totally poorly written and boring. It wasn't
-    worth wasting her precious time on him.
+  - <color=purple>William</color> realized that this book was totally poorly written
+    and boring. It wasn't worth wasting her precious time on him.
   - '<i><color=Black>Reading is very boring, don''t you think?</color> </i>   '
   idchara: 0000000000000000
-  instruction: 000000000000000000000000
+  instruction: 0000000000000000ea030000
   Cenario: 4

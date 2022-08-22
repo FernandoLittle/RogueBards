@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Bard1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - No matter how many times <color=purple>William</color> cleaned his house, it
+    still smelled like blood.
+  - <color=purple>William</color>'s sword had that same smell.
+  - That smell aroused disgust in him.
+  - It aroused regret.
+  - It aroused hatred.
+  - It was that scent that guided him on his quest for revenge.
+  - No one but him could smell that scent, but he knew it was something real. It
+    was impossible that such a strong smell was merely an illusion.
+  - The <color=purple>warrior</color> sharpened his sword.
+  - '"<color=#FF0080>Maduin</color> is an idiot."'
+  - '"To have pity on criminals is foolish."'
+  - '"All they deserve is suffering."'
+  - '"Yes".'
+  - <color=purple>William</color> gave a big smile.
+  - "\"Suffering\u2026 I want to see that motherfucking bard scream in pain.\""
+  - The <color=purple>warrior</color> sharpened his sword.
+  - '"That damn bard. He drank with me, he laughed with me, he sang with me."'
+  - '"He made me sin against my father."'
+  - '"Is there a greater sin than being a friend to your own father''s murderer?"'
+  - '"<color=red>Exists</color>."'
+  - '"He will suffer."'
+  - <color=purple>William</color> didn't think about what his life would be like
+    after that day. He didn't think about his friends, about his dreams, about his
+    values.
+  - He didn't think because he didn't have any of that.
+  - The only thing he had was his revenge plan.
+  - From the moment he left his house to the moment he arrived at the bard's house,
+    the <color=purple>warrior</color> took several steps.
+  - He didn't look at the landscape, he didn't look at the people, he didn't look
+    at the sky, he didn't look at the path.
+  - The only thing he could see as he walked that path was his desire for revenge.
+  - <color=purple>William</color> stopped in front of the bard's house door.
+  - '"It''s now, the moment I''ve always waited for has arrived."'
+  - 'But the <color=#00FFBF>bard</color> wasn''t home, he was behind <color=purple>William</color>,
+    hiding in the shadows. Recognizing the beautiful necklace the <color=purple>warrior</color>
+    was wearing, he said:'
+  - I was waiting for you, son of <color=blue>Roy</color>.
+  idchara: 00000000000000000000000000000000000000000000000000000000000000001c0000001c0000001c0000001c000000000000001c000000000000001c0000001c0000001c0000001c0000001c000000000000000000000000000000000000000000000000000000000000001c000000000000000a000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000
+  Cenario: 20

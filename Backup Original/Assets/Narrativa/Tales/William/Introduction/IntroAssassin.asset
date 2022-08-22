@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William chose the path of evil and became an assassin. He will fight for money,
-    for chaos, for criminals, for revenge and maybe find the person he hates the
-    most inside the Assassin's Guild.
+  - <color=purple>William</color> chose the path of evil and became an assassin.
+    He will fight for money, for chaos, for criminals, for revenge and maybe find
+    the person he hates the most inside the Assassin's Guild.
   - That would be a really fun scene.
   idchara: 0000000000000000
   instruction: 0000000000000000

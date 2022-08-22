@@ -41,11 +41,11 @@ public class StaticPlayer : MonoBehaviour
         Defense= new int[6];
         PlayerMaxLife= new int[6];
         Attack= new int[6];
-        //Temporário
-        TrueAttack.Add(20);
-        FakeAttack.Add(20);
-        Block.Add(20);
-        CounterAttack.Add(20);
+
+        TrueAttack.Add(0);
+        FakeAttack.Add(0);
+        Block.Add(0);
+        CounterAttack.Add(0);
 
     }
 

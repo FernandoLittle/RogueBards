@@ -20,6 +20,6 @@ MonoBehaviour:
   - "<color=cyan>Kingslayer</color>\u2026 yes, thanks for reminding me."
   - The clear blood of the cannibal heralded  <color=red>Roy</color>'s glorious victory,
     in time he would grow accustomed to success in his challenging battles.
-  idchara: 0b0000000b0000000b000000
+  idchara: 0b0000001b0000000b00000000000000
   instruction: 0000000000000000000000000000000069000000
   Cenario: 1

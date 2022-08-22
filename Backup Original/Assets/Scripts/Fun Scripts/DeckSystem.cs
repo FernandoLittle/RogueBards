@@ -85,7 +85,7 @@ public class DeckSystem : MonoBehaviour
   
             for (int x = 0; x < TrueAttack.Count; x = x + 1)
             {
-                D.Chara[A.zoneid[4].idcard1].AtaqueForte.Add(TrueAttack[x]);
+                //D.Chara[A.zoneid[4].idcard1].AtaqueForte.Add(TrueAttack[x]);
 
             }
         
@@ -93,7 +93,7 @@ public class DeckSystem : MonoBehaviour
 
             for (int x = 0; x < FakeAttack.Count; x = x + 1)
             {
-                D.Chara[A.zoneid[4].idcard1].AtaqueRápido.Add(FakeAttack[x]);
+               // D.Chara[A.zoneid[4].idcard1].AtaqueRápido.Add(FakeAttack[x]);
 
             }
         
@@ -101,7 +101,7 @@ public class DeckSystem : MonoBehaviour
 
             for (int x = 0; x < Block.Count; x = x + 1)
             {
-                D.Chara[A.zoneid[4].idcard1].Bloqueio.Add(Block[x]);
+                //D.Chara[A.zoneid[4].idcard1].Bloqueio.Add(Block[x]);
 
             }
 
@@ -109,7 +109,7 @@ public class DeckSystem : MonoBehaviour
 
             for (int x = 0; x < CounterAttack.Count; x = x + 1)
             {
-                D.Chara[A.zoneid[4].idcard1].Esquiva.Add(CounterAttack[x]);
+               // D.Chara[A.zoneid[4].idcard1].Esquiva.Add(CounterAttack[x]);
 
             }
 

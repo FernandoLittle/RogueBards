@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 8997541dd7717ea4895652abc52265bd, type: 3}
   sprite1: {fileID: 0}
-  Name: 
+  Name: <color=#00FFBF>The Bard</color>
   id: 10
   idPersonagem: 0
-  AtaqueForte: 
-  "AtaqueR\xE1pido": 
-  Bloqueio: 
-  Esquiva: 
-  Vida: 0
-  Ataque: 0
-  Defesa: 0
+  AtaqueForte: 0a000000
+  "AtaqueR\xE1pido": 0a000000
+  Bloqueio: 0a000000
+  Esquiva: 0a000000
+  Vida: 16
+  Ataque: 6
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 0
+  Level: 12
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 
+  skin: 0600000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
   SentimentoType: 0

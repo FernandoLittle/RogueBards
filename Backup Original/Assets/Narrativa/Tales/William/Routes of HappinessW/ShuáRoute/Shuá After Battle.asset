@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1 After Battle"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Why are you attacking us motherfucker? We came from another country just to help
+    the victims of war, asshole.
+  - Don't pretend to be an idiot. The Mirians invaded our country, killed women and
+    children, and you helped them.
+  - "We were just following the <color=#FF0080>Shu\xE1</color> teachings. We were
+    loving our enemies."
+  - "You can go to hell with the Mirians, you bastards. seguir seu cora\xE7\xE3o.
+    Seguir Shu\xE1"
+  idchara: 1c000000180000001c00000018000000
+  instruction: 000000000000000000000000000000003e010000
+  Cenario: 14

@@ -101,6 +101,7 @@ public class Combat : MonoBehaviourPunCallbacks
     }
     public void Fight()
     {
+        A.TrueDisabler.SetActive(true);
         if (A.offline == true)
         {
             D.Zone[D.p1].ManaSpend = ManaSpendA;

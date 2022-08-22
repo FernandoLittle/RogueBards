@@ -177,7 +177,7 @@ public class F : MonoBehaviour
 
 
 
-        for (int x = 0; x < 2; x = x + 1)
+        for (int x = 0; x < 2; x = x + 1)//Fast Effects (Criado para aumentar defesa antes dos ataques acontecerem)
         {
             ExChange(x);
             a.RelicSystem.BonusSentimento(y0, z0, x);
@@ -192,19 +192,29 @@ public class F : MonoBehaviour
 
 
             }
+            if (x30 == 1)//Orgulho de William
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(1, 2, true);
+                }
+                
+
+
+            }
 
             if (x40 == 15)//TeemoE
             {
                 if (Zone[y0].Code[11] == true)
                 {
-                    UpAttribute(2, 2, false);
+                    //UpAttribute(2, 2, false);
                 }
             }
             if (x40 == 19)//LeeE
             {
                 if (a.round == 1)
                 {
-                    UpAttribute(1, 2, false);
+                    //UpAttribute(1, 2, false);
                 }
             }
             if (x30 == 20) //FioraB
@@ -212,7 +222,7 @@ public class F : MonoBehaviour
                 DuelistF(y0);
                 if (duelist == true)
                 {
-                    UpAttribute(1, 2, false);
+                    //UpAttribute(1, 2, false);
                 }
             }
         }
@@ -220,7 +230,7 @@ public class F : MonoBehaviour
     public void A()
 
     {
-        
+
         if (o.NexusE.id * o.NexusE.side < 0)
         {
             Attacking = 1;
@@ -242,7 +252,7 @@ public class F : MonoBehaviour
 
 
             //Ataques Fortes Ally
-            if (x10 == 1)
+            if (x10 == 1)//Shuá Sofre
             {
 
 
@@ -253,7 +263,7 @@ public class F : MonoBehaviour
 
 
             }
-            if (x10 == 2)
+            if (x10 == 2)//Tese Akashica
             {
 
 
@@ -273,7 +283,7 @@ public class F : MonoBehaviour
 
 
             }
-            if (x10 == 3)
+            if (x10 == 3)//Doutrina de Lyoko
             {
 
 
@@ -297,10 +307,10 @@ public class F : MonoBehaviour
 
             }
 
-            if (x10 == 4)
+            if (x10 == 4)//Liberar Maná
             {
 
-                //Liberar Maná
+
                 if (Win == 1)
                 {
                     if (Zone[y0].SentimentalBool == true && Generic.HaveInt(Zone[y0].status, 3))
@@ -322,34 +332,9 @@ public class F : MonoBehaviour
             if (x10 == 5)
             {
 
-                Zone[y0].Lyoko[0] += 1;
-                Zone[y0].Lyoko[1] += 1;
-                Zone[y0].Lyoko[2] += 1;
-                Zone[y0].Lyoko1[0] += 1;
-                Zone[y0].Lyoko1[1] += 1;
-                Zone[y0].Lyoko1[2] += 1;
-                b10 = 0;
-
             }
             if (x10 == 6)
             {
-
-
-                Damage = 0;
-                for (int w = 0; w < Zone.Count; w = w + 1)
-                {
-                    if (Zone[w].idcard1 * e0 > 0)
-                    {
-                        Damage += Zone[w].Lyoko[1];
-                        Zone[w].Lyoko[1] = 0;
-                    }
-                }
-                Damage -= Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
 
 
             }
@@ -357,26 +342,11 @@ public class F : MonoBehaviour
             {
 
 
-                Caos = Random.Range(3, 6);
-                Damage = Zone[y0].Lyoko[1] + Caos - Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
-
-
 
             }
             if (x10 == 8)
             {
 
-                Damage = Zone[y0].Lyoko[1] + Zone[y0].Lyoko[2] - Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
 
 
             }
@@ -384,89 +354,76 @@ public class F : MonoBehaviour
             {
 
 
-                if (Zone[y0].Lyoko[1] > Zone[z0].Lyoko[1])
-                {
-                    x50 = 0;
-                    x60 = 0;
-                }
-
-
-
-
-
-
-                Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
-                if (Damage > 0)
-                {
-                    Zone[z0].Lyoko[0] -= Damage;
-                    Zone[z0].Code[4] = true;
-                }
-
-
-                //Evolui para mago mestre
             }
-            if (x10 == 10)
+            if (x10 == 10)//Um Fim (Bardo)
+            {
+                if (Win == 0)
+                {
+                    AddStatus(4, -1);
+                }
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                
+
+            }
+            if (x10 == 11)
             {
 
-                Zone[y0].Lyoko[1] += 4;
 
 
 
-                if (b80 == 0)
+            }
+            if (x10 == 12)//Jiri
+            {
+                if (Win == 1)
                 {
-                    Damage = Zone[y0].Lyoko[1] - Zone[z0].Lyoko[2];
-                    if (Damage > 0)
-                    {
-                        Zone[z0].Lyoko[0] -= Damage;
-                        Zone[z0].Code[4] = true;
-                    }
+                    TrueDamage(10);
                 }
-
+            }
+            if (x10 == 13)//Brad
+            {
+                if (Win == 1)
+                {
+                    Attack();
+                }
+            }
+            if (x10 == 14)//Noji
+            {
+                UpAttribute(4, 1, true);
+                if (Win == 1)
+                {
+                    Attack();
+                }
+            }
+            if (x10 == 15)//Varys
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(-4, 1, true);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+            }
+            if (x10 == 16)//Mirio
+            {
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+            }
+            if (x10 == 17)//Klaus
+            {
+                Attack();
             }
             if (x10 == 18)
             {
 
-                if (Win == 1)
-                {
-                    Caos = Random.Range(3, 6);
-                    Damage = Zone[y0].Lyoko[1] + Caos - Zone[z0].Lyoko[2];
-                    if (Damage > 0)
-                    {
-                        Zone[z0].Lyoko[0] -= Damage;
-                        Zone[z0].Code[4] = true;
-                    }
-                }
-
-
             }
-            if (x10 == 20)
-            {
 
-                if (x + Attacking % 2 == 0)
-                {
-                    for (int w = 1; w < Zone.Count; w = w + 1)
-                    {
-                        if (Zone[w].idPersonagem == 3 && Zone[w].idcard1 > 0)
-                        {
-                            Zone[w].lv1 += 1;
-                            Zone[w].up = 1;
-                        }
-                    }
-                }
-                if (x + Attacking % 2 == 1)
-                {
-                    for (int w = 1; w < Zone.Count; w = w + 1)
-                    {
-                        if (Zone[w].idPersonagem == 4 && Zone[w].idcard1 < 0)
-                        {
-                            Zone[w].up = 1;
-                        }
-                    }
-                }
-
-                //Aumenta o nível do Pilkim
-
-            }
             if (x10 == 21)
             {
                 if (Win == 1)
@@ -560,63 +517,40 @@ public class F : MonoBehaviour
 
 
             }
-            if (x10 == 27)//FioraAF
+            if (x10 == 27)//Fim da Fome
             {
-
 
                 if (Win == 1)
                 {
-                    if (Zone[y0].ManaSpend == 4)
-                    {
-                        TrueDamage(8);
-                    }
-                    else
-                    {
-                        TrueDamage(4);
-                    }
-
-                    /* Damage = Zone[y0].Lyoko[1] + 2 * Zone[z0].Counter[1] - Zone[z0].Lyoko[2];
-                     if (Damage > 0)
-                     {
-                         if (Zone[z0].Counter[1] > 3)
-                         {
-                             Damage *= 2;
-                         }
-                         Zone[z0].Lyoko[0] -= Damage;
-                         Zone[z0].Code[4] = true;
-                         c6.Add(1);
-                         d1 = -1;
-                         X1();
-                         if (Zone[z0].Counter[1] > 3)
-                         {
-                             Zone[y0].Lyoko[0] += Damage;
-                             if (Zone[y0].Lyoko[0] > Zone[y0].Lyoko1[0] + Zone[y0].Lyoko2[0])
-                             {
-                                 Zone[y0].Lyoko[0] = Zone[y0].Lyoko1[0] + Zone[y0].Lyoko2[0];
-                             }
-                             c6.Add(6);
-                             d1 = 1;
-                             X1();
-                         }
-                         Zone[z0].Counter[1] += 1;
-
-
-                     }
-                     else
-                     {
-                         Damage = 0;
-                     }*/
-
+                    TrueDamage(6);
                 }
 
 
 
+
+
+            }
+            if (x10 == 28)//Fúria de William
+            {
+                if (Win == 1)
+                {
+                    DoubleAttack();
+                }
+
+            }
+            if (x10 == 30)//Durma Bem, Bobo
+            {
+                if (Win == 1)
+                {
+                    TrueDamage(678);
+                }
+
             }
             //Ataques Rápidos Ally
 
-            if (x20 == 1)
+            if (x20 == 1)//Shua Bless
             {
-                //Shua Bless
+
                 Altruism(4);
                 if (Win == 1)
                 {
@@ -624,7 +558,7 @@ public class F : MonoBehaviour
                 }
 
             }
-            if (x20 == 2)
+            if (x20 == 2)//Estudo Akashico
             {
                 AddStatus(2, 1);
                 if (Win == 1)
@@ -636,7 +570,7 @@ public class F : MonoBehaviour
 
 
             }
-            if (x20 == 3)
+            if (x20 == 3)//Virtude de Lyoko
             {
                 if (Win == 1)
                 {
@@ -646,7 +580,7 @@ public class F : MonoBehaviour
 
             }
 
-            if (x20 == 4)
+            if (x20 == 4)//Elevar o Maná
             {
 
                 if (Win == 1)
@@ -657,23 +591,11 @@ public class F : MonoBehaviour
             }
             if (x20 == 5)
             {
-                //Dobra os efeitos passivos de Nehant
+
             }
             if (x20 == 6)
             {
 
-                if (Win == 1)
-                {
-                    {
-                        Damage = Zone[y0].Lyoko[1] * 2 - Zone[z0].Lyoko[2];
-                        if (Damage > 0)
-                        {
-                            Zone[z0].Lyoko[0] -= Damage;
-                            Zone[z0].Code[4] = true;
-                        }
-
-                    }
-                }
 
 
             }
@@ -681,122 +603,92 @@ public class F : MonoBehaviour
             if (x20 == 7)
             {
 
-                if (Win == 1)
-                {
-                    {
-                        Damage = 4 - Zone[z0].Lyoko[2];
-
-                        if (Damage > 0)
-                        {
-                            Zone[z0].Lyoko[0] -= Damage * 3;
-                            Zone[z0].Code[4] = true;
-                        }
-
-                    }
-                }
 
 
             }
             if (x20 == 8)
             {
 
-                if (Win == 1)
-                {
-                    {
-                        Zone[y0].Code[2] = true;
-                        Zone[z0].Code[2] = true;
-                        Zone[z0].Code[3] = true;
-                        //Causa 2 de dano puro no fim de cada turno. Pilkim e o inimigo não podem se mover ou atacar até o fim do round. 
-                    }
-                }
+
 
 
             }
-            if (x20 == 9)
+            if (x20 == 10)//Pior do que a morte
             {
 
-                for (int w = 1; w < Zone.Count; w = w + 1)
+                if (Win == 0)
                 {
-                    if (Zone[w].idcard1 * e0 < 0)
-                    {
-                        for (int w1 = 0; w1 < Zone[y0].idzone0.Count; w1 = w1 + 1)
-                        {
-                            if (Zone[y0].idzone0[w1] == Zone[w].idzone1)
-                            {
-                                Zone[w].Lyoko[0] -= 2;
-                                Zone[w].Code[4] = true;
-                            }
-                        }
-                    }
+                    AddStatus(4, -1);
                 }
-
                 if (Win == 1)
                 {
-
-
-                    Zone[z0].Lyoko[0] -= 2;
-                    Zone[z0].Code[4] = true;
-
-                    //Atinge todos os inimigos próximos.
-
+                    TrueDamage(9);
                 }
-
-
             }
 
-            if (x20 == 10)
-            {
-                if (Win == 1)
-                {
-
-                    if (x + Attacking % 2 == 0)
-                    {
-                        for (int w = 1; w < Zone.Count; w = w + 1)
-                        {
-                            if (Zone[w].idPersonagem == 3 && Zone[w].idcard1 > 0)
-                            {
-                                Zone[w].lv1 += 1;
-                            }
-                        }
-                    }
-                    if (x + Attacking % 2 == 1)
-                    {
-                        for (int w = 1; w < Zone.Count; w = w + 1)
-                        {
-                            if (Zone[w].idPersonagem == 3 && Zone[w].idcard1 < 0)
-                            {
-                                Zone[w].lv1 += 1;
-                            }
-                        }
-                    }
-                    // Aumenta o nível do Come-Pedras
-
-                }
-
-
-            }
-            if (x20 == 17)
+            if (x20 == 12)//Jiri
             {
 
                 if (Win == 1)
                 {
-                    {
-                        Zone[z0].Lyoko[0] -= 4;
-                        Zone[z0].Code[4] = true;
-                    }
+                    TrueDamage(10);
                 }
+
+
+            }
+            if (x20 == 13)//Brad
+            {
+
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+
+            }
+            if (x20 == 14)//Noji
+            {
+                UpAttribute(4, 1, true);
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+
+            }
+            if (x20 == 15)//Varys
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(-4, 1, true);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+
+            }
+            if (x20 == 16)//Mirio
+            {
+
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+
+            }
+
+
+            if (x20 == 17)//Klaus
+            {
+                Attack();
 
 
             }
             if (x20 == 18)
             {
-
-                if (Win == 1)
-                {
-
-                    Attack();
-                    AddStatus(1, 1);
-                }
 
 
             }
@@ -888,27 +780,40 @@ public class F : MonoBehaviour
                 }
 
             }
-            if (x20 == 24)//FioraAR
+            if (x20 == 27)//Ganância de Roy
             {
 
                 if (Win == 1)
                 {
-                    Attack();
-                    Attack();
+                    DoubleAttack();
+                }
 
+            }
+            if (x20 == 28)//Determinação de William
+            {
+
+
+                if (Win == 1)
+                {
+                    TrueDamage(7);
                 }
 
 
 
 
-
-
+            }
+            if (x20 == 30)//Durma Bem, Bobo
+            {
+                if (Win == 1)
+                {
+                    TrueDamage(678);
+                }
 
             }
 
-
             //Bloqueios Ally
-            if (x30 == 1)
+
+            if (x30 == 1)//Shuá Protege
             {
                 if (Win == 1)
                 {
@@ -916,19 +821,19 @@ public class F : MonoBehaviour
                 }
 
             }
-            if (x30 == 2)
+            if (x30 == 2)//Ceticismo Akashico
             {
 
                 if (Win == 1)
                 {
                     AddStatus(1, 1);
-                    UpAttribute(2, 2,true);
+                    UpAttribute(2, 2, true);
                 }
 
 
             }
 
-            if (x30 == 3)
+            if (x30 == 3)//Direito de Lyoko
             {
 
                 if (Win == 1)
@@ -938,7 +843,7 @@ public class F : MonoBehaviour
                 ForceofWill(4);
             }
 
-            if (x30 == 4)
+            if (x30 == 4)//Controlar o Mana
             {
                 AddStatus(3, 1);
                 if (Win == 1)
@@ -951,29 +856,60 @@ public class F : MonoBehaviour
             {
 
             }
-            if (x30 == 6)
+            if (x30 == 10)//Você é patético
             {
-
+                if (Win == 0)
+                {
+                    UpAttribute(6, 0, true);
+                }
             }
 
-            if (x30 == 12)
+            if (x30 == 12)//Jiri
             {
-
+                if (Win == 0)
+                {
+                    TrueDamage(2);
+                }
+            }
+            if (x30 == 13)//Brad
+            {
+                if (Win == 1)
+                {
+                    TrueDamage(10);
+                }
+            }
+            if (x30 == 14)//Noji
+            {
+                UpAttribute(4, 1, true);
+                if (Win == 1)
+                {
+                    Attack();
+                }
             }
 
-            if (x30 == 15)
+            if (x30 == 15)//Varys
             {
-
+                if (Win == 0)
+                {
+                    UpAttribute(-4, 1, true);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
             }
 
             if (x30 == 16)
             {
-
+                if (Win == 1)//Mirio
+                {
+                    TripleAttack();
+                }
             }
 
-            if (x30 == 17)//AniviaB
+            if (x30 == 17)//Klaus
             {
-                Zone[y0].Code[5] = true;
+                Attack();
             }
             if (x30 == 18)//KalistaB
             {
@@ -1031,19 +967,26 @@ public class F : MonoBehaviour
                     TrueDamage(1);
                 }
             }
-            if (x30 == 23)//TeemoB
+            if (x30 == 27)//Por Favor Não me Mate
+            {
+                //Nada
+            }
+            if (x30 == 28)//Orgulho de William
+            {
+                //Aumenta Defesa (Fast Effect)
+            }
+            if (x30 == 30)//Durma Bem, Bobo
             {
                 if (Win == 1)
                 {
-                    TrueDamage(1);
+                    TrueDamage(678);
                 }
+
             }
 
 
-
-
             //Esquivas Ally
-            if (x40 == 1)
+            if (x40 == 1)//Shuá Chora
             {
 
                 if (Zone[z0].Lyoko[0] > 20)
@@ -1051,11 +994,11 @@ public class F : MonoBehaviour
                     NormalDamage(100);
                 }
                 TrueDamageAlly(3);
-                
+
 
 
             }
-            if (x40 == 2)
+            if (x40 == 2)//Refutação Akashica
             {
 
                 if (Generic.HaveInt(Zone[y0].status, 1))
@@ -1064,7 +1007,7 @@ public class F : MonoBehaviour
                 }
 
             }
-            if (x40 == 3)
+            if (x40 == 3)//Lei de Lyoko
             {
 
                 if (Generic.HaveInt(Zone[y0].status, 2))
@@ -1074,7 +1017,7 @@ public class F : MonoBehaviour
 
 
             }
-            if (x40 == 4)
+            if (x40 == 4)//Transformar o Mana
             {
 
                 if (Win == 1)
@@ -1086,156 +1029,130 @@ public class F : MonoBehaviour
             if (x40 == 5)
             {
 
-                if (Win == 1)
-                {
-                    {
-                        Zone[y0].up = 1;
-                        Zone[y0].Code[0] = true;
-                        //Ganha um nivel caso não sofra dano até o fim do round
-                    }
-                }
+
 
             }
-
+            if (x40 == 10)//Você é patético
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(6, 0, true);
+                }
+            }
             if (x40 == 11)
             {
 
-                Zone[y0].Lyoko[0] += 6;
-                Zone[y0].Lyoko1[0] += 6;
 
             }
 
-            if (x40 == 12)
+            if (x40 == 12)//Jiri
             {
-                if (Win == 1)
+
+                if (Win == 0)
                 {
-                    {
-                        if ((b1 == 1 && b8 == 0) || (b2 == 1 && b7 == 0))
-                        {
-                            Zone[z0].Lyoko[0] -= 4;
-                            Zone[z0].Code[4] = true;
-                        }
-                    }
+                    TrueDamage(2);
                 }
-
             }
-            if (x40 == 13)
-            {
-
-                Zone[y0].Lyoko[1] += 1;
-                Zone[y0].Lyoko[2] += 1;
-                Zone[y0].Lyoko[3] += 1;
-
-            }
-            if (x40 == 14)
+            if (x40 == 13)//Brad
             {
 
                 if (Win == 1)
                 {
-                    Zone[y0].up = 1;
-                    Zone[y0].Code[0] = true;
-                    //Sobe de nível se não tomar dano até o fim do round
+                    TrueDamage(10);
+                }
+            }
+            if (x40 == 14)//Noji
+            {
+                UpAttribute(4, 1, true);
+                if (Win == 1)
+                {
+                    Attack();
                 }
 
             }
-            if (x40 == 15)//TeemoD
+            if (x40 == 15)
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(-4, 1, true);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+            if (x40 == 16)//Mirio
             {
 
                 if (Win == 1)
                 {
-                    UpAttribute(2, 1, false);
+                    TripleAttack();
                 }
 
             }
-            if (x40 == 16)//AniviaD
+            if (x40 == 17)//Klaus
             {
-
-
-                if (Win == 1)
-                {
-                    NormalDamage(5);
-                    DamageMana(1);
-
-                }
-
-            }
-            if (x40 == 17)//KalistaD
-            {
-
-                if (Win == 1)
-                {
-                    NormalDamage(5);
-
-                }
-
-            }
-
-            if (x40 == 18)//VladD
-            {
-
-                TrueDamageAlly(1);
-                if (Win == 1)
-                {
-                    TrueDamage(3);
-
-                }
+                Attack();
 
 
             }
 
-            if (x40 == 19)//LeeD
+            if (x40 == 18)
             {
 
 
 
-                if (Win == 1)
-                {
+            }
 
-                    al.Clear();
-                    for (int w = 1; w < Zone.Count; w = w + 1)
-                    {
-                        if (Zone[w].idcard1 * card10 > 0 && (Zone[w].idcard1 != 25 || Zone[w].idcard1 != -25))
-                        {
-                            al.Add(w);
+            if (x40 == 19)
+            {
 
-                        }
-                    }
-                    sla = Random.Range(0, al.Count);
-                    sla = al[sla];
-                    Zone[sla].Lyoko[2] += 2;
-                    a.SetEffectValue(5, sla, 2);
-                }
+
+
+
 
             }
             if (x40 == 20)
             {
 
 
-                if (Win == 1)
-                {
-                    TrueDamage(2);
-                }
-
-
 
 
             }
 
+            if (x40 == 28)//Vingança de William
+            {
+                //Conquista Steam -->if opponent bardo Conquista: Use a vingança de William Contra o Bardo. Ativa efeito extra Attack +4 if win
 
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+            }
+            if (x40 == 30)//Durma Bem, Bobo
+            {
+                if (Win == 1)
+                {
+                    TrueDamage(678);
+                }
+
+            }
 
             a.RelicEffects.EndTurnEffectRelic(y0);
-            Debug.Log("FY0" + "="+ y0);
+            Debug.Log("FY0" + "=" + y0);
             StatusEffect();
         }
-    
+
         D.B();
     }
     public void AnimeSkill()
     {
 
-            a.ControllerAnimation.AnimationSkill(c9[k], AttackId[k]);
-        
-       
+        a.ControllerAnimation.AnimationSkill(c9[k], AttackId[k]);
+
+
     }
     public void B()
     {
@@ -1288,8 +1205,8 @@ public class F : MonoBehaviour
 
             }
             if (c9[k] == 1)
-            {              
-               anime[c6[k]].SetActive(true);
+            {
+                anime[c6[k]].SetActive(true);
                 if (c10[k] > 0)
                 {
                     Value[c6[k]].text = c10[k].ToString();
@@ -1765,7 +1682,7 @@ public class F : MonoBehaviour
     public void UpAttribute(int a, int attribute, bool permanent)
     {
         Damage = a;
-        if (Damage > 0)
+        if (Damage != 0)
         {
             Zone[y0].Lyoko[attribute] += Damage;
             if (permanent == true)
@@ -1828,7 +1745,7 @@ public class F : MonoBehaviour
     public void UpAttributeRelic(int a, int attribute, bool permanent, int idrelic)
     {
         Damage = a;
-        if (Damage > 0)
+        if (Damage != 0)
         {
             Zone[y0].Lyoko[attribute] += Damage;
             if (permanent == true)
@@ -2019,7 +1936,7 @@ public class F : MonoBehaviour
     }
     public void XRelic(int a)
     {
-        
+
         SetAttributes();
         Debug.Log("Xrelic");
         if (target == 1)
@@ -2039,14 +1956,14 @@ public class F : MonoBehaviour
             c5.Add(Zone[z0].Mana);
         }
         Debug.Log(e0);
-        Debug.Log(e0*target);
+        Debug.Log(e0 * target);
 
         c8.Add(a);
         c9.Add(e0);
         c10.Add(Damage);
         c11.Add(5);
         c12.Add(e0 * target);
-        
+
     }
     public void StatusEffect()
     {
@@ -2063,10 +1980,10 @@ public class F : MonoBehaviour
             }
             if (Zone[y0].status[x] == 2)//Coragem
             {
-                if(Zone[y0].Mana< Zone[z0].Mana)
+                if (Zone[y0].Mana < Zone[z0].Mana)
                 {
                     UpAttributeRelic(3, 1, true, 1);
- 
+
                 }
             }
             if (Zone[y0].status[x] == 3)//Paixão

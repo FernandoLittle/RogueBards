@@ -37,6 +37,8 @@ public class SkillA : MonoBehaviour
     public Text RelicName;
     public Text SkillName1;
     public Text SkillName2;
+    public Text ScaleT1;
+    public Text ScaleT2;
     // Start is called before the first frame update
     void Start()
     {
@@ -278,7 +280,7 @@ public class SkillA : MonoBehaviour
 
         if (TypeSkill == 1)
         {
-            d.ScaleT1.text = d.AttackS[NewIdSkill].scale.ToString();
+            ScaleT1.text = d.AttackS[NewIdSkill].scale.ToString();
             G1.il1.sprite = d.AttackS[NewIdSkill].sprite;
             G1.t0.text = d.AttackS[NewIdSkill].Texto0;
             G1.SetKeyword(d.AttackS[NewIdSkill]);
@@ -294,14 +296,14 @@ public class SkillA : MonoBehaviour
         }
         if (TypeSkill == 2)
         {
-            d.ScaleT1.text = d.AttackQ[NewIdSkill].scale.ToString();
+            ScaleT1.text = d.AttackQ[NewIdSkill].scale.ToString();
             G1.il1.sprite = d.AttackQ[NewIdSkill].sprite;
             G1.t0.text = d.AttackQ[NewIdSkill].Texto0;
             G1.SetKeyword(d.AttackQ[NewIdSkill]);
 
 
 
-            G2.d.ScaleT1.text = d.AttackQ[OldIdSkill].scale.ToString();
+            ScaleT2.text = d.AttackQ[OldIdSkill].scale.ToString();
             G2.il1.sprite = d.AttackQ[OldIdSkill].sprite;
             G2.t0.text = d.AttackQ[OldIdSkill].Texto0;
             G2.SetKeyword(d.AttackQ[OldIdSkill]);
@@ -313,14 +315,14 @@ public class SkillA : MonoBehaviour
         }
         if (TypeSkill == 3)
         {
-            d.ScaleT1.text = d.Block[NewIdSkill].scale.ToString();
+            ScaleT1.text = d.Block[NewIdSkill].scale.ToString();
             G1.il1.sprite = d.Block[NewIdSkill].sprite;
             G1.t0.text = d.Block[NewIdSkill].Texto0;
             G1.SetKeyword(d.Block[NewIdSkill]);
 
 
 
-            G2.d.ScaleT1.text = d.Block[OldIdSkill].scale.ToString();
+            ScaleT2.text = d.Block[OldIdSkill].scale.ToString();
             G2.il1.sprite = d.Block[OldIdSkill].sprite;
             G2.t0.text = d.Block[OldIdSkill].Texto0;
             G2.SetKeyword(d.Block[OldIdSkill]);
@@ -332,14 +334,14 @@ public class SkillA : MonoBehaviour
         }
         if (TypeSkill == 4)
         {
-            d.ScaleT1.text = d.Dodge[NewIdSkill].scale.ToString();
+            ScaleT1.text = d.Dodge[NewIdSkill].scale.ToString();
             G1.il1.sprite = d.Dodge[NewIdSkill].sprite;
             G1.t0.text = d.Dodge[NewIdSkill].Texto0;
             G1.SetKeyword(d.Dodge[NewIdSkill]);
 
 
 
-            G2.d.ScaleT1.text = d.Dodge[OldIdSkill].scale.ToString();
+            ScaleT2.text = d.Dodge[OldIdSkill].scale.ToString();
             G2.il1.sprite = d.Dodge[OldIdSkill].sprite;
             G2.t0.text = d.Dodge[OldIdSkill].Texto0;
             G2.SetKeyword(d.Dodge[OldIdSkill]);

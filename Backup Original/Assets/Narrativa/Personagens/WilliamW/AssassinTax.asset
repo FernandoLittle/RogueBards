@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 98d532df20c67f8419db6c71194c30ae, type: 3}
   sprite1: {fileID: 0}
-  Name: Brad
+  Name: <color=yellow>Brad</color>
   id: 13
   idPersonagem: 0
-  AtaqueForte: 06000000
-  "AtaqueR\xE1pido": 06000000
-  Bloqueio: 06000000
-  Esquiva: 05000000
+  AtaqueForte: 0d000000
+  "AtaqueR\xE1pido": 0d000000
+  Bloqueio: 0d000000
+  Esquiva: 0d000000
   Vida: 10
-  Ataque: 4
-  Defesa: 1
+  Ataque: 5
+  Defesa: 4
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1b00000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
-  SentimentoType: 3
+  skin: 0400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+  SentimentoType: 0

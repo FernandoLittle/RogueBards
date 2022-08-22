@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William chose the path of good and became a warrior. He will fight for the nation,
-    for the law, for the people, for revenge and maybe find the person he hates the
-    most when fighting the Assassins Guild.
+  - <color=purple>William</color> chose the path of good and became a warrior. He
+    will fight for the nation, for the law, for the people, for revenge and maybe
+    find the person he hates the most when fighting the Assassins Guild.
   - That would be a really fun scene.
   idchara: 0000000000000000
   instruction: 00000000f4010000

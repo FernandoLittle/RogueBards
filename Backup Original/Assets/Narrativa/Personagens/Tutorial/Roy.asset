@@ -17,19 +17,19 @@ MonoBehaviour:
   Name: <color=blue>Roy</color>
   id: 27
   idPersonagem: 0
-  AtaqueForte: 18000000
-  "AtaqueR\xE1pido": 18000000
-  Bloqueio: 03000000
-  Esquiva: 03000000
-  Vida: 30
-  Ataque: 12
-  Defesa: 0
+  AtaqueForte: 1b000000
+  "AtaqueR\xE1pido": 1b000000
+  Bloqueio: 1b000000
+  Esquiva: 1b000000
+  Vida: 10
+  Ataque: 5
+  Defesa: 2
   act: 0
   mov: 0
   Level: 17
   Passive: lex dura lex lupus
   Passivebr: 
   KeyordId: 
-  Relics: 
-  skin: 0500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
+  Relics: 02000000
+  skin: 2200000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
   SentimentoType: 0

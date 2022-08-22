@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1Quest2"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - "Will <color=#FF0080>Shu\xE1</color> torture sinners?"
+  - Torture is a very strong word, the scriptures of the monk <color=#FF0080>Harold</color>
+    say that he will cleanse the souls of sinners with the greatest of pains.
+  - "Is <color=#FF0080>Shu\xE1</color> kind for doing this?"
+  - Yes.
+  - "When I said that I wanted revenge, you condemned me and said that it would be
+    a sin, but when <color=#FF0080>Shu\xE1</color> causes the greatest pain in humans,
+    you say that this is a kind thing."
+  - Imagine that you wake up one day and find that you accidentally killed a child
+    while you were drunk.
+  - Would you suffer?
+  - Yes.
+  - <color=black>This joke is funny, don't you think?</color>
+  - Only a man with a corrupt soul does not suffer after sinning.
+  - "When <color=#FF0080>Shu\xE1</color> purifies our souls after death, we repent
+    of all our sins. The greatest pain that the scriptures mention is precisely the
+    pain of repentance. This is not a punishment, but a necessary consequence of
+    purification. "
+  - "If <color=#FF0080>Shu\xE1</color> is so kind, why would he let us suffer if
+    he could only give us pure happiness?"
+  - Pain is important for us to become better people and to learn.
+  - "<color=#FF0080>Shu\xE1</color> could simply throw all souls into a lake of infinite
+    pleasure, but what would that mean?"
+  - "<color=#FF0080>Shu\xE1</color> gave humans their greatest virtue, which is the
+    ability to love. How could we love without understanding the meaning of pain
+    and suffering?"
+  - To love we need a world where suffering and happiness coexist so that our actions
+    have some meaning.
+  - Pain and suffering were about to arrive.
+  idchara: 1c000000190000001c000000190000001c00000019000000190000001c0000000000000019000000190000001c0000001900000019000000190000001900000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000
+  Cenario: 14

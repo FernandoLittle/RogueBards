@@ -229,7 +229,14 @@ public class FantasyRivalsIA : MonoBehaviour
         {
             IdealManaA = TotalManaA;            
         }
+
         IdealManaA = Generic.Smaller(IdealManaA, TotalManaA);
+        if (A.turn > 2)
+        {
+
+            IdealManaA = 10;
+
+        }
         if (SelectorAlly == 0)
         {
             IdealScaleA=D.AttackS[SkillIDA[0]].scale;

@@ -47,12 +47,23 @@ public class RelicSystem : MonoBehaviour
 
 
     }
-    public void AddRelic(int a, int player, int b)
+    public void AddRelic()
     {
-        for (int x = 0; x < A.decklist.deck[player].card[b].Relics.Count; x = x + 1)
+        Debug.Log("AKJSKJ");
+        Debug.Log(A.Zone[5].idcard1);
+        for (int x = 0; x < D.Chara[A.Zone[5].idcard1].Relics.Count; x = x + 1)
         {
-            A.zoneid[a].Relics.Add(A.decklist.deck[player].card[b].Relics[x]);
+            A.Zone[5].Relics.Add(D.Chara[A.Zone[5].idcard1].Relics[x]);
         }
+        for (int x = 0; x < D.Chara[A.Zone[2].idcard1].Relics.Count; x = x + 1)
+        {
+            A.Zone[2].Relics.Add(D.Chara[A.Zone[2].idcard1].Relics[x]);
+        }
+
+        // for (int x = 0; x < A.decklist.deck[player].card[b].Relics.Count; x = x + 1)
+        //{
+        //    A.zoneid[a].Relics.Add(A.decklist.deck[player].card[b].Relics[x]);
+        // }
 
     }
     public void AddRelic2()

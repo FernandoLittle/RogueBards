@@ -24,6 +24,7 @@ public class Round : MonoBehaviour
     }
     public void A()
     {
+        a.TrueDisabler.SetActive(false);
         a.Dialogues.MasterDialogue();
         b += 1;
 /*

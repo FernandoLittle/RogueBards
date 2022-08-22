@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1 Warrior Way"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - I do not believe that. Why would I follow a path of virtue? I know many good
+    people who have tragic ends.
+  - "Do you know why I follow <color=#FF0080>Shu\xE1</color>?"
+  - "\u2026"
+  - "I think <color=#FF0080>Shu\xE1</color>'s path is beautiful. I have a theory
+    that people only do what is moral and virtuous because they see the beauty in
+    it."
+  - "I would never follow <color=#FF0080>Shu\xE1</color> if I saw ugliness in his
+    teachings"
+  - But aesthetics inspire my heart to do good and become a better person.
+  - Are you saying that beauty is what drives people to do good?
+  - Exactly!
+  - The beauty of this world was not visible to <color=purple>William</color>.
+  idchara: 1c000000190000001c0000001900000019000000190000001c0000001900000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000006d000000
+  Cenario: 13

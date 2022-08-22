@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: BardEnd
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Go to Ebu's house, sleep with her, I'll pick you up tomorrow.
+  - Why can't I stay here, father?
+  - Because I have an important job, you'll get in my way if you stick around.
+  - "<color=#FF0080>L\xE1zaro</color> knew what his father's old job was, so he hid
+    near his house instead of taking shelter in Ebu's house."
+  - Because he was too brave to run away while his father was in danger.
+  - <color=green>Akasha</color> reserved a special gift for the brave.
+  - "Seeing <color=purple>William</color> having fun breaking the <color=#00FFBF>bard</color>'s
+    arms and legs, <color=#FF0080>L\xE1zaro</color> ran to help his father."
+  - Stop! Please don't kill my father!
+  - People fear death a lot, it's strange because only the living are capable of
+    suffering.
+  - Don't worry about him, young man, for I won't kill him. And don't worry about
+    yourself, you won't suffer anymore.
+  - 'As <color=red>William</color> took his sword, the <color=#00FFBF>bard</color>
+    gathered all his strength to overcome the pain of his broken limbs and say:'
+  - You will kill...
+  - The <color=#00FFBF>bard</color> screamed, his physical pain unbearable.
+  - "You're going to kill a\u2026an innocent person."
+  - In exchange for nothing.
+  - He's not my son...
+  - "I do not love him\u2026"
+  - Killing him won't bother me one bit.
+  - "He's just a child\u2026 wretched\u2026 that I picked up on the street\u2026"
+  - "Those were the last words <color=#FF0080>L\xE1zaro</color> heard."
+  idchara: 0a000000170000000a00000000000000000000000000000000000000170000001c0000001c000000000000000a000000000000000a0000000a0000000a0000000a0000000a0000000a00000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
+  Cenario: 21

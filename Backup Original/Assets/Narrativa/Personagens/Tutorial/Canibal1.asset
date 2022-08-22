@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 0b8b59bfc7654514cb9dd59c0c3a543e, type: 3}
   sprite1: {fileID: 0}
-  Name: Cannibal
+  Name: ' <color=#FF6C88>Cannibal</color>'
   id: 11
   idPersonagem: 0
-  AtaqueForte: 03000000
-  "AtaqueR\xE1pido": 03000000
-  Bloqueio: 03000000
-  Esquiva: 03000000
-  Vida: 10
-  Ataque: 2
-  Defesa: 10
+  AtaqueForte: 0b000000
+  "AtaqueR\xE1pido": 0b000000
+  Bloqueio: 0b000000
+  Esquiva: 0b000000
+  Vida: 11
+  Ataque: 0
+  Defesa: 0
   act: 0
   mov: 0
-  Level: 1
+  Level: 2
   Passive: I like corn
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 0600000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
-  SentimentoType: 0
+  skin: 1600000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+  SentimentoType: 1

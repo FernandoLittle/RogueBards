@@ -12,23 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Theft
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
+  sprite: {fileID: 21300000, guid: 27192142c1b1a9b49b74df38be296014, type: 3}
   sprite1: {fileID: 0}
-  id: 18
+  Name: <color=yellow>Varys</color>
+  id: 15
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 0f000000
+  "AtaqueR\xE1pido": 0f000000
+  Bloqueio: 0f000000
+  Esquiva: 0f000000
+  Vida: 11
+  Ataque: 5
+  Defesa: 3
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1700000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
-  SentimentoType: 5
+  skin: 1700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+  SentimentoType: 7

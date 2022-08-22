@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1Death"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - The warm blood of that man made <color=purple>William</color> feel happy for
+    the first time on that mission.
+  - You are <color=red>smiling</color>.
+  - <color=purple>William</color> was tired of pretending to be someone he wasn't.
+  - Yes, I'm smiling, I killed a motherfucker who would kill you if it wasn't for
+    me.
+  - <color=#FF0080>Shu</color>'s path isn't about violence and revenge, it's about
+    mercy and...
+  - 'I''m tired of hearing speeches about love and kindness. This is a world of war
+    and pain where the powerful rule and the weak obey.
+
+    It makes me happy, you
+    know why?'
+  - Because I'm strong and I'm on the side that rules.
+  - This talk of loving sinners and doing good is just a talk for the weak to feel
+    better while obeying the strong.
+  - I found the way to my happiness, I'm going to join the mercenaries of this damn
+    war, make money and then... I don't know, I'm going to eat some whores in my
+    personal harem.
+  - (...)
+  - Seasons came and went and <color=purple>William</color> finally found happiness,
+    not in money, not in whores, but in the blood of his enemies, for in their death
+    he felt alive and strong.
+  idchara: 0000000019000000000000001c000000190000001c0000001c0000001c0000001c0000000000000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
+  Cenario: 14

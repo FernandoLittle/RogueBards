@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - 'In Sarka an assassin said:'
+  - 'In <color=yellow>Sarka</color> an assassin said:'
   - Warriors fight in bloody combat, face misery and hunger, and the people flourish
     on the dung of their corpses.
-  - 'In Sarka a warrior said:'
+  - 'In <color=yellow>Sarka</color> a warrior said:'
   - We will fight in bloody battles, we will face misery and hunger for the good
     of our nation.
   idchara: 00000000000000000000000000000000

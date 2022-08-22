@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE12"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - May I join your prayer?
+  - Good to see you <color=purple>William</color>, it will be a pleasure to pray
+    with you.
+  - What are you asking for?
+  - I'm not asking in this prayer, I'm giving thanks.
+  - We warriors don't have much to be thankful for these days. Everything is going
+    wrong with us.
+  - The life of all people is rich in misery. All humans feel hungry, get sick and
+    die.
+  - Exactly! Why would I thank you for this damn world?
+  - Because even with all the misfortunes, we are alive in this brief moment that
+    is tiny compared to the millions of years before our birth and the millions of
+    years after our death.
+  - Because we have water, we have food, we have health. All this will end and for
+    that I thank him for this brief moment when I have everything I need.
+  - Okay, you won, let's pray.
+  - This time <color=#FF0080>Kain</color> began to pray aloud.
+  - "<color=#FF0080>Shu\xE1</color>, thank you, for in this world of suffering you
+    have given us sources of happiness. Yesterday I was extremely happy with the
+    one-third discount I received at the whorehouse, all my luck emanates from your
+    will and for your will I am grateful."
+  - <color=purple>William</color> was perplexed.
+  - Are you thanking you for the discount you got at the whorehouse?
+  - "It was a gift from <color=#FF0080>Shu\xE1</color>, shouldn't I thank him?"
+  - "Of course not. You shouldn't be thankful for that because it wasn't a gift from
+    Shu\xE1. All warriors receive discount at the whorehouse."
+  - <color=#FF0080>Kain</color> was perplexed.
+  - "Do all warriors receive a discount? Fuck <color=#FF0080>Shu\xE1</color>, <color=yellow>Lyoko</color>
+    is the most amazing god of all."
+  - Thank you, <color=yellow>Lyoko</color>!
+  idchara: 1c000000200000001c000000200000001c000000200000001c00000020000000200000001c0000000000000020000000000000001c000000200000001c000000000000002000000020000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000076000000
+  Cenario: 12

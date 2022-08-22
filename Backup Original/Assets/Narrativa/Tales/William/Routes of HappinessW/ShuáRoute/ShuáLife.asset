@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE1Life"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - "I could kill you here, but that's not what <color=#FF0080>Shu\xE1</color> taught
+    us. We came here to help all the victims and all the wounded that exist on both
+    sides. Just leave us alone."
+  - I don't like you, but I will reward your mercy by revealing information that
+    could save you.
+  - More soldiers are coming this way. You are strong, but you won't be able to defeat
+    them all, I suggest you run away. We just want to kill the Mirians that are here.
+  - "Run away, <color=purple>William</color>, you did a good job, <color=#FF0080>Shu\xE1</color>
+    is happy to see your virtues."
+  - I will stay here to defend the Mirians.
+  - You've heard of the sins those bastards committed, why would you risk your life
+    for them?
+  - "The true mission of the <color=#FF0080>Shu\xE1</color> followers is to lead
+    sinners to the path of virtue. Those Mirians repented of their sins, I cannot
+    allow them to die a brutal death."
+  - There's no way you can calm the Varsians' wrath. If you stay here, you will die
+    for nothing.
+  - A monk is not afraid of death, our only fear is to deviate from the path of virtue.
+  - Go away, my <color=purple>lord</color>.
+  - Go away, <color=purple>William</color>, find your happiness as I found mine.
+    Find Shuan love and spread it across this war world.
+  - <color=purple>William</color> didn't look back as he fled, but he knew what had
+    happened since it was so obvious.
+  - "The Varsians brutally killed the Shuan <color=#FF0080>monk</color> because\u2026"
+  - "This is not the world of <color=#FF0080>Shu\xE1</color>."
+  - <color=black>This is my world. </color>
+  idchara: 1c000000180000001800000019000000190000001c000000190000001c00000019000000190000001900000000000000000000000000000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
+  Cenario: 14

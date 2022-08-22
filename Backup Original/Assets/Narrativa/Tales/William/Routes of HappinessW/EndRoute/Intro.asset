@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Day after day <color=purple>William</color> investigated to try to find out who
+    was his father's killer.
+  - The one responsible for killing the soldiers who fought in <color=purple>Denai</color>
+    was the former leader of the Assassin's Guild, but after retiring he left few
+    clues to his existence.
+  - The most obvious plan would be to capture the current Guild leader Ebu Setamo
+    Liada and extract information from her using torture. But <color=purple>William</color>
+    didn't have the courage to face an enemy who possessed angelic weapons.
+  - Fortunately, a letter arrived to solve all his problems.
+  - '"I know who your father''s killer is, meet me at the top of Peace Hill at midnight
+    on the 105th of winter."'
+  - This is a stupidly obvious trap, clearly an assassin is going to ambush me taking
+    advantage of the darkness and vegetation on the hill.
+  - But <color=purple>William</color> was not a coward, instead of ignoring the letter,
+    he decided to turn the tables and ambush the assassin.
+  - He arrived at the top of the hill on the morning of the day 103 and camped for
+    two days hiding among the trees and waiting for an assassin to arrive.
+  - The darkness of day 104 was terrifying, knowing that an assassin would come to
+    him in the midst of the darkness brought immense agony to his soul.
+  - He soon regretted his decisions, but it was too late to go back, the only thing
+    he could do was stay silent and wait.
+  - Every noise made her heart race, a noise could be a wind, an animal or a damn
+    killer wanting to cut her throat.
+  - Ironically, calm ran through her body just as the <color=purple>assassin</color>
+    appeared, her silhouette visible in the moonlight and strangely she didn't hide.
+  - <color=purple>William</color> attacked with all his fury, but the assassin managed
+    to defend herself.
+  idchara: 000000000000000000000000000000001c0000001c00000000000000000000000000000000000000000000000000000000000000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b000000
+  Cenario: 22

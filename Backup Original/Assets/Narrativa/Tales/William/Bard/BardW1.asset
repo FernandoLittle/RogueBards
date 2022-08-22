@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William shed a tear, not of sadness, not of regret, but of gratitude to hear
-    such beautiful music while drinking a beer.
-  - Hey bard, come here, your drink is on me tonight.
+  - <color=purple>William</color> shed a tear, not of sadness, not of regret, but
+    of gratitude to hear such beautiful music while drinking a beer.
+  - Hey <color=#00FFBF>bard</color>, come here, your drink is on me tonight.
   - Thank you very much, young man. It's the first time a warrior has offered me
     a drink.
   - I have no prejudice against you.
   - Yet.
   - Yes, yet.
-  - The bard had a good laugh.
-  - Perhaps you should, young man. A good bard is a friend to dealers and loan sharks.
+  - The <color=#00FFBF>bard</color>, had a good laugh.
+  - Maybe you should, young man. A good bard is friends with drug dealers and thieves.
   - Aren't you afraid to confess it in front of a warrior?
-  - The bard smiled kindly.
+  - The <color=#00FFBF>bard</color>, smiled kindly.
   - No.
   - That's why I don't have prejudices, no one would imagine that there were brave
     bards.
-  - The bard laughed.
+  - The <color=#00FFBF>bard</color>, laughed.
   - "A free drink and a compliment like that, warriors are kind these days. I need
     to reward you somehow\u2026 do you want me to teach you how to play some music?"
   - It's fine by me, I'm off today.

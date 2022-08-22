@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fight4
   m_EditorClassIdentifier: 
   IdFight: 4
-  IdChara: 00000000000000000b00000000000000000000001b00000000000000
+  IdChara: 00000000000000001400000000000000000000001b00000000000000
   Dialogue1:
   - Don't Kil me
   - ...
@@ -30,3 +30,5 @@ MonoBehaviour:
   TaleVictory: 5
   TaleDefeat: 7
   "Cen\xE1rio": 1
+  TaleTypeV: 0
+  TaleTypeD: 0

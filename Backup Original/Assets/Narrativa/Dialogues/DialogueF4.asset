@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
   m_Name: DialogueF4
   m_EditorClassIdentifier: 
+  id: 0
   Dialogue:
-  - 'Characters have 3 attributes:'
-  - 'Attack: Many skills deal damage depending on the character''s attack'
-  - 'Defense: Reduces the damage your character takes, but does not reduce true damage.'
-  - 'Life: When a character''s life reaches 0 he dies.'
+  - 'Humans have 3 attributes:'
+  - '<color=80FF80>Attack</color>: Many skills deal damage depending on the human''s
+    attack.'
+  - '<color=FFFF80>Defense</color>: Reduces the damage your human takes, but does
+    not reduce true damage.'
+  - '<color=red>Life</color>: When a humans''s life reaches 0 he dies.'
   - Tonight will be cold.
-  idchara: 00000000000000000000000000000000
+  idchara: 0000000000000000000000000000000000000000
   instruction: 100000001100000012000000130000001400000001000000
+  Cenario: 0

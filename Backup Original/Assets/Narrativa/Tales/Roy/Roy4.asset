@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   Dialogue:
-  - Please soldier, don't kill me, I don't want to die, I do anything you want, just
-    don't kill me, please.
+  - Please <color=blue>soldier</color>, don't kill me, I don't want to die, I do
+    anything you want, just don't kill me, please.
   - Do not kill me... please
   - Captain <color=yellow>Yuri</color> can accept your offer, try to reason with
     him
   - <color=red>Please</color>!
   - Thanks.
-  - 'After several victories, Roy found the limit of his love.
+  - 'After several victories, <color=blue>Roy</color> found the limit of his love.
 
-    He knelt down,
-    began to cry and showed all his weakness.'
+    He
+    knelt down, began to cry and showed all his weakness.'
   idchara: 0c0000000c0000001b0000000c000000
   instruction: 3901000000000000cb000000cc000000cd000000000000006b000000
   Cenario: 1

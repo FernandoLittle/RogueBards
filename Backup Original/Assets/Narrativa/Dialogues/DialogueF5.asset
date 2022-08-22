@@ -18,7 +18,10 @@ MonoBehaviour:
     use by looking at their feelings.
   - You can find out the human's feeling by reading his description.
   - Some relics give  <color=blue>sentimental bonuses</color>. To activate a <color=blue>sentimental
-    bonus</color>, you must spend an amount of mana that matches the sentiment of
+    bonus</color> you must spend an amount of mana that matches the sentiment of
     the human you control.
+  - Discover <color=blue>Roy</color>'s feelings and try to activate the <color=blue>sentimental
+    bonus</color>. Your relic "Money" will increase your mana by 2.
   idchara: 00000000000000000000000000000000
-  instruction: 15000000000000000000000001000000
+  instruction: 1500000000000000000000000000000001000000
+  Cenario: 0

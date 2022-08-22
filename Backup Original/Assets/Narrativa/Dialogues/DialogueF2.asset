@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
   m_Name: DialogueF2
   m_EditorClassIdentifier: 
+  id: 0
   Dialogue:
-  - 'Your abilities will only activate if you have a power greater than the opponent''s
-    power.
-
-    Allow me to teach you how you can increase your power.
-
-'
-  - 'Each of your skills has a level that is represented by this symbol:'
-  - Each character has an amount of mana that you can spend on each fight.
-  - 'Your power will be equal to the level of your skill multiplied by the mana you
-    use. '
-  - The more mana you spend, the more chance you have to activate your skills, but
-    the less mana you will have in the next turns
-  - This means that the best move is to get a higher power than the opponent by spending
-    the least amount of mana possible.
-  idchara: 
+  - Every turn humans will spend <color=blue>mana</color> in an attempt to get more
+    <color=yellow>power</color> than the opponent.
+  - 'Each of your skills has a <color=cyan>level</color> that is represented by this
+    symbol:'
+  - Each human has an amount of <color=blue>mana</color> that you can spend on each
+    fight.
+  - 'Your power will be equal to the <color=cyan>level</color> of your skill multiplied
+    by the <color=blue>mana</color> you use. '
+  - Some effects of your skills only activate when you have more <color=yellow>power</color>
+    than your opponent.
+  - This turn the humans will beg for their pathetic lives. Don't spend <color=blue>mana</color>
+    on this useless skill, wait for the next turn to spend your <color=blue>mana</color>
+    and kill this damn cannibal.
+  idchara: 000000000000000000000000000000000000000000000000
   instruction: 0b0000000c0000000d0000000e0000000f0000000000000001000000
+  Cenario: 0

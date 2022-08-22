@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Shu\xE14"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - "Tell me, <color=#FF0080>monk</color>. <color=#FF0080>Shu\xE1</color> is good?"
+  - "Of course, my <color=purple>lord</color>. <color=#FF0080>Shu\xE1</color>'s love
+    for humanity is infinite."
+  - So why did he let my family be murdered?
+  - I feel sorry for you, my <color=purple>lord</color>. I can't even imagine how
+    much you suffered.
+  - "<color=#FF0080>Shu\xE1</color> did not protect his family because he is not
+    omnipotent. His power depends on the love humans feel for one another. As long
+    as people hate each other, murderers will destroy the lives of innocent families."
+  - That's why I have to kill assassins. So that they stop hurting innocent people.
+  - Therefore I must take revenge.
+  - Revenge will not bring peace to your soul, my <color=purple>lord</color>.
+  - What should I do then? I've lost everything I had, I've lost all my happiness,
+    what's left for me but my revenge?
+  - "<color=#FF0080>Kain</color> said that <color=#FF0080>Shu\xE1</color> brought
+    peace and happiness to his heart."
+  - <color=purple>William</color> wanted to be happy like him, but he blamed himself
+    for having that desire. The warrior thought that he would only have the right
+    to be happy after he fulfilled his duties.
+  - Because he was stupid enough to believe that his sins could be atoned for that
+    way.
+  - Despite this, he wished with all his might that the Shuan <color=#FF0080>monk</color>
+    would teach him to be happy.
+  - You remind me of <color=#FF0080>Shu</color> in the parable of the lone warrior.
+    In it, he loses all his colleagues in the war, he also loses all his hopes and
+    dreams.
+  - But in the midst of this war he meets a child who has seen his parents murdered
+    in front of him.
+  - He adopts that child and protects him. After that, his life has meaning and purpose
+    again.
+  - Do you understand the similarities of this parable and your story, my <color=purple>lord</color>?
+  - Both <color=#FF0080>Shu</color> and I are warriors.
+  - Not only that, you two lost everything. But when <color=#FF0080>Shu</color> found
+    someone to protect, his life began to make sense again.
+  - "Next season I will go on a mission together with other <color=#FF0080>Shu\xE1</color>
+    followers into the <color=#yellow>Varsa War</color>. We will provide medical
+    care and food for the victims of this war."
+  - It's a dangerous zone there, so we need a strong man like you to defend us.
+  - I have found my purpose in life by following the <color=#FF0080>Path of Shu</color>,
+    if you want, I can help you follow that path.
+  - "But you will need to abandon everything that goes against <color=#FF0080>Shu\xE1</color>'s
+    will to come with us on this mission. This includes abandoning your plans for
+    revenge and your work as a warrior. "
+  idchara: 1c000000190000001c00000019000000190000001c0000001c000000190000001c00000000000000000000000000000000000000190000001900000019000000190000001c0000001900000019000000190000001900000019000000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040010000
+  Cenario: 13

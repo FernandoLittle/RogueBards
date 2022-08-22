@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William felt what the gods felt.
+  - <color=purple>William</color> felt what the gods felt.
   - He felt an emptiness in his soul.
   - Felt an agony of not achieving his goals.
   - A confusion in the face of so many choices that led to the same failure.
-  - The death.
-  - William did what the gods did.
+  - The <color=red>death</color>.
+  - <color=purple>William</color> did what the gods did.
   - He tried to do some activity that would make him forget this pain of not seeing
     salvation.
   - This suffering in the face of the fundamental feeling for survival.
-  - The fear.
+  - The <color=red>fear</color>.
   idchara: 000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000064000000
   Cenario: 3

@@ -91,6 +91,10 @@ public class RelicEffects : MonoBehaviour
         {
             F.UpAttributeRelic(1, 1, true, 1);
         }
+        if (Generic.HaveInt(F.Zone[ally].Relics, 2))//Dinheiro
+        {
+            F.UpManaRelic(2,2);
+        }
         if (Generic.HaveInt(F.Zone[ally].Relics, 4))//Shua Heart
         {
             F.AltruismRelic(4, 4);

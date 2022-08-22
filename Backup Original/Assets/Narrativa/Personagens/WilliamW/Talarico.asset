@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 328f9666d0f6cfd43ab9673f27fbe921, type: 3}
   sprite1: {fileID: 0}
-  Name: Klaus
-  id: 19
+  Name: <color=green>Klaus</color>
+  id: 17
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
-  Vida: 10
+  AtaqueForte: 11000000
+  "AtaqueR\xE1pido": 11000000
+  Bloqueio: 11000000
+  Esquiva: 11000000
+  Vida: 15
   Ataque: 4
-  Defesa: 1
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1600000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
-  SentimentoType: 5
+  skin: 1d00000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+  SentimentoType: 0

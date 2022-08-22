@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - What existed in Bel Mont? The bard asked this question several times in his song,
-    but never answered it. This made William curious.
-  - Hey bard, I'll buy you a drink if you answer a question.
-  - I will be happy to answer you, young man.
-  - What was in Bel Mont?
-  - The bard laughed.
+  - What existed in <color=cyan>Bel Mont</color>? The <color=00FFBF>bard</color>
+    asked this question several times in his song, but never answered it. This made
+    <color=purple>William</color> curious.
+  - Hey <color=#00FFBF>bard</color>, I'll buy you a drink if you answer a question.
+  - I will be happy to answer you, <color=purple>young man</color>.
+  - What was in <color=cyan>Bel Mont</color>?
+  - The <color=#00FFBF>bard</color> laughed.
   - This is a very difficult question, my friend. What would motivate a man to fight
     an invincible enemy?
   - There are no invincible enemies.
@@ -27,17 +28,17 @@ MonoBehaviour:
     entire army, even though they were incredibly outnumbered. The only strength
     they had was a deep desire to protect their families and their land.
   - You bards exaggerate everything, that's impossible.
-  - The bard smiled.
+  - The <color=#00FFBF>bard</color> smiled.
   - You're absolutely right,
   - But I liked this song, I'll learn to play it.
-  - The bard laughed.
+  - The <color=#00FFBF>bard</color> laughed.
   - A warrior learning to play a song where the national army is the villain, this
     is the first time I've seen it.
   - The army is the villain? I didn't even notice..
   - Great! We bards write our songs subtly so the warriors don't realize we're doing
     propaganda against them.
   - Aren't you afraid to say that in front of a warrior?
-  - The bard smiled kindly.
+  - The <color=#00FFBF>bard</color> smiled kindly.
   - No.
   idchara: 000000001c0000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000

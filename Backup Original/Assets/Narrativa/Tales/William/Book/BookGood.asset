@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William was very pleased to have understood that book perfectly. As he was a
-    smart man, he relied on the accumulated knowledge of books.
+  - <color=purple>William</color> was very pleased to have understood that book perfectly.
+    As he was a smart man, he relied on the accumulated knowledge of books.
   - '<i><color=Black>Trust me like you trust books. I promise we''ll have a lot of
     fun this way.</color> </i>   '
   idchara: 0000000000000000
-  instruction: 00000000e903000000000000
+  instruction: 00000000e9030000ea030000
   Cenario: 4

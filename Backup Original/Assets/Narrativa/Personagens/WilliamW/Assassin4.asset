@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: Assassin4
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: e128f620282295342bbba9c7604e701d, type: 3}
-  sprite1: {fileID: 0}
-  id: 15
+  sprite1: {fileID: 21300000, guid: d2e25c74500df9c4ea4f42dc60fdf311, type: 3}
+  Name: <color=yellow>Mirio</color>
+  id: 16
   idPersonagem: 0
-  AtaqueForte: 07000000
-  "AtaqueR\xE1pido": 07000000
-  Bloqueio: 07000000
-  Esquiva: 07000000
+  AtaqueForte: 10000000
+  "AtaqueR\xE1pido": 10000000
+  Bloqueio: 10000000
+  Esquiva: 10000000
   Vida: 10
-  Ataque: 4
-  Defesa: 1
+  Ataque: 5
+  Defesa: 0
   act: 0
   mov: 0
-  Level: 8
+  Level: 11
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1800000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
-  SentimentoType: 4
+  skin: 1300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
+  SentimentoType: 0

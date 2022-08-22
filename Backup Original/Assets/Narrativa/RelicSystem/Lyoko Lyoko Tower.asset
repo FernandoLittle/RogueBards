@@ -15,5 +15,5 @@ MonoBehaviour:
   IdRelic: 6
   SpriteRelic: {fileID: 21300000, guid: 3b96989b936007b43a459e43c52a7f0f, type: 3}
   Description: Gain Bravery at the start of the fight.
-  Name: Tower Lyoko
+  Name: <color=yellow>Tower Lyoko </color>
   Type: 1

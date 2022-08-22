@@ -14,7 +14,8 @@ public class Dialogues : MonoBehaviour
     public Tutorial Tutorial;
     public GameObject TutoIlustration;
     public List<ListString> DarkText;
-
+    public Image Face;
+    public Stuff Stuff;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,22 +37,34 @@ public class Dialogues : MonoBehaviour
 
         if (StaticPlayer.Fight == 1)
         {
+            if (A.turn == 0)
+            {
+                SetDialogue(0);
+            }
             if (A.turn == 1)
             {
-                SetDialogue(3);
+                SetDialogue(1);
             }
             
         }
         if (StaticPlayer.Fight == 2)
         {
+            if (A.turn == 0)
+            {
+                SetDialogue(3);
+            }
+
+        }
+        if (StaticPlayer.Fight == 3)
+        {
+            if (A.turn == 0)
+            {
+                SetDialogue(2);
+            }
             if (A.turn == 1)
             {
                 SetDialogue(4);
             }
-        }
-        if (StaticPlayer.Fight == 3)
-        {
-
         }
         if (StaticPlayer.Fight == 4)
         {
@@ -118,6 +131,7 @@ public class Dialogues : MonoBehaviour
         if (Dialogo[DialogueSelect].instruction[Index] == 0)
         {
             ShowText();
+            SetFace();
         }
         if (Dialogo[DialogueSelect].instruction[Index] == 1)
         {
@@ -129,5 +143,9 @@ public class Dialogues : MonoBehaviour
             ShowText();
             Tutorial.Tuto(Dialogo[DialogueSelect].instruction[Index]);
         }
+    }
+    public void SetFace()
+    {
+        Face.sprite = Stuff.Cards[Dialogo[DialogueSelect].idchara[Index]].sprite;
     }
 }

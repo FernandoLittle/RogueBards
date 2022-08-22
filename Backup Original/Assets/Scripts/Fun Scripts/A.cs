@@ -144,10 +144,16 @@ public class A : MonoBehaviourPunCallbacks
     public int SkillAttack;
     public Combat Combat;
     public RelicEffects RelicEffects;
+    public List<Sprite> CenarioSprite;
+    public Image Cenario;
+    public GameObject TrueDisabler;
+    public Stuff Stuff;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Stuff.Cards = DD.Chara;
+        SetCenario();
         if (StaticPlayer.Adventure == false)
         {
 
@@ -196,13 +202,14 @@ public class A : MonoBehaviourPunCallbacks
             ib[1].enabled = false;
 
         }
-        if (StaticPlayer.Adventure == true)
-        {
+        //Adventure=true
             StaticData.Set();
 
             offline = true;
+        Debug.Log("A");
             SetFight.SetFighto();
-        }
+            Round.A();
+        
     }
     private void Awake()
     {
@@ -381,7 +388,7 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 4].SetActive(true);
 
                 LifeT[x + 4].text = zoneid[x + 3].Lyoko[0].ToString();
-                RelicSystem.AddRelic(x + 3, player1, x);
+
             }
         }
         else
@@ -416,7 +423,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[5].SetActive(true);
 
             LifeT[5].text = zoneid[4].Lyoko[0].ToString();
-            RelicSystem.AddRelic(4, player1, 0);
+
         }
         if (decklist.deck[player2].card.Count > 1)
         {
@@ -447,7 +454,6 @@ public class A : MonoBehaviourPunCallbacks
                 Heart[x + 1].SetActive(true);
 
                 LifeT[x + 1].text = zoneid[x].Lyoko[0].ToString();
-                RelicSystem.AddRelic(x, player2, x);
             }
             if (offline == false)
             {
@@ -482,7 +488,7 @@ public class A : MonoBehaviourPunCallbacks
             Heart[2].SetActive(true);
 
             LifeT[2].text = zoneid[1].Lyoko[0].ToString();
-            RelicSystem.AddRelic(1, player2, 0);
+
             if (offline == false)
             {
                 GetAttacking1 = true;
@@ -751,7 +757,7 @@ public class A : MonoBehaviourPunCallbacks
             {
 
 
-                if (Zone[5].Lyoko[0] < 0 || Zone[2].Lyoko[0] < 0)
+                if (Zone[5].Lyoko[0] <= 0 || Zone[2].Lyoko[0] <= 0)
                 {
                   
                     END1();
@@ -794,6 +800,7 @@ public class A : MonoBehaviourPunCallbacks
     //Effects Start of Game
     public void StartofGameEffects()
     {
+        Debug.Log("StartEffects");
         RelicSystem.AddRelic2();
         DeckSystem.AddCard();
         RelicEffects.StartEffectRelic();
@@ -1123,5 +1130,8 @@ public class A : MonoBehaviourPunCallbacks
         DisableO.SetActive(false);
         SkillAttack += 1;
     }
-
+    public void SetCenario()
+    {
+        Cenario.sprite = CenarioSprite[Random.Range(0, CenarioSprite.Count)];
+    }
 }

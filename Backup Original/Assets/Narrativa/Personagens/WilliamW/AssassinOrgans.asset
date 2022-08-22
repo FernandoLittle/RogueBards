@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 9d56c7c5473ff2e4e9cc0f870cb42733, type: 3}
   sprite1: {fileID: 0}
-  Name: Jiri
+  Name: <color=yellow>Jiri</color>
   id: 12
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 0c000000
+  "AtaqueR\xE1pido": 0c000000
+  Bloqueio: 0c000000
+  Esquiva: 0c000000
+  Vida: 12
+  Ataque: 5
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
   skin: 1a00000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
-  SentimentoType: 3
+  SentimentoType: 0

@@ -20,4 +20,8 @@ public class SceneT : MonoBehaviour
     {
         SceneManager.LoadScene("Select");
     }
+    public void AhShitHereWeGoAgain()
+    {
+        SceneManager.LoadScene("Adventure");
+    }
 }

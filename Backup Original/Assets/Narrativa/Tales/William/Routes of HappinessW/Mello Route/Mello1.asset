@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Mello1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Everyone in <color=yellow>Sarka</color> wants to be a vagabond's bitch.
+  - Speak down, <color=yellow>Mello</color>.
+  - <color=purple>William</color> looked around, hoping no one in that bar was paying
+    attention to them.
+  - Hey, I think you've had enough to drink.
+  - Who cares? Who cares if I die now? Nobody.
+  - What do you mean? I care, man. What happened? You are not like that.
+  - "Every day we warriors risk our lives for\u2026 for\u2026 for what?"
+  - <color=yellow>Mello</color> sobbed.
+  - To protect people, I think. And we're treated like villains in this shit country.
+  - "Speak down, <color=yellow>Mello</color>! To say that this country is a shi\u2026
+    to offend the homeland is a crime."
+  - I shit, nobody cares. Bards say worse things all the time. Just yesterday there
+    was a damn bard singing a song glorifying a drug dealer who fucked a warrior's
+    wife.
+  - "I bet it was a true story, this\u2026 this world is rotten."
+  - <color=yellow>Mello</color>, I know how you feel. Every warrior feels it, we
+    risk our lives for the people and we are treated like villains in songs, even
+    in the newspaper at times. But on the bright side, parliament has passed a law
+    banning newspapers from publishing unpatriotic news.
+  - That doesn't solve anything, we're dying for shitty people who hate us.
+  - <color=purple>William</color> gave his friend a hug.
+  - You're a good person man, I know your heart, don't let the heartache consume
+    you.
+  - "My mom\u2026 My mother is sick, she needs me for everything, there is no one
+    but me who can take care of her."
+  - <color=yellow>Mello</color> started to cry.
+  - "If I die, she will be alone\u2026 Why am I risking my life?"
+  - Why, <color=purple>William</color>? Answer me.
+  - This story reminded <color=purple>William</color> of the worst day of his life.
+  - I think I know why people sympathize with bandits more than warriors. We risk
+    our lives for something greater and few can understand it.
+  - Most people are selfish and therefore identify with criminals much more than
+    with us.
+  - You are a strong man, <color=yellow>Mello</color>.
+  - You are a warrior.
+  - Do not give up on the path of justice.
+  - <color=purple>William</color> felt very proud to have given this great <color=red>advice</color>.
+  idchara: 210000001c000000000000001c000000210000001c0000002100000000000000210000001c00000021000000210000001c00000021000000000000001c00000021000000000000002100000021000000000000001c0000001c0000001c0000001c0000001c00000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006f000000
+  Cenario: 15

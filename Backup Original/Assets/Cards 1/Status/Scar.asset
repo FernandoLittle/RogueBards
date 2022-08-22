@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479c8fe4495a9914db52c976592aa1e8, type: 3}
+  m_Name: Scar
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: b13784dcf3e1faf4e9aabbb445d1834f, type: 3}
+  BigIcon: {fileID: 0}
+  id: 0
+  description: 'You cannot gain life.
+
+    A miserable future awaits you.'
+  Name: Scar

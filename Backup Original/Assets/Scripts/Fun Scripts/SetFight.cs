@@ -58,6 +58,10 @@ public class SetFight : MonoBehaviour
             }
         }
         SetDataChara();
+        
+
+        Debug.Log("V");
+        A.RelicSystem.AddRelic();
         A.RelicSystem.SetRelicX();
         A.RelicSystem.SetRelicSprite();
 
@@ -93,6 +97,7 @@ public class SetFight : MonoBehaviour
     }
     public void CardData(int id, int zone)
     {
+        
         A.zone[zone].sprite = Stuff.Cards[id].sprite;
         A.Zone[zone].idcard1 = Stuff.Cards[id].id;
         A.Zone[zone].Lyoko[0] = Stuff.Cards[id].Vida;
@@ -122,6 +127,7 @@ public class SetFight : MonoBehaviour
 
         if (zone == 5)
         {
+            Interface.NameAlly.text = Stuff.Cards[id].Name;
             Interface.BarAllyLife.OldInt = A.Zone[5].Lyoko[0]*10;
             Interface.BarAllyMana.OldInt = A.Zone[5].Mana*10;
             Interface.LifeAllyT.text = "Life " + A.Zone[5].Lyoko[0].ToString();
@@ -143,6 +149,7 @@ public class SetFight : MonoBehaviour
         }
         if (zone == 2)
         {
+            Interface.NameEnemy.text = Stuff.Cards[id].Name;
             Interface.BarEnemyLife.OldInt = A.Zone[2].Lyoko[0]*10;
             Interface.BarEnemyMana.OldInt = A.Zone[2].Mana*10;
             Interface.LifeEnemyT.text = "Life " + A.Zone[2].Lyoko[0].ToString();
@@ -273,6 +280,7 @@ public class SetFight : MonoBehaviour
     {
         if (A.X1Lixo == true)
         {
+            A.StartofGameEffects();
             A.DD.SetInfo();
             A.F.z = 2;
             A.F.y = 5;

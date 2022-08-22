@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - 'In Sarka an assassin said:'
+  - 'In <color=yellow>Sarka</color> an assassin said:'
   - The frog is not evil for killing a fly because he did not choose to be a frog.
     The human is not bad for killing a frog because he didn't choose to be a human.
     The angel is not evil for killing a human because he didn't choose to be an angel.
   - But everyone sees their predators as evil, because even if they are predators
     themselves, every damn animal thinks it's the most important being in the universe
     and anyone who tries against its existence will be the incarnation of evil.
-  - 'In Sarka a warrior said:'
+  - 'In <color=yellow>Sarka</color> a warrior said:'
   - Assassins are evil.
   idchara: 0000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000069000000

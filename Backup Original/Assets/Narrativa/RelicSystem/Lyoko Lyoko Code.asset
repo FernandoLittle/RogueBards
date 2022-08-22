@@ -15,5 +15,5 @@ MonoBehaviour:
   IdRelic: 5
   SpriteRelic: {fileID: 21300000, guid: b13784dcf3e1faf4e9aabbb445d1834f, type: 3}
   Description: You gain 2 life at the end of the turn if you have Bravery.
-  Name: Code Lyoko
+  Name: <color=yellow>Code Lyoko </color>
   Type: 1

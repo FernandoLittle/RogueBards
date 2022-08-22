@@ -218,9 +218,9 @@ public class K : MonoBehaviour
         Size[7].transform.localPosition = new Vector3(370.2f, 40.6f, 0);
         for (int x = 0; x < 8; x = x + 1)
         {
+            MoldI[x].color = new Color(MoldI[x].color.r, MoldI[x].color.g, MoldI[x].color.b, 1);
+            Rest[x].color = new Color(1, 1, 1, 1);
 
-            SkillsI[x].color = new Color(1, 1, 1, 1);
-            MoldI[x].color = new Color(1, 1, 1, 1);
 
             Size[x].sizeDelta = new Vector2(63.7f, 92.9f);
 

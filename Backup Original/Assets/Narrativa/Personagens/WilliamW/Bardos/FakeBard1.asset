@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d9aac0bbc64693c458f51e42058ce096, type: 3}
   sprite1: {fileID: 0}
-  Name: 
-  id: 16
+  Name: Klaus
+  id: 17
   idPersonagem: 0
-  AtaqueForte: 05000000
-  "AtaqueR\xE1pido": 05000000
-  Bloqueio: 05000000
-  Esquiva: 05000000
-  Vida: 10
+  AtaqueForte: 11000000
+  "AtaqueR\xE1pido": 11000000
+  Bloqueio: 11000000
+  Esquiva: 11000000
+  Vida: 15
   Ataque: 4
-  Defesa: 1
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 8
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 

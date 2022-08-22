@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William understood the lies of that book and contemplated the true nature of
-    the Akasha.
+  - <color=purple>William</color> understood the lies of that book and contemplated
+    the true nature of the <color=green>Akasha</color>.
   - '<i><color=Black>You just got lucky didn''t you? Or did you cheat? Whatever,
     I''m a lucky cheater too.</color> </i>   '
   idchara: 0000000000000000
-  instruction: 00000000e803000000000000
+  instruction: 00000000e8030000ea030000
   Cenario: 4

@@ -17,19 +17,19 @@ MonoBehaviour:
   Name: <color=purple>William</color>
   id: 28
   idPersonagem: 0
-  AtaqueForte: 02000000
-  "AtaqueR\xE1pido": 02000000
-  Bloqueio: 02000000
-  Esquiva: 02000000
-  Vida: 10
-  Ataque: 4
-  Defesa: 1
+  AtaqueForte: 1c000000
+  "AtaqueR\xE1pido": 1c000000
+  Bloqueio: 1c000000
+  Esquiva: 1c000000
+  Vida: 12
+  Ataque: 5
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 8
+  Level: 12
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 1800000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
-  SentimentoType: 4
+  skin: 1400000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
+  SentimentoType: 0

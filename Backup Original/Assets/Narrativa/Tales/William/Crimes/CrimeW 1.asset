@@ -15,7 +15,8 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - "Playing music all day is a bum thing.\r"
-  - William as a decent warrior, returned to his job to continue fighting crime.
+  - <color=purple>William</color> as a decent warrior, returned to his job to continue
+    fighting crime.
   idchara: 0000000000000000
   instruction: 00000000ffffffff
   Cenario: 0

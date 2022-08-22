@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: LauraLost
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Why are you attacking me, <color=purple>Will</color>? It's me, <color=purple>Laura</color>,
+    your sister.
+  - My sisters are dead.
+  - No, <color=purple>Will</color>, I disappeared the day our father died because
+    the killer kidnapped me.
+  - I managed to escape recently and soon started looking for you, I was so happy
+    to see that you had followed our father's path and become a warrior.
+  - I do not believe you. Why would it take you so long to escape? Why were you armed?
+    Why would you invite me to this hill?
+  - Why do you think I called you to this place?
+  - Because you were going to ambush and kill me.
+  - Of course not, silly! This is where our father took us to see the stars. You
+    promised Anne you would marry her, our father was very angry that day. After
+    that, he forbade you to stay in the same room with us when the door was closed.
+  - <color=purple>William</color> hugged his sister and began to cry like a child.
+  - <color=purple>Laura</color>, you're alive! I can't believe it, this is too good
+    to be true.
+  - "I\u2026 I almost killed you\u2026 I'm sorry. I couldn't recognize you, you've
+    changed a lot. I'm a <color=black>monster</color>, I almost..."
+  - I almost committed that sin again.
+  - It's my fault <color=purple>Will</color>, I wanted to surprise you.
+  - I should have met you as a normal person, but I forgot that you were always afraid
+    of the dark.
+  - This here is a gift for you, this is my lucky necklace, I hope you like it.
+  - The two watched the stars as they talked about everything they had been through
+    in the years they were apart.
+  - <color=purple>William</color> understood that moment as much as he understood
+    the size of the stars.
+  - I was very jealous when you said you were going to marry <color=purple>Anne</color>.
+    Was she prettier than me?
+  - You were twins, the two of you were always very beautiful.
+  - Do you think I'm beautiful?
+  - <color=purple>Laura</color> brought her face closer to <color=purple>William</color>'s
+    face.
+  - I'm gay.
+  - "\u2026"
+  - And incest is wrong.
+  - This is just an illusion that natural selection has created in us. Blood ties
+    mean nothing.
+  - "\u2026"
+  - <color=purple>Laura</color> laughed.
+  - I'm kidding, silly. You don't need to be scared. But I bet you're seducing a
+    lot of men with that pretty face of yours.
+  - I wish. There's a friend I like at work, <color=#FF0080>Maduin</color>, but I
+    don't have the courage to confess this to him.
+  - He is handsome?
+  - Yes, quite, the most beautiful I've ever seen. He's also kind, affectionate,
+    doesn't even look like a warrior.
+  - Tell me more! When did you fall in love?
+  - "When I fell in love\u2026 I think it was when I saw that he always brought meals
+    that he prepared for the prisoners. The warriors were furious and he lost several
+    friends there, but even so he continued to prepare the bandits' favorite foods."
+  - How can he be so nice, even to criminals?
+  - <color=purple>Laura</color> laughed because she knew the answer. Soon she started
+    humming.
+  - <color=purple>William</color> is in love, <color=purple>William</color> is in
+    love, <color=purple>William</color> is in love.
+  - I'm not, I have no right to fall in love and be happy until I fulfill my mission.
+  - I have to kill our father's assassin.
+  - <color=purple>Will</color>, our father's killer is the <color=#00FFBF>Bard</color>.
+  - What bard?
+  - The <color=#00FFBF>Bard of Bards</color>.
+  idchara: 1f0000001c0000001f0000001f0000001c0000001f0000001c0000001f000000000000001c0000001c0000001c0000001f0000001f0000001f00000000000000000000001f0000001c0000001f000000000000001c0000001c0000001c0000001f0000001c0000001f0000001f0000001c0000001f0000001c0000001f0000001c0000001c000000000000001f0000001c0000001c0000001f0000001c0000001f000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000
+  Cenario: 22

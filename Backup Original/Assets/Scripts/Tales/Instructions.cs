@@ -10,6 +10,7 @@ public class Instructions : MonoBehaviour
     public List<int> Inteiro;
     public List<string> Caracter;
     public SkillA SkillA;
+    public List<int> Routes;
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +76,26 @@ public class Instructions : MonoBehaviour
                 StaticPlayer.Fight = 11;
                 SceneManager.LoadScene("Battle");
                 break;
-
+            case 12:
+                StaticPlayer.Fight = 12;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 13:
+                StaticPlayer.Fight = 13;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 14:
+                StaticPlayer.Fight = 14;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 15:
+                StaticPlayer.Fight = 15;
+                SceneManager.LoadScene("Battle");
+                break;
+            case 16:
+                StaticPlayer.Fight = 16;
+                SceneManager.LoadScene("Battle");
+                break;
 
 
 
@@ -100,6 +120,57 @@ public class Instructions : MonoBehaviour
                 TalesVariables.SetTale(a - 100);
                 break;
             case 107:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 108:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 109:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 110:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 111:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 112:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 113:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 114:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 115:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 116:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 117:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 118:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 119:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 120:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 121:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 122:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 123:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 124:
                 TalesVariables.SetTale(a - 100);
                 break;
 
@@ -163,13 +234,41 @@ public class Instructions : MonoBehaviour
                 SetButton(1305, 1306, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
-
+            case 318:
+                SetButtonST("Follow your heart.", "Follow Shuá.", "", "", "");
+                SetButton(1020, 1019, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 319:
+                SetButtonST("Join the prayer.", "Doubt the existence of Shuá.", "", "", "");
+                SetButton(1016, 1017, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 320:
+                SetButtonST("Follow the Path of Shuá.", "Follow the Path of Warrior.", "", "", "");
+                SetButton(1014, 1013, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 321:
+                SetButtonST("Question the monk.", "Ask for the monk's forgiveness.", "", "", "");
+                SetButton(1022, 1023, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 322:
+                SetButtonST("Accept the bribe.", "Refuse the bribe.", "", "", "");
+                SetButton(1009, 1024, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
             //500 Genecric
 
             case 500:
                 TalesVariables.Day.FightCrime(0);
                 break;
 
+
+            case 666:
+                TalesVariables.Obrigado.SetActive(true);
+                break;
             //1000 Special Instructions
             //*****************************************************
             case 1000: //GreatReward
@@ -184,13 +283,18 @@ public class Instructions : MonoBehaviour
             case 1002: //NextDay
                 TalesVariables.Day.SelectDay();
                 break;
-
+            case 1003: //Minigame
+                TalesVariables.Day.Minigame();
+                break;
 
 
 
             //*****************************************************
             case -1:
                 RandomActions();
+                break;
+            case -2:
+                RandomCustomRoute();
                 break;
         }
     }
@@ -238,11 +342,75 @@ public class Instructions : MonoBehaviour
         TalesVariables.OptionsText[3] = st4;
         TalesVariables.OptionsText[4] = st5;
     }
+    public void RandomCustomRoute()
+    {
+        
+        int Route1;
+        int Route2;
+        int Route3;
+        int chaos;
+
+        for (int x = 0; x < TalesVariables.TalesCustonRouteTrue.Count; x = x + 1)
+        {
+            TalesVariables.CustonRoute.Add(x);
+        }
+        Debug.Log("O_O");
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route1 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route2 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route3 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        Routes.Add(Route1);
+        Routes.Add(Route2);
+        Routes.Add(Route3);
+
+        for (int x = 0; x < 3; x = x + 1)
+        {
+            if (Routes[x] == 0)
+            {
+                Inteiro[x] = 1501;
+                Caracter[x] = "Drink in a bar";
+            }
+            if (Routes[x] == 1)
+            {
+                Inteiro[x] = 1502;
+                Caracter[x] = "Visit a cemetery";
+            }
+            if (Routes[x] == 2)
+            {
+                Inteiro[x] = 1503;
+                Caracter[x] = "Pray";
+            }
+            if (Routes[x] == 3)
+            {
+                Inteiro[x] = 1504;
+                Caracter[x] = "Take a bribe";
+            }
+          //Gay Kiss
+          //Eat Corn
+        }
+        SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");
+        SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
+        TalesVariables.ShowText();
+    }
     public void RandomActions()
     {
         int CountFightL1;
         int RandomRemove;
+        TalesVariables.FightL.Clear();
         TalesVariables.FightL1.Clear();
+        for (int x = 0; x < TalesVariables.TalesWilliamWFight.Count; x = x + 1)
+        {
+            TalesVariables.FightL.Add(x);
+        }
         for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
         {
             TalesVariables.FightL1.Add(TalesVariables.FightL[x]);
@@ -265,7 +433,7 @@ public class Instructions : MonoBehaviour
             if (TalesVariables.FightL1[x] == 1)
             {
                 Inteiro[x] = 1402;
-                Caracter[x] = "Gambling Games";
+                Caracter[x] = "Theft";
             }
             if (TalesVariables.FightL1[x] == 2)
             {
@@ -275,7 +443,7 @@ public class Instructions : MonoBehaviour
             if (TalesVariables.FightL1[x] == 3)
             {
                 Inteiro[x] = 1404;
-                Caracter[x] = "Imigração Ilegal";
+                Caracter[x] = "Illegal Immigration";
             }
             if (TalesVariables.FightL1[x] == 4)
             {
@@ -287,11 +455,7 @@ public class Instructions : MonoBehaviour
                 Inteiro[x] = 1406;
                 Caracter[x] = "Tax Evasion";
             }
-            if (TalesVariables.FightL1[x] == 6)
-            {
-                Inteiro[x] = 1407;
-                Caracter[x] = "Theft";
-            }
+       
         }
 
         SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");

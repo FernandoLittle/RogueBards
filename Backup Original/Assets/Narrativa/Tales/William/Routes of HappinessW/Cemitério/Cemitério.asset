@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Cemit\xE9rio"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - As he was leaving the cemetery, <color=purple>William</color> heard a young man
+    talking to himself. Two words caught the warrior's attention, "father" and "sorry."
+  - May I sit here?
+  - Feel free.
+  - I also came here to apologize to my father.
+  - Who knew that a young bard and a warrior would have something in common.
+  - Are you a bard? Doesn't that missing finger get in the way of playing?
+  - You are quite sociable for a warrior. Making conversation in a cemetery, shamelessly
+    talking about someone's disability. Did you know that there is a saying among
+    bards that is "if you don't want to be arrested, never talk to a warrior"?
+  - I'm sorry.
+  - Regretful, <color=purple>William</color> got up to leave.
+  - I'm joking with you. In this cemetery there are no bards and warriors, here there
+    are only the living and the dead.
+  - Sit down and I'll tell you the story of how I lost my finger.
+  - The <color=purple>warrior</color> obeyed the <color=#FF0080>young bard</color>.
+  - I worked in a factory, before the government banned child labor.
+  - I lost my finger in an accident.
+  - ...
+  - Yes, I know it's not an interesting story.
+  - I'm sorry, it's a shame kids had to work back then.
+  - I still had to work even after child labor was abolished. Otherwise I would starve.
+  - At least I got a new job afterwards. But I would be glad to lose a hand instead
+    of a finger if I could keep working in that factory.
+  - What job did you get after?
+  - The <color=#FF0080>young bard</color> was silent until <color=purple>William</color>
+    felt uncomfortable and left.
+  idchara: 000000001c000000170000001c000000170000001c000000170000001c0000000000000017000000170000000000000017000000170000001c000000170000001c00000017000000170000001c00000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d000000
+  Cenario: 23

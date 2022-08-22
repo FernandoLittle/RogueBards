@@ -26,6 +26,9 @@ public class G : MonoBehaviour
 
     public Button a;
     public Text EyeName;
+    public List<GameObject> Keywords;
+    public Transform TextTransform;
+    public List<Transform> KeywordTransform;
     // Start is called before the first frame update
 
 
@@ -448,12 +451,12 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 1)
             {
-                d.Description.text += "<color=red>Strike</color>: Deals damage equal to your hero's attack.\n";
+                d.Description.text += "<color=red>Strike</color>: Deals damage equal to your human's attack.\n";
                 d.KeywordsT[x].text = "<color=red>Strike</color>";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 2)
             {
-                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your hero's attack twice.\n";
+                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your human's attack twice.\n";
                 d.KeywordsT[x].text = "<color=#FF2900>Double Strike</color>";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 3)
@@ -473,7 +476,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 6)
             {
-
+                d.Description.text += "<color=#FF2900>Triple Strike</color>: Deals damage equal to your human's attack three times.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Triple Strike</color>";
 
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 7)
@@ -564,12 +568,12 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 23)
             {
-                d.Description.text += "<color=#00FF00>Attack + </color>: Increases your hero's attack.\n";
+                d.Description.text += "<color=#00FF00>Attack + </color>: Increases your attack.\n";
                 d.KeywordsT[x].text = "<color=#00FF00>Attack + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 24)
             {
-                d.Description.text += "<color=#00FF00>Defense + </color>: Increases your hero's defense.\n";
+                d.Description.text += "<color=#00FF00>Defense + </color>: Increases your defense.\n";
                 d.KeywordsT[x].text = "<color=#00FF00>Defense + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 25)
@@ -594,14 +598,14 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 29)
             {
-                d.Description.text += "<color=#67B2FF>Wisdom</color>: Until the end of the battle, gain mana when your skill wins.\n";
+                d.Description.text += "<color=#67B2FF>Wisdom</color>: Gain mana when your skill wins.\n";
                 d.KeywordsT[x].text = "<color=#67B2FF>Wisdom</color> ";
             }
 
 
             if (d.Generic.Desc(action.KeywordId[x]) == 30)
             {
-                d.Description.text += "<color=#FF62B4>Bravery</color>: Until the end of the battle, gains 2 attack if the human has less mana than the opponent at the end of the turn.\n";
+                d.Description.text += "<color=#FF62B4>Bravery</color>: Gains 2 attack if the human has less mana than the opponent at the end of the turn.\n";
                 d.KeywordsT[x].text = "<color=#7300FF>Bravery</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 31)
@@ -611,12 +615,24 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 32)
             {
-                d.Description.text += "<color=#FF009C>Passion</color>:  Until the end of the battle, gains 2 life whenever you activate the sentimental bonuses.\n";
+                d.Description.text += "<color=#FF009C>Passion</color>:  Gains 2 life whenever you activate the sentimental bonuses.\n";
                 d.KeywordsT[x].text = "<color=#FF009C>Passion/color> ";
             }
-
-
-
+            if (d.Generic.Desc(action.KeywordId[x]) == 33)
+            {
+                d.Description.text += "<color=#D90000>Sacrifice Attack</color>: Reduces your own attack.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Sacrifice Attack</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 34)
+            {
+                d.Description.text += "<color=#D90000>Useless</color>: Begging for mercy is useless.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Useless</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 35)
+            {
+                d.Description.text += "<color=#D90000>Scar</color>: Opponent cannot gain life. This is very cruel.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Scar/color> ";
+            }
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {
                 NoDuplicates[0] = true;

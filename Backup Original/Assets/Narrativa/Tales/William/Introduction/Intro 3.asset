@@ -14,11 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - 'In Sarka an assassin said:'
-  - Tyranny is when the people fear the government, freedom is when the government
-    fears the people
-  - 'In Sarka a warrior said:'
-  - We will fight to the death to protect the freedom of the people.
-  idchara: 00000000000000000000000000000000
-  instruction: 0000000000000000000000000000000069000000
+  - 'In <color=yellow>Sarka</color> an assassin said:'
+  - Civilization has managed to turn nature into a tool over the seasons.
+  - But the human being is also part of nature and so he stopped living for himself
+    and became a tool.
+  - When the human goes to school, works, pays his taxes and dies in the war he evolves
+    as a servant of <color=yellow>Lyoko</color>.
+  - The guild is the civilized world's greatest enemy, as its purpose is to kill
+    all the vagabonds who try to chain others with the chains of civilization.
+  - In Sarka a warrior said.
+  - We will lay down our lives for law, order and the nation.
+  idchara: 00000000000000000000000000000000000000000000000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000069000000
   Cenario: 4

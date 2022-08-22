@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
   m_Name: DialogueF3
   m_EditorClassIdentifier: 
+  id: 0
   Dialogue:
   - Each skill is good in a certain situation.
-  - The male cannibal has high defense, true damage skills are good in this case
-  - 'The female cannibal has little defense, in this case double strike skills are
-    better
-
-'
-  idchara: 
+  - The <color=#FF6C88>female cannibal</color> has high defense, true damage skills
+    are good in this case.
+  - Use the skill "<color=red>End of Hunge</color>" to kill this disgusting human.
+  idchara: 000000000000000000000000
   instruction: 00000000000000000000000001000000
+  Cenario: 0

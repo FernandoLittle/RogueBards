@@ -214,6 +214,7 @@ public class B : MonoBehaviourPunCallbacks
             b[4].enabled = true;
             b[5].enabled = true;
             b[6].enabled = true;
+
             a.EnablerEye[1].raycastTarget = false;
             a.EnablerEye[2].raycastTarget = false;
             a.EnablerEye[3].raycastTarget = false;
@@ -493,8 +494,8 @@ public class B : MonoBehaviourPunCallbacks
     public void D()
     {
         SentimentoText();
-        a.EyeNameLeft.text = d.Chara[idzone1].Name;
-        a.EyeNameRight.text = d.Chara[idzone1].Name;
+        a.EyeNameLeft.text = d.Chara[a.Generic.Module(idcard1)].Name;
+        a.EyeNameRight.text = d.Chara[a.Generic.Module(idcard1)].Name;
         if (idzone1==1|| idzone1 == 2 || idzone1 == 3)
         {
             if (idcard1 != 0)
@@ -583,22 +584,7 @@ public class B : MonoBehaviourPunCallbacks
         //Champion Death
 
 
-        if (Code[9] == true)
-        {
-            Zonesprite0.sprite = a.Eggnivia;
-            Code[10] = true;
-            Code[9] = false;
-            Blue[idzone1].SetActive(false);
-            b[idzone1].enabled = false;
-            a.LifeT[idzone1].text = 1.ToString();
-            Lyoko[0] = 1;
-            Lyoko[1] = 0;
-            Lyoko[2] = 0;
-            Mana = 0;
 
-        }
-        else
-        {
 
 
 
@@ -650,7 +636,7 @@ public class B : MonoBehaviourPunCallbacks
                 Code[x] = false;
             }
 
-        }
+        
 
     }
     public void MoveAlly()

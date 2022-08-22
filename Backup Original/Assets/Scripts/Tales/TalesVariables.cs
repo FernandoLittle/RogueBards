@@ -15,6 +15,8 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TalesWilliamWBook;
     public List<Tales> TalesAction;
     public List<Tales> TalesMinigames;
+    public List<Tales> TalesCustonRoute;
+    public List<Tales> TalesCustonRouteTrue;
     public int instruction;
     public int TaleSelect;
     public int Index;
@@ -30,8 +32,13 @@ public class TalesVariables : MonoBehaviour
     public Day Day;
     public List<int> FightL;
     public List<int> FightL1;
+    public List<int> CustonRoute;
     public int IdList;
     public IlusControler IlusControler;
+    public List<Tales> TaleGod;
+    public GameObject Obrigado;
+
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -116,6 +123,21 @@ public class TalesVariables : MonoBehaviour
         {
             Tales = TalesWilliamWBook;
         }
+        else if (IdList == 4)
+        {
+            Tales = TalesCustonRoute;
+        }
     }
+    public void SetGodTale()
+    {
+        Index = 0;
+        Tales = TaleGod;
+        TaleSelect = 0;
+        IlusControler.IlustrationChange = false;
+        IlusControler.SetCenario(Tales[TaleSelect].Cenario);
 
+
+        MasterAction();
+        Index = 0;
+    }
 }

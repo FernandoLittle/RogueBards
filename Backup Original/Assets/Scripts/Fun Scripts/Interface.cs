@@ -42,6 +42,8 @@ public class Interface : MonoBehaviour
     public bool SkipFirstTurn;
     public int index;
     public F F;
+    public Text NameAlly;
+    public Text NameEnemy;
     // Start is called before the first frame update
     public void SetStatosX()
     {

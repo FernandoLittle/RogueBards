@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: BardWon
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - I have two questions for you.
+  - First question, how many children did <color=blue>Roy</color> have?
+  - <color=purple>William</color> loved talking to his victims after they were defeated.
+    Seeing the <color=#00FFBF>bard</color> do the same to him was absolutely unbearable.
+  - Three.
+  - He had three children. One became a <color=purple>warrior</color>, another became
+    a <color=purple>demon</color>, another died in agony.
+  - Second question, how many people died in <color=purple>Denai</color>?
+  - <color=purple>William</color> was losing more blood by the moment, he wanted
+    to lose consciousness and bleed to death soon for this humiliating scene to end.
+  - Three hundred and one.
+  - Three hundred and one people died in <color=purple>Denai</color>.<color=blue>Roy</color>
+    participated in this massacre to save you and your sisters.
+  - Because at that time the military were the only ones who could provide food security
+    for their children.
+  - I understand your father, as I understand you. But like <color=blue>Roy</color>,
+    I'm just doing my job.
+  - <color=purple>William</color>'s last wish came true, his conscience blanked before
+    he finished listening to that pathetic speech.
+  idchara: 0a0000000a000000000000000a0000000a0000000a000000000000000a0000000a0000000a0000000a00000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
+  Cenario: 18

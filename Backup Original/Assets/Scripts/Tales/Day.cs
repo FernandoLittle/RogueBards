@@ -31,7 +31,7 @@ public class Day : MonoBehaviour
         }
         if (day == 5)
         {
-
+            Happiness();
         }
         if (day == 6)
         {
@@ -82,6 +82,11 @@ public class Day : MonoBehaviour
     {
         TalesVariables.Tales = TalesVariables.TalesMinigames;
         TalesVariables.SetTale(1);
+    }
+    public void Happiness()
+    {
+        TalesVariables.Tales = TalesVariables.TalesMinigames;
+        TalesVariables.SetTale(2);
     }
 
 

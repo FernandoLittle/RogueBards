@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamTheft2
+  m_EditorClassIdentifier: 
+  id: 5
+  Dialogue:
+  - After a few minutes of fighting the thieves were subdued, but some of them managed
+    to take hostages.
+  - After eight minutes of negotiation, <color=purple>William</color> lowered the
+    pants of one of the captured thieves and began to speak.
+  - Gentlemen, you have two choices from now on, a boring choice and a fun one.
+  - The boring choice is for you to drop the hostages safely and accept being arrested.
+  - The fun choice is for you to kill the hostages and have your dicks amputated.
+  - The <color=yellow>thief</color> with his pants down begged for mercy with all
+    the desperation of his soul, but that didn't stop <color=purple>William</color>
+    from making a show that turned cries of despair into cries of pain.
+  - Don't make such a fuss, that's no big deal, you've only lost three centimeters
+    of dick.
+  - <color=purple>William</color> gave a gentle smile.
+  - The choice is yours, dear friends.
+  - In a few seconds all the hostages were freed, after the screams stopped <color=purple>William</color>
+    said to the <color=yellow>thief</color> with his pants down.
+  - Look on the bright side, your dick saved the lives of several hostages.
+  idchara: 00000000000000001c0000001c0000001c000000000000001c000000000000001c000000000000001c000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
+  Cenario: 11
