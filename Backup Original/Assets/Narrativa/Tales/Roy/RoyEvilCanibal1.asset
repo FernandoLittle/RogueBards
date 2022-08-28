@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
-  m_Name: Roy4
+  m_Name: RoyEvilCanibal1
   m_EditorClassIdentifier: 
-  id: 4
+  id: 0
   Dialogue:
-  - Please <color=blue>soldier</color>, don't kill me, I don't want to die, I do
-    anything you want, just don't kill me, please.
-  - Do not kill me... please
-  idchara: 0c0000000c000000
-  instruction: 000000000000000039010000
+  - No... You can't
+  idchara: 0b000000
+  instruction: 000000006a000000
   Cenario: 1

@@ -17,6 +17,7 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TalesMinigames;
     public List<Tales> TalesCustonRoute;
     public List<Tales> TalesCustonRouteTrue;
+    public List<Tales> TalesDeath;
     public int instruction;
     public int TaleSelect;
     public int Index;
@@ -37,6 +38,7 @@ public class TalesVariables : MonoBehaviour
     public IlusControler IlusControler;
     public List<Tales> TaleGod;
     public GameObject Obrigado;
+    public GameObject Loading;
 
 
     // Start is called before the first frame update
@@ -126,6 +128,10 @@ public class TalesVariables : MonoBehaviour
         else if (IdList == 4)
         {
             Tales = TalesCustonRoute;
+        }
+        else if (IdList == 5)
+        {
+            Tales = TalesDeath;
         }
     }
     public void SetGodTale()

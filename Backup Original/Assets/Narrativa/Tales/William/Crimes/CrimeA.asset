@@ -17,5 +17,5 @@ MonoBehaviour:
   - An assassin's job is to defend crime.
   - What crime do you want to defend?
   idchara: 0000000000000000
-  instruction: 00000000ffffffff
+  instruction: 0000000000000000ffffffff
   Cenario: 0

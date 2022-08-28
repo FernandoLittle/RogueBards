@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Adventure.unity
+    guid: 3a591153077703442a5aa12645c9f174
+  - enabled: 0
     path: Assets/Scenes/Play.unity
     guid: 251897d25abf1a647a6144eaf6b08745
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Select.unity
     guid: 715e1e46d808eb444b0167a45e980a1a
   - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Deckbuilding.unity
     guid: 6bef1a646337dab40b87f4c950eecb41
   - enabled: 1

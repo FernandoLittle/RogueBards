@@ -33,67 +33,84 @@ public class Instructions : MonoBehaviour
 
             //SetFight
             case 1:
+
                 StaticPlayer.Fight = 1;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 2:
                 StaticPlayer.Fight = 2;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 3:
                 StaticPlayer.Fight = 3;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 4:
                 StaticPlayer.Fight = 4;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 5:
                 StaticPlayer.Fight = 5;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 6:
                 StaticPlayer.Fight = 6;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 7:
                 StaticPlayer.Fight = 7;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 8:
                 StaticPlayer.Fight = 8;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 9:
                 StaticPlayer.Fight = 9;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 10:
                 StaticPlayer.Fight = 10;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 11:
                 StaticPlayer.Fight = 11;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 12:
                 StaticPlayer.Fight = 12;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 13:
                 StaticPlayer.Fight = 13;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 14:
                 StaticPlayer.Fight = 14;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 15:
                 StaticPlayer.Fight = 15;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
             case 16:
                 StaticPlayer.Fight = 16;
+                TalesVariables.Loading.SetActive(true);
                 SceneManager.LoadScene("Battle");
                 break;
 
@@ -205,13 +222,13 @@ public class Instructions : MonoBehaviour
 
             case 312:
                 SetButtonST("I can", "I can't", "", "", "");
-                SetButton(502, 703, 0, 0, 0);
+                SetButton(1008, 1009, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
 
             case 313:
                 SetButtonST("Decline offer", "It's not up to me to make this decision", "", "", "");
-                SetButton(1001, 1002, 0, 0, 0);
+                SetButton(1011, 1010, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 314:
@@ -221,7 +238,7 @@ public class Instructions : MonoBehaviour
                 break;
             case 315:
                 SetButtonST("Accept the bad luck", "Flip the coin again", "", "", "");
-                SetButton(1013, 1014, 0, 0, 0);
+                SetButton(-101, -102, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 316:
@@ -236,7 +253,7 @@ public class Instructions : MonoBehaviour
                 break;
             case 318:
                 SetButtonST("Follow your heart.", "Follow Shuá.", "", "", "");
-                SetButton(1020, 1019, 0, 0, 0);
+                SetButton(1019, 1020, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 319:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d9aac0bbc64693c458f51e42058ce096, type: 3}
   sprite1: {fileID: 0}
-  Name: Klaus
+  Name: <color=yellow>Klaus</color>
   id: 17
   idPersonagem: 0
   AtaqueForte: 11000000
@@ -22,7 +22,7 @@ MonoBehaviour:
   Bloqueio: 11000000
   Esquiva: 11000000
   Vida: 15
-  Ataque: 4
+  Ataque: 12
   Defesa: 2
   act: 0
   mov: 0

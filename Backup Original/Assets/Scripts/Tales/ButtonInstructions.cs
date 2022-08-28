@@ -18,7 +18,15 @@ public class ButtonInstructions : MonoBehaviour
             case -6:
                 
                 break;
-
+            //-100 Special Instruction.
+            case -101:
+                PlayerPrefs.SetInt("Anne",0);
+                TalesVariables.SetTale(13);
+                break;
+            case -102:
+                PlayerPrefs.SetInt("Anne",1);
+                TalesVariables.SetTale(12);
+                break;
             //Set Tale 1000
             case 1000:
                 TalesVariables.SetTale(a - 1000);
@@ -27,7 +35,7 @@ public class ButtonInstructions : MonoBehaviour
                 TalesVariables.SetTale(a - 1000);
                 break;
             case 1002:
-                TalesVariables.SetTale(a - 10000);
+                TalesVariables.SetTale(a - 1000);
                 break;
             case 1005:
                 TalesVariables.SetTale(a - 1000);

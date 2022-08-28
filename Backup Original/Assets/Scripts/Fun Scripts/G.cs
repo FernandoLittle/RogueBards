@@ -611,12 +611,12 @@ public class G : MonoBehaviour
             if (d.Generic.Desc(action.KeywordId[x]) == 31)
             {
                 d.Description.text += "<color=#00C2FF>Willpower</color>: Gains mana if you have 0 mana at end of turn.\n";
-                d.KeywordsT[x].text = "<color=#00C2FF>Willpower /color> ";
+                d.KeywordsT[x].text = "<color=#00C2FF>Willpower</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 32)
             {
                 d.Description.text += "<color=#FF009C>Passion</color>:  Gains 2 life whenever you activate the sentimental bonuses.\n";
-                d.KeywordsT[x].text = "<color=#FF009C>Passion/color> ";
+                d.KeywordsT[x].text = "<color=#FF009C>Passion</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 33)
             {
@@ -631,7 +631,7 @@ public class G : MonoBehaviour
             if (d.Generic.Desc(action.KeywordId[x]) == 35)
             {
                 d.Description.text += "<color=#D90000>Scar</color>: Opponent cannot gain life. This is very cruel.\n";
-                d.KeywordsT[x].text = "<color=#D90000>Scar/color> ";
+                d.KeywordsT[x].text = "<color=#D90000>Scar</color> ";
             }
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {

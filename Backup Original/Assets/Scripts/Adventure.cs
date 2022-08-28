@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Adventure : MonoBehaviour
 {
     public int FightID;
+    public GameObject Loading;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class Adventure : MonoBehaviour
         StaticPlayer.Defense[0] = 0;
         StaticPlayer.PlayerMaxLife[0] = 0;
         StaticPlayer.Attack[0] = 0;
+        Loading.SetActive(true);
         SceneManager.LoadScene("Tales");
     }
     public void WilliamW()
@@ -48,6 +50,7 @@ public class Adventure : MonoBehaviour
         StaticPlayer.Defense[0] = 0;
         StaticPlayer.PlayerMaxLife[0] = 0;
         StaticPlayer.Attack[0] = 0;
+        Loading.SetActive(true);
         SceneManager.LoadScene("Tales");
     }
 }
