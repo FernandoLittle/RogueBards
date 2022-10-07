@@ -23,7 +23,17 @@ public class K2 : MonoBehaviour
         {
             idDark = Random.Range(0, Dialogues.DarkText.Count);
         }
-        DarkText.text = Dialogues.DarkText[idDark].Speak[darktime];
+
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            DarkText.text = Dialogues.DarkText[idDark].Speak[darktime];
+        }
+        if (language == 1)
+        {
+            DarkText.text = Dialogues.DarkTextBR[idDark].Speak[darktime];
+        }
         darktime += 1;
     }
 }

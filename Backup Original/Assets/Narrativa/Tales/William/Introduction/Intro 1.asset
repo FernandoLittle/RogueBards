@@ -27,6 +27,21 @@ MonoBehaviour:
     is seen as good.
   - 'In <color=yellow>Sarka</color> a warrior said:'
   - Assassins talk so fucking much.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "Qual \xE9 a diferen\xE7a entre um assassino e um guerreiro? Um \xE9 mais gentil
+    que o outro? Um \xE9 mais inteligente que o outro? Um \xE9 mais virtuoso que
+    o outro?"
+  - "N\xE3o n\xE3o e n\xE3o. Eles n\xE3o tra\xE7aram caminhos diferentes por uma
+    diferen\xE7a de moral, intelecto ou virtude."
+  - "Mesmo que eles n\xE3o percebam conscientemente, os humanos raramente se preocupam
+    com o que \xE9 bom e moral, o que \xE9 prioridade para eles \xE9 a reputa\xE7\xE3o,
+    ou seja, \xE9 mais importante parecer bom do que realmente ser."
+  - "Um guerreiro \xE9 apenas um humano que vive em um lugar onde ser um guerreiro
+    \xE9 visto como bom, um assassino \xE9 apenas um humano que vive em um lugar
+    onde ser um assassino \xE9 visto como bom."
+  - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
+  - Assassinos falam pra caralho.
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000069000000
   Cenario: 4

@@ -192,7 +192,7 @@ public class F : MonoBehaviour
 
 
             }
-            if (x30 == 1)//Orgulho de William
+            if (x30 == 28)//Orgulho de William
             {
                 if (Win == 0)
                 {
@@ -560,7 +560,7 @@ public class F : MonoBehaviour
             }
             if (x20 == 2)//Estudo Akashico
             {
-                AddStatus(2, 1);
+                AddStatus(1, 1);
                 if (Win == 1)
                 {
                     UpAttribute(2, 1, true);
@@ -828,6 +828,7 @@ public class F : MonoBehaviour
                 {
                     AddStatus(1, 1);
                     UpAttribute(2, 2, true);
+                    TrueDamage(5);
                 }
 
 
@@ -1005,6 +1006,10 @@ public class F : MonoBehaviour
                 {
                     TrueDamage(Zone[y0].Lyoko[2]);
                 }
+                if (Win == 1)
+                {
+                    Attack();
+                }
 
             }
             if (x40 == 3)//Lei de Lyoko
@@ -1012,9 +1017,12 @@ public class F : MonoBehaviour
 
                 if (Generic.HaveInt(Zone[y0].status, 2))
                 {
-                    UpLife(Zone[y0].Lyoko[2]);
+                    UpLife(a.Combat.ManaSpendA);
                 }
-
+                if (Win == 1)
+                {
+                    Attack();
+                }
 
             }
             if (x40 == 4)//Transformar o Mana
@@ -1170,40 +1178,80 @@ public class F : MonoBehaviour
 
 
 
+            int language;
+            language = PlayerPrefs.GetInt("Language");
+            if (language == 0)
+            {
+                if (c11[k] == 1)
+                {
+                    Eye.sprite = D.AttackS[c8[k]].sprite;
+                    Eye2.text = D.AttackS[c8[k]].Texto0;
 
+                }
+                if (c11[k] == 2)
+                {
+                    Eye.sprite = D.AttackQ[c8[k]].sprite;
+                    Eye2.text = D.AttackQ[c8[k]].Texto0;
+
+                }
+                if (c11[k] == 3)
+                {
+                    Eye.sprite = D.Block[c8[k]].sprite;
+                    Eye2.text = D.Block[c8[k]].Texto0;
+
+                }
+                if (c11[k] == 4)
+                {
+                    Eye.sprite = D.Dodge[c8[k]].sprite;
+                    Eye2.text = D.Dodge[c8[k]].Texto0;
+
+
+                }
+                if (c11[k] == 5)
+                {
+                    Eye.sprite = D.Relics[c8[k]].SpriteRelic;
+                    Eye2.text = D.Relics[c8[k]].Description;
+
+
+                }
+            }
+            if (language == 1)
+            {
+                if (c11[k] == 1)
+                {
+                    Eye.sprite = D.AttackS[c8[k]].sprite;
+                    Eye2.text = D.AttackS[c8[k]].Texto0br;
+
+                }
+                if (c11[k] == 2)
+                {
+                    Eye.sprite = D.AttackQ[c8[k]].sprite;
+                    Eye2.text = D.AttackQ[c8[k]].Texto0br;
+
+                }
+                if (c11[k] == 3)
+                {
+                    Eye.sprite = D.Block[c8[k]].sprite;
+                    Eye2.text = D.Block[c8[k]].Texto0br;
+
+                }
+                if (c11[k] == 4)
+                {
+                    Eye.sprite = D.Dodge[c8[k]].sprite;
+                    Eye2.text = D.Dodge[c8[k]].Texto0br;
+
+
+                }
+                if (c11[k] == 5)
+                {
+                    Eye.sprite = D.Relics[c8[k]].SpriteRelic;
+                    Eye2.text = D.Relics[c8[k]].DescriptionBR;
+
+
+                }
+            }
             //Eye1.SetActive(true);
-            if (c11[k] == 1)
-            {
-                Eye.sprite = D.AttackS[c8[k]].sprite;
-                Eye2.text = D.AttackS[c8[k]].Texto0;
-
-            }
-            if (c11[k] == 2)
-            {
-                Eye.sprite = D.AttackQ[c8[k]].sprite;
-                Eye2.text = D.AttackQ[c8[k]].Texto0;
-
-            }
-            if (c11[k] == 3)
-            {
-                Eye.sprite = D.Block[c8[k]].sprite;
-                Eye2.text = D.Block[c8[k]].Texto0;
-
-            }
-            if (c11[k] == 4)
-            {
-                Eye.sprite = D.Dodge[c8[k]].sprite;
-                Eye2.text = D.Dodge[c8[k]].Texto0;
-
-
-            }
-            if (c11[k] == 5)
-            {
-                Eye.sprite = D.Relics[c8[k]].SpriteRelic;
-                Eye2.text = D.Relics[c8[k]].Description;
-
-
-            }
+          
             if (c9[k] == 1)
             {
                 anime[c6[k]].SetActive(true);
@@ -1643,6 +1691,9 @@ public class F : MonoBehaviour
     }
     public void AddStatus(int IdStatus, int targ)
     {
+        //Sabedoria 1
+        // Coragem 2
+        //Paixão 3
         int indexo = 0;
 
         Damage = 0;

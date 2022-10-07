@@ -911,12 +911,12 @@ public class A : MonoBehaviourPunCallbacks
         }
 
 
-        Anime[1].Play("Normal1");
-        Anime[2].Play("Normal2");
-        Anime[3].Play("Normal3");
-        Anime[4].Play("Normal4");
-        Anime[5].Play("Normal5");
-        Anime[6].Play("Normal6");
+       // Anime[1].Play("Normal1");
+       // Anime[2].Play("Normal2");
+        //Anime[3].Play("Normal3");
+        //Anime[4].Play("Normal4");
+       // Anime[5].Play("Normal5");
+       // Anime[6].Play("Normal6");
         //Anime[7].Play("Normal7");
         // Anime[8].Play("Normal8");
         // Anime[9].Play("Normal9");
@@ -926,29 +926,14 @@ public class A : MonoBehaviourPunCallbacks
         //     Anime[x].Play("Normal"+x);
         // }
 
-        Size[0].transform.localPosition = new Vector3(107, 66, 0);
-        Size[1].transform.localPosition = new Vector3(17.5f, 66, 0);
-        Size[2].transform.localPosition = new Vector3(-69.5f, 66, 0);
-        Size[3].transform.localPosition = new Vector3(-69.5f, -63, 0);
-        Size[4].transform.localPosition = new Vector3(17.5f, -63, 0);
-        Size[5].transform.localPosition = new Vector3(107.9f, -63, 0);
-        Size[6].transform.localPosition = new Vector3(106.2f, 169.4f, 0);
-        Size[7].transform.localPosition = new Vector3(-69.4f, 169.4f, 0);
-        Size[8].transform.localPosition = new Vector3(-70.2f, -167.1f, 0);
-        Size[9].transform.localPosition = new Vector3(107.9f, -167.1f, 0);
+
 
 
 
 
         for (int x = 0; x < 8; x = x + 1)
         {
-            Size[x].sizeDelta = new Vector2(62.8f, 91.6f);
-            Size[x].localScale = new Vector3(1, 1, 1);
-            Size[x].transform.rotation = new Quaternion(0, 0, 0, 0);
-            SizeMB[x].sizeDelta = new Vector2(62.8f, 91.6f);
-            SizeMB[x].localScale = new Vector3(1, 1.05f, 1);
-            SizeMR[x].sizeDelta = new Vector2(62.8f, 91.6f);
-            SizeMR[x].localScale = new Vector3(1, 1.05f, 1);
+
         }
     }
     public void SetOnline()
@@ -1040,28 +1025,19 @@ public class A : MonoBehaviourPunCallbacks
         {
 
 
-            if (Zone[ally].Lyoko[0] < 7 && Zone[ally].Mana - Zone[enemy].Mana < -2)
-            {
-                //Vida baixa, mana baixa = ódio
-                Zone[ally].sentimento = 3;
-            }
-
-
-            else if (Zone[enemy].Lyoko[0] < Zone[ally].Lyoko[1])
-            {
-                Zone[ally].sentimento = 2;
-                //Vida oponente menor que ataque aliado = fúria
-            }
-            else if (Zone[ally].Lyoko[0] < 7)
-            {
-                Zone[ally].sentimento = 1;
-                //Vida baixa = medo
-            }
-            else if (Zone[ally].Lyoko[0] >= 7)
+            if (Zone[ally].Lyoko[0] + Zone[ally].Mana >= Zone[enemy].Lyoko[0] + Zone[enemy].Mana )
             {
                 Zone[ally].sentimento = 0;
                 //Vida alta = calma
             }
+
+
+            else 
+            {
+                Zone[ally].sentimento = 1;
+                //Vida baixa = medo
+            }
+
             
             if (0 > 1)
             {

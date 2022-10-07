@@ -106,12 +106,23 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[1] = D.AttackQ[D.a21].IAturn - A.turn;
         TurnTemp[0] = Generic.Module(TurnTemp[0]);
         TurnTemp[1] = Generic.Module(TurnTemp[1]);
-        if (TurnTemp[0] < TurnTemp[1])
+       // if (TurnTemp[0] < TurnTemp[1])
+       // {
+       //     Selector = 0;
+       // }
+       // else
+       // {
+         //   Selector = 1;
+     //   }
+
+        if(D.AttackS[SkillIDE[0]].scale > D.AttackQ[SkillIDE[1]].scale)
         {
+            Debug.Log("AttackEnemy1 Maior");
             Selector = 0;
         }
         else
         {
+            Debug.Log("AttackEnemy2 Maior/igual");
             Selector = 1;
         }
         //Ally Selector
@@ -119,12 +130,14 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[3] = D.Dodge[D.a4].IAturn - A.turn;
         TurnTemp[2] = Generic.Module(TurnTemp[2]);
         TurnTemp[3] = Generic.Module(TurnTemp[3]);
-        if (TurnTemp[2] < TurnTemp[3])
+        if (D.Block[SkillIDA[2]].scale > D.Dodge[SkillIDA[3]].scale)
         {
+            Debug.Log("DefenseAlly1 Maior");
             SelectorAlly = 2;
         }
         else
         {
+            Debug.Log("DefenseAlly2 Maior");
             SelectorAlly = 3;
         }
 
@@ -136,12 +149,14 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[1] = D.Dodge[D.a41].IAturn - A.turn;
         TurnTemp[0] = Generic.Module(TurnTemp[0]);
         TurnTemp[1] = Generic.Module(TurnTemp[1]);
-        if (TurnTemp[0] < TurnTemp[1])
+        if (D.Block[SkillIDE[2]].scale > D.Dodge[SkillIDE[3]].scale)
         {
+            Debug.Log("DefenseEnemy1 Maior");
             Selector = 2;
         }
         else
         {
+            Debug.Log("DefenseEnemy2 Maior");
             Selector = 3;
         }
         //Ally Selector
@@ -149,12 +164,14 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[3] = D.AttackQ[D.a2].IAturn - A.turn;
         TurnTemp[2] = Generic.Module(TurnTemp[2]);
         TurnTemp[3] = Generic.Module(TurnTemp[3]);
-        if (TurnTemp[2] < TurnTemp[3])
+        if (D.AttackS[SkillIDA[0]].scale > D.AttackQ[SkillIDA[1]].scale)
         {
+            Debug.Log("AttackAlly1 Maior");
             SelectorAlly = 0;
         }
         else
         {
+            Debug.Log("AttackAlly2 Maior");
             SelectorAlly = 1;
         }
     }
@@ -164,68 +181,29 @@ public class FantasyRivalsIA : MonoBehaviour
 
         if (A.Zone[F.z].sentimento == 0)//calma
         {
-            IdealManaA = Random.Range(0, 3);
+            IdealManaA = Random.Range(0, 4);
         }
         if (A.Zone[F.z].sentimento == 1)//medo
         {
-            if (A.Atacante == false)
-            {
-                IdealManaA = Random.Range(0, 3);
 
-            }
-            if (A.Atacante == true)
-            {
-                if (TotalManaA < 7)
+            
+                if (TotalManaA < 5)
                 {
                     IdealManaA = TotalManaA;
                 }
                 else
                 {
-                    IdealManaA = Random.Range(6, TotalManaA+1);
+                    IdealManaA = Random.Range(1, TotalManaA-3);
                 }
                
-            }         
+                    
         }
-        if (A.Zone[F.z].sentimento == 2)//fúria
-        {
-            if (A.Atacante == true)
-            {
-                IdealManaA = Random.Range(0, 3);
-
-            }
-            if (A.Atacante == false)
-            {
-                if (TotalManaA < 7)
-                {
-                    IdealManaA = TotalManaA;
-                }
-                else
-                {
-                    IdealManaA = Random.Range(6, TotalManaA + 1);
-                }
-
-            }
-        }
-        if (A.Zone[F.z].sentimento == 3)//ódio
-        {
-            if (TotalManaA < 7)
-            {
-                IdealManaA = TotalManaA;
-            }
-            else
-            {
-                IdealManaA = Random.Range(6, TotalManaA + 1);
-            }
-        }
+        
         if (A.Zone[F.z].sentimento == 4)//compaixão
         {
             IdealManaA = -1;
         }
-        else if(A.turn <8)
-        {
-            IdealManaA = Random.Range(0, TotalManaA-2);            
-        }
-        else
+        if(A.turn ==3)
         {
             IdealManaA = TotalManaA;            
         }
@@ -288,18 +266,13 @@ public class FantasyRivalsIA : MonoBehaviour
         IdealAttackE = SelectorMana * IdealScaleE;
         if (SelectorMana < TotalManaE)
         {
-            if (IdealAttackE < IdealAttackA)
+            if (IdealAttackE <= IdealAttackA)
             {
                 SelectorMana += 1;
                 Combat.ManaE -= 1;
                 ManaUp();
             }
-            if(IdealAttackE==IdealAttackA && A.Atacante == true)
-            {
-                SelectorMana += 1;
-                Combat.ManaE -= 1;
-                ManaUp();
-            }
+
         }
     }
 }

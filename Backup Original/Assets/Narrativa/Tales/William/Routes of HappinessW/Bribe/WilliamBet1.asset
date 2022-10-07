@@ -18,12 +18,23 @@ MonoBehaviour:
     practically every establishment with no name and a curtain to prevent its interior
     from being seen by outsiders was a betting house in <color=yellow>Sarka</color>.
   - The attendant quickly realized that <color=purple>William</color> was a warrior.
-  - You came early this month, here's the pay.
+  - You came early this season, here's the payment.
   - <color=purple>William</color> gave him a menacing look.
   - Are you trying to bribe me? You will be arrested.
   - Calm, calm, calm, you don't need so much hostility, I can increase the pay, so
     everyone is happy, right?
   - It was a pleasure doing business with you.
+  DialogueBR:
+  - "Era f\xE1cil reconhecer uma casa de apostas, mesmo que n\xE3o tivesse nenhuma
+    placa, pois praticamente todos os estabelecimentos sem nome e com uma cortina
+    ocultando seu interior eram casas de apostas em <color=yellow>Sarka< /cor>."
+  - O atendente rapidamente percebeu que <color=purple>William</color> era um guerreiro.
+  - "Voc\xEAs vieram mais cedo nessa esta\xE7\xE3o, aqui est\xE1 o pagamento."
+  - "<color=purple>William</color> deu a ele um olhar amea\xE7ador."
+  - "Voc\xEA est\xE1 tentando me subornar? Voc\xEA ser\xE1 preso."
+  - "Calma, calma, calma, n\xE3o precisa de tanta hostilidade, posso aumentar o sal\xE1rio,
+    assim todo mundo fica feliz, n\xE9?"
+  - "Foi um prazer fazer neg\xF3cios com voc\xEA."
   idchara: 000000000000000010000000000000001c000000100000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000042010000
   Cenario: 24

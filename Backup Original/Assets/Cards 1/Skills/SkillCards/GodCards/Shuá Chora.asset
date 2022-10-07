@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: "Shu\xE1 Chora"
   m_EditorClassIdentifier: 
   Name: <color=#FF0080>Shua Cries</color>
+  NameBR: "<color=#FF0080>Shu\xE1 Chora</color>"
   sprite: {fileID: 21300000, guid: dc54b44b76709c34aad1ba1fd4a3ac31, type: 3}
   id: 1
   Texto0: If the opponent has 20 life or more, deal 100 Damage.
-  Texto0br: 
+  Texto0br: Se o oponente tiver 20 de vida ou mais, cause 100 de Dano.
   scale: 6
   IAturn: 0
   KeywordId: eaffffff

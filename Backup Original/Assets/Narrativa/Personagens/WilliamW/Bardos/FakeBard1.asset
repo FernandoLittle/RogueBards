@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d9aac0bbc64693c458f51e42058ce096, type: 3}
   sprite1: {fileID: 0}
-  Name: <color=yellow>Klaus</color>
-  id: 17
+  Name: <color=blue>Sifio</color>
+  id: 16
   idPersonagem: 0
-  AtaqueForte: 11000000
-  "AtaqueR\xE1pido": 11000000
-  Bloqueio: 11000000
-  Esquiva: 11000000
+  AtaqueForte: 10000000
+  "AtaqueR\xE1pido": 10000000
+  Bloqueio: 10000000
+  Esquiva: 10000000
   Vida: 15
-  Ataque: 12
+  Ataque: 5
   Defesa: 2
   act: 0
   mov: 0
@@ -32,4 +32,4 @@ MonoBehaviour:
   KeyordId: 
   Relics: 
   skin: 1500000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
-  SentimentoType: 4
+  SentimentoType: 0

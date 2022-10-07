@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Doutrina  de Lyoko
   m_EditorClassIdentifier: 
   Name: <color=yellow>Lyoko's Doctrine</color>
+  NameBR: <color=yellow>Doutrina de Lyoko</color>
   sprite: {fileID: 21300000, guid: 6e55ce8f27b31c34b92e295818bfdc9b, type: 3}
   id: 3
   Texto0: If you have <color=#FF62B4>Bravery</color> deal Double Strike instead.
-  Texto0br: 
+  Texto0br: "Se voc\xEA tiver <color=#FF62B4>Coragem</color> cause Ataque Duplo ao
+    inv\xE9s."
   scale: 6
   IAturn: 0
   KeywordId: 1f00000002000000

@@ -30,6 +30,25 @@ MonoBehaviour:
     I knew wasn't a parasite.
   - 'Next week:'
   - <color=blue>Roy</color>  flips a coin, unfortunately the result is a tail.
-  idchara: 1b0000000d0000001b0000000d0000001b000000000000000d0000001b0000000d0000001b0000000d0000000000000000000000
+  DialogueBR:
+  - "Eu n\xE3o aguento mais, eu... eu n\xE3o... n\xE3o... o que estamos fazendo aqui?"
+  - "Levante-se <color=blue>Roy</color>! Ainda n\xE3o terminamos!"
+  - "Voc\xEA n\xE3o consegue ver o que estamos fazendo? Pare com isso agora!"
+  - "Voc\xEA entende que est\xE1 desobedecendo a hierarquia militar?"
+  - "<color=yellow>Yuri</color>! Voc\xEA est\xE1 louco? N\xE3o podemos continuar
+    com isso!"
+  - 'Na semana seguinte:'
+  - "Voc\xEA tem sorte, <color=blue>Roy</color>, a maioria teria ido para a cadeia
+    por fazer o que voc\xEA fez, mas eu consegui fazer com que voc\xEA apenas perdesse
+    sua espada."
+  - "Eu preciso da espada, preciso do sal\xE1rio..."
+  - "Devia ter pensado nisso antes! Voc\xEA ainda ganhar\xE1 um b\xF4nus pelos servi\xE7os
+    realizados at\xE9 o momento."
+  - "Este dinheiro n\xE3o \xE9 suficiente, eu preciso\u2026"
+  - "Voc\xEA realmente gosta de cuspir no prato que comeu. Saia da minha frente,
+    o <color=blue>Roy</color> que eu conhecia n\xE3o era um parasita."
+  - 'Na semana seguinte:'
+  - "<color=blue>Roy</color> joga uma moeda, infelizmente o resultado \xE9 coroa."
+  idchara: 1b0000000d0000001b0000000d0000001b000000000000000d0000001b0000000d0000001b0000000d000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003b010000
   Cenario: 1

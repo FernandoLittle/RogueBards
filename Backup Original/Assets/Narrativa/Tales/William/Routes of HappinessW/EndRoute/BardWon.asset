@@ -29,10 +29,32 @@ MonoBehaviour:
     participated in this massacre to save you and your sisters.
   - Because at that time the military were the only ones who could provide food security
     for their children.
-  - I understand your father, as I understand you. But like <color=blue>Roy</color>,
+  - I understand your father the same way I understand you.. But like <color=blue>Roy</color>,
     I'm just doing my job.
   - <color=purple>William</color>'s last wish came true, his conscience blanked before
     he finished listening to that pathetic speech.
+  DialogueBR:
+  - "Eu tenho duas quest\xF5es para voc\xEA."
+  - Primeira pergunta, quantos filhos <color=blue>Roy</color> teve?
+  - "<color=purple>William</color> adorava conversar com suas v\xEDtimas depois que
+    elas eram derrotadas. Ver o <color=#00FFBF>bardo</color> fazer o mesmo com ele
+    foi absolutamente insuport\xE1vel."
+  - "Tr\xEAs."
+  - "Ele teve tr\xEAs filhos. Um se tornou um <color=purple>guerreiro</color>, outro
+    se tornou um <color=purple>dem\xF4nio</color>, outro morreu em agonia."
+  - Segunda pergunta, quantas pessoas morreram em <color=purple>Denai</color>?
+  - "<color=purple>William</color> estava perdendo mais sangue a cada momento, ele
+    queria perder a consci\xEAncia e sangrar at\xE9 a morte logo para essa cena humilhante
+    terminar."
+  - Trezentas e uma.
+  - "Trezentas e uma pessoas morreram em <color=purple>Denai</color>. <color=blue>Roy</color>
+    participou deste massacre para salvar voc\xEA e suas irm\xE3s."
+  - "Porque naquela \xE9poca os militares eram os \xFAnicos que podiam dar seguran\xE7a
+    alimentar aos seus filhos."
+  - "Eu entendo seu pai da mesma forma que entendo voc\xEA. Mas assim como o <color=blue>Roy</color>,
+    eu estou apenas fazendo meu trabalho."
+  - "O \xFAltimo desejo de <color=purple>William</color> se tornou realidade, sua
+    consci\xEAncia apagou antes que ele terminasse de ouvir aquele discurso pat\xE9tico."
   idchara: 0a0000000a000000000000000a0000000a0000000a000000000000000a0000000a0000000a0000000a00000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
   Cenario: 18

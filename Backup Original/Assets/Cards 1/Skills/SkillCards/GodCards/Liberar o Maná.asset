@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: "Liberar o Man\xE1"
   m_EditorClassIdentifier: 
   Name: <color=blue>Release the Mana</color>
+  NameBR: <color=blue>Liberar o Mana</color>
   sprite: {fileID: 21300000, guid: 04ac368115814a54085cbcf4bb77ffb8, type: 3}
   id: 4
-  Texto0: If you have the sentimental bonus activated, deal double strike instead.
-    If you have passion and the sentimental bonus activated, deal triple strike instead.
-  Texto0br: 
-  scale: 6
+  Texto0: If you have the <color=blue>sentimental bonus</color> activated, deal double
+    strike instead. If you have <color=#FF009C>Passion</color> and the <color=blue>sentimental
+    bonus</color> activated, deal triple strike instead.
+  Texto0br: "Se voc\xEA ativou o <color=blue>b\xF4nus sentimental</color>, cause
+    ataque duplo ao inv\xE9s. Se voc\xEA tiver <color=#FF009C>Paix\xE3o</color> e
+    ativou o <color=blue>b\xF4nus sentimental</color>, cause Ataque Tirplo ao inv\xE9s."
+  scale: 9
   IAturn: 0
   KeywordId: 01000000
   KeywordValues:

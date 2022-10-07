@@ -32,8 +32,8 @@ MonoBehaviour:
   - "I bet it was a true story, this\u2026 this world is rotten."
   - <color=yellow>Mello</color>, I know how you feel. Every warrior feels it, we
     risk our lives for the people and we are treated like villains in songs, even
-    in the newspaper at times. But on the bright side, parliament has passed a law
-    banning newspapers from publishing unpatriotic news.
+    in the newspaper at times. But look on the bright side, parliament has passed
+    a law banning newspapers from publishing unpatriotic news.
   - That doesn't solve anything, we're dying for shitty people who hate us.
   - <color=purple>William</color> gave his friend a hug.
   - You're a good person man, I know your heart, don't let the heartache consume
@@ -52,6 +52,49 @@ MonoBehaviour:
   - You are a warrior.
   - Do not give up on the path of justice.
   - <color=purple>William</color> felt very proud to have given this great <color=red>advice</color>.
+  DialogueBR:
+  - Todos em <color=yellow>Sarka</color> querem ser uma puta de malandro.
+  - Fale baixo, <color=yellow>Mello</color>.
+  - "<color=purple>William</color> olhou em volta, esperando que ningu\xE9m naquele
+    bar estivesse prestando aten\xE7\xE3o neles."
+  - "Ei, acho que voc\xEA j\xE1 bebeu o suficiente."
+  - "Quem se importa? Quem se importa se eu morrer agora? Ningu\xE9m."
+  - "O que voc\xEA quer dizer? Eu me importo, cara. O que aconteceu? Voc\xEA n\xE3o
+    costuma ser assim."
+  - "Todos os dias n\xF3s guerreiros arriscamos nossas vidas por... por... por qu\xEA?"
+  - "<color=yellow>Mello</color> solu\xE7ou."
+  - "Para proteger as pessoas, eu acho. E somos tratados como vil\xF5es neste pa\xEDs
+    de merda."
+  - "Fala baixo, <color=yellow>Mello</color>! Dizer que este pa\xEDs \xE9 uma mer\u2026
+    ofender a p\xE1tria \xE9 um crime."
+  - "Caguei, ningu\xE9m se importa. Bardos dizem coisas piores o tempo todo. Ainda
+    ontem havia um maldito bardo cantando uma can\xE7\xE3o glorificando um traficante
+    de drogas que fodeu a esposa de um guerreiro."
+  - "Aposto que era uma hist\xF3ria verdadeira, este... este mundo est\xE1 podre."
+  - "<color=yellow>Mello</color>, eu sei como voc\xEA se sente. Todo guerreiro sente
+    isso, arriscamos nossas vidas pelo povo e somos tratados como vil\xF5es nas m\xFAsicas,
+    at\xE9 no jornal \xE0s vezes. Mas olhe pelo lado positivo, o parlamento aprovou
+    uma lei que pro\xEDbe os jornais de publicarem not\xEDcias antipatri\xF3ticas."
+  - "Isso n\xE3o resolve nada, estamos morrendo por pessoas de merda que nos odeiam."
+  - "<color=purple>William</color> deu um abra\xE7o em seu amigo."
+  - "Voc\xEA \xE9 uma boa pessoa cara, eu conhe\xE7o seu cora\xE7\xE3o, n\xE3o deixe
+    a m\xE1goa te consumir."
+  - "Minha m\xE3e... Minha m\xE3e est\xE1 doente, ela precisa de mim para tudo, n\xE3o
+    h\xE1 ningu\xE9m al\xE9m de mim que possa cuidar dela."
+  - "<color=yellow>Mello</color> come\xE7ou a chorar."
+  - "Se eu morrer, ela ficar\xE1 sozinha... Por que eu estou arriscando minha vida?"
+  - Por que, <color=purple>William</color>? Me responda.
+  - "Esta hist\xF3ria lembrou <color=purple>William</color> do pior dia de sua vida."
+  - "Acho que sei o porqu\xEA das pessoas simpatizam mais com bandidos do que com
+    guerreiros. N\xF3s arriscamos nossas vidas por algo maior e poucos conseguem
+    entender isso."
+  - "A maioria das pessoas s\xE3o ego\xEDstas e, portanto, se identificam muito mais
+    com os criminosos do que conosco."
+  - "Voc\xEA \xE9 um homem forte, <color=yellow>Mello</color>."
+  - "Voc\xEA \xE9 um guerreiro."
+  - "N\xE3o desista do caminho da justi\xE7a."
+  - <color=purple>William</color> sentiu-se muito orgulhoso por ter dado este excelente
+    <color=red>conselho</color>.
   idchara: 210000001c000000000000001c000000210000001c0000002100000000000000210000001c00000021000000210000001c00000021000000000000001c00000021000000000000002100000021000000000000001c0000001c0000001c0000001c0000001c00000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006f000000
   Cenario: 15

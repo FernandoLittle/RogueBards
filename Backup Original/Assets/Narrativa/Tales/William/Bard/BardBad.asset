@@ -17,9 +17,16 @@ MonoBehaviour:
   - I'm a terrible teacher.
   - I quit.
   - <color=purple>William</color>'s face turned serious.
-  - I mean, you have a lot of potential, but you need to train hard, please don't
+  - I mean... you have a lot of potential, but you need to train hard, please don't
     arrest me, <color=purple>warrior</color>.
   - Fuck you.
-  idchara: 0a0000001c000000000000000a0000001c000000
+  DialogueBR:
+  - "Eu sou um p\xE9ssimo professor."
+  - Eu desisto.
+  - "O rosto de <color=purple>William</color> ficou s\xE9rio."
+  - "Quero dizer... voc\xEA tem muito potencial, mas precisa treinar mais, por favor,
+    n\xE3o me prenda, <color=purple>guerreiro</color>."
+  - Vai se foder.
+  idchara: 0a0000000a000000000000000a0000001c000000
   instruction: 0000000000000000000000000000000000000000ea030000
   Cenario: 2

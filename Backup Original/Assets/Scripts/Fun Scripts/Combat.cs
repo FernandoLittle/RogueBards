@@ -99,6 +99,25 @@ public class Combat : MonoBehaviourPunCallbacks
         ManaSpendT.text = ManaSpendA.ToString();
         AttackAT.text = (ManaSpendA * ScaleA).ToString();
     }
+    public void Return()
+    {
+        for (int x = 0; x < FightAN.Count; x = x + 1)
+        {
+
+            FightAN[x].Play("Spectral3");
+        }
+        for (int x = 0; x < FightANT.Count; x = x + 1)
+        {
+
+            FightANT[x].Play("SpectralText0");
+        }
+        Invoke("Return2", 0.5f); 
+    }
+    public void Return2()
+    {
+        Debug.Log("Invokado");
+        D.Return();
+    }
     public void Fight()
     {
         A.TrueDisabler.SetActive(true);

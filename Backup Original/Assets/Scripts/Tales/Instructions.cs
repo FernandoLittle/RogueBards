@@ -11,6 +11,7 @@ public class Instructions : MonoBehaviour
     public List<string> Caracter;
     public SkillA SkillA;
     public List<int> Routes;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -221,14 +222,16 @@ public class Instructions : MonoBehaviour
             //300 Set Buttons
 
             case 312:
-                SetButtonST("I can", "I can't", "", "", "");
+                SetButtonST("I can.", "I can't.", "", "", "");
                 SetButton(1008, 1009, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(1, 2, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
 
             case 313:
-                SetButtonST("Decline offer", "It's not up to me to make this decision", "", "", "");
+                SetButtonST("Decline offer.", "It's not up to me to make this decision.", "", "", "");
                 SetButton(1011, 1010, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(3, 4, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 314:
@@ -237,43 +240,51 @@ public class Instructions : MonoBehaviour
                 SceneManager.LoadScene("Battle");
                 break;
             case 315:
-                SetButtonST("Accept the bad luck", "Flip the coin again", "", "", "");
+                SetButtonST("Accept the bad luck.", "Flip the coin againX.", "", "", "");
+                TalesVariables.ButtonInstructions.TranslateButton(5, 6, 0, 0, 0);
                 SetButton(-101, -102, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 316:
                 SetButtonST("Play a religious song.", "Play a love song.", "Play a patriotic song.", "Play an instrumental song.", "");
                 SetButton(1301, 1302, 1303, 1304, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(7, 8, 9, 10, 0);
                 TalesVariables.ShowText();
                 break;
             case 317:
                 SetButtonST("Play a song.", "Read a book.", "", "", "");
                 SetButton(1305, 1306, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(11, 12, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 318:
                 SetButtonST("Follow your heart.", "Follow Shuá.", "", "", "");
                 SetButton(1019, 1020, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(13, 14, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 319:
                 SetButtonST("Join the prayer.", "Doubt the existence of Shuá.", "", "", "");
                 SetButton(1016, 1017, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(15, 16, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 320:
                 SetButtonST("Follow the Path of Shuá.", "Follow the Path of Warrior.", "", "", "");
                 SetButton(1014, 1013, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(17, 18, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 321:
                 SetButtonST("Question the monk.", "Ask for the monk's forgiveness.", "", "", "");
                 SetButton(1022, 1023, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(19, 20, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 322:
                 SetButtonST("Accept the bribe.", "Refuse the bribe.", "", "", "");
                 SetButton(1009, 1024, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(21, 22, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             //500 Genecric
@@ -347,6 +358,7 @@ public class Instructions : MonoBehaviour
         TalesVariables.IdButton[2] = id3;
         TalesVariables.IdButton[3] = id4;
         TalesVariables.IdButton[4] = id5;
+        //translate button
         TalesVariables.ShowButtons(NumberButtons);
     }
 
@@ -389,30 +401,60 @@ public class Instructions : MonoBehaviour
         Routes.Add(Route2);
         Routes.Add(Route3);
 
+
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+
         for (int x = 0; x < 3; x = x + 1)
         {
-            if (Routes[x] == 0)
+            if (language == 0)
             {
-                Inteiro[x] = 1501;
-                Caracter[x] = "Drink in a bar";
+                if (Routes[x] == 0)
+                {
+                    Inteiro[x] = 1501;
+                    Caracter[x] = "Drink in a bar";
+                }
+                if (Routes[x] == 1)
+                {
+                    Inteiro[x] = 1502;
+                    Caracter[x] = "Visit a cemetery";
+                }
+                if (Routes[x] == 2)
+                {
+                    Inteiro[x] = 1503;
+                    Caracter[x] = "Pray";
+                }
+                if (Routes[x] == 3)
+                {
+                    Inteiro[x] = 1504;
+                    Caracter[x] = "Take a bribe";
+                }
             }
-            if (Routes[x] == 1)
+            if (language == 1)
             {
-                Inteiro[x] = 1502;
-                Caracter[x] = "Visit a cemetery";
+                if (Routes[x] == 0)
+                {
+                    Inteiro[x] = 1501;
+                    Caracter[x] = "Beba no bar.";
+                }
+                if (Routes[x] == 1)
+                {
+                    Inteiro[x] = 1502;
+                    Caracter[x] = "Visite um cemitério.";
+                }
+                if (Routes[x] == 2)
+                {
+                    Inteiro[x] = 1503;
+                    Caracter[x] = "Reze.";
+                }
+                if (Routes[x] == 3)
+                {
+                    Inteiro[x] = 1504;
+                    Caracter[x] = "Cobre um suborno.";
+                }
             }
-            if (Routes[x] == 2)
-            {
-                Inteiro[x] = 1503;
-                Caracter[x] = "Pray";
-            }
-            if (Routes[x] == 3)
-            {
-                Inteiro[x] = 1504;
-                Caracter[x] = "Take a bribe";
-            }
-          //Gay Kiss
-          //Eat Corn
+            //Gay Kiss
+            //Eat Corn
         }
         SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");
         SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
@@ -439,40 +481,79 @@ public class Instructions : MonoBehaviour
             TalesVariables.FightL1.Remove(RandomRemove);
         }
 
+        int language;
+        language = PlayerPrefs.GetInt("Language");
 
         for (int x = 0; x < 3; x = x + 1)
         {
-            if (TalesVariables.FightL1[x] == 0)
+            if (language == 0)
             {
-                Inteiro[x] = 1401;
-                Caracter[x] = "Apology for Crime";
+                if (TalesVariables.FightL1[x] == 0)
+                {
+                    Inteiro[x] = 1401;
+                    Caracter[x] = "Apology for Crime.";
+                }
+                if (TalesVariables.FightL1[x] == 1)
+                {
+                    Inteiro[x] = 1402;
+                    Caracter[x] = "Theft.";
+                }
+                if (TalesVariables.FightL1[x] == 2)
+                {
+                    Inteiro[x] = 1403;
+                    Caracter[x] = "Drug Trafficking.";
+                }
+                if (TalesVariables.FightL1[x] == 3)
+                {
+                    Inteiro[x] = 1404;
+                    Caracter[x] = "Illegal Immigration.";
+                }
+                if (TalesVariables.FightL1[x] == 4)
+                {
+                    Inteiro[x] = 1405;
+                    Caracter[x] = "Organ Trafficking.";
+                }
+                if (TalesVariables.FightL1[x] == 5)
+                {
+                    Inteiro[x] = 1406;
+                    Caracter[x] = "Tax Evasion.";
+                }
             }
-            if (TalesVariables.FightL1[x] == 1)
+
+            if (language == 1)
             {
-                Inteiro[x] = 1402;
-                Caracter[x] = "Theft";
+                if (TalesVariables.FightL1[x] == 0)
+                {
+                    Inteiro[x] = 1401;
+                    Caracter[x] = "Apologia ao Crime.";
+                }
+                if (TalesVariables.FightL1[x] == 1)
+                {
+                    Inteiro[x] = 1402;
+                    Caracter[x] = "Roubo.";
+                }
+                if (TalesVariables.FightL1[x] == 2)
+                {
+                    Inteiro[x] = 1403;
+                    Caracter[x] = "Tráfico de Drogas.";
+                }
+                if (TalesVariables.FightL1[x] == 3)
+                {
+                    Inteiro[x] = 1404;
+                    Caracter[x] = "Imigração Ilegal.";
+                }
+                if (TalesVariables.FightL1[x] == 4)
+                {
+                    Inteiro[x] = 1405;
+                    Caracter[x] = "Tráfico de Órgãos.";
+                }
+                if (TalesVariables.FightL1[x] == 5)
+                {
+                    Inteiro[x] = 1406;
+                    Caracter[x] = "Sonegação.";
+                }
             }
-            if (TalesVariables.FightL1[x] == 2)
-            {
-                Inteiro[x] = 1403;
-                Caracter[x] = "Drug Trafficking";
-            }
-            if (TalesVariables.FightL1[x] == 3)
-            {
-                Inteiro[x] = 1404;
-                Caracter[x] = "Illegal Immigration";
-            }
-            if (TalesVariables.FightL1[x] == 4)
-            {
-                Inteiro[x] = 1405;
-                Caracter[x] = "Organ Trafficking";
-            }
-            if (TalesVariables.FightL1[x] == 5)
-            {
-                Inteiro[x] = 1406;
-                Caracter[x] = "Tax Evasion";
-            }
-       
+
         }
 
         SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");

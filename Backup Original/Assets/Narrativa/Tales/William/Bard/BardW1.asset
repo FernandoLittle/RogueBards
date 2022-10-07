@@ -22,18 +22,41 @@ MonoBehaviour:
   - I have no prejudice against you.
   - Yet.
   - Yes, yet.
-  - The <color=#00FFBF>bard</color>, had a good laugh.
+  - The <color=#00FFBF>bard</color> had a good laugh.
   - Maybe you should, young man. A good bard is friends with drug dealers and thieves.
   - Aren't you afraid to confess it in front of a warrior?
-  - The <color=#00FFBF>bard</color>, smiled kindly.
+  - The <color=#00FFBF>bard</color> smiled kindly.
   - No.
   - That's why I don't have prejudices, no one would imagine that there were brave
     bards.
-  - The <color=#00FFBF>bard</color>, laughed.
+  - The <color=#00FFBF>bard</color> laughed.
   - "A free drink and a compliment like that, warriors are kind these days. I need
     to reward you somehow\u2026 do you want me to teach you how to play some music?"
   - It's fine by me, I'm off today.
   - Perfect! I'll teach you how to play that song.
+  DialogueBR:
+  - "<color=purple>William</color> derramou uma l\xE1grima, n\xE3o de tristeza, n\xE3o
+    de arrependimento, mas de gratid\xE3o por ouvir uma m\xFAsica t\xE3o bonita enquanto
+    bebia uma cerveja."
+  - "Ei <color=#00FFBF>bardo</color>, venha aqui, sua bebida \xE9 por minha conta
+    esta noite."
+  - "Muito obrigado, jovem. \xC9 a primeira vez que um guerreiro me oferece uma bebida."
+  - "N\xE3o tenho preconceito contra voc\xEAs."
+  - Ainda.
+  - Sim, ainda.
+  - O <color=#00FFBF>bardo</color> deu boas risadas.
+  - "Talvez voc\xEA devesse, jovem. Um bom bardo \xE9 amigo de traficantes e ladr\xF5es."
+  - "Voc\xEA n\xE3o tem medo de confessar isso na frente de um guerreiro?"
+  - O <color=#00FFBF>bardo</color> sorriu gentilmente.
+  - "N\xE3o."
+  - "Por isso n\xE3o tenho preconceitos, ningu\xE9m imaginaria que existissem bardos
+    corajosos."
+  - O <color=#00FFBF>bardo</color> riu.
+  - "Uma bebida de gra\xE7a e um elogio desses, guerreiros s\xE3o gentis hoje em
+    dia. Eu preciso recompens\xE1-lo de alguma forma... voc\xEA quer que eu te ensine
+    a tocar alguma m\xFAsica?"
+  - "Por mim est\xE1 tudo bem, estou de folga hoje."
+  - "Perfeito! Eu vou te ensinar como tocar essa m\xFAsica."
   idchara: 000000001c0000000a0000001c0000000a0000001c000000000000000a0000001c000000000000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
   Cenario: 2

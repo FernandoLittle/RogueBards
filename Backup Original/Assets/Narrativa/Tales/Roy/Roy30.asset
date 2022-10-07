@@ -16,7 +16,11 @@ MonoBehaviour:
   Dialogue:
   - (...)
   - <color=blue>Roy</color> found a very evil cannibal.
-  - A very <color=red>evil</color>.
+  - Very <color=red>evil</color>.
+  DialogueBR:
+  - (...)
+  - <color=blue>Roy</color> encontrou um canibal muito malvado.
+  - Muito <color=red>malvado</color>.
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000002000000
   Cenario: 1

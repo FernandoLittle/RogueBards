@@ -93,7 +93,7 @@ public class ControllerAnimation : MonoBehaviour
         if (Charas[id].Style == 1 && attack == 3)
         {
             Gambiarrismo(id);
-            A.BunecosAnimados[id].Play("DaggerAttack2");//provisório
+            A.BunecosAnimados[id].Play("Buff");//provisório
             //Anime UpAtribute
             // A.BunecosAnimados[idchara].Play("BlockAnim");
         }

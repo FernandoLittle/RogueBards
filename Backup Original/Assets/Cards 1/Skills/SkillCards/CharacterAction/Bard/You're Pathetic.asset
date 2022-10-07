@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: You're Pathetic
   m_EditorClassIdentifier: 
-  Name: <color=#red>You're Pathetic</color>
+  Name: <color=red>You're Pathetic</color>
+  NameBR: "<color=red>Voc\xEA \xE9 Pat\xE9tico</color>"
   sprite: {fileID: 21300000, guid: 103642261ebfe4a4f846e15b44e9e9b0, type: 3}
   id: 10
   Texto0: 

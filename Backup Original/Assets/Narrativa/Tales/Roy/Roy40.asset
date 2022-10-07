@@ -17,6 +17,10 @@ MonoBehaviour:
   - (...)
   - <color=blue>Roy</color>  found a female cannibal.
   - She didn't look like a female.
+  DialogueBR:
+  - (...)
+  - "<color=blue>Roy</color> encontrou uma canibal f\xEAmea."
+  - "Ela n\xE3o parecia com uma f\xEAmea."
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000003000000
   Cenario: 1

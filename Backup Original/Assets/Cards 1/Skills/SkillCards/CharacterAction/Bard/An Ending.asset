@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: An Ending
   m_EditorClassIdentifier: 
-  Name: <color=#red>An Ending</color>
+  Name: <color=red>An Ending</color>
+  NameBR: <color=red>Um Fim</color>
   sprite: {fileID: 21300000, guid: a57cfd1abd460c04f8087c60ea73854b, type: 3}
   id: 10
   Texto0: 

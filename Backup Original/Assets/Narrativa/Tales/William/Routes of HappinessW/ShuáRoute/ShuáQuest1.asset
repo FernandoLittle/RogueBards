@@ -31,9 +31,32 @@ MonoBehaviour:
     mission would help the real victims of the war.\u201D"
   - '"I didn''t leave <color=yellow>Sarka</color> and come to a country at war wanting
     to help these damn criminals."'
-  - "\u201CIf <color=#FF0080>Shu\xE1</color> forgives these thieves then I am an
-    idiot, it is much better to be a criminal and live for yourself. I just need
-    a <color=#FF0080>monk</color> to forgive me before I die.\u201D"
+  - "\"If <color=#FF0080>Shu\xE1</color> forgives this scum then I'm an idiot, it
+    is much better to be a criminal and live for yourself. I just need a <color=#FF0080>monk</color>
+    to forgive me before I die.\u201D"
+  DialogueBR:
+  - De onde vinha aquela raiva?
+  - <color=purple>William</color> estava furioso com aqueles pecadores?
+  - "N\xE3o."
+  - "Mesmo que esses bandidos fossem estupradores e infantic\xEDdios, isso n\xE3o
+    o incomodava porque ele se acostumou a conviver com esse tipo de esc\xF3ria quando
+    trabalhou como guerreiro."
+  - "<color=purple>William</color> ficou furioso com o <color=#FF0080>monge</color>.
+    Aquele maldito seguidor de <color=#FF0080>Shu\xE1</color> estava cuidando das
+    feridas daqueles bandidos, ouvindo seus pecados e perdoando-os."
+  - "A dor f\xEDsica dos criminosos n\xE3o desaparecia quando seus ferimentos eram
+    tratados, mas a dor mental desaparecia quando eles eram perdoados pelo <color=#FF0080>monge</color>."
+  - "Aquele monge est\xFApido achava que os criminosos estavam arrependidos, mas
+    <color=purple>William</color> sabia que eles estavam apenas com medo do castigo
+    divino."
+  - "\"Espero que eles peguem uma infec\xE7\xE3o e morram.\""
+  - "\u201CEsse <color=#FF0080>monge</color> filho da puta mentiu para mim, eu achei
+    que essa miss\xE3o ajudaria as verdadeiras v\xEDtimas da guerra.\u201D"
+  - "\"Eu n\xE3o deixei <color=yellow>Sarka</color> e vim para um pa\xEDs em guerra
+    querendo ajudar esses malditos criminosos.\""
+  - "\u201CSe <color=#FF0080>Shu\xE1</color> perdoa essa esc\xF3ria ent\xE3o eu sou
+    um idiota, \xE9 muito melhor ser um criminoso e viver para si mesmo. Eu s\xF3
+    preciso de um <color=#FF0080>monge</color> para me perdoar antes que eu morra.\u201D"
   idchara: 000000000000000000000000000000000000000000000000000000001c0000001c0000001c0000001c000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000041010000
   Cenario: 14

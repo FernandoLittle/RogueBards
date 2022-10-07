@@ -19,10 +19,21 @@ MonoBehaviour:
     set an ambush inside the bank and capture the thieves.
   - 'As he prepared for the ambush, <color=purple>William</color> was surprised by
     the presence of several warriors he had never seen. According to <color=yellow>Captain
-    Parovy</color> they were warriors from another district. '
+    Parovy</color>, they were warriors from another district. '
   - <color=purple>William</color> felt a little sorry for their district. When the
     fight between warriors and thieves began it was evident that the warriors in
     the other district were cowards who avoided fighting as much as possible.
+  DialogueBR:
+  - "Um dos bancos de <color=yellow>Sarka</color> recebeu informa\xE7\xF5es que revelavam
+    que ele seria alvo de um grande assalto. A miss\xE3o dos guerreiros era armar
+    uma emboscada dentro do banco e capturar os ladr\xF5es."
+  - "Enquanto se preparava para a emboscada, <color=purple>William</color> ficou
+    surpreso com a presen\xE7a de v\xE1rios guerreiros que ele nunca tinha visto
+    antes. De acordo com o <color=yellow>Capit\xE3o Parovy</color>, eles eram guerreiros
+    de outro distrito."
+  - "<color=purple>William</color> sentiu um pouco de pena do distrito deles. Quando
+    come\xE7ou a luta entre guerreiros e ladr\xF5es, ficou evidente que os guerreiros
+    do outro distrito eram covardes que evitavam ao m\xE1ximo lutar."
   idchara: 000000000000000000000000
   instruction: 0000000000000000000000000a000000
   Cenario: 11

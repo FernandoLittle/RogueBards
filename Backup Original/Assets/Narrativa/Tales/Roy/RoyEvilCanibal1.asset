@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - No... You can't
+  - No... You can't.
+  DialogueBR:
+  - "N\xE3o... Voc\xEA n\xE3o consegue."
   idchara: 0b000000
   instruction: 000000006a000000
   Cenario: 1

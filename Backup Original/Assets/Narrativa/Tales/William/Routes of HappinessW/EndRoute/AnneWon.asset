@@ -59,8 +59,8 @@ MonoBehaviour:
     kiss.
   - The man kicked her and then kicked the linibs to the ground.
   - Why did you do that?
-  - Because you're a <color=purple>assassin</color>, because you're a whore, and
-    because you're kidding me with this kissing thing.
+  - Because you're a assassin, because you're a whore, and because you're kidding
+    me with this kissing thing.
   - "I wasn't kidding. Sharing saliva is unhygienic, so we only do it with our sex
     partners, if you eat something someone else has bi\u2026"
   - Do you like saliva? So take it.
@@ -110,14 +110,14 @@ MonoBehaviour:
   - "\u201CDamn bitch. She brought this to torture me. An <color=purple>assassin</color>
     would never feed a captive such expensive food.\u201D"
   - They're delicious, want some?
-  - Is this really happening? Will she give me those grapes?
+  - '"Is this really happening? Will she give me those grapes?"'
   - The <color=purple>assassin</color> chewed a grape and then spat it out.
   - Open your mouth.
   - <color=purple>William</color> ate that grape. Despite being chewed, it was still
     delicious.
   - His thirst and hunger weren't over yet.
   - You want more?
-  - "\u2026"
+  - ...
   - Yes.
   - Beg.
   - I beg you, please, I need more.
@@ -154,8 +154,8 @@ MonoBehaviour:
   - The moment the <color=purple>Lady of Death</color> revealed her identity, <color=purple>William</color>
     understood the true meaning of fear.
   - The woman began to heat her blade in the fireplace.
-  - "Please kill me, I'll do what you want. I cater to your fetishes, I\u2026 I give
-    you information, please, I'm not asking too much."
+  - "Please kill me, I'll do what you want. I carry out your fetishes, I\u2026 I
+    give you information, please, I'm not asking too much."
   - Relax, I'll take it easy on you.
   - I'm not going to disfigure your face because I think it's very cute.
   - I'm just going to amputate your legs so you have to crawl across the floor when
@@ -186,10 +186,197 @@ MonoBehaviour:
   - I really like you.
   - Besides, it would be an unforgiven sin to kill you.
   - <color=purple>William</color> knew well about unforgivable sins and yet he didn't
-    understand what this woman was saying
+    understand what this woman was saying.
   - I have an idea! You will receive some of my mercy.
   - I'll knock you unconscious while I do my job.
   - Sleep well, <color=purple>Will</color>.
+  DialogueBR:
+  - "Essa hist\xF3ria vai ser bem longa. Por onde eu come\xE7o... <color=purple>William</color>
+    acordou amarrado a uma cadeira na frente de alguns linibs."
+  - "\"Isto \xE9 um sonho?\""
+  - "\u201CEsta \xE9 a minha comida favorita, mas ningu\xE9m sabe sobre isso. Seria
+    muita coincid\xEAncia algu\xE9m colocar linibs aqui sem motivo.\u201D"
+  - "\u201CAl\xE9m disso, os linibs s\xE3o panquecas da culin\xE1ria sericiana. Ningu\xE9m
+    come isso em Sarka.\u201D"
+  - "\u201CSim, isso \xE9 um sonho.\u201D"
+  - "\"Mas o cheiro parece t\xE3o real.\""
+  - "\"Tanto faz, eu tenho alucina\xE7\xF5es olfativas o tempo todo.\""
+  - "\u2026"
+  - "\"Dizem que os linibs acompanham as pessoas desde o nascimento at\xE9 a morte.
+    Isso significa que eu vou morrer?\""
+  - "\"Eles tamb\xE9m s\xE3o usados para comemorar o fim do inverno. Deve ser isso.
+    O inverno est\xE1 acabando.\""
+  - "\"Mem\xF3rias da \xFAltima luta vieram at\xE9 ele.\""
+  - "\"Aquela mulher me derrotou com um \xFAnico golpe. Ela agarrou meu pesco\xE7o
+    com as pernas... foi muito estranho.\""
+  - "\"Droga! Eu devo estar morto. A vida ap\xF3s a morte \xE9 assim?\""
+  - '"Consegui o que mais gostava depois que morri?"'
+  - "\"Um linib? Eu n\xE3o quero a porra de um linib, eu quero minha fam\xEDlia.
+    Onde eles est\xE3o?\""
+  - A <color=purple>assassina</color> que o derrotou entrou na sala.
+  - "Voc\xEA finalmente acordou."
+  - "A imagem daquela mulher fez com que <color=purple>William</color> percebesse
+    que ele n\xE3o estava nem morto nem sonhando."
+  - "Voc\xEA quer conversar?"
+  - Eu quero te matar.
+  - A <color=purple>assassina</color> estava sentado em frente ao <color=purple>guerreiro</color>,
+    entre eles estavam os linibs.
+  - "Voc\xEA quer conversar?"
+  - '... '
+  - "Por que voc\xEA preparou linibs?"
+  - "Eu n\xE3o sou uma bom cozinheira. Linib \xE9 um dos \xFAnicos alimentos que
+    sei preparar. Al\xE9m disso, os ingredientes s\xE3o baratos."
+  - A <color=purple>assassina</color> comeu um pouco.
+  - "Voc\xEA quer?"
+  - ...
+  - "A mulher pegou um peda\xE7o da parte onde ela havia mordido e colocou na boca
+    de <color=purple>William</color>."
+  - "Voc\xEA gostou?"
+  - Ela estava tentando fazer uma voz sedutora enquanto falava.
+  - "Dizem que comer algo que outra pessoa mordeu \xE9 como um beijo indireto."
+  - "O homem chutou ela e depois chutou os linibs no ch\xE3o."
+  - "Por que voc\xEA fez isso?"
+  - "Porque voc\xEA \xE9 uma assassina, porque voc\xEA \xE9 uma puta, e porque voc\xEA
+    est\xE1 brincando comigo com essa coisa de beijar."
+  - "Eu n\xE3o estava brincando. Compartilhar saliva n\xE3o \xE9 higi\xEAnico, ent\xE3o
+    s\xF3 fazemos isso com nossos parceiros sexuais, se voc\xEA comer algo que outra
+    pessoa tenha mor\u2026"
+  - "Voc\xEA gosta de saliva? Ent\xE3o toma."
+  - O <color=purple>guerreiro</color> conseguiu acertar um cuspe no rosto do <color=purple>assassino</color>.
+  - Em resposta, ela limpou o cuspe com os dedos e depois lambeu esses mesmos dedos.
+  - Cospe de novo.
+  - "V\xE1 se foder, vadia."
+  - Sim! Me xinga mais!
+  - "Ela come\xE7ou a fazer uma voz mais aguda, como se estivesse sentindo muito
+    prazer."
+  - "<color=purple>William</color> come\xE7ou a se debater tentando se soltar da
+    cadeira, mas a \xFAnica coisa que conseguiu fazer foi cair pateticamente."
+  - "Estou apenas brincando com voc\xEA, bobo. Voc\xEA n\xE3o precisa ficar com tanta
+    raiva."
+  - "Mem\xF3rias do passado passaram pela mente de William, algo naquela sala era
+    familiar para ele. Talvez fosse aquela comida, o <color=purple>guerreiro</color>
+    adorava comer linibs com sua fam\xEDlia durante a inf\xE2ncia."
+  - "\u201CPor que estou pensando nisso agora?\u201D"
+  - A <color=purple>assassina</color> o levantou.
+  - "Vejo que n\xE3o gosta mais da minha companhia. Isso \xE9 muito triste."
+  - "Se voc\xEA cair novamente, n\xE3o conseguir\xE1 se levantar sozinho, ent\xE3o
+    comporte-se."
+  - "A mulher saiu deixando o homem sozinho naquele quarto solit\xE1rio."
+  - "Linibs n\xE3o eram particularmente saborosos, mas <color=purple>William</color>
+    tinha boas lembran\xE7as da \xE9poca em que os comia."
+  - "Uma \xE9poca em que seu pai e irm\xE3s estavam vivos. Eles tiveram bons momentos
+    juntos."
+  - "\"Esses momentos nunca voltar\xE3o, mesmo se eu me vingar.\""
+  - "<color=purple>William</color> olhou para os Linibs no ch\xE3o, mas n\xE3o conseguia
+    se lembrar dos bons momentos que tinha passado com sua fam\xEDlia."
+  - "A \xFAnica coisa em que conseguia pensar eram seus fracassos."
+  - "Um linib mordido no ch\xE3o era como sua vida."
+  - "\u201CEu tive uma vida completamente miser\xE1vel.\u201D"
+  - "\"Eu a desperdicei deixando o \xF3dio consumir minha alma.\""
+  - "\"Os bons momentos da minha vida nunca mais voltar\xE3o.\""
+  - "\"Pelo menos esse <color=purple>assassino</color> vai acabar com toda a minha
+    mis\xE9ria.\""
+  - "Ainda n\xE3o estou nem na metade da hist\xF3ria. Por favor, n\xE3o perca para
+    ela novamente. N\xE3o quero ter que contar essa hist\xF3ria novamente. \xC9 f\xE1cil
+    derrot\xE1-la, voc\xEA s\xF3 precisa vencer a primeira habilidade dela, eu acho\nUm
+    centidia se passou."
+  - Um decidia se passou.
+  - Um dia se passou.
+  - "Mas a fome n\xE3o passou."
+  - "Mas a sede n\xE3o passou."
+  - Eu voltei!
+  - "A <color=purple>assassina</color> estava carregando v\xE1rias uvas."
+  - "Uvas doces que poderiam saciar a sede e a fome de <color=purple>William</color>
+    de uma s\xF3 vez."
+  - "\u201CPuta maldita. Ela trouxe isso para me torturar. Uma <color=purple>assassina</color>
+    nunca alimentaria um cativo com comida t\xE3o cara.\u201D"
+  - "Elas est\xE3o deliciosas, quer um pouco?"
+  - "\"Isso est\xE1 realmente acontecendo? Ela vai me dar essas uvas?\""
+  - A <color=purple>assassina</color> mastigou uma uva e depois cuspiu.
+  - Abra sua boca.
+  - <color=purple>William</color> comeu aquela uva. Apesar dela estar mastigada,
+    ainda estava deliciosa.
+  - "Sua fome e sede n\xE3o estavam saciadas."
+  - "Voc\xEA quer mais?"
+  - ...
+  - Sim.
+  - Implore.
+  - Eu imploro, por favor, eu preciso de mais.
+  - "A <color=purple>assassina</color> mastigou outra uva e se esfor\xE7ou para colocar
+    bastante saliva enquanto a cuspia."
+  - Normalmente o homem acharia isso absolutamente nojento, mas sua sede o fez desejar
+    a saliva daquela mulher.
+  - "Depois de v\xE1rias uvas, sua fome e sede foram saciadas e ele perguntou:"
+  - "Voc\xEA sabia que eu planejava vingar meu pai. Quem \xE9 Voc\xEA?"
+  - "Essa coisa de vingan\xE7a \xE9 muito chata. Voc\xEA parece um assassino falando
+    assim."
+  - "Meu pai foi assassinado, obviamente preciso ving\xE1-lo."
+  - "As pessoas s\xF3 se preocupam com suas fam\xEDlias por causa da sele\xE7\xE3o
+    natural."
+  - "A caracter\xEDstica de se importar com os membros da fam\xEDlia torna os indiv\xEDduos
+    mais propensos a propagar suas caracter\xEDsticas, isso fez com que o amor fraterno
+    se espalhasse como uma praga."
+  - "Prova disso \xE9 que v\xE1rios animais demonstram esse amor. Isso \xE9 algo
+    completamente animalesco e irracional."
+  - "Que se fodam os irm\xE3os, pais e filhos. Nada disso tem valor, essas coisas
+    s\xE3o correntes que a sele\xE7\xE3o natural forjou para nos escravizar."
+  - "E um escravo que ama suas correntes n\xE3o vale nada."
+  - "Voc\xEA  nao respondeu minha pergunta."
+  - "Quem \xE9 voc\xEA?"
+  - A mulher deu um sorriso gentil.
+  - Eu sou a <color=purple>Dama da Morte</color>.
+  - "Ebu era conhecida como a maior assassina da hist\xF3ria de <color=yellow>Sarka</color>,
+    mas poucos tinham medo dela."
+  - As pessoas temiam outra mulher.
+  - "Uma mulher que nunca matou uma \xFAnica pessoa."
+  - A <color=purple>Dama da Morte</color>.
+  - "As pessoas que Ebu matava tornavam-se estat\xEDsticas."
+  - "Mas a <color=purple>Dama da Morte</color> era diferente. Ela torturava e desfigurava
+    suas v\xEDtimas. <color=purple>William</color> lembrou-se de todos os guerreiros
+    que foram torturados por ela. Ele tamb\xE9m se lembrou de toda a pena que sentia
+    por eles."
+  - No momento em que a <color=purple>Dama da Morte</color> revelou sua identidade,
+    <color=purple>William</color> entendeu o verdadeiro significado do medo.
+  - "A mulher come\xE7ou a aquecer a l\xE2mina na lareira."
+  - "Por favor, me mate, eu farei o que voc\xEA quiser. Eu realizo seus fetiches,
+    eu\u2026 te dou informa\xE7\xF5es, por favor, n\xE3o estou pedindo muito"
+  - "Relaxe, vou pegar leve com voc\xEA."
+  - "N\xE3o vou desfigurar seu rosto porque eu te acho muito fofo."
+  - "S\xF3 vou amputar suas pernas para que voc\xEA tenha que rastejar pelo ch\xE3o
+    quando se locomover."
+  - "Voc\xEA vai se acostumar com isso."
+  - "Al\xE9m disso, vou escrever o lema da Guilda de Assassinos na sua testa com
+    esta faca."
+  - "\"N\xE3o machuque os pac\xEDficos.\" Esse \xE9 um lema muito legal, voc\xEA
+    n\xE3o acha?"
+  - "Ela retirou a l\xE2mina da lareira e sorriu novamente."
+  - Por favor me mate.
+  - "\xC9 tudo o que estou pedindo."
+  - "Eu n\xE3o sou uma a\xE7ougueira. Eu sou uma <color=red>artista</color>. Qual
+    a gra\xE7a de matar voc\xEA? Como as coisas melhorariam com a sua morte?"
+  - "Meu plano \xE9 muito mais divertido que o seu."
+  - "Se voc\xEA se tornar minha obra de arte, as pessoas v\xE3o te ver."
+  - "Suas cicatrizes far\xE3o com que as pessoas tenham medo da Guilda e quando todas
+    as pessoas tiverem medo da Guilda, <color=yellow>Sarka</color> ser\xE1 um pa\xEDs
+    pac\xEDfico."
+  - "Pa\xEDs pac\xEDfico? Que piada."
+  - "Voc\xEA pode continuar com seu plano."
+  - "Mas primeiro voc\xEA ter\xE1 que me olhar nos olhos e me dizer que est\xE1 fazendo
+    isso pela paz e n\xE3o porque gosta de torturar os outros."
+  - "Se voc\xEA n\xE3o fizer isso, voc\xEA vai ter que me matar."
+  - A <color=purple>Dama da Morte</color> se aproximou, olhou <color=purple>William</color>
+    nos olhos, tentou segurar uma risada e falhou.
+  - 'Depois de rir, ela disse:'
+  - "Droga! N\xE3o consigo mentir sem rir."
+  - "Voc\xEA est\xE1 certo, eu me divirto muito torturando os outros. Embora eu fique
+    um pouco chateada em te machucar."
+  - "Eu realmente gosto de voc\xEA."
+  - "Al\xE9m disso, seria um pecado imperdo\xE1vel te matar."
+  - "<color=purple>William</color> entendia bastante sobre pecados imperdo\xE1veis
+    e mesmo assim n\xE3o compreendia o que aquela mulher estava dizendo."
+  - "Eu tenho uma ideia! Voc\xEA receber\xE1 um pouco da minha miseric\xF3rdia."
+  - "Vou deix\xE1-lo inconsciente enquanto fa\xE7o meu trabalho."
+  - Durma bem, <color=purple>Will</color>.
   idchara: 000000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c000000000000001c0000001c0000001c0000001c000000000000001e000000000000001e0000001c000000000000001e0000001c0000001c0000001e000000000000001e0000001c000000000000001e000000000000001e000000000000001e0000001c0000001e0000001c00000000000000000000001e0000001c0000001e00000000000000000000001e000000000000001c000000000000001e0000001e0000000000000000000000000000001c0000000000000000000000000000001c0000001c0000001c0000001c00000000000000000000000000000000000000000000001e00000000000000000000001c0000001e0000001c000000000000001e00000000000000000000001e0000001c0000001c0000001e0000001c0000000000000000000000000000001c0000001e0000001c0000001e0000001e0000001e0000001e0000001e0000001c0000001c0000001e0000000000000000000000000000000000000000000000000000000000000000000000000000001c0000001e0000001e0000001e0000001e0000001e0000001e000000000000001c0000001c0000001e0000001e0000001e0000001e0000001c0000001c0000001c0000001c00000000000000000000001e0000001e0000001e0000001e000000000000001e0000001e0000001e000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
   Cenario: 19

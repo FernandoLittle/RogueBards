@@ -27,6 +27,20 @@ MonoBehaviour:
   - This turn the humans will beg for their pathetic lives. Don't spend <color=blue>mana</color>
     on this useless skill, wait for the next turn to spend your <color=blue>mana</color>
     and kill this damn cannibal.
+  DialogueBR:
+  - "A cada turno, os humanos gastar\xE3o <color=blue>mana</color> na tentativa de
+    obter mais <color=yellow>poder</color> do que o oponente."
+  - "Cada uma de suas habilidades tem um <color=cyan>n\xEDvel</color> que \xE9 representado
+    por este s\xEDmbolo:"
+  - "Cada humano tem uma quantidade de <color=blue>mana</color> que voc\xEA pode
+    gastar em cada luta."
+  - "Seu poder ser\xE1 igual ao <color=cyan>n\xEDvel</color> de sua habilidade multiplicado
+    pela <color=blue>mana</color> que voc\xEA usa."
+  - "Alguns efeitos de suas habilidades s\xF3 s\xE3o ativados quando voc\xEA tem
+    mais <color=yellow>poder</color> que seu oponente."
+  - "Neste turno, os humanos v\xE3o implorar por suas vidas pat\xE9ticas. N\xE3o
+    gaste <color=blue>mana</color> nessa habilidade in\xFAtil, espere o pr\xF3ximo
+    turno para gastar sua <color=blue>mana</color> e mate esse maldito canibal."
   idchara: 000000000000000000000000000000000000000000000000
   instruction: 0b0000000c0000000d0000000e0000000f0000000000000001000000
   Cenario: 0

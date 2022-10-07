@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "FightShu\xE1"
   m_EditorClassIdentifier: 
   IdFight: 7
-  IdChara: 00000000000000000c00000000000000000000001c00000000000000
+  IdChara: 00000000000000001300000000000000000000001c00000000000000
   Dialogue1: []
   Dialogue2: []
   Dialogue3: []

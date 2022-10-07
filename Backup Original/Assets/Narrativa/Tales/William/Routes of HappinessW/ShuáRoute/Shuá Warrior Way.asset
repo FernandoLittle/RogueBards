@@ -27,6 +27,20 @@ MonoBehaviour:
   - Are you saying that beauty is what drives people to do good?
   - Exactly!
   - The beauty of this world was not visible to <color=purple>William</color>.
+  DialogueBR:
+  - "Eu n\xE3o acredito nisso. Por que eu seguiria um caminho de virtude? Conhe\xE7o
+    muitas pessoas boas que t\xEAm finais tr\xE1gicos."
+  - "Voc\xEA sabe por que eu sigo <color=#FF0080>Shu\xE1</color>?"
+  - "\u2026"
+  - "Eu acho belo o caminho de <color=#FF0080>Shu\xE1</color>. Tenho uma teoria de
+    que as pessoas s\xF3 fazem o que \xE9 moral e virtuoso porque v\xEAem a beleza
+    nisso."
+  - "Eu jamais seguiria <color=#FF0080>Shu\xE1</color> se visse feiura em seus ensinamentos."
+  - "Mas a est\xE9tica inspira meu cora\xE7\xE3o a fazer o bem e me tornar uma pessoa
+    melhor."
+  - "Voc\xEA est\xE1 dizendo que a beleza \xE9 o que leva as pessoas a fazer o bem?"
+  - Exatamente!
+  - "A beleza deste mundo n\xE3o era vis\xEDvel para <color=purple>William</color>."
   idchara: 1c000000190000001c0000001900000019000000190000001c0000001900000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000006d000000
   Cenario: 13

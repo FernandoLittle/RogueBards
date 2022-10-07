@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: William's Revenge
   m_EditorClassIdentifier: 
   Name: <color=red>William's Revenge</color>
+  NameBR: "<color=red>Vingan\xE7a de William</color>"
   sprite: {fileID: 21300000, guid: 76bf058173dd4e344b77285ae9d2dfe9, type: 3}
   id: 28
   Texto0: 

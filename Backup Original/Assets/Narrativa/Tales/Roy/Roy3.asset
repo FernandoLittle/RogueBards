@@ -17,6 +17,11 @@ MonoBehaviour:
   - I hated myself, I did something I never thought I would do, I cursed my bad luck.
   - But now I see I deserved all this suffering because I liked that taste. Can you
     imagine the anguish of taking pleasure in doing something abominable?
+  DialogueBR:
+  - "Eu odiei a mim mesmo, fiz algo que nunca pensei que faria, amaldi\xE7oei meu
+    azar."
+  - "Mas agora vejo que mereci todo esse sofrimento porque eu gostei daquele sabor.
+    Voc\xEA consegue imaginar a ang\xFAstia de ter prazer em fazer algo abomin\xE1vel?"
   idchara: 0b0000000b000000
   instruction: 000000000000000038010000
   Cenario: 1

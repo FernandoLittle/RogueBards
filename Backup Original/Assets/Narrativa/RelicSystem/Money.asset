@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 2
   SpriteRelic: {fileID: 21300000, guid: 89d99c2c764aade428b238aa3d793c6e, type: 3}
-  Description: "Gain 2 life each time you activate your sentimental bonus\n<i>Money
+  Description: "Gain 2 mana each time you activate your <color=blue>Sentimental Bonus</color>.\n<i>Money
     is everything. Money buys happiness, money buys dreams, money buys hope, money
     buys a life. </i> \n"
+  DescriptionBR: "Ganhe 2 de mana toda vez que voc\xEA ativar seu <color=blue>B\xF4nus
+    Sentimental</color>.\n<i>Dinheiro \xE9 tudo. Dinheiro compra felicidade, dinheiro
+    compra sonhos, dinheiro compra esperan\xE7a, dinheiro compra uma vida. </i>"
   Name: <color=yellow>Money</color>
+  NameBR: <color=yellow>Dinheiro</color>
   Type: 1

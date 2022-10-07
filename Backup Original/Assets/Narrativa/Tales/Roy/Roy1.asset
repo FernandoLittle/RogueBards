@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 1
   Dialogue:
   - <color=blue>Roy</color>, our next mission is in <color=purple>Denai</color>,
-    the village of the cannibals who killed the <color=blue></color>emperor
+    the village of the cannibals who killed the <color=red>emperor</color>.
   - <color=purple>Denai</color>... <color=yellow>Yuri</color>, you have inside information
     and stuff like that, you know how the <color=red>emperor</color> ended up in
     that village?
@@ -26,6 +26,20 @@ MonoBehaviour:
   - <color=blue>Roy</color>! Let's respect the honor of our former leader, organize
     your troops, the day after tomorrow we'll leave, let's defeat those regicidal
     cannibals!
+  DialogueBR:
+  - "<color=blue>Roy</color>, nossa pr\xF3xima miss\xE3o \xE9 em <color=purple>Denai</color>,
+    a vila dos canibais que mataram o <color=red>imperador</color>."
+  - "<color=purple>Denai</color>... <color=yellow>Yuri</color>, voc\xEA tem informa\xE7\xF5es
+    privilegiadas e tal. Voc\xEA sabe como o <color=red>imperador</color> acabou
+    naquela aldeia?"
+  - "Boa pergunta, temos rumores estranhos sobre isso, mas a explica\xE7\xE3o mais
+    razo\xE1vel que vi foi que ele estava levando comida para a vila e os bastardos
+    o mataram."
+  - "\"<i>Para</i>\" e \"<i>da</i>\" s\xE3o palavras muito belas."
+  - "Isso \xE9 estranho, o <color=red>imperador</color> n\xE3o era o tipo de pessoa
+    que..."
+  - "<color=blue>Roy</color>! Respeitemos a honra do nosso ex-l\xEDder, organize
+    suas tropas, depois de amanh\xE3 partiremos, vamos derrotar esses canibais regicidas!"
   idchara: 0d0000001b0000000d000000000000001b0000000d000000
   instruction: 00000000000000000000000000000000000000000000000001000000
   Cenario: 1

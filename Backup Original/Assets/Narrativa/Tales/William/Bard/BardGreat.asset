@@ -17,6 +17,10 @@ MonoBehaviour:
   - Your music is perfect, I have nothing more to teach you.
   - <color=purple>William</color> didn't know how to respond to that compliment,
     he could only smile.
+  DialogueBR:
+  - "Sua m\xFAsica est\xE1 perfeita, n\xE3o tenho mais nada para te ensinar."
+  - "<color=purple>William</color> n\xE3o sabia como responder a esse elogio, ele
+    s\xF3 conseguia sorrir."
   idchara: 0a00000000000000
   instruction: 00000000e8030000ea030000
   Cenario: 2

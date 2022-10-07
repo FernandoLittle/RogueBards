@@ -27,6 +27,21 @@ MonoBehaviour:
     that bard said in his song would be reversed the moment the criminal was caught.
   - <color=purple>William</color> figured that bard would learn this important lesson
     when he was arrested.
+  DialogueBR:
+  - "Guerreiros costumavam odiar os bardos de <color=yellow>Sarka</color>, <color=purple>William</color>
+    s\xF3 come\xE7ou a entender esse \xF3dio quando ouviu uma m\xFAsica terr\xEDvel
+    sobre como os criminosos eram inteligentes."
+  - Sobre como os seguidores da <color=yellow>lei</color> eram tolos.
+  - Sobre como os criminosos eram felizes.
+  - Sobre como os seguidores da <color=yellow>lei</color> era tristes.
+  - Sobre como os criminosos eram livres.
+  - Sobre como os seguidores da <color=yellow>lei</color> eram escravos.
+  - "A m\xFAsica fazia um pouco de sentido, um criminoso era capaz de aproveitar
+    as vantagens do crime, enquanto um seguidor da <color=yellow>lei</color> n\xE3o.
+    Mas tudo o que aquele bardo dizia em sua can\xE7\xE3o seria revertido no momento
+    em que o criminoso fosse pego."
+  - "<color=purple>William</color> imaginou que o bardo aprenderia essa importante
+    li\xE7\xE3o quando fosse preso."
   idchara: 0000000000000000000000000000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000005000000
   Cenario: 5

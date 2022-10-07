@@ -37,12 +37,42 @@ MonoBehaviour:
   - Pain is important for us to become better people and to learn.
   - "<color=#FF0080>Shu\xE1</color> could simply throw all souls into a lake of infinite
     pleasure, but what would that mean?"
-  - "<color=#FF0080>Shu\xE1</color> gave humans their greatest virtue, which is the
+  - "<color=#FF0080>Shu\xE1</color> gave humans their greatest virtue which is the
     ability to love. How could we love without understanding the meaning of pain
     and suffering?"
   - To love we need a world where suffering and happiness coexist so that our actions
     have some meaning.
   - Pain and suffering were about to arrive.
+  DialogueBR:
+  - "<color=#FF0080>Shu\xE1</color> torturar\xE1 os pecadores?"
+  - "Tortura \xE9 uma palavra muito forte, as escrituras do monge <color=#FF0080>Harold</color>
+    dizem que ele purificar\xE1 as almas dos pecadores com a maior das dores."
+  - "<color=#FF0080>Shu\xE1</color> \xE9 gentil por fazer isso?"
+  - Sim.
+  - "Quando eu disse que queria vingan\xE7a, voc\xEA me condenou e disse que isso
+    seria um pecado, mas quando <color=#FF0080>Shu\xE1</color> causa a maior das
+    dores nos humanos, voc\xEA diz que isso \xE9 uma algo gentil."
+  - "Imagine que voc\xEA acorda um dia e descobre que acidentalmente matou uma crian\xE7a
+    enquanto estava b\xEAbado."
+  - "Voc\xEA sofreria?"
+  - Sim.
+  - "<color=black>Essa piada \xE9 engra\xE7ada, voc\xEA n\xE3o acha?</color>"
+  - "Somente um homem com uma alma corrupta n\xE3o sofre depois de pecar."
+  - "Quando <color=#FF0080>Shu\xE1</color> purifica nossas almas ap\xF3s a morte,
+    nos arrependemos de todos os nossos pecados. A maior dor que as escrituras mencionam
+    \xE9 justamente a dor do arrependimento. Isso n\xE3o \xE9 uma puni\xE7\xE3o,
+    mas uma consequ\xEAncia necess\xE1ria da purifica\xE7\xE3o."
+  - "Se <color=#FF0080>Shu\xE1</color> \xE9 t\xE3o gentil, por que ele nos deixa
+    sofrer se ele pode apenas nos dar a pura felicidade?"
+  - "A dor \xE9 importante para nos tornarmos pessoas melhores e aprendermos."
+  - "<color=#FF0080>Shu\xE1</color> poderia simplesmente jogar todas as almas em
+    um lago de prazer infinito, mas qual seria o significado disso?"
+  - "<color=#FF0080>Shu\xE1</color> deu aos humanos sua maior virtude que \xE9 a
+    capacidade de amar. Como poder\xEDamos amar sem entender o significado da dor
+    e do sofrimento?"
+  - "Para amar precisamos de um mundo onde o sofrimento e a felicidade coexistam
+    para que as nossas a\xE7\xF5es tenham algum significado."
+  - A dor e o sofrimento estavam prestes a chegar.
   idchara: 1c000000190000001c000000190000001c00000019000000190000001c0000000000000019000000190000001c0000001900000019000000190000001900000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000
   Cenario: 14

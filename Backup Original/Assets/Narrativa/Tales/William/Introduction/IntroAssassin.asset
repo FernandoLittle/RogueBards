@@ -18,6 +18,11 @@ MonoBehaviour:
     He will fight for money, for chaos, for criminals, for revenge and maybe find
     the person he hates the most inside the Assassin's Guild.
   - That would be a really fun scene.
+  DialogueBR:
+  - "<color=purple>William</color> escolheu o caminho do mal e se tornou um assassino.
+    Ele lutar\xE1 por dinheiro, pelo caos, por criminosos, por vingan\xE7a e talvez
+    encontre a pessoa que mais odeia dentro da Guilda dos Assassinos."
+  - Seria uma cena muito divertida.
   idchara: 0000000000000000
   instruction: 0000000000000000
   Cenario: 4

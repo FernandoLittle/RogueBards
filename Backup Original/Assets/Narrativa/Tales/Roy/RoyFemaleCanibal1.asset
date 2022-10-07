@@ -15,12 +15,18 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Captain <color=yellow>Yuri</color> can accept your offer, try to reason with
-    him
+    him.
   - Thanks.
   - 'After several victories, <color=blue>Roy</color> found the limit of his love.
 
     He
     knelt down, began to cry and showed all his weakness.'
+  DialogueBR:
+  - "Capit\xE3o <color=yellow>Yuri</color> pode aceitar sua oferta, tente argumentar
+    com ele."
+  - Obrigada.
+  - "Ap\xF3s v\xE1rias vit\xF3rias, <color=blue>Roy</color> encontrou o limite de
+    seu amor.\nEle se ajoelhou, come\xE7ou a chorar e mostrou toda a sua fraqueza."
   idchara: 1b0000000c00000000000000
   instruction: 0000000000000000000000006b000000
   Cenario: 1

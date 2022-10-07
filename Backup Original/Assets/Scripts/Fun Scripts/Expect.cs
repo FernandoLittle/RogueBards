@@ -101,7 +101,7 @@ public class Expect : MonoBehaviour
         AttackE = AttackAE[1];
 
         //+-Attack
-        if (AttackA>AttackE)
+        if (AttackA>=AttackE)
         {
             Win = 0;
         }
@@ -109,36 +109,7 @@ public class Expect : MonoBehaviour
         {
             Win = 1;
         }
-        if (AttackA == AttackE)
-        {
-            if (o.AA.offline == true)
-            {
-                if (o.NexusE.id * o.NexusE.side > 0)
-                {
-                    Order = 1;
-                }
-                else
-                {
-                    Order = 0;
-                }
-                Win = Order;
-            }
-            else
-            {
-                if (o.AA.Atacante == true)
-                {
-                    Win = 1;
-                }
-                else
-                {
-                    Win = 0;
-                }
-                    
-            }
-            
 
-
-        }
         Combat.Win = Win;
    
         Combat.Victory();

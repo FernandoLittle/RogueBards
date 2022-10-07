@@ -17,6 +17,10 @@ MonoBehaviour:
   - <color=purple>William</color> realized that this book was totally poorly written
     and boring. It wasn't worth wasting her precious time on him.
   - '<i><color=Black>Reading is very boring, don''t you think?</color> </i>   '
+  DialogueBR:
+  - "<color=purple>William</color> percebeu que esse livro era totalmente mal escrito
+    e chato. N\xE3o valia a pena desperdi\xE7ar seu precioso tempo com ele."
+  - "<i><color=Black>Ler \xE9 muito chato, n\xE3o acha?</color> </i>"
   idchara: 0000000000000000
   instruction: 0000000000000000ea030000
   Cenario: 4

@@ -36,6 +36,26 @@ MonoBehaviour:
     and make money.
   - Their mission would be to face <color=green>Sarka</color>'s vilest creatures,
     the regicidal cannibals who lived in <color=purple>Denai</color>.
+  DialogueBR:
+  - "Seu nome \xE9 <color=blue>Roy Ulbricht</color>, seu dever \xE9 manter a paz,
+    seu dever \xE9 proteger os fracos, seu dever \xE9 lutar pela na\xE7\xE3o, seu
+    dever \xE9 ganhar dinheiro."
+  - "<color=blue>Roy</color> tinha cada vez mais dificuldade de se levantar da cama,
+    pois estava ficando mais magro a cada dia.\r\nA neve n\xE3o conseguia alimentar
+    seu corpo feito de \xE1gua, assim como a mentira n\xE3o conseguia conseguia alimentar
+    sua alma feita de ilus\xF5es."
+  - "Mais uma vez.\nSeu nome \xE9 <color=blue>Roy Ulbricht</color>, seu dever \xE9
+    manter a paz, seu dever \xE9 proteger os fracos, seu dever \xE9 lutar pela na\xE7\xE3o,
+    seu dever \xE9 ganhar dinheiro."
+  - "Depois de se levantar, como todo bom cidad\xE3o de <color=green>Sarka</color>,
+    foi trabalhar. Mas <color=blue>Roy</color> n\xE3o era um homem comum, ele tinha
+    o mais nobre dos trabalhos, ele era um soldado da <color=red>Guarda Azul</color>."
+  - "Ao chegar ao quartel, encontrou seu superior, <color=yellow>Yuri Vitchi</color>,
+    um l\xEDder admirado por sua coragem e esfor\xE7o. Ele estava prestes a anunciar
+    a tarefa que permitiria a Roy manter a paz, proteger os fracos, lutar pela na\xE7\xE3o
+    e ganhar dinheiro."
+  - "Sua miss\xE3o seria enfrentar as criaturas mais vis de <color=green>Sarka</color>,
+    os canibais regicidas que viviam em <color=purple>Denai</color>."
   idchara: 1b000000000000001b000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000065000000
   Cenario: 0

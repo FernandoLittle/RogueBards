@@ -16,6 +16,9 @@ MonoBehaviour:
   Dialogue:
   - A warrior's job is to fight crime.
   - What crime do you want to fight?
+  DialogueBR:
+  - "O trabalho de um guerreiro \xE9 combater o crime."
+  - "Qual crime voc\xEA quer combater?"
   idchara: 0000000000000000
   instruction: 0000000000000000ffffffff
   Cenario: 0

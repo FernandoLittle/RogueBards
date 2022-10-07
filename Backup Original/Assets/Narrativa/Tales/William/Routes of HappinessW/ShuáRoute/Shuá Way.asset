@@ -19,6 +19,13 @@ MonoBehaviour:
   - When I prayed I felt happy.
   - I just want to be happy.
   - I forsake my revenge, but please show me a way that makes me happy.
+  DialogueBR:
+  - "Um amigo me ensinou a orar. Achei que todos os seguidores de <color=#FF0080>Shu\xE1</color>
+    eram idiotas, mas\u2026"
+  - Quando orei eu me senti feliz.
+  - "Eu s\xF3 quero ser feliz."
+  - "Eu abandono minha vingan\xE7a, mas, por favor, me mostre um caminho que me fa\xE7a
+    feliz."
   idchara: 1c0000001c0000001c0000001c000000
   instruction: 0000000000000000000000000000000079000000
   Cenario: 13

@@ -96,9 +96,22 @@ public class SkillA : MonoBehaviour
         RelicObject.SetActive(true);
         RelicText.text = d.Relics[id].Description;
         RelicImage.sprite = d.Relics[id].SpriteRelic;
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            RelicName.text = d.Relics[id].Name;
+            RelicText.text = d.Relics[id].Description;
+        }
+        if (language == 1)
+        {
+            RelicName.text = d.Relics[id].Name;
+            RelicText.text = d.Relics[id].Description;
+        }
     }
     public void GainRelic(int a)
     {
+        Debug.Log("GainRelic");
         try
         {
             StaticPlayer.RelicsAlly.Add(a);
@@ -350,6 +363,136 @@ public class SkillA : MonoBehaviour
 
             SkillName1.text = d.Dodge[NewIdSkill].Name;
             SkillName2.text = d.Dodge[OldIdSkill].Name;
+        }
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            if (TypeSkill == 1)
+            {
+                G1.t0.text = d.AttackS[NewIdSkill].Texto0;
+
+
+
+
+                G2.t0.text = d.AttackS[OldIdSkill].Texto0;
+
+
+                SkillName1.text = d.AttackS[NewIdSkill].Name;
+                SkillName2.text = d.AttackS[OldIdSkill].Name;
+            }
+            if (TypeSkill == 2)
+            {
+
+                G1.t0.text = d.AttackQ[NewIdSkill].Texto0;
+
+
+
+
+
+                G2.t0.text = d.AttackQ[OldIdSkill].Texto0;
+
+
+
+
+                SkillName1.text = d.AttackQ[NewIdSkill].Name;
+                SkillName2.text = d.AttackQ[OldIdSkill].Name;
+            }
+            if (TypeSkill == 3)
+            {
+
+                G1.t0.text = d.Block[NewIdSkill].Texto0;
+
+
+
+
+                G2.t0.text = d.Block[OldIdSkill].Texto0;
+
+
+
+
+                SkillName1.text = d.Block[NewIdSkill].Name;
+                SkillName2.text = d.Block[OldIdSkill].Name;
+            }
+            if (TypeSkill == 4)
+            {
+
+                G1.t0.text = d.Dodge[NewIdSkill].Texto0;
+
+
+
+                G2.t0.text = d.Dodge[OldIdSkill].Texto0;
+
+
+
+
+                SkillName1.text = d.Dodge[NewIdSkill].Name;
+                SkillName2.text = d.Dodge[OldIdSkill].Name;
+            }
+        }
+        if (language == 1)
+        {
+            if (TypeSkill == 1)
+            {
+                G1.t0.text = d.AttackS[NewIdSkill].Texto0br;
+
+
+
+
+                G2.t0.text = d.AttackS[OldIdSkill].Texto0br;
+
+
+                SkillName1.text = d.AttackS[NewIdSkill].NameBR;
+                SkillName2.text = d.AttackS[OldIdSkill].NameBR;
+            }
+            if (TypeSkill == 2)
+            {
+
+                G1.t0.text = d.AttackQ[NewIdSkill].Texto0br;
+
+
+
+
+
+                G2.t0.text = d.AttackQ[OldIdSkill].Texto0br;
+
+
+
+
+                SkillName1.text = d.AttackQ[NewIdSkill].NameBR;
+                SkillName2.text = d.AttackQ[OldIdSkill].NameBR;
+            }
+            if (TypeSkill == 3)
+            {
+
+                G1.t0.text = d.Block[NewIdSkill].Texto0br;
+
+
+
+
+                G2.t0.text = d.Block[OldIdSkill].Texto0br;
+
+
+
+
+                SkillName1.text = d.Block[NewIdSkill].NameBR;
+                SkillName2.text = d.Block[OldIdSkill].NameBR;
+            }
+            if (TypeSkill == 4)
+            {
+
+                G1.t0.text = d.Dodge[NewIdSkill].Texto0br;
+
+
+
+                G2.t0.text = d.Dodge[OldIdSkill].Texto0br;
+
+
+
+
+                SkillName1.text = d.Dodge[NewIdSkill].NameBR;
+                SkillName2.text = d.Dodge[OldIdSkill].NameBR;
+            }
         }
 
         G1.t[0].SetActive(true);

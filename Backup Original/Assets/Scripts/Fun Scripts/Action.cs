@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Action : ScriptableObject
 {
     public string Name;
+    public string NameBR;
     public Sprite sprite;
     public int id;
     [TextArea]

@@ -17,6 +17,10 @@ MonoBehaviour:
   - Most people don't have any kind of talent for music, but you are an exception,
     congratulations.
   - I had a good teacher.
+  DialogueBR:
+  - "A maioria das pessoas n\xE3o tem nenhum tipo de talento para m\xFAsica, mas
+    voc\xEA \xE9 uma exce\xE7\xE3o, parab\xE9ns."
+  - Eu tive um bom professor.
   idchara: 0a0000001c000000
   instruction: 00000000e9030000ea030000
   Cenario: 2

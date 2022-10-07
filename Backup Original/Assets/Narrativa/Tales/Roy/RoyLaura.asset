@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - <color=blue>Roy</color> chose his vanity
+  - <color=blue>Roy</color> chose to feed his vanity.
+  DialogueBR:
+  - <color=blue>Roy</color> escolheu alimentar sua vaidade.
   idchara: 00000000
   instruction: 000000009a020000
   Cenario: 1

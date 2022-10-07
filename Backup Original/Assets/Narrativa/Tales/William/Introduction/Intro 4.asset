@@ -16,13 +16,25 @@ MonoBehaviour:
   Dialogue:
   - 'In <color=yellow>Sarka</color> an assassin said:'
   - The frog is not evil for killing a fly because he did not choose to be a frog.
-    The human is not bad for killing a frog because he didn't choose to be a human.
+    The human is not evil for killing a frog because he didn't choose to be a human.
     The angel is not evil for killing a human because he didn't choose to be an angel.
   - But everyone sees their predators as evil, because even if they are predators
     themselves, every damn animal thinks it's the most important being in the universe
-    and anyone who tries against its existence will be the incarnation of evil.
+    and anyone who threatens its existence will be evil incarnate.
   - 'In <color=yellow>Sarka</color> a warrior said:'
   - Assassins are evil.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "O sapo n\xE3o \xE9 mau por matar uma mosca porque n\xE3o escolheu ser um sapo.
+    O humano n\xE3o \xE9 mau por matar um sapo porque ele n\xE3o escolheu ser humano.
+    O anjo n\xE3o \xE9 mau por matar um humano porque ele n\xE3o escolheu ser um
+    anjo."
+  - "Mas todo mundo v\xEA seus predadores como maus, porque mesmo que eles pr\xF3prios
+    sejam predadores, todo maldito animal pensa que \xE9 o ser mais importante do
+    universo e qualquer um que atente contra sua exist\xEAncia ser\xE1 a encarna\xE7\xE3o
+    do mal."
+  - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
+  - "Assassinos s\xE3o maus."
   idchara: 0000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000069000000
   Cenario: 4

@@ -19,6 +19,12 @@ MonoBehaviour:
   - Just like all the people who will be born.
   - Just like <i><color=Black>me</color> </i>.
   - <color=Black>Just like you.</color>
+  DialogueBR:
+  - No final, William morreu.
+  - "Assim como todas as pessoas que j\xE1 existiram."
+  - "Assim como todas as pessoas que v\xE3o nascer."
+  - Assim como <i><color=Black>eu</color> </i>.
+  - "<color=Black>Assim como voc\xEA.</color>"
   idchara: 0000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000009a020000
   Cenario: 15

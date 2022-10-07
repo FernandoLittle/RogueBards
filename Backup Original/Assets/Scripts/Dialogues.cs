@@ -14,6 +14,7 @@ public class Dialogues : MonoBehaviour
     public Tutorial Tutorial;
     public GameObject TutoIlustration;
     public List<ListString> DarkText;
+    public List<ListString> DarkTextBR;
     public Image Face;
     public Stuff Stuff;
     // Start is called before the first frame update
@@ -30,7 +31,17 @@ public class Dialogues : MonoBehaviour
   
     public void ShowText()
     {
-        DiagolgueText.text= Dialogo[DialogueSelect].Dialogue[Index];
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            DiagolgueText.text = Dialogo[DialogueSelect].Dialogue[Index];
+        }
+        if (language == 1)
+        {
+            DiagolgueText.text = Dialogo[DialogueSelect].DialogueBR[Index];
+        }
+
     }
     public void MasterDialogue()
     {

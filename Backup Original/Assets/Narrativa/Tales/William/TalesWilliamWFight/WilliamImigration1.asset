@@ -17,7 +17,7 @@ MonoBehaviour:
   - Fuck where he was born, I've got better things to do than kick him out of the
     country.
   - You are unpatriotic.
-  - Yes I am. Believe what you want, the door is there, buddy.
+  - Yes, I am. Believe what you want, the door is there, buddy.
   - 'Just after <color=yellow>Otterg</color> opened the door, <color=purple>William</color>
     shouted:'
   - Hang on!
@@ -32,8 +32,30 @@ MonoBehaviour:
   - Hm, so you're cuckold, it's a good reason and you had the guts to reveal it,
     which is admirable.
   - I'll help you then, adulterer has to fuck himself.
-  - After the <color=yellow>cuckold</color>, left the room, <color=purple>William</color>
-    let out a laugh that he struggled to hold back.
+  - After the <color=yellow>cuckold</color> left the room, <color=purple>William</color>
+    let out the laugh that he struggled to hold back.
+  DialogueBR:
+  - "Foda-se onde ele nasceu, tenho coisas melhores a fazer do que expuls\xE1-lo
+    do pa\xEDs."
+  - "Voc\xEA \xE9 antipatri\xF3tico."
+  - "Sim, eu sou. Acredite no que quiser, a porta est\xE1 ali, amigo."
+  - "Logo ap\xF3s <color=yellow>Otterg</color> abrir a porta, <color=purple>William</color>
+    gritou:"
+  - Espere!
+  - "Voc\xEA mentiu para mim, n\xE3o foi?"
+  - "O que? N\xE3o menti, juro que ele \xE9 um imigrante ilegal."
+  - "N\xE3o nessa parte. Seu nome \xE9 <color=yellow>Otterg Sasmark</color>, voc\xEA
+    claramente vem de uma fam\xEDlia de imigrantes sericianos, a prop\xF3sito, meu
+    av\xF4 tamb\xE9m veio da <color=yellow>Sericia</color>. De qualquer forma, n\xE3o
+    faz sentido voc\xEA odiar os imigrantes a ponto de querer expuls\xE1-los se voc\xEA
+    \xE9 parente recente de imigrantes. Existe outra raz\xE3o por tr\xE1s do seu
+    pedido, estou errado?"
+  - "A verdadeira raz\xE3o \xE9... minha esposa me traiu com aquele homem."
+  - "Hm, ent\xE3o voc\xEA \xE9 um corno, \xE9 um bom motivo e voc\xEA teve a coragem
+    de revel\xE1-lo, o que \xE9 admir\xE1vel."
+  - "Eu te ajudo ent\xE3o, talarico tem que se foder."
+  - Depois que o <color=yellow>corno</color> saiu da sala, <color=purple>William</color>
+    soltou a grande risada que estava segurando.
   idchara: 1c000000120000001c000000000000001c0000001c000000120000001c000000120000001c0000001c00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000
   Cenario: 9

@@ -17,19 +17,19 @@ MonoBehaviour:
   - "I could kill you here, but that's not what <color=#FF0080>Shu\xE1</color> taught
     us. We came here to help all the victims and all the wounded that exist on both
     sides. Just leave us alone."
-  - I don't like you, but I will reward your mercy by revealing information that
-    could save you.
+  - I don't like you, but I will reward your mercy. I have information that might
+    save you.
   - More soldiers are coming this way. You are strong, but you won't be able to defeat
     them all, I suggest you run away. We just want to kill the Mirians that are here.
   - "Run away, <color=purple>William</color>, you did a good job, <color=#FF0080>Shu\xE1</color>
     is happy to see your virtues."
   - I will stay here to defend the Mirians.
-  - You've heard of the sins those bastards committed, why would you risk your life
-    for them?
+  - You heard the sins these bastards committed, why would you risk your life for
+    them?
   - "The true mission of the <color=#FF0080>Shu\xE1</color> followers is to lead
     sinners to the path of virtue. Those Mirians repented of their sins, I cannot
     allow them to die a brutal death."
-  - There's no way you can calm the Varsians' wrath. If you stay here, you will die
+  - There's no way you can calm the Varsians' wrath. If you stay here you will die
     for nothing.
   - A monk is not afraid of death, our only fear is to deviate from the path of virtue.
   - Go away, my <color=purple>lord</color>.
@@ -40,6 +40,35 @@ MonoBehaviour:
   - "The Varsians brutally killed the Shuan <color=#FF0080>monk</color> because\u2026"
   - "This is not the world of <color=#FF0080>Shu\xE1</color>."
   - <color=black>This is my world. </color>
+  DialogueBR:
+  - "Eu poderia te matar aqui, mas n\xE3o foi isso que <color=#FF0080>Shu\xE1</color>
+    nos ensinou. Viemos aqui para ajudar todas as v\xEDtimas e todos os feridos que
+    existem em ambos os lados. Apenas nos deixe em paz."
+  - "N\xE3o gosto de voc\xEA, mas recompensarei sua miseric\xF3rdia. Eu tenho uma
+    informa\xE7\xE3o que pode salv\xE1-lo."
+  - "Mais soldados est\xE3o vindo nesta dire\xE7\xE3o. Voc\xEA \xE9 forte, mas n\xE3o
+    conseguir\xE1 derrotar todos eles, sugiro que voc\xEA fuja. N\xF3s s\xF3 queremos
+    matar os mirianos que est\xE3o aqui."
+  - "Fuja, <color=purple>William</color>, voc\xEA fez um bom trabalho, <color=#FF0080>Shu\xE1</color>
+    est\xE1 feliz em ver suas virtudes."
+  - Eu ficarei aqui para defender os Mirians.
+  - "Voc\xEA ouviu os pecados que esses bastardos cometeram, por que voc\xEA arriscaria
+    sua vida por eles?"
+  - "A verdadeira miss\xE3o dos seguidores de <color=#FF0080>Shu\xE1</color> \xE9
+    levar os pecadores ao caminho da virtude. Esses mirianos se arrependeram de seus
+    pecados, n\xE3o posso permitir que tenham uma morte brutal."
+  - "N\xE3o h\xE1 como acalmar a ira dos varsianos. Se voc\xEA ficar aqui vai morrer
+    a troco de nada."
+  - "Um monge n\xE3o tem medo da morte, nosso \xFAnico medo \xE9 nos desviarmos do
+    caminho da virtude."
+  - "V\xE1 embora, meu <color=purple>senhor</color>."
+  - "V\xE1 embora, <color=purple>William</color>, encontre sua felicidade como eu
+    encontrei a minha. Encontre o amor shuano e espalhe-o por este mundo de guerra."
+  - "<color=purple>William</color> n\xE3o olhou para tr\xE1s quando fugiu, mas ele
+    sabia o que havia acontecido, j\xE1 que era algo \xF3bvio."
+  - "Os varsianos mataram brutalmente o <color=#FF0080>monge</color> shuano porque\u2026"
+  - "Este n\xE3o \xE9 o mundo de <color=#FF0080>Shu\xE1</color>."
+  - "<color=black>Este \xE9 o meu mundo. </color>"
   idchara: 1c000000180000001800000019000000190000001c000000190000001c00000019000000190000001900000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
   Cenario: 14

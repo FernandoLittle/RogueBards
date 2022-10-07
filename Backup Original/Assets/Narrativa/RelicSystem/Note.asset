@@ -21,5 +21,9 @@ MonoBehaviour:
 
     Judge:
     Bard of Bards'
+  DescriptionBR: "Aqui est\xE1 uma restitui\xE7\xE3o pelos danos causados, este julgamento
+    foi realizado pela Guilda de Assassinos / Agencia 3.\nExecutor: Bardo dos Bardos\nJuiz:
+    Bardo dos Bardos"
   Name: <color=yellow>Note</color>
+  NameBR: <color=yellow>Bilhete</color>
   Type: 1

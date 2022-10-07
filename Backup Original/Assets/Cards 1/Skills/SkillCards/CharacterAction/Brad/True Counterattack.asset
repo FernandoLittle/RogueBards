@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: True Counterattack
   m_EditorClassIdentifier: 
-  Name: <color=#yellow>Fake Attack</color>
+  Name: <color=yellow>True Counterattack</color>
+  NameBR: <color=yellow>Contra Ataque Verdadeiro</color>
   sprite: {fileID: 21300000, guid: 11985c52a71cee743985fe41016fcabb, type: 3}
   id: 0
   Texto0: 

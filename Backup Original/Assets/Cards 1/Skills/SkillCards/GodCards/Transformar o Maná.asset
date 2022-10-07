@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: "Transformar o Man\xE1"
   m_EditorClassIdentifier: 
   Name: <color=blue>Transform the Mana</color>
+  NameBR: <color=blue>Transformar o Mana</color>
   sprite: {fileID: 21300000, guid: c55b72cc46066f041b337b30a06b41c9, type: 3}
   id: 4
-  Texto0: 'Victory: Gain 4 life for each time you activate the sentimental bonuses
-    in this battle.'
-  Texto0br: 
-  scale: 6
+  Texto0: 'Victory: Gain 4 life for each time you activate the <color=blue>sentimental
+    bonus</color> in this battle.'
+  Texto0br: "Vit\xF3ria: Ganhe 4 pontos de vida para cada vez que voc\xEA ativar
+    o <color=blue>b\xF4nus sentimental</color> nesta batalha."
+  scale: 8
   IAturn: 0
   KeywordId: 
   KeywordValues: []

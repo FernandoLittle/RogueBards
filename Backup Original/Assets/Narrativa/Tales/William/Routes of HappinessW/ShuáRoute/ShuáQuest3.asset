@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - "Is there a sin that <color=#FF0080>Shu\xE1</color> cannot forgive?"
-  - "The only sinner that <color=#FF0080>Shu\xE1</color> does not forgive is the
-    one in which the person does not repent."
+  - "The only sinner who <color=#FF0080>Shu\xE1</color> does not forgive is the one
+    who does not repent."
   - "<color=purple>William</color> was sure <color=#FF0080>Shu\xE1</color> would
     forgive him, however monstrous his sin was."
   - He told the <color=#FF0080>monk</color> his biggest secret. His greatest cruelty.
@@ -31,6 +31,25 @@ MonoBehaviour:
     your suffering, he understands perfectly."
   - A war is not a place for forgiveness and mercy.
   - A war is a place for death and violence.
+  DialogueBR:
+  - "Existe algum pecado que <color=#FF0080>Shu\xE1</color> n\xE3o pode perdoar?"
+  - "O \xFAnico pecador que <color=#FF0080>Shu\xE1</color> n\xE3o perdoa \xE9 aquele
+    em que n\xE3o se arrepende."
+  - "<color=purple>William</color> tinha certeza de que <color=#FF0080>Shu\xE1</color>
+    o perdoaria, por mais monstruoso que fosse seu pecado."
+  - "Ele contou ao <color=#FF0080>monge</color> seu maior segredo. Sua maior crueldade.
+    O fruto podre do seu ego\xEDsmo."
+  - "O <color=#FF0080>monge</color> j\xE1 tinha visto e ouvido coisas terr\xEDveis,
+    pecadores extremamente cru\xE9is e repulsivos j\xE1 haviam se confessado para
+    ele."
+  - "Mas quando ele ouviu os pecados de <color=purple>William</color>, ele sentiu
+    algo que nunca sentiu ao ouvir uma confiss\xE3o."
+  - Ele sentiu pena.
+  - Eu sinto muito, meu senhor. Eu sinto muito, <color=purple>William</color>.
+  - "Voc\xEA deve ter sofrido muito, n\xE3o se preocupe, <color=#FF0080>Shu\xE1</color>
+    entende seu sofrimento, ele entende perfeitamente."
+  - "A guerra n\xE3o \xE9 um lugar para perd\xE3o e miseric\xF3rdia."
+  - "A guerra \xE9 um lugar de morte e viol\xEAncia."
   idchara: 1c00000019000000000000000000000000000000000000000000000019000000190000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000
   Cenario: 14

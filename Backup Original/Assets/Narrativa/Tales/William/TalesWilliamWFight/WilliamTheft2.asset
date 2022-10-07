@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: WilliamTheft2
+  m_EditorClassIdentifier: 
+  id: 5
+  Dialogue:
+  - After a few minutes of fighting the thieves were subdued, but some of them managed
+    to take hostages.
+  - After two centidays of negotiation, <color=purple>William</color> lowered the
+    pants of one of the captured thieves and began to speak.
+  - Gentlemen, you have two choices from now on, a boring choice and a fun one.
+  - The boring choice is for you to drop the hostages safely and accept being arrested.
+  - The fun choice is for you to kill the hostages and have your dicks amputated.
+  - The <color=yellow>thief</color> with his pants down begged for mercy with all
+    the desperation of his soul, but that didn't stop <color=purple>William</color>
+    from making a show that turned cries of despair into cries of pain.
+  - Don't make such a fuss, that's no big deal, you've only lost three centimeters
+    of dick.
+  - <color=purple>William</color> gave a gentle smile.
+  - The choice is yours, dear friends.
+  - In less than one miliday all the hostages were freed, after the screams stopped
+    <color=purple>William</color> said to the <color=yellow>thief</color> with his
+    pants down.
+  - Look on the bright side, your dick saved the lives of several hostages.
+  DialogueBR:
+  - "Ap\xF3s alguns minutos de luta, os ladr\xF5es foram subjugados, mas alguns deles
+    conseguiram fazer ref\xE9ns."
+  - "Ap\xF3s dois centidias de negocia\xE7\xE3o, <color=purple>William</color> abaixou
+    as cal\xE7as de um dos ladr\xF5es capturados e come\xE7ou a falar."
+  - "Cavalheiros, voc\xEAs t\xEAm duas op\xE7\xF5es a partir de agora, uma escolha
+    chata e uma escolha divertida."
+  - "A escolha chata \xE9 voc\xEAs largarem os ref\xE9ns e aceitarem a pris\xE3o."
+  - "A escolha divertida \xE9 voc\xEAs matarem os ref\xE9ns e terem seus paus amputados."
+  - "O <color=yellow>ladr\xE3o</color> com as cal\xE7as abaixadas implorou por miseric\xF3rdia
+    com todo o desespero de sua alma, mas isso n\xE3o impediu <color=purple>William</color>
+    de fazer um show que transformou gritos de desespero em gritos de dor."
+  - "N\xE3o fa\xE7a tanto barulho, isso n\xE3o \xE9 grande coisa, voc\xEA s\xF3 perdeu
+    tr\xEAs cent\xEDmetros de pau."
+  - <color=purple>William</color> deu um sorriso gentil.
+  - "A escolha \xE9 de voc\xEAs, queridos amigos."
+  - "Em menos de um milidia todos os ref\xE9ns foram libertados, ap\xF3s os gritos
+    cessarem <color=purple>William</color> disse ao <color=yellow>ladr\xE3o</color>
+    com as cal\xE7as arriadas."
+  - "Olhe pelo lado bom, seu pau salvou a vida de v\xE1rios ref\xE9ns."
+  idchara: 00000000000000001c0000001c0000001c000000000000001c000000000000001c000000000000001c000000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
+  Cenario: 11

@@ -15,15 +15,26 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - <color=purple>William</color> felt what the gods felt.
-  - He felt an emptiness in his soul.
-  - Felt an agony of not achieving his goals.
-  - A confusion in the face of so many choices that led to the same failure.
+  - He felt the emptiness in his soul.
+  - He felt the agony of not reaching his goals.
+  - The confusion in the face of so many choices that led to the same failure.
   - The <color=red>death</color>.
   - <color=purple>William</color> did what the gods did.
   - He tried to do some activity that would make him forget this pain of not seeing
     salvation.
   - This suffering in the face of the fundamental feeling for survival.
   - The <color=red>fear</color>.
+  DialogueBR:
+  - <color=purple>William</color> sentiu o que os deuses sentiam.
+  - Sentiu o vazio em sua alma.
+  - "Sentiu a agonia de n\xE3o alcan\xE7ar seus objetivos."
+  - "A confus\xE3o diante de tantas escolhas que levaram ao mesmo fracasso."
+  - A <color=red>morte</color>.
+  - <color=purple>William</color> fez o que os deuses fizeram.
+  - "Ele tentou fazer alguma atividade que o fizesse esquecer desse sofrimento de
+    n\xE3o ver a salva\xE7\xE3o."
+  - "Esse sofrimento diante do sentimento fundamental de sobreviv\xEAncia."
+  - O <color=red>medo</color>.
   idchara: 000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000064000000
   Cenario: 3

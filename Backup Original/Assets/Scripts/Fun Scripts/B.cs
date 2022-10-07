@@ -432,6 +432,66 @@ public class B : MonoBehaviourPunCallbacks
             
         }
     }
+    public void SentimentoTextBR()
+    {
+        string unknown;
+        string calm;
+        string fear;
+        string rage;
+        string hate;
+        string compassion;
+        string calm1;
+        string fear1;
+        string rage1;
+        string hate1;
+        string compassion1;
+        a.SetSentimento();
+        unknown = "O sentimento do humano é desconhecido, mas quando ele fica cara a cara com outro humano seus sentimentos vão despertar.";
+
+        calm = "<color=blue>Calma</color>: O humano provavelmente gastará pouca mana. \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
+        fear = "<color=purple>Medo</color>: O humano provavelmente gastará muita mana. \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
+
+        rage = "?";
+        hate = "?";
+        compassion = "<color=#FF0080>Compaixão</color>: Isso é estranho.";
+        calm1 = "<color=blue>Calma</color>: Seu <color=blue>bônus sentimental</color> é ativado quando você gasta pouca mana (menos de 5). \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
+        fear1 = "<color=purple>Medo</color>: Seu <color=blue>bônus sentimental</color> é ativado quando você gasta muita mana (mais de 4). \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
+        rage1 = "?";
+        hate1 = "?";
+        compassion1 = "<color=#FF0080>Compassion</color>: Você não deveria estar sentindo isso.";
+
+        if (sentimento == -1)
+        {
+            a.EyeT[0].text = unknown;
+            a.EyeTx[0].text = unknown;
+        }
+        if (sentimento == 0)
+        {
+            a.EyeT[0].text = calm;
+            a.EyeTx[0].text = calm1;
+        }
+        if (sentimento == 1)
+        {
+            a.EyeT[0].text = fear;
+            a.EyeTx[0].text = fear1;
+        }
+        if (sentimento == 2)
+        {
+            a.EyeT[0].text = rage;
+            a.EyeTx[0].text = rage1;
+        }
+        if (sentimento == 3)
+        {
+            a.EyeT[0].text = hate;
+            a.EyeTx[0].text = hate1;
+        }
+        if (sentimento == 4)
+        {
+            a.EyeT[0].text = compassion;
+            a.EyeTx[0].text = compassion1;
+        }
+
+    }
     public void SentimentoText()
     {
         string unknown;
@@ -447,16 +507,17 @@ public class B : MonoBehaviourPunCallbacks
         string compassion1;
         a.SetSentimento();
         unknown= "The human's feeling is unknown, but when he comes face to face with another human his feelings will awaken.";
-        calm = "<color=blue>Calm</color>: Tends to expend a small amount of mana. \n Cause: The human has high life, it calms him down.";
-        fear = "<color=purple>Fear</color>: Tends to use a lot of mana on defense and a small amount of mana on offense. \n Cause: The human has low life, it scares him.";
-        rage= "<color=orange>Rage</color>: Tends to use a lot of mana on offense and a small amount of mana on defense. \n Cause: The opponent has high life, this causes the human to attack enraged.";
-        hate = "<color=red>Hate</color>: Tends to spend all of his mana. \n Cause: The human sees no chance of victory, it makes him hate reality.";
-        compassion = "<color=Pink>Compassion</color>: This is weird.";
-        calm1= "<color=blue>Calm</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana (less than 5). \n Cause: The human has high life, it calms him down."; ;
-        fear1= "<color=purple>Fear</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on defense (more than 4) or a small amount of mana on offense (less than 5). \n Cause: The human has low life, it scares him."; ;
-        rage1 = "<color=orange>Rage</color>: Your <color=blue>sentimental bonus</color> is activated when you spend a lot of mana on offense (more than 4) or a small amount of mana on defense (less than 5). \n Cause: The opponent has high life, this causes the human to attack enraged.";
-        hate1 = "<color=red>Hate</color>: Your <color=blue>sentimental bonus</color> is activated when you spend all of his mana. \n Cause: The human sees no chance of victory, it makes him hate reality."; ;
-        compassion1 = "<color=Pink>Compassion</color>: You shouldn't be feeling this.";
+        calm = "<color=blue>Calm</color>: The human will probably spend a small amount of mana. \n Cause: The human thinks he is winning this fight, it calms him down.";
+        fear = "<color=purple>Fear</color>: The human will probably spend a large amount of mana. \n Cause: The human thinks he is losing this fight, it scares him.";
+
+        rage = "?";
+        hate = "?";
+        compassion = "<color=#FF0080>Compassion</color>: This is weird.";
+        calm1 = "<color=blue>Calm</color> Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana (less than 5). \n Cause: The human thinks he is winning this fight, it calms him down.";
+        fear1 = "<color=purple>Fear</color>:Your <color=blue>sentimental bonus</color> is activated when you spend large amount of mana (more than 4). \n Cause: The human thinks he is losing this fight, it scares him.";
+        rage1 = "?";
+        hate1 = "?";
+        compassion1 = "<color=#FF0080>Compassion</color>: You shouldn't be feeling this.";
 
         if (sentimento == -1)
         {
@@ -493,7 +554,17 @@ public class B : MonoBehaviourPunCallbacks
     }
     public void D()
     {
-        SentimentoText();
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            SentimentoText();
+        }
+        if (language == 1)
+        {
+            SentimentoTextBR();
+        }
+
         a.EyeNameLeft.text = d.Chara[a.Generic.Module(idcard1)].Name;
         a.EyeNameRight.text = d.Chara[a.Generic.Module(idcard1)].Name;
         if (idzone1==1|| idzone1 == 2 || idzone1 == 3)

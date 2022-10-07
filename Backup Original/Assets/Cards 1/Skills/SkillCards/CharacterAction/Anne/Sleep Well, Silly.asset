@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Sleep Well, Silly
   m_EditorClassIdentifier: 
-  Name: <color=#red>Sleep Well, Silly</color>
+  Name: <color=red>Sleep Well, Silly</color>
+  NameBR: <color=red>Durma Bem, Bobo</color>
   sprite: {fileID: 21300000, guid: b3dd4976c0590f041bd8f4e540dc0215, type: 3}
   id: 30
   Texto0: 

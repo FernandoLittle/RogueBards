@@ -20,6 +20,13 @@ MonoBehaviour:
   - 'In <color=yellow>Sarka</color> a warrior said:'
   - We will fight in bloody battles, we will face misery and hunger for the good
     of our nation.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "Guerreiros lutam em combates sangrentos, enfrentam a mis\xE9ria e a fome, e
+    o povo floresce no esterco de seus cad\xE1veres."
+  - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
+  - "Lutaremos em batalhas sangrentas, enfrentaremos a mis\xE9ria e a fome pelo bem
+    de nossa na\xE7\xE3o."
   idchara: 00000000000000000000000000000000
   instruction: 0000000000000000000000000000000069000000
   Cenario: 4

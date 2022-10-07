@@ -17,6 +17,10 @@ MonoBehaviour:
   - <color=purple>William</color>, like every primate, wanted to be happy.
   - This was a foolish wish that brought even more anguish to his wretched soul.
   - What will you do to achieve happiness?
+  DialogueBR:
+  - <color=purple>William</color>, como todo primata, queria ser feliz.
+  - "Este era um desejo tolo que trazia ainda mais ang\xFAstia para sua alma miser\xE1vel."
+  - "O que voc\xEA far\xE1 para alcan\xE7ar a felicidade?"
   idchara: 000000000000000000000000
   instruction: 000000000000000000000000feffffff
   Cenario: 17

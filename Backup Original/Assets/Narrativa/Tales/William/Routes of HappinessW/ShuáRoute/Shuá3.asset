@@ -39,8 +39,38 @@ MonoBehaviour:
     the plague, but from the despair and agony of facing death head-on, and for that
     I will always be grateful to him.
   - "Your story is beautiful <color=#FF0080>Kain</color>, if you are alive thanks
-    to <color=#FF0080>Shu\xE1</color>, I also thank him."
+    to <color=#FF0080>Shu\xE1</color> I will also thank him."
   - The two prayed together in silence.
+  DialogueBR:
+  - "Voc\xEA realmente acha que as ora\xE7\xF5es funcionam?"
+  - "Eu n\xE3o acreditava quando era jovem. Eu pensei que as pessoas tinham inventado
+    um deus que fosse um humano poderoso simplesmente porque somos animais soci\xE1veis,
+    nossas mentes evolu\xEDram justamente para termos a habilidade de nos comunicarmos
+    com outros humanos."
+  - "Ent\xE3o me parecia \xF3bvio que <color=#FF0080>Shu\xE1</color> era um falso
+    deus criado pela imagina\xE7\xE3o humana."
+  - "Mas um dia eu contra\xED a peste azul. O que eu mais odiava n\xE3o era a doen\xE7a,
+    mas o tratamento. Os medicamentos fizeram meu corpo ferver e tive que continuar
+    os tomando por meses."
+  - "Eu quis desistir v\xE1rias vezes, achei que morrer da peste seria muito melhor,
+    pelo menos eu teria uma morte tranquila. E mesmo que eu tomasse todos os rem\xE9dios,
+    s\xF3 teria uma chance em cinco de sobreviver."
+  - "Eu estava cansado, pronto para desistir. E quando cheguei ao desespero mais
+    profundo, senti Shu\xE1 ao meu lado, naquele momento senti que n\xE3o estava
+    sozinho, naquele momento soube que algo maior estava me protegendo e me guiando."
+  - "Naquele momento eu soube que teria for\xE7as para derrotar a praga azul."
+  - "Por que o <color=#FF0080>Shu\xE1</color> n\xE3o protegeu as quatro em cada cinco
+    pessoas que passaram pelo tratamento e morreram?"
+  - "N\xE3o sei, talvez ele n\xE3o exista, talvez o que eu senti naquele momento
+    fosse apenas uma ilus\xE3o."
+  - "Mas garanto a voc\xEA que, se eu n\xE3o tivesse acreditado nele, j\xE1 estaria
+    morto."
+  - "Ele existindo ou n\xE3o, foi minha cren\xE7a nele que me salvou n\xE3o apenas
+    da praga, mas do desespero e da agonia de enfrentar a morte de frente, e por
+    isso sempre serei grato a ele."
+  - "Sua hist\xF3ria \xE9 bela <color=#FF0080>Kain</color>, se voc\xEA est\xE1 vivo
+    gra\xE7as ao <color=#FF0080>Shu\xE1</color> eu tamb\xE9m agradecerei a ele."
+  - "Os dois rezaram juntos em sil\xEAncio."
   idchara: 1c0000002000000020000000200000002000000020000000200000001c0000002000000020000000200000001c00000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000076000000
   Cenario: 12

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Please Don't Kill Me
   m_EditorClassIdentifier: 
   Name: <color=red>Please Don't Kill Me</color>
+  NameBR: "<color=red>Por Favor N\xE3o Me Mate</color>"
   sprite: {fileID: 21300000, guid: 103642261ebfe4a4f846e15b44e9e9b0, type: 3}
   id: 27
   Texto0: 

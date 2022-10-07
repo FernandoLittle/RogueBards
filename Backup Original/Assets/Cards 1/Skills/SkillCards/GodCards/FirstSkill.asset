@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: FirstSkill
   m_EditorClassIdentifier: 
-  Name: Akashic Skepticism
+  Name: <color=green>Akashic Skepticism</color>
+  NameBR: <color=green>Ceticismo Akashico</color>
   sprite: {fileID: 21300000, guid: 4024eea378c75e3408f9c1ef0e211ce6, type: 3}
   id: 0
   Texto0: Gain <color=#67B2FF>Wisdom</color>.
-  Texto0br: 
+  Texto0br: Ganhe <color=#67B2FF>Sabedoria</color>.
   scale: 9
   IAturn: 0
   KeywordId: 18000000

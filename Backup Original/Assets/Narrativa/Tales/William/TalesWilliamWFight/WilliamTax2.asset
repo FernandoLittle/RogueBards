@@ -18,8 +18,16 @@ MonoBehaviour:
   - <color=green>Vlad Burarth</color>.
   - <color=purple>William</color> killed that assassin with great pleasure.
   - The next day he decided to pay the smiling tax evader a visit.
-  - Are you happy <color=green>Vlad Burarth</color>? I am, look at my <color=red>smile</color>.
+  - Are you happy, <color=green>Vlad Burarth</color>? I am, look at my <color=red>smile</color>.
   - The tax evader never smiled again.
+  DialogueBR:
+  - Se me disser quem te contratou, pouparei sua vida.
+  - <color=green>Vlad Burarth</color>.
+  - <color=purple>William</color> matou aquele assassino com grande prazer.
+  - No dia seguinte, decidiu fazer uma visita ao sonegador sorridente.
+  - "Voc\xEA est\xE1 feliz, <color=green>Vlad Burarth</color>? Eu estou, olhe para
+    o meu <color=red>sorriso</color>."
+  - O sonegador nunca mais sorriu.
   idchara: 1c0000001600000000000000000000001c00000000000000
   instruction: 000000000000000000000000000000000000000000000000ea030000
   Cenario: 10

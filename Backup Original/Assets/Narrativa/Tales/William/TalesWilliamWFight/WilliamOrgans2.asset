@@ -41,6 +41,35 @@ MonoBehaviour:
   - In his last moments, the <color=yellow>assassin</color> felt like the worst arguer
     in the world when he remembered the phrase "the better your arguments are, the
     less painful your death will be".
+  DialogueBR:
+  - "Quantos guerreiros voc\xEA matou? Quantos dos meus amigos voc\xEA esquartejou
+    para vender \xF3rg\xE3os?"
+  - Quatro.
+  - <color=purple>William</color> o chutou.
+  - "Isso \xE9 tudo que voc\xEA tem a dizer, \"quatro?\", somos um n\xFAmero para
+    voc\xEA?"
+  - "Voc\xEA n\xE3o quer me ouvir, voc\xEA s\xF3 quer me ver sofrer."
+  - "Errado, eu quero te ouvir e te fazer sofrer. Vamos jogar um jogo, quanto melhores
+    forem seus argumentos, menos dolorosa ser\xE1 sua morte."
+  - "O <color=yellow>assassino</color> pensou, pegou sua adaga e tentou usar suas
+    \xFAltimas for\xE7as para se matar. Mas antes que ele pudesse cometer suic\xEDdio,
+    <color=purple>William</color> o chutou e pegou sua adaga."
+  - "Sua vida e sua morte s\xE3o minhas. Voc\xEAs assassinos n\xE3o gostam de falar?
+    Voc\xEAs n\xE3o t\xEAm sempre um maldito argumento para defender suas atrocidades?"
+  - "O <color=yellow>assassino</color> pensou um pouco e tentou formular o melhor
+    argumento poss\xEDvel para se defender."
+  - "Assassinos matam guerreiros, guerreiros matam assassinos. Mas quando voc\xEAs
+    guerreiros condenam algu\xE9m \xE0 morte, se recusam a venderem seus \xF3rg\xE3os,
+    isso seria desumano e voc\xEAs s\xE3o muito benevolentes para tratarem as pessoas
+    como objetos."
+  - "Voc\xEAs respeitam os cad\xE1veres at\xE9 dos assassinos mais vis.\nMas n\xF3s
+    assassinos somos diferentes, n\xE3o respeitamos as tradi\xE7\xF5es, n\xE3o respeitamos
+    os cad\xE1veres, n\xE3o respeitamos a moral, s\xF3 lutamos por dinheiro porque
+    somos maus."
+  - "E nossa maldade salvou a vida das v\xE1rias pessoas que compraram nossos \xF3rg\xE3os."
+  - "Em seus \xFAltimos momentos, o <color=yellow>assassino</color> se sentiu o pior
+    argumentador do mundo ao lembrar da frase \"quanto melhores forem seus argumentos,
+    menos dolorosa ser\xE1 sua morte\"."
   idchara: 1c00000014000000000000001c000000140000001c000000000000001c0000000000000014000000140000001400000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
   Cenario: 5

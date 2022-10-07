@@ -32,6 +32,26 @@ MonoBehaviour:
   - 'This time he managed to wrest an answer from the <color=green>bourgeois</color>:'
   - I would never do that.
   - Five days later an assassin was in front of him.
+  DialogueBR:
+  - "<color=purple>William</color> come\xE7ou a sentir medo, seu trabalho era simples,
+    ele s\xF3 precisava prender <color=green>Vlad Burarth</color>, um burgu\xEAs
+    acusado de sonega\xE7\xE3o fiscal."
+  - "Aquele burgu\xEAs era fraco, n\xE3o ofereceu resist\xEAncia \xE0 pris\xE3o e
+    seguiu as ordens de <color=purple>William</color> sem hesita\xE7\xE3o. Ele desobedeceu
+    apenas uma ordem:"
+  - Diga algo.
+  - "Sil\xEAncio."
+  - "Aquele sil\xEAncio era aterrorizante."
+  - "Por que voc\xEA est\xE1 sorrindo? Responda-me!"
+  - "Sil\xEAncio."
+  - "<color=purple>William</color> tentou ignor\xE1-lo, mas era dif\xEDcil, ele nunca
+    tinha conhecido algu\xE9m t\xE3o calmo e com tanto ar de superioridade."
+  - "Seu sorriso de pura satisfa\xE7\xE3o era assustador."
+  - "Eu sei porque voc\xEA est\xE1 sorrindo, voc\xEA vai contratar um assassino para
+    me matar, fique em sil\xEAncio se minha hip\xF3tese estiver correta."
+  - "Desta vez ele conseguiu arrancar uma resposta do <color=green>burgu\xEAs</color>:"
+  - Eu nunca faria isso.
+  - Cinco dias depois, um assassino estava diante dele.
   idchara: 00000000000000001c00000000000000000000001c0000000000000000000000000000001c000000000000001500000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000
   Cenario: 10

@@ -34,8 +34,8 @@ MonoBehaviour:
     with a half-meter dick.
   - <color=purple>William</color> was silent, looking at the <color=yellow>dealer</color>
     for a long, unpleasant time.
-  - I don't usually lie, so heed my warning, it's in your best interest to answer
-    this question, who hired you and where is he?
+  - I don't usually lie, so pay attention, it's in your best interest to answer this
+    question. Who hired you and where is he?
   - Fuck you.
   - The <color=yellow>drug dealer</color> felt like an idiot once again, that <color=purple>warrior</color>
     was indeed capable of hurting him. The punch was so strong that he lost a tooth.
@@ -47,6 +47,41 @@ MonoBehaviour:
   - The <color=yellow>drug dealer</color> lied, giving the name and address of a
     assassin he knew. <color=purple>William</color> naively believed and, the next
     day, he was faced with an opponent much stronger than he imagined.
+  DialogueBR:
+  - "<color=purple>William</color> gostava das noites assim como gostava da solid\xE3o.
+    Ele estava descansando sentado em um banco em uma pra\xE7a silenciosa, at\xE9
+    que seu momento de paz foi destru\xEDdo por um <color=yellow>traficante</color>
+    que perguntou:"
+  - "Voc\xEA quer \xF3pio?"
+  - "Voc\xEA tem merda na cabe\xE7a ou o qu\xEA? Voc\xEA n\xE3o consegue reconhecer
+    um guerreiro quando v\xEA um?"
+  - "O <color=yellow>traficante</color> nunca se sentiu t\xE3o est\xFApido e nunca
+    ficou t\xE3o assustado, ele se desculpou e tentou correr, mas <color=purple>William</color>
+    agarrou seu bra\xE7o."
+  - "N\xE3o se preocupe, n\xE3o vou prend\xEA-lo ou machuc\xE1-lo, mas voc\xEA tem
+    que me dizer onde est\xE1 o cara que o contratou."
+  - "O <color=yellow>traficante</color> sentiu-se est\xFApido mais uma vez, ele n\xE3o
+    tinha motivos para ter medo, aquele <color=purple>guerreiro</color> nunca o machucaria."
+  - "O cara que me contratou? Ele est\xE1 fodendo sua m\xE3e, aquela puta."
+  - '<color=purple>William</color> respirou fundo:'
+  - Vou perguntar de novo, por favor me responda, quem te contratou?
+  - "N\xE3o \xE9 \xF3bvio? Seu pai me contratou, mas voc\xEA n\xE3o deve conhec\xEA-lo,
+    ele \xE9 um bardo com um pau de meio metro."
+  - "<color=purple>William</color> ficou em sil\xEAncio, olhando para o <color=yellow>traficante</color>
+    por um longo e desagrad\xE1vel tempo."
+  - "Eu n\xE3o costumo mentir, ent\xE3o preste aten\xE7\xE3o, \xE9 do seu interesse
+    responder a esta pergunta. Quem o contratou e onde ele est\xE1?"
+  - Vai se foder.
+  - "O <color=yellow>traficante</color> se sentiu um idiota mais uma vez, aquele
+    <color=purple>guerreiro</color> era realmente capaz de machuc\xE1-lo. O soco
+    foi t\xE3o forte que ele perdeu um dente. Felizmente, este n\xE3o foi um problema
+    muito s\xE9rio, pois um novo dente j\xE1 estava crescendo para substituir o antigo."
+  - 'Depois de segurar o traficante pela boca, <color=purple>William</color> disse:'
+  - "\xC9 do seu interesse parar de chorar e me responder, quem o contratou e onde
+    ele est\xE1?"
+  - "O <color=yellow>traficante</color> mentiu, dando o nome e o endere\xE7o de um
+    assassino que ele conhecia. <color=purple>William</color> acreditou ingenuamente
+    e, no dia seguinte, se deparou com um advers\xE1rio muito mais forte do que imaginava."
   idchara: 00000000110000001c000000000000001c0000000000000011000000000000001c00000011000000000000001c0000001100000000000000000000001c00000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000
   Cenario: 8

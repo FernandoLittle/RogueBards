@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: William's Determination
   m_EditorClassIdentifier: 
   Name: <color=blue>William's Determination</color>
+  NameBR: "<color=blue>Determina\xE7\xE3o de William</color>"
   sprite: {fileID: 21300000, guid: 17a76833d7da0ca4e804f4b4a2856595, type: 3}
   id: 28
   Texto0: 

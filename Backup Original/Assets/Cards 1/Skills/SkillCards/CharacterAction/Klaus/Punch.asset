@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Punch
   m_EditorClassIdentifier: 
   Name: <color=blue>Punch</color>
+  NameBR: <color=blue>Soco</color>
   sprite: {fileID: 21300000, guid: 6e55ce8f27b31c34b92e295818bfdc9b, type: 3}
   id: 17
   Texto0: 
   Texto0br: 
   scale: 8
   IAturn: 0
-  KeywordId: 01000000
+  KeywordId: ffffffff
   KeywordValues:
   - 
   NotesId: 

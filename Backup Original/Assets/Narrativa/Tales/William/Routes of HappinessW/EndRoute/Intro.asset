@@ -41,6 +41,35 @@ MonoBehaviour:
     appeared, her silhouette visible in the moonlight and strangely she didn't hide.
   - <color=purple>William</color> attacked with all his fury, but the assassin managed
     to defend herself.
+  DialogueBR:
+  - "\rDia ap\xF3s dia <color=purple>William</color> investigava para tentar descobrir
+    quem era o assassino de seu pai."
+  - "O respons\xE1vel por matar os soldados que lutaram em <color=purple>Denai</color>
+    foi o ex-l\xEDder da Guilda dos Assassinos, mas depois de se aposentar ele deixou
+    poucas pistas de sua exist\xEAncia."
+  - "O plano mais \xF3bvio seria capturar a atual l\xEDder da Guilda Ebu Setamo Liada
+    e extrair informa\xE7\xF5es dela usando tortura. Por\xE9m <color=purple>William</color>
+    n\xE3o tinha coragem de enfrentar um inimigo que possu\xEDsse armas angelicais."
+  - Felizmente, uma carta chegou para resolver todos os problemas dele.
+  - "\"Eu sei quem \xE9 o assassino de seu pai, me encontre no topo do Morro de Paz
+    \xE0 meia-noite do dia 105 de inverno.\""
+  - "Esta \xE9 uma armadilha estupidamente \xF3bvia, claramente um assassino vai
+    me emboscar se aproveitando da escurid\xE3o e da vegeta\xE7\xE3o na colina."
+  - "Mas <color=purple>William</color> n\xE3o era um covarde, em vez de ignorar a
+    carta, ele decidiu virar o jogo e emboscar o assassino."
+  - "Ele chegou ao topo do morro na manh\xE3 do dia 103 e acampou por dois dias escondido
+    entre as \xE1rvores e esperando a chegada de um assassino."
+  - "A escurid\xE3o do dia 104 era aterrorizante, saber que um assassino viria at\xE9
+    ele no meio da escurid\xE3o trazia uma imensa agonia \xE0 sua alma."
+  - "Ele logo se arrependeu de suas decis\xF5es, mas era tarde demais para voltar,
+    a \xFAnica coisa que ele podia fazer era ficar em sil\xEAncio e esperar."
+  - "Cada barulho fazia seu cora\xE7\xE3o disparar, um barulho poderia ser um vento,
+    um animal ou um maldito assassino querendo cortar sua garganta."
+  - "Ironicamente, a calma percorreu seu corpo assim que a <color=purple>assassina</color>
+    apareceu, sua silhueta era vis\xEDvel sob o luar e estranhamente ela n\xE3o se
+    escondeu."
+  - "<color=purple>William</color> atacou com toda sua f\xFAria, mas a assassina
+    conseguiu se defender."
   idchara: 000000000000000000000000000000001c0000001c00000000000000000000000000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b000000
   Cenario: 22

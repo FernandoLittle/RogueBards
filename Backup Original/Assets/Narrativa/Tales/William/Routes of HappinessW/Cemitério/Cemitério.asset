@@ -30,7 +30,7 @@ MonoBehaviour:
     are only the living and the dead.
   - Sit down and I'll tell you the story of how I lost my finger.
   - The <color=purple>warrior</color> obeyed the <color=#FF0080>young bard</color>.
-  - I worked in a factory, before the government banned child labor.
+  - I worked in a factory before the government banned child labor.
   - I lost my finger in an accident.
   - ...
   - Yes, I know it's not an interesting story.
@@ -41,6 +41,37 @@ MonoBehaviour:
   - What job did you get after?
   - The <color=#FF0080>young bard</color> was silent until <color=purple>William</color>
     felt uncomfortable and left.
+  DialogueBR:
+  - "Ao sair do cemit\xE9rio, <color=purple>William</color> ouviu um jovem falando
+    sozinho. Duas palavras chamaram a aten\xE7\xE3o do guerreiro, \"pai\" e \"desculpe\"."
+  - Posso me sentar aqui?
+  - "Fique \xE0 vontade."
+  - "Tamb\xE9m vim aqui pedir desculpas ao meu pai."
+  - Quem diria que um jovem bardo e um guerreiro teriam algo em comum.
+  - "Voc\xEA \xE9 um bardo? Esse dedo ausente n\xE3o te atrapalha a tocar?"
+  - "Voc\xEA \xE9 bastante soci\xE1vel para um guerreiro. Puxando conversa em um
+    cemit\xE9rio, falando descaradamente sobre a defici\xEAncia de algu\xE9m. Voc\xEA
+    sabia que existe um ditado entre os bardos que \xE9 \"se voc\xEA n\xE3o quer
+    ser preso, nunca fale com um guerreiro\"?"
+  - Eu sinto muito.
+  - Arrependido, <color=purple>William</color> levantou-se para ir embora.
+  - "Eu estou brincando com voc\xEA. Neste cemit\xE9rio n\xE3o h\xE1 bardos e guerreiros,
+    aqui s\xF3 existem os vivos e os mortos."
+  - "Sente-se e eu lhe contarei a hist\xF3ria de como perdi meu dedo."
+  - O <color=purple>guerreiro</color> obedeceu ao <color=#FF0080>jovem bardo</color>.
+  - "Eu trabalhei em uma f\xE1brica antes que o governo proibisse o trabalho infantil."
+  - Perdi meu dedo em um acidente.
+  - ...
+  - "Sim, eu sei que n\xE3o \xE9 uma hist\xF3ria interessante."
+  - "Sinto muito, \xE9 uma pena que as crian\xE7as tivessem que trabalhar naquela
+    \xE9poca."
+  - "Eu ainda tive que trabalhar mesmo depois que o trabalho infantil foi abolido.
+    Caso contr\xE1rio, morreria de fome."
+  - "Pelo menos eu consegui um novo emprego depois. Mas eu ficaria feliz em perder
+    uma m\xE3o em vez de um dedo se pudesse continuar trabalhando naquela f\xE1brica."
+  - "Que emprego voc\xEA conseguiu depois?"
+  - "O <color=#FF0080>jovem bardo</color> ficou em sil\xEAncio at\xE9 que <color=purple>William</color>
+    se sentiu desconfort\xE1vel e foi embora."
   idchara: 000000001c000000170000001c000000170000001c000000170000001c0000000000000017000000170000000000000017000000170000001c000000170000001c00000017000000170000001c00000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d000000
   Cenario: 23

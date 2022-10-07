@@ -471,6 +471,11 @@ public class D : MonoBehaviour
         Fantasy[1].SetActive(true);
 
     }
+    public void Return()
+    {
+        Fantasy[0].SetActive(false);
+        Fantasy[1].SetActive(false);
+    }
     public void B()
     {
         Izanami.A();

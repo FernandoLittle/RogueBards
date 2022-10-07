@@ -16,16 +16,16 @@ MonoBehaviour:
   Dialogue:
   - <color=purple>William</color> was thinking about death, normally he felt angry
     at the thought of it, but at that moment he felt gratitude.
-  - He was grateful thanks to the bard who played beautiful music, death would one
+  - He was grateful thanks to the bard who played beautiful music. Death would one
     day come and he would have wasted most of his life thinking about a future that
     would never come.
-  - In that brief moment he appreciated the present
+  - In that brief moment he appreciated the present.
   - That song reminded him that he could breathe and that no matter how ephemeral
     his life was, at least in an instant he was happy, because in that instant he
     noticed everything he had.
   - Hey <color=#00FFBF>bard</color>, thanks for the song, let me buy you a drink.
   - The pleasure of playing is mine.
-  - The pleasure of drinking too.
+  - The pleasure of drinking too!
   - The <color=00FFBF>bard</color> have a small laugh.
   - What's your name, <color=purple>young man</color>?
   - <color=purple>Willian Ulbricht</color>.
@@ -42,6 +42,36 @@ MonoBehaviour:
   - Whatever, your music put me in a good mood. If you teach me how to play it, I'll
     pretend I didn't hear that.
   - It will be my pleasure to teach you, <color=purple>young man</color>.
+  DialogueBR:
+  - "<color=purple>William</color> estava pensando na morte, normalmente ele ficava
+    com raiva ao pensar nisso, mas naquele momento ele sentiu gratid\xE3o."
+  - "Ele estava grato gra\xE7as ao bardo que tocava uma m\xFAsica linda. A morte
+    um dia chegaria e ele teria desperdi\xE7ado a maior parte de sua vida pensando
+    em um futuro que nunca chegaria."
+  - Naquele breve momento ele apreciou o presente.
+  - "Aquela m\xFAsica o lembrou que ele podia respirar e que por mais ef\xEAmera
+    que fosse sua vida, pelo menos em um instante ele estava feliz, porque naquele
+    instante ele percebeu tudo o que tinha."
+  - "Ei <color=#00FFBF>bardo</color>, obrigado pela m\xFAsica, eu vou pagar uma bebida
+    para voc\xEA."
+  - "O prazer de tocar \xE9 meu."
+  - "O prazer de beber tamb\xE9m!"
+  - O <color=00FFBF>bardo</color> deu uma pequena risada.
+  - "Qual \xE9 o seu nome, <color=purple>jovem</color>?"
+  - <color=purple>Willian Ulbricht</color>.
+  - "Ulbricht? Lembro-me de algu\xE9m com esse nome... quem era? A velhice est\xE1
+    derretendo minha mem\xF3ria. Seja como for, acho que n\xE3o era algu\xE9m importante."
+  - "E o seu nome, voc\xEA se lembra?"
+  - "Meu nome \xE9 segredo, mas voc\xEA pode me chamar de <color=#00FFBF>bardo</color>."
+  - "Por que voc\xEA n\xE3o me diz?"
+  - "Eu n\xE3o vou dizer meu nome para um guerreiro, imagina se voc\xEAs descobrirem
+    que eu trabalho com traficantes e assassinos? Eu tenho que ser discreto."
+  - "Muito engra\xE7ado. Voc\xEA n\xE3o tem medo de dizer isso a um guerreiro?"
+  - O <color=#00FFBF>bardo</color> sorriu gentilmente.
+  - "N\xE3o."
+  - "Seja como for, sua m\xFAsica me deixou de bom humor. Se voc\xEA me ensinar a
+    tocar, vou fingir que n\xE3o ouvi isso."
+  - "Ser\xE1 um prazer ensin\xE1-lo, <color=purple>jovem</color>."
   idchara: 000000000000000000000000000000001c0000000a0000000a000000000000000a0000001c0000000a0000001c0000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
   Cenario: 2

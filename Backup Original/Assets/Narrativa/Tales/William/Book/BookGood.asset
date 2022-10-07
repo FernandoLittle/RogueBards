@@ -15,9 +15,15 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - <color=purple>William</color> was very pleased to have understood that book perfectly.
-    As he was a smart man, he relied on the accumulated knowledge of books.
+    As he was a smart man, he trusted the accumulated knowledge of books.
   - '<i><color=Black>Trust me like you trust books. I promise we''ll have a lot of
     fun this way.</color> </i>   '
+  DialogueBR:
+  - <color=purple>William</color> ficou muito satisfeito por ter entendido aquele
+    livro perfeitamente. Como era um homem inteligente, ele confiava no conhecimento
+    acumulado dos livros.
+  - <i><color=Black>Trust me like you trust books. I promise we'll have a lot of
+    fun this way.</color> </i>
   idchara: 0000000000000000
   instruction: 00000000e9030000ea030000
   Cenario: 4

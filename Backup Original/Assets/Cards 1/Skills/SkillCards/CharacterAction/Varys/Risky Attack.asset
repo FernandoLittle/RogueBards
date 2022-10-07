@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Risky Attack
   m_EditorClassIdentifier: 
   Name: <color=blue>Risky Attack</color>
+  NameBR: <color=blue>Ataque Arriscado</color>
   sprite: {fileID: 21300000, guid: d3eeba239d6f98f4c810ed80ceab18b3, type: 3}
   id: 15
   Texto0: 

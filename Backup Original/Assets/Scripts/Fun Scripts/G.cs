@@ -157,7 +157,88 @@ public class G : MonoBehaviour
 
         t[0].SetActive(true);
 
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            if (id1 == 1)
+            {
 
+                t0.text = d.AttackS[id].Texto0;
+
+                EyeName.text = d.AttackS[id].Name;
+            }
+            if (id1 == 2)
+            {
+
+                t0.text = d.AttackQ[id].Texto0;
+
+
+
+
+                EyeName.text = d.AttackQ[id].Name;
+            }
+            if (id1 == 3)
+            {
+
+                t0.text = d.Block[id].Texto0;
+
+
+
+
+                EyeName.text = d.Block[id].Name;
+            }
+            if (id1 == 4)
+            {
+
+                t0.text = d.Dodge[id].Texto0;
+
+
+
+
+                EyeName.text = d.Dodge[id].Name;
+            }
+        }
+        if (language == 1)
+        {
+            if (id1 == 1)
+            {
+
+                t0.text = d.AttackS[id].Texto0br;
+
+                EyeName.text = d.AttackS[id].NameBR;
+            }
+            if (id1 == 2)
+            {
+
+                t0.text = d.AttackQ[id].Texto0br;
+
+
+
+
+                EyeName.text = d.AttackQ[id].NameBR;
+            }
+            if (id1 == 3)
+            {
+
+                t0.text = d.Block[id].Texto0br;
+
+
+
+
+                EyeName.text = d.Block[id].NameBR;
+            }
+            if (id1 == 4)
+            {
+
+                t0.text = d.Dodge[id].Texto0br;
+
+
+
+
+                EyeName.text = d.Dodge[id].NameBR;
+            }
+        }
 
 
     }
@@ -436,32 +517,168 @@ public class G : MonoBehaviour
         SetDescription(action);
 
     }
+
     public void SetDescription(Action action)
     {
+        int Language;
         d.Description.text = "";
         NoDuplicates[0] = false;
         NoDuplicates[1] = false;
         NoDuplicates[2] = false;
+        Language = PlayerPrefs.GetInt("Language");
+        if (Language == 0)
+        {
+            KeywordText(action);
+            AddNotes(action);
+        }
+        if (Language == 1)
+        {
+            KeywordTextBR(action);
+            AddNotesBR(action);
+        }
+
+
+
+            
+        
+
+    }
+    public void AddNotes(Action action)
+    {
+        for (int x = 0; x < action.NotesId.Count; x = x + 1)
+        {
+            if (action.NotesId[x] == -1)
+            {
+                d.Description.text += "<color=#FAFF1E>Ambush</color>: The effect is not activated if your hero has moved or attacked in a previous turn.\n";
+            }
+            if (action.NotesId[x] == -2)
+            {
+                d.Description.text += "<color=#FAFF1E>Duelist</color>: The effect is activated when your hero has no close allies.\n";
+            }
+            if (action.NotesId[x] == -3)
+            {
+                d.Description.text += "<color=#FAFF1E>Aggro</color>: The effect is activated in the first 10 turns of the game.\n";
+            }
+            if (action.NotesId[x] == -4)
+            {
+                d.Description.text += "<color=#FAFF1E>Pact</color>: The effect is activated if the ally who made a pact with you is alive.\n";
+            }
+            if (action.NotesId[x] == -5)
+            {
+                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your hero's attack twice.\n";
+            }
+            if (action.NotesId[x] == -6)
+            {
+                d.Description.text += "<color=#FF2900>Triple Strike</color>: Deals damage equal to your hero's attack three times.\n";
+            }
+
+
+
+            if (d.Generic.Desc(action.NotesId[x]) == 9)
+            {
+                d.Description.text += "<color=#00FF00>Defense Buff</color>: Increases your hero's defense, until the end of the turn.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 16)
+            {
+                d.Description.text += "<color=#FF00F0>Fortify</color>: Increases your power.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 17)
+            {
+                d.Description.text += "<color=#C200C6>Weaken</color>: Reduces the opponent's power.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 18)
+            {
+                d.Description.text += "<color=#FF00F0>Level Up</color>: Increases the level of your skill.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 19)
+            {
+                d.Description.text += "<color=#C200C6>Level Down</color>: Reduces the opponent's skill level.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 20)
+            {
+                d.Description.text += "<color=#FF00F0>Copy Level</color>: The level of your skill becomes the same as your opponent's original skill level.\n";
+            }
+        }
+    }
+    public void AddNotesBR(Action action)
+    {
+        for (int x = 0; x < action.NotesId.Count; x = x + 1)
+        {
+            if (action.NotesId[x] == -1)
+            {
+                d.Description.text += "<color=#FAFF1E>Ambush</color>: The effect is not activated if your hero has moved or attacked in a previous turn.\n";
+            }
+            if (action.NotesId[x] == -2)
+            {
+                d.Description.text += "<color=#FAFF1E>Duelist</color>: The effect is activated when your hero has no close allies.\n";
+            }
+            if (action.NotesId[x] == -3)
+            {
+                d.Description.text += "<color=#FAFF1E>Aggro</color>: The effect is activated in the first 10 turns of the game.\n";
+            }
+            if (action.NotesId[x] == -4)
+            {
+                d.Description.text += "<color=#FAFF1E>Pact</color>: The effect is activated if the ally who made a pact with you is alive.\n";
+            }
+            if (action.NotesId[x] == -5)
+            {
+                d.Description.text += "<color=#FF2900>Golpe Duplo</color>: Causa dano igual ao ataque do seu humano duas vezes.\n";
+            }
+            if (action.NotesId[x] == -6)
+            {
+                d.Description.text += "<color=#FF2900>Golpe Triplo</color>: Causa dano igual ao ataque do seu humano três vezes.\n";
+            }
+
+
+
+            if (d.Generic.Desc(action.NotesId[x]) == 9)
+            {
+                d.Description.text += "<color=#00FF00>Defense Buff</color>: Increases your hero's defense, until the end of the turn.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 16)
+            {
+                d.Description.text += "<color=#FF00F0>Fortify</color>: Increases your power.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 17)
+            {
+                d.Description.text += "<color=#C200C6>Weaken</color>: Reduces the opponent's power.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 18)
+            {
+                d.Description.text += "<color=#FF00F0>Level Up</color>: Increases the level of your skill.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 19)
+            {
+                d.Description.text += "<color=#C200C6>Level Down</color>: Reduces the opponent's skill level.\n";
+            }
+            if (d.Generic.Desc(action.NotesId[x]) == 20)
+            {
+                d.Description.text += "<color=#FF00F0>Copy Level</color>: The level of your skill becomes the same as your opponent's original skill level.\n";
+            }
+        }
+    }
+    public void KeywordText(Action action)
+    {
         for (int x = 0; x < action.KeywordId.Count; x = x + 1)
         {
             if (d.Generic.Desc(action.KeywordId[x]) == 0)
             {
-                d.Description.text += "Reality is an illusion the universe is a hologram buy gold.\n";
+                d.Description.text += "Reality is an illusion, the universe is a hologram, buy gold.\n";
                 d.KeywordsT[x].text = "I see you";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 1)
             {
-                d.Description.text += "<color=red>Strike</color>: Deals damage equal to your human's attack.\n";
+                d.Description.text += "<color=red>Strike</color>: Deals damage equal to human's attack.\n";
                 d.KeywordsT[x].text = "<color=red>Strike</color>";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 2)
             {
-                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your human's attack twice.\n";
+                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to human's attack twice.\n";
                 d.KeywordsT[x].text = "<color=#FF2900>Double Strike</color>";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 3)
             {
-                d.Description.text += "<color=#FF2900>Damage</color>: Does damage, I think.\n";
+                d.Description.text += "<color=#FF2900>Damage</color>: Deals damage, I think.\n";
                 d.KeywordsT[x].text = "<color=#FF2900>Damage</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 4)
@@ -500,7 +717,7 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 11)
             {
-                d.Description.text += "<color=#00FF00>Life Buff</color>: Recovers and increases your hero's maximum life.\n";
+                d.Description.text += "<color=#00FF00>Life Buff</color>: Increases your life.\n";
                 d.KeywordsT[x].text = "<color=#00FF00>Life Buff</color> ";
 
             }
@@ -563,7 +780,7 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 22)
             {
-                d.Description.text += "<color=#D90000>Sacrifice</color>: Takes true damage.\n";
+                d.Description.text += "<color=#D90000>Sacrifice</color>: You take true damage.\n";
                 d.KeywordsT[x].text = "<color=#D90000>Sacrifice</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 23)
@@ -598,7 +815,7 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 29)
             {
-                d.Description.text += "<color=#67B2FF>Wisdom</color>: Gain mana when your skill wins.\n";
+                d.Description.text += "<color=#67B2FF>Wisdom</color>: Gain 2 mana when your skill wins.\n";
                 d.KeywordsT[x].text = "<color=#67B2FF>Wisdom</color> ";
             }
 
@@ -656,64 +873,222 @@ public class G : MonoBehaviour
             //Translate: Add (Replace "min")
 
         }
-        AddNotes(action);
-
     }
-    public void AddNotes(Action action)
+    public void KeywordTextBR(Action action)
     {
-        for (int x = 0; x < action.NotesId.Count; x = x + 1)
+        for (int x = 0; x < action.KeywordId.Count; x = x + 1)
         {
-            if (action.NotesId[x] == -1)
+            if (d.Generic.Desc(action.KeywordId[x]) == 0)
             {
-                d.Description.text += "<color=#FAFF1E>Ambush</color>: The effect is not activated if your hero has moved or attacked in a previous turn.\n";
+                d.Description.text += "A realidade é uma ilusão, o universo é um holograma, compre ouro.\n";
+                d.KeywordsT[x].text = "I see you";
             }
-            if (action.NotesId[x] == -2)
+            if (d.Generic.Desc(action.KeywordId[x]) == 1)
             {
-                d.Description.text += "<color=#FAFF1E>Duelist</color>: The effect is activated when your hero has no close allies.\n";
+                d.Description.text += "<color=red>Golpe</color>: Causa dano igual ao ataque do humano.\n";
+                d.KeywordsT[x].text = "<color=red>Golpe</color>";
             }
-            if (action.NotesId[x] == -3)
+            if (d.Generic.Desc(action.KeywordId[x]) == 2)
             {
-                d.Description.text += "<color=#FAFF1E>Aggro</color>: The effect is activated in the first 10 turns of the game.\n";
+                d.Description.text += "<color=#FF2900>Golpe Duplo</color>: Causa dano igual ao ataque do humano duas vezes.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Golpe Duplo</color>";
             }
-            if (action.NotesId[x] == -4)
+            if (d.Generic.Desc(action.KeywordId[x]) == 3)
             {
-                d.Description.text += "<color=#FAFF1E>Pact</color>: The effect is activated if the ally who made a pact with you is alive.\n";
+                d.Description.text += "<color=#FF2900>Dano</color>: Causa dano, eu acho.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Dano</color>";
             }
-            if (action.NotesId[x] == -5)
+            if (d.Generic.Desc(action.KeywordId[x]) == 4)
             {
-                d.Description.text += "<color=#FF2900>Double Strike</color>: Deals damage equal to your hero's attack twice.\n";
+                d.Description.text += "<color=#FF2900>Dano Verdadeiro</color>: Causa dano que não é reduzido pela defesa do oponente.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Dano Verdadeiro</color>";
             }
-            if (action.NotesId[x] == -6)
+            if (d.Generic.Desc(action.KeywordId[x]) == 5)
             {
-                d.Description.text += "<color=#FF2900>Triple Strike</color>: Deals damage equal to your hero's attack three times.\n";
+                d.Description.text += "<color=#00C8FF>Frozen</color>: Reduz a mana do oponente.\n";
+                d.KeywordsT[x].text = "<color=#00C8FF>Frozen</color>";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 6)
+            {
+                d.Description.text += "<color=#FF2900>Golpe Triplo</color>: Causa dano igual ao ataque do humano três vezes.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Golpe Triplo</color>";
 
-
-
-            if (d.Generic.Desc(action.NotesId[x]) == 9)
-            {
-                d.Description.text += "<color=#00FF00>Defense Buff</color>: Increases your hero's defense, until the end of the turn.\n";
             }
-            if (d.Generic.Desc(action.NotesId[x]) == 16)
+            if (d.Generic.Desc(action.KeywordId[x]) == 7)
+            {
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 8)
+            {
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 9)
+            {
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 10)
+            {
+                d.Description.text += "<color=#7300FF>Defense -</color>: Reduz a defesa do oponente até o final do turno.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Defense -</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 11)
+            {
+                d.Description.text += "<color=#00FF00>Life Buff</color>: Aumenta sua vida.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Life Buff</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 12)
+            {
+                d.Description.text += "<color=#7300FF>Life Debuff</color>: Deals true damage and reduces the opponent's maximum life.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Life Debuff</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 13)
+            {
+                d.Description.text += "<color=#00FF00>Regeneration</color>: Recovers your hero's life.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Regeneration</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 14)
+            {
+                d.Description.text += "<color=#FF2900>Nexus Strike</color>: Damages the opponent's nexus.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Nexus Strike</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 15)
+            {
+                d.Description.text += "<color=#FF2900>Global True Damage</color>: Deals damage that is not reduced by the opponent's defense on all opponents.\n";
+                d.KeywordsT[x].text = "<color=#FF2900>Global True Damage</color> ";
+
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 16)
             {
                 d.Description.text += "<color=#FF00F0>Fortify</color>: Increases your power.\n";
+                d.KeywordsT[x].text = "<color=#FF00F0>Fortify</color> ";
+
             }
-            if (d.Generic.Desc(action.NotesId[x]) == 17)
+            if (d.Generic.Desc(action.KeywordId[x]) == 17)
             {
                 d.Description.text += "<color=#C200C6>Weaken</color>: Reduces the opponent's power.\n";
+                d.KeywordsT[x].text = "<color=#C200C6>Weaken</color> ";
+
             }
-            if (d.Generic.Desc(action.NotesId[x]) == 18)
+            if (d.Generic.Desc(action.KeywordId[x]) == 18)
             {
                 d.Description.text += "<color=#FF00F0>Level Up</color>: Increases the level of your skill.\n";
+                d.KeywordsT[x].text = "<color=#FF00F0>Level Up</color> ";
+
             }
-            if (d.Generic.Desc(action.NotesId[x]) == 19)
+            if (d.Generic.Desc(action.KeywordId[x]) == 19)
             {
                 d.Description.text += "<color=#C200C6>Level Down</color>: Reduces the opponent's skill level.\n";
+                d.KeywordsT[x].text = "<color=#C200C6>Level Down</color> ";
             }
-            if (d.Generic.Desc(action.NotesId[x]) == 20)
+            if (d.Generic.Desc(action.KeywordId[x]) == 20)
             {
                 d.Description.text += "<color=#FF00F0>Copy Level</color>: The level of your skill becomes the same as your opponent's original skill level.\n";
+                d.KeywordsT[x].text = "<color=#FF00F0>Copy Level</color>";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 21)
+            {
+                d.Description.text += "<color=#00B700>Poison</color>: The opponent takes true damage at the end of each turn.\n";
+                d.KeywordsT[x].text = "<color=#00B700>Poison</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 22)
+            {
+                d.Description.text += "<color=#D90000>Sacrifício</color>: Você sofre dano verdadeiro.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Sacrifício</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 23)
+            {
+                d.Description.text += "<color=#00FF00>Ataque + </color>: Aumenta seu ataque.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Ataque + </color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 24)
+            {
+                d.Description.text += "<color=#00FF00>Defesa + </color>: Aumenta sua defesa.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Defesa + </color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 25)
+            {
+                d.Description.text += "<color=#7300FF>Ataque-</color>: Reduz o ataque do oponente.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Ataque-</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 26)
+            {
+                d.Description.text += "<color=#7300FF>Defesa - </color>: Reduz a defesa do oponente.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Defesa - </color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 27)
+            {
+                d.Description.text += "<color=#FF62B4>Altruísmo</color>: Ambos os humanos ganham vida.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Altruísmo</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 28)
+            {
+                d.Description.text += "<color=#FF62B4>Vida + </color>: Ganhe vida.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Vida + </color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 29)
+            {
+                d.Description.text += "<color=#67B2FF>Sabedoria</color>: Ganha mana quando sua habilidade vencer.\n";
+                d.KeywordsT[x].text = "<color=#67B2FF>Sabedoria</color> ";
+            }
+
+
+            if (d.Generic.Desc(action.KeywordId[x]) == 30)
+            {
+                d.Description.text += "<color=#FF62B4>Coragem</color>: Ganha 2 de ataque se o humano tiver menos mana que o oponente no final do turno.\n";
+                d.KeywordsT[x].text = "<color=#7300FF>Coragem</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 31)
+            {
+                d.Description.text += "<color=#00C2FF>Força de Vontade</color>: Ganha mana se você tiver 0 de mana no final do turno.\n";
+                d.KeywordsT[x].text = "<color=#00C2FF>Força de Vontade</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 32)
+            {
+                d.Description.text += "<color=#FF009C>Paixão</color>:  Ganha 2 pontos de vida sempre que você ativar os Bônus Sentimental.\n";
+                d.KeywordsT[x].text = "<color=#FF009C>Paixão</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 33)
+            {
+                d.Description.text += "<color=#D90000>Sacrifício de Ataque</color>: Reduz seu próprio ataque.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Sacrifício de Ataque</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 34)
+            {
+                d.Description.text += "<color=#D90000>Inútil</color>: Implorar por misericórdia é inútil.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Inútil</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 35)
+            {
+                d.Description.text += "<color=#D90000>Cicatriz</color>: O oponente não consegue recuperar vida. Isso é muito cruel.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Cicatriz</color> ";
+            }
+            if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
+            {
+                NoDuplicates[0] = true;
+                d.Description.text += "<color=#007CD9>Keyword Azul</color>: Ativa quando você tem mais poder que seu oponente <color=#007CD9>(Vitória)</color>.\n";
+                d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
+            }
+            if (action.KeywordId[x] < 0 && NoDuplicates[1] == false)
+            {
+                NoDuplicates[1] = true;
+                d.Description.text += "<color=#E0B900>Keyword Dourada</color>: Ativa independentemente de você ganhar ou perder <color=#E0B900>(Passivo)</color>.\n";
+                d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
+
+            }
+            if (action.KeywordId[x] > 1000 && NoDuplicates[2] == false)
+            {
+                NoDuplicates[2] = true;
+                d.Description.text += "<color=#FF0000>Keyword Vermelha</color>: Ativa quando você tem menos poder que seu oponente <color=#FF0000>(Derrota)</color>.\n";
+                d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
+            }
+            d.KeywordsT[x].text += action.KeywordValues[x];
+            //Translate: Add (Replace "min")
+
         }
     }
 }

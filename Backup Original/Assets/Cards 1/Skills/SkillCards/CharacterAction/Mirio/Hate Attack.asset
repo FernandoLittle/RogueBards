@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hate Attack
   m_EditorClassIdentifier: 
   Name: <color=blue>Hate Attack</color>
+  NameBR: "<color=blue>Ataque de \xD3dio</color>"
   sprite: {fileID: 21300000, guid: dc54b44b76709c34aad1ba1fd4a3ac31, type: 3}
   id: 16
   Texto0: 

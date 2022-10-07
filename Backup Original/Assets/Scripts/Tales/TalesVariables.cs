@@ -41,6 +41,7 @@ public class TalesVariables : MonoBehaviour
     public GameObject Loading;
 
 
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -72,9 +73,21 @@ public class TalesVariables : MonoBehaviour
     }
     public void ShowText()
     {
-        try
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
         {
             TaleText.text = Tales[TaleSelect].Dialogue[Index];
+        }
+        if (language == 1)
+        {
+            TaleText.text = Tales[TaleSelect].DialogueBR[Index];
+        }
+        
+
+        try
+        {
+            
             IlusControler.SetFaceName(Tales[TaleSelect].idchara[Index]);
         }
         catch

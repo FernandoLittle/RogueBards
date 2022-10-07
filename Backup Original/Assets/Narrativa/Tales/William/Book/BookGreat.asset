@@ -18,6 +18,11 @@ MonoBehaviour:
     the true nature of the <color=green>Akasha</color>.
   - '<i><color=Black>You just got lucky didn''t you? Or did you cheat? Whatever,
     I''m a lucky cheater too.</color> </i>   '
+  DialogueBR:
+  - <color=purple>William</color> entendeu as mentiras daquele livro e contemplou
+    a verdadeira natureza da <color=green>Akasha</color>.
+  - "i><color=Black>Voc\xEA apenas teve sorte, n\xE3o foi? Ou voc\xEA trapaceou?
+    Tanto faz, eu tamb\xE9m sou um trapaceiro sortudo.</color> </i>"
   idchara: 0000000000000000
   instruction: 00000000e8030000ea030000
   Cenario: 4

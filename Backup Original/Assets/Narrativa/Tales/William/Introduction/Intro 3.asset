@@ -22,8 +22,20 @@ MonoBehaviour:
     as a servant of <color=yellow>Lyoko</color>.
   - The guild is the civilized world's greatest enemy, as its purpose is to kill
     all the vagabonds who try to chain others with the chains of civilization.
-  - In Sarka a warrior said.
+  - In <color=yellow>Sarka</color> a warrior said.
   - We will lay down our lives for law, order and the nation.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "A civiliza\xE7\xE3o conseguiu transformar a natureza em uma ferramenta ao longo
+    das esta\xE7\xF5es."
+  - "Mas o ser humano tamb\xE9m faz parte da natureza e por isso deixou de viver
+    para si e tornou-se uma ferramenta."
+  - Quando o humano vai para a escola, trabalha, paga seus impostos e morre na guerra
+    ele evolui como servo de <color=yellow>Lyoko</color>.
+  - "A guilda \xE9 o maior inimigo do mundo civilizado, pois seu objetivo \xE9 matar
+    todos os vagabundos que tentam acorrentar outros com as correntes da civiliza\xE7\xE3o."
+  - Em <color=yellow>Sarka</color> um guerreiro disse.
+  - "Daremos nossas vidas pela lei, pela ordem e pela na\xE7\xE3o."
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000069000000
   Cenario: 4

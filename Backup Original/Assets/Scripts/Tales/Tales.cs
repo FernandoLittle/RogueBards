@@ -8,6 +8,8 @@ public class Tales : ScriptableObject
     public int id;
     [TextArea]
     public List <string> Dialogue;
+    [TextArea]
+    public List<string> DialogueBR;
     public List<int> idchara;
     public List<int> instruction;
     public int Cenario;

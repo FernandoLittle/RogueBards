@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: "Ceticismo Ak\xE1shico"
   m_EditorClassIdentifier: 
   Name: <color=green>Akashic Skepticism</color>
+  NameBR: "<color=green>Ceticismo Ak\xE1shico</color>"
   sprite: {fileID: 21300000, guid: 43737927ef7ac4748814d08f4131d335, type: 3}
   id: 2
   Texto0: Gain <color=#67B2FF>Wisdom</color>.
-  Texto0br: 
-  scale: 9
+  Texto0br: Ganhe <color=#67B2FF>Sabedoria</color>.
+  scale: 7
   IAturn: 0
-  KeywordId: 18000000
+  KeywordId: 1800000004000000
   KeywordValues:
   - 2
+  - 5
   NotesId: 

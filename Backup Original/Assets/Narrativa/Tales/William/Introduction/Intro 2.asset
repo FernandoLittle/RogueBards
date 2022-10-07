@@ -23,6 +23,16 @@ MonoBehaviour:
     create and execute the laws.
   - 'In <color=yellow>Sarka</color> a warrior said:'
   - We will give our sword and our heart to execute the law.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "A lei que cria todas as outras \xE9 a lei do mais forte, o que os assassinos
+    chamam de Documento da Guilda e o que os guerreiros chamam de Constitui\xE7\xE3o
+    Federal nada mais s\xE3o do que manifesta\xE7\xF5es da vontade do forte."
+  - "A vontade do forte n\xE3o tem obriga\xE7\xE3o de ser coerente com o justo e
+    o moral, e \xE9 exatamente isso que vemos por toda parte, regras que servem aos
+    poderosos que criam e executam as leis."
+  - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
+  - "Daremos nossa espada e nosso cora\xE7\xE3o para cumprir a lei."
   idchara: 0000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000069000000
   Cenario: 4

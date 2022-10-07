@@ -26,14 +26,35 @@ MonoBehaviour:
     be any warrior's. We can retreat now, or we can advance. We can enforce the law
     or we can let crime proliferate. Our determination will decide whether this land
     belongs to crime or belongs to Sarka.
-  - I will not force any of you to fight, but if you want to honor Mello's legacy,
+  - I will not force any of you to fight, but if you want to honor Mello's legacy
     I will be by your side fighting on the front lines.
   - Will you fight?
-  - One by one the warriors rose and raised their swords and shouted let's go. <color=purple>William</color>
+  - One by one the warriors rose and raised their swords. <color=purple>William</color>
     did the same.
   - He felt like he had no choice, for some reason he would rather risk his life
     fighting the assassins than be the only coward in the room who didn't raise his
     sword.
+  DialogueBR:
+  - "<color=yellow>Cold Mello</color> est\xE1 morto."
+  - "Nenhum guerreiro naquela sala sabia como reagir a esta not\xEDcia."
+  - "Ele realizava uma opera\xE7\xE3o para prender um bandido que aliciava menores
+    para o tr\xE1fico de drogas."
+  - "Durante a opera\xE7\xE3o, os assassinos o emboscaram e cortaram sua cabe\xE7a.
+    Sua cabe\xE7a foi exposta em pra\xE7a p\xFAblica e chocou todos os moradores."
+  - "O objetivo dos criminosos \xE9 claro, eles querem nos intimidar, querem nos
+    vencer pelo medo, querem criar o caos."
+  - "A cabe\xE7a de <color=yellow>Mello</color> pode ser minha, pode ser sua, pode
+    ser de qualquer guerreiro. Podemos recuar agora, ou podemos avan\xE7ar. Podemos
+    cumprir a lei ou podemos deixar o crime proliferar. Nossa determina\xE7\xE3o
+    decidir\xE1 se esta terra pertence ao crime ou pertence a Sarka."
+  - "N\xE3o vou for\xE7ar nenhum de voc\xEAs a lutarem, mas se quiserem honrar o
+    legado de Mello eu estarei ao lado de voc\xEAs lutando na linha de frente."
+  - "Voc\xEAs v\xE3o lutar?"
+  - Um por um os guerreiros se levantaram e ergueram suas espadas. <color=purple>William</color>
+    fez o mesmo.
+  - "Ele sentiu que n\xE3o tinha escolha, por alguma raz\xE3o ele preferia arriscar
+    sua vida lutando contra os assassinos do que ser o \xFAnico covarde na sala que
+    n\xE3o levantou sua espada."
   idchara: 0f000000000000000f0000000f0000000f0000000f0000000f0000000f0000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000d000000
   Cenario: 16

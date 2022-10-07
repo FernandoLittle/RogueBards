@@ -6,25 +6,26 @@ public class ButtonInstructions : MonoBehaviour
 {
     public TalesVariables TalesVariables;
     public SkillA SkillA;
+    public List<int> Idbuttons;
     // Start is called before the first frame update
     public void EffectsButton(int a)
     {
         switch (a)
         {
-   
+
             case -5:
-                
+
                 break;
             case -6:
-                
+
                 break;
             //-100 Special Instruction.
             case -101:
-                PlayerPrefs.SetInt("Anne",0);
+                PlayerPrefs.SetInt("Anne", 0);
                 TalesVariables.SetTale(13);
                 break;
             case -102:
-                PlayerPrefs.SetInt("Anne",1);
+                PlayerPrefs.SetInt("Anne", 1);
                 TalesVariables.SetTale(12);
                 break;
             //Set Tale 1000
@@ -118,7 +119,7 @@ public class ButtonInstructions : MonoBehaviour
                 SceneManager.LoadScene("Song");
                 break;
             case 1305:
-                PlayerPrefs.SetInt("God", Random.Range(1,5));//RandomGod
+                PlayerPrefs.SetInt("God", Random.Range(1, 5));//RandomGod
                 SceneManager.LoadScene("Song");
                 break;
             case 1306:
@@ -323,5 +324,205 @@ public class ButtonInstructions : MonoBehaviour
         TalesVariables.ShowText();
         TalesVariables.Index += 1;
     }
+    public void TranslateButton(int id1, int id2, int id3, int id4, int id5)
+    {
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        Idbuttons.Clear();
+        if (id1 != 0)
+        {
+            Idbuttons.Add(id1);
+        }
+        if (id2 != 0)
+        {
+            Idbuttons.Add(id2);
+        }
+        if (id3 != 0)
+        {
+            Idbuttons.Add(id3);
+        }
+        if (id4 != 0)
+        {
+            Idbuttons.Add(id4);
+        }
+        if (id5 != 0)
+        {
+            Idbuttons.Add(id5);
+        }
 
+        for (int x = 0; x < Idbuttons.Count; x = x + 1)
+        {
+
+            if (language == 0)
+            {
+                TranslateButtonEN(Idbuttons[x], x);
+            }
+            if (language == 1)
+            {
+                TranslateButtonBR(Idbuttons[x], x);
+            }
+
+        }
+
+    }
+
+    public void TranslateButtonEN(int idbutton, int nextbutton)
+    {
+        Debug.Log("PIMBA");
+        string ButtonText = "";
+        switch (idbutton)
+        {
+            case 1:
+                ButtonText = "I can.";
+                break;
+            case 2:
+                ButtonText = "I can't.";
+                break;
+            case 3:
+                ButtonText = "Decline offer.";
+                break;
+            case 4:
+                ButtonText = "It's not up to me to make this decision.";
+                break;
+            case 5:
+                ButtonText = "Accept the bad luck.";
+                break;
+            case 6:
+                ButtonText = "Flip the coin againZ.";
+                break;
+            case 7:
+                ButtonText = "Play a religious song.";
+                break;
+            case 8:
+                ButtonText = "Play a love song.";
+                break;
+            case 9:
+                ButtonText = "Play a patriotic song.";
+                break;
+            case 10:
+                ButtonText = "Play an instrumental song.";
+                break;
+            case 11:
+                ButtonText = "Play a song.";
+                break;
+            case 12:
+                ButtonText = "Read a book.";
+                break;
+            case 13:
+                ButtonText = "Follow your heart.";
+                break;
+            case 14:
+                ButtonText = "Follow Shuá.";
+                break;
+            case 15:
+                ButtonText = "Join the prayer.";
+                break;
+            case 16:
+                ButtonText = "Doubt the existence of Shuá.";
+                break;
+            case 17:
+                ButtonText = "Follow the Path of Shuá.";
+                break;
+            case 18:
+                ButtonText = "Follow the Path of Warrior.";
+                break;
+            case 19:
+                ButtonText = "Question the monk.";
+                break;
+            case 20:
+                ButtonText = "Ask for the monk's forgiveness.";
+                break;
+            case 21:
+                ButtonText = "Accept the bribe.";
+                break;
+            case 22:
+                ButtonText = "Refuse the bribe.";
+                break;
+
+
+        }
+        TalesVariables.OptionsText1[nextbutton].text = ButtonText;
+    }
+    public void TranslateButtonBR(int idbutton, int nextbutton)
+    {
+        Debug.Log("Foi");
+        string ButtonText = "";
+        Debug.Log(idbutton);
+        Debug.Log(nextbutton);
+        switch (idbutton)
+        {
+          
+            case 1:
+                ButtonText = "Eu consigo.";
+                break;
+            case 2:
+                ButtonText = "Eu não consigo.";
+                break;
+            case 3:
+                ButtonText = "Recusar a oferta.";
+                break;
+            case 4:
+                ButtonText = "Não cabe a mim tomar essa decisão.";
+                break;
+            case 5:
+                Debug.Log("AAAAAAAA");
+                ButtonText = "Aceite o azar.";
+                break;
+            case 6:
+                Debug.Log("BBBBBBBBBBBBBBBB");
+                ButtonText = "Jogue a moeda novamente.";
+                break;
+            case 7:
+                ButtonText = "Toque uma música religiosa.";
+                break;
+            case 8:
+                ButtonText = "Toque uma música de amor.";
+                break;
+            case 9:
+                ButtonText = "Toque uma música patriótica.";
+                break;
+            case 10:
+                ButtonText = "Toque uma música instrumental.";
+                break;
+            case 11:
+                ButtonText = "Toque uma música.";
+                break;
+            case 12:
+                ButtonText = "Leia um livro.";
+                break;
+            case 13:
+                ButtonText = "Siga seus coração.";
+                break;
+            case 14:
+                ButtonText = "Siga Shuá.";
+                break;
+            case 15:
+                ButtonText = "Junte-se à oração.";
+                break;
+            case 16:
+                ButtonText = "Duvidar da existência de Shuá.";
+                break;
+            case 17:
+                ButtonText = "Siga o Caminho de Shuá.";
+                break;
+            case 18:
+                ButtonText = "Siga o Caminho do Guerreiro.";
+                break;
+            case 19:
+                ButtonText = "Questione o monge.";
+                break;
+            case 20:
+                ButtonText = "Peça o perdão do monge.";
+                break;
+            case 21:
+                ButtonText = "Aceite o suborno.";
+                break;
+            case 22:
+                ButtonText = "Recuse o suborno.";
+                break;
+        }
+        Debug.Log(ButtonText);
+        TalesVariables.OptionsText[nextbutton] = ButtonText;
+        TalesVariables.OptionsText1[nextbutton].text = ButtonText;
+    }
 }

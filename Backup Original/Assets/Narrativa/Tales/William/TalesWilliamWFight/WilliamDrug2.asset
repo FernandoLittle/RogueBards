@@ -18,6 +18,11 @@ MonoBehaviour:
     Unfortunately he defeated his opponent with a fatal hit.
   - No words were said at the end of that fight.
   - <color=purple>William</color> felt lonely.
+  DialogueBR:
+  - "Normalmente <color=purple>William</color> gostava de ouvir as \xFAltimas palavras
+    de suas v\xEDtimas. Infelizmente ele derrotou seu oponente com um golpe fatal."
+  - Nenhuma palavra foi dita no final dessa luta.
+  - "<color=purple>William</color> se sentiu solit\xE1rio."
   idchara: 000000000000000000000000
   instruction: 000000000000000000000000ea030000
   Cenario: 8

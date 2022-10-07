@@ -48,10 +48,50 @@ MonoBehaviour:
   - The only thing he could see as he walked that path was his desire for revenge.
   - <color=purple>William</color> stopped in front of the bard's house door.
   - '"It''s now, the moment I''ve always waited for has arrived."'
-  - 'But the <color=#00FFBF>bard</color> wasn''t home, he was behind <color=purple>William</color>,
+  - 'But the <color=#00FFBF>bard</color> wasn''t home, he was behind <color=purple>William</color>
     hiding in the shadows. Recognizing the beautiful necklace the <color=purple>warrior</color>
     was wearing, he said:'
   - I was waiting for you, son of <color=blue>Roy</color>.
+  DialogueBR:
+  - "N\xE3o importa quantas vezes <color=purple>William</color> limpasse sua casa,
+    ela ainda cheirava a sangue."
+  - A espada de <color=purple>William</color> tinha o mesmo cheiro.
+  - Aquele cheiro despertava nojo nele.
+  - Despertaca arrependimento.
+  - "Despertava \xF3dio."
+  - "Foi esse cheiro que o guiou em sua busca por vingan\xE7a."
+  - "Ningu\xE9m al\xE9m dele podia sentir aquele cheiro, mas ele sabia que era algo
+    real. Era imposs\xEDvel que um cheiro t\xE3o forte fosse apenas uma ilus\xE3o."
+  - O <color=purple>guerreiro</color> afiou sua espada.
+  - "\"<color=#FF0080>Maduin</color> \xE9 um idiota.\""
+  - "\"Ter pena de criminosos \xE9 idiotice.\""
+  - "\"Tudo o que eles merecem \xE9 sofrimento.\""
+  - '"Sim".'
+  - <color=purple>William</color> deu um grande sorriso.
+  - '"Sofrimento... eu quero ver aquele bardo filho da puta gritar de dor."'
+  - O <color=purple>guerreiro</color> afiou sua espada.
+  - '"Maldito bardo. Ele bebeu comigo, riu comigo, cantou comigo."'
+  - '"Ele me fez pecar contra meu pai."'
+  - "\"Existe pecado maior do que se tornar amigo do assassino de seu pr\xF3prio
+    pai?\""
+  - '"<color=red>Existe</color>."'
+  - '"Ele vai sofrer."'
+  - "<color=purple>William</color> n\xE3o pensou em como seria sua vida depois daquele
+    dia. Ele n\xE3o pensou nos seus amigos, nos sonhos ou nos seus valores."
+  - "Ele n\xE3o pensou porque ele n\xE3o tinha nada disso."
+  - "A \xFAnica coisa que ele tinha era seu plano de vingan\xE7a."
+  - "Desde o momento em que saiu de sua casa at\xE9 o momento em que chegou \xE0
+    casa do bardo, o <color=purple>guerreiro</color> deu v\xE1rios passos."
+  - "Ele n\xE3o olhou para a paisagem, n\xE3o olhou para as pessoas, n\xE3o olhou
+    para o c\xE9u, n\xE3o olhou para o caminho."
+  - "A \xFAnica coisa que ele podia ver enquanto percorria aquele caminho era seu
+    desejo de vingan\xE7a."
+  - <color=purple>William</color> parou na frente da porta da casa do bardo.
+  - "\"\xC9 agora, o momento que eu sempre esperei chegou.\""
+  - "Mas o <color=#00FFBF>bardo</color> n\xE3o estava em casa, ele estava atr\xE1s
+    de <color=purple>William</color>, escondido nas sombras. Reconhecendo o lindo
+    colar que o <color=purple>guerreiro</color> estava usando, ele disse:"
+  - "Eu estava esperando por voc\xEA, filho de <color=blue>Roy</color>."
   idchara: 00000000000000000000000000000000000000000000000000000000000000001c0000001c0000001c0000001c000000000000001c000000000000001c0000001c0000001c0000001c0000001c000000000000000000000000000000000000000000000000000000000000001c000000000000000a000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000
   Cenario: 20

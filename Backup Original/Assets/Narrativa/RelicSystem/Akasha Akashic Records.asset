@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 8
   SpriteRelic: {fileID: 21300000, guid: c1fb9fd8bb318284d80733cf3a79b90d, type: 3}
-  Description: Wisdom gives 4 mana instead of 2.
+  Description: <color=#67B2FF>Wisdom</color> gives 4 mana instead of 2.
+  DescriptionBR: "<color=#67B2FF>Sabedoria</color> fornece de 4 mana ao inv\xE9s
+    de 2."
   Name: <color=green>Akashic Records</color>
+  NameBR: <color=green>Registros Akashicos</color>
   Type: 1

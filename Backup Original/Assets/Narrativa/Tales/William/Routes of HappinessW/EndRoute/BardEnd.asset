@@ -39,6 +39,35 @@ MonoBehaviour:
   - Killing him won't bother me one bit.
   - "He's just a child\u2026 wretched\u2026 that I picked up on the street\u2026"
   - "Those were the last words <color=#FF0080>L\xE1zaro</color> heard."
+  DialogueBR:
+  - "V\xE1 para a casa de Ebu, durma com ela, eu te busco amanh\xE3."
+  - "Por que n\xE3o posso ficar aqui, pai?"
+  - "Porque eu tenho um trabalho importante, voc\xEA vai me atrapalhar se ficar por
+    aqui."
+  - "<color=#FF0080>L\xE1zaro</color> sabia qual era o antigo emprego de seu pai,
+    ent\xE3o se escondeu perto de sua casa em vez de se abrigar na casa de Ebu."
+  - Porque ele era muito corajoso para fugir enquanto seu pai estava em perigo.
+  - <color=green>Akasha</color> reservava um presente especial para os corajosos.
+  - "Vendo <color=purple>William</color> se divertindo quebrando os bra\xE7os e pernas
+    do <color=#00FFBF>bardo</color>, <color=#FF0080>L\xE1zaro</color> correu para
+    ajudar seu pai."
+  - Stop! Please don't kill my father!
+  - "As pessoas temem muito a morte, \xE9 estranho porque apenas os vivos s\xE3o
+    capazes de sofrer."
+  - "N\xE3o se preocupe com ele, jovem, pois n\xE3o vou mat\xE1-lo. E n\xE3o se preocupe
+    com voc\xEA mesmo, pois voc\xEA n\xE3o sofrer\xE1 mais."
+  - "Quando <color=red>William</color> pegou sua espada, o <color=#00FFBF>bardo</color>
+    reuniu todas as suas for\xE7as para superar a dor de seus membros quebrados e
+    dizer:"
+  - "Voc\xEA vai matar..."
+  - "O <color=#00FFBF>bardo</color> gritou, sua dor f\xEDsica insuport\xE1vel."
+  - "Voc\xEA vai matar uma... uma pessoa inocente."
+  - Em troca de nada.
+  - "Ele n\xE3o \xE9 meu filho..."
+  - "Eu n\xE3o o amo\u2026"
+  - "Mat\xE1-lo n\xE3o vai me incomodar nem um pouco."
+  - "Ele \xE9 apenas uma crian\xE7a... miser\xE1vel... que eu catei na rua..."
+  - "Essas foram as \xFAltimas palavras que <color=#FF0080>L\xE1zaro</color> ouviu."
   idchara: 0a000000170000000a00000000000000000000000000000000000000170000001c0000001c000000000000000a000000000000000a0000000a0000000a0000000a0000000a0000000a00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
   Cenario: 21

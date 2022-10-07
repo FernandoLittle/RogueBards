@@ -25,6 +25,18 @@ public class RelicItem : MonoBehaviour
         A.ilx1.sprite = D.Relics[RelicId].SpriteRelic;
         A.EyeTx[0].text = D.Relics[RelicId].Description;
         ActiveEyeIcons(false, false, false, false);
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            A.EyeNameRight.text = D.Relics[RelicId].Name;
+            A.EyeTx[0].text = D.Relics[RelicId].Description;
+        }
+        if (language == 1)
+        {
+            A.EyeNameRight.text = D.Relics[RelicId].NameBR;
+            A.EyeTx[0].text = D.Relics[RelicId].DescriptionBR;
+        }
     }
     public void EyeDesEnable()
     {

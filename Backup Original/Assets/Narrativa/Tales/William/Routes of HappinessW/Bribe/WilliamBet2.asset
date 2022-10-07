@@ -40,6 +40,34 @@ MonoBehaviour:
     Parovy</color>.
   - It may not seem like it, <color=purple>William</color>, but this is for your
     own good, otherwise the betting houses would hire an assassin to kill you.
+  DialogueBR:
+  - "Na semana seguinte, o <color=yellow>Capit\xE3o Parovy</color> ficou furioso."
+  - "<color=purple>William</color>, voc\xEA\u2026."
+  - Ele respirou fundo e baixou a voz.
+  - "\xC9 verdade que voc\xEA recusou um suborno de uma casa de apostas e prendeu
+    o atendente?"
+  - Sim.
+  - "Por que diabos voc\xEA n\xE3o aceitou a porra do suborno?"
+  - Porque isso seria contra a <color=yellow>lei</color>.
+  - <color=yellow>Parovy</color> estava tendo problemas para se controlar.
+  - "<color=purple>William</color>, seu sal\xE1rio \xE9 bom?"
+  - Si...
+  - "N\xE3o! N\xE3o \xE9. O sal\xE1rio de todos os guerreiros \xE9 uma merda porque
+    arriscamos nossas vidas e n\xE3o h\xE1 dinheiro para pagar por isso."
+  - "As casas de apostas s\xE3o nossa renda extra e n\xE3o h\xE1 raz\xE3o para recusar
+    os malditos subornos. Ningu\xE9m ganha nada com isso."
+  - "<color=yellow>Capit\xE3</color>..."
+  - "Ningu\xE9m!"
+  - "<color=yellow>Capit\xE3o</color>! N\xE3o \xE9 nosso dever legislar, n\xF3s apenas
+    seguimos a\u2026"
+  - "Sil\xEAncio! Voc\xEA me deu muito trabalho esses dias, felizmente consegui negociar
+    com as casas de apostas, eles v\xE3o ignorar a merda que voc\xEA fez desde que
+    eu solte o cara que voc\xEA prendeu e demito voc\xEA."
+  - "<color=purple>William</color> n\xE3o ia implorar por perd\xE3o, ele apenas o
+    olhou com desprezo nos olhos, esperando que isso incomodasse o <color=yellow>Capit\xE3o
+    Parovy</color>."
+  - "Pode n\xE3o parecer, <color=purple>William</color>, mas isso \xE9 para seu pr\xF3prio
+    bem, caso contr\xE1rio as casas de apostas contratariam um assassino para assassin\xE1-lo."
   idchara: 000000000f000000000000000f0000001c0000000f0000001c000000000000000f0000001c0000000f0000000f0000001c0000000f0000001c0000000f000000000000000f000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
   Cenario: 24

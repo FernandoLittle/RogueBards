@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 10
   SpriteRelic: {fileID: 21300000, guid: 5f2f95bc05d03914e804e8aafbd8626e, type: 3}
-  Description: Gain Passion at the start of the fight.
+  Description: Gain <color=#FF009C>Passion</color> at the start of the fight.
+  DescriptionBR: "Ganhe <color=#FF009C>Paix\xE3o</color> no in\xEDcio da luta."
   Name: <color=blue>Mana Potion</color>
+  NameBR: "<color=blue>Po\xE7\xE3o de Mana</color>"
   Type: 1

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Lucky you
+  - Lucky you.
+  DialogueBR:
+  - Sorte sua.
   idchara: 0b000000
   instruction: 000000006a000000
   Cenario: 1

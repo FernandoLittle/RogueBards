@@ -65,6 +65,62 @@ MonoBehaviour:
   - <color=purple>William</color>, our father's killer is the <color=#00FFBF>bard</color>.
   - What bard?
   - The <color=#00FFBF>Bard of Bards</color>.
+  DialogueBR:
+  - "Por que voc\xEA est\xE1 me atacando, <color=purple>Will</color>? Sou eu, <color=purple>Anne</color>,
+    sua irm\xE3."
+  - "Minhas irm\xE3s est\xE3o mortas."
+  - "N\xE3o, <color=purple>Will</color>, eu desapareci no dia em que nosso pai morreu
+    porque o assassino me sequestrou."
+  - "Consegui escapar recentemente e logo comecei a te procurar, fiquei t\xE3o feliz
+    em ver que voc\xEA seguiu o caminho do nosso pai e se tornou um guerreiro."
+  - "Eu n\xE3o acredito em voc\xEA. Por que voc\xEA levaria tanto tempo para escapar?
+    Por que voc\xEA estava armado? Por que voc\xEA me convidaria para esta colina?"
+  - "Por que voc\xEA acha que eu te chamei para este lugar?"
+  - "Porque voc\xEA queria me emboscar e me matar."
+  - "Claro que n\xE3o, bobo! Foi aqui que papai nos levou para ver as estrelas, prometemos
+    que nos casar\xEDamos quando f\xF4ssemos adultos em uma lua cheia como essa."
+  - "<color=purple>William</color> abra\xE7ou sua irm\xE3 e come\xE7ou a chorar como
+    uma crian\xE7a."
+  - "<color=purple>Anne</color>, voc\xEA est\xE1 viva! Eu n\xE3o posso acreditar,
+    isso \xE9 bom demais para ser verdade."
+  - "Eu\u2026 eu quase matei voc\xEA\u2026 me desculpe. N\xE3o consegui te reconhecer,
+    voc\xEA mudou muito. Eu sou um <color=black>monstro</color>, eu quase..."
+  - Eu quase cometi aquele pecado novamente.
+  - "A culpa \xE9 minha <color=purple>Will</color>, eu queria te surpreender."
+  - "Eu deveria ter te encontrado como uma pessoa normal, mas esqueci que voc\xEA
+    sempre teve medo do escuro."
+  - "Esse aqui \xE9 um presente para voc\xEA, esse \xE9 meu colar da sorte, espero
+    que goste."
+  - Os dois observaram as estrelas enquanto conversavam sobre tudo o que haviam passado
+    nos anos em que estiveram separados.
+  - <color=purple>William</color> entendia aquele momento tanto quanto entendia o
+    tamanho das estrelas.
+  - "Sobre o que combinamos de casar, n\xE3o vai acontecer, eu sou gay."
+  - "E o incesto \xE9 errado."
+  - <color=purple>Anne</color> riu.
+  - "Pare de ser bobo, n\xF3s \xE9ramos crian\xE7as. Apesar que voc\xEA ficou bem
+    bonito. Aposto que est\xE1 roubando o cora\xE7\xE3o dos homens."
+  - "Quem me dera. Tem um amigo que eu gosto no trabalho, <color=#FF0080>Maduin</color>,
+    mas n\xE3o tenho coragem de confessar isso a ele."
+  - "Ele \xE9 bonito?"
+  - "Sim, muito, o mais bonito que eu j\xE1 vi. Ele tamb\xE9m \xE9 gentil, carinhoso,
+    nem parece um guerreiro."
+  - "Me conta mais! Quando voc\xEA se apaixonou?"
+  - "Quando me apaixonei... acho que foi quando vi que ele sempre trazia refei\xE7\xF5es
+    que ele mesmo preparava para os presidi\xE1rios. Os guerreiros ficaram furiosos
+    e ele perdeu v\xE1rios amigos l\xE1, mas mesmo assim continuou preparando as
+    comidas preferidas dos bandidos."
+  - "Como ele pode ser t\xE3o legal, mesmo com criminosos?"
+  - "<color=purple>Anne</color> riu porque sabia a resposta. Logo ela come\xE7ou
+    a cantarolar."
+  - "<color=purple>William</color> est\xE1 apaixonado, <color=purple>William</color>
+    est\xE1 apaixonado, <color=purple>William</color> est\xE1 apaixonado."
+  - "N\xE3o sou, n\xE3o tenho o direito de me apaixonar e ser feliz at\xE9 cumprir
+    minha miss\xE3o."
+  - Tenho de matar o assassino do nosso pai.
+  - "<color=purple>William</color>, o assassino de nosso pai \xE9 o <color=#00FFBF>bardo</color>."
+  - Que bardo?
+  - O <color=#00FFBF>Bardo dos Bardos</color>.
   idchara: 1e0000001c0000001e0000001e0000001c0000001e0000001c0000001e000000000000001c0000001c0000001c0000001e0000001e0000001e00000000000000000000001c0000001c000000000000001e0000001c0000001e0000001c0000001e0000001c0000001c000000000000001e0000001c0000001c0000001e0000001c0000001e000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a000000
   Cenario: 22

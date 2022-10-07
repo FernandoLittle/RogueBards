@@ -103,53 +103,9 @@ public class RelicSystem : MonoBehaviour
         if (F.Zone[ally].sentimento == 1)
         {
             Debug.Log("TO com medo");
-            if (attack == 0)
+            if (F.Zone[ally].ManaSpend >= 5)
             {
 
-                if (F.Zone[ally].ManaSpend < 5)
-                {
-                    Debug.Log("medinho");
-                    BonusSentimento1(ally);
-                }
-            }
-            if (attack == 1)
-            {
-                Debug.Log(F.Zone[ally].idzone1 + "defendendo");
-                if (F.Zone[ally].ManaSpend > 4)
-                {
-                    Debug.Log("Medinho");
-                    BonusSentimento1(ally);
-                }
-            }
-        }
-        if (F.Zone[ally].sentimento == 2)
-        {
-            Debug.Log("To puto");
-            if (attack == 0)
-            {
-                Debug.Log(F.Zone[ally].idzone1 + "atacando");
-                if (F.Zone[ally].ManaSpend > 4)
-                {
-                    Debug.Log("putao");
-                    BonusSentimento1(ally);
-                }
-            }
-            if (attack == 1)
-            {
-                Debug.Log(F.Zone[ally].idzone1 + "defendendo");
-                if (F.Zone[ally].ManaSpend < 5)
-                {
-                    Debug.Log("putao");
-                    BonusSentimento1(ally);
-                }
-            }
-        }
-        if (F.Zone[ally].sentimento == 3)
-        {
-            Debug.Log("odio");
-            if (F.Zone[ally].Mana ==0)
-            {
-                Debug.Log("Odiador");
                 BonusSentimento1(ally);
             }
         }
@@ -196,7 +152,7 @@ public class RelicSystem : MonoBehaviour
         if (A.StaticData.RelicsAlly.Count > 0)
         {
             Debug.Log(A.StaticData.RelicsAlly[0]);
-            A.Zone[5].Relics.Add(A.StaticData.RelicsAlly[0]);
+          //  A.Zone[5].Relics.Add(A.StaticData.RelicsAlly[0]);
         }
 
     }

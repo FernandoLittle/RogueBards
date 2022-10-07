@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Why are you attacking us motherfucker? We came from another country just to help
-    the victims of war, asshole.
+  - Why are you attacking us, motherfucker? We came from another country just to
+    help the victims of war, asshole.
   - Don't pretend to be an idiot. The Mirians invaded our country, killed women and
     children, and you helped them.
   - "We were just following the <color=#FF0080>Shu\xE1</color> teachings. We were
     loving our enemies."
   - 'You can go to hell with the Mirians, you bastards. '
+  DialogueBR:
+  - "Por que voc\xEA est\xE1 nos atacando, filho da puta? Viemos de outro pa\xEDs
+    apenas para ajudar as v\xEDtimas da guerra, idiota."
+  - "N\xE3o finja ser um idiota. Os mirianos invadiram nosso pa\xEDs, mataram mulheres
+    e crian\xE7as, e voc\xEAs os ajudaram."
+  - "Est\xE1vamos apenas seguindo os ensinamentos de <color=#FF0080>Shu\xE1</color>.
+    Est\xE1vamos amando nossos inimigos."
+  - Podem ir para o inferno com os mirianos, seus bastardos.
   idchara: 1c000000180000001c00000018000000
   instruction: 000000000000000000000000000000003e010000
   Cenario: 14

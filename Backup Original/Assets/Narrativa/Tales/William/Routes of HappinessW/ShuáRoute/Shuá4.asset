@@ -18,7 +18,7 @@ MonoBehaviour:
   - "Of course, my <color=purple>lord</color>. <color=#FF0080>Shu\xE1</color>'s love
     for humanity is infinite."
   - So why did he let my family be murdered?
-  - I feel sorry for you, my <color=purple>lord</color>. I can't even imagine how
+  - I feel sorry for you, my <color=purple>lord</color>, I can't even imagine how
     much you suffered.
   - "<color=#FF0080>Shu\xE1</color> did not protect your family because he is not
     omnipotent. His power depends on the love humans feel for one another. As long
@@ -40,10 +40,10 @@ MonoBehaviour:
   - You remind me of <color=#FF0080>Shu</color> in the parable of the lone warrior.
     In it, he loses all his colleagues in the war, he also loses all his hopes and
     dreams.
-  - But in the midst of this war he meets a child who has seen his parents murdered
-    in front of him.
-  - He adopts that child and protects him. After that, his life has meaning and purpose
-    again.
+  - But in the midst of this war he meets a child whose parents were murdered before
+    his very eyes.
+  - He adopted that child and protected him. After that, his life regained meaning
+    and purpose.
   - Do you understand the similarities of this parable and your story, my <color=purple>lord</color>?
   - Both <color=#FF0080>Shu</color> and I are warriors.
   - Not only that, you two lost everything. But when <color=#FF0080>Shu</color> found
@@ -54,9 +54,55 @@ MonoBehaviour:
   - It's a dangerous zone there, so we need a strong man like you to defend us.
   - I have found my purpose in life by following the <color=#FF0080>Path of Shu</color>,
     if you want, I can help you follow that path.
-  - "But you will need to abandon everything that goes against <color=#FF0080>Shu\xE1</color>'s
-    will to come with us on this mission. This includes abandoning your plans for
-    revenge and your work as a warrior. "
+  - "But you will have to abandon everything that goes against the will of <color=#FF0080>Shu\xE1</color>.
+    This includes abandoning your plans for revenge and your work as a warrior."
+  DialogueBR:
+  - "Diga-me, <color=#FF0080>monge</color>. <color=#FF0080>Shu\xE1</color> \xE9 bom?"
+  - "Claro que sim, meu <color=purple>senhor</color>. O amor de <color=#FF0080>Shu\xE1</color>
+    pela humanidade \xE9 infinito."
+  - "Ent\xE3o, por que ele deixou minha fam\xEDlia ser assassinada?"
+  - "Eu sinto muito por voc\xEA, meu <color=purple>senhor</color>, n\xE3o consigo
+    nem imaginar o quanto voc\xEA sofreu."
+  - "<color=#FF0080>Shu\xE1</color> n\xE3o protegeu sua fam\xEDlia porque ele n\xE3o
+    \xE9 onipotente. Seu poder depende do amor que os humanos sentem uns pelos outros.
+    Enquanto as pessoas se odiarem, assassinos destruir\xE3o a vida de fam\xEDlias
+    inocentes."
+  - "\xC9 por isso que eu tenho que matar assassinos. Para que eles parem de ferir
+    pessoas inocentes."
+  - Eu devo me vingar.
+  - "A vingan\xE7a n\xE3o trar\xE1 paz \xE0 sua alma, meu <color=purple>senhor</color>."
+  - "O que devo fazer ent\xE3o? Eu perdi tudo o que tinha, perdi toda a minha felicidade,
+    o que me resta sen\xE3o a minha vingan\xE7a?"
+  - "<color=#FF0080>Kain</color> tinha dito que <color=#FF0080>Shu\xE1</color> trouxe
+    paz e felicidade ao seu cora\xE7\xE3o."
+  - "<color=purple>William</color> queria ser feliz como ele, mas se culpava por
+    ter esse desejo. O guerreiro pensou que s\xF3 teria o direito de ser feliz depois
+    de cumprir seus deveres."
+  - "Porque ele era est\xFApido o suficiente para acreditar que seus pecados poderiam
+    ser expiados dessa maneira."
+  - "Apesar disso, ele desejou com todas as suas for\xE7as que o <color=#FF0080>monge</color>
+    shuano o ensinasse a ser feliz."
+  - "Voc\xEA me lembra <color=#FF0080>Shu</color> na par\xE1bola do guerreiro solit\xE1rio.
+    Nela, ele perde todos os seus colegas de guerra, ele tamb\xE9m perde todas as
+    suas esperan\xE7as e sonhos."
+  - "Mas no meio dessa guerra ele conhece uma crian\xE7a que teve seus pais assassinados
+    diante de seus pr\xF3prios olhos."
+  - "Ele adotou aquela crian\xE7a e a protegeu. Depois disso, sua vida voltou a ter
+    sentido e prop\xF3sito."
+  - "Voc\xEA entende as semelhan\xE7as desta par\xE1bola e da sua hist\xF3ria, meu
+    <color=purple>senhor</color>?"
+  - Tanto <color=#FF0080>Shu</color> quanto eu somos guerreiros.
+  - "N\xE3o s\xF3 isso, voc\xEAs dois perderam tudo. Mas quando <color=#FF0080>Shu</color>
+    encontrou algu\xE9m para proteger, sua vida come\xE7ou a fazer sentido novamente."
+  - "Na pr\xF3xima esta\xE7\xE3o eu irei em uma miss\xE3o junto com outros seguidores
+    de <color=#FF0080>Shu\xE1</color> para a <color=#yellow>Guerra de Varsa</color>.
+    Forneceremos assist\xEAncia m\xE9dica e alimentos para as v\xEDtimas desta guerra."
+  - "\xC9 uma zona perigosa l\xE1, ent\xE3o precisamos de um homem forte como voc\xEA
+    para nos defender."
+  - "Eu encontrei meu prop\xF3sito na vida seguindo o <color=#FF0080>Caminho de Shu</color>,
+    se voc\xEA quiser, posso ajud\xE1-lo a seguir esse caminho."
+  - "Mas voc\xEA ter\xE1 que abandonar tudo que vai contra a vontade de <color=#FF0080>Shu\xE1</color>.
+    Isso inclui abandonar seus planos de vingan\xE7a e seu trabalho como guerreiro."
   idchara: 1c000000190000001c00000019000000190000001c0000001c000000190000001c00000000000000000000000000000000000000190000001900000019000000190000001c0000001900000019000000190000001900000019000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040010000
   Cenario: 13

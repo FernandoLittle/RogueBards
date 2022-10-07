@@ -20,6 +20,7 @@ public class Adventure : MonoBehaviour
     }
     public void Roy()
     {
+        PlayerPrefs.SetInt("Batalha", 0);
         //temporario
         PlayerPrefs.SetInt("Tale", FightID);
         //temporario, mudar com sistema de load
@@ -37,6 +38,7 @@ public class Adventure : MonoBehaviour
     }
     public void WilliamW()
     {
+        PlayerPrefs.SetInt("Batalha", 0);
         //temporario
         PlayerPrefs.SetInt("Tale", FightID);
         //temporario, mudar com sistema de load
