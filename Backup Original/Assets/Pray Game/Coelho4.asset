@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Coelho4
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - i
+  - will
+  - not
+  - regret
+  - it
+  - i
+  - will
+  - be
+  - happy
+  - to
+  - spurt
+  - your
+  - blood
+  - i
+  - will
+  - repeat
+  - this
+  - sin
+  - whenever
+  - i
+  - can
+  - without
+  - feeling
+  - the
+  - least
+  - bit
+  - of
+  - guilt
+  DialogueBR:
+  - eu
+  - "n\xE3o"
+  - me
+  - arrependerei
+  - ficarei
+  - feliz
+  - em
+  - jorrar
+  - seu
+  - sangue
+  - repetirei
+  - esse
+  - pecado
+  - sempre
+  - que
+  - puder
+  - sem
+  - sentir
+  - o
+  - "m\xEDnimo"
+  - de
+  - culpa
+  idchara: 
+  instruction: 
+  Cenario: 0

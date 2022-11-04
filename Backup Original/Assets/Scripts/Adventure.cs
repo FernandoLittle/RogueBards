@@ -55,4 +55,8 @@ public class Adventure : MonoBehaviour
         Loading.SetActive(true);
         SceneManager.LoadScene("Tales");
     }
+    public void Discord()
+    {
+        Application.OpenURL("https://discord.gg/CkNfEPDNhA");
+    }
 }

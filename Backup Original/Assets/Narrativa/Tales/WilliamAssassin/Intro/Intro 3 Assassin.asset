@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Intro 3 Assassin
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - 'In <color=yellow>Sarka</color> an assassin said:'
+  - Civilization has managed to turn nature into a tool over the seasons.
+  - But the human being is also part of nature and so he stopped living for himself
+    and became a tool.
+  - When the human goes to school, works, pays his taxes and dies in the war he evolves
+    as a servant of <color=yellow>Lyoko</color>.
+  - The guild is the civilized world's greatest enemy, as its purpose is to kill
+    all the vagabonds who try to chain others with the chains of civilization.
+  - In <color=yellow>Sarka</color> a warrior said.
+  - We will lay down our lives for law, order and the nation.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "A civiliza\xE7\xE3o conseguiu transformar a natureza em uma ferramenta ao longo
+    das esta\xE7\xF5es."
+  - "Mas o ser humano tamb\xE9m faz parte da natureza e por isso deixou de viver
+    para si e tornou-se uma ferramenta."
+  - Quando o humano vai para a escola, trabalha, paga seus impostos e morre na guerra
+    ele evolui como servo de <color=yellow>Lyoko</color>.
+  - "A guilda \xE9 o maior inimigo do mundo civilizado, pois seu objetivo \xE9 matar
+    todos os vagabundos que tentam acorrentar outros com as correntes da civiliza\xE7\xE3o."
+  - Em <color=yellow>Sarka</color> um guerreiro disse.
+  - "Daremos nossas vidas pela lei, pela ordem e pela na\xE7\xE3o."
+  idchara: 00000000000000000000000000000000000000000000000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000069000000
+  Cenario: 4

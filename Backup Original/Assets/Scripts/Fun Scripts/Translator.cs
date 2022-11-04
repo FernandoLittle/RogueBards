@@ -38,6 +38,7 @@ public class Translator : MonoBehaviour
         AdventuresT[0].text = "Adventure of Roy (Tutorial)";
         AdventuresT[1].text = "Adventure of William";
         LanguagesT[0].text = "Language:";
+        LanguagesT[1].text = "Play";
     }
     public void Portuguese()
     {
@@ -47,6 +48,7 @@ public class Translator : MonoBehaviour
         AdventuresT[0].text = "Aventura de Roy (Tutorial)";
         AdventuresT[1].text = "Aventura de William";
         LanguagesT[0].text = "Idioma:";
+        LanguagesT[1].text = "Jogar";
     }
     public void Fantasminha()
     {

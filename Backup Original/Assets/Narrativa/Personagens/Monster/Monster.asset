@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Monster
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 86ffb4e3b68d8ab42b2089137722715e, type: 3}
+  sprite: {fileID: 21300000, guid: c0b5b6d31f1a364439a32e2574bf76cf, type: 3}
   sprite1: {fileID: 0}
   Name: '<i><color=Black>Me</color> </i>   '
   id: 0

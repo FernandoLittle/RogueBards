@@ -10,14 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
-  m_Name: Tale1
+  m_Name: Reges1
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Disseram em Denai
-  - "N\xE3o fale de Denai, Ebu."
-  - Denai, Denai,Denai, Denai,Denai, Denai,Denai, Denai,Denai, Denai,Denai, Denai,Denai,
-    Denai,Denai, Denai,
-  idchara: 000000000000000000000000
-  instruction: 00000000ffffffff00000000
+  - reges
+  - gentium
+  - dominantur
+  - eorum
+  - et
+  - qui
+  - potestatem
+  - habent
+  - super
+  - eos
+  - benefici
+  - vocantur
+  DialogueBR:
+  - reges
+  - gentium
+  - dominantur
+  - eorum
+  - et
+  - qui
+  - potestatem
+  - habent
+  - super
+  - eos
+  - benefici
+  - vocantur
+  idchara: 
+  instruction: 
   Cenario: 0

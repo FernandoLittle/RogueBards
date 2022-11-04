@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "Imigra\xE7\xE3o"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Today we have a bounty on the head of a warrior, a judge and a border guard.
+  - Which one will you want, William?
+  - What did the border guard do?
+  - He did his job. Three young men tried to leave Sarka without a passport, fought
+    with guards and were murdered.
+  - "The guards claimed that the youths attacked with pocketknives and in the confrontation\u2026"
+  - Ebu started to get snot out of his nose.
+  - What was I talking about?
+  - Do anti-immigration laws still exist? I thought those laws were gone when Sarka's
+    economy began to thrive under the rule of Lestia.
+  - Don't praise Lestia, she's an ugly, smelly bitch.
+  - But in fact thousands came out of misery.
+  - Screw this, I don't like her. And even though her reforms worked, Sangla is still
+    absurdly richer than Sarka, so she has a lot of people wanting to flee this shitty
+    country.
+  - Problem solved, you're going to hunt down the guard.
+  - Don't feel sorry for him, if he starts crying remember that he would put his
+    sword on your neck just because you tried to jump over a wall.
+  DialogueBR:
+  - "Hoje temos uma recompensa pela cabe\xE7a de um guerreiro, um juiz e um guarda
+    de fronteira."
+  - "Qual voc\xEA vai querer, William?"
+  - O que o guarda da fronteira fez?
+  - "Ele fez o trabalho dele. Tr\xEAs jovens tentaram sair de Sarka sem passaporte,
+    brigaram com os guardas e foram assassinados.\r\n"
+  - "Os guardas alegaram que os jovens atacaram com canivetes e no confronto\u2026"
+  - "Ebu come\xE7ou a tirar meleca do nariz."
+  - Do que eu estava falando?
+  - "Ainda existem leis anti-imigra\xE7\xE3o? Achei que essas leis tinham desaparecido
+    quando a economia de Sarka come\xE7ou a prosperar sob o governo da Lestia."
+  - "N\xE3o elogie a Lestia, ela \xE9 uma puta feia e fedida."
+  - "Mas de fato milhares sa\xEDram da mis\xE9ria."
+  - "Foda-se, eu n\xE3o gosto dela. E apesar das reformas terem dado resultado, Sangla
+    ainda \xE9 absurdamente mais rica que Sarka, ent\xE3o tem um monte de gente querendo
+    fugir desse pa\xEDs de merda.\r\n"
+  - "Resolvido, voc\xEA vai ca\xE7ar o guardinha."
+  - "N\xE3o tenha pena dele, se ele come\xE7ar a chorar lembre-se que ele passaria
+    a espada no seu pesco\xE7o s\xF3 porque voc\xEA tentou pular um muro."
+  idchara: 
+  instruction: 
+  Cenario: 0

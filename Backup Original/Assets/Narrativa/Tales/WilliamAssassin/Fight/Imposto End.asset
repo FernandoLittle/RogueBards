@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Imposto End
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Please don't kill me, I'll give you all the money I have.
+  - Keep calm, I'll take it, give me the money and I'll spare your life.
+  - After the publican handed over all the money he had kept in his safe, he believed
+    that he was no longer in danger of dying. That was exactly what William wanted,
+    after all, it was very difficult to talk to desperate people begging for their
+    lives.
+  - Do you know Vlad Burarth?
+  - No.
+  - He's a man who was arrested because of you and he gave me a lot of money to kill
+    you.
+  - When Levi realized that William was not a simple thief but a murderer, terror
+    returned to his soul.
+  - Please don't kill me, I was just doing my job, I never meant to hurt anyone.
+  - Calm down, I know you only wanted Sarka's good, you wanted to uphold the Law,
+    you wanted the Nation to have the resources to develop. Is not it?
+  - Yes that's right.
+  - We are alike.
+  - Publicans and assassins are hated in Sarka, both make a lot of money, both follow
+    a law, both justify sin with silly excuses.
+  - The truth is, we both bring suffering into this world, your finger has led a
+    man to prison and my hand will lead a man to death.
+  - And finally, we both only do these cruelties because we make a lot of money.
+  - Please do not kill me.
+  - The publican began to cry like a child.
+  - Don't cry, we're a lot alike and I totally understand everything you've done.
+  - William soon hugged him and kissed his forehead.
+  - But that doesn't change the fact that I'll be happy to kill a parasite like you.
+  DialogueBR:
+  - "Por favor n\xE3o me mate, eu te dou todo o dinheiro que eu tenho."
+  - "Fique calmo, eu aceito, me d\xEA o dinheiro e eu pouparei sua vida."
+  - "Depois que o publicano entregou todo o dinheiro que havia guardado no cofre,
+    ele acreditou que n\xE3o corria mais o risco de morrer. Era exatamente isso que
+    William queria, afinal, era muito dif\xEDcil conversar com pessoas desesperadas
+    implorando por suas vidas."
+  - "Voc\xEA conhece Vlad Burarth?"
+  - "N\xE3o."
+  - "Ele \xE9 um homem que foi preso por sua causa e ele me deu um bom dinheiro para
+    te matar."
+  - "Quando Levi percebeu que William n\xE3o era um simples ladr\xE3o e sim um assassino,
+    o terror voltou a assolar sua alma."
+  - "Por favor, n\xE3o me mate, eu estava apenas fazendo meu trabalho, eu nunca quis
+    fazer mal a ningu\xE9m."
+  - "Acalme-se, eu sei que voc\xEA s\xF3 queria o bem de Sarka, voc\xEA queria cumprir
+    a Lei, voc\xEA queria que a Na\xE7\xE3o tivesse recursos para se desenvolver.
+    N\xE3o \xE9 mesmo?"
+  - Sim, isso mesmo.
+  - "N\xF3s somos parecidos."
+  - "Publicanos e assassinos s\xE3o odiados em Sarka, ambos ganham muito dinheiro,
+    ambos seguem uma lei e ambos justificam o pecado com desculpas tolas."
+  - "A verdade \xE9 que n\xF3s dois trazemos sofrimento a este mundo, seu dedo levou
+    um homem \xE0 pris\xE3o e minha m\xE3o levar\xE1 um homem \xE0 morte."
+  - "E, finalmente, n\xF3s dois s\xF3 fazemos essas crueldades porque ganhamos muito
+    dinheiro."
+  - "Por favor, n\xE3o me mate."
+  - "O publicano come\xE7ou a chorar como uma crian\xE7a."
+  - "N\xE3o chore, n\xF3s somos muito parecidos e eu entendo perfeitamente tudo o
+    que voc\xEA fez."
+  - "William logo o abra\xE7ou e deu um beijo em sua testa."
+  - "Mas isso n\xE3o muda o fato de que eu terei muito prazer em matar um parasita
+    como voc\xEA."
+  idchara: 
+  instruction: 
+  Cenario: 0

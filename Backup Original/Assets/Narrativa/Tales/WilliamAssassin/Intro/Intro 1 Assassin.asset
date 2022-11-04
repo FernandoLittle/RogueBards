@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Intro 1 Assassin
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - 'In <color=yellow>Sarka</color> an assassin said:'
+  - What is the difference between the assassin and the warrior? Is one kinder than
+    the other? Is one smarter than the other? Is one more virtuous than the other?
+  - No no and no. They did not trace different paths through a difference of morals,
+    intellect, or virtue.
+  - Even if they don't consciously realize it, humans rarely care about what's good
+    and moral, what's priority for them is reputation, in other words, it's more
+    important to look good than actually be.
+  - A warrior is just a human who lives in a place where being a warrior is seen
+    as good, an assassin is just a human who lives in a place where being an assassin
+    is seen as good.
+  - 'In <color=yellow>Sarka</color> a warrior said:'
+  - Assassins talk so fucking much.
+  DialogueBR:
+  - 'Em <color=yellow>Sarka</color> um assassino disse:'
+  - "Qual \xE9 a diferen\xE7a entre um assassino e um guerreiro? Um \xE9 mais gentil
+    que o outro? Um \xE9 mais inteligente que o outro? Um \xE9 mais virtuoso que
+    o outro?"
+  - "N\xE3o n\xE3o e n\xE3o. Eles n\xE3o tra\xE7aram caminhos diferentes por uma
+    diferen\xE7a de moral, intelecto ou virtude."
+  - "Mesmo que eles n\xE3o percebam conscientemente, os humanos raramente se preocupam
+    com o que \xE9 bom e moral, o que \xE9 prioridade para eles \xE9 a reputa\xE7\xE3o,
+    ou seja, \xE9 mais importante parecer bom do que realmente ser."
+  - "Um guerreiro \xE9 apenas um humano que vive em um lugar onde ser um guerreiro
+    \xE9 visto como bom, um assassino \xE9 apenas um humano que vive em um lugar
+    onde ser um assassino \xE9 visto como bom."
+  - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
+  - Assassinos falam pra caralho.
+  idchara: 00000000000000000000000000000000000000000000000000000000
+  instruction: 0000000000000000000000000000000000000000000000000000000069000000
+  Cenario: 4
