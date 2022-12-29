@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   Dialogue:
-  - It's cold, very cold... I thought killing the emperor would ease my suffering,
-    but... end it soldier, I want to warm myself in the fires of hell.
+  - It's cold, very cold... I thought killing the <color=red>king</color> would ease
+    my suffering, but... end it soldier, I want to warm myself in the fires of hell.
   - I'll see you there, <color=cyan>kingslayer</color>.
   - "<color=cyan>Kingslayer</color>\u2026 yes, thanks for reminding me."
   - The clear blood of the cannibal heralded  <color=red>Roy</color>'s glorious victory,
     in time he would grow accustomed to success in his challenging battles.
   DialogueBR:
-  - "Est\xE1 frio, muito frio... Achei que matar o imperador aliviaria meu sofrimento,
-    mas... acabe com isso soldado, quero me aquecer no fogo do inferno."
+  - "Est\xE1 frio, muito frio... Achei que matar o <color=red>rei</color> aliviaria
+    meu sofrimento, mas... acabe com isso soldado, quero me aquecer no fogo do inferno."
   - "Vejo voc\xEA l\xE1, <color=cyan>regicida</color>."
   - "<color=cyan>Regicida</color>\u2026 sim, obrigado por me lembrar."
   - "O sangue claro do canibal anunciou a gloriosa vit\xF3ria de <color=red>Roy</color>,

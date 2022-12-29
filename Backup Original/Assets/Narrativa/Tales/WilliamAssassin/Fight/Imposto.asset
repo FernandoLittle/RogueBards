@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Today we have a bounty on the head of a warrior, a judge and a border guard.
+  - Today we have a bounty on the head of a judge and a border guard.
   - Which one will you want, William?
   - Have you no bounty on a publican's head?
   - There always is, but I like to hunt myself.
@@ -29,8 +29,7 @@ MonoBehaviour:
   - So I'll get all the publican heads for myself.
   - The next day, William stood before a publican.
   DialogueBR:
-  - "Hoje temos uma recompensa pela cabe\xE7a de um guerreiro, um juiz e um guarda
-    de fronteira."
+  - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
   - "Qual voc\xEA vai querer, William?"
   - "N\xE3o tem nenhuma recompensa na cabe\xE7a de um publicano?"
   - "Sempre tem, mas eu gosto de ca\xE7ar eu mesma."

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Today we have a bounty on the head of a warrior, a judge and a border guard.
+  - Today we have a bounty on the head of a judge and a border guard.
   - Which one will you want, William?
   - What did the border guard do?
   - He did his job. Three young men tried to leave Sarka without a passport, fought
@@ -33,8 +33,7 @@ MonoBehaviour:
   - Don't feel sorry for him, if he starts crying remember that he would put his
     sword on your neck just because you tried to jump over a wall.
   DialogueBR:
-  - "Hoje temos uma recompensa pela cabe\xE7a de um guerreiro, um juiz e um guarda
-    de fronteira."
+  - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
   - "Qual voc\xEA vai querer, William?"
   - O que o guarda da fronteira fez?
   - "Ele fez o trabalho dele. Tr\xEAs jovens tentaram sair de Sarka sem passaporte,

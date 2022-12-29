@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: JorjaIntroAceitar2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - You know what's better than an injection?
+  - Two injections.
+  - You know what's better than two injections?
+  - Three injections.
+  - You know...
+  - Hey boy, calm down, calm down, I'm fine, I'm fine.
+  - Four injections.
+  - Porridge is the free meal the government offers to the hungry.
+  - Five injections.
+  - You stopped feeding your daughter properly to buy injections.
+  - Six injections.
+  - Then you will get injections.
+  - Seven injections.
+  - And you will deserve every one of them.
+  - Eight injections.
+  DialogueBR:
+  - "Sabe o que \xE9 melhor que uma inje\xE7\xE3o?"
+  - "Duas inje\xE7\xF5es."
+  - "Sabe o que \xE9 melhor que duas inje\xE7\xF5es?"
+  - "Tr\xEAs inje\xE7\xF5es."
+  - "Sabe\u2026"
+  - "Ei mo\xE7o, calma, calma, eu to bem, eu to muito bem."
+  - "Quatro inje\xE7\xF5es."
+  - "Mingau \xE9 a refei\xE7\xE3o que o governo oferece de gra\xE7a aos fam\xE9licos."
+  - "Cinco inje\xE7\xF5es."
+  - "Voc\xEA deixou de alimentar sua filha direito para comprar inje\xE7\xF5es."
+  - "Seis inje\xE7\xF5es."
+  - "Ent\xE3o voc\xEA vai ganhar inje\xE7\xF5es."
+  - "Sete inje\xE7\xF5es."
+  - "E voc\xEA vai merecer cada uma delas."
+  - "Oito inje\xE7\xF5es."
+  idchara: 1c0000001c0000001c0000001c0000001c000000230000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c000000
+  instruction: 
+  Cenario: 0

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: "\xD3rg\xE3os"
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Today we have a bounty on the head of a judge and a border guard.
+  - Which one will you want, William?
+  - Don't you have any warriors to kill?
+  - Warriors are a special case, you can kill any warrior and you will receive a
+    reward proportional to his rank.
+  - So I'm going to kill the guy with the highest rank.
+  - In this district, the guy with the highest ranking is Captain Parovy, but you
+    can't kill him.
+  - Why? He is very strong?
+  - A spontaneous laugh came out of Ebu.
+  - Not at all, he's out of shape and with an ever-increasing paunch, I think the
+    higher the warrior ranks, the weaker he becomes.
+  - You can't kill him because he's a nice guy who appreciates a good bribe.
+  - Did the Guild bribe the warriors?
+  - Drug dealers bribed, you think I'm gonna spend my precious money on bribes when
+    I can just kill the motherfucker?
+  - I'll give you a summary of the story. Parovy is a pragmatic guy, he knows that
+    warriors will never be able to defeat drug dealers and assassins, so he made
+    a peace pact.
+  - The warriors will scratch their balls pretending they're working, at most they'll
+    slap a kid selling opium and put him in jail for a couple of days.
+  - In exchange, the dealers give the captain some nice money and the assassins promise
+    not to put on shows
+  - Shows?
+  - Have you ever seen a show? In the good old days of the Guild, we didn't just
+    kill warriors, we chopped them up and scattered the pieces in the public square.
+  - Parovy made it clear that if we did that again he would gather all the warriors
+    and attack us.
+  - It was a reasonable condition because in fact he would be pressured to take action
+    if we continued with the shows.
+  - The hard part was convincing the Lady of Death, she really wants to put on a
+    show.
+  - She's crazy.
+  - If she's crazy by your standards, then she must be scary.
+  - You're right, she's the scariest person in the guild, stay away from her.
+  - Okay, so which warrior do I kill?
+  - Killing a slothful warrior is evil, after all, the lazier they are, the better.
+  - I have an idea. Recently some warriors arrested doctors who trafficked organs,
+    Parovy said he tried to stop them but he couldn't convince these warriors to
+    give up.
+  - Killing them will send an important message.
+  DialogueBR:
+  - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
+  - "Qual voc\xEA vai querer, William?"
+  - "N\xE3o tem nenhum guerreiro pra matar?"
+  - "Guerreiros s\xE3o um caso em especial, voc\xEA pode matar qualquer guerreiro
+    e receber\xE1 uma recompensa proporcional \xE0 hierarquia dele."
+  - "Ent\xE3o eu vou matar o cara com a maior hierarquia."
+  - "Nesse distrito, o cara com a maior hierarquia \xE9 o Capit\xE3o Parovy, mas
+    voc\xEA n\xE3o pode mat\xE1-lo."
+  - "Por qu\xEA? Ele \xE9 muito forte?"
+  - "Uma risada espont\xE2nea saiu de dentro da Ebu."
+  - "Nem um pouco, ele t\xE1 fora de forma e com uma pan\xE7a cada vez maior, acho
+    que quanto maior a hierarquia do guerreiro mais fraco ele se torna."
+  - "Voc\xEA n\xE3o pode mat\xE1-lo porque ele \xE9 um cara legal, gente boa e que
+    sabe apreciar um bom suborno."
+  - A Guilda subornou os guerreiros?
+  - "Os traficantes subornaram, voc\xEA acha que eu vou gastar meu dinheiro precioso
+    com suborno quando eu posso simplesmente matar o filho da puta?\r"
+  - "Vou te dar um resumo da hist\xF3ria. O Parovy \xE9 um cara pragm\xE1tico, ele
+    sabe que os guerreiros nunca conseguir\xE3o derrotar os traficantes e os assassinos,
+    ent\xE3o ele fez um pacto de paz."
+  - "Os guerreiros v\xE3o ficar co\xE7ando o saco fingindo que t\xE3o trabalhando,
+    no m\xE1ximo eles v\xE3o dar uns tapas em um moleque vendendo \xF3pio e bot\xE1-lo
+    na cadeia por uns dois dias."
+  - "Em troca os traficantes d\xE3o um dinheiro bacana pro capit\xE3o e os assassins
+    se comprometem a n\xE3o fazer espet\xE1culos."
+  - "Espet\xE1culos?"
+  - "Voc\xEA nunca viu um espet\xE1culo? Nos bons e velhos tempos da Guilda a gente
+    n\xE3o apenas matava os guerreiros, a gente esquartejava e espalhava os peda\xE7os
+    em pra\xE7a p\xFAblica."
+  - "O Parovy deixou bem claro que se fiz\xE9ssemos isso de novo ele iria reunir
+    todos os guerreiros e  investir contra n\xF3s."
+  - "Foi uma condi\xE7\xE3o razo\xE1vel porque de fato ele seria pressionado a tomar
+    uma atitude se continu\xE1ssemos com os espet\xE1culos."
+  - "O dif\xEDcil foi convencer a Dama da Morte, ela t\xE1 com fogo no rabo pra fazer
+    um espet\xE1culo."
+  - "Ela \xE9 doidinha."
+  - "Se ela \xE9 doida para os seus padr\xF5es, ent\xE3o ela deve ser assustadora."
+  - "Pior que \xE9 verdade, ela \xE9 a pessoa mais assustadora da guilda, fique longe
+    dela."
+  - "Ok, ent\xE3o qual guerreiro eu mato?"
+  - "Matar um guerreiro vagabundo \xE9 maldade, afinal, quanto mais pregui\xE7oso
+    ele for, melhor."
+  - "J\xE1 sei. Recentemente alguns guerreiros prenderam m\xE9dicos que traficavam
+    \xF3rg\xE3os, o Parovy disse que tentou impedi-los mas n\xE3o conseguiu convencer
+    esses guerreiros a desistirem. "
+  - "Mat\xE1-los vai passar um recado importante."
+  idchara: 
+  instruction: 
+  Cenario: 0

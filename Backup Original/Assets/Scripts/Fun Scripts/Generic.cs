@@ -164,4 +164,15 @@ public class Generic : MonoBehaviour
             return false;
         }
     }
+    public bool Boolinha(int a)
+    {
+        if (a == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }

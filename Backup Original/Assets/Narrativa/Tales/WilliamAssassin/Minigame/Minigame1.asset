@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Minigame1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Ebu, William and Maduin were having lunch together. Assassins didn't tend to
+    have many friends, which was exactly why they valued the company of other assassins
+    so much.
+  - This company did not reduce William's loneliness, for the emptiness in his soul
+    was immeasurable. But that loneliness seemed less pathetic when he had people
+    around him.
+  - Ebu, you always eat raw food without any kind of preparation. You don't even
+    cut them, plus you always eat the same thing every day, cucumbers, carrots and
+    lettuce, don't you get tired of it?
+  - "Cooking is heresy, Shu\xE1 created this world and all food for our good."
+  - When we season food we despise the natural flavor of the food.
+  - "The flavor that Shu\xE1 created with all his divine love."
+  - Rather than appreciating the gift of a god, we drown in the hedonism of this
+    world of illusions.
+  - All of this was a lie, she didn't prepare the food she ate out of sheer laziness.
+  - Also, she ate the same thing every day, since since childhood she was a spoiled
+    girl who refused to try different foods and spices.
+  - Maduin realized that she was lying.
+  - I doubt you follow any Shuan religion, and that doesn't explain why you always
+    eat the same thing every day.
+  - "Ok, the real reason is that I like to eat phallic foods, I don't break or cook
+    them because I prefer to eat them hard and whole, because\u2026 because."
+  - Also, since I eat all day, people are not surprised when they find cucumbers
+    and carrots in my room, so they don't suspect that I masturbate with them.
+  - I knew you jerked off with cucumbers! I bet those chains in your room are part
+    of some fetish of yours too.
+  - Those chains remind me of my family because...
+  - Ok! Enough of this conversation, it was a pleasure to have lunch with you, I'm
+    going to do something else far away from here.
+  - How do you prefer to spend your free time?
+  DialogueBR:
+  - "Ebu, William e Maduin estavam almo\xE7ando juntos. Assassinos n\xE3o costumavam
+    ter muitos amigos, exatamente por isso eles valorizavam bastante a companhia
+    de outros assassinos."
+  - "Essa companhia n\xE3o reduzia a solid\xE3o do William, pois o vazio em sua alma
+    era imensur\xE1vel. Por\xE9m essa solid\xE3o parecia menos pat\xE9tica quando
+    ele tinha pessoas ao seu redor."
+  - "Ebu, voc\xEA sempre come alimentos crus sem qualquer tipo de preparo. Voc\xEA
+    nem mesmo corta eles, al\xE9m disso voc\xEA sempre come a mesma coisa todo dia,
+    pepino, cenoura e alface, voc\xEA n\xE3o se cansa?"
+  - "Culin\xE1ria \xE9 uma heresia, Shu\xE1 criou esse mundo e todos os alimentos
+    para o nosso bem."
+  - "Quando temperamos a comida n\xF3s desprezamos o sabor natural dos alimentos."
+  - "O sabor que Shu\xE1 criou com todo o seu amor divino."
+  - "Ao inv\xE9s de apreciarmos o presente de um deus, n\xF3s nos afogamos no hedonismo
+    desse mundo de ilus\xF5es."
+  - "Tudo isso era mentira, ela n\xE3o preparava os alimentos que comia por pura
+    pregui\xE7a."
+  - "Al\xE9m disso, ela comia a mesma coisa todo o dia, pois desde crian\xE7a ela
+    era uma garota mimada que se recusava a experimentar alimentos e temperos diferentes.
+    \r"
+  - 'Maduin percebeu que ela estava mentindo.
+
+'
+  - "Eu duvido que voc\xEA segue alguma religi\xE3o shuana, e isso n\xE3o explica
+    porque voc\xEA sempre come a mesma coisa todo o dia."
+  - "Ok, o real motivo \xE9 que eu gosto de comer alimentos f\xE1licos, eu n\xE3o
+    parto e nem cozinho eles porque eu prefiro comer duro e inteiro, porque\u2026
+    porque sim."
+  - "Al\xE9m disso, j\xE1 que eu como todo o dia, as pessoas n\xE3o estranham quando
+    encontram pepinos e cenouras no meu quarto, ent\xE3o elas n\xE3o suspeitam que
+    eu me masturbo com eles."
+  - "Eu sabia que voc\xEA se masturbava com pepinos! Aposto que aquelas correntes
+    no seu quarto tamb\xE9m fazem parte de algum fetiche seu.\r"
+  - "Aquelas correntes fazem eu me lembrar da minha fam\xEDlia porque\u2026"
+  - "Ok! Basta dessa conversa, foi um prazer almo\xE7ar com voc\xEAs, eu vou fazer
+    alguma outra coisa bem longe daqui.\r"
+  - "Como voc\xEA prefere passar o seu tempo livre?"
+  idchara: 
+  instruction: 
+  Cenario: 0

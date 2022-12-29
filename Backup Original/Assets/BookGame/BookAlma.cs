@@ -19,6 +19,7 @@ public class BookAlma : MonoBehaviour
     public GameObject WrongAnswerGO;
     public GameObject CorrectAnswerGO;
     public GameObject UltraCorrectAnswerGO;
+    public int Idle;
     
     // Start is called before the first frame update
     void Start()
@@ -34,18 +35,21 @@ public class BookAlma : MonoBehaviour
     }
     public void Answer(int choose)
     {
-        if(choose== Books[BookIndex].CorrectAnswer)
-        {
-            CorrectAnswer();
-        }
-        else if(choose == Books[BookIndex].UltraCorrectAnswer)
-        {
-            UltraCorrectAnswer();
-        }
-        else
-        {
-            WrongAnswer();
-        }
+      
+            if (choose == Books[BookIndex].CorrectAnswer)
+            {
+                CorrectAnswer();
+            }
+            else if (choose == Books[BookIndex].UltraCorrectAnswer)
+            {
+                UltraCorrectAnswer();
+            }
+            else
+            {
+                WrongAnswer();
+            }
+        
+     
     }
     public void CorrectAnswer()
     {
@@ -61,31 +65,67 @@ public class BookAlma : MonoBehaviour
     }
     public void CorrectAnswer1()
     {
+
+
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
 
             PlayerPrefs.SetInt("Tale", 1);
 
-        SceneManager.LoadScene("Tales");
+        Idle = PlayerPrefs.GetInt("Idle");
+        if (Idle == 1)
+        {
+          
+
+            SceneManager.LoadScene("Money");
+        }
+        else
+        {
+            SceneManager.LoadScene("Tales");
+        }
+
+ 
 
     }
     public void UltraCorrectAnswer1()
     {
+
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
 
         PlayerPrefs.SetInt("Tale", 2);
 
-        SceneManager.LoadScene("Tales");
+        Idle = PlayerPrefs.GetInt("Idle");
+        if (Idle == 1)
+        {
+
+
+            SceneManager.LoadScene("Money");
+        }
+        else
+        {
+            SceneManager.LoadScene("Tales");
+        }
     }
     public void WrongAnswer1()
     {
+
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
 
         PlayerPrefs.SetInt("Tale", 0);
 
-        SceneManager.LoadScene("Tales");
+        Idle = PlayerPrefs.GetInt("Idle");
+        if (Idle == 1)
+        {
+
+
+            SceneManager.LoadScene("Money");
+        }
+        else
+        {
+            SceneManager.LoadScene("Tales");
+        }
     }
 
 }

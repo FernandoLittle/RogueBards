@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Today we have a bounty on the head of a warrior, a judge and a border guard.
+  - Today we have a bounty on the head of a judge and a border guard.
   - Which one will you want, William?
   - I choose the one that pays better.
   - The staff is paying well in the judge's head.
@@ -29,8 +29,7 @@ MonoBehaviour:
   - I am evil.
   - You're too.
   DialogueBR:
-  - "Hoje temos uma recompensa pela cabe\xE7a de um guerreiro, um juiz e um guarda
-    de fronteira."
+  - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
   - "Qual voc\xEA vai querer, William?"
   - Eu escolho a que pagar melhor.
   - "O pessoal t\xE1 pagando bem na cabe\xE7a do juiz."

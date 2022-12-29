@@ -13,16 +13,27 @@ public class AlmaAdventure : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(IntroCount);
-        if (IntroCount == 0)
+        int a;
+        a= PlayerPrefs.GetInt("Aventura");
+        //Debug.Log(IntroCount);
+        // if (IntroCount == 0)
+        //{
+        if (a == 1)
+        {
+            AdventureActive();
+            PlayerPrefs.SetInt("Aventura", 0);
+        }
+        else
         {
             PlayActive();
         }
-        if (IntroCount > 0)
-        {
-            AdventureActive();
-        }
-        IntroCount += 1;
+        
+      //  }
+      //  if (IntroCount > 0)
+       // {
+          //  AdventureActive();
+      //  }
+       // IntroCount += 1;
     }
     public void PlayActive()
     {
@@ -49,7 +60,17 @@ public class AlmaAdventure : MonoBehaviour
     }
     public void PlayGo()
     {
-        SceneManager.LoadScene("Cubo");
+        int b;
+        b= PlayerPrefs.GetInt("Intro0");
+        if (b == 1)
+        {
+            SceneManager.LoadScene("Cubo");
+        }
+        else
+        {
+            SceneManager.LoadScene("Money");
+        }
+  
     }
 
 }

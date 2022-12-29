@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: JorjaIntro
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - As much as an assassin enjoyed his job, few had Ebu's incredible determination
+    to practice it on a daily basis, many assassins worked as drug dealers routinely
+    and carried out assassinations sporadically.
+  - While William was working as a drug dealer, one of his worst clients arrived,
+    this time with his daughter by his side.
+  - The assassin didn't know what was more repulsive about that child, her scent
+    or the strange black stain on her cheek.
+  - Happiness injection. I need the injection.
+  - No injection until you pay your debts.
+  - Here, here, her name is Jorja, she's yours, you can do whatever you want, just
+    give me the injection.
+  - I'm scared, mom.
+  - I know you're scared! You are afraid of everything! Don't even remind me what
+    you did in front of the angel.
+  - She is well behaved and obedient, I swear she won't throw a tantrum. Please give
+    me the injection.
+  - Please.
+  - Are you selling your daughter in exchange for an injection?
+  - That's right! She's already given me a lot of trouble.Aceitar Recusar
+  DialogueBR:
+  - "Por mais que um assassino gostasse de seu trabalho, poucos tinham a incr\xEDvel
+    determina\xE7\xE3o da Ebu para pratic\xE1-lo diariamente, muitos assassinos trabalhavam
+    como traficantes de drogas rotineiramente e realizavam assassinatos esporadicamente.\r\n"
+  - "Enquanto William trabalhava como traficante, uma de suas piores clientes chegou,
+    dessa vez com sua filha ao seu lado. \r"
+  - "O assassino n\xE3o sabia o que era mais repulsivo naquela crian\xE7a, seu cheiro
+    ou a estranha mancha preta em sua bochecha."
+  - "Inje\xE7\xE3o da felicidade. Eu preciso da inje\xE7\xE3o."
+  - "Sem inje\xE7\xE3o enquanto voc\xEA n\xE3o pagar suas d\xEDvidas."
+  - "Aqui, aqui, o nome dela \xE9 Jorja, ela \xE9 sua, voc\xEA pode fazer o que quiser,
+    s\xF3 me d\xEA a inje\xE7\xE3o."
+  - "Eu estou com medo, m\xE3e."
+  - "Eu sei que voc\xEA est\xE1 com medo! Voc\xEA tem medo de tudo! Nem me lembre
+    do que voc\xEA fez na frente do anjo"
+  - "Ela \xE9 comportada e obediente, juro que n\xE3o vai fazer birra. Por favor,
+    me d\xEA a inje\xE7\xE3o."
+  - Por favor.
+  - "Voc\xEA est\xE1 vendendo sua filha em troca de inje\xE7\xE3o?"
+  - "Isso! Ela j\xE1 me deu muito problema."
+  idchara: 000000000000000000000000230000001c00000023000000220000002300000023000000230000001c00000023000000
+  instruction: 
+  Cenario: 0

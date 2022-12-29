@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: JorjaExtra1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Want to listen to a horror story before bed?
+  - No, I want to hear a princess story.
+  - Princess stories are boring, I want to tell a horror story.
+  - But I want to hear a princess story!
+  - Ok, you won.
+  - Once upon a time there was a princess who... dated a monster.
+  - This monster knew the secrets of this world.
+  - Was the princess beautiful?
+  - Yeah, she was hot as fuck.
+  - And the monster?
+  - I don't know.
+  - The monster was capable of being beautiful, as it could freely control its appearance.
+  - Where was I?
+  - The monster knew the Truth and the Lie.
+  - 'And the monster said: Blah, blah, blah, humans and... Buh!'
+  - Ebu made a strange face.
+  - Did you get scared?
+  - No.
+  - Bah!
+  - And now?
+  - Ebu made an even weirder face and Jorja laughed.
+  - It's for you to be scared, not for you to laugh. I have an idea! The monster
+    did this.
+  - Ebu moved forward tickling Jorja.
+  - Ebu is getting along well with Jorja, don't you think, Maduin?
+  - The story you told about Jorja's mother reminded Ebu of his own father.
+  - Damn, so she had a pretty shitty dad.
+  - I think she grew up with people who didn't care about her, so Ebu acts like she
+    doesn't care about others.
+  - But I truly believe she has genuine affection for us, even if she rarely shows
+    it.
+  - Maduin heard Ebu speak a list of curse words.
+  - Damn, she's teaching the girl to swear again. I better go there.
+  DialogueBR:
+  - "Quer ouvir uma hist\xF3ria de terror antes de dormir?"
+  - "N\xE3o, eu quero ouvir uma hist\xF3ria de princesa."
+  - "Hist\xF3rias de princesas s\xE3o chatas, eu quero contar uma hist\xF3ria de
+    terror."
+  - "Mas eu quero ouvir uma hist\xF3ria de princesa!"
+  - "Ok, voc\xEA ganhou."
+  - "Era uma vez uma princesa que\u2026 namorava um monstro."
+  - Esse monstro conhecia os segredos deste mundo.
+  - A princesa era bonita?
+  - Sim, ela era gostosa pra caralho.
+  - E o monstro?
+  - "Sei l\xE1."
+  - "O monstro era capaz de ser bonito, j\xE1 que ele podia controlar livremente
+    sua apar\xEAncia."
+  - Onde que eu estava?
+  - O monstro conhecia a Verdade e a Mentira.
+  - "E o monstro falava: Bl\xE1, bl\xE1, bl\xE1, humanos e\u2026 Buh!"
+  - Ebu fez uma careta estranha.
+  - "Voc\xEA tomou susto?"
+  - "N\xE3o."
+  - Bah!
+  - E agora?
+  - Ebu fez uma careta ainda mais estranha e Jorja deu uma risada.
+  - "\xC9 pra voc\xEA ficar com medo, e n\xE3o pra voc\xEA rir. J\xE1 sei! O monstro
+    fazia assim."
+  - "Ebu avan\xE7ou fazendo c\xF3cegas na Jorja."
+  - "Ebu est\xE1 se dando bem com a Jorja n\xE3o acha, Maduin?"
+  - "A hist\xF3ria que voc\xEA contou sobre a m\xE3e da Jorja fez a Ebu se lembrar
+    do pr\xF3prio pai."
+  - "Caramba, ent\xE3o ela tinha um pai bem merda."
+  - "Eu acho que ela cresceu em um ambiente de pessoas que n\xE3o se importavam com
+    ela, ent\xE3o a Ebu age como se n\xE3o se importasse com os outros."
+  - "Mas eu realmente acredito que ela sente um afeto genu\xEDno por n\xF3s, mesmo
+    que ela raramente demonstre."
+  - "Maduin escutou Ebu falar uma lista de palavr\xF5es."
+  - "Droga, ela est\xE1 ensinando a garota a falar palavr\xF5es de novo. \xC9 melhor
+    eu ir l\xE1. "
+  idchara: 01000000220000000100000022000000010000000100000001000000220000000100000022000000010000000000000001000000010000000100000000000000010000002200000001000000010000000000000001000000000000001c0000001f0000001c0000001f0000001f000000000000001f000000
+  instruction: 
+  Cenario: 0

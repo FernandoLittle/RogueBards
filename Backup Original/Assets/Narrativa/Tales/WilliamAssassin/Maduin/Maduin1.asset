@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Maduin1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - The ephemerality of life brought an indescribable anguish to William's soul.
+  - To think that his existence would end forever was a terrifying idea for him,
+    but the music Maduin played changed his perspective on ephemerality.
+  - That song would soon come to an end and become a unique moment in Akasha's memories.
+    It was a wonderful experience to hear the melody, feel a damp wind on his skin,
+    smell the herbs around him and balance Mana through breathing.
+  - Realizing the value of air, the most common symbol of ephemerality, William began
+    to imagine the brevity of his life as a rare gem.
+  - What made his existence special on the akashic plane was precisely the rarity
+    of his life and those special moments.
+  - '"I''m happy? This is not right".'
+  - '"I must not forget why I joined the Guild."'
+  - What did you think of this song?
+  - I didn't think much of it.
+  - Oh, I'm sorry...
+  - Every wind had a feeling in Maduin's opinion. According to him, the Mana determined
+    the nature of the wind, a summer breeze could be a boon to one who was at peace
+    with himself, while the same wind would be torturous to those who rejected the
+    flow of the world.
+  - Maduin's instruments were stored under a sad, lonely wind.
+  - "No\u2026"
+  - I lied.
+  - "The music was beautiful, it made me really\u2026 happy."
+  - "\u201CWhy am I saying this?\u201D"
+  - Then it's your turn to play, William.
+  DialogueBR:
+  - "A efemeridade da vida trazia uma ang\xFAstia indescrit\xEDvel para a alma de
+    William."
+  - "Pensar que sua exist\xEAncia terminaria para sempre era uma ideia aterrorizante
+    para ele, mas a m\xFAsica que Maduin tocava mudou sua perspectiva sobre a efemeridade."
+  - "Aquela m\xFAsica logo teria um fim e se tornaria um momento \xFAnico nas mem\xF3rias
+    de Akasha. Era uma experi\xEAncia maravilhosa ouvir a melodia, sentir um vento
+    \xFAmido em sua pele, cheirar as ervas ao seu redor e equilibrar o Mana atrav\xE9s
+    da respira\xE7\xE3o."
+  - "Percebendo o valor do ar, s\xEDmbolo mais comum da efemeridade, William come\xE7ou
+    a imaginar a brevidade de sua vida como uma joia rara."
+  - "O que tornava sua exist\xEAncia especial no plano ak\xE1shico era justamente
+    a raridade de sua vida e daqueles momentos especiais."
+  - "\u201CEu estou feliz? Isso n\xE3o est\xE1 certo\u201D."
+  - "\u201CN\xE3o devo me esquecer do motivo de eu ter me juntado \xE0 Guilda\u201D."
+  - "O que voc\xEA achou dessa m\xFAsica?"
+  - "N\xE3o achei nada de especial."
+  - "Oh, eu sinto muito\u2026 "
+  - "Cada vento tinha um sentimento na opini\xE3o de Maduin. Segundo ele, o Mana
+    determinava a natureza do vento, uma brisa de ver\xE3o poderia ser uma d\xE1diva
+    para quem estivesse em paz consigo mesmo, enquanto o mesmo vento seria torturante
+    para aqueles que rejeitassem o fluxo do mundo."
+  - "Os instrumentos de Maduin foram guardados sob um vento triste e solit\xE1rio."
+  - "N\xE3o\u2026"
+  - Eu menti.
+  - "A m\xFAsica estava linda, ela me deixou realmente\u2026 feliz."
+  - "\u201CPor que eu estou falando isso?\u201D"
+  - "Ent\xE3o \xE9 a sua vez de tocar, William."
+  idchara: 
+  instruction: 
+  Cenario: 0

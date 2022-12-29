@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Maduin2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - One feeling that always accompanied William was loneliness.
+  - It was a definitely strange feeling because the more people around him, the more
+    lonely he felt.
+  - But when he was alone with Maduin his feeling of loneliness disappeared.
+  - "\u201CMy life is completely miserable, so many things were stolen from me and\u2026
+    I just wanted to have a normal life with my family.\u201D"
+  - "\u201CFor some reason I forget what I'm missing when I'm with Maduin. Do I feel...
+    fulfillment? Does that word exist?\u201D"
+  - What did you think of this song?
+  - Does the word <i>fulfillment</i> exist?
+  - I think so.
+  - So that's what I felt, fulfillment.
+  - Is my song really that beautiful?
+  - Song? I wasn't paying attention, it was just her presence that made me feel complete.
+  - Maduin didn't know how to respond for a few seconds, on the one hand his music
+    was despised, on the other hand he felt extremely praised.
+  - He only knew how to react in one way to such an absurd situation.
+  - He laughed.
+  - It's your turn to play, William.
+  DialogueBR:
+  - "Um sentimento que sempre acompanhou William era a solid\xE3o."
+  - "Era uma sensa\xE7\xE3o definitivamente estranha porque quanto mais pessoas estivessem
+    ao redor dele, mais ele se sentia solit\xE1rio.\r"
+  - "Por\xE9m quando ele estava a s\xF3s com Maduin seu sentimento de solid\xE3o
+    desaparecia."
+  - "\u201CA minha vida \xE9 completamente miser\xE1vel, tantas coisas me foram roubadas
+    e\u2026 eu s\xF3 queria ter uma vida normal com a minha fam\xEDlia.\u201D"
+  - "\u201CMas por algum motivo eu esque\xE7o daquilo que me falta quando estou ao
+    lado do Maduin. Eu sinto\u2026 completude? Essa palavra existe?\u201D"
+  - "O que voc\xEA achou dessa m\xFAsica?"
+  - A palavra <i>completude</i>  existe?
+  - Acho que sim.
+  - "Ent\xE3o foi isso que eu senti, completude."
+  - "S\xE9rio que minha m\xFAsica foi t\xE3o bela?"
+  - "M\xFAsica? Eu n\xE3o estava prestando aten\xE7\xE3o nela, foi s\xF3 a sua presen\xE7a
+    que me fez sentir completude."
+  - "Maduin ficou alguns segundos sem saber como responder, por um lado sua m\xFAsica
+    foi desprezada, por outro lado ele se sentiu extremamente elogiado."
+  - "Ele s\xF3 sabia reagir de uma forma diante de uma situa\xE7\xE3o t\xE3o absurda."
+  - Ele riu.
+  - "\xC9 a sua vez de tocar, William."
+  idchara: 
+  instruction: 
+  Cenario: 0

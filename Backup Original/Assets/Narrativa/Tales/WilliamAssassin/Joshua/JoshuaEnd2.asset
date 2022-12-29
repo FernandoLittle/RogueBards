@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: JoshuaEnd2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Are you going to kick me out of the Guild for killing a rapist?
+  - The way you talk makes me sound like a bad person, I love killing rapists, it's
+    really fun maiming them alive.
+  - The way you talk makes you sound bad, the Guild Document makes it clear that
+    assassins must not be sadists.
+  - William, William, William, that's exactly the problem, the Guild Document, you
+    take it toooo seriously.
+  - Shouldn't I take him seriously since he's the Guild's founding text?
+  - You're thinking like a warrior, I'll tell you something that will blow your mind.
+  - The Assassins Guild is a company.
+  - So what?
+  - Didn't I blow your mind? You will see, by the end of this conversation your mind
+    will explode.
+  - What was I talking about?
+  - "You were\u2026"
+  - I remembered, the Guild is a company.
+  - A company does not submit to ethics, a set of values or anything like that, a
+    company submits to its customers, because they are the ones who put money on
+    the table.
+  - The warrior is different, as his salary comes from taxes, he doesn't need to
+    please any customers.
+  - Then he can cling to useless laws, ethics and abstractions, because the money
+    is going to fall into his pocket no matter what he does.
+  - You killed a rapist, that's cool and you followed the Guild Document, beautiful.
+  - But you killed our biggest client's son.
+  - In short, the problem is money.
+  - Exactly! Joshua put money on the table, as we don't charge taxes, we can't kill
+    our customers, simple as that.
+  - You have to see that we work at the service of a demand.
+  - That demand is freedom, Sarka inherited Sangla's love of freedom and Kuvira was
+    unable to change that.
+  - "So\u2026"
+  - "\u2026"
+  - What was I talking about?
+  - Tell me what I need to do to stay in the Guild, maybe I can work without the
+    dealers knowing, what do you think?
+  - Why do you want to be a killer?
+  - "Because\u2026"
+  - Because I want to defend freedom.
+  - Tell the truth, William Ulbricht.
+  - I'm telling the truth.
+  - Wait, how do you know my last name?
+  - You just want to stay in the Guild because you think you'll find your father's
+    killer here.
+  - How do you know that?
+  - I always knew, kid, you were lying the whole time and I played dumb because you
+    were a good assassin.
+  - Now the theater is over, give up your revenge and leave.
+  - Yes, the theater is over. Now that I don't have to lie, I can resolve things
+    more directly.
+  - Much of William's life was spent on his revenge plan, seeing that his plan was
+    doomed to failure from the start made him feel dead inside.
+  - In a few moments, frustration turned to despair and despair turned to foolishness.
+  - 'E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:'
+  - If you don't tell me who my father's assassin is, I will kill you, and it will
+    be a very painful death, so I suggest that...
+  - Ebu's angelic weapon caused William to die quickly and painlessly.
+  - What an idiot, who keeps talking in the middle of a fight?
+  - It wasn't exactly a fight though.
+  - Damn it! Now the floor is covered in blood and Maduin will be pissed at me if
+    he finds out I killed his boyfriend.
+  - Where do I bury this son of a bitch?
+  DialogueBR:
+  - "Voc\xEA vai me expulsar da Guilda por matar um estuprador?"
+  - "O jeito que voc\xEA fala me faz parecer uma pessoa m\xE1, adoro matar estupradores,
+    \xE9 muito divertido mutilar eles vivos."
+  - "O jeito  que voc\xEA fala te faz parecer m\xE1, o Documento da Guilda deixa
+    bem claro que assassinos n\xE3o devem ser s\xE1dicos.\r"
+  - "William, William, William, \xE9 exatamente esse o problema, o Documento da Guilda,
+    voc\xEA o leva muito a s\xE9rio."
+  - "Eu n\xE3o deveria lev\xE1-lo a s\xE9rio j\xE1 que ele \xE9 o texto fundador
+    da Guilda?"
+  - "Voc\xEA est\xE1 pensando como um guerreiro, eu vou te falar uma coisa que vai
+    explodir sua mente."
+  - "A Guilda de Assassinos \xE9 uma empresa."
+  - "E da\xED?"
+  - "Eu n\xE3o explodi sua mente? Voc\xEA vai ver, at\xE9 o fim dessa conversa sua
+    mente vai explodir."
+  - Do que eu estava falando?
+  - "Voc\xEA estava\u2026"
+  - "Lembrei, a Guilda \xE9 uma empresa."
+  - "Uma empresa n\xE3o se submete a uma \xE9tica, a um conjunto de valores ou coisa
+    do tipo, uma empresa se submete aos seus clientes, porque eles que botam dinheiro
+    na mesa."
+  - "O guerreiro \xE9 diferente, como o sal\xE1rio dele vem dos impostos, ele n\xE3o
+    precisa agradar nenhum cliente. "
+  - "Ent\xE3o ele pode se apegar a leis, \xE9ticas e abstra\xE7\xF5es in\xFAteis,
+    porque o dinheiro vai cair no bolso dele, n\xE3o importa o que ele fa\xE7a."
+  - "Voc\xEA matou um estuprador, isso \xE9 legal e voc\xEA seguiu o Documento da
+    Guilda, lindo."
+  - "Mas voc\xEA matou o filho do nosso maior cliente."
+  - "Em resumo, o problema \xE9 dinheiro."
+  - "Exatamente! Joshua botava dinheiro na mesa, como n\xF3s n\xE3o cobramos impostos,
+    n\xF3s n\xE3o podemos matar os nossos clientes, simples assim.\r"
+  - "Voc\xEA tem que ver que trabalhamos a servi\xE7o de uma demanda."
+  - "Essa demanda \xE9 a liberdade, Sarka herdou o amor pela liberdade de Sangla
+    e Kuvira foi incapaz de mudar isso."
+  - "Ent\xE3o\u2026"
+  - "\u2026"
+  - Do que eu estava falando?
+  - "Diga-me o que eu preciso fazer para continuar na Guilda, talvez eu possa trabalhar
+    sem que os traficantes saibam, o que voc\xEA acha?\r\n"
+  - "Por que voc\xEA quer ser um assassino?\r"
+  - "Porque\u2026\r"
+  - Porque eu quero defender a liberdade.
+  - Diga a verdade, William Ulbricht.
+  - Eu estou dizendo a verdade.
+  - "Espere um pouco, como voc\xEA sabe meu sobrenome?\r"
+  - "Voc\xEA apenas quer continuar na Guilda porque acha que ir\xE1 encontrar o assassino
+    do seu pai aqui."
+  - "Como voc\xEA sabe disso?"
+  - "Eu sempre soube, moleque, voc\xEA esteve mentindo o tempo todo e eu me fingi
+    de boba porque voc\xEA era um bom assassino."
+  - "Agora o teatro acabou, desista da sua vingan\xE7a e v\xE1 embora."
+  - "Sim, o teatro acabou. Agora que eu n\xE3o preciso mentir, eu posso resolver
+    as coisas de maneira mais direta."
+  - "Muito tempo da vida de William foi gasto no seu plano de vingan\xE7a, ver que
+    seu plano estava fadado ao fracasso desde o in\xEDcio o fez se sentir morto por
+    dentro."
+  - "Em alguns instantes a frustra\xE7\xE3o se transformou em desespero e o desespero
+    se transformou em tolice.\r"
+  - "E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:\r"
+  - "Se voc\xEA n\xE3o me contar quem \xE9 o assassino do meu pai eu irei te matar,
+    e ser\xE1 uma morte bem dolorosa, ent\xE3o eu sugiro que\u2026"
+  - "A arma angelical de Ebu fez com que William morresse de maneira r\xE1pida e
+    indolor."
+  - "Que idiota, quem que fica falando no meio de uma luta?\r"
+  - "Apesar que isso n\xE3o foi exatamente uma luta."
+  - "Droga! Agora o ch\xE3o est\xE1 todo sujo de sangue e o Maduin vai ficar puto
+    comigo se descobrir que eu matei o namoradinho dele. "
+  - "Onde que eu enterro esse filho da puta?\r"
+  idchara: 1c000000010000001c000000010000001c00000001000000010000001c00000001000000010000001c0000000100000001000000010000000100000001000000010000001c0000000100000001000000010000000100000001000000010000001c000000010000001c0000001c000000010000001c0000001c000000010000001c00000001000000010000001c0000000000000000000000000000001c0000000000000001000000010000000100000001000000
+  instruction: 
+  Cenario: 0

@@ -1378,6 +1378,9 @@ MonoBehaviour:
   BackGround: {fileID: 842420747}
   language: 0
   Pray1GO: {fileID: 285290118}
+  Timer: 0
+  EndTimer: 2000
+  Idle: 0
 --- !u!4 &1848741175
 Transform:
   m_ObjectHideFlags: 0

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Joshua Inicio
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - I want to put a bounty on Harold's head.
+  - Ok, what crime did he commit?
+  - He raped me.
+  - Oh, I'm sorry.
+  - This is a complicated crime, most victims have no evidence.
+  - Can you prove it?
+  - Harold himself confessed to his friends, the whole neighborhood already knows
+    about it.
+  - "Hm\u2026 Ok, I've already killed people with minor evidence, but I'll have to
+    check later. How much do you pay?"
+  - Three silver tigers.
+  - It's a low price, if no assassin takes the job you can recoup your pay next season.
+  - What is the guy's full name?
+  - Harold Proust.
+  - Harold Proust... Is that Joshua Proust's son?
+  - Yes.
+  - Are you kidding me, nobody calls this guy Harold, everybody knows him as Joshua's
+    son.
+  - I don't know if you know, but the main trading partner of the Guild is Joshua,
+    do you want me to kill his son in exchange for three silver coins?
+  - You are the only ones who can help me.
+  - My daughter, we kill for money, if you want someone who fights in the name of
+    justice, look for a warrior.
+  - You know they won't do anything.
+  - Look, I feel sorry for you, ok?
+  - I don't want to appear colluding with a rapist so...
+  - I have an idea, don't tell anyone, I'll give you a dagger, seduce him or something
+    and cut his dick off. It's more fun than having someone else do the work for
+    you.
+  - They will kill me if I do this.
+  - Be creative, take him to a deserted place, kill him there and no one will find
+    out. I had another idea, take him to a cemetery, young people nowadays like to
+    fuck there, you take advantage of it and bury it later, nobody will find the
+    body.
+  - As William listened to this conversation from beginning to end, he knew at once
+    that Harold was to blame for Rose's death when Rose turned up dead ten days later.
+  - Thirsty for justice, he drew his dagger and went to murder Joshua's son.
+  DialogueBR:
+  - "Eu quero botar uma recompensa na cabe\xE7a do Harold."
+  - Ok, qual crime ele cometeu?
+  - Ele me estuprou.
+  - Oh, eu sinto muito.
+  - "Esse \xE9 um crime complicado, a maioria das v\xEDtimas n\xE3o tem provas."
+  - "Voc\xEA consegue provar?"
+  - "O pr\xF3prio Harold confessou pros amigos dele, o bairro inteiro j\xE1 est\xE1
+    sabendo disso."
+  - "Hm\u2026 Ok, eu j\xE1 matei pessoas com provas menores, mas vou ter que verificar
+    depois. Quanto voc\xEA paga?"
+  - "Tr\xEAs tigres de prata."
+  - "\xC9 um pre\xE7o baixo, se nenhum assassino aceitar o trabalho voc\xEA pode
+    recuperar seu pagamento na pr\xF3xima esta\xE7\xE3o."
+  - "Qual \xE9 o nome completo do cara?"
+  - Harold Proust.
+  - "Harold Proust\u2026 Esse \xE9 o filho do Joshua Proust?"
+  - Sim.
+  - "Voc\xEA t\xE1 brincando comigo, ningu\xE9m chama esse cara de Harold, todo mundo
+    o conhece como filho do Joshua.\r"
+  - "N\xE3o sei se voc\xEA sabe, mas o principal parceiro comercial da Guilda \xE9
+    o Joshua, voc\xEA quer que eu mate o filho dele em troca de tr\xEAs moedas de
+    prata?"
+  - "Voc\xEAs s\xE3o os \xFAnicos que podem me ajudar."
+  - "Minha filha, n\xF3s matamos por dinheiro, se voc\xEA quiser algu\xE9m que lute
+    em nome da justi\xE7a, procure um guerreiro."
+  - "Voc\xEA sabe que eles n\xE3o v\xE3o fazer nada."
+  - "Olha, eu sinto muito por voc\xEA, ok?"
+  - "Eu n\xE3o quero parecer conivente com estuprador ent\xE3o\u2026"
+  - "J\xE1 sei, n\xE3o conte pra ningu\xE9m, eu vou te dar uma adaga de presente,
+    seduz ele ou algo do tipo e corta o pau dele fora. \xC9 mais divertido do que
+    mandar algu\xE9m fazer o trabalho por voc\xEA."
+  - "Eles v\xE3o me matar se eu fizer isso.\r"
+  - "Seja criativa, leva ele pra um lugar deserto, mata ele l\xE1 e ningu\xE9m vai
+    descobrir. J\xE1 sei, leva ele em um cemit\xE9rio, os jovens de hoje em dia gostam
+    de foder l\xE1, voc\xEA aproveita e j\xE1 enterra depois, ningu\xE9m vai achar
+    o corpo.\r\n"
+  - "Como William ouviu essa conversa do in\xEDcio ao fim, ele soube de imediato
+    que Harold era o culpado pela morte de Rose quando esta apareceu morta dez dias
+    depois.\r"
+  - "Com sede de justi\xE7a ele sacou sua adaga e foi assassinar o filho de Joshua."
+  idchara: 2300000001000000230000000100000001000000010000002300000001000000230000000100000001000000230000000100000023000000010000000100000023000000010000002300000001000000010000000100000023000000010000000000000000000000
+  instruction: 
+  Cenario: 0

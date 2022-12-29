@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Joshua Duelo1
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - "A friend of yours was kidnapped, his name starts with \u201Cma\u201D and ends
+    with \u201Cduin\u201D."
+  - Has Maduin been kidnapped? How can you say that so calmly?
+  - I am very calm, after all, everything is working out, under normal conditions
+    the drug dealers would have declared war against the Assassins Guild and you
+    would have been quartered in the public square.
+  - Did you think everything would be okay after you killed Joshua's son? Did you
+    think everyone would make up and life would go on as normal?
+  - "\u2026"
+  - The drug dealers will release Maduin on one condition, you will have to participate
+    in a duel to the death against Joshua.
+  - A duel to the death?
+  - Yes, it's been years since I've seen a duel, I'll bet some money on your victory.
+  - If I win, will everything go back to normal?
+  - Of course not, you will be kicked out of the Assassins Guild, but what matters
+    is that the dealers will stop bothering me.
+  - ...
+  - And Maduin will be released, that is also important.
+  - Will I be expelled for complying with Guild laws?
+  - What laws? We are not warriors, we are assassins, William.
+  - Yes, but that doesn't change the fact that we have to obey the rules of the Guild
+    Document.
+  - William, the Guild Document was written by an idiot, haven't you noticed that
+    the Document is badly written as fuck?
+  - We'll solve it later, you have to prepare for a fight to the death, did you forget?
+  - Or will you abandon Maduin?
+  - I would never abandon him.
+  - The menacing tone in Ebu's voice didn't allow William to give any other answer.
+  DialogueBR:
+  - "Um amigo seu foi sequestrado, o nome dele come\xE7a com \u201Cma\u201D e termina
+    com \u201Cduin\u201D."
+  - "O Maduin foi sequestrado? Como voc\xEA consegue dar uma noticias dessa com tanta
+    calma?"
+  - "Eu estou muito calma, afinal tudo est\xE1 dando certo, em condi\xE7\xF5es normais
+    os traficantes teriam declarado guerra contra a Guilda de Assassinos e voc\xEA
+    estaria esquartejado em pra\xE7a p\xFAblica.\r"
+  - "Voc\xEA achou que tudo ficaria bem depois que voc\xEA matasse o filho de Joshua?
+    Voc\xEA achou que todos fariam as pazes e a vida continuaria normalmente?"
+  - "\u2026"
+  - "Os traficantes de drogas ir\xE3o libertar Maduin com uma condi\xE7\xE3o, voc\xEA
+    ter\xE1 que participar de um duelo at\xE9 a morte contra Joshua."
+  - "Um duelo at\xE9 a morte?"
+  - "Sim, faz anos que eu n\xE3o presencio um duelo, vou apostar um dinheiro na sua
+    vit\xF3ria.\r"
+  - "Se eu ganhar, tudo voltar\xE1 ao normal?\r"
+  - "Claro que n\xE3o, voc\xEA ser\xE1 expulso da Guilda de Assassinos, mas o que
+    importa \xE9 que os traficantes v\xE3o parar de encher o meu saco."
+  - ...
+  - "E o Maduin ser\xE1 libertado, isso tamb\xE9m \xE9 importante."
+  - Eu serei expulso por cumprir as leis da Guilda?
+  - "Que leis? N\xF3s n\xE3o somos guerreiros, n\xF3s somos assassinos, William."
+  - "Sim, mas isso n\xE3o muda o fato de que  temos que cumprir as regras do Documento
+    da Guilda."
+  - "William, o documento da guilda foi escrito por um idiota, voc\xEA n\xE3o reparou
+    que o Documento \xE9 mal escrito pra caralho?\r"
+  - "A gente resolve isso depois, voc\xEA tem que se preparar para uma luta at\xE9
+    a morte, esqueceu?"
+  - "Ou voc\xEA vai abandonar o Maduin?"
+  - Eu jamais abandonaria ele.
+  - "O tom amea\xE7ador na voz da Ebu n\xE3o permitia que William desse qualquer
+    outra resposta."
+  idchara: 010000001c00000001000000010000001c000000010000001c000000010000001c0000000100000001000000010000001c000000010000001c0000000100000001000000010000001c00000000000000
+  instruction: 
+  Cenario: 0

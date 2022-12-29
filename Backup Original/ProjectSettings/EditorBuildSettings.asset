@@ -27,8 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Result.unity
     guid: 00377640858013d4cba92b2266b1424b
   - enabled: 1
+    path: Assets/Scenes/Money.unity
+    guid: 061c74f0eb3ae854793a30713cc41a26
+  - enabled: 1
     path: Assets/Scenes/Song.unity
     guid: f68ff580ad9bb0e46a42056e14a6cb61
+  - enabled: 1
+    path: Assets/Scenes/Pray.unity
+    guid: df610404b34b6d9498bfc27e1a316a67
   - enabled: 1
     path: Assets/Scenes/BookGame.unity
     guid: e615c147f7ce3f04f80ac6d8ec12f5a5

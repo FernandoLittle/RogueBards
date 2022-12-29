@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: DrogasEnd
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Justice always wins.
+  - One day you will be arrested, assassin.
+  - I have fought my entire life for Sarka's law, even after I die others will inherit
+    my purpose.
+  - Because the law is above everything.
+  - Have you finished your speech?
+  - "\u2026"
+  - I agree , you know?
+  - The law is above all, unfortunately my law condemns criminals like you with the
+    death penalty.
+  - What are you talking about? I never committed a single crime in my life.
+  - Your law says you are an honest worker who sent criminal drug dealers to jail.
+  - But my law says that those dealers were honest workers who were kidnapped on
+    the orders of a criminal judge who calls himself the guardian of justice.
+  - The law is nothing more than the will of the strong.
+  - And my strength gave me the right to impose my laws on you.
+  DialogueBR:
+  - "A justi\xE7a sempre vence."
+  - "Um dia voc\xEA ser\xE1 preso, assassino."
+  - "Eu lutei minha vida inteira pela lei de Sarka, mesmo depois que eu morrer outros
+    herdar\xE3o meu prop\xF3sito.\r"
+  - "Porque a lei est\xE1 acima de tudo."
+  - "J\xE1 terminou seu discurso?"
+  - "\u2026"
+  - "Eu concordo com voc\xEA, sabia?"
+  - "A lei est\xE1 acima de tudo, infelizmente a minha lei prev\xEA a pena de morte
+    para criminosos como voc\xEA. "
+  - "Do que voc\xEA est\xE1 falando? Eu nunca cometi um \xFAnico crime na minha vida."
+  - "A sua lei diz que voc\xEA \xE9 um trabalhador honesto que mandou traficantes
+    criminosos para a cadeia."
+  - "Mas a minha lei diz que aqueles traficantes eram trabalhadores honestos que
+    foram sequestrados pelas ordens de um juiz criminoso que se intitula guardi\xE3o
+    da justi\xE7a."
+  - "A lei nada mais \xE9 do que a vontade dos fortes."
+  - "E a minha for\xE7a me deu o direito de impor minhas leis sobre voc\xEA."
+  idchara: 
+  instruction: 
+  Cenario: 0

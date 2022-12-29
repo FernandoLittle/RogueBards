@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Maduin3
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - <i>Surprise</i> was the word that best defined what William felt when he heard
+    that song, the skill that Maduin had with the flute was definitely impressive.
+  - That sound was not only beautiful, it also brought a sense of harmony towards
+    the world. Feeling the wind on his face, William contemplated the immensity of
+    the world and at the same time felt part of it.
+  - All this thanks to that music.
+  - Thanks to those soft lips gently blowing a flute.
+  - Are you okay William? You look kind of mesmerized.
+  - I was just thinking... about that leaf, about nature... That's it! I'm thinking
+    of nature and your music, good combination.
+  - Maduin gave a sweet laugh.
+  - You are beautiful when you feel ashamed.
+  - I'm not feeling ashamed. Why would I?
+  - Want to learn to play? Maduin approached his face and brought his flute to William's
+    lips.
+  - Why would I learn to play? I am an assassin, not a bard.
+  - A lot of assassins work as bards in their spare time, the former guild leader
+    became a bard after he retired, you know?
+  - What's the point in that? What music has to do with murder?
+  - The essence of music is in the feelings it arouses. Murder, war, justice and
+    music, it's all about feelings.
+  - 'Normally William would scoff or criticize an idea he found as strange as this
+    one. But some feeling was growing inside him and that feeling made him ask:'
+  - Why?
+  - Think of a war. Why does one side kill the other? Does each soldier have an extremely
+    different view of morals, politics or justice from the enemy to the point where
+    they are willing to kill or be killed?
+  - I think not. What makes someone believe in a moral or a cause is not reason or
+    logic, but fear or another very special feeling.
+  - Think of our fight against the warriors. Warriors and assassins promote their
+    respective wills by arousing the feeling of fear. People avoid breaking guild
+    laws and Sarka's laws, simply because they fear death.
+  - But there is another feeling that guides people, the feeling that bards cultivate,
+    the feeling that beautiful music awakens, the feeling that I like best.
+  - The word feeling echoed over and over in William's head, as if he had to solve
+    a riddle.
+  - That feeling is passion.
+  - "Maybe\u2026"
+  - Alright, I'll try to learn to play.
+  DialogueBR:
+  - "<i>Surpresa</i> era a palavra que melhor definia o que William sentiu ao ouvir
+    aquela m\xFAsica, a habilidade que Maduin tinha com a flauta era definitivamente
+    impressionante."
+  - "Aquele som n\xE3o era apenas belo, ele tamb\xE9m trazia um sentimento de harmonia
+    em rela\xE7\xE3o ao mundo. Ao sentir o vento em seu rosto, William contemplou
+    a imensid\xE3o do mundo e ao mesmo tempo se sentiu parte dele."
+  - "Tudo isso gra\xE7as \xE0quela m\xFAsica."
+  - "Gra\xE7as \xE0queles l\xE1bios macios soprando gentilmente uma flauta."
+  - "Tudo bem William? Voc\xEA parece meio hipnotizado."
+  - "Eu s\xF3 estava pensando\u2026 nessa folha, na natureza\u2026 Isso! Eu estou
+    pensando na natureza e na sua m\xFAsica, boa combina\xE7\xE3o."
+  - Maduin deu uma risada doce.
+  - "Voc\xEA fica bonito quando sente vergonha."
+  - "Eu n\xE3o estou sentindo vergonha. Por que eu sentiria?"
+  - "Quer aprender a tocar? Maduin aproximou seu rosto e levou sua flauta at\xE9
+    os l\xE1bios de William."
+  - "Por que eu iria aprender a tocar? Eu sou um assassino, n\xE3o um bardo."
+  - "Muitos assassinos trabalham como bardos nas horas vagas, o ex-l\xEDder da guilda
+    se tornou um bardo depois que se aposentou, sabia?"
+  - "Qual o sentido nisso? O que m\xFAsica tem a ver com assassinato?"
+  - "A ess\xEAncia da m\xFAsica est\xE1 nos sentimentos que ela desperta. Assassinato,
+    guerra, justi\xE7a e m\xFAsica, tudo isso \xE9 sobre sentimentos."
+  - "Normalmente William zombava ou criticava uma ideia que achava t\xE3o estranha
+    quanto esta. Mas algum sentimento estava crescendo dentro dele e esse sentimento
+    o fez perguntar:"
+  - "Por qu\xEA?"
+  - "Pense em uma guerra. Por que um lado mata o outro? Ser\xE1 que cada soldado
+    possui uma vis\xE3o sobre moral, pol\xEDtica ou justi\xE7a extremamente diferente
+    do inimigo a ponto deles estarem dispostos a matarem ou morrerem?\r\n"
+  - "Eu acho que n\xE3o. O que faz algu\xE9m acreditar em uma moral ou em uma causa
+    n\xE3o \xE9 a raz\xE3o ou a l\xF3gica, e sim o medo ou um outro sentimento muito
+    especial."
+  - "Pense na nossa luta contra os guerreiros. Os guerreiros e assassinos promovem
+    suas respectivas vontades despertando o sentimento de medo. As pessoas evitam
+    descumprir as leis da guilda e as leis de Sarka, simplesmente porque elas temem
+    a morte.\r"
+  - "Mas existe outro sentimento que guia as pessoas, o sentimento que os bardos
+    cultivam, o sentimento que uma m\xFAsica bela desperta, o sentimento que eu mais
+    gosto."
+  - "A palavra sentimento ecoava v\xE1rias vezes na cabe\xE7a de William, como se
+    ele tivesse que solucionar um enigma."
+  - "Esse sentimento \xE9 a paix\xE3o."
+  - "Talvez\u2026 "
+  - Tudo bem, eu vou tentar aprender a tocar.
+  idchara: 
+  instruction: 
+  Cenario: 0

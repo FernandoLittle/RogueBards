@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: End3
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - No matter how beautiful something is, everything in this world will decay before
+    the sands of time.
+  - An example of this funny fact was the door of Simon Derrida's house. As good
+    as the quality of the oak was and as good as the carpenter who carved it was,
+    time has not forgiven it.
+  - It wasn't just time that didn't forgive her, with a single kick William knocked
+    down that door, Simon Derrida who was reading the book "Reflections on the Democracy
+    of Sangla" got up terrified and ran towards the room where he kept his weapons
+    as if he were a child running towards his parents after being startled by thunder.
+  - Today is the day of your death Simon Derrida, I have waited a long time to avenge
+    my family.
+  - Rather than charging his opponent furiously, William continued with his uninteresting
+    speech, allowing Simon to prepare for the fight.
+  DialogueBR:
+  - "N\xE3o importa o qu\xE3o belo algo seja, tudo neste mundo ir\xE1 decair diante
+    das areias do tempo. "
+  - "Exemplo deste fato divertido era a porta da casa de Simon Derrida. Por melhor
+    que fosse a qualidade do carvalho e por melhor que fosse o carpinteiro que a
+    talhou, o tempo n\xE3o a perdoou."
+  - "N\xE3o foi s\xF3 o tempo que n\xE3o a perdoou, com um \xFAnico chute William
+    derrubou aquela porta, Simon Derrida que estava lendo o livro \"Reflex\xF5es
+    sobre a Democracia de Sangla\" levantou-se apavorado e correu em dire\xE7\xE3o
+    ao quarto onde guardava seu armas como se fosse uma crian\xE7a correndo em dire\xE7\xE3o
+    aos pais ap\xF3s ser surpreendida por um trov\xE3o."
+  - "Hoje \xE9 o dia de sua morte Simon Derrida, eu esperei por muito tempo para
+    vingar a minha fam\xEDlia."
+  - "Ao inv\xE9s de investir furiosamente contra seu advers\xE1rio, William continuou
+    com seu discurso desinteressante, permitindo que Simon se preparasse para a luta."
+  idchara: 0000000000000000000000001c00000000000000
+  instruction: 
+  Cenario: 0

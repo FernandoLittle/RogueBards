@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SoulPray : MonoBehaviour
 {
@@ -22,20 +23,77 @@ public class SoulPray : MonoBehaviour
     public Image BackGround;
     public int language;
     public GameObject Pray1GO;
-
+    public int Timer;
+    public int EndTimer;
+    public int Idle;
 
     private void Start()
     {
         language = PlayerPrefs.GetInt("Language");
         NextTale();
+        Timer = 0;
 
 
+    }
+    private void FixedUpdate()
+    {
+        Timer += 1;
+        if (Timer > EndTimer)
+        {
+            EndPray();
+        }
     }
     private void Update()
     {
         if (Pray2.text.Length == Pray.text.Length)
         {
             ResultPray();
+        }
+    }
+    public void EndPray()
+    {
+        Idle = PlayerPrefs.GetInt("Idle");
+        if (Idle == 1)
+        {
+         
+
+            if (score >= Gap2)
+            {
+                PlayerPrefs.SetInt("Tale", 2);
+            }
+            else if (score >= Gap1)
+            {
+                PlayerPrefs.SetInt("Tale", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Tale", 0);
+            }
+
+            SceneManager.LoadScene("Money");
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Batalha", 1);
+            PlayerPrefs.SetInt("IdList", 2);
+           
+            
+            if (score >= Gap2)
+            {
+                PlayerPrefs.SetInt("Tale", 2);
+            }
+            else if (score >= Gap1)
+            {
+                PlayerPrefs.SetInt("Tale", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Tale", 0);
+            }
+
+
+
+            SceneManager.LoadScene("Tales");
         }
     }
     public void ResultPray()

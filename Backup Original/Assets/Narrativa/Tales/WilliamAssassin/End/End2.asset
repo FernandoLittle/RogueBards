@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: End2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Fear.
+  - After William landed several blows, Maduin continued unabated.
+  - Fear.
+  - William was very afraid.
+  - He felt that Maduin could easily destroy him with a single blow.
+  - Fear paralyzed his body and he felt completely helpless as Maduin gripped his
+    shoulder.
+  - Relief.
+  - In a single instant he was completely relieved.
+  - Maduin was crying pathetically. The idea that his punches had no effect was an
+    irrational illusion. He managed to completely subdue Maduin in that fight.
+  - I felt the hate of each of your punches.
+  - I will hand you Roy's letter of execution.
+  DialogueBR:
+  - 'Medo. '
+  - "Ap\xF3s William desferir v\xE1rios golpes, Maduin continuava inabal\xE1vel."
+  - 'Medo. '
+  - William sentiu muito medo.
+  - "Ele sentiu que Maduin poderia destru\xED-lo facilmente com um \xFAnico golpe."
+  - O medo paralisou o seu corpo e ele se sentiu completamente impotente quando Maduin
+    agarrou o seu ombro.
+  - "Al\xEDvio."
+  - "Em um \xFAnico instante ele ficou completamente aliviado."
+  - "Maduin estava chorando pateticamente. A ideia de que seus socos n\xE3o surtiam
+    efeito era uma ilus\xE3o irracional. Ele conseguiu subjugar Maduin completamente
+    naquela luta.\r"
+  - "Eu senti o \xF3dio de cada um dos seus socos."
+  - "Eu irei te entregar a carta de execu\xE7\xE3o do seu pai."
+  idchara: 0000000000000000000000000000000000000000000000000000000000000000000000001f0000001f000000
+  instruction: 
+  Cenario: 0

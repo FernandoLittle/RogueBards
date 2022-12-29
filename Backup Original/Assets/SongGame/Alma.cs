@@ -16,6 +16,7 @@ public class Alma : MonoBehaviour
     public float MinY;
     public bool Starto;
     public ScoreJudge ScoreJudge;
+    public int Idle;
     // Start is called before the first frame update
 
     private void FixedUpdate()
@@ -60,24 +61,47 @@ public class Alma : MonoBehaviour
     }
     public void END()
     {
-        PlayerPrefs.SetInt("Batalha", 1);
-        PlayerPrefs.SetInt("IdList", 2);
-        if (ScoreJudge.RealScore > 3000)
+        Idle = PlayerPrefs.GetInt("Idle");
+        if (Idle == 1)
         {
-            PlayerPrefs.SetInt("Tale", 2);
-        }
-        else if (ScoreJudge.RealScore > 2000)
-        {
-            PlayerPrefs.SetInt("Tale", 1);
+      
+            if (ScoreJudge.RealScore > 3000)
+            {
+                PlayerPrefs.SetInt("Tale", 2);
+            }
+            else if (ScoreJudge.RealScore > 2000)
+            {
+                PlayerPrefs.SetInt("Tale", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Tale", 0);
+            }
+            SceneManager.LoadScene("Money");
         }
         else
         {
-            PlayerPrefs.SetInt("Tale", 0);
+            PlayerPrefs.SetInt("Batalha", 1);
+            PlayerPrefs.SetInt("IdList", 2);
+            if (ScoreJudge.RealScore > 3000)
+            {
+                PlayerPrefs.SetInt("Tale", 2);
+            }
+            else if (ScoreJudge.RealScore > 2000)
+            {
+                PlayerPrefs.SetInt("Tale", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Tale", 0);
+            }
+
+
+
+
+            SceneManager.LoadScene("Tales");
         }
 
-
-
-
-        SceneManager.LoadScene("Tales");
+       
     }
 }

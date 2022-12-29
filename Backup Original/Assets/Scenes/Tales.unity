@@ -9186,7 +9186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1658684109
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10705,8 +10705,8 @@ MonoBehaviour:
   - {fileID: 0}
   CardList:
   - {fileID: 11400000, guid: 30b9bbb4348caee47a38d5c561c530d9, type: 2}
-  - {fileID: 11400000, guid: 30b9bbb4348caee47a38d5c561c530d9, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 09adb7bbd2b714948a54bdbe73668c7a, type: 2}
+  - {fileID: 11400000, guid: 74b03cf2ea17a854a9fd73d50d50a9e0, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -10735,10 +10735,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a211b2e35c3efd24db01c1e836d960ba, type: 2}
   - {fileID: 0}
   - {fileID: 11400000, guid: d19457de2424ec9439d0607ffc6f81e2, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: afd5e2f9520e3604787f36a6c190717e, type: 2}
   - {fileID: 11400000, guid: 68b839ac1be1a5340bf3cc5cef90db21, type: 2}
   - {fileID: 11400000, guid: 825d298d657f9ae4c867d92a5d17bfbd, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 14e684b4abe5ff64d8d583119a954a1f, type: 2}
+  - {fileID: 11400000, guid: 254ce756747d4fa4ab5ce385980efddc, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
+  - {fileID: 11400000, guid: b92f83e6023b36947ab8bc6d90bae7e3, type: 2}
   Cenario: {fileID: 1160618085}
   TalesVariables: {fileID: 1369339507}
   IlustrationChange: 0

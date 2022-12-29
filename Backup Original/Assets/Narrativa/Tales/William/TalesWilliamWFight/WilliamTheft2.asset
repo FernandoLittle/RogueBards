@@ -32,6 +32,7 @@ MonoBehaviour:
     <color=purple>William</color> said to the <color=yellow>thief</color> with his
     pants down.
   - Look on the bright side, your dick saved the lives of several hostages.
+  - "One year later, <color=yellow>Capit\xE3o Parovy</collor> was brutally murdered."
   DialogueBR:
   - "Ap\xF3s alguns minutos de luta, os ladr\xF5es foram subjugados, mas alguns deles
     conseguiram fazer ref\xE9ns."
@@ -52,6 +53,7 @@ MonoBehaviour:
     cessarem <color=purple>William</color> disse ao <color=yellow>ladr\xE3o</color>
     com as cal\xE7as arriadas."
   - "Olhe pelo lado bom, seu pau salvou a vida de v\xE1rios ref\xE9ns."
-  idchara: 00000000000000001c0000001c0000001c000000000000001c000000000000001c000000000000001c000000
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
+  - "Um ano depois, <color=yellow>Capit\xE3o Parovy</color> foi brutalmente assassinado.\r"
+  idchara: 00000000000000001c0000001c0000001c000000000000001c000000000000001c000000000000001c00000000000000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
   Cenario: 11

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: EndMadinPerde
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - <color=#FF0080>Shua Cries</color>
+  - This blow is the negation of all the teachings of Shua. It suits you very well.
+  - I will hand you Roy's letter of execution.
+  DialogueBR:
+  - "<color=#FF0080>Shu\xE1 Chora</color>"
+  - "Esse golpe \xE9 a nega\xE7\xE3o de todos os ensinamentos de Shu\xE1. Isso combina
+    muito bem com voc\xEA.\r\n"
+  - "Eu te entregarei a carta de execu\xE7\xE3o do seu pai."
+  idchara: 1f0000001f0000001f000000
+  instruction: 
+  Cenario: 0

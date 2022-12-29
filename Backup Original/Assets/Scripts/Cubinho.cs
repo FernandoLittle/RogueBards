@@ -160,7 +160,7 @@ public class Cubinho : MonoBehaviour
     }
     public void AdventureGOGOGO()
     {
-        SceneManager.LoadScene("Adventure");
+        SceneManager.LoadScene("Money");
     }
 
 }

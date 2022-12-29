@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: JorjaExtra2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - I had the chance to be a gift for the angel, but I was afraid, I'm very afraid.
+  - You did well, we wouldn't become friends if you became a gift.
+  - "I\u2026 I don't want to die, I want to play with you, I\u2026"
+  - I want to learn how to cook.
+  - I want to live.
+  - Why can't I live?
+  DialogueBR:
+  - Eu tive a chance de ser um presente para o anjinho, mas eu tive medo, eu sou
+    muito medrosa.
+  - "Voc\xEA fez bem, n\xF3s n\xE3o virar\xEDamos amigos se voc\xEA se tornasse um
+    presente.\r\n"
+  - "Eu\u2026 eu n\xE3o quero morrer, eu quero brincar com voc\xEAs, eu\u2026"
+  - Eu quero aprender a cozinhar.
+  - Eu quero viver.
+  - "Por que eu n\xE3o posso viver?"
+  idchara: 220000001f00000022000000220000002200000022000000
+  instruction: 
+  Cenario: 0
