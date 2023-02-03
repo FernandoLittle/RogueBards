@@ -25,27 +25,28 @@ MonoBehaviour:
   - We drug dealers aren't kind, but we have a motto.
   - "Endless love for our family\u2026"
   - "\u2026and endless hatred for our enemies"
-  - Exactly, William Ulbricht is my real enemy, I kidnapped you just so he would
-    agree to duel with me.
+  - Exactly, <color=purple>William</color> is my real enemy, I kidnapped you just
+    so he would agree to duel with me.
   - However the Assassins Guild is not my enemy and I do not wish the enmity of Belmont
     Ebu. Will you accept my apology for arresting you?
   - It's okay, after all we're all arrested.
-  - It wasn't ok for Maduin, after all he feared that William would die in the duel,
-    but he ignored this because he wanted to talk about the path of enlightenment.
+  - It wasn't ok for <color=#FF0080>Maduin</color>, after all he feared that <color=purple>William</color>
+    would die in the duel, but he ignored this because he wanted to talk about the
+    path of enlightenment.
   - Whenever he could, he tried to appear wise in displaying his reflections on this
     topic.
   - What do you mean?
   - We are tied to the concept of wealth, glory and power. We pursue it all the time
     thinking that we will achieve peace and happiness in this way.
-  - Joshua, you are a man who has achieved everything people want. Despite growing
-    up in poverty, you ended up building an empire.
+  - <color=blue>Joshua</color>, you are a man who has achieved everything people
+    want. Despite growing up in poverty, you ended up building an empire.
   - Did the money and power you gained bring you peace or did it just make you more
     thirsty for new conquests?
   - I have a comfortable life today and am proud of the empire I've built.
   - But I think I understand what you mean, young man, I was never satisfied with
     my accomplishments, instead I just sought to reach even higher goals.
   - I only realized everything I had when I lost it.
-  - I wish I had spent more time with Harold.
+  - I wish I had spent more time with <color=purple>Harold</color>.
   - I'm sorry for your loss.
   - "How did that Shuana poetry say? \u201CAn enlightened man appreciates the music
     of the universe and the silence of his own soul.\u201D Do you know what that
@@ -55,6 +56,7 @@ MonoBehaviour:
   - How could I accept this world after my son died? How could I accept who I am
     after wasting so many moments I could have with him?
   - I don't know.
+  - <color=blue>Joshua</color> began to cry.
   DialogueBR:
   - "Voc\xEA foi bem tratado?"
   - "N\xE3o sabia que traficantes eram t\xE3o gentis quando realizavam sequestros,
@@ -67,20 +69,22 @@ MonoBehaviour:
   - "N\xF3s traficantes n\xE3o somos gentis, mas n\xF3s temos um lema."
   - "Amor infinito para a nossa fam\xEDlia\u2026"
   - "\u2026e \xF3dio infinito para os nossos inimigos."
-  - "Exatamente, William Ulbricht \xE9 meu verdadeiro inimigo, eu te sequestrei apenas
-    para que ele aceitasse duelar comigo.\r"
+  - "Exatamente, <color=purple>William</color> \xE9 meu verdadeiro inimigo, eu te
+    sequestrei apenas para que ele aceitasse duelar comigo.\r"
   - "Entretanto a Guilda de Assassinos n\xE3o \xE9 minha inimiga e eu n\xE3o desejo
     a inimizade da Belmont Ebu. Voc\xEA aceita meu pedido de desculpas por te prender?\r"
   - "Est\xE1 tudo bem, afinal todos estamos presos."
-  - "N\xE3o estava tudo bem para Maduin, afinal ele temia que William morresse no
-    duelo, mas ele ignorou isso porque queria discursar sobre o caminho da ilumina\xE7\xE3o. "
+  - "N\xE3o estava tudo bem para <color=#FF0080>Maduin</color>, afinal ele temia
+    que <color=purple>William</color> morresse no duelo, mas ele ignorou isso porque
+    queria discursar sobre o caminho da ilumina\xE7\xE3o. "
   - "Sempre que podia, ele tentava parecer s\xE1bio ao exibir suas reflex\xF5es sobre
     esse tema.\r\n"
   - "Como assim?\r"
   - "N\xF3s estamos presos ao conceito de riqueza, gl\xF3ria e poder. N\xF3s buscamos
     isso o tempo todo achando que alcan\xE7aremos a paz e a felicidade dessa forma.\r\n"
-  - "Joshua, voc\xEA \xE9 um homem que conseguiu tudo aquilo que as pessoas almejam.
-    Apesar de ter crescido na pobreza, voc\xEA acabou construindo um imp\xE9rio."
+  - "<color=blue>Joshua</color>, voc\xEA \xE9 um homem que conseguiu tudo aquilo
+    que as pessoas almejam. Apesar de ter crescido na pobreza, voc\xEA acabou construindo
+    um imp\xE9rio."
   - "O dinheiro e o poder que voc\xEA conquistou te trouxe paz ou apenas te deixou
     mais sedento por novas conquistas?\r"
   - "Eu tenho uma vida confort\xE1vel hoje e me orgulho do imp\xE9rio que constru\xED.\r\n"
@@ -88,16 +92,18 @@ MonoBehaviour:
     com minhas realiza\xE7\xF5es, ao inv\xE9s disso eu apenas busquei atingir metas
     ainda mais elevadas.\r\n"
   - "Eu s\xF3 percebi tudo o que eu tinha quando perdi."
-  - Eu queria ter passado mais tempo com o Harold.
+  - Eu queria ter passado mais tempo com o <color=purple>Harold</color>.
   - "Sinto muito por sua perda.\r"
   - "Como que aquela poesia shuana dizia? \u201CUm homem iluminado aprecia a m\xFAsica
     do universo e o sil\xEAncio da pr\xF3pria alma\u201D. Voc\xEA sabe o que isso
     significa?"
+  - "Se n\xE3o me engano, significa que a felicidade est\xE1 em aceitar quem voc\xEA
+    \xE9 e o mundo ao seu redor."
   - "Como eu poderia aceitar este mundo ap\xF3s meu filho morrer? Como eu poderia
     aceitar quem eu sou ap\xF3s ter desperdi\xE7ado tantos momentos que eu poderia
     ter com ele?\r"
   - "Eu n\xE3o sei."
-  - "Joshua come\xE7ou a chorar."
-  idchara: 240000001f000000240000001f000000240000002400000024000000240000001f00000024000000240000001f0000000000000000000000240000001f0000001f0000001f000000240000002400000024000000240000001f00000024000000240000001f00000000000000
+  - "<color=blue>Joshua</color> come\xE7ou a chorar."
+  idchara: 240000001f000000240000001f000000240000002400000024000000240000001f00000024000000240000001f0000000000000000000000240000001f0000001f0000001f000000240000002400000024000000240000001f000000240000001f000000240000001f00000000000000
   instruction: 
   Cenario: 0

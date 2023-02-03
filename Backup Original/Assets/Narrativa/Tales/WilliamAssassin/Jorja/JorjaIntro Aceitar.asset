@@ -16,19 +16,19 @@ MonoBehaviour:
   Dialogue:
   - What's your favorite food, kid?
   - Corn porridge.
-  - William found this answer strange.
+  - <color=purple>William</color> found this answer strange.
   - Does your mother make you porridge?
   - No, I eat at the restaurant.
-  - Get inside that house. You may meet a man named Maduin. He will make porridge
-    for you.
+  - Get inside that house. You may meet a man named <color=#FF0080>Maduin</color>.
+    He will make porridge for you.
   DialogueBR:
   - "Qual a sua comida preferida, crian\xE7a?"
   - Mingau de milho.
-  - William estranhou essa resposta.
+  - <color=purple>William</color> estranhou essa resposta.
   - "Sua m\xE3e faz mingau para voc\xEA?"
   - "N\xE3o, eu como no restaurante."
-  - "Entre l\xE1 dentro. Voc\xEA vai encontrar um homem chamado Maduin. Ele vai fazer
-    mingau para voc\xEA."
+  - "Entre l\xE1 dentro. Voc\xEA vai encontrar um homem chamado <color=#FF0080>Maduin</color>.
+    Ele vai fazer mingau para voc\xEA."
   idchara: 1c00000022000000000000001c000000220000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000
   Cenario: 0

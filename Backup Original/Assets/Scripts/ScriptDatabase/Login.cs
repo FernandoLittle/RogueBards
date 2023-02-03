@@ -45,7 +45,7 @@ public class Login : MonoBehaviour
             id = int.Parse(Generic.CodeLyoko(www.text, 2));
             PlayerPrefs.SetInt("id", id);
             PlayerPrefs.SetInt("score", score1);
-            SceneManager.LoadScene("Deckbuilding");
+            //SceneManager.LoadScene("Deckbuilding");
         }
     }
 

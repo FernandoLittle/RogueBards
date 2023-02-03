@@ -15,12 +15,12 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Today we have a bounty on the head of a judge and a border guard.
-  - Which one will you want, William?
+  - Which one will you want, <color=purple>William</color>?
   - I choose the one that pays better.
   - The staff is paying well in the judge's head.
   - Weird, I don't find it that difficult to eliminate them.
   - The drug dealers who are paying. Remember, the Guild's main objective is to sow
-    fear in Sarka.
+    fear in <color=yellow>Sarka</color>.
   - People have already naturalized the death of warriors, but when a judge dies,
     everyone is shocked.
   - The truth is that the lives of judges are worth more, after all they are rich
@@ -30,12 +30,12 @@ MonoBehaviour:
   - You're too.
   DialogueBR:
   - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
-  - "Qual voc\xEA vai querer, William?"
+  - "Qual voc\xEA vai querer, <color=purple>William</color>?"
   - Eu escolho a que pagar melhor.
   - "O pessoal t\xE1 pagando bem na cabe\xE7a do juiz."
   - "Eu n\xE3o acho t\xE3o dif\xEDcil elimin\xE1-los."
   - "Os traficantes que est\xE3o pagando. Lembre-se, o principal objetivo da Guilda
-    \xE9 semear o medo em Sarka."
+    \xE9 semear o medo em <color=yellow>Sarka</color>."
   - "As pessoas j\xE1 naturalizaram a morte de guerreiros, mas quando morre um juiz,
     todo mundo fica chocado."
   - "A verdade \xE9 que a vida dos ju\xEDzes vale mais, afinal eles s\xE3o ricos
@@ -43,6 +43,6 @@ MonoBehaviour:
   - "Voc\xEA fala cada coisa m\xE1, Ebu."
   - "Eu sou m\xE1."
   - "Voc\xEA tamb\xE9m \xE9."
-  idchara: 
+  idchara: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

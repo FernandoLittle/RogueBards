@@ -16,53 +16,54 @@ MonoBehaviour:
   Dialogue:
   - It was a beautiful spring morning with a cloudless blue sky. On that beautiful
     day the assassins woke up hearing the screams of a child.
-  - William, Ebu is calling us.
+  - <color=purple>William</color>, Ebu is calling us.
   - Ebu was sitting with a sad face and looking at an injection.
   - The flowers that bloomed at the beginning of the season looked really beautiful
     in the sunlight.
   - The time has come. Charlotte has reached her final stage.
-  - Say your last words to Jorja, I will end her suffering.
+  - Say your last words to <color=#FF0080>Jorja</color>, I will end her suffering.
   - Not. I will give the injection, that responsibility is mine.
-  - Silently, Ebu handed the injection to William.
+  - Silently, Ebu handed the injection to <color=purple>William</color>.
   - Birdsong was a very pleasant sound to hear in the morning, unfortunately the
     annoying screams of a child did not allow the assassins to hear the birds.
-  - Gathered in Jorja's room, the assassins raised their voices in an attempt to
-    be heard in the midst of so much screaming.
+  - Gathered in <color=#FF0080>Jorja</color>'s room, the assassins raised their voices
+    in an attempt to be heard in the midst of so much screaming.
   - I start.
-  - Jorja, thank you for the moments you were with us, you were loved by all of us
-    and we will always remember you fondly.
-  - Jorja, you suffered more than all of us and yet you managed to smile. You are
-    a strong child.
+  - <color=#FF0080>Jorja</color>, thank you for the moments you were with us, you
+    were loved by all of us and we will always remember you fondly.
+  - <color=#FF0080>Jorja</color>, you suffered more than all of us and yet you managed
+    to smile. You are a strong child.
   - You are stronger than everyone in this room.
-  - William couldn't say a single word because his past taught him that speeches
-    were useless in this kind of situation.
+  - <color=purple>William</color> couldn't say a single word because his past taught
+    him that speeches were useless in this kind of situation.
   - After all, the dead don't care about the feelings of the living.
   - That blue sky was really beautiful.
   DialogueBR:
   - "Era uma linda manh\xE3 de primavera com um c\xE9u azul sem nuvens. Nesse belo
     dia os assassinos acordaram ouvindo os gritos de uma crian\xE7a."
-  - "William, Ebu est\xE1 nos chamando."
+  - "<color=purple>William</color>, Ebu est\xE1 nos chamando."
   - "Ebu estava sentada com um semblante triste e olhando para uma inje\xE7\xE3o."
   - "As flores que desabrocharam no in\xEDcio da esta\xE7\xE3o ficavam realmente
     lindas sob a luz do sol."
   - "Chegou a hora. A Charlotte atingiu seu est\xE1gio final. "
-  - "Digam as suas \xFAltimas palavras para a Jorja, eu irei acabar com o sofrimento
-    dela. "
+  - "Digam as suas \xFAltimas palavras para a <color=#FF0080>Jorja</color>, eu irei
+    acabar com o sofrimento dela. "
   - "N\xE3o. Eu irei aplicar a inje\xE7\xE3o, essa responsabilidade \xE9 minha."
-  - "Em sil\xEAncio, Ebu entregou a inje\xE7\xE3o para William."
+  - "Em sil\xEAncio, Ebu entregou a inje\xE7\xE3o para <color=purple>William</color>."
   - "O canto dos p\xE1ssaros era um som muito agrad\xE1vel de se ouvir pela manh\xE3,
     infelizmente os gritos irritantes de uma crian\xE7a n\xE3o permitiram que os
     assassinos escutassem os p\xE1ssaros."
-  - Reunidos no quarto de Jorja, os assassinos elevaram a voz na tentativa de serem
-    ouvidos em meio a tantos gritos.
+  - Reunidos no quarto de <color=#FF0080>Jorja</color>, os assassinos elevaram a
+    voz na tentativa de serem ouvidos em meio a tantos gritos.
   - "Eu come\xE7o."
-  - "Jorja, obrigado pelos momentos em que voc\xEA esteve conosco, voc\xEA foi amada
-    por todos n\xF3s e sempre nos lembraremos com carinho de voc\xEA."
-  - "Jorja, voc\xEA sofreu mais do que todos n\xF3s e mesmo assim voc\xEA conseguia
-    sorrir. Voc\xEA \xE9 uma crian\xE7a forte."
+  - "<color=#FF0080>Jorja</color>, obrigado pelos momentos em que voc\xEA esteve
+    conosco, voc\xEA foi amada por todos n\xF3s e sempre nos lembraremos com carinho
+    de voc\xEA."
+  - "<color=#FF0080>Jorja</color>, voc\xEA sofreu mais do que todos n\xF3s e mesmo
+    assim voc\xEA conseguia sorrir. Voc\xEA \xE9 uma crian\xE7a forte."
   - "Voc\xEA \xE9 mais forte do que todos os que est\xE3o nessa sala."
-  - "William n\xE3o conseguiu dizer uma \xFAnica palavra porque seu passado o ensinou
-    que discursos eram in\xFAteis nesse tipo de situa\xE7\xE3o.\r"
+  - "<color=purple>William</color> n\xE3o conseguiu dizer uma \xFAnica palavra porque
+    seu passado o ensinou que discursos eram in\xFAteis nesse tipo de situa\xE7\xE3o.\r"
   - "Afinal, os mortos n\xE3o se importam com os sentimentos dos vivos."
   - "Aquele c\xE9u azul era realmente lindo."
   idchara: 000000001f000000000000000000000002000000020000001c0000000000000000000000000000001f0000001f0000000200000002000000000000000000000000000000

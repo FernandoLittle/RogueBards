@@ -15,9 +15,10 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - This is all my fault, I couldn't teach my son to be a good person.
-  - I understand your sense of justice William Ulbricht, I even admire it, but a
-    father will always love his son, he will always protect him, he will always avenge
-    him. Even if he becomes a rapist. Maybe one day you will understand that.
+  - I understand your sense of justice <color=purple>William</color>, I even admire
+    it, but a father will always love his son, he will always protect him, he will
+    always avenge him. Even if he becomes a rapist. Maybe one day you will understand
+    that.
   - I understand.
   - But I don't hate you, do you hate me?
   - No, I never hated your son either, the only person I hated was my father's murderer,
@@ -26,9 +27,10 @@ MonoBehaviour:
   DialogueBR:
   - "Tudo isso \xE9 culpa minha, eu n\xE3o consegui ensinar meu filho a ser uma boa
     pessoa. "
-  - "Eu entendo seu senso de justi\xE7a Willian Ulbricht, at\xE9 admiro, por\xE9m
-    um pai sempre vai amar seu filho, sempre vai proteg\xEA-lo, sempre vai ving\xE1-lo.
-    Mesmo que ele se torne um estuprador. Talvez um dia voc\xEA entenda isso.\r\n"
+  - "Eu entendo seu senso de justi\xE7a <color=purple>William</color>, at\xE9 admiro,
+    por\xE9m um pai sempre vai amar seu filho, sempre vai proteg\xEA-lo, sempre vai
+    ving\xE1-lo. Mesmo que ele se torne um estuprador. Talvez um dia voc\xEA entenda
+    isso.\r\n"
   - Eu entendo.
   - "Entretanto eu n\xE3o te odeio, voc\xEA me odeia?"
   - "N\xE3o, eu tamb\xE9m nunca odiei seu filho, a \xFAnica pessoa que eu odiei foi

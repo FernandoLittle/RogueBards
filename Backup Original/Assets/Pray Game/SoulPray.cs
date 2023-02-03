@@ -26,7 +26,7 @@ public class SoulPray : MonoBehaviour
     public int Timer;
     public int EndTimer;
     public int Idle;
-
+    public GodCube GodCube;//x
     private void Start()
     {
         language = PlayerPrefs.GetInt("Language");
@@ -55,7 +55,7 @@ public class SoulPray : MonoBehaviour
         Idle = PlayerPrefs.GetInt("Idle");
         if (Idle == 1)
         {
-         
+            int buda;
 
             if (score >= Gap2)
             {
@@ -69,8 +69,19 @@ public class SoulPray : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Tale", 0);
             }
+            buda = PlayerPrefs.GetInt("Buda");
+            if (buda == 1)
+            {
+                GodCube.TakeScreenshot("Adventure");
+                //SceneManager.LoadScene("Adventure");
+            }
+            else
+            {
+                GodCube.TakeScreenshot("Money");
+                //SceneManager.LoadScene("Money");
 
-            SceneManager.LoadScene("Money");
+            }
+
         }
         else
         {
@@ -92,8 +103,8 @@ public class SoulPray : MonoBehaviour
             }
 
 
-
-            SceneManager.LoadScene("Tales");
+            GodCube.TakeScreenshot("Tales");
+            //SceneManager.LoadScene("Tales");
         }
     }
     public void ResultPray()

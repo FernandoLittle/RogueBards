@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SetStuff : MonoBehaviour
 {
+    public GodCube GodCube;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,7 @@ public class SetStuff : MonoBehaviour
     }
     public void Play()
     {
-        SceneManager.LoadScene("Battle");
+        GodCube.TakeScreenshot("Battle");
+        //SceneManager.LoadScene("Battle");
     }
 }

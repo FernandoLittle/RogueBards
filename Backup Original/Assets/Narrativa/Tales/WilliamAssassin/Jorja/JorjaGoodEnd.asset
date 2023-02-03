@@ -15,42 +15,45 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Did she get better? It's not possible.
-  - Seeing Jorja walking made Ebu completely perplexed.
-  - "But you prayed to Shu\xE1, it was a miracle."
+  - Seeing  <color=#FF0080>Jorja</color> walking made Ebu completely perplexed.
+  - "But you prayed to  <color=#FF0080>Shu\xE1</color>, it was a miracle."
   - "Shu\xE1 cannot cure Charlotte's disease. Your case has to be studied by scientists,
     it will change everything we know about this disease."
   - Did I make a wrong diagnosis? Or have you been affected by a different variant
     of the disease?
   - Ebu, how about you celebrate with us and think about it later?
-  - Good idea, drink is on me today, do you drink wine, Jorja?
+  - Good idea, drink is on me today, do you drink wine,  <color=#FF0080>Jorja</color>?
   - Have common sense, Ebu.
-  - You're boring, Maduin. Fuck it, I'll make some food then.
+  - You're boring, <color=#FF0080>Maduin</color>. Fuck it, I'll make some food then.
   - What do you want to eat?
   - I want corn porridge.
-  - Go to hell, Jorja, corn porridge is beggar's food.
+  - Go to hell,  <color=#FF0080>Jorja</color>, corn porridge is beggar's food.
   - "I'm going to make you a chocolate cake with grapes and\u2026 and some strawberries,
     it's gonna be fucked up."
   - 'At the next season:'
-  - Today I'm taking you to an orphanage, Jorja, there are lots of kids like you
-    there.
+  - Today I'm taking you to an orphanage,  <color=#FF0080>Jorja</color>, there are
+    lots of kids like you there.
   - I don't want to go to the orphanage, I want to stay with you, why don't you adopt
     me?
-  - Jorja, over at...
-  - A high-pitched, irritating scream from a spoiled girl interrupted Maduin's speech.
+  - ' <color=#FF0080>Jorja</color>, over at...'
+  - A high-pitched, irritating scream from a spoiled girl interrupted <color=#FF0080>Maduin</color>'s
+    speech.
   - Don't you like me?
   - Of course we like it, but we can't adopt you, there at the orphanage you will
     find new parents who will adopt you.
-  - Maduin is lying.
-  - Jorja thought the lie was the claim that they both liked her.
-  - Maduin knew that the lie was the claim that she would find new parents at the
-    orphanage, hardly a girl her age could be adopted.
-  - 'But William was referring to the remaining claim:'
+  - <color=#FF0080>Maduin</color> is lying.
+  - ' <color=#FF0080>Jorja</color> thought the lie was the claim that they both liked
+    her.'
+  - <color=#FF0080>Maduin</color> knew that the lie was the claim that she would
+    find new parents at the orphanage, hardly a girl her age could be adopted.
+  - 'But <color=purple>William</color> was referring to the remaining claim:'
   - We can adopt, do you really want this?
   - I want to!
   - "\u2026"
-  - Jorja, I'd like to talk to Will alone, would you please leave?
+  - ' <color=#FF0080>Jorja</color>, I''d like to talk to <color=purple>Will</color>
+    alone, would you please leave?'
   - No, I want to stay here.
-  - Please, Jorja.
+  - Please,  <color=#FF0080> <color=#FF0080>Jorja</color></color>.
   - No, no, no, I want to hear it.
   - If you leave for a centidia, I'll buy you a candy.
   - 'After the girl left, William stated the obvious:'
@@ -61,80 +64,87 @@ MonoBehaviour:
   - She had a horrible mother, so bad it made her get attached to a bunch of assassins
     like us, I don't think it's right to abandon her.
   - That's not the point, do you really want to adopt her? This is a very big responsibility.
-  - I'll tell you the truth, Maduin.
+  - I'll tell you the truth, <color=#FF0080>Maduin</color>.
   - The Assassins Guild killed my family, I joined you because I wanted to find out
     who the assassin was.
   - "But that no longer matters, I abandoned my plans for revenge, I made a pact
-    with Shu\xE1 that if he cured the girl I would give up killing my father's assassin."
+    with <color=#FF0080>Shu\xE1</color> that if he cured the girl I would give up
+    killing my father's assassin."
   - I don't have much left now as my revenge plans have guided me all my life.
   - I think it's time to start a new life, have a family, live more peacefully.
   - "A peaceful life\u2026"
   - I wish I could have this.
   - You can have it, why don't you come live with us?
-  - William, you know I'm a spy, if I adopt a child with a assassin boyfriend it
-    would be very obvious that I'm on the Guild's side, the warriors are already
-    suspicious of me because I'm not passing on some information about Ebu.
+  - <color=purple>William</color>, you know I'm a spy, if I adopt a child with a
+    assassin boyfriend it would be very obvious that I'm on the Guild's side, the
+    warriors are already suspicious of me because I'm not passing on some information
+    about Ebu.
   - You just give up your spy job, we can go live in a cabin in the middle of the
     forest.
   - We would have plenty of time for the two of us.
-  - Don't be silly, Will.
-  - We can live in Sangla, I would spend all day making money at the casino while
-    you take care of Jorja.
+  - Don't be silly, <color=purple>Will</color>.
+  - We can live in <color=yellow>Sangla</color>, I would spend all day making money
+    at the casino while you take care of  <color=#FF0080>Jorja</color>.
   - That doesn't seem like a good idea to me.
-  - It's a great idea, Jorja likes you better than me.
+  - It's a great idea, <color=#FF0080>Jorja</color> likes you better than me.
   - I was talking about playing at the casino. That's a lot of information for me,
     I couldn't even absorb the fact that you lied to us and only joined the Guild
     to get revenge.
   - You're a spy, lies shouldn't shock you.
-  - But this idea of living in another country with you and Jorja is something very
-    different. I need to think about it.
-  - He didn't intend to think about it, after all, Maduin dreamed of the possibility
-    of living together with William and adopting a child to call his daughter.
+  - But this idea of living in another country with you and <color=#FF0080>Maduin</color>
+    is something very different. I need to think about it.
+  - He didn't intend to think about it, after all, <color=#FF0080>Maduin</color>
+    dreamed of the possibility of living together with William and adopting a child
+    to call his daughter.
   - Seeing this come true felt too good to be true.
-  - 32 years later William died, 52 years later Jorja died, 71 years later Maduin
-    died.
+  - 32 years later <color=purple>William</color> died, 52 years later  <color=#FF0080>Jorja</color>
+    died, 71 years later <color=#FF0080>Maduin</color> died.
   DialogueBR:
   - "Ela se curou? N\xE3o \xE9 poss\xEDvel."
-  - Ver a Jorja andando deixou Ebu completamente perplexa.
-  - "Mas voc\xEAs rezaram pro Shu\xE1, foi um milagre."
+  - Ver a  <color=#FF0080>Jorja</color> andando deixou Ebu completamente perplexa.
+  - "Mas voc\xEAs rezaram pro  <color=#FF0080>Shu\xE1</color>, foi um milagre."
   - "Shu\xE1 n\xE3o consegue curar a doen\xE7a de Charlotte. O seu caso tem que ser
     estudado pelos cientistas, isso vai mudar tudo o que conhecemos sobre essa doen\xE7a.\r"
   - "Ser\xE1 que eu dei um diagn\xF3stico errado? Ou ser\xE1 que voc\xEA foi afetada
     por uma variante diferente da doen\xE7a?\r"
   - "Ebu, que tal voc\xEA comemorar conosco e pensar nisso depois?"
-  - "Boa ideia , a bebida hoje \xE9 por minha conta, voc\xEA toma vinho, Jorja?"
+  - "Boa ideia , a bebida hoje \xE9 por minha conta, voc\xEA toma vinho,  <color=#FF0080>Jorja</color>?"
   - Tenha bom senso, Ebu.
-  - "Voc\xEA \xE9 chato, Maduin. Foda-se, eu vou preparar uma comida ent\xE3o. "
+  - "Voc\xEA \xE9 chato, <color=purple>William</color>. Foda-se, eu vou preparar
+    uma comida ent\xE3o. "
   - "O que voc\xEAs querem comer?"
   - Eu quero mingau de milho.
-  - "V\xE1 pro inferno, Jorja, mingau de milho \xE9 comida de mendigo. "
+  - "V\xE1 pro inferno,  <color=#FF0080>Jorja</color>, mingau de milho \xE9 comida
+    de mendigo. "
   - "Eu vou preparar pra voc\xEA um bolo de chocolate com uvas e\u2026 e uns morangos,
     vai ficar do caralho."
   - "Na esta\xE7\xE3o seguinte:"
-  - "Hoje eu vou te levar para um orfanato, Jorja, l\xE1 tem v\xE1rias crian\xE7as
-    como voc\xEA."
+  - "Hoje eu vou te levar para um orfanato,  <color=#FF0080>Jorja</color>, l\xE1
+    tem v\xE1rias crian\xE7as como voc\xEA."
   - "Eu n\xE3o quero ir para o orfanato, eu quero ficar com voc\xEAs, porque voc\xEAs
     n\xE3o me adotam?"
-  - "Jorja, l\xE1 no\u2026"
-  - "Um grito estridente e irritante de uma garota mimada interrompeu a fala de Maduin.\r"
+  - " <color=#FF0080>Jorja</color>, l\xE1 no\u2026"
+  - "Um grito estridente e irritante de uma garota mimada interrompeu a fala de <color=#FF0080>Maduin</color>.\r"
   - "Voc\xEAs n\xE3o gostam de mim?"
   - "\xC9 claro que n\xF3s gostamos, mas n\xF3s n\xE3o podemos adotar voc\xEA, l\xE1
     no orfanato voc\xEA encontrar\xE1 novos pais que ir\xE3o te adotar.\r"
-  - "O Maduin est\xE1 mentindo.\r"
-  - "Jorja pensou que a mentira era a afirma\xE7\xE3o de que os dois gostavam dela.\n"
-  - "Maduin sabia que a mentira era a afirma\xE7\xE3o de que ela encontraria novos
-    pais no orfanato, dificilmente uma garota da idade dela conseguiria ser adotada.
-    mas William estava se referindo \xE0 afirma\xE7\xE3o restante:"
-  - "Mas William estava se referindo \xE0 afirma\xE7\xE3o restante:"
+  - "O <color=purple>William</color> est\xE1 mentindo.\r"
+  - " <color=#FF0080>Jorja</color> pensou que a mentira era a afirma\xE7\xE3o de
+    que os dois gostavam dela.\n"
+  - "<color=#FF0080>Maduin</color> sabia que a mentira era a afirma\xE7\xE3o de que
+    ela encontraria novos pais no orfanato, dificilmente uma garota da idade dela
+    conseguiria ser adotada."
+  - "Mas <color=purple>William</color> estava se referindo \xE0 afirma\xE7\xE3o restante:"
   - "N\xF3s podemos sim te adotar, voc\xEA realmente quer isso?"
   - Eu quero!
   - "\u2026"
-  - "Jorja, eu gostaria de falar sozinho com o Will, voc\xEA poderia se retirar?"
+  - " <color=#FF0080>Jorja</color>, eu gostaria de falar sozinho com o <color=purple>Will</color>
+    voc\xEA poderia se retirar?"
   - "N\xE3o, eu quero ficar aqui."
-  - Por favor, Jorja.
+  - Por favor,  <color=#FF0080>Jorja</color>.
   - "N\xE3o, n\xE3o, n\xE3o, eu quero ouvir."
   - "Se voc\xEA se retirar por um centidia eu compro um doce para voc\xEA."
-  - "Ap\xF3s a garota se retirar, William constatou o \xF3bvio:"
+  - "Ap\xF3s a garota se retirar, <color=purple>William</color> constatou o \xF3bvio:"
   - "Voc\xEA realmente achou que ia convencer uma crian\xE7a pedindo por favor? \xC9
     s\xF3 oferecer doces que elas obedecem."
   - "Eu suspeito que isso n\xE3o \xE9 uma boa forma de educar uma crian\xE7a. Mas
@@ -143,12 +153,12 @@ MonoBehaviour:
     a um bando de assassinos como n\xF3s, n\xE3o acho certo abandon\xE1-la."
   - "Esse n\xE3o \xE9 o ponto, voc\xEA realmente quer adot\xE1-la? Isso \xE9 uma
     responsabilidade muito grande."
-  - Eu vou te contar a verdade, Maduin.
+  - Eu vou te contar a verdade, <color=#FF0080>Maduin</color>.
   - "A Guilda de Assassinos matou a minha fam\xEDlia, eu me juntei a voc\xEAs porque
     queria descobrir quem era o assassino.\r"
   - "Mas isso j\xE1 n\xE3o importa, eu abandonei meus planos de vingan\xE7a, eu fiz
-    um pacto com Shu\xE1 que caso ele curasse a garota eu iria desistir de matar
-    o assassino do meu pai."
+    um pacto com  <color=#FF0080>Shu\xE1</color> que caso ele curasse a garota eu
+    iria desistir de matar o assassino do meu pai."
   - "N\xE3o me resta muita coisa agora j\xE1 que meus planos de vingan\xE7a me guiaram
     durante toda a vida.\r"
   - "Acho que est\xE1 na hora de recome\xE7ar uma nova vida, ter uma fam\xEDlia,
@@ -156,29 +166,31 @@ MonoBehaviour:
   - "Uma vida pac\xEDfica\u2026\r"
   - Quem me dera poder ter isso.
   - "Voc\xEA pode, por que voc\xEA n\xE3o vem morar conosco?"
-  - "William, voc\xEA sabe que eu sou um espi\xE3o, se eu adotar uma crian\xE7a junto
-    de um namorado assassino ficaria muito \xF3bvio que eu estou do lado da Guilda,
-    os guerreiros j\xE1 est\xE3o suspeitando de mim porque eu n\xE3o estou passando
-    algumas informa\xE7\xF5es sobre a Ebu."
+  - "<color=purple>William</color>, voc\xEA sabe que eu sou um espi\xE3o, se eu adotar
+    uma crian\xE7a junto de um namorado assassino ficaria muito \xF3bvio que eu estou
+    do lado da Guilda, os guerreiros j\xE1 est\xE3o suspeitando de mim porque eu
+    n\xE3o estou passando algumas informa\xE7\xF5es sobre a Ebu."
   - "\xC9 s\xF3 voc\xEA abandonar seu trabalho de espi\xE3o, n\xF3s podemos ir morar
     em uma cabana no meio da floresta."
   - "N\xF3s ter\xEDamos muito tempo para n\xF3s dois."
-  - "N\xE3o seja bobo, Will."
-  - "N\xF3s podemos morar em Sangla, eu ficaria o dia inteiro ganhando dinheiro no
-    cassino enquanto voc\xEA cuida da Jorja."
+  - "N\xE3o seja bobo, <color=purple>Will</color>."
+  - "N\xF3s podemos morar em <color=yellow>Sangla</color>, eu ficaria o dia inteiro
+    ganhando dinheiro no cassino enquanto voc\xEA cuida da  <color=#FF0080>Jorja</color>."
   - "Isso n\xE3o me parece uma boa ideia."
-  - "\xC9 uma \xF3tima ideia, a Jorja gosta mais de voc\xEA do que de mim."
+  - "\xC9 uma \xF3tima ideia, a  <color=#FF0080>Jorja</color> gosta mais de voc\xEA
+    do que de mim."
   - "Estava falando sobre voc\xEA jogar no cassino. Isso \xE9 muita informa\xE7\xE3o
     pra mim, eu nem consegui absorver direito o fato de que voc\xEA mentiu pra n\xF3s
     e s\xF3 se juntou a Guilda pra se vingar.\r"
   - "Voc\xEA \xE9 um espi\xE3o, mentiras n\xE3o deveriam te chocar."
-  - "Mas essa ideia de morar em outro pa\xEDs com voc\xEA e a Jorja \xE9 algo muito
-    diferente. Eu preciso pensar sobre isso.\r"
-  - "Ele n\xE3o pretendia pensar sobre isso, afinal, Maduin sonhava com a possibilidade
-    de morar junto com William e adotar uma crian\xE7a para chamar de filha."
+  - "Mas essa ideia de morar em outro pa\xEDs com voc\xEA e a <color=#FF0080>Jorja</color>
+    \xE9 algo muito diferente. Eu preciso pensar sobre isso.\r"
+  - "Ele n\xE3o pretendia pensar sobre isso, afinal, <color=#FF0080>Maduin</color>
+    sonhava com a possibilidade de morar junto com <color=purple>William</color>
+    e adotar uma crian\xE7a para chamar de filha."
   - Ver isso se tornando realidade parecia bom demais para ser verdade.
-  - 32 anos depois William morreu, 52 anos depois Jorja morreu, 71 anos depois Maduin
-    morreu.
+  - 32 anos depois <color=purple>William</color> morreu, 52 anos depois  <color=#FF0080>Jorja</color>
+    morreu, 71 anos depois <color=#FF0080>Maduin</color> morreu.
   idchara: 01000000000000002200000001000000010000001f000000010000001f0000000100000001000000220000000100000001000000000000001f000000220000001f00000000000000220000001f0000001c0000000000000000000000000000001c000000220000001f0000001f000000220000001f000000220000001c000000000000001c0000001f0000001c0000001f0000001c0000001c0000001c0000001c0000001c0000001f0000001f0000001c0000001f0000001c0000001c0000001f0000001c0000001f0000001c0000001f0000001c0000001f000000000000000000000000000000
   instruction: 
   Cenario: 0

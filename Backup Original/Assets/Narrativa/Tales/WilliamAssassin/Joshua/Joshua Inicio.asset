@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - I want to put a bounty on Harold's head.
+  - I want to put a bounty on <color=purple>Harold</color>'s head.
   - Ok, what crime did he commit?
   - He raped me.
   - Oh, I'm sorry.
   - This is a complicated crime, most victims have no evidence.
   - Can you prove it?
-  - Harold himself confessed to his friends, the whole neighborhood already knows
-    about it.
+  - <color=purple>Harold</color> himself confessed to his friends, the whole neighborhood
+    already knows about it.
   - "Hm\u2026 Ok, I've already killed people with minor evidence, but I'll have to
     check later. How much do you pay?"
   - Three silver tigers.
   - It's a low price, if no assassin takes the job you can recoup your pay next season.
   - What is the guy's full name?
-  - Harold Proust.
-  - Harold Proust... Is that Joshua Proust's son?
+  - <color=purple>Harold Proust</color>t.
+  - <color=purple>Harold Proust</color>.. Is that Joshua Proust's son?
   - Yes.
-  - Are you kidding me, nobody calls this guy Harold, everybody knows him as Joshua's
-    son.
+  - Are you kidding me, nobody calls this guy <color=purple>Harold</color>, everybody
+    knows him as Joshua's son.
   - I don't know if you know, but the main trading partner of the Guild is Joshua,
     do you want me to kill his son in exchange for three silver coins?
   - You are the only ones who can help me.
@@ -49,31 +49,33 @@ MonoBehaviour:
     fuck there, you take advantage of it and bury it later, nobody will find the
     body.
   - As William listened to this conversation from beginning to end, he knew at once
-    that Harold was to blame for Rose's death when Rose turned up dead ten days later.
+    that <color=purple>Harold</color> was to blame for Rose's death when <color=blue>Rose</color>
+    turned up dead ten days later.
   - Thirsty for justice, he drew his dagger and went to murder Joshua's son.
   DialogueBR:
-  - "Eu quero botar uma recompensa na cabe\xE7a do Harold."
+  - "Eu quero botar uma recompensa na cabe\xE7a do <color=purple>Harold</color>."
   - Ok, qual crime ele cometeu?
   - Ele me estuprou.
   - Oh, eu sinto muito.
   - "Esse \xE9 um crime complicado, a maioria das v\xEDtimas n\xE3o tem provas."
   - "Voc\xEA consegue provar?"
-  - "O pr\xF3prio Harold confessou pros amigos dele, o bairro inteiro j\xE1 est\xE1
-    sabendo disso."
+  - "O pr\xF3prio <color=purple>Harold</color> confessou pros amigos dele, o bairro
+    inteiro j\xE1 est\xE1 sabendo disso."
   - "Hm\u2026 Ok, eu j\xE1 matei pessoas com provas menores, mas vou ter que verificar
     depois. Quanto voc\xEA paga?"
   - "Tr\xEAs tigres de prata."
   - "\xC9 um pre\xE7o baixo, se nenhum assassino aceitar o trabalho voc\xEA pode
     recuperar seu pagamento na pr\xF3xima esta\xE7\xE3o."
   - "Qual \xE9 o nome completo do cara?"
-  - Harold Proust.
-  - "Harold Proust\u2026 Esse \xE9 o filho do Joshua Proust?"
+  - <color=purple>Harold Proust</color>.
+  - "<color=purple>Harold Proust</color>\u2026 Esse \xE9 o filho do <color=blue>Joshua
+    Proust</color>?"
   - Sim.
-  - "Voc\xEA t\xE1 brincando comigo, ningu\xE9m chama esse cara de Harold, todo mundo
-    o conhece como filho do Joshua.\r"
+  - "Voc\xEA t\xE1 brincando comigo, ningu\xE9m chama esse cara de <color=purple>Harold</color>,
+    todo mundo o conhece como filho do <color=blue>Joshua</color>.\r"
   - "N\xE3o sei se voc\xEA sabe, mas o principal parceiro comercial da Guilda \xE9
-    o Joshua, voc\xEA quer que eu mate o filho dele em troca de tr\xEAs moedas de
-    prata?"
+    o <color=blue>Joshua</color>, voc\xEA quer que eu mate o filho dele em troca
+    de tr\xEAs moedas de prata?"
   - "Voc\xEAs s\xE3o os \xFAnicos que podem me ajudar."
   - "Minha filha, n\xF3s matamos por dinheiro, se voc\xEA quiser algu\xE9m que lute
     em nome da justi\xE7a, procure um guerreiro."
@@ -88,10 +90,10 @@ MonoBehaviour:
     descobrir. J\xE1 sei, leva ele em um cemit\xE9rio, os jovens de hoje em dia gostam
     de foder l\xE1, voc\xEA aproveita e j\xE1 enterra depois, ningu\xE9m vai achar
     o corpo.\r\n"
-  - "Como William ouviu essa conversa do in\xEDcio ao fim, ele soube de imediato
-    que Harold era o culpado pela morte de Rose quando esta apareceu morta dez dias
-    depois.\r"
-  - "Com sede de justi\xE7a ele sacou sua adaga e foi assassinar o filho de Joshua."
+  - "Como <color=purple>William</color> ouviu essa conversa do in\xEDcio ao fim,
+    ele soube de imediato que <color=purple>Harold</color> era o culpado pela morte
+    de <color=blue>Rose</color> quando esta apareceu morta dez dias depois.\r"
+  - "Com sede de justi\xE7a ele sacou sua adaga e foi assassinar o filho de <color=blue>Joshua</color>."
   idchara: 2300000001000000230000000100000001000000010000002300000001000000230000000100000001000000230000000100000023000000010000000100000023000000010000002300000001000000010000000100000023000000010000000000000000000000
   instruction: 
   Cenario: 0

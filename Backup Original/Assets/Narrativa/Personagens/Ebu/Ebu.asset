@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: ea8867e826f6aaa41884e662107d9a42, type: 3}
   sprite1: {fileID: 0}
-  Name: 
+  Name: <color=white>Ebu</color>
   id: 0
   idPersonagem: 0
   AtaqueForte: 

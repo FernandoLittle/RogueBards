@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Expensive Medicine
   m_EditorClassIdentifier: 
   IdRelic: 0
-  SpriteRelic: {fileID: 21300000, guid: 189d324d913b0db4889e75cd7c0fdc89, type: 3}
-  Description: "<i>\u201CYuck, it's too bitter.\u201D \n\u201CBitter? I didn't think
-    he's that bad. \"</i>   "
-  DescriptionBR: "<i>\u201CEca, \xE9 muito amargo.\u201D\n\"Amargo? Eu n\xE3o achei
-    ele t\xE3o ruim assim.\"</i>"
+  SpriteRelic: {fileID: 21300000, guid: 59448750baf2e674f98a43ca8b7dbeb1, type: 3}
+  Description: 
+  DescriptionBR: 
   Name: <color=green>Expensive Medicine</color>
   NameBR: "<color=green>Rem\xE9dio Caro</color>"
   Type: 1

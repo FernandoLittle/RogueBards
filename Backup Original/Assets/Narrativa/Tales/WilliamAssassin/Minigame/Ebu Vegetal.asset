@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Ebu Vegetal
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Ebu, <color=purple>William</color> and <color=#FF0080>Maduin</color> were having
+    lunch together. Assassins didn't tend to have many friends, which was exactly
+    why they valued the company of other assassins so much.
+  - This company did not reduce <color=purple>William</color>s loneliness, for the
+    emptiness in his soul was immeasurable. But that loneliness seemed less pathetic
+    when he had people around him.
+  - I've never seen you eating meat, Ebu, are you a vegetarian?
+  - Yep.
+  - The top assassin of the Guild is a vegetarian, that's pretty ironic.
+  - Actually, the Guild Document promotes vegetarianism.
+  - Knowing that makes me want to have a barbecue.
+  - Why don't you eat meat
+  - 'If I killed half of the animals in the world, it wouldn''t make a difference
+    in the long run, because it would generate an abundance of plant food in the
+    world, and this abundance would cause the population of animals to grow. '
+  - In a few generations, the number of animals in the world would return to what
+    it was before.
+  - But if I killed half of the plants in the world, the animals would start to die
+    of hunger and their population would gradually decrease.
+  - That's why I dedicate myself to eating only plants, because that way I can maximize
+    the amount of misery and suffering in the world.
+  - All of that was a lie, the true explanation was a very tasty story.
+  - Even an idiot like William was able to realize that she was lying.
+  - Okay, now tell the truth.
+  - The truth?
+  - Truth...
+  - The truth is that I am not superior to a human nor inferior to an angel.
+  - This sentence made <color=#FF0080>Maduin</color> understand what was going on
+    in her mind.
+  - <color=purple>William</color>, this is a delicate subject for her, let's change
+    the subject.
+  - Go to hell, <color=#FF0080>Maduin</color>, no subject is delicate for me. What
+    do you want to know, <color=purple>William</color>?
+  - I want to know why a killer like you is a vegetarian.
+  - I'll explain.
+  - The human looks at animals from above to below because of intellectual superiority,
+    as if rationality was the most important virtue and that gave value to life.
+  - But I disagree with that, the most important virtues for me are the animal virtues,
+    I don't care about my reason, I care about my desires.
+  - My desires to sleep, eat and fuck.
+  - My desire to live to the fullest until the last second. These desires make me
+    value my life.
+  - These desires make me value my life.
+  - As animals also have these desires, I can't say that their life is worth less
+    than mine.
+  - Do you really think the lives of humans and animals have the same value?
+  - After I've killed so many people, I stopped seeing human life as sacred.
+  - For normal humans it's absurd to say that an animal is worth as much as a person,
+    but for a killer like me this is a banal statement.
+  - Ebu lied from the first word to the last.
+  DialogueBR:
+  - "Ebu, <color=purple>William</color> e <color=#FF0080>Maduin</color> estavam almo\xE7ando
+    juntos. Assassinos n\xE3o costumavam ter muitos amigos, exatamente por isso eles
+    valorizavam bastante a companhia de outros assassinos."
+  - "Essa companhia n\xE3o reduzia a solid\xE3o do <color=purple>William</color>,
+    pois o vazio em sua alma era imensur\xE1vel. Por\xE9m essa solid\xE3o parecia
+    menos pat\xE9tica quando ele tinha pessoas ao seu redor."
+  - "Eu nunca vi voc\xEA comendo carne, Ebu, voc\xEA \xE9 vegetariana?"
+  - Sim.
+  - "A maior assassina da Guilda \xE9 vegetariana, isso \xE9 bem ir\xF4nico."
+  - Na verdade, o Documento da Guilda incentiva o vegetarianismo.
+  - "Saber disso me d\xE1 vontade de fazer um churrasco.\r\n"
+  - "Por que voc\xEA n\xE3o come carne?"
+  - "Se eu matasse metade dos animais desse mundo isso n\xE3o faria diferen\xE7a
+    no longo prazo, pois isso iria gerar uma abund\xE2ncia de alimentos vegetais
+    no mundo e essa abund\xE2ncia faria com que a popula\xE7\xE3o de animais crescesse."
+  - "Em algumas gera\xE7\xF5es a quantidade de animais no mundo voltaria ao que era
+    antes.\r\n"
+  - "Mas se eu matasse metade dos vegetais do mundo, os animais iriam come\xE7ar
+    a morrer de fome e a popula\xE7\xE3o deles iria se reduzir gradualmente.\r\n"
+  - "Por isso eu me dedico a comer apenas vegetais, porque dessa forma eu consigo
+    maximizar a quantidade de mis\xE9ria e sofrimento no mundo.\r\n"
+  - "Tudo isso era mentira, a verdadeira explica\xE7\xE3o era uma hist\xF3ria muito
+    saborosa."
+  - "At\xE9 mesmo um idiota como o William conseguiu perceber que ela estava mentindo.\r\n"
+  - Ok, agora fale a verdade.
+  - A verdade?
+  - "Verdade\u2026"
+  - "A verdade \xE9 que eu n\xE3o sou superior a um humano nem inferior a um anjo.\r\n"
+  - 'Essa frase fez com que <color=#FF0080>Maduin</color> entendesse o que estava
+    se passando na mente dela.
+
+'
+  - "<color=purple>William</color>, esse \xE9 um assunto delicado para ela, vamos
+    mudar de assunto.\r\n"
+  - "Vai se foder <color=#FF0080>Maduin</color>, nenhum assunto \xE9 delicado pra
+    mim. O que voc\xEA quer saber, <color=purple>William</color>?"
+  - "Eu quero saber o motivo de uma assassina como voc\xEA ser vegetariana."
+  - "Eu vou explicar. \r\n"
+  - 'O humano olha para os animais de cima para baixo por conta de superioridade
+    intelectual como se a racionalidade fosse a virtude mais importante e que desse
+    valor para a vida.
+
+'
+  - "Mas eu discordo disso, as virtudes mais importantes para mim s\xE3o as virtudes
+    animalescas, eu n\xE3o me importo com minha raz\xE3o, eu me importo com os meus
+    desejos.\r\n"
+  - Meus desejos de dormir, comer e foder.
+  - "Meu desejo de viver ao m\xE1ximo at\xE9 o \xFAltimo segundo. "
+  - 'Esses desejos que fazem eu valorizar minha vida.
+
+'
+  - "Como os animais tamb\xE9m possuem esses desejos, eu n\xE3o posso dizer que a
+    vida deles vale menos que a minha.\r\n"
+  - "Voc\xEA realmente acha que as vidas dos humanos e dos animais possuem o mesmo
+    valor?"
+  - "Depois de eu ter matado tantas pessoas, eu deixei de ver a vida humana como
+    sagrada. \r\n"
+  - "Para humanos normais \xE9 absurdo dizer que um animal vale tanto quanto uma
+    pessoa, mas para uma assassina como eu essa \xE9 uma afirma\xE7\xE3o banal.\r\n"
+  - "Ebu mentiu da primeira palavra at\xE9 a \xFAltima.\r\n"
+  idchara: 
+  instruction: 
+  Cenario: 0

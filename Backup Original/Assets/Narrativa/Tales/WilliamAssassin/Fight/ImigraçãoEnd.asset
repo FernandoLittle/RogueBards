@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - After being defeated, Raskorv begged for mercy.
+  - After being defeated, <color=yellow>Raskorv</color> begged for mercy.
   - Look to the right, do you see that crowd?
-  - Raskorv looked to the right.
+  - <color=yellow>Raskorv</color> looked to the right.
   - Look to my right, asshole.
   - Please do not kill me.
   - This is a simple yes or no question, answer it, do you see that crowd?
   - N... No.
   - I imagined, it's not a crowd of people, it's a crowd of souls.
   - You didn't kill three people, you killed the thousands of people who were afraid
-    to flee and died miserable in Sarka.
+    to flee and died miserable in <color=yellow>Sarka</color>.
   - I... I have family, they wouldn't survive if I quit this job.
   - Don't worry about it.
   - Your family will receive a good pension after you die in service.
   DialogueBR:
-  - "Ap\xF3s ser derrotado, Raskorv implorou por miseric\xF3rdia."
+  - "Ap\xF3s ser derrotado, <color=yellow>Raskorv</color> implorou por miseric\xF3rdia."
   - "Olhe para a direita, voc\xEA v\xEA aquela multid\xE3o?"
-  - Raskorv olhou para a direita.
+  - <color=yellow>Raskorv</color> olhou para a direita.
   - Olhe para a minha direita, imbecil.
   - "Por favor, n\xE3o me mate."
   - "Esta \xE9 uma pergunta simples de sim ou n\xE3o, responda, voc\xEA v\xEA aquela
@@ -39,10 +39,10 @@ MonoBehaviour:
   - "Eu imaginei, aquela n\xE3o \xE9 uma multid\xE3o de pessoas, \xE9 uma multid\xE3o
     de almas."
   - "Voc\xEA n\xE3o matou as tr\xEAs pessoas, voc\xEA matou milhares de pessoas que
-    tinham medo de fugir e morreram miser\xE1veis em Sarka."
+    tinham medo de fugir e morreram miser\xE1veis em <color=yellow>Sarka</color>."
   - "Eu... eu tenho fam\xEDlia, eles n\xE3o sobreviveriam se eu largasse este emprego."
   - "N\xE3o se preocupe com isso, sua fam\xEDlia vai sobreviver."
   - "Ela receber\xE1 uma boa pens\xE3o depois que voc\xEA morrer em servi\xE7o."
-  idchara: 
+  idchara: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

@@ -15,36 +15,39 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Today we have a bounty on the head of a judge and a border guard.
-  - Which one will you want, William?
+  - Which one will you want, <color=purple>William</color>?
   - Have you no bounty on a publican's head?
   - There always is, but I like to hunt myself.
   - Is there a profession more hated than this?
   - Did you know that this hatred is not so common on the mainland? The problem is
-    that Sarka has kept the Sangla tax system where taxation is very income-focused.
-  - If politicians were smart they would tax commerce, in the rest of Cadima hardly
-    anyone cares about taxes because most don't realize they exist.
-  - Whatever, give me a mission to hunt publicans, Ebu.
-  - Only if you imitate a chicken in front of Maduin without giving any explanation.
+    that <color=yellow>Sarka</color> has kept the <color=yellow>Sangla</color> tax
+    system where taxation is very income-focused.
+  - If politicians were smart they would tax commerce, in the rest of <color=yellow>Cadima</color>
+    hardly anyone cares about taxes because most don't realize they exist.
+  - Whatever, give me a mission to hunt publicans, <color=white>Ebu</color>.
+  - Only if you imitate a chicken in front of <color=#FF0080>Maduin</color> without
+    giving any explanation.
   - I will not do it.
   - So I'll get all the publican heads for myself.
-  - The next day, William stood before a publican.
+  - The next day, <color=purple>William</color> stood before a publican.
   DialogueBR:
   - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
-  - "Qual voc\xEA vai querer, William?"
+  - "Qual voc\xEA vai querer, <color=purple>William</color>?"
   - "N\xE3o tem nenhuma recompensa na cabe\xE7a de um publicano?"
   - "Sempre tem, mas eu gosto de ca\xE7ar eu mesma."
   - "Ser\xE1 que existe profiss\xE3o mais odiada do que essa?"
   - "Voc\xEA sabia que esse \xF3dio n\xE3o \xE9 t\xE3o comum no continente? O problema
-    \xE9 que Sarka manteve o sistema tribut\xE1rio Sangla, onde a tributa\xE7\xE3o
-    \xE9 muito focada na renda."
+    \xE9 que <color=yellow>Sarka</color> manteve o sistema tribut\xE1rio Sangla,
+    onde a tributa\xE7\xE3o \xE9 muito focada na renda."
   - "Se os pol\xEDticos fossem espertos iriam taxar o com\xE9rcio, no resto de Cadima
     quase ningu\xE9m se importa com impostos porque a maioria nem percebe que eles
     existem."
-  - "Tanto faz, libera pra mim uma miss\xE3o de ca\xE7ar publicanos, Ebu."
-  - "S\xF3 se voc\xEA imitar uma galinha na frente do Maduin sem dar nenhuma explica\xE7\xE3o."
+  - "Tanto faz, libera pra mim uma miss\xE3o de ca\xE7ar publicanos, <color=white>Ebu</color>."
+  - "S\xF3 se voc\xEA imitar uma galinha na frente do <color=#FF0080>Maduin</color>
+    sem dar nenhuma explica\xE7\xE3o."
   - "Eu n\xE3o vou fazer isso."
   - "Ent\xE3o vou pegar todas as cabe\xE7as de publicano para mim."
-  - No dia seguinte, William estava diante de um publicano.
-  idchara: 
+  - No dia seguinte, <color=purple>William</color> estava diante de um publicano.
+  idchara: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

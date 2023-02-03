@@ -22,7 +22,7 @@ public class Select : MonoBehaviour
     public List<Ident> Idents;
     public List<GameObject> GO;
     public bool offline;
-
+    public GodCube GodCube;
     // Start is called before the first frame update
     void Start()
     {
@@ -96,6 +96,8 @@ public class Select : MonoBehaviour
         PlayerPrefs.SetInt("Card5", idL[idList0[1]]);
         PlayerPrefs.SetInt("Card6", idL[idList0[2]]);
         PlayerPrefs.SetInt("Offline", 1);
-        SceneManager.LoadScene("Battle");
+        GodCube.TakeScreenshot("Battle");
+        //SceneManager.LoadScene("Battle");
+
     }
 }

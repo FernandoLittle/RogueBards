@@ -11,6 +11,7 @@ public class Instructions : MonoBehaviour
     public List<string> Caracter;
     public SkillA SkillA;
     public List<int> Routes;
+    public GodCube GodCube;//x
 
     // Start is called before the first frame update
     void Start()
@@ -37,82 +38,98 @@ public class Instructions : MonoBehaviour
 
                 StaticPlayer.Fight = 1;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 2:
                 StaticPlayer.Fight = 2;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 3:
                 StaticPlayer.Fight = 3;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                //SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
                 break;
             case 4:
                 StaticPlayer.Fight = 4;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 5:
                 StaticPlayer.Fight = 5;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 6:
                 StaticPlayer.Fight = 6;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 7:
                 StaticPlayer.Fight = 7;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 8:
                 StaticPlayer.Fight = 8;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 9:
                 StaticPlayer.Fight = 9;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 10:
                 StaticPlayer.Fight = 10;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 11:
                 StaticPlayer.Fight = 11;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 12:
                 StaticPlayer.Fight = 12;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 13:
                 StaticPlayer.Fight = 13;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 14:
                 StaticPlayer.Fight = 14;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 15:
                 StaticPlayer.Fight = 15;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 16:
                 StaticPlayer.Fight = 16;
                 TalesVariables.Loading.SetActive(true);
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
 
 
@@ -237,7 +254,8 @@ public class Instructions : MonoBehaviour
             case 314:
                 StaticPlayer.PlayerId[1] = 11;
                 StaticPlayer.PlayerLife[0] = 3;
-                SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
                 break;
             case 315:
                 SetButtonST("Accept the bad luck.", "Flip the coin againX.", "", "", "");

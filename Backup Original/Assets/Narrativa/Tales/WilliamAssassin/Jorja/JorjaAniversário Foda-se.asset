@@ -15,13 +15,14 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Screw this.
-  - Jorja started to cry.
+  - <color=#FF0080>Jorja</color> started to cry.
   - "\u2026"
-  - Why did you do this, William? Jorja is sad.
+  - Why did you do this, <color=purple>William</color>? <color=#FF0080>Jorja</color>
+    is sad.
   - "\u2026"
   - Apologize to her.
   - Apologize? I destroyed her life.
-  - I addicted her mother and then killed her. How am I going to apologize?
+  - I addicted and killed her mother. How am I going to apologize?
   - There's nothing I can do to fix my mistakes, so I won't have the audacity to
     ask for forgiveness.
   - The only option I have is to bear my sins.
@@ -31,25 +32,26 @@ MonoBehaviour:
   - Because I would have to explain her mother's mysterious disappearance to the
     orphanage.
   - And I guess telling the truth is not an option, is it?
-  - 'A few decidays later, William began to wonder:'
+  - 'A few decidays later, <color=purple>William</color> began to wonder:'
   - Will she like this doll? She doesn't look very pretty, but she was the biggest
     there. Screw this, if she doesn't like it, it's her problem.
-  - Fortunately, Jorja liked the gift a lot.
+  - Fortunately, <color=#FF0080>Jorja</color> liked the gift a lot.
   - I never liked birthdays.
   - Why?
   - To me it's just a tradition made for people to show false affection and pretend
     they're special once a year.
-  - I don't think you're special on your birthday, Jorja.
+  - I don't think you're special on your birthday, <color=#FF0080>Jorja</color>.
   - I think you are special everyday.
   - Really?
   - No, I've only known you for a few days, so I don't really care about you. But
     I don't feel apathy for you, that means you're way better than the average of
     humanity.
-  - Jorja's face returned to show sadness.
+  - <color=#FF0080>Jorja</color>'s face returned to show sadness.
   - Hey! Don't cry, I bought a doll, do you remember?
   - Look at me, I'm a flying doll, ieeeee.
-  - Seeing William playing with a doll made Jorja laugh.
-  - Thank you, Will.
+  - Seeing <color=purple>William</color> playing with a doll made <color=#FF0080>Jorja</color>
+    laugh.
+  - Thank you, <color=purple>Will</color>.
   - ...
   - You shouldn't thank me, child.
   - Why?
@@ -57,22 +59,24 @@ MonoBehaviour:
     injections.
   - Those injections destroyed your mother's life and destroyed your life.
   - I knew this was going to happen, but I didn't care, I just wanted money.
-  - I'm evil, Jorja.
-  - It was completely in vain to try to look serious and cold, William couldn't hide
-    the sadness on his face. Jorja immediately came forward to give him a hug.
+  - I'm evil, <color=#FF0080>Jorja</color>.
+  - It was completely in vain to try to look serious and cold, <color=purple>William</color>
+    couldn't hide the sadness on his face. <color=#FF0080>Jorja</color> immediately
+    came forward to give him a hug.
   - You're not evil, you're good
-  - Jorja looked up trying to see William's face, but she couldn't as he was also
-    looking up.
+  - <color=#FF0080>Jorja</color> looked up trying to see <color=purple>William</color>'s
+    face, but she couldn't as he was also looking up.
   - That way, he was able to hide his tears.
   DialogueBR:
   - Foda-se.
-  - "Jorja come\xE7ou a chorar."
+  - "<color=#FF0080>Jorja</color> come\xE7ou a chorar."
   - "\u2026"
-  - "Por que voc\xEA fez isso, William? A Jorja est\xE1 magoada."
+  - "Por que voc\xEA fez isso, <color=purple>William</color>? A <color=#FF0080>Jorja</color>
+    est\xE1 magoada."
   - "\u2026"
   - "Pe\xE7a desculpas a ela."
   - "Pedir desculpas? Eu destru\xED a vida dela. "
-  - "Eu viciei a m\xE3e dela e depois a matei. Como que eu vou pedir desculpas ?"
+  - "Eu viciei e matei a m\xE3e dela. Como que eu vou pedir desculpas ?"
   - "N\xE3o h\xE1 nada que eu possa fazer para consertar meus erros, ent\xE3o eu
     n\xE3o vou ter a cara de pau de pedir perd\xE3o."
   - "A \xFAnica op\xE7\xE3o que eu tenho \xE9 carregar meus pecados."
@@ -82,25 +86,26 @@ MonoBehaviour:
   - "Porque eu teria que explicar o misterioso desaparecimento da m\xE3e dela para
     o orfanato. "
   - "E eu acho que contar a verdade n\xE3o \xE9 uma op\xE7\xE3o, n\xE3o \xE9 mesmo?"
-  - "Alguns decidias depois, William come\xE7ou a se questionar:"
+  - "Alguns decidias depois, <color=purple>William</color> come\xE7ou a se questionar:"
   - "Ser\xE1 que ela vai gostar dessa boneca? Ela n\xE3o parece muito bonita, mas
     era a maior que tinha l\xE1. Foda-se, se ela n\xE3o gostar \xE9 problema dela."
-  - Felizmente, Jorja gostou muito do presente.
+  - Felizmente, <color=#FF0080>Jorja</color> gostou muito do presente.
   - "Eu nunca gostei de anivers\xE1rios."
   - "Por qu\xEA?"
   - "Pra mim \xE9 apenas uma tradi\xE7\xE3o feita para as pessoas demonstrarem um
     falso afeto e fingirem que s\xE3o especiais uma vez ao ano."
-  - "Eu n\xE3o acho que voc\xEA \xE9 especial no seu anivers\xE1rio, Jorja."
+  - "Eu n\xE3o acho que voc\xEA \xE9 especial no seu anivers\xE1rio, <color=#FF0080>Jorja</color>."
   - "Eu acho que voc\xEA \xE9 especial todos os dias."
   - "S\xE9rio?"
   - "N\xE3o, eu te conhe\xE7o a poucos dias, ent\xE3o eu n\xE3o me importo muito
     com voc\xEA. Mas eu n\xE3o sinto apatia por voc\xEA, isso significa que voc\xEA
     est\xE1 bem melhor que a m\xE9dia da humanidade."
-  - A face de Jorja voltou a demonstrar tristeza.
+  - A face de <color=#FF0080>Jorja</color> voltou a demonstrar tristeza.
   - "Ei! N\xE3o chore, eu comprei uma boneca, voc\xEA lembra?"
   - Olhe para mim, eu sou uma boneca voadora, ieeeee.
-  - Ver William brincando de boneca fez com que Jorja risse.
-  - Obrigada, Will.
+  - Ver <color=purple>William</color> brincando de boneca fez com que <color=#FF0080>Jorja</color>
+    risse.
+  - Obrigada, <color=purple>Will</color>.
   - ...
   - "Voc\xEA n\xE3o deveria me agradecer, crian\xE7a."
   - "Por qu\xEA?"
@@ -109,13 +114,13 @@ MonoBehaviour:
   - "Essas inje\xE7\xF5es destru\xEDram a vida da sua m\xE3e e destru\xEDram a sua
     vida. "
   - "Eu sabia que isso ia acontecer, mas n\xE3o me importava, eu s\xF3 queria dinheiro. "
-  - Eu sou malvado, Jorja.
-  - "Foi completamente em v\xE3o tentar parecer s\xE9rio e frio, William n\xE3o conseguiu
-    disfar\xE7ar a tristeza em seu rosto. Jorja foi imediatamente na dire\xE7\xE3o
-    dele para abra\xE7\xE1-lo."
+  - Eu sou malvado, <color=#FF0080>Jorja</color>.
+  - "Foi completamente em v\xE3o tentar parecer s\xE9rio e frio, <color=purple>William</color>
+    n\xE3o conseguiu disfar\xE7ar a tristeza em seu rosto. <color=#FF0080>Jorja</color>
+    foi imediatamente na dire\xE7\xE3o dele para abra\xE7\xE1-lo."
   - "Voc\xEA n\xE3o \xE9 malvado, voc\xEA \xE9 bonzinho"
-  - "Jorja olhou para cima tentando ver o rosto de William, por\xE9m ela n\xE3o conseguia
-    j\xE1 que ele tamb\xE9m estava olhando para cima."
+  - "<color=#FF0080>Jorja</color> olhou para cima tentando ver o rosto de <color=purple>William</color>,
+    por\xE9m ela n\xE3o conseguia j\xE1 que ele tamb\xE9m estava olhando para cima."
   - "Dessa forma, ele foi capaz de esconder suas l\xE1grimas."
   idchara: 1c00000000000000000000001f0000001c0000001f0000001c0000001c0000001c0000001c0000001f0000001c0000001f0000001f000000000000001c000000000000001c000000220000001c0000001c0000001c000000220000001c000000000000001c0000001c00000000000000220000001c0000001c000000220000001c0000001c0000001c0000001c00000000000000220000000000000000000000
   instruction: 

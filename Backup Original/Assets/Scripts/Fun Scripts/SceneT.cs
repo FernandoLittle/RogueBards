@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneT : MonoBehaviour
 {
+    public GodCube GodCube;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,12 @@ public class SceneT : MonoBehaviour
     }
     public void TBattle()
     {
-        SceneManager.LoadScene("Select");
+        GodCube.TakeScreenshot("Select");
+        //SceneManager.LoadScene("Select");
     }
     public void AhShitHereWeGoAgain()
     {
-        SceneManager.LoadScene("Adventure");
+        GodCube.TakeScreenshot("Adventure");
+        //SceneManager.LoadScene("Adventure");
     }
 }

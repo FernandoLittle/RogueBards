@@ -7,6 +7,7 @@ public class Adventure : MonoBehaviour
 {
     public int FightID;
     public GameObject Loading;
+    public GodCube GodCube;//x
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +35,8 @@ public class Adventure : MonoBehaviour
         StaticPlayer.PlayerMaxLife[0] = 0;
         StaticPlayer.Attack[0] = 0;
         Loading.SetActive(true);
-        SceneManager.LoadScene("Tales");
+        GodCube.TakeScreenshot("Tales");
+        //SceneManager.LoadScene("Tales");
     }
     public void WilliamW()
     {
@@ -53,7 +55,8 @@ public class Adventure : MonoBehaviour
         StaticPlayer.PlayerMaxLife[0] = 0;
         StaticPlayer.Attack[0] = 0;
         Loading.SetActive(true);
-        SceneManager.LoadScene("Tales");
+        GodCube.TakeScreenshot("Tales");
+        //SceneManager.LoadScene("Tales");
     }
     public void Discord()
     {

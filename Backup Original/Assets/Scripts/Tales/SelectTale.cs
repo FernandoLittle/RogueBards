@@ -48,7 +48,19 @@ public class SelectTale : MonoBehaviour
         }
         if (StaticPlayer.PlayerId[0] == 29)
         {
-            TalesVariables.Day.SelectDay();
+            Batalha = PlayerPrefs.GetInt("Batalha");
+            PlayerPrefs.SetInt("Batalha", 0);
+            if (Batalha == 0)
+            {
+                TalesVariables.Day.SelectDayAssassin();
+            }
+            else
+            {
+                TalesVariables.SelectListTale();
+                Taleid = PlayerPrefs.GetInt("Tale");
+                TalesVariables.SetTale(Taleid);
+                TalesVariables.Index += 1;
+            }
         }
     }
 }

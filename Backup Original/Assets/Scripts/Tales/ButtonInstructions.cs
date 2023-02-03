@@ -7,6 +7,7 @@ public class ButtonInstructions : MonoBehaviour
     public TalesVariables TalesVariables;
     public SkillA SkillA;
     public List<int> Idbuttons;
+    public GodCube GodCube;//x
     // Start is called before the first frame update
     public void EffectsButton(int a)
     {
@@ -101,30 +102,36 @@ public class ButtonInstructions : MonoBehaviour
             //1300 Set MiniGame
             case 1301:
                 PlayerPrefs.SetInt("God", 1);//Shuá
-                SceneManager.LoadScene("Song");
+                GodCube.TakeScreenshot("Song");
+                //SceneManager.LoadScene("Song");
 
                 break;
             case 1302:
                 PlayerPrefs.SetInt("God", 2);//Lyoko
-                SceneManager.LoadScene("Song");
+                GodCube.TakeScreenshot("Song");
+                //SceneManager.LoadScene("Song");
 
                 break;
             case 1303:
                 PlayerPrefs.SetInt("God", 3);//Akasha
-                SceneManager.LoadScene("Song");
+                GodCube.TakeScreenshot("Song");
+                //SceneManager.LoadScene("Song");
 
                 break;
             case 1304:
                 PlayerPrefs.SetInt("God", 4);//Maná
-                SceneManager.LoadScene("Song");
+                GodCube.TakeScreenshot("Song");
+                //SceneManager.LoadScene("Song");
                 break;
             case 1305:
                 PlayerPrefs.SetInt("God", Random.Range(1, 5));//RandomGod
-                SceneManager.LoadScene("Song");
+                GodCube.TakeScreenshot("Song");
+                //SceneManager.LoadScene("Song");
                 break;
             case 1306:
                 PlayerPrefs.SetInt("God", Random.Range(1, 5));//RandomGod
-                SceneManager.LoadScene("BookGame");
+                GodCube.TakeScreenshot("BookGame");
+                //SceneManager.LoadScene("BookGame");
                 break;
 
             //1400 Set Tale for other List

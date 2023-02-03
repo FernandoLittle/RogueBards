@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Will, today is my birthday.
+  - <color=purple>Will</color>, today is my birthday.
   - ..
   DialogueBR:
-  - "Will, hoje \xE9 o meu anivers\xE1rio."
+  - "<color=purple>Will</color>, hoje \xE9 o meu anivers\xE1rio."
   - ...
   idchara: 220000001c000000
   instruction: 

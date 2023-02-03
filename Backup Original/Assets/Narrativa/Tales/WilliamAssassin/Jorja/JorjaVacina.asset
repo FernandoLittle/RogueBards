@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William, Maduin, come here.
+  - <color=purple>William</color>, <color=#FF0080>Maduin</color>, come here.
   - We're busy.
   - Come now!
   - The assassins were scared because it was very rare to see Ebu with such a serious
@@ -22,7 +22,7 @@ MonoBehaviour:
   - Have you been vaccinated against Charlotte's disease?
   - Yes.
   - Yes.
-  - Jorja was not vaccinated.
+  - <color=#FF0080>Jorja</color> was not vaccinated.
   - Seriously? I can take her today to get vaccinated.
   - It's too late, I found out that she didn't get vaccinated because she started
     showing advanced symptoms of the disease.
@@ -32,18 +32,21 @@ MonoBehaviour:
   - Yes, with luck, she will survive for another season.
   - I'm going to place an order for sedatives, we'll have to kill her before she
     reaches the final stage of the disease.
-  - After Ebu left, Maduin went to the room where Jorja slept.
+  - After Ebu left, <color=#FF0080>Maduin</color> went to the room where <color=#FF0080>Jorja</color>
+    slept.
   - I will pray for her.
-  - "Roy always said that Shu\xE1 only heard the prayers of those who prayed in secret."
-  - Remembering this, William went to his room and began to pray.
+  - "<color=blue>Roy</color> always said that <color=#FF0080>Shu\xE1</color> only
+    heard the prayers of those who prayed in secret."
+  - Remembering this, <color=purple>William</color> went to his room and began to
+    pray.
   - While you teach us to love our enemies, we kill and spread terror.
-  - "Do you hear me Shu\xE1, God of Love? I want to make a pact, if you heal Jorja
+  - "Do you hear me Shu\xE1, God of Love? I want to make a pact, if you heal <color=#FF0080>Jorja</color>
     I will drop my dagger, more than that, I will abandon what is most precious to
     me, my revenge."
   - I hope that at least the God of Forgiveness will be able to forgive my sins and
     help a poor girl.
   DialogueBR:
-  - William, Maduin, venham aqui.
+  - <color=purple>William</color>, <color=#FF0080>Maduin</color>, venham aqui.
   - Estamos ocupados.
   - Venham agora!
   - "Os assassinos se assustaram porque era muito raro ver Ebu com uma voz t\xE3o
@@ -51,7 +54,7 @@ MonoBehaviour:
   - "Voc\xEAs se vacinaram contra a doen\xE7a de Charlotte?"
   - Sim.
   - Sim.
-  - "A Jorja n\xE3o se vacinou."
+  - "A <color=#FF0080>Jorja</color> n\xE3o se vacinou."
   - "S\xE9rio? Eu posso lev\xE1-la hoje para se vacinar."
   - "\xC9 tarde demais, eu descobri que ela n\xE3o se vacinou porque ela come\xE7ou
     a apresentar sintomas avan\xE7ados da doen\xE7a."
@@ -62,16 +65,19 @@ MonoBehaviour:
   - "Sim, ela ter\xE1 sorte se sobreviver por mais uma esta\xE7\xE3o."
   - "Eu vou encomendar sedativos, vamos ter que mat\xE1-la antes que ela atinja o
     est\xE1gio final da doen\xE7a.\r"
-  - "Ap\xF3s Ebu partir, Maduin se direcionou para o quarto onde Jorja dormia."
+  - "Ap\xF3s Ebu partir, <color=#FF0080>Maduin</color> se direcionou para o quarto
+    onde <color=#FF0080>Jorja</color> dormia."
   - Vou rezar por ela.
-  - "Roy sempre dizia que Shu\xE1 s\xF3 ouvia as ora\xE7\xF5es daqueles que rezavam
-    em segredo."
-  - "Lembrando-se disso, William se dirigiu ao seu quarto e come\xE7ou a orar."
+  - "<color=blue>Roy</color> sempre dizia que <color=#FF0080>Jorja</color> s\xF3
+    ouvia as ora\xE7\xF5es daqueles que rezavam em segredo."
+  - "Lembrando-se disso, <color=purple>William</color> se dirigiu ao seu quarto e
+    come\xE7ou a orar."
   - "Enquanto voc\xEA nos ensina a amar nossos inimigos, n\xF3s matamos e espalhamos
     o terror."
-  - "Voc\xEA est\xE1 me ouvindo Shu\xE1, Deus do Amor? Eu quero fazer um pacto, se
-    voc\xEA curar a Jorja eu irei largar minha adaga, mais que isso, eu irei abandonar
-    aquilo que \xE9 mais precioso para mim, a minha vingan\xE7a."
+  - "Voc\xEA est\xE1 me ouvindo <color=#FF0080>Shu\xE1</color>, Deus do Amor? Eu
+    quero fazer um pacto, se voc\xEA curar a <color=#FF0080>Jorja</color> eu irei
+    largar minha adaga, mais que isso, eu irei abandonar aquilo que \xE9 mais precioso
+    para mim, a minha vingan\xE7a."
   - "Espero que pelo menos o Deus do Perd\xE3o seja capaz de perdoar os meus pecados
     e ajudar uma pobre garota."
   idchara: 020000001f0000000200000000000000020000001c0000001f000000020000001f000000020000001f000000020000001f0000000200000002000000000000001f00000000000000000000001c0000001c0000001c000000

@@ -15,42 +15,43 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Today we have a bounty on the head of a judge and a border guard.
-  - Which one will you want, William?
+  - Which one will you want, <color=purple>William</color>?
   - What did the border guard do?
-  - He did his job. Three young men tried to leave Sarka without a passport, fought
-    with guards and were murdered.
+  - He did his job. Three young men tried to leave <color=yellow>Sarka</color> without
+    a passport, fought with guards and were murdered.
   - "The guards claimed that the youths attacked with pocketknives and in the confrontation\u2026"
   - Ebu started to get snot out of his nose.
   - What was I talking about?
-  - Do anti-immigration laws still exist? I thought those laws were gone when Sarka's
-    economy began to thrive under the rule of Lestia.
-  - Don't praise Lestia, she's an ugly, smelly bitch.
+  - Do anti-immigration laws still exist? I thought those laws were gone when <color=yellow>Sarka</color>'s
+    economy began to thrive under the rule of <color=green>Lestia</color>.
+  - Don't praise <color=green>Lestia</color>, she's an ugly, smelly bitch.
   - But in fact thousands came out of misery.
-  - Screw this, I don't like her. And even though her reforms worked, Sangla is still
-    absurdly richer than Sarka, so she has a lot of people wanting to flee this shitty
-    country.
+  - Screw this, I don't like her. And even though her reforms worked, <color=yellow>Sangla</color>
+    is still absurdly richer than <color=yellow>Sarka</color>, so she has a lot of
+    people wanting to flee this shitty country.
   - Problem solved, you're going to hunt down the guard.
   - Don't feel sorry for him, if he starts crying remember that he would put his
     sword on your neck just because you tried to jump over a wall.
   DialogueBR:
   - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
-  - "Qual voc\xEA vai querer, William?"
+  - "Qual voc\xEA vai querer, <color=purple>William</color>?"
   - O que o guarda da fronteira fez?
-  - "Ele fez o trabalho dele. Tr\xEAs jovens tentaram sair de Sarka sem passaporte,
-    brigaram com os guardas e foram assassinados.\r\n"
+  - "Ele fez o trabalho dele. Tr\xEAs jovens tentaram sair de <color=yellow>Sarka</color>
+    sem passaporte, brigaram com os guardas e foram assassinados.\r\n"
   - "Os guardas alegaram que os jovens atacaram com canivetes e no confronto\u2026"
   - "Ebu come\xE7ou a tirar meleca do nariz."
   - Do que eu estava falando?
   - "Ainda existem leis anti-imigra\xE7\xE3o? Achei que essas leis tinham desaparecido
-    quando a economia de Sarka come\xE7ou a prosperar sob o governo da Lestia."
-  - "N\xE3o elogie a Lestia, ela \xE9 uma puta feia e fedida."
+    quando a economia de <color=yellow>Sarka</color> come\xE7ou a prosperar sob o
+    governo da <color=green>Lestia</color>."
+  - "N\xE3o elogie a <color=green>Lestia</color>, ela \xE9 uma puta feia e fedida."
   - "Mas de fato milhares sa\xEDram da mis\xE9ria."
-  - "Foda-se, eu n\xE3o gosto dela. E apesar das reformas terem dado resultado, Sangla
-    ainda \xE9 absurdamente mais rica que Sarka, ent\xE3o tem um monte de gente querendo
-    fugir desse pa\xEDs de merda.\r\n"
+  - "Foda-se, eu n\xE3o gosto dela. E apesar das reformas terem dado resultado, <color=yellow>Sangla</color>
+    ainda \xE9 absurdamente mais rica que <color=yellow>Sarka</color>, ent\xE3o tem
+    um monte de gente querendo fugir desse pa\xEDs de merda.\r\n"
   - "Resolvido, voc\xEA vai ca\xE7ar o guardinha."
   - "N\xE3o tenha pena dele, se ele come\xE7ar a chorar lembre-se que ele passaria
     a espada no seu pesco\xE7o s\xF3 porque voc\xEA tentou pular um muro."
-  idchara: 
+  idchara: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

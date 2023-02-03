@@ -20,6 +20,7 @@ public class BookAlma : MonoBehaviour
     public GameObject CorrectAnswerGO;
     public GameObject UltraCorrectAnswerGO;
     public int Idle;
+    public GodCube GodCube;//x
     
     // Start is called before the first frame update
     void Start()
@@ -65,7 +66,7 @@ public class BookAlma : MonoBehaviour
     }
     public void CorrectAnswer1()
     {
-
+        int buda;
 
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
@@ -75,13 +76,24 @@ public class BookAlma : MonoBehaviour
         Idle = PlayerPrefs.GetInt("Idle");
         if (Idle == 1)
         {
-          
 
-            SceneManager.LoadScene("Money");
+            buda = PlayerPrefs.GetInt("Buda");
+            if (buda == 1)
+            {
+                GodCube.TakeScreenshot("Adventure");
+                //SceneManager.LoadScene("Adventure");
+            }
+            else
+            {
+                GodCube.TakeScreenshot("Money");
+                //SceneManager.LoadScene("Money");
+            }
+
         }
         else
         {
-            SceneManager.LoadScene("Tales");
+            GodCube.TakeScreenshot("Tales");
+            //SceneManager.LoadScene("Tales");
         }
 
  
@@ -89,6 +101,7 @@ public class BookAlma : MonoBehaviour
     }
     public void UltraCorrectAnswer1()
     {
+        int buda;
 
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
@@ -99,17 +112,28 @@ public class BookAlma : MonoBehaviour
         if (Idle == 1)
         {
 
+            buda = PlayerPrefs.GetInt("Buda");
+            if (buda == 1)
+            {
+                GodCube.TakeScreenshot("Adventure");
+                //SceneManager.LoadScene("Adventure");
+            }
+            else
+            {
+                GodCube.TakeScreenshot("Money");
+                //SceneManager.LoadScene("Money");
+            }
 
-            SceneManager.LoadScene("Money");
         }
         else
         {
-            SceneManager.LoadScene("Tales");
+            GodCube.TakeScreenshot("Tales");
+            //SceneManager.LoadScene("Tales");
         }
     }
     public void WrongAnswer1()
     {
-
+        int buda;
         PlayerPrefs.SetInt("Batalha", 1);
         PlayerPrefs.SetInt("IdList", 3);
 
@@ -119,12 +143,19 @@ public class BookAlma : MonoBehaviour
         if (Idle == 1)
         {
 
-
-            SceneManager.LoadScene("Money");
+            buda = PlayerPrefs.GetInt("Buda");
+            if (buda == 1)
+            {
+                GodCube.TakeScreenshot("Adventure");
+                //SceneManager.LoadScene("Adventure");
+            }
+            GodCube.TakeScreenshot("Money");
+            //SceneManager.LoadScene("Money");
         }
         else
         {
-            SceneManager.LoadScene("Tales");
+            GodCube.TakeScreenshot("Tales");
+            //SceneManager.LoadScene("Tales");
         }
     }
 

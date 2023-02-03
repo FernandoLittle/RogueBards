@@ -18,21 +18,21 @@ MonoBehaviour:
   - Eight.
   - That's cool, I didn't buy any gifts, but when you turn nine I'm going to give
     you a big present.
-  - Jorja started to cry.
+  - <color=#FF0080>Jorja</color> started to cry.
   - "\u201CIs she crying just because I didn't buy her a present?\u201D"
   - '"I hate children."'
-  - '"At least Maduin will take her to an orphanage soon and I won''t have to deal
-    with this again."'
+  - '"At least <color=#FF0080>Maduin</color> will take her to an orphanage soon and
+    I won''t have to deal with this again."'
   DialogueBR:
   - "Parab\xE9ns, quantos anos voc\xEA vai fazer?"
   - Oito.
   - "Que legal, eu n\xE3o comprei nada, mas quando voc\xEA fizer nove anos eu vou
     te dar um grande presente.\r"
-  - "Jorja come\xE7ou a chorar."
+  - "<color=#FF0080>Jorja</color> come\xE7ou a chorar."
   - "\u201CEla est\xE1 chorando s\xF3 porque eu n\xE3o comprei um presente?\u201D"
   - "\"Odeio crian\xE7as.\""
-  - "\"Pelo menos Maduin vai lev\xE1-la para um orfanato em breve e eu n\xE3o terei
-    que lidar com isso novamente.\""
+  - "\"Pelo menos <color=#FF0080>Maduin</color> vai lev\xE1-la para um orfanato em
+    breve e eu n\xE3o terei que lidar com isso novamente.\""
   idchara: 1c000000220000001c000000000000001c0000001c0000001c000000
   instruction: 
   Cenario: 0

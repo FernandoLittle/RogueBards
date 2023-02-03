@@ -15,31 +15,35 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Fear.
-  - After William landed several blows, Maduin continued unabated.
+  - After <color=purple>William</color> landed several blows, Maduin continued unabated.
   - Fear.
-  - William was very afraid.
-  - He felt that Maduin could easily destroy him with a single blow.
-  - Fear paralyzed his body and he felt completely helpless as Maduin gripped his
-    shoulder.
+  - <color=purple>William</color> was very afraid.
+  - He felt that <color=#FF0080>Maduin</color> could easily destroy him with a single
+    blow.
+  - Fear paralyzed his body and he felt completely helpless as <color=#FF0080>Maduin</color>
+    gripped his shoulder.
   - Relief.
   - In a single instant he was completely relieved.
   - Maduin was crying pathetically. The idea that his punches had no effect was an
-    irrational illusion. He managed to completely subdue Maduin in that fight.
+    irrational illusion. He managed to completely subdue <color=#FF0080>Maduin</color>
+    in that fight.
   - I felt the hate of each of your punches.
-  - I will hand you Roy's letter of execution.
+  - I will hand you <color=blue>Roy</color>'s letter of execution.
   DialogueBR:
   - 'Medo. '
-  - "Ap\xF3s William desferir v\xE1rios golpes, Maduin continuava inabal\xE1vel."
+  - "Ap\xF3s <color=purple>William</color> desferir v\xE1rios golpes, Maduin continuava
+    inabal\xE1vel."
   - 'Medo. '
-  - William sentiu muito medo.
-  - "Ele sentiu que Maduin poderia destru\xED-lo facilmente com um \xFAnico golpe."
-  - O medo paralisou o seu corpo e ele se sentiu completamente impotente quando Maduin
+  - <color=purple>William</color> sentiu muito medo.
+  - "Ele sentiu que <color=#FF0080>Maduin</color> poderia destru\xED-lo facilmente
+    com um \xFAnico golpe."
+  - O medo paralisou o seu corpo e ele se sentiu completamente impotente quando <color=#FF0080>Maduin</color>
     agarrou o seu ombro.
   - "Al\xEDvio."
   - "Em um \xFAnico instante ele ficou completamente aliviado."
-  - "Maduin estava chorando pateticamente. A ideia de que seus socos n\xE3o surtiam
-    efeito era uma ilus\xE3o irracional. Ele conseguiu subjugar Maduin completamente
-    naquela luta.\r"
+  - "<color=#FF0080>Maduin</color> estava chorando pateticamente. A ideia de que
+    seus socos n\xE3o surtiam efeito era uma ilus\xE3o irracional. Ele conseguiu
+    subjugar <color=#FF0080>Maduin</color> completamente naquela luta.\r"
   - "Eu senti o \xF3dio de cada um dos seus socos."
   - "Eu irei te entregar a carta de execu\xE7\xE3o do seu pai."
   idchara: 0000000000000000000000000000000000000000000000000000000000000000000000001f0000001f000000

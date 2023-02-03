@@ -16,8 +16,8 @@ MonoBehaviour:
   Dialogue:
   - Justice always wins.
   - One day you will be arrested, assassin.
-  - I have fought my entire life for Sarka's law, even after I die others will inherit
-    my purpose.
+  - I have fought my entire life for <color=yellow>Sarka</color>'s law, even after
+    I die others will inherit my purpose.
   - Because the law is above everything.
   - Have you finished your speech?
   - "\u2026"
@@ -33,8 +33,8 @@ MonoBehaviour:
   DialogueBR:
   - "A justi\xE7a sempre vence."
   - "Um dia voc\xEA ser\xE1 preso, assassino."
-  - "Eu lutei minha vida inteira pela lei de Sarka, mesmo depois que eu morrer outros
-    herdar\xE3o meu prop\xF3sito.\r"
+  - "Eu lutei minha vida inteira pela lei de <color=yellow>Sarka</color>, mesmo depois
+    que eu morrer outros herdar\xE3o meu prop\xF3sito.\r"
   - "Porque a lei est\xE1 acima de tudo."
   - "J\xE1 terminou seu discurso?"
   - "\u2026"
@@ -49,6 +49,6 @@ MonoBehaviour:
     da justi\xE7a."
   - "A lei nada mais \xE9 do que a vontade dos fortes."
   - "E a minha for\xE7a me deu o direito de impor minhas leis sobre voc\xEA."
-  idchara: 
+  idchara: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

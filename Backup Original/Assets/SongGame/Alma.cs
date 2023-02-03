@@ -17,6 +17,7 @@ public class Alma : MonoBehaviour
     public bool Starto;
     public ScoreJudge ScoreJudge;
     public int Idle;
+    public GodCube GodCube;//x
     // Start is called before the first frame update
 
     private void FixedUpdate()
@@ -61,6 +62,7 @@ public class Alma : MonoBehaviour
     }
     public void END()
     {
+        int buda;
         Idle = PlayerPrefs.GetInt("Idle");
         if (Idle == 1)
         {
@@ -77,7 +79,17 @@ public class Alma : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Tale", 0);
             }
-            SceneManager.LoadScene("Money");
+            buda = PlayerPrefs.GetInt("Buda");
+            if (buda == 1)
+            {
+                GodCube.TakeScreenshot("Adventure");
+                //SceneManager.LoadScene("Adventure");
+            }
+            else
+            {
+                GodCube.TakeScreenshot("Money");
+                //SceneManager.LoadScene("Money");
+            }
         }
         else
         {
@@ -98,8 +110,8 @@ public class Alma : MonoBehaviour
 
 
 
-
-            SceneManager.LoadScene("Tales");
+            GodCube.TakeScreenshot("Tales");
+            //SceneManager.LoadScene("Tales");
         }
 
        

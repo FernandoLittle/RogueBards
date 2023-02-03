@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Ebu Name
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - The moon is beautiful today, don't you think, <color=purple>William</color>?
+  - <color=purple>William</color> looked at the moon that was in the sky, it was
+    indeed very beautiful, but it was surrounded by the immense darkness of the night.
+  - As much as the moonlight and the darkness were different, the image of the two
+    side by side was extremely natural, it seemed that the Moon and the Night loved
+    each other.
+  - <color=purple>William</color> felt afraid and decided to look at something more
+    beautiful.
+  - As if nostalgic for the past, Ebu looked sad. <color=purple>William</color> had
+    the impression that she was only thinking about obscenities and sexual jokes,
+    but at that moment she seemed to be contemplating something deeper.
+  - What are you thinking, Ebu?
+  - About good and evil.
+  - I think I'm a bad person.
+  - Do you have any doubts about that?
+  - Go to hell.
+  - I don't think a assassin is necessarily evil.
+  - "After all, the order of a civilization arises from systematic violence.\r"
+  - "Do you want to create a new order?\r"
+  - 'On the contrary, I want to destroy the gears of this world.
+
+'
+  - 'But I am a bad person for another reason.
+
+'
+  - 'I like to see the terror on the faces of my victims.
+
+'
+  - "The more powerful and arrogant a person is, the more pleasure I feel seeing
+    their fear.\r"
+  - "This is an essentially sadistic and malicious characteristic of mine, but what
+    can I do?\r"
+  - "I think this happens because I always liked scary things.\r"
+  - "I always loved scary things.\r"
+  - "Did you know that my name refers to that?\r"
+  - 'What do you mean?
+
+'
+  - 'Bu is the sound people make when they want to scare someone.
+
+'
+  - 'Bu!
+
+'
+  - "Are you okay?\r"
+  - 'Sorry, I drank too much wine, I''m starting to talk bullshit.
+
+'
+  - 'I''ll drink another bottle and sleep.
+
+'
+  - 'Sleep well, Ebu.
+
+'
+  - Ebu is my dick, my name is Grand Master Ebu Belmont Adae...
+  - 'I''m talking bullshit, sleep well.
+
+    
+
+    
+
+    
+
+'
+  DialogueBR:
+  - "A Lua est\xE1 bonita hoje, voc\xEA n\xE3o acha, <color=purple>William</color>?"
+  - "<color=purple>William</color> olhou para a Lua que estava no c\xE9u, ela de
+    fato era muito bela, por\xE9m ela estava cercada pela imensa escurid\xE3o da
+    noite."
+  - 'Por mais que o luar e as trevas fossem diferentes, a imagem dos dois lado a
+    lado era extremamente natural, parecia que a Lua e a Noite se amavam.
+
+'
+  - "<color=purple>William</color> sentiu medo e decidiu olhar para algo mais belo.\r"
+  - "Como se estivesse com saudades do passado, Ebu parecia triste. William tinha
+    a impress\xE3o que ela s\xF3 pensava em obscenidades e piadas de mau gosto, por\xE9m
+    naquele momento ela parecia estar contemplando algo mais profundo."
+  - "No que voc\xEA est\xE1 pensando, Ebu?"
+  - Sobre o bem e o mal.
+  - "Eu acho que sou uma pessoa m\xE1."
+  - "Voc\xEA tem alguma d\xFAvida sobre isso?"
+  - Vai se foder.
+  - "Eu n\xE3o acho que um assassino seja necessariamente mal."
+  - "Afinal, a ordem de uma civiliza\xE7\xE3o nasce da viol\xEAncia sistem\xE1tica."
+  - "Voc\xEA deseja criar uma nova ordem?"
+  - "Pelo contr\xE1rio, eu desejo destruir as engrenagens desse mundo."
+  - "Mas eu sou uma pessoa m\xE1 por um outro motivo."
+  - "Eu gosto de ver o terror na face das minhas v\xEDtimas."
+  - "Quanto mais poderosa e arrogante uma pessoa \xE9, mais prazer eu sinto ao ver
+    o medo delas.\r\n"
+  - "Isso \xE9 uma caracter\xEDstica essencialmente s\xE1dica e maligna minha, mas
+    o que eu posso fazer? \r\n"
+  - Acho que isso acontece porque eu sempre gostei de coisas assustadoras.
+  - Eu sempre amei coisas assustadoras.
+  - "Sabia que meu nome faz refer\xEAncia a isso?"
+  - Como assim?
+  - "Bu \xE9 o som que as pessoas fazem quando querem assustar algu\xE9m."
+  - Bu!
+  - "Voc\xEA est\xE1 bem?"
+  - "Desculpa, eu bebi muito vinho, t\xF4 come\xE7ando a falar merda."
+  - Vou beber mais uma garrafa e dormir.
+  - Durma bem, Ebu.
+  - "Ebu \xE9 o caralho, meu nome \xE9 grande mestra Ebu Belmont Adae\u2026"
+  - 'To falando merda, durma bem.
+
+'
+  idchara: 
+  instruction: 
+  Cenario: 0

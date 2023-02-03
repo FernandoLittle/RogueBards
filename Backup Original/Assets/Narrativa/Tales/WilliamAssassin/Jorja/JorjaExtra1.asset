@@ -34,18 +34,20 @@ MonoBehaviour:
   - No.
   - Bah!
   - And now?
-  - Ebu made an even weirder face and Jorja laughed.
+  - Ebu made an even weirder face and <color=#FF0080>Jorja</color> laughed.
   - It's for you to be scared, not for you to laugh. I have an idea! The monster
     did this.
-  - Ebu moved forward tickling Jorja.
-  - Ebu is getting along well with Jorja, don't you think, Maduin?
-  - The story you told about Jorja's mother reminded Ebu of his own father.
+  - Ebu moved forward tickling <color=#FF0080>Jorja</color>.
+  - Ebu is getting along well with <color=#FF0080>Jorja</color>, don't you think,
+    <color=#FF0080>Maduin</color>?
+  - The story you told about <color=#FF0080>Jorja</color>'s mother reminded Ebu of
+    his own father.
   - Damn, so she had a pretty shitty dad.
   - I think she grew up with people who didn't care about her, so Ebu acts like she
     doesn't care about others.
   - But I truly believe she has genuine affection for us, even if she rarely shows
     it.
-  - Maduin heard Ebu speak a list of curse words.
+  - <color=#FF0080>Maduin</color> heard Ebu speak a list of curse words.
   - Damn, she's teaching the girl to swear again. I better go there.
   DialogueBR:
   - "Quer ouvir uma hist\xF3ria de terror antes de dormir?"
@@ -70,19 +72,20 @@ MonoBehaviour:
   - "N\xE3o."
   - Bah!
   - E agora?
-  - Ebu fez uma careta ainda mais estranha e Jorja deu uma risada.
+  - Ebu fez uma careta ainda mais estranha e <color=#FF0080>Jorja</color> deu uma
+    risada.
   - "\xC9 pra voc\xEA ficar com medo, e n\xE3o pra voc\xEA rir. J\xE1 sei! O monstro
     fazia assim."
-  - "Ebu avan\xE7ou fazendo c\xF3cegas na Jorja."
-  - "Ebu est\xE1 se dando bem com a Jorja n\xE3o acha, Maduin?"
-  - "A hist\xF3ria que voc\xEA contou sobre a m\xE3e da Jorja fez a Ebu se lembrar
-    do pr\xF3prio pai."
+  - "Ebu avan\xE7ou fazendo c\xF3cegas na <color=#FF0080>Jorja</color>."
+  - "Ebu est\xE1 se dando bem com a <color=#FF0080>Jorja</color> n\xE3o acha, <color=#FF0080>Maduin</color>?"
+  - "A hist\xF3ria que voc\xEA contou sobre a m\xE3e da <color=#FF0080>Jorja</color>
+    fez a Ebu se lembrar do pr\xF3prio pai."
   - "Caramba, ent\xE3o ela tinha um pai bem merda."
   - "Eu acho que ela cresceu em um ambiente de pessoas que n\xE3o se importavam com
     ela, ent\xE3o a Ebu age como se n\xE3o se importasse com os outros."
   - "Mas eu realmente acredito que ela sente um afeto genu\xEDno por n\xF3s, mesmo
     que ela raramente demonstre."
-  - "Maduin escutou Ebu falar uma lista de palavr\xF5es."
+  - "<color=#FF0080>Maduin</color> escutou Ebu falar uma lista de palavr\xF5es."
   - "Droga, ela est\xE1 ensinando a garota a falar palavr\xF5es de novo. \xC9 melhor
     eu ir l\xE1. "
   idchara: 01000000220000000100000022000000010000000100000001000000220000000100000022000000010000000000000001000000010000000100000000000000010000002200000001000000010000000000000001000000000000001c0000001f0000001c0000001f0000001f000000000000001f000000

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   sprite1: {fileID: 0}
-  Name: 
+  Name: <color=blue>Joshua</color>
   id: 0
   idPersonagem: 0
   AtaqueForte: 

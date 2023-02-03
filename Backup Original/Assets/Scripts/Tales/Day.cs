@@ -56,7 +56,55 @@ public class Day : MonoBehaviour
         day += 1;
         StaticPlayer.Day = day;
     }
+    public void SelectDayAssassin()
+    {
+        day = StaticPlayer.Day;
+        //teste
+        //Sincroniza 3 Controlers
+        if (day == 1)
+        {
+            RandomIntro();
+        }
+        if (day == 2)
+        {
+            RandomBard();
+        }
+        if (day == 3)
+        {
+            FightCrime(2);
+        }
+        if (day == 4)
+        {
 
+            Minigame();
+        }
+        if (day == 5)
+        {
+            Happiness();
+        }
+        if (day == 6)
+        {
+
+        }
+        if (day == 7)
+        {
+
+        }
+        if (day == 8)
+        {
+
+        }
+        if (day == 9)
+        {
+
+        }
+        if (day == 10)
+        {
+
+        }
+        day += 1;
+        StaticPlayer.Day = day;
+    }
     public void RandomIntro()
     {
         int caos;

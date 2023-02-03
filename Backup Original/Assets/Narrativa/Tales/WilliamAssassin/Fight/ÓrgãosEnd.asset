@@ -14,59 +14,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - The warrior was no longer able to wield his sword after William slashed his wrists.
+  - The warrior was no longer able to wield his sword after <color=purple>William</color>
+    slashed his wrists.
   - Soon your bleeding death will come, do you regret your choices now?
-  - William loved to incapacitate his victims and talk to them looking down on them.
+  - <color=purple>William</color> loved to incapacitate his victims and talk to them
+    looking down on them.
   - I would never regret it, I fought for the law until the end of my life, nothing
     could make me more proud.
-  - William's fake laugh wasn't convincing at all.
+  - <color=purple>William</color>'s fake laugh wasn't convincing at all.
   - You fought for the law, so cute, we look alike don't you think?
   - Curiously, the method William used to mock his adversary was to compare himself
     to him.
   - You are a criminal, a worm, we are nothing alike!
-  - Normally, William would physically torture a warrior who said that, but he believed
-    that psychological torture would be more fun.
+  - Normally, <color=purple>William</color> would physically torture a warrior who
+    said that, but he believed that psychological torture would be more fun.
   - I fight for the will of the rich who put a bounty on your head. I am a slave
     to the will of the powerful.
-  - Do you know which is the richest and most powerful institution in Sarka? It is
-    Sarka's own government, the justice you are proud to uphold is merely the will
-    of the politicians who make the laws.
+  - Do you know which is the richest and most powerful institution in <color=yellow>Sarka</color>?
+    It is <color=yellow>Sarka</color>'s own government, the justice you are proud
+    to uphold is merely the will of the politicians who make the laws.
   - "You\u2026"
-  - William kicked the warrior in the head.
+  - <color=purple>William</color> kicked the warrior in the head.
   - Don't interrupt me, I lose my train of thought easily.
   - That was one of the reasons he enjoyed talking to disabled victims.
   - We are equals, we serve the will of the rich in exchange for money, our job is
     to kill all those who displease the powerful.
   - The only difference between us is that my job pays a lot more than yours.
   DialogueBR:
-  - "O guerreiro j\xE1 n\xE3o conseguia empunhar sua espada depois que William cortou
-    seus pulsos."
+  - "O guerreiro j\xE1 n\xE3o conseguia empunhar sua espada depois que <color=purple>William</color>
+    cortou seus pulsos."
   - "Em breve sua morte por hemorragia chegar\xE1, voc\xEA se arrepende de suas escolhas
     agora?\r"
-  - "William adorava incapacitar suas v\xEDtimas e conversar com elas olhando de
-    cima para baixo."
+  - "<color=purple>William</color> adorava incapacitar suas v\xEDtimas e conversar
+    com elas olhando de cima para baixo."
   - "Eu jamais me arrependeria, eu lutei pela lei at\xE9 o fim de minha vida, nada
     poderia me fazer ter mais orgulho."
-  - "A risada falsa de William n\xE3o era nem um pouco convincente."
+  - "A risada falsa de <color=purple>William</color> n\xE3o era nem um pouco convincente."
   - "Voc\xEA lutou pela lei, que bonitinho, n\xF3s somos parecidos n\xE3o acha?"
   - "Curiosamente, o m\xE9todo que William usava para zombar de seu advers\xE1rio
     era comparar-se a ele."
   - "Voc\xEA \xE9 um criminoso, um verme, n\xF3s n\xE3o somos nada parecidos!"
-  - "Normalmente, William torturaria fisicamente um guerreiro que dissesse isso,
-    mas ele acreditava que a tortura psicol\xF3gica seria mais divertida."
+  - "Normalmente, <color=purple>William</color> torturaria fisicamente um guerreiro
+    que dissesse isso, mas ele acreditava que a tortura psicol\xF3gica seria mais
+    divertida."
   - "Eu luto pela vontade dos ricos que botaram uma recompensa na sua cabe\xE7a.
     Eu sou um escravo da vontade dos poderosos."
-  - "Sabe qual \xE9 a institui\xE7\xE3o mais rica e poderosa de Sarka? \xC9 o pr\xF3prio
-    governo de Sarka, a justi\xE7a que voc\xEA se orgulha de defender \xE9 meramente
-    a vontade dos pol\xEDticos que criam as leis."
+  - "Sabe qual \xE9 a institui\xE7\xE3o mais rica e poderosa de <color=yellow>Sarka</color>?
+    \xC9 o pr\xF3prio governo de <color=yellow>Sarka</color>, a justi\xE7a que voc\xEA
+    se orgulha de defender \xE9 meramente a vontade dos pol\xEDticos que criam as
+    leis."
   - "Voc\xEA..."
-  - "William deu um chute na cabe\xE7a do guerreiro."
+  - "<color=purple>William</color> deu um chute na cabe\xE7a do guerreiro."
   - "N\xE3o me interrompa, eu perco minha linha de racioc\xEDnio facilmente."
   - "Esse era um dos motivos dele gostar de conversar com v\xEDtimas incapacitadas.\r"
   - "N\xF3s somos iguais, n\xF3s servimos a vontade dos ricos em troca de dinheiro,
     nosso trabalho \xE9 matar todos aqueles que desagradam os poderosos."
   - "A \xFAnica diferen\xE7a entre n\xF3s \xE9 que o meu trabalho paga muito mais
     que o seu."
-  idchara: 
+  idchara: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Ebu Lua
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - The moon is beautiful today, don't you think, <color=purple>William</color>?
+  - <color=purple>William</color> looked at the moon that was in the sky, it was
+    indeed very beautiful, but it was surrounded by the immense darkness of the night.
+  - As much as the moonlight and the darkness were different, the image of the two
+    side by side was extremely natural, it seemed that the Moon and the Night loved
+    each other.
+  - <color=purple>William</color> felt afraid and decided to look at something more
+    beautiful.
+  - As if nostalgic for the past, Ebu looked sad. William had the impression that
+    she was only thinking about obscenities and sexual jokes, but at that moment
+    she seemed to be contemplating something deeper.
+  - What are you thinking, Ebu?
+  - About my choices. I took a very unexpected path becoming an assassin.
+  - You regret?
+  - Nop. But I wonder if it could have been different.
+  - Warriors and assassins look at the same moon, are lit by the same sun, breathe
+    the same air and walk on the same earth.
+  - Warriors want to kill us without a second thought and we do exactly the same,
+    but wouldn't we end up becoming warriors if our choices in the past were a little
+    different?
+  - That would be impossible. We are free to do what we choose, but we are not free
+    to want what we choose.
+  - Ebu gave a big laugh.
+  - What's funny?
+  - "When you said \u201Cimpossible\u201D I was reminded of a joke about a guy who
+    had a big dick, you wouldn't understand."
+  - I can imagine what that joke must be like. I was surprised to see you so serious
+    talking about the moon and destiny. It's good to see you getting back to normal
+    bullshit.
+  DialogueBR:
+  - "A Lua est\xE1 bonita hoje, voc\xEA n\xE3o acha, <color=purple>William</color>?"
+  - "<color=purple>William</color> olhou para a Lua que estava no c\xE9u, ela de
+    fato era muito bela, por\xE9m ela estava cercada pela imensa escurid\xE3o da
+    noite, por mais que o luar e as trevas fossem diferentes, a imagem dos dois lado
+    a lado era extremamente natural, parecia que a Lua e a Noite se amavam.\r\n"
+  - 'Por mais que o luar e as trevas fossem diferentes, a imagem dos dois lado a
+    lado era extremamente natural, parecia que a Lua e a Noite se amavam.
+
+'
+  - <color=purple>William</color> sentiu medo e decidiu olhar para algo mais belo.
+  - "Como se estivesse com saudades do passado, Ebu parecia triste. <color=purple>William</color>
+    tinha a impress\xE3o que ela s\xF3 pensava em obscenidades e piadas de mau gosto,
+    por\xE9m naquele momento ela parecia estar contemplando algo mais profundo."
+  - "No que voc\xEA est\xE1 pensando, Ebu?"
+  - Sobre minhas escolhas. Eu segui um caminho muito inesperado virando uma assassina.
+  - "Voc\xEA se arrepende?"
+  - "N\xE3o. Mas eu me pergunto se poderia ter sido diferente.\r\n"
+  - "Guerreiros e assassinos olham para a mesma Lua, s\xE3o iluminados pelo mesmo
+    Sol, respiram o mesmo ar e pisam na mesma terra.\r\n"
+  - "Os guerreiros querem nos matar sem pensar duas vezes e n\xF3s fazemos exatamente
+    o mesmo, mas ser\xE1 que n\xF3s n\xE3o acabar\xEDamos nos tornando guerreiros
+    se nossas escolhas no passado fossem um pouco diferentes?\r"
+  - "Isso seria imposs\xEDvel. N\xF3s somos livres para fazer o que escolhemos, mas
+    n\xE3o somos livres para querer o que escolhemos."
+  - Ebu deu uma grande risada.
+  - "Qual a gra\xE7a?"
+  - "Quando voc\xEA falou \u201Cimposs\xEDvel\u201D eu lembrei de uma piada sobre
+    um cara que tinha um pau grande, voc\xEA n\xE3o entenderia.\r\n"
+  - "Consigo imaginar como essa piada deve ser. Eu estava estranhando ver voc\xEA
+    toda s\xE9ria falando sobre Lua e destino. \xC9 bom ver voc\xEA voltando a falar
+    besteira normalmente.\r"
+  idchara: 
+  instruction: 
+  Cenario: 0

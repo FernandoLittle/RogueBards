@@ -16,75 +16,76 @@ MonoBehaviour:
   Dialogue:
   - Why me?
   - I've never stolen, I've always been an honest politician, I've always thought
-    of Sarka's good.
+    of <color=yellow>Sarka</color>'s good.
   - Why did you choose me as a victim?
   - Because you voted for a law that prohibited newspapers from publishing unpatriotic
     news.
   - I voted against this law!
-  - Oh, sorry I got mixed up, your name is Romeu Hatter right?
-  - "Romeu\u2026 you had voted in favor of which law?"
+  - Oh, sorry I got mixed up, your name is <color=yellow>Romeu Hatter</color> right?
+  - "<color=yellow>Romeu</color>\u2026 you had voted in favor of which law?"
   - "I remembered, you voted for the law that banned the song \u201CLuna was right\u201D."
   - I didn't know laws could be so specific as to quote a particular song.
-  - Are you serious? Sarka's parliament is totally rotten, truly absurd laws have
-    already been passed here, laws that really destroyed this country, and I haven't
-    even started talking about all the corruption there is.
+  - Are you serious? <color=yellow>Sarka</color>'s parliament is totally rotten,
+    truly absurd laws have already been passed here, laws that really destroyed this
+    country, and I haven't even started talking about all the corruption there is.
   - And you're going to kill me because of such a ridiculous law? I just followed
     the party line when voting, I don't care one bit what the bards are singing.
   - Politicians are really good at speeches, even in the face of death you managed
     to come up with good arguments that almost made me change my mind.
   - But you are ignoring something.
   - I chose you precisely because you didn't do anything too serious.
-  - 'As Adams would say:'
+  - 'As <color=blue>Adams</color> would say:'
   - "\u201CTrue freedom is only obtained when we defend the right to practice the
     futile and immoral\u201D."
   - If a politician suffers a brutal punishment for attacking a small freedom, imagine
     the fear other politicians will have in attacking really important freedoms.
   - "You can not\u2026"
-  - William covered the politician's mouth and drew his dagger.
+  - <color=purple>William</color> covered the politician's mouth and drew his dagger.
   - Be silent, we've talked enough.
   - You're really good at arguing and persuading, but it's not politicians who rule
     this world.
   - Who rules this world is who is willing to use violence against those who go against
     their will.
-  - That is the true law of this world.
+  - That is the true <color=yellow>law</color> of this world.
   DialogueBR:
   - Por que justo eu?
-  - "E nunca roubei, sempre fui um pol\xEDtico honesto, sempre pensei no bem de Sarka."
+  - "E nunca roubei, sempre fui um pol\xEDtico honesto, sempre pensei no bem de <color=yellow>Sarka</color>."
   - "Por que voc\xEA me escolheu como v\xEDtima?"
   - "Porque voc\xEA votou a favor de uma lei que proibia jornais de publicarem not\xEDcias
     anti patri\xF3ticas."
   - Eu votei contra essa lei!
-  - "Oh, desculpe, eu me confundi, seu nome \xE9 Romeu Hatter certo?"
-  - "Romeu\u2026 voc\xEA tinha votado a favor de qual lei mesmo?"
+  - "Oh, desculpe, eu me confundi, seu nome \xE9 <color=yellow>Romeu Hatter</color>
+    certo?"
+  - "<color=yellow>Romeu</color>\u2026 voc\xEA tinha votado a favor de qual lei mesmo?"
   - "Lembrei,  voc\xEA votou a favor da lei que proibia a m\xFAsica \u201CLuna estava
     certa\u201D. "
   - "Eu n\xE3o sabia que as leis podiam ser t\xE3o espec\xEDficas a ponto de citarem
     uma m\xFAsica em particular."
-  - "Voc\xEA est\xE1 falando s\xE9rio? O parlamento de Sarka \xE9 totalmente podre,
-    leis verdadeiramente absurdas j\xE1 foram aprovadas aqui, leis que realmente
-    destru\xEDram este pa\xEDs, e eu nem comecei a falar de toda a corrup\xE7\xE3o
-    que existe."
+  - "Voc\xEA est\xE1 falando s\xE9rio? O parlamento de <color=yellow>Sarka</color>
+    \xE9 totalmente podre, leis verdadeiramente absurdas j\xE1 foram aprovadas aqui,
+    leis que realmente destru\xEDram este pa\xEDs, e eu nem comecei a falar de toda
+    a corrup\xE7\xE3o que existe."
   - "E voc\xEA vai me matar por conta de uma lei rid\xEDcula dessas? Eu s\xF3 segui
     a orienta\xE7\xE3o partid\xE1ria ao votar, n\xE3o me interessa nem um pouco o
     que os bardos est\xE3o cantando."
   - "Pol\xEDticos s\xE3o realmente bons em discursar, mesmo diante da morte voc\xEA
     conseguiu elaborar bons argumentos que quase me fizeram mudar de ideia."
   - "Por\xE9m voc\xEA est\xE1 ignorando algo."
-  - "Eu escolhi voc\xEA justamente porque voc\xEA n\xE3o fez nada muito grave."
-  - 'Como diria Adams:'
+  - "Eu te escolhi justamente porque voc\xEA n\xE3o fez nada muito grave."
+  - 'Como diria <color=blue>Adams</color>:'
   - "\u201CA verdadeira liberdade s\xF3 \xE9 obtida quando defendemos o direito de
     praticar o f\xFAtil e o imoral\u201D."
   - "Se um pol\xEDtico sofre uma puni\xE7\xE3o brutal por atacar uma liberdade pequena,
     imagine o medo que os outros pol\xEDticos ter\xE3o em atacar as liberdades realmente
     importantes."
   - "Voc\xEA n\xE3o pode\u2026"
-  - "William tampou a boca do pol\xEDtico e sacou sua adaga."
+  - "<color=purple>William</color> tampou a boca do pol\xEDtico e sacou sua adaga."
   - "Sil\xEAncio, n\xF3s j\xE1 conversamos bastante."
   - "Voc\xEA \xE9 muito bom em argumentar e persuadir, mas n\xE3o s\xE3o os pol\xEDticos
     que governam este mundo."
   - "Quem governa este mundo \xE9 quem est\xE1 disposto a usar a viol\xEAncia contra
     aqueles que v\xE3o contra a sua vontade."
-  - "Essa \xE9 a verdadeira lei deste mundo."
-  idchara: 
+  - "Essa \xE9 a verdadeira <color=yellow>lei</color> deste mundo."
+  idchara: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

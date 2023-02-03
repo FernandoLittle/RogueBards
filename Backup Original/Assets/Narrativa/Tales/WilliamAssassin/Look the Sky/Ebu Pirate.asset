@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Ebu Pirate
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - It was a night with gray clouds that covered the moonlight and Ebu seemed to
+    sing a song that reflected his deepest feelings.
+  - I want it all.
+  - I want it all...
+  - Hi, Ebu...
+  - Motherfucker! You gave me a fright.
+  - Oh, sorry, I'm leaving
+  - Chill out, dude, come over here, let's check out the sky together.
+  - Why were you singing with such a strange pronunciation?
+  - I was singing in pure <color=yellow>Sangla</color> language
+  - "\u2026"
+  - This was the language spoken in <color=yellow>Sangla</color> before it even existed.
+  - It makes no sense.
+  - You're right.
+  - But how did you learn this language?
+  - Usually two things preserve a language, the isolationism of a people and the
+    public teaching of the standard norm of that language.
+  - "\"What? Did she ignore my question and start teaching out of nowhere?\u201D"
+  - <color=yellow>Sangla</color> has neither a standard norm for the language nor
+    public education, in addition to being the least isolated country in the world.
+  - "In a few centuries their language was completely destroyed, not even fundamental
+    words like \u201CI\u201D, \u201Cwant\u201D and \u201Ceverything\u201D were preserved."
+  - <color=yellow>Sangla</color> is an insane country.
+  - I thought you liked <color=yellow>Sangla</color>.
+  - I get all wet when I study the history of <color=yellow>Sangla</color>. The capital
+    of the country was built by pirates, is there anything cooler than that? The
+    guys were very manly.
+  - It's not like today where presidents are all gay, back in the day they were pirates
+    with big masts.
+  - Do you think dozens of pirates stuck on a ship for hundreds of days wouldn't
+    have gay sex?
+  - You have a point.
+  - "Gay pirates\u2026 fucking."
+  - I just remembered I have to cut my nails and go to sleep, see you tomorrow, <color=purple>William</color>.
+  DialogueBR:
+  - "Era uma noite com nuvens cinzas que cobriam a luz da Lua e Ebu parecia cantar
+    uma can\xE7\xE3o que refletia seus sentimentos mais profundos."
+  - I want it all.
+  - I want it all...
+  - "Oi, Ebu\u2026"
+  - "Filho da puta! Voc\xEA me deu um susto."
+  - Oh, me desculpe, eu vou me retirar.
+  - "Esquenta n\xE3o, rapaz, chega aqui, vamos olhar o c\xE9u juntos."
+  - "Por que voc\xEA estava cantando com uma pron\xFAncia t\xE3o estranha?"
+  - "Eu estava cantando em sangl\xEAs puro."
+  - "\u2026"
+  - Esse era o idioma falado em <color=yellow>Sangla</color> antes mesmo dela existir.
+  - "Isso n\xE3o faz sentido."
+  - "Tem raz\xE3o."
+  - "Mas como voc\xEA aprendeu esse idioma?"
+  - "Normalmente duas coisas preservam uma l\xEDngua, o isolacionismo de um povo
+    e o ensino p\xFAblico da norma padr\xE3o dessa l\xEDngua."
+  - "\"Como assim? Ela ignorou a minha pergunta e come\xE7ou a dar aula do nada?\u201D"
+  - "<color=yellow>Sangla</color> n\xE3o possui nem uma norma padr\xE3o da l\xEDngua
+    e nem ensino p\xFAblico, al\xE9m de ser o pa\xEDs menos isolado do mundo."
+  - "Em poucos s\xE9culos sua l\xEDngua foi completamente destru\xEDda, nem mesmo
+    palavras fundamentais como \u201Ceu\u201D, \u201Cquerer\u201D e \u201Ctudo\u201D
+    foram preservadas."
+  - "<color=yellow>Sangla</color> \xE9 um pa\xEDs insano."
+  - "Eu achei que voc\xEA gostasse de <color=yellow>Sangla</color>."
+  - "Eu me molho toda quando estudo a hist\xF3ria de <color=yellow>Sangla</color>.
+    A capital do pa\xEDs foi constru\xEDda por piratas, tem coisa mais legal do que
+    isso? Os caras eram muito machos."
+  - "N\xE3o \xE9 que nem hoje onde os presidentes s\xE3o todos gays, antigamente
+    eles eram piratas roludos."
+  - "Voc\xEA acha que dezenas de piratas presos em um navio durante centenas de dias
+    n\xE3o fariam sexo gay?"
+  - "Voc\xEA tem um ponto."
+  - "Piratas gays\u2026 fodendo."
+  - "Acabei de lembrar que tenho que cortar as unhas e ir dormir, at\xE9 amanh\xE3,
+    <color=purple>William</color>."
+  idchara: 
+  instruction: 
+  Cenario: 0

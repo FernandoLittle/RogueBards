@@ -14,14 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - I understand you perfectly Joshua, so I know you will never stop hating me.
-  - 'After the blade pierced his heart, Joshua said his last words:'
+  - I understand you perfectly <color=blue>Joshua</color>, so I know you will never
+    stop hating me.
+  - 'After the blade pierced his heart, <color=blue>Joshua</color> said his last
+    words:'
   - I'm sorry son, I couldn't avenge you.
   DialogueBR:
-  - "Eu te entendo perfeitamente Joshua, por isso sei que voc\xEA nunca vai deixar
-    de me odiar."
-  - "Ap\xF3s a l\xE2mina atravessar seu cora\xE7\xE3o, Joshua disse suas \xFAltimas
-    palavras:\r\n"
+  - "Eu te entendo perfeitamente <color=blue>Joshua</color>, por isso sei que voc\xEA
+    nunca vai deixar de me odiar."
+  - "Ap\xF3s a l\xE2mina atravessar seu cora\xE7\xE3o, <color=blue>Joshua</color>
+    disse suas \xFAltimas palavras:\r\n"
   - "Me desculpe filho, n\xE3o pude ving\xE1-lo."
   idchara: 1c0000000000000024000000
   instruction: 

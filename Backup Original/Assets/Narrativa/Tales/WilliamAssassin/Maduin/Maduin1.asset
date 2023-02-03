@@ -14,14 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - The ephemerality of life brought an indescribable anguish to William's soul.
+  - The ephemerality of life brought an indescribable anguish to <color=purple>William</color>'s
+    soul.
   - To think that his existence would end forever was a terrifying idea for him,
-    but the music Maduin played changed his perspective on ephemerality.
-  - That song would soon come to an end and become a unique moment in Akasha's memories.
-    It was a wonderful experience to hear the melody, feel a damp wind on his skin,
-    smell the herbs around him and balance Mana through breathing.
-  - Realizing the value of air, the most common symbol of ephemerality, William began
-    to imagine the brevity of his life as a rare gem.
+    but the music <color=#FF0080>Maduin</color> played changed his perspective on
+    ephemerality.
+  - That song would soon come to an end and become a unique moment in <color=green>Akasha</color>'s
+    memories. It was a wonderful experience to hear the melody, feel a damp wind
+    on his skin, smell the herbs around him and balance <color=blue>Mana</color>
+    through breathing.
+  - Realizing the value of air, the most common symbol of ephemerality, <color=purple>William</color>
+    began to imagine the brevity of his life as a rare gem.
   - What made his existence special on the akashic plane was precisely the rarity
     of his life and those special moments.
   - '"I''m happy? This is not right".'
@@ -29,27 +32,28 @@ MonoBehaviour:
   - What did you think of this song?
   - I didn't think much of it.
   - Oh, I'm sorry...
-  - Every wind had a feeling in Maduin's opinion. According to him, the Mana determined
-    the nature of the wind, a summer breeze could be a boon to one who was at peace
-    with himself, while the same wind would be torturous to those who rejected the
-    flow of the world.
-  - Maduin's instruments were stored under a sad, lonely wind.
+  - Every wind had a feeling in <color=#FF0080>Maduin</color>'s opinion. According
+    to him, the <color=blue>Mana</color> determined the nature of the wind, a summer
+    breeze could be a boon to one who was at peace with himself, while the same wind
+    would be torturous to those who rejected the flow of the world.
+  - <color=#FF0080>Maduin</color>'s instruments were stored under a sad, lonely wind.
   - "No\u2026"
   - I lied.
   - "The music was beautiful, it made me really\u2026 happy."
   - "\u201CWhy am I saying this?\u201D"
-  - Then it's your turn to play, William.
+  - Then it's your turn to play, <color=purple>William</color>.
   DialogueBR:
   - "A efemeridade da vida trazia uma ang\xFAstia indescrit\xEDvel para a alma de
-    William."
+    <color=purple>William</color>."
   - "Pensar que sua exist\xEAncia terminaria para sempre era uma ideia aterrorizante
-    para ele, mas a m\xFAsica que Maduin tocava mudou sua perspectiva sobre a efemeridade."
+    para ele, mas a m\xFAsica que <color=#FF0080>Maduin</color> tocava mudou sua
+    perspectiva sobre a efemeridade."
   - "Aquela m\xFAsica logo teria um fim e se tornaria um momento \xFAnico nas mem\xF3rias
-    de Akasha. Era uma experi\xEAncia maravilhosa ouvir a melodia, sentir um vento
-    \xFAmido em sua pele, cheirar as ervas ao seu redor e equilibrar o Mana atrav\xE9s
-    da respira\xE7\xE3o."
-  - "Percebendo o valor do ar, s\xEDmbolo mais comum da efemeridade, William come\xE7ou
-    a imaginar a brevidade de sua vida como uma joia rara."
+    de <color=green>Akasha</color>. Era uma experi\xEAncia maravilhosa ouvir a melodia,
+    sentir um vento \xFAmido em sua pele, cheirar as ervas ao seu redor e equilibrar
+    o Mana atrav\xE9s da respira\xE7\xE3o."
+  - "Percebendo o valor do ar, s\xEDmbolo mais comum da efemeridade, <color=purple>William</color>
+    come\xE7ou a imaginar a brevidade de sua vida como uma joia rara."
   - "O que tornava sua exist\xEAncia especial no plano ak\xE1shico era justamente
     a raridade de sua vida e daqueles momentos especiais."
   - "\u201CEu estou feliz? Isso n\xE3o est\xE1 certo\u201D."
@@ -57,16 +61,17 @@ MonoBehaviour:
   - "O que voc\xEA achou dessa m\xFAsica?"
   - "N\xE3o achei nada de especial."
   - "Oh, eu sinto muito\u2026 "
-  - "Cada vento tinha um sentimento na opini\xE3o de Maduin. Segundo ele, o Mana
-    determinava a natureza do vento, uma brisa de ver\xE3o poderia ser uma d\xE1diva
-    para quem estivesse em paz consigo mesmo, enquanto o mesmo vento seria torturante
-    para aqueles que rejeitassem o fluxo do mundo."
-  - "Os instrumentos de Maduin foram guardados sob um vento triste e solit\xE1rio."
+  - "Cada vento tinha um sentimento na opini\xE3o de <color=#FF0080>Maduin</color>.
+    Segundo ele, o Mana determinava a natureza do vento, uma brisa de ver\xE3o poderia
+    ser uma d\xE1diva para quem estivesse em paz consigo mesmo, enquanto o mesmo
+    vento seria torturante para aqueles que rejeitassem o fluxo do mundo."
+  - "Os instrumentos de <color=#FF0080>Maduin</color> foram guardados sob um vento
+    triste e solit\xE1rio."
   - "N\xE3o\u2026"
   - Eu menti.
   - "A m\xFAsica estava linda, ela me deixou realmente\u2026 feliz."
   - "\u201CPor que eu estou falando isso?\u201D"
-  - "Ent\xE3o \xE9 a sua vez de tocar, William."
+  - "Ent\xE3o \xE9 a sua vez de tocar, <color=purple>William</color>."
   idchara: 
   instruction: 
   Cenario: 0

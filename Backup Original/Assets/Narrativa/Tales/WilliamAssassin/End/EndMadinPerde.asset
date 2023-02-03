@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - <color=#FF0080>Shua Cries</color>
-  - This blow is the negation of all the teachings of Shua. It suits you very well.
-  - I will hand you Roy's letter of execution.
+  - "<color=#FF0080>Shu\xE1 Cries</color>"
+  - "This blow is the negation of all the teachings of <color=#FF0080>Shu\xE1</color>.
+    It suits you very well."
+  - I will hand you <color=blue>Roy</color>'s letter of execution.
   DialogueBR:
   - "<color=#FF0080>Shu\xE1 Chora</color>"
-  - "Esse golpe \xE9 a nega\xE7\xE3o de todos os ensinamentos de Shu\xE1. Isso combina
-    muito bem com voc\xEA.\r\n"
+  - "Esse golpe \xE9 a nega\xE7\xE3o de todos os ensinamentos de <color=#FF0080>Shu\xE1</color>.
+    Isso combina muito bem com voc\xEA.\r\n"
   - "Eu te entregarei a carta de execu\xE7\xE3o do seu pai."
   idchara: 1f0000001f0000001f000000
   instruction: 

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - After William completed a murder, Ebu recorded William's name, the victim's name,
-    the reward and details of the death in what she called a <i>letter of execution</i>.
-  - Congratulations on a successful assassination, William.
+  - After <color=purple>William</color> completed a murder, Ebu recorded <color=purple>William</color>'s
+    name, the victim's name, the reward and details of the death in what she called
+    a <i>letter of execution</i>.
+  - Congratulations on a successful assassination, <color=purple>William</color>.
   - Why are you recording this?
   - This document is important if you want a promotion in the future, the more people
     you assassinate and the higher the rewards, the easier it will be for you to
@@ -32,14 +33,15 @@ MonoBehaviour:
     Ebu's key\u2026 but if the documents aren't there or if I don't find them quickly
     I could get caught\u201D."
   - '"It''s a very risky plan."'
-  - Maduin, the document room is all messed up, organize that shit.
+  - <color=#FF0080>Maduin</color>, the document room is all messed up, organize that
+    shit.
   - '"Or I can gain some of their trust until Ebu allows me into the room, it might
     take a while, but it''s a much safer plan".'
   DialogueBR:
-  - "Ap\xF3s William concluir um assassinato, Ebu registrou o nome do William, o
-    nome da v\xEDtima, a recompensa e detalhes da morte naquilo que ela chamava de
-    <i>carta de execu\xE7\xE3o</i>."
-  - "Parab\xE9ns pelo assassinato bem sucedido, William.\r"
+  - "Ap\xF3s <color=purple>William</color> concluir um assassinato, Ebu registrou
+    o nome do <color=purple>William</color>, o nome da v\xEDtima, a recompensa e
+    detalhes da morte naquilo que ela chamava de <i>carta de execu\xE7\xE3o</i>."
+  - "Parab\xE9ns pelo assassinato bem sucedido, <color=purple>William</color>.\r"
   - "Por que voc\xEA est\xE1 registrando isso?"
   - "Esse documento \xE9 importante caso voc\xEA queira uma promo\xE7\xE3o no futuro,
     quanto mais pessoas voc\xEA assassinar e quanto maiores forem as recompensas,
@@ -56,7 +58,8 @@ MonoBehaviour:
     eu consiga roubar a chave da Ebu\u2026 mas se os documentos n\xE3o estiverem
     l\xE1 ou se eu n\xE3o encontr\xE1-los r\xE1pido eu posso ser pego\u201D\r.\n"
   - "\u201C\xC9 um plano muito arriscado\u201D."
-  - "Maduin, o quarto dos documentos t\xE1 todo bagun\xE7ado, organiza aquela porra."
+  - "<color=#FF0080>Maduin</color>, o quarto dos documentos t\xE1 todo bagun\xE7ado,
+    organiza aquela porra."
   - "\u201COu eu posso ganhar um pouco da confian\xE7a deles at\xE9 que a Ebu me
     permita entrar no quarto, talvez demore um pouco, mas \xE9 um plano bem mais
     seguro\u201D."

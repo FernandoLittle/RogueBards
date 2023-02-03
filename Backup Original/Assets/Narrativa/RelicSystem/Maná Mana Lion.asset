@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ddd83babbe3e8f499ed318839388642, type: 3}
+  m_Name: "Man\xE1 Mana Lion"
+  m_EditorClassIdentifier: 
+  IdRelic: 10
+  SpriteRelic: {fileID: 21300000, guid: bbd9e12f4ca494045bcee3f5a998bedb, type: 3}
+  Description: Gain <color=#FF009C>Passion</color> at the start of the fight.
+  DescriptionBR: "Ganhe <color=#FF009C>Paix\xE3o</color> no in\xEDcio da luta."
+  Name: <color=blue>Lion of Mana</color>
+  NameBR: "<color=blue>Le\xE3o de Mana</color>"
+  Type: 1

@@ -17,14 +17,14 @@ MonoBehaviour:
   - As much as an assassin enjoyed his job, few had Ebu's incredible determination
     to practice it on a daily basis, many assassins worked as drug dealers routinely
     and carried out assassinations sporadically.
-  - While William was working as a drug dealer, one of his worst clients arrived,
-    this time with his daughter by his side.
+  - While <color=purple>William</color> was working as a drug dealer, one of his
+    worst clients arrived, this time with his daughter by his side.
   - The assassin didn't know what was more repulsive about that child, her scent
     or the strange black stain on her cheek.
   - Happiness injection. I need the injection.
   - No injection until you pay your debts.
-  - Here, here, her name is Jorja, she's yours, you can do whatever you want, just
-    give me the injection.
+  - Here, here, her name is <color=#FF0080>Jorja</color>, she's yours, you can do
+    whatever you want, just give me the injection.
   - I'm scared, mom.
   - I know you're scared! You are afraid of everything! Don't even remind me what
     you did in front of the angel.
@@ -37,14 +37,14 @@ MonoBehaviour:
   - "Por mais que um assassino gostasse de seu trabalho, poucos tinham a incr\xEDvel
     determina\xE7\xE3o da Ebu para pratic\xE1-lo diariamente, muitos assassinos trabalhavam
     como traficantes de drogas rotineiramente e realizavam assassinatos esporadicamente.\r\n"
-  - "Enquanto William trabalhava como traficante, uma de suas piores clientes chegou,
-    dessa vez com sua filha ao seu lado. \r"
+  - "Enquanto <color=purple>William</color> trabalhava como traficante, uma de suas
+    piores clientes chegou, dessa vez com sua filha ao seu lado. \r"
   - "O assassino n\xE3o sabia o que era mais repulsivo naquela crian\xE7a, seu cheiro
     ou a estranha mancha preta em sua bochecha."
   - "Inje\xE7\xE3o da felicidade. Eu preciso da inje\xE7\xE3o."
   - "Sem inje\xE7\xE3o enquanto voc\xEA n\xE3o pagar suas d\xEDvidas."
-  - "Aqui, aqui, o nome dela \xE9 Jorja, ela \xE9 sua, voc\xEA pode fazer o que quiser,
-    s\xF3 me d\xEA a inje\xE7\xE3o."
+  - "Aqui, aqui, o nome dela \xE9 <color=#FF0080>Jorja</color>, ela \xE9 sua, voc\xEA
+    pode fazer o que quiser, s\xF3 me d\xEA a inje\xE7\xE3o."
   - "Eu estou com medo, m\xE3e."
   - "Eu sei que voc\xEA est\xE1 com medo! Voc\xEA tem medo de tudo! Nem me lembre
     do que voc\xEA fez na frente do anjo"

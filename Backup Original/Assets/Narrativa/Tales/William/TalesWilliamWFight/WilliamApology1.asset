@@ -15,33 +15,140 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Warriors used to hate <color=yellow>Sarka</color>'s bards, <color=purple>William</color>
-    only began to understand this hatred when he heard a terrible song about how
-    criminals were smart.
-  - About how the followers of the <color=yellow>law</color> were fools.
-  - About how the criminals were happy.
-  - About how the followers of the <color=yellow>law</color> were  sad.
-  - About how criminals were free.
-  - About how followers of the <color=yellow>law</color> were slaves.
-  - The music made a bit of sense, a criminal was able to enjoy the perks of crime,
-    while a follower of the <color=yellow>law</color> one was not. But everything
-    that bard said in his song would be reversed the moment the criminal was caught.
-  - <color=purple>William</color> figured that bard would learn this important lesson
-    when he was arrested.
+    only began to understand this hatred when he heard a terrible song about drugs.
+  - Thank you noble warriors.
+  - You are Sarka's heroes.
+  - Sacrificing your lives
+  - to raise the price of my opium.
+  - Thank you warriors
+  - For raising the price of my opium.
+  - The price of my opium.
+  - If you keep sacrificing your lives
+  - In this noble mission
+  - In this important mission
+  - In this heroic mission
+  - maybe one day
+  - the price of opium doubles
+  - maybe triple
+  - maybe quadruple
+  - Just keep sacrificing your lives
+  - and we will arrive
+  - on this beautiful day
+  - where the price of my opium will be fucking expensive.
+  - And every time I buy my opium
+  - i will remember
+  - of all sacrifice
+  - of all courage
+  - of all heroism
+  - of all warriors
+  - who have raised the price of my opium.
+  - And I'll be happy to pay
+  - every little coin.
+  - and every little coin.
+  - Carry on this war and the world will be
+  - a better place.
+  - Because even though my opium gets more expensive.
+  - Your heroic sacrifices will make this world.
+  - a better place.
+  - a better country.
+  - a better home.
+  - a better.
+  - world.
+  - In his profound ignorance, William concluded that he had never felt such hatred
+    for a bard.
+  - All my colleagues who died, all the families they left...
+  - They risked their lives to protect their families from addiction and that bard...
+  - They risked their lives to protect their families from addiction and that bard...
+  - that parasite...
+  - that filthy worm mocks their deaths with childish irony.
+  - I've never heard such repulsive, stupid, petty, disgusting music as this one.
   DialogueBR:
   - "Guerreiros costumavam odiar os bardos de <color=yellow>Sarka</color>, <color=purple>William</color>
     s\xF3 come\xE7ou a entender esse \xF3dio quando ouviu uma m\xFAsica terr\xEDvel
-    sobre como os criminosos eram inteligentes."
-  - Sobre como os seguidores da <color=yellow>lei</color> eram tolos.
-  - Sobre como os criminosos eram felizes.
-  - Sobre como os seguidores da <color=yellow>lei</color> era tristes.
-  - Sobre como os criminosos eram livres.
-  - Sobre como os seguidores da <color=yellow>lei</color> eram escravos.
-  - "A m\xFAsica fazia um pouco de sentido, um criminoso era capaz de aproveitar
-    as vantagens do crime, enquanto um seguidor da <color=yellow>lei</color> n\xE3o.
-    Mas tudo o que aquele bardo dizia em sua can\xE7\xE3o seria revertido no momento
-    em que o criminoso fosse pego."
-  - "<color=purple>William</color> imaginou que o bardo aprenderia essa importante
-    li\xE7\xE3o quando fosse preso."
-  idchara: 0000000000000000000000000000000000000000000000000000000000000000
-  instruction: 000000000000000000000000000000000000000000000000000000000000000005000000
+    sobre drogas."
+  - Obrigado nobres guerreiros
+  - "Voc\xEAs s\xE3o os her\xF3is de Sarka.\r"
+  - Porque sacrificam suas vidas
+  - "para encarecerem o pre\xE7o do meu meu \xF3pio."
+  - "O pre\xE7o do meu \xF3pio.\r\n"
+  - 'Obrigado guerreiros
+
+'
+  - "por encareceram o pre\xE7o do meu \xF3pio\r\n"
+  - "o pre\xE7o do meu \xF3pio.\r\n"
+  - "Se voc\xEAs continuarem \r\n"
+  - 'sacrificando suas vidas
+
+'
+  - "Nessa nobre miss\xE3o\r\n"
+  - "nessa importante miss\xE3o\r\n"
+  - "nessa heroica miss\xE3o\r\n"
+  - 'talvez um dia
+
+'
+  - "o pre\xE7o do \xF3pio duplique\r\n"
+  - 'talvez triplique
+
+'
+  - 'talvez quadruplique
+
+'
+  - 'Apenas continuem sacrificando suas vidas
+
+'
+  - "e chegaremos \r\n"
+  - 'nesse lindo dia
+
+'
+  - "onde o pre\xE7o do meu \xF3pio ser\xE1 caro pra caralho.\r\n"
+  - "E toda vez que eu comprar o meu \xF3pio \r\n"
+  - 'eu me lembrarei
+
+'
+  - 'de todo o sacrificio
+
+'
+  - 'de toda a coragem
+
+'
+  - "de todo o hero\xEDsmo\r\n"
+  - 'de todos os guerreiros
+
+'
+  - "que encareceram o pre\xE7o do meu \xF3pio.\r\n"
+  - "E ficarei feliz em pagar \r\n"
+  - 'cada moedinha.
+
+'
+  - 'e cada moedinha
+
+'
+  - "Continuem nessa guerra e o mundo ser\xE1\r\n"
+  - 'um lugar melhor.
+
+'
+  - "Porque apesar do meu \xF3pio ficar mais caro.\r\n"
+  - "Seus her\xF3icos sacrif\xEDcios ir\xE3o tornar esse mundo\r\n"
+  - 'Um lugar melhor
+
+'
+  - 'Um lugar
+
+'
+  - Melhor
+  - "Em sua profunda ignor\xE2ncia, William conclui que nunca tinha sentido tanto
+    \xF3dio por um bardo.\r\n"
+  - "Todos os meus colegas que morreram, todas as fam\xEDlias que eles deixaram\u2026\r\n"
+  - "Aquele bardo est\xE1 fazendo piada com tudo isso, dizendo que a luta deles n\xE3o
+    serviu para nada.\r\n"
+  - "Eles arriscaram suas vidas para protegerem as fam\xEDlias do v\xEDcio e aquele
+    bardo\u2026\r\n"
+  - "aquele parasita\u2026"
+  - 'aquele verme imundo debocha das mortes deles usando uma ironia infantil.
+
+'
+  - "Eu nunca ouvi uma m\xFAsica t\xE3o repulsiva, imbecil, mesquinha e nojenta como
+    essa.\r\n"
+  idchara: 000000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e000000000000001c0000001c0000001c0000001c0000001c0000001c000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000
   Cenario: 5

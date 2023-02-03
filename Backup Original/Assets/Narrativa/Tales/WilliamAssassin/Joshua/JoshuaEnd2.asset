@@ -19,8 +19,8 @@ MonoBehaviour:
     really fun maiming them alive.
   - The way you talk makes you sound bad, the Guild Document makes it clear that
     assassins must not be sadists.
-  - William, William, William, that's exactly the problem, the Guild Document, you
-    take it toooo seriously.
+  - <color=purple>William</color>, <color=purple>William</color>, <color=purple>William</color>,
+    that's exactly the problem, the Guild Document, you take it toooo seriously.
   - Shouldn't I take him seriously since he's the Guild's founding text?
   - You're thinking like a warrior, I'll tell you something that will blow your mind.
   - The Assassins Guild is a company.
@@ -40,11 +40,11 @@ MonoBehaviour:
   - You killed a rapist, that's cool and you followed the Guild Document, beautiful.
   - But you killed our biggest client's son.
   - In short, the problem is money.
-  - Exactly! Joshua put money on the table, as we don't charge taxes, we can't kill
-    our customers, simple as that.
+  - Exactly! <color=blue>Joshua</color> put money on the table, as we don't charge
+    taxes, we can't kill our customers, simple as that.
   - You have to see that we work at the service of a demand.
-  - That demand is freedom, Sarka inherited Sangla's love of freedom and Kuvira was
-    unable to change that.
+  - That demand is freedom, <color=yellow>Sarka</color> inherited <color=yellow>Sangla</color>'s
+    love of freedom and <color=yellow>Kuvira</color> was unable to change that.
   - "So\u2026"
   - "\u2026"
   - What was I talking about?
@@ -53,7 +53,7 @@ MonoBehaviour:
   - Why do you want to be a killer?
   - "Because\u2026"
   - Because I want to defend freedom.
-  - Tell the truth, William Ulbricht.
+  - Tell the truth, <color=purple>William Ulbricht</color>.
   - I'm telling the truth.
   - Wait, how do you know my last name?
   - You just want to stay in the Guild because you think you'll find your father's
@@ -64,17 +64,18 @@ MonoBehaviour:
   - Now the theater is over, give up your revenge and leave.
   - Yes, the theater is over. Now that I don't have to lie, I can resolve things
     more directly.
-  - Much of William's life was spent on his revenge plan, seeing that his plan was
-    doomed to failure from the start made him feel dead inside.
+  - Much of <color=purple>William</color>'s life was spent on his revenge plan, seeing
+    that his plan was doomed to failure from the start made him feel dead inside.
   - In a few moments, frustration turned to despair and despair turned to foolishness.
   - 'E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:'
   - If you don't tell me who my father's assassin is, I will kill you, and it will
     be a very painful death, so I suggest that...
-  - Ebu's angelic weapon caused William to die quickly and painlessly.
+  - Ebu's angelic weapon caused <color=purple>William</color> to die quickly and
+    painlessly.
   - What an idiot, who keeps talking in the middle of a fight?
   - It wasn't exactly a fight though.
-  - Damn it! Now the floor is covered in blood and Maduin will be pissed at me if
-    he finds out I killed his boyfriend.
+  - Damn it! Now the floor is covered in blood and <color=#FF0080>Maduin</color>
+    will be pissed at me if he finds out I killed his boyfriend.
   - Where do I bury this son of a bitch?
   DialogueBR:
   - "Voc\xEA vai me expulsar da Guilda por matar um estuprador?"
@@ -82,8 +83,9 @@ MonoBehaviour:
     \xE9 muito divertido mutilar eles vivos."
   - "O jeito  que voc\xEA fala te faz parecer m\xE1, o Documento da Guilda deixa
     bem claro que assassinos n\xE3o devem ser s\xE1dicos.\r"
-  - "William, William, William, \xE9 exatamente esse o problema, o Documento da Guilda,
-    voc\xEA o leva muito a s\xE9rio."
+  - "<color=purple>William</color>, <color=purple>William</color>, <color=purple>William</color>,
+    \xE9 exatamente esse o problema, o Documento da Guilda, voc\xEA o leva muito
+    a s\xE9rio."
   - "Eu n\xE3o deveria lev\xE1-lo a s\xE9rio j\xE1 que ele \xE9 o texto fundador
     da Guilda?"
   - "Voc\xEA est\xE1 pensando como um guerreiro, eu vou te falar uma coisa que vai
@@ -106,11 +108,13 @@ MonoBehaviour:
     Guilda, lindo."
   - "Mas voc\xEA matou o filho do nosso maior cliente."
   - "Em resumo, o problema \xE9 dinheiro."
-  - "Exatamente! Joshua botava dinheiro na mesa, como n\xF3s n\xE3o cobramos impostos,
-    n\xF3s n\xE3o podemos matar os nossos clientes, simples assim.\r"
+  - "Exatamente! <color=blue>Joshua</color> botava dinheiro na mesa, como n\xF3s
+    n\xE3o cobramos impostos, n\xF3s n\xE3o podemos matar os nossos clientes, simples
+    assim.\r"
   - "Voc\xEA tem que ver que trabalhamos a servi\xE7o de uma demanda."
-  - "Essa demanda \xE9 a liberdade, Sarka herdou o amor pela liberdade de Sangla
-    e Kuvira foi incapaz de mudar isso."
+  - "Essa demanda \xE9 a liberdade, <color=yellow>Sarka</color> herdou o amor pela
+    liberdade de <color=yellow>Sangla</color> e <color=yellow>Kuvira</color> foi
+    incapaz de mudar isso."
   - "Ent\xE3o\u2026"
   - "\u2026"
   - Do que eu estava falando?
@@ -119,7 +123,7 @@ MonoBehaviour:
   - "Por que voc\xEA quer ser um assassino?\r"
   - "Porque\u2026\r"
   - Porque eu quero defender a liberdade.
-  - Diga a verdade, William Ulbricht.
+  - Diga a verdade, <color=purple>William Ulbricht</color>.
   - Eu estou dizendo a verdade.
   - "Espere um pouco, como voc\xEA sabe meu sobrenome?\r"
   - "Voc\xEA apenas quer continuar na Guilda porque acha que ir\xE1 encontrar o assassino
@@ -130,20 +134,20 @@ MonoBehaviour:
   - "Agora o teatro acabou, desista da sua vingan\xE7a e v\xE1 embora."
   - "Sim, o teatro acabou. Agora que eu n\xE3o preciso mentir, eu posso resolver
     as coisas de maneira mais direta."
-  - "Muito tempo da vida de William foi gasto no seu plano de vingan\xE7a, ver que
-    seu plano estava fadado ao fracasso desde o in\xEDcio o fez se sentir morto por
-    dentro."
+  - "Muito tempo da vida de <color=purple>William</color> foi gasto no seu plano
+    de vingan\xE7a, ver que seu plano estava fadado ao fracasso desde o in\xEDcio
+    o fez se sentir morto por dentro."
   - "Em alguns instantes a frustra\xE7\xE3o se transformou em desespero e o desespero
     se transformou em tolice.\r"
   - "E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:\r"
   - "Se voc\xEA n\xE3o me contar quem \xE9 o assassino do meu pai eu irei te matar,
     e ser\xE1 uma morte bem dolorosa, ent\xE3o eu sugiro que\u2026"
-  - "A arma angelical de Ebu fez com que William morresse de maneira r\xE1pida e
-    indolor."
+  - "A arma angelical de Ebu fez com que <color=purple>William</color> morresse de
+    maneira r\xE1pida e indolor."
   - "Que idiota, quem que fica falando no meio de uma luta?\r"
   - "Apesar que isso n\xE3o foi exatamente uma luta."
-  - "Droga! Agora o ch\xE3o est\xE1 todo sujo de sangue e o Maduin vai ficar puto
-    comigo se descobrir que eu matei o namoradinho dele. "
+  - "Droga! Agora o ch\xE3o est\xE1 todo sujo de sangue e o <color=#FF0080>Maduin</color>
+    vai ficar puto comigo se descobrir que eu matei o namoradinho dele. "
   - "Onde que eu enterro esse filho da puta?\r"
   idchara: 1c000000010000001c000000010000001c00000001000000010000001c00000001000000010000001c0000000100000001000000010000000100000001000000010000001c0000000100000001000000010000000100000001000000010000001c000000010000001c0000001c000000010000001c0000001c000000010000001c00000001000000010000001c0000000000000000000000000000001c0000000000000001000000010000000100000001000000
   instruction: 

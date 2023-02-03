@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Shu\xE1 Shua's Flower"
   m_EditorClassIdentifier: 
   IdRelic: 3
-  SpriteRelic: {fileID: 21300000, guid: 812c87b6259cf2d4c91c2bb842d7933e, type: 3}
+  SpriteRelic: {fileID: 21300000, guid: 4c15af5a041043140b262f2e4dbd9d07, type: 3}
   Description: At the end of your turn, if you have more than 15 life, gain 3 life
   DescriptionBR: "No final do seu turno, se voc\xEA tiver mais de 15 pontos de vida,
     ganhe 3 pontos de vida"

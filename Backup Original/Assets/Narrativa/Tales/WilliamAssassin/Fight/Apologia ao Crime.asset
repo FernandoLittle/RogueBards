@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Maduin sang a beautiful song about a beautiful woman.
+  - <color=#FF0080>Maduin</color> sang a beautiful song about a beautiful woman.
   - I wrote it, what did you think?
   - This song sucks, Luna was fucking right
   - The song is clearly ironic.
   - Fuck if the music is ironic, Luna is still right.
-  - Damn Ebu, if the song is ironic and says Luna was wrong then the song means Luna
-    was right.
+  - Damn <color=white>Ebu</color>, if the song is ironic and says Luna was wrong
+    then the song means Luna was right.
   - It makes no sense.
   - Calm down, children. Let's change the subject. What do you think happened to
     Luna?
@@ -32,7 +32,7 @@ MonoBehaviour:
   - I think she ran away after the negative repercussions. Or maybe she was murdered,
     that would be quite ironic.
   - "\u2026"
-  - What do you think, Ebu?
+  - What do you think, <color=white>Ebu</color>?
   - I think you are very gay.
   - Your imbecility makes me sick.
   - Your mouth on my dick.
@@ -42,15 +42,15 @@ MonoBehaviour:
   - Seriously, you only know how to solve things by killing people?
   - I know how to solve things in every possible way because I am omnipotent, but
     I prefer to solve things in the most fun way, which is by killing people.
-  - Like a death god.
+  - Like a <color=red>death god</color>.
   DialogueBR:
-  - "Maduin cantou uma bela can\xE7\xE3o sobre uma bela mulher."
+  - "<color=#FF0080>Maduin</color> cantou uma bela can\xE7\xE3o sobre uma bela mulher."
   - "Eu que compus, o que voc\xEAs acharam?"
   - Eu achei uma merda, a Luna estava certa pra caralho
   - "A m\xFAsica \xE9 claramente ir\xF4nica."
   - "Foda-se se ela \xE9 ir\xF4nica, a Luna continua certa."
-  - "Porra, Ebu, se a m\xFAsica \xE9 ir\xF4nica e diz que a Luna estava errada ent\xE3o
-    a m\xFAsica quer dizer que a Luna estava certa."
+  - "Porra, <color=white>Ebu</color>, se a m\xFAsica \xE9 ir\xF4nica e diz que a
+    Luna estava errada ent\xE3o a m\xFAsica quer dizer que a Luna estava certa."
   - "Isso n\xE3o faz sentido."
   - "Calma, crian\xE7as. Vamos mudar de assunto. O que voc\xEAs acham que aconteceu
     com a Luna?"
@@ -63,7 +63,7 @@ MonoBehaviour:
   - "Eu acho que ela fugiu depois de toda a repercuss\xE3o negativa. Ou talvez ela
     tenha sido assassinada, seria bem ir\xF4nico."
   - "\u2026"
-  - "O que voc\xEA acha, Ebu?"
+  - "O que voc\xEA acha, <color=white>Ebu</color>?"
   - "Eu acho que voc\xEA \xE9 muito gay."
   - Sua imbecilidade me deixa mal.
   - Sua boca no meu pau.
@@ -73,7 +73,7 @@ MonoBehaviour:
   - "S\xE9rio que voc\xEAs s\xF3 sabem resolver as coisas matando pessoas?"
   - "Eu sei resolver as coisas de todos os jeitos poss\xEDveis porque eu sou onipotente,
     mas eu prefiro resolver as coisas do jeito mais divertido que \xE9 matando pessoas."
-  - Tipo um deus da morte.
-  idchara: 
+  - Tipo uma <color=red>deusa da morte</color>.
+  idchara: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 
   Cenario: 0

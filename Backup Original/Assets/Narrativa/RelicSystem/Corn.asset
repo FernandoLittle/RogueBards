@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: Corn
   m_EditorClassIdentifier: 
   IdRelic: 0
-  SpriteRelic: {fileID: 21300000, guid: bbb22d5acf6036249bbb4139231e8646, type: 3}
-  Description: "<i>\u201CWhen we lost our hopes a man came, he brought the corn our
-    bellies needed, but the poor man couldn't give us the food our souls needed.\r\nAt
-    least he tried.\"</i>   "
-  DescriptionBR: "<i>\u201CQuando perdemos nossas esperan\xE7as, um homem apareceu.
-    Ele trouxe o milho que nossas barrigas precisavam, mas o pobre homem n\xE3o conseguiu
-    nos dar o alimento que nossas almas precisavam.\nPelo menos ele tentou.\"</i>"
+  SpriteRelic: {fileID: 21300000, guid: f2ddcf01ca686c5468ee86e448333170, type: 3}
+  Description: 
+  DescriptionBR: 
   Name: <color=cyan>Corn</color>
   NameBR: <color=cyan>Milho</color>
   Type: 1

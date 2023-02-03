@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneM : MonoBehaviour
 {
+    public GodCube GodCube;//x
+
 
     public void Tales()
     {
-        SceneManager.LoadScene("Tales");
+        GodCube.TakeScreenshot("Tales");
+        //SceneManager.LoadScene("Tales");
     }
 }

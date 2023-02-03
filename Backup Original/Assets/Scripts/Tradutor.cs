@@ -69,6 +69,27 @@ public class Tradutor : MonoBehaviour
             {
                 textinho.text = "Era uma vez um espantalho...";
             }
+            if (id == 12)
+            {
+                textinho.text = "Caminho da Felicidade";
+            }
+            if (id == 13)
+            {
+                textinho.text = "Você será levado imediatamente para o jogo verdadeiro, O Caminho da Felicidade.\n No entanto, o jogo falso, O Caminho do Dinheiro, será destruído para sempre, você nunca mais poderá jogá-lo.\n O verdadeiro desapego é um dos caminhos para a iluminação.";
+            }
+            if (id == 14)
+            {
+                textinho.text = "Caminho do Dinheiro";
+            }
+            if (id == 15)
+            {
+                textinho.text = "O jogo falso não será destruído e você ainda poderá jogar O Caminho da Felicidade.\n No entanto, você precisará ganhar muito dinheiro para ter acesso ao jogo verdadeiro.\n O dinheiro pode lhe trazer o prazer que o mundo material traz, mas ganhar dinheiro nem sempre é divertido.";
+            }
+
+
+
+
+
             if (id == 0)
             {
                 textinho.text = "";

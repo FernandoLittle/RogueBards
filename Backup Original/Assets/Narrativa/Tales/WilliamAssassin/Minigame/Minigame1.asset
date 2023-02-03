@@ -14,24 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Ebu, William and Maduin were having lunch together. Assassins didn't tend to
-    have many friends, which was exactly why they valued the company of other assassins
-    so much.
-  - This company did not reduce William's loneliness, for the emptiness in his soul
-    was immeasurable. But that loneliness seemed less pathetic when he had people
-    around him.
+  - Ebu, <color=purple>William</color> and <color=#FF0080>Maduin</color> were having
+    lunch together. Assassins didn't tend to have many friends, which was exactly
+    why they valued the company of other assassins so much.
+  - This company did not reduce <color=purple>William</color>s loneliness, for the
+    emptiness in his soul was immeasurable. But that loneliness seemed less pathetic
+    when he had people around him.
   - Ebu, you always eat raw food without any kind of preparation. You don't even
     cut them, plus you always eat the same thing every day, cucumbers, carrots and
     lettuce, don't you get tired of it?
-  - "Cooking is heresy, Shu\xE1 created this world and all food for our good."
+  - "Cooking is heresy, <color=#FF0080>Shu\xE1</color> created this world and all
+    food for our good."
   - When we season food we despise the natural flavor of the food.
-  - "The flavor that Shu\xE1 created with all his divine love."
+  - "The flavor that <color=#FF0080>Shu\xE1</color> created with all his divine love."
   - Rather than appreciating the gift of a god, we drown in the hedonism of this
     world of illusions.
   - All of this was a lie, she didn't prepare the food she ate out of sheer laziness.
   - Also, she ate the same thing every day, since since childhood she was a spoiled
     girl who refused to try different foods and spices.
-  - Maduin realized that she was lying.
+  - <color=#FF0080>Maduin</color> realized that she was lying.
   - I doubt you follow any Shuan religion, and that doesn't explain why you always
     eat the same thing every day.
   - "Ok, the real reason is that I like to eat phallic foods, I don't break or cook
@@ -45,19 +46,19 @@ MonoBehaviour:
     going to do something else far away from here.
   - How do you prefer to spend your free time?
   DialogueBR:
-  - "Ebu, William e Maduin estavam almo\xE7ando juntos. Assassinos n\xE3o costumavam
-    ter muitos amigos, exatamente por isso eles valorizavam bastante a companhia
-    de outros assassinos."
-  - "Essa companhia n\xE3o reduzia a solid\xE3o do William, pois o vazio em sua alma
-    era imensur\xE1vel. Por\xE9m essa solid\xE3o parecia menos pat\xE9tica quando
-    ele tinha pessoas ao seu redor."
+  - "Ebu, <color=purple>William</color> e <color=#FF0080>Maduin</color> estavam almo\xE7ando
+    juntos. Assassinos n\xE3o costumavam ter muitos amigos, exatamente por isso eles
+    valorizavam bastante a companhia de outros assassinos."
+  - "Essa companhia n\xE3o reduzia a solid\xE3o do <color=purple>William</color>,
+    pois o vazio em sua alma era imensur\xE1vel. Por\xE9m essa solid\xE3o parecia
+    menos pat\xE9tica quando ele tinha pessoas ao seu redor."
   - "Ebu, voc\xEA sempre come alimentos crus sem qualquer tipo de preparo. Voc\xEA
     nem mesmo corta eles, al\xE9m disso voc\xEA sempre come a mesma coisa todo dia,
     pepino, cenoura e alface, voc\xEA n\xE3o se cansa?"
-  - "Culin\xE1ria \xE9 uma heresia, Shu\xE1 criou esse mundo e todos os alimentos
-    para o nosso bem."
+  - "Culin\xE1ria \xE9 uma heresia, <color=#FF0080>Shu\xE1</color> criou esse mundo
+    e todos os alimentos para o nosso bem."
   - "Quando temperamos a comida n\xF3s desprezamos o sabor natural dos alimentos."
-  - "O sabor que Shu\xE1 criou com todo o seu amor divino."
+  - "O sabor que <color=#FF0080>Shu\xE1</color> criou com todo o seu amor divino."
   - "Ao inv\xE9s de apreciarmos o presente de um deus, n\xF3s nos afogamos no hedonismo
     desse mundo de ilus\xF5es."
   - "Tudo isso era mentira, ela n\xE3o preparava os alimentos que comia por pura
@@ -65,7 +66,7 @@ MonoBehaviour:
   - "Al\xE9m disso, ela comia a mesma coisa todo o dia, pois desde crian\xE7a ela
     era uma garota mimada que se recusava a experimentar alimentos e temperos diferentes.
     \r"
-  - 'Maduin percebeu que ela estava mentindo.
+  - '<color=#FF0080>Maduin</color> percebeu que ela estava mentindo.
 
 '
   - "Eu duvido que voc\xEA segue alguma religi\xE3o shuana, e isso n\xE3o explica

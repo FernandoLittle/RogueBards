@@ -12,6 +12,7 @@ public class Cubinho : MonoBehaviour
     public Animator anime;
     public GameObject Textin;
     public GameObject Monster;
+    public GodCube GodCube;//x
 
     public void SetFirstIllustration()
     {
@@ -160,7 +161,19 @@ public class Cubinho : MonoBehaviour
     }
     public void AdventureGOGOGO()
     {
-        SceneManager.LoadScene("Money");
+        int buda;
+        buda = PlayerPrefs.GetInt("Buda");
+        if (buda == 1)
+        {
+            GodCube.TakeScreenshot("Adventure");
+            //SceneManager.LoadScene("Adventure");
+        }
+        else
+        {
+
+            GodCube.TakeScreenshot("Money");
+            //SceneManager.LoadScene("Money");
+        }
     }
 
 }

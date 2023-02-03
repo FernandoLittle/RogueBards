@@ -23,8 +23,8 @@ MonoBehaviour:
     in front of his victims.
   - Maybe he was training to give a speech when he found his father's assassin.
   - Or maybe he was just a lonely, pathetic man.
-  - In the end, this man, William Ulbricht, died of a hemorrhage without being able
-    to make a speech, nothing very interesting.
+  - In the end, this man, <color=purple>William Ulbricht</color>, died of a hemorrhage
+    without being able to make a speech, nothing very interesting.
   DialogueBR:
   - "Sangue\u2026 esse sangue \xE9 meu. Eu vou morrer assim."
   - Eu tive duas escolhas na minha vida, matar ou limpar fezes.
@@ -36,8 +36,8 @@ MonoBehaviour:
   - Talvez ele estivesse treinando para fazer um discurso quando encontrasse o assassino
     de seu pai.
   - "Ou talvez ele apenas fosse um homem solit\xE1rio e pat\xE9tico."
-  - No fim, esse homem, William Ulbricht, morreu de hemorragia sem conseguir fazer
-    nenhum discurso, nada muito interessante.
+  - No fim, esse homem, <color=purple>William Ulbricht</color>, morreu de hemorragia
+    sem conseguir fazer nenhum discurso, nada muito interessante.
   idchara: 1c0000001c0000001c0000001c0000001c00000000000000000000000000000000000000
   instruction: 
   Cenario: 0
