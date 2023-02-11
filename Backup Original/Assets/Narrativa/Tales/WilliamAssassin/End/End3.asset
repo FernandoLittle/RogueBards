@@ -46,5 +46,5 @@ MonoBehaviour:
     continuou com seu discurso desinteressante, permitindo que <color=blue>Simon</color>
     se preparasse para a luta."
   idchara: 0000000000000000000000001c00000000000000
-  instruction: 
-  Cenario: 0
+  instruction: 000000000000000000000000000000000000000024000000
+  Cenario: 60

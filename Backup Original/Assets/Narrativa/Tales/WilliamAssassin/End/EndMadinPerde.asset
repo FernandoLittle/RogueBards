@@ -24,5 +24,5 @@ MonoBehaviour:
     Isso combina muito bem com voc\xEA.\r\n"
   - "Eu te entregarei a carta de execu\xE7\xE3o do seu pai."
   idchara: 1f0000001f0000001f000000
-  instruction: 
-  Cenario: 0
+  instruction: 0000000000000000000000007c000000
+  Cenario: 47

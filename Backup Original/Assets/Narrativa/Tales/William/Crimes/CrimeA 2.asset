@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: CrimeA 2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - "Playing music all day is a bum thing.\r"
+  - <color=purple>William</color> as a decent assassin, returned to his job to continue
+    defending crime.
+  DialogueBR:
+  - "Tocar m\xFAsica o dia todo \xE9 coisa de vagabundo."
+  - <color=purple>William</color> como um assassino decente, voltou ao seu trabalho
+    para continuar defendendo o crime.
+  idchara: 0000000000000000
+  instruction: 0000000000000000fdffffff
+  Cenario: 0

@@ -58,6 +58,26 @@ public class Adventure : MonoBehaviour
         GodCube.TakeScreenshot("Tales");
         //SceneManager.LoadScene("Tales");
     }
+    public void WilliamAS()
+    {
+        PlayerPrefs.SetInt("Batalha", 0);
+        //temporario
+        PlayerPrefs.SetInt("Tale", FightID);
+        //temporario, mudar com sistema de load
+        StaticPlayer.Adventure = true;
+        StaticPlayer.Fight = 1;
+        StaticPlayer.PlayerId[0] = 29;
+        StaticPlayer.Day = 1;
+        StaticPlayer.PlayerLife[0] = 3;
+        StaticPlayer.ManaRegen[0] = 0;
+        StaticPlayer.Mana[0] = 0;
+        StaticPlayer.Defense[0] = 0;
+        StaticPlayer.PlayerMaxLife[0] = 0;
+        StaticPlayer.Attack[0] = 0;
+        Loading.SetActive(true);
+        GodCube.TakeScreenshot("Tales");
+        //SceneManager.LoadScene("Tales");
+    }
     public void Discord()
     {
         Application.OpenURL("https://discord.gg/CkNfEPDNhA");

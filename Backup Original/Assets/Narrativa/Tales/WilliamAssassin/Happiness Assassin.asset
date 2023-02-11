@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: Happiness Assassin
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - <color=purple>William</color>, like every primate, wanted to be happy.
+  - This was a foolish wish that brought even more anguish to his wretched soul.
+  - What will you do to achieve happiness?
+  DialogueBR:
+  - <color=purple>William</color>, como todo primata, queria ser feliz.
+  - "Este era um desejo tolo que trazia ainda mais ang\xFAstia para sua alma miser\xE1vel."
+  - "O que voc\xEA far\xE1 para alcan\xE7ar a felicidade?"
+  idchara: 000000000000000000000000
+  instruction: 000000000000000000000000feffffff
+  Cenario: 17

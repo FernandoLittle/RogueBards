@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: ResultPrayGreat
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - <color=purple>William</color> prayed fervently with all the faith in his heart.
+  - And for some reason he didn't understand, he felt at peace.
+  DialogueBR:
+  - "<color=purple>William</color> rezou fervorosamente com toda a f\xE9 de seu cora\xE7\xE3o."
+  - "E por algum motivo que ele n\xE3o compreendia, ele se sentiu em paz."
+  idchara: 0000000000000000
+  instruction: 00000000e8030000f6010000
+  Cenario: 43

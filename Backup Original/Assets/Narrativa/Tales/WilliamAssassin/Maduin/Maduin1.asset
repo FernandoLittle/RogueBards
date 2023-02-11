@@ -73,5 +73,5 @@ MonoBehaviour:
   - "\u201CPor que eu estou falando isso?\u201D"
   - "Ent\xE3o \xE9 a sua vez de tocar, <color=purple>William</color>."
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
+  Cenario: 48

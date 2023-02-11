@@ -20,5 +20,5 @@ MonoBehaviour:
   - "Eu n\xE3o toquei muito bem."
   - "Como assim? Eu adorei sua m\xFAsica."
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 00000000e9030000ea030000
+  Cenario: 48

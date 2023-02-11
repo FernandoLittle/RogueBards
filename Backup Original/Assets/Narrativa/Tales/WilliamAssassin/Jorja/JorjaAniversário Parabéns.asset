@@ -34,5 +34,5 @@ MonoBehaviour:
   - "\"Pelo menos <color=#FF0080>Maduin</color> vai lev\xE1-la para um orfanato em
     breve e eu n\xE3o terei que lidar com isso novamente.\""
   idchara: 1c000000220000001c000000000000001c0000001c0000001c000000
-  instruction: 
-  Cenario: 0
+  instruction: 000000000000000000000000000000000000000000000000000000006b000000
+  Cenario: 46

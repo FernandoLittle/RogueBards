@@ -32,7 +32,7 @@ MonoBehaviour:
     me the injection.
   - Please.
   - Are you selling your daughter in exchange for an injection?
-  - That's right! She's already given me a lot of trouble.Aceitar Recusar
+  - That's right! She's already given me a lot of trouble.
   DialogueBR:
   - "Por mais que um assassino gostasse de seu trabalho, poucos tinham a incr\xEDvel
     determina\xE7\xE3o da Ebu para pratic\xE1-lo diariamente, muitos assassinos trabalhavam
@@ -54,5 +54,5 @@ MonoBehaviour:
   - "Voc\xEA est\xE1 vendendo sua filha em troca de inje\xE7\xE3o?"
   - "Isso! Ela j\xE1 me deu muito problema."
   idchara: 000000000000000000000000230000001c00000023000000220000002300000023000000230000001c00000023000000
-  instruction: 
-  Cenario: 0
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044010000
+  Cenario: 40

@@ -20,5 +20,5 @@ MonoBehaviour:
   - "Eu n\xE3o vou comprar sua filha, v\xE1 embora e n\xE3o apare\xE7a na minha frente
     nunca mais."
   idchara: 1c000000
-  instruction: 
-  Cenario: 0
+  instruction: 000000007a000000
+  Cenario: 40

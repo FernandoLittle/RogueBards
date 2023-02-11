@@ -64,6 +64,7 @@ MonoBehaviour:
   - For normal humans it's absurd to say that an animal is worth as much as a person,
     but for a killer like me this is a banal statement.
   - Ebu lied from the first word to the last.
+  - How do you prefer to spend your free time?
   DialogueBR:
   - "Ebu, <color=purple>William</color> e <color=#FF0080>Maduin</color> estavam almo\xE7ando
     juntos. Assassinos n\xE3o costumavam ter muitos amigos, exatamente por isso eles
@@ -125,6 +126,7 @@ MonoBehaviour:
   - "Para humanos normais \xE9 absurdo dizer que um animal vale tanto quanto uma
     pessoa, mas para uma assassina como eu essa \xE9 uma afirma\xE7\xE3o banal.\r\n"
   - "Ebu mentiu da primeira palavra at\xE9 a \xFAltima.\r\n"
+  - "Como voc\xEA deseja passar o seu tempo livre?"
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
+  Cenario: 52

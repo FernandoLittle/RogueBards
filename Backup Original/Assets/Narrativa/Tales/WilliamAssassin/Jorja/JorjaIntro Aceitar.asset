@@ -27,8 +27,8 @@ MonoBehaviour:
   - <color=purple>William</color> estranhou essa resposta.
   - "Sua m\xE3e faz mingau para voc\xEA?"
   - "N\xE3o, eu como no restaurante."
-  - "Entre l\xE1 dentro. Voc\xEA vai encontrar um homem chamado <color=#FF0080>Maduin</color>.
+  - "Entre l\xE1 dentro. Voc\xEA vai encontrar um mo\xE7o chamado <color=#FF0080>Maduin</color>.
     Ele vai fazer mingau para voc\xEA."
   idchara: 1c00000022000000000000001c000000220000001c000000
-  instruction: 00000000000000000000000000000000000000000000000000000000
-  Cenario: 0
+  instruction: 00000000000000000000000000000000000000000000000067000000
+  Cenario: 40

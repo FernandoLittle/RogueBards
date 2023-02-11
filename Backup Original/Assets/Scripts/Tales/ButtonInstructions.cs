@@ -184,12 +184,44 @@ public class ButtonInstructions : MonoBehaviour
                 break;
             case 1505:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
-                TalesVariables.SetTale(4);
+                TalesVariables.SetTale(25);
                 break;
 
+            //1600 Set Tale for other List Assassin
+            case 1601:
+                TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
+                TalesVariables.SetTale(0);
+                break;
+            case 1602:
+                TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
+                TalesVariables.SetTale(12);
+                break;
+            case 1603:
+                TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
+                TalesVariables.SetTale(19);
+                break;
 
-
-
+            case 1701:
+                TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
+                TalesVariables.SetTale(0);
+                break;
+            case 1702:
+                TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
+                TalesVariables.SetTale(1);
+                break;
+            case 1703:
+                TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
+                TalesVariables.SetTale(2);
+                break;
+            case 1704:
+                TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
+                TalesVariables.SetTale(4);
+                break;
+            case 1705:
+                TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
+                TalesVariables.SetTale(3);
+                break;
+        
 
 
 
@@ -445,7 +477,24 @@ public class ButtonInstructions : MonoBehaviour
             case 22:
                 ButtonText = "Refuse the bribe.";
                 break;
-
+            case 23:
+                ButtonText = "Kill him.";
+                break;
+            case 24:
+                ButtonText = "Spare him.";
+                break;
+            case 25:
+                ButtonText = "Accept the offer.";
+                break;
+            case 26:
+                ButtonText = "Decline the offer.";
+                break;
+            case 27:
+                ButtonText = "Congratulations!";
+                break;
+            case 28:
+                ButtonText = "Screw this.";
+                break;
 
         }
         TalesVariables.OptionsText1[nextbutton].text = ButtonText;
@@ -526,6 +575,24 @@ public class ButtonInstructions : MonoBehaviour
                 break;
             case 22:
                 ButtonText = "Recuse o suborno.";
+                break;
+            case 23:
+                ButtonText = "Mate Joshua.";
+                break;
+            case 24:
+                ButtonText = "Poupe Joshua.";
+                break;
+            case 25:
+                ButtonText = "Aceite a oferta.";
+                break;
+            case 26:
+                ButtonText = "Recuse a oferta.";
+                break;
+            case 27:
+                ButtonText = "Parabéns!";
+                break;
+            case 28:
+                ButtonText = "Foda-se.";
                 break;
         }
         Debug.Log(ButtonText);

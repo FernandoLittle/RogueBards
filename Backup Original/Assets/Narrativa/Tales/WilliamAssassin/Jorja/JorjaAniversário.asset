@@ -20,5 +20,5 @@ MonoBehaviour:
   - "<color=purple>Will</color>, hoje \xE9 o meu anivers\xE1rio."
   - ...
   idchara: 220000001c000000
-  instruction: 
-  Cenario: 0
+  instruction: 000000000000000045010000
+  Cenario: 46

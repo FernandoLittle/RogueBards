@@ -82,7 +82,7 @@ MonoBehaviour:
   - "Aquelas correntes fazem eu me lembrar da minha fam\xEDlia porque\u2026"
   - "Ok! Basta dessa conversa, foi um prazer almo\xE7ar com voc\xEAs, eu vou fazer
     alguma outra coisa bem longe daqui.\r"
-  - "Como voc\xEA prefere passar o seu tempo livre?"
+  - "Como voc\xEA deseja passar o seu tempo livre?"
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
+  Cenario: 53

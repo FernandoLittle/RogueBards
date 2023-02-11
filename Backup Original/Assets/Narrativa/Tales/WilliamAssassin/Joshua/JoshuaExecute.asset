@@ -24,7 +24,7 @@ MonoBehaviour:
     nunca vai deixar de me odiar."
   - "Ap\xF3s a l\xE2mina atravessar seu cora\xE7\xE3o, <color=blue>Joshua</color>
     disse suas \xFAltimas palavras:\r\n"
-  - "Me desculpe filho, n\xE3o pude ving\xE1-lo."
+  - "Me desculpe filho, eu n\xE3o pude ving\xE1-lo."
   idchara: 1c0000000000000024000000
-  instruction: 
-  Cenario: 0
+  instruction: 00000000000000000000000076000000
+  Cenario: 49

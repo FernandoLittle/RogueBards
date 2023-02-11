@@ -64,5 +64,5 @@ MonoBehaviour:
     permita entrar no quarto, talvez demore um pouco, mas \xE9 um plano bem mais
     seguro\u201D."
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
+  Cenario: 33

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: CornGuy
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Corn, who wants corn? Corn is good, you can eat it, eating is good, you know
+    what happens when you don't eat it, does anyone know?
+  - You, warrior! Yes, you. You know?
+  - No.
+  - Don't you know what happens when we don't eat?
+  - I don't know.
+  - We gain desire to eat.
+  - Swear? I would never have guessed.
+  - But it's true, people get more and more desire to eat.
+  - And when they really want to eat they start doing things they shouldn't.
+  - Then eat some corn, I'll sell it cheap for you.
+  - <color=purple>William</color> bought it, although he didn't like the seller,
+    at least the corn was really tasty.
+  - Did you like it?
+  - Yes.
+  - Great! It makes me very happy.
+  - "\"Happiness\u2026\""
+  - You are indeed very smiley, how can you be so happy?
+  - How could you not be happy? I plant corn, I sell corn, I eat corn.
+  - It's impossible to be unhappy with so much corn.
+  - What nonsense, you can't be happy with corn alone.
+  - Of course it does, I've seen many happy people after they ate my corn.
+  - They were very, very, very happy.
+  - What? Corn is a poor man's food.
+  - Corn is poor man's food because you can boil a lot of water by burning a small
+    amount of corn.
+  - And if you have little land, you plant a lot of corn, potatoes can be better,
+    but I prefer corn.
+  - '"What is this idiot talking about?"'
+  - This doesn't make any sense, you're crazy.
+  - I'm not crazy.
+  - <color=Black>Yes you are.</color>
+  - I'm not crazy!
+  - Calm down man, I heard it the first time you said it.
+  - I'll show you how to be happy, I'll take you to plant and eat corn at my house,
+    dinner is on me, so you'll understand the real meaning of happiness.
+  - <color=purple>William</color> doubted that an imbecile like that man would be
+    able to teach him how to be happy, but the proposal of a free dinner attracted
+    him.
+  DialogueBR:
+  - "Milho, quem quer milho? Milho \xE9 bom, d\xE1 pra comer, comer \xE9 bom, sabe
+    o que acontece quando voc\xEA n\xE3o come, algu\xE9m sabe?"
+  - "Voc\xEA, guerreiro! Voc\xEA mesmo, voc\xEA sabe?"
+  - "N\xE3o."
+  - "Voc\xEA n\xE3o sabe o que acontece quando a gente n\xE3o come?"
+  - "N\xE3o sei."
+  - 'A gente fica com mais vontade de comer.
+
+'
+  - Jura? Nunca ia imaginar.
+  - "Mas \xE9 verdade, as pessoas ficam com cada vez mais vontade de comer."
+  - "E quando elas ficam com muita vontade de comer elas come\xE7am a fazer coisas
+    que n\xE3o deviam."
+  - "Ent\xE3o coma um pouco de milho, eu vendo baratinho pra voc\xEA."
+  - "<color=purple>William</color> comprou, apesar de n\xE3o ter simpatizado com
+    o vendedor, pelo menos o milho estava realmente saboroso."
+  - Gostou?
+  - Sim.
+  - 'Que bom! Isso me deixa muito feliz.
+
+'
+  - "\u201CFelicidade\u2026\u201D"
+  - "Voc\xEA \xE9 de fato muito sorridente, como voc\xEA consegue ser t\xE3o feliz?"
+  - "Como que n\xE3o seria feliz? Eu planto milho, eu vendo milho, eu como milho.\r\n"
+  - "\xC9 imposs\xEDvel ser infeliz com tanto milho."
+  - "Que bobagem, n\xE3o d\xE1 para ser feliz s\xF3 com milho.\r\n"
+  - "\xC9 claro que d\xE1, eu j\xE1 vi muitas pessoas felizes depois que comeram
+    meu milho.\r\n"
+  - 'Elas ficaram muito, muito, muito felizes.
+
+'
+  - "Como assim? Milho \xE9 comida de pobre."
+  - "Milho \xE9 comida de pobre porque d\xE1 para ferver muita quantidade de \xE1gua
+    queimando pouca quantidade de milho.\r\n"
+  - "E se voc\xEA tiver pouca terra voc\xEA planta muito milho, a batata pode ser
+    melhor, mas eu prefiro milho.\r\n"
+  - "\"O que esse idiota est\xE1 falando?\""
+  - "Isso n\xE3o faz sentido nenhum, voc\xEA est\xE1 completamente alucinado."
+  - "Eu n\xE3o sou alucinado."
+  - "<color=Black>Voc\xEA \xE9 sim.</color>"
+  - "Eu n\xE3o sou alucinado!"
+  - "Calma cara, eu ouvi na primeira vez que voc\xEA falou."
+  - "Eu vou te mostrar como ser feliz, vou te levar pra plantar e comer milho l\xE1
+    na minha casa, a janta \xE9 por minha conta, assim voc\xEA vai entender o real
+    significado de felicidade.\r\n"
+  - "<color=purple>William</color> duvidava que um imbecil como aquele homem fosse
+    capaz de ensin\xE1-lo a ser feliz, mas a proposta de uma janta de gra\xE7a o
+    atraiu.\r\n"
+  idchara: 02000000020000001c000000020000001c000000020000001c00000002000000020000000200000000000000020000001c000000020000001c0000001c00000002000000020000001c00000002000000020000001c00000002000000020000001c0000001c0000000200000000000000020000001c0000000200000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007e000000
+  Cenario: 29

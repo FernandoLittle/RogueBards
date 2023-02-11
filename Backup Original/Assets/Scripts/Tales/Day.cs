@@ -63,28 +63,28 @@ public class Day : MonoBehaviour
         //Sincroniza 3 Controlers
         if (day == 1)
         {
-            RandomIntro();
+            RandomIntroAS();
         }
         if (day == 2)
         {
-            RandomBard();
+            DocumentoAS();
         }
         if (day == 3)
         {
-            FightCrime(2);
+            RandomMaduin();
         }
         if (day == 4)
         {
 
-            Minigame();
+            FightCrimeAS(3);
         }
         if (day == 5)
         {
-            Happiness();
+            MinigameAS();
         }
         if (day == 6)
         {
-
+            HappinessAS();
         }
         if (day == 7)
         {
@@ -108,7 +108,7 @@ public class Day : MonoBehaviour
     public void RandomIntro()
     {
         int caos;
-        caos = Random.Range(0, 5);
+        caos = Random.Range(0, TalesVariables.TalesIntro.Count);
         TalesVariables.Tales = TalesVariables.TalesIntro;
         TalesVariables.SetTale(caos);
         TalesVariables.Index += 1;
@@ -136,6 +136,44 @@ public class Day : MonoBehaviour
         TalesVariables.Tales = TalesVariables.TalesMinigames;
         TalesVariables.SetTale(2);
     }
-
-
+    // Assassin
+    public void RandomIntroAS()
+    {
+        int caos;
+        caos = Random.Range(0, TalesVariables.TalesIntroAS.Count);
+        TalesVariables.Tales = TalesVariables.TalesIntroAS;
+        TalesVariables.SetTale(caos);
+        TalesVariables.Index += 1;
+    }
+    public void RandomMaduin()
+    {
+        int caos;
+        TalesVariables.Tales = TalesVariables.TalesWilliamMaduin;
+        caos = Random.Range(0, TalesVariables.Tales.Count);
+        TalesVariables.SetTale(caos);
+        TalesVariables.Index += 1;
+    }
+    public void FightCrimeAS(int a)
+    {
+        TalesVariables.Tales = TalesVariables.TalesAction;
+        TalesVariables.SetTale(a);
+    }
+    public void MinigameAS()
+    {
+        int caos;
+        TalesVariables.Tales = TalesVariables.TalesMinigamesAS;
+        caos = Random.Range(0, TalesVariables.Tales.Count);
+        TalesVariables.SetTale(caos);
+        TalesVariables.Index += 1;
+    }
+    public void HappinessAS()
+    {
+        TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
+        TalesVariables.SetTale(28);
+    }
+    public void DocumentoAS()
+    {
+        TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
+        TalesVariables.SetTale(29);
+    }
 }

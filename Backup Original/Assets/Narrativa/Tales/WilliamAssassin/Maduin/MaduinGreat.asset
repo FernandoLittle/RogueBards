@@ -20,5 +20,5 @@ MonoBehaviour:
   - Acho que ficou bom.
   - "Como assim? Voc\xEA tocou bem melhor do que eu."
   idchara: 
-  instruction: 
-  Cenario: 0
+  instruction: 00000000e8030000ea030000
+  Cenario: 48

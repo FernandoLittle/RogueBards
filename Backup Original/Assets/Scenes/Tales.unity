@@ -8179,6 +8179,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 88780d113e0ffec45beebc8ac696b2ca, type: 2}
   - {fileID: 11400000, guid: 6429cccf0ea6c4e45aa5a9cb2211e9c2, type: 2}
   - {fileID: 11400000, guid: 311f180875d5ac04eb04ab9281f2de84, type: 2}
+  - {fileID: 11400000, guid: b67b4a62c109433459733c7566d72587, type: 2}
   TalesMinigames:
   - {fileID: 11400000, guid: 8edf92da521c8124286cd0c102e62599, type: 2}
   - {fileID: 11400000, guid: 965ad896a58943e4b935cd4e955278d6, type: 2}
@@ -8209,13 +8210,85 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8f9481bd6bded244492449615ee02749, type: 2}
   - {fileID: 11400000, guid: dbbde71ba4d7832479cda8d106ebcaf7, type: 2}
   - {fileID: 11400000, guid: 7caa43cf5e2f37547a52cb0b14ab2c7c, type: 2}
+  - {fileID: 11400000, guid: 87f2a08536504bd429c8e3907a47fa59, type: 2}
+  - {fileID: 11400000, guid: a8ace6f2b125e784083c529b310b28fa, type: 2}
   TalesCustonRouteTrue:
   - {fileID: 11400000, guid: f60b0d31024edcd488c40562709e776a, type: 2}
   - {fileID: 11400000, guid: 64a99d6b4a6590b45a49e64762cbe341, type: 2}
   - {fileID: 11400000, guid: 8cfd6f7ee328de043a7bb5eb79e21f86, type: 2}
   - {fileID: 11400000, guid: 8954fc1b901f71a48aa0ef92d5831b4c, type: 2}
+  - {fileID: 11400000, guid: 87f2a08536504bd429c8e3907a47fa59, type: 2}
   TalesDeath:
   - {fileID: 11400000, guid: 5f343d092655cb447b075c18330a11db, type: 2}
+  TalesPray: []
+  TalesIntroAS:
+  - {fileID: 11400000, guid: 882eaddc388700f46b802601953ef8b5, type: 2}
+  - {fileID: 11400000, guid: 4ccef1d05c6d9c44ea79735f6effaaa2, type: 2}
+  - {fileID: 11400000, guid: 9a8e984922c1062478aa6e8654ca022a, type: 2}
+  - {fileID: 11400000, guid: 3aa12f9b1ec88824d8127d41afe3b576, type: 2}
+  - {fileID: 11400000, guid: 358cb3e46a0e3864b9c228b6bb0e4bbe, type: 2}
+  - {fileID: 11400000, guid: 790daa69a2c75d3419aef2c8829c9112, type: 2}
+  TalesWilliamWFightAS:
+  - {fileID: 11400000, guid: decd0ee45386f7642a6732724d766af2, type: 2}
+  - {fileID: 11400000, guid: 19512c90e9d9d0e43a4cda22b61cf22a, type: 2}
+  - {fileID: 11400000, guid: 3cf0efeb2449b9348b1f3f9a62a40cff, type: 2}
+  - {fileID: 11400000, guid: fcb3213a781129643b59768378434599, type: 2}
+  - {fileID: 11400000, guid: a231a11dd735a1e45be7d4540c82e820, type: 2}
+  TalesWilliamWFight2AS:
+  - {fileID: 11400000, guid: c0d8050b4326ec644b9eaafc62951601, type: 2}
+  - {fileID: 11400000, guid: dca023a42323f814f8e73d23c9ad985b, type: 2}
+  - {fileID: 11400000, guid: 13c01fdb7f825884baba8f84dd7a6f1c, type: 2}
+  - {fileID: 11400000, guid: 560d04c75152e3040ab92b848757b9ef, type: 2}
+  - {fileID: 11400000, guid: d96d5866955e95849a5ca44a5a786f2e, type: 2}
+  TalesWilliamMaduin:
+  - {fileID: 11400000, guid: 1e8009adc0f46004485941d4633e0595, type: 2}
+  - {fileID: 11400000, guid: 4ee0525e59acff543af315c742b47de6, type: 2}
+  - {fileID: 11400000, guid: c7f96176764231845841390421980261, type: 2}
+  TalesWilliamMaduin2:
+  - {fileID: 11400000, guid: 4e4b6bc1a90eb5f4cbc49e0677ea317a, type: 2}
+  - {fileID: 11400000, guid: bd8ecfb3b0051344ea4793f8909baeba, type: 2}
+  - {fileID: 11400000, guid: e394bde8da782f24793da396960bb32f, type: 2}
+  TalesActionAS:
+  - {fileID: 11400000, guid: 6429cccf0ea6c4e45aa5a9cb2211e9c2, type: 2}
+  - {fileID: 11400000, guid: b67b4a62c109433459733c7566d72587, type: 2}
+  TalesMinigamesAS:
+  - {fileID: 11400000, guid: 2c581d97638c33848aa5bd43502159fa, type: 2}
+  - {fileID: 11400000, guid: 6d3d54bf2f8e4214a8fd0138b02b6a5e, type: 2}
+  TalesCustonRouteAS:
+  - {fileID: 11400000, guid: 0cc6e6df697510f4b9122e14df5613b4, type: 2}
+  - {fileID: 11400000, guid: 536faba02ccd19c48ac96782bf1b5a23, type: 2}
+  - {fileID: 11400000, guid: c16b50e7f34f9514e9bfe87fd96d1926, type: 2}
+  - {fileID: 11400000, guid: 9415e90d03ea788479fc1014a8617ca6, type: 2}
+  - {fileID: 11400000, guid: 6abe5697534e15b42be8f2b32d5ac64f, type: 2}
+  - {fileID: 11400000, guid: f9d3cb1c2ad02934c95c5c480fb6b1af, type: 2}
+  - {fileID: 11400000, guid: 8c5012714eac3ea43b3ecb1bae9ffd2f, type: 2}
+  - {fileID: 11400000, guid: 434692cfa134d4645b479d916cd391af, type: 2}
+  - {fileID: 11400000, guid: 1ade1a03815713247bb34d8a29a714f3, type: 2}
+  - {fileID: 11400000, guid: e2964d2c1e545f7469c1e92b291bd403, type: 2}
+  - {fileID: 11400000, guid: 25a8030a83d0f0941ae66e5d799c0897, type: 2}
+  - {fileID: 11400000, guid: de501b14fd25f214f9cd313bf4e02f4f, type: 2}
+  - {fileID: 11400000, guid: b4fdf8ec27b5bfe4499f4e44f7da02c5, type: 2}
+  - {fileID: 11400000, guid: d07fe8db4fd7980408e8f3e67beffbc9, type: 2}
+  - {fileID: 11400000, guid: a2ce29bb9fca5b747a7b6f35a2f4049b, type: 2}
+  - {fileID: 11400000, guid: a3d3466142b4af94e8e5dd480e79a90a, type: 2}
+  - {fileID: 11400000, guid: 50b5848f1eb25654f86065afd8df6af1, type: 2}
+  - {fileID: 11400000, guid: 3460235a09d3ba1488823adea40aa411, type: 2}
+  - {fileID: 11400000, guid: ed3961fee15682846982a01f40621fd0, type: 2}
+  - {fileID: 11400000, guid: cf8c4121f3eb8e04190ed14857823d09, type: 2}
+  - {fileID: 11400000, guid: ad57062d44398ce46802db3bb7d4e1fb, type: 2}
+  - {fileID: 11400000, guid: 68ea94957d32e6d479a6151c127889a5, type: 2}
+  - {fileID: 11400000, guid: eb6d3276bee21ed4ea47cca81ff6c803, type: 2}
+  - {fileID: 11400000, guid: 8987ff59a9b4aa545af97c40911ec074, type: 2}
+  - {fileID: 11400000, guid: 6a8d51a32846b74478bac3e3fa528286, type: 2}
+  - {fileID: 11400000, guid: 70414e584520ad249b4eafa84fe327f3, type: 2}
+  - {fileID: 11400000, guid: becd51fca96bc2d41b35715a900d5131, type: 2}
+  - {fileID: 11400000, guid: ccd96e7baf969c74c82d2ce6319537b1, type: 2}
+  - {fileID: 11400000, guid: be30fb23f21e00e4b8b5709a0670b343, type: 2}
+  - {fileID: 11400000, guid: f11cf939b87f1814d9e26e2150c51c13, type: 2}
+  TalesCustonRouteTrueAs:
+  - {fileID: 11400000, guid: 0cc6e6df697510f4b9122e14df5613b4, type: 2}
+  - {fileID: 11400000, guid: b4fdf8ec27b5bfe4499f4e44f7da02c5, type: 2}
+  - {fileID: 11400000, guid: cf8c4121f3eb8e04190ed14857823d09, type: 2}
   instruction: 0
   TaleSelect: 0
   Index: 0
@@ -11518,6 +11591,46 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 946fc873b253399459714f2282376f3d, type: 3}
   - {fileID: 21300000, guid: f8a0db94ed187204bb8789022e51551f, type: 3}
   - {fileID: 0}
+  - {fileID: 21300000, guid: b94b8536741bb5d488a0d618dc40a8a8, type: 3}
+  - {fileID: 21300000, guid: 432d225569f27864fac3576124adc5c9, type: 3}
+  - {fileID: 21300000, guid: 595fc7dd202d93547b9c3761bbc6ccf0, type: 3}
+  - {fileID: 21300000, guid: d6e1eff655ab9974d9372df88d39e10a, type: 3}
+  - {fileID: 21300000, guid: 35d6e3e36965768498f47f0974b510be, type: 3}
+  - {fileID: 21300000, guid: d3088a3f36e9dfb4e8489feb662410a3, type: 3}
+  - {fileID: 21300000, guid: db88e26ea02451240afacf42ce2a8bca, type: 3}
+  - {fileID: 21300000, guid: 93fb4bee12016d3449b4fbad362f52d0, type: 3}
+  - {fileID: 21300000, guid: 2aeb4b25659d18642b3e1d7159ee3353, type: 3}
+  - {fileID: 21300000, guid: 3fa71f9d6f25d344f92e2443498eb47c, type: 3}
+  - {fileID: 21300000, guid: f1aaba5ef1125e740999defc5d5b1585, type: 3}
+  - {fileID: 21300000, guid: 092dd6d408119ce4ebfe6502fc138c6d, type: 3}
+  - {fileID: 21300000, guid: 1f00d8335f4732347bcbc4649e56cb7a, type: 3}
+  - {fileID: 21300000, guid: 7406649d44228324c9091577a02f7c9a, type: 3}
+  - {fileID: 21300000, guid: 07f247a86ed386a4a870b8bf28dd7ba5, type: 3}
+  - {fileID: 21300000, guid: 736e18f3d27ad2f40b49b3e560c8a913, type: 3}
+  - {fileID: 21300000, guid: e65d69c940e3b5f48941fc25ae5fb456, type: 3}
+  - {fileID: 21300000, guid: 5e7865f1d58c8fe408f85aa0593aa1df, type: 3}
+  - {fileID: 21300000, guid: 224baa9d06c5d0044aea515861a44246, type: 3}
+  - {fileID: 21300000, guid: 4fa7bed54a17fb844b1ea1d113113ec1, type: 3}
+  - {fileID: 21300000, guid: 88044a85aabb8eb48960578b73e1686d, type: 3}
+  - {fileID: 21300000, guid: 7e354abea8374bc458af006b675d5e2e, type: 3}
+  - {fileID: 21300000, guid: c24b17fb11fbe3f41ba9d57f39eabd3b, type: 3}
+  - {fileID: 21300000, guid: 12694e23d0b30bd4686347c7889c8f42, type: 3}
+  - {fileID: 21300000, guid: 828cee412e7eba547953d41be7195d24, type: 3}
+  - {fileID: 21300000, guid: d9a0697e7e2650046aea47edc0f4dba0, type: 3}
+  - {fileID: 21300000, guid: f290a79cca617a044ad346724daa2e51, type: 3}
+  - {fileID: 21300000, guid: 740584f38d8392445adb4587bf07df98, type: 3}
+  - {fileID: 21300000, guid: 93d1fa0d413d16b4cb1d6ba62ae66d9d, type: 3}
+  - {fileID: 21300000, guid: 3484406a10b8eb14c819ba4897f5a5df, type: 3}
+  - {fileID: 21300000, guid: 64f8e7d6f927a804f8741011321de150, type: 3}
+  - {fileID: 21300000, guid: f94fcadf8d045fc43a973a60bd3f7c16, type: 3}
+  - {fileID: 21300000, guid: af9a8e427930da44684ccb2be0681b11, type: 3}
+  - {fileID: 21300000, guid: 29644d1d9a4ae2a44950c5422e346e93, type: 3}
+  - {fileID: 21300000, guid: cb49de486a235ce4ba64d475c72c2f0c, type: 3}
+  - {fileID: 21300000, guid: 16d12205c4fbb8d419d2da5b3c721500, type: 3}
+  - {fileID: 21300000, guid: feda3b68783176c4f9f82f271120f5a9, type: 3}
+  - {fileID: 21300000, guid: 56362f41c8ab2ea4cbee66cb1670d1da, type: 3}
+  - {fileID: 21300000, guid: 1471dedfed89c1545bcf2c6616078880, type: 3}
+  - {fileID: 21300000, guid: 08e123b39ab3c7449a5cca90cdabfd8f, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

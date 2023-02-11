@@ -26,6 +26,7 @@ public class Instructions : MonoBehaviour
     }
     public void TaleSwitch(int a)
     {
+        int chaos;
         switch (a)
         {
             case 0:
@@ -132,7 +133,151 @@ public class Instructions : MonoBehaviour
                 //SceneManager.LoadScene("Battle");
                 break;
 
+            case 17:
 
+                StaticPlayer.Fight = 17;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 18:
+                StaticPlayer.Fight = 18;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 19:
+                StaticPlayer.Fight = 19;
+                TalesVariables.Loading.SetActive(true);
+                //SceneManager.LoadScene("Battle");
+                GodCube.TakeScreenshot("Battle");
+                break;
+            case 20:
+                StaticPlayer.Fight = 20;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 21:
+                StaticPlayer.Fight = 21;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 22:
+                StaticPlayer.Fight = 22;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 23:
+                StaticPlayer.Fight = 23;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 24:
+                StaticPlayer.Fight = 24;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 25:
+                StaticPlayer.Fight = 25;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 26:
+                StaticPlayer.Fight = 26;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 27:
+                StaticPlayer.Fight = 27;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 28:
+                StaticPlayer.Fight = 28;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 29:
+                StaticPlayer.Fight = 29;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 30:
+                StaticPlayer.Fight = 30;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 31:
+                StaticPlayer.Fight = 31;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 32:
+                StaticPlayer.Fight = 32;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 33:
+                StaticPlayer.Fight = 33;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 34:
+                StaticPlayer.Fight = 34;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 35:
+                StaticPlayer.Fight = 35;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 36:
+                StaticPlayer.Fight = 36;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 37:
+                StaticPlayer.Fight = 37;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 38:
+                StaticPlayer.Fight = 38;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 39:
+                StaticPlayer.Fight = 39;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
+            case 40:
+                StaticPlayer.Fight = 40;
+                TalesVariables.Loading.SetActive(true);
+                GodCube.TakeScreenshot("Battle");
+                //SceneManager.LoadScene("Battle");
+                break;
 
 
 
@@ -208,6 +353,37 @@ public class Instructions : MonoBehaviour
             case 124:
                 TalesVariables.SetTale(a - 100);
                 break;
+            case 125:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 126:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 127:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 128:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 129:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 130:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 131:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 132:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 133:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 134:
+                TalesVariables.SetTale(a - 100);
+                break;
+
 
 
             //200 SetDialogue
@@ -305,16 +481,79 @@ public class Instructions : MonoBehaviour
                 TalesVariables.ButtonInstructions.TranslateButton(21, 22, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
+            case 323:
+                SetButtonST("Kill him.", "Spare him.", "", "", "");
+                SetButton(1017, 1016, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(23, 24, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 324:
+                SetButtonST("Accept the offer.", "Decline the offer.", "", "", "");
+                SetButton(1002, 1001, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(25, 26, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
+            case 325:
+                SetButtonST("Congratulations!", "Screw this.", "", "", "");
+                SetButton(1005, 1006, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(27, 28, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
             //500 Genecric
 
             case 500:
                 TalesVariables.Day.FightCrime(0);
                 break;
+            case 501:
+                TalesVariables.Day.FightCrimeAS(1);
+                break;
+            case 502:
+                TalesVariables.SetPrayTale();
+                break;
+
+
+
 
 
             case 666:
                 TalesVariables.Obrigado.SetActive(true);
                 break;
+
+
+
+
+            //700 Pray Tales SType= Set List Tale  SIndex= Set Index
+            //Stype1= CustonRouteAs
+            case 700:
+                PlayerPrefs.SetInt("SType", 1);
+                PlayerPrefs.SetInt("SIndex", 8);
+                GodCube.TakeScreenshot("Pray");
+                break;
+            case 701:
+                PlayerPrefs.SetInt("SType", 1);
+                PlayerPrefs.SetInt("SIndex", 9);
+                GodCube.TakeScreenshot("Pray");
+                break;
+            case 702:
+            
+                PlayerPrefs.SetInt("SType", 1);
+                chaos = Random.Range(0, 2);
+                if (chaos == 0)
+                {
+                    PlayerPrefs.SetInt("SIndex", 10);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("SIndex", 11);
+                }
+                GodCube.TakeScreenshot("Pray");
+                break;
+            case 703:
+                PlayerPrefs.SetInt("SType", 2);
+                PlayerPrefs.SetInt("SIndex", 18);
+                GodCube.TakeScreenshot("Pray");
+                break;
+
             //1000 Special Instructions
             //*****************************************************
             case 1000: //GreatReward
@@ -327,7 +566,15 @@ public class Instructions : MonoBehaviour
                 TalesVariables.ShowText();
                 break;
             case 1002: //NextDay
-                TalesVariables.Day.SelectDay();
+                if (StaticPlayer.PlayerId[0] == 28)
+                {
+                    TalesVariables.Day.SelectDay();
+                }
+                if (StaticPlayer.PlayerId[0] == 29)
+                {
+                    TalesVariables.Day.SelectDayAssassin();
+                }
+
                 break;
             case 1003: //Minigame
                 TalesVariables.Day.Minigame();
@@ -340,7 +587,18 @@ public class Instructions : MonoBehaviour
                 RandomActions();
                 break;
             case -2:
-                RandomCustomRoute();
+                if (StaticPlayer.PlayerId[0] == 28)
+                {
+                    RandomCustomRoute();
+                }
+                if (StaticPlayer.PlayerId[0] == 29)
+                {
+                    RandomCustomRouteAS();
+                }
+
+                break;
+            case -3:
+                RandomActionsAS();
                 break;
         }
     }
@@ -388,6 +646,85 @@ public class Instructions : MonoBehaviour
         TalesVariables.OptionsText[2] = st3;
         TalesVariables.OptionsText[3] = st4;
         TalesVariables.OptionsText[4] = st5;
+    }
+    public void RandomCustomRouteAS()
+    {
+
+        int Route1;
+        int Route2;
+        int Route3;
+        int chaos;
+
+        for (int x = 0; x < TalesVariables.TalesCustonRouteTrueAs.Count; x = x + 1)
+        {
+            TalesVariables.CustonRoute.Add(x);
+        }
+        Debug.Log("O_O");
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route1 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route2 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
+        Route3 = TalesVariables.CustonRoute[chaos];
+        TalesVariables.CustonRoute.RemoveAt(chaos);
+        Debug.Log(TalesVariables.CustonRoute.Count);
+        Routes.Add(Route1);
+        Routes.Add(Route2);
+        Routes.Add(Route3);
+
+
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+
+        for (int x = 0; x < 3; x = x + 1)
+        {
+            if (language == 0)
+            {
+                if (Routes[x] == 0)
+                {
+                    Inteiro[x] = 1601;
+                    Caracter[x] = "Sell Drugs";
+                }
+                if (Routes[x] == 1)
+                {
+                    Inteiro[x] = 1602;
+                    Caracter[x] = "Kill a Rapist";
+                }
+                if (Routes[x] == 2)
+                {
+                    Inteiro[x] = 1603;
+                    Caracter[x] = "Look to the Sky";
+                }
+            }
+            if (language == 1)
+            {
+                if (Routes[x] == 0)
+                {
+                    Inteiro[x] = 1601;
+                    Caracter[x] = "Venda Drogas.";
+                }
+                if (Routes[x] == 1)
+                {
+                    Inteiro[x] = 1602;
+                    Caracter[x] = "Mate um Estuprador.";
+                }
+                if (Routes[x] == 2)
+                {
+                    Inteiro[x] = 1603;
+                    Caracter[x] = "Olhe para o Céu.";
+                }
+            }
+            //Gay Kiss
+            //Eat Corn
+        }
+        SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");
+        SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
+        TalesVariables.ShowText();
     }
     public void RandomCustomRoute()
     {
@@ -447,6 +784,11 @@ public class Instructions : MonoBehaviour
                     Inteiro[x] = 1504;
                     Caracter[x] = "Take a bribe";
                 }
+                if (Routes[x] == 4)
+                {
+                    Inteiro[x] = 1505;
+                    Caracter[x] = "Eat corn";
+                }
             }
             if (language == 1)
             {
@@ -469,6 +811,11 @@ public class Instructions : MonoBehaviour
                 {
                     Inteiro[x] = 1504;
                     Caracter[x] = "Cobre um suborno.";
+                }
+                if (Routes[x] == 4)
+                {
+                    Inteiro[x] = 1505;
+                    Caracter[x] = "Coma milho.";
                 }
             }
             //Gay Kiss
@@ -579,5 +926,95 @@ public class Instructions : MonoBehaviour
         TalesVariables.ShowText();
 
     }
+    public void RandomActionsAS()
+    {
+        int CountFightL1;
+        int RandomRemove;
+        TalesVariables.FightL.Clear();
+        TalesVariables.FightL1.Clear();
+        for (int x = 0; x < TalesVariables.TalesWilliamWFightAS.Count; x = x + 1)
+        {
+            TalesVariables.FightL.Add(x);
+        }
+        for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
+        {
+            TalesVariables.FightL1.Add(TalesVariables.FightL[x]);
+        }
+        CountFightL1 = TalesVariables.FightL1.Count - 3;
+        for (int x = 0; x < CountFightL1; x = x + 1)
+        {
+            RandomRemove = Random.Range(0, TalesVariables.FightL1.Count);
+            TalesVariables.FightL1.Remove(RandomRemove);
+        }
 
+        int language;
+        language = PlayerPrefs.GetInt("Language");
+
+        for (int x = 0; x < 3; x = x + 1)
+        {
+            if (language == 0)
+            {
+                if (TalesVariables.FightL1[x] == 0)
+                {
+                    Inteiro[x] = 1701;
+                    Caracter[x] = "Apology for Crime.";
+                }
+                if (TalesVariables.FightL1[x] == 1)
+                {
+                    Inteiro[x] = 14703;
+                    Caracter[x] = "Drug Trafficking.";
+                }
+                if (TalesVariables.FightL1[x] == 2)
+                {
+                    Inteiro[x] = 1703;
+                    Caracter[x] = "Illegal Immigration.";
+                }
+                if (TalesVariables.FightL1[x] == 3)
+                {
+                    Inteiro[x] = 1704;
+                    Caracter[x] = "Organ Trafficking.";
+                }
+                if (TalesVariables.FightL1[x] == 4)
+                {
+                    Inteiro[x] = 1705;
+                    Caracter[x] = "Tax Evasion.";
+                }
+            }
+
+            if (language == 1)
+            {
+                if (TalesVariables.FightL1[x] == 0)
+                {
+                    Inteiro[x] = 1701;
+                    Caracter[x] = "Apologia ao Crime.";
+                }
+                if (TalesVariables.FightL1[x] == 1)
+                {
+                    Inteiro[x] = 1702;
+                    Caracter[x] = "Tráfico de Drogas.";
+                }
+                if (TalesVariables.FightL1[x] == 2)
+                {
+                    Inteiro[x] = 1703;
+                    Caracter[x] = "Imigração Ilegal.";
+                }
+                if (TalesVariables.FightL1[x] == 3)
+                {
+                    Inteiro[x] = 1704;
+                    Caracter[x] = "Tráfico de Órgãos.";
+                }
+                if (TalesVariables.FightL1[x] == 4)
+                {
+                    Inteiro[x] = 1705;
+                    Caracter[x] = "Sonegação.";
+                }
+            }
+
+        }
+
+        SetButtonST(Caracter[0], Caracter[1], Caracter[2], "", "");
+        SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
+        TalesVariables.ShowText();
+
+    }
 }

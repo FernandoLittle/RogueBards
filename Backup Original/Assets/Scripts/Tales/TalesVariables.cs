@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TalesVariables : MonoBehaviour
 {
+    //Tales Warrior
     public List<Tales> Tales;
     public List<Tales> TalesIntro;
     public List<Tales> TalesRoy;
@@ -18,6 +19,22 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TalesCustonRoute;
     public List<Tales> TalesCustonRouteTrue;
     public List<Tales> TalesDeath;
+    public List<Tales> TalesPray;
+
+
+    //Tales Assassin
+    public List<Tales> TalesIntroAS;
+    public List<Tales> TalesWilliamWFightAS;
+    public List<Tales> TalesWilliamWFight2AS;
+    public List<Tales> TalesWilliamMaduin;
+    public List<Tales> TalesWilliamMaduin2;
+    public List<Tales> TalesActionAS;
+    public List<Tales> TalesMinigamesAS;
+    public List<Tales> TalesCustonRouteAS;
+    public List<Tales> TalesCustonRouteTrueAs;
+
+
+
     public int instruction;
     public int TaleSelect;
     public int Index;
@@ -132,7 +149,15 @@ public class TalesVariables : MonoBehaviour
         }
         else if (IdList == 2)
         {
-            Tales = TalesWilliamWBard2;
+            if(StaticPlayer.PlayerId[0] == 29)
+            {
+                Tales = TalesWilliamMaduin;
+
+            }
+            if (StaticPlayer.PlayerId[0] == 28)
+            {
+                Tales = TalesWilliamWBard2;
+            }
         }
         else if (IdList == 3)
         {
@@ -146,6 +171,35 @@ public class TalesVariables : MonoBehaviour
         {
             Tales = TalesDeath;
         }
+        else if (IdList == 6)
+        {
+            Tales = TalesWilliamWFight2AS;
+        }
+        else if (IdList == 7)
+        {
+            Tales = TalesCustonRouteAS;
+        }
+        else if (IdList == 8)
+        {
+            Tales = TalesPray;
+        }
+    }
+    public void SetPrayTale()
+    {
+        int Type;
+        int indexT;
+        Type= PlayerPrefs.GetInt("SType");
+        indexT = PlayerPrefs.GetInt("SIndex");
+        if (Type == 1)
+        {
+            Tales = TalesCustonRouteAS;
+        }
+        if (Type == 2)
+        {
+            Tales = TalesCustonRoute;
+        }
+        SetTale(indexT);
+
     }
     public void SetGodTale()
     {

@@ -20,5 +20,5 @@ MonoBehaviour:
   - "O trabalho de um assassino \xE9 defender o crime."
   - "Qual crime voc\xEA quer defender?"
   idchara: 0000000000000000
-  instruction: 0000000000000000ffffffff
+  instruction: 0000000000000000fdffffff
   Cenario: 0

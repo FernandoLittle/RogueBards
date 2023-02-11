@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab2a665746459449b2c6ab04f5df10d, type: 3}
+  m_Name: CornGuy 2
+  m_EditorClassIdentifier: 
+  id: 0
+  Dialogue:
+  - Next to <color=cyan>Corn Guy</color>'s house, <color=purple>William</color> noticed
+    the scarecrows that existed there.
+  - Why do these scarecrows have no heads?
+  - I'm afraid they'll come to life.
+  - This guy is even more foolish than he seems.
+  - It's a ridiculous idea, don't you think? After all, only animals can have consciousness.
+  - Yes, it's a ridiculous idea.
+  - Could you explain to a blind person what red is?
+  - '... '
+  - 'No. '
+  - 'Could you explain to a deaf person what music is, little <color=purple>Ulbrich</color>t? '
+  - '"Why did he call me little? I''m taller than him." '
+  - 'What are you getting at? '
+  - In mathematics, there's a category called "primitive concept". It's a concept
+    that doesn't have a definition, but defines other concepts.
+  - '"There''s no fucking way this idiot knows anything about math. I would be surprised
+    if he knew that two corns plus three corns equals five corns."'
+  - Our perceptions of reality are primitive concepts, we cannot define colors or
+    sounds, but it is these perceptions that define our entire understanding of reality.
+  - 'What are you talking about? '
+  - ' I''m talking about life and consciousness. '
+  - 'I don''t know if you have a consciousness like mine, because I can''t observe
+    your perceptions. I have no idea if the blue you see is similar to the blue I
+    see. '
+  - However, since you're physically similar to me, I intuit that you have a consciousness
+    like mine.
+  - How did we get into this topic?
+  - ' We were talking about the scarecrows.'
+  - How would I know if they think or not?
+  - I can't observe anyone's consciousness, so I can't distinguish what's sentient
+    from what's not.
+  - But my intuition says that beings similar to me are conscious.
+  - If those scarecrows had heads... If they smiled... I'd be scared.
+  - 'He talked so much just to show that he''s a fool with a big vocabulary. '
+  - After hoeing a bit, <color=purple>William</color> ate the cornmeal pudding that
+    the <color=cyan>Corn Guy</color> prepared.
+  - He miserably failed to obtain happiness.
+  DialogueBR:
+  - "Pr\xF3ximo \xE0 casa do <color=cyan>cara do milho</color>, William reparou nos
+    espantalhos que existiam l\xE1.\r\n"
+  - "Por que esses espantalhos n\xE3o t\xEAm cabe\xE7a?\r\n"
+  - Eu tenho medo de que eles ganhem vida.
+  - "Esse cara \xE9 mais idiota do que parece.\r\n"
+  - "\xC9 uma ideia rid\xEDcula, n\xE3o acha? Afinal, apenas animais podem ter consci\xEAncia.\r\n"
+  - "Sim, \xE9 uma ideia rid\xEDcula.\r\n"
+  - "Voc\xEA conseguiria explicar para um cego o que \xE9 o vermelho.?\r\n"
+  - "\u2026\r\n"
+  - "N\xE3o.\r\n"
+  - "Voc\xEA conseguiria explicar para um surdo o que \xE9 uma m\xFAsica, pequeno
+    <color=purple>Ulbrich</color>?"
+  - "\u201CPor que ele me chamou de pequeno? Eu sou mais alto que ele.\u201D\r\n"
+  - "Onde voc\xEA quer chegar com isso?\r\n"
+  - "Na matem\xE1tica existe uma categoria que se chama \u201Cconceito primitivo\u201D.
+    \xC9 um conceito que n\xE3o possui uma defini\xE7\xE3o, mas define outros conceitos.\r\n"
+  - "\"Nem fudendo que esse idiota sabe alguma coisa de matem\xE1tica. Eu ficaria
+    surpreso se ele soubesse que dois milhos mais tr\xEAs milhos s\xE3o iguais a
+    cinco milhos.\""
+  - "As nossas percep\xE7\xF5es da realidade s\xE3o conceitos primitivos, n\xF3s
+    n\xE3o conseguimos definir cores ou sons, mas s\xE3o essas percep\xE7\xF5es que
+    definem todo o nosso entendimento da realidade.\r\n"
+  - "Do que voc\xEA est\xE1 falando?\r\n"
+  - "Eu estou falando da vida e da consci\xEAncia."
+  - "Eu n\xE3o sei se voc\xEA tem uma consci\xEAncia igual a minha, pois eu n\xE3o
+    consigo observar as suas percep\xE7\xF5es. Eu n\xE3o fa\xE7o ideia se o azul
+    que voc\xEA enxerga \xE9 parecido com o azul que eu enxergo."
+  - "Por\xE9m, como voc\xEA \xE9 fisicamente parecido comigo, eu intuo que voc\xEA
+    tenha uma consci\xEAncia como a minha."
+  - "Como que n\xF3s entramos nesse assunto?"
+  - "Estavamos falando dos espantalhos. Como eu saberia se eles pensam ou n\xE3o?
+    Eu n\xE3o consigo observar a consci\xEAncia de ningu\xE9m, ent\xE3o eu n\xE3o
+    consigo distinguir aquilo que \xE9 senciente daquilo que n\xE3o \xE9."
+  - "Mas minha intui\xE7\xE3o diz que seres parecidos comigo s\xE3o conscientes."
+  - "Se aqueles espantalhos tivessem cabe\xE7a\u2026"
+  - "Se eles sorrissem\u2026"
+  - Eu teria medo.
+  - "Ele falou tanta coisa s\xF3 para mostrar que \xE9 um idiota com um vocabul\xE1rio
+    grande.\r\n"
+  - "Ap\xF3s capinar um pouco, <color=purple>William</color> jantou o mingau de milho
+    que o <color=cyan>cara do milho</color> preparou.\r\n"
+  - 'Ele fracassou miseravelmente em obter a felicidade.
+
+'
+  idchara: 000000001c000000020000001c000000020000001c000000020000001c0000001c000000020000001c0000001c000000020000001c000000020000001c0000000200000002000000020000001c00000002000000020000000200000002000000020000001c0000000000000000000000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d000000
+  Cenario: 29

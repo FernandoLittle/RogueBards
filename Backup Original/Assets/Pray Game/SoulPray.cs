@@ -86,7 +86,7 @@ public class SoulPray : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Batalha", 1);
-            PlayerPrefs.SetInt("IdList", 2);
+            PlayerPrefs.SetInt("IdList", 8);
            
             
             if (score >= Gap2)
