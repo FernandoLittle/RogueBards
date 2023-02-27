@@ -28,5 +28,5 @@ MonoBehaviour:
   - "Lutaremos em batalhas sangrentas, enfrentaremos a mis\xE9ria e a fome pelo bem
     de nossa na\xE7\xE3o."
   idchara: 00000000000000000000000000000000
-  instruction: 0000000000000000000000000000000069000000
-  Cenario: 4
+  instruction: 0000000000000000cd0800000000000069000000
+  Cenario: 73

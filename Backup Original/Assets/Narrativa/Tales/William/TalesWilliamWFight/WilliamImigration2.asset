@@ -26,5 +26,5 @@ MonoBehaviour:
   - "Por que voc\xEA est\xE1\u2026"
   - "Eu n\xE3o quero conversar com voc\xEA, adeus."
   idchara: 000000001c000000130000001c000000
-  instruction: 00000000000000000000000000000000ea030000
+  instruction: 00000000000000003509000000000000ea030000
   Cenario: 9

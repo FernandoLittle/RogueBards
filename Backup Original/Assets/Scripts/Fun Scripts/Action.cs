@@ -8,6 +8,8 @@ public class Action : ScriptableObject
 {
     public string Name;
     public string NameBR;
+    public string GodText;
+    public string GodTextBR;
     public Sprite sprite;
     public int id;
     [TextArea]

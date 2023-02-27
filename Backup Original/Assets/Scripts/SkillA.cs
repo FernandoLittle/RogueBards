@@ -39,6 +39,13 @@ public class SkillA : MonoBehaviour
     public Text SkillName2;
     public Text ScaleT1;
     public Text ScaleT2;
+
+
+    //TrueSkills
+    public List<int> TrueShuaSkills;
+    public List<int> TrueLyokoSkills;
+    public List<int> TrueAkashaSkills;
+    public List<int> TrueManaSkills;
     // Start is called before the first frame update
     void Start()
     {
@@ -122,8 +129,53 @@ public class SkillA : MonoBehaviour
         }
 
     }
+    public void TrueTrueGodReward()
+    {
+        int chaos;
+        chaos = Random.Range(1, 5);
+        PlayerPrefs.SetInt("God",chaos);
+        TrueGodReward();
+    }
+    public void TrueGodReward()
+    {
+        int God;
+        God = PlayerPrefs.GetInt("God");
+
+        if (God == 1)
+        {
+            SelecTSkill(10);
+        }
+        if (God == 2)
+        {
+            SelecTSkill(11);
+        }
+        if (God == 3)
+        {
+            SelecTSkill(12);
+        }
+        if (God == 4)
+        {
+            SelecTSkill(13);
+        }
+    }
+    public void RewardTale(int id, int type)
+    {
+        int chaos;
+        GainSkill.SetActive(true);
+        OldSkill();
+      
+
+
+        NewIdSkill = id;
+        TypeSkill = type;
+
+
+        
+        EyeSkill();
+    }
     public void GodReward1()
     {
+        // Não use esse lixo. Use o True God Reward
         int God;
         God= PlayerPrefs.GetInt("God");
         
@@ -144,7 +196,66 @@ public class SkillA : MonoBehaviour
             SelecTSkill(13);
         }
     }
+    public void SetTypeId(int id)
+    {
+        TypeSkill = id / 100;
+        if (TypeSkill == 1)
+        {
+            NewIdSkill = id - 100;
+        }
+        if (TypeSkill == 2)
+        {
+            NewIdSkill = id - 200;
+        }
+        if (TypeSkill == 3)
+        {
+            NewIdSkill = id - 300;
+        }
+        if (TypeSkill == 4)
+        {
+            NewIdSkill = id - 400;
+        }
+    }
+    public void TrueSelectSkill(int type)
+    {
+        int chaos;
+        GainSkill.SetActive(true);
+        OldSkill();        
+        if (type == 10)//ShuáSkill
+        {
+            chaos = Random.Range(0, TrueShuaSkills.Count);
 
+            SetTypeId(ShuaSkills[chaos]);
+            
+
+
+        }
+        if (type == 11)//LyokoSkill
+        {
+            chaos = Random.Range(0, TrueLyokoSkills.Count);
+
+            SetTypeId(ShuaSkills[chaos]);
+
+
+        }
+        if (type == 12)//AkashaSkill
+        {
+            chaos = Random.Range(0, TrueAkashaSkills.Count);
+
+            SetTypeId(ShuaSkills[chaos]);
+
+
+        }
+        if (type == 13)//ManaSkill
+        {
+            chaos = Random.Range(0, TrueManaSkills.Count);
+
+            SetTypeId(ShuaSkills[chaos]);
+
+
+        }
+        EyeSkill();
+    }
     public void SelecTSkill(int type)
     {
         int chaos;

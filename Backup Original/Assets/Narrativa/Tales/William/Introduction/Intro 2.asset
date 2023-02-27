@@ -34,5 +34,5 @@ MonoBehaviour:
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - "Daremos nossa espada e nosso cora\xE7\xE3o para cumprir a lei."
   idchara: 0000000000000000000000000000000000000000
-  instruction: 000000000000000000000000000000000000000069000000
-  Cenario: 4
+  instruction: 000000000000000000000000d10800000000000069000000
+  Cenario: 70

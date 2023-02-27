@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
+  m_Name: "Vit\xF3ria Esmagadora"
+  m_EditorClassIdentifier: 
+  Name: <color=blue>Overwhelming Victory</color>
+  NameBR: "<color=blue>Vit\xF3ria Esmagadora</color>"
+  GodText: Moonlight raises <color=blue>Mana</color>.
+  GodTextBR: O luar eleva o <color=blue>Mana</color>.
+  sprite: {fileID: 21300000, guid: ec466edcfbddc3742b375e5d8be2ed85, type: 3}
+  id: 0
+  Texto0: 
+  Texto0br: 
+  scale: 6
+  IAturn: 0
+  KeywordId: 24000000
+  KeywordValues:
+  - 11
+  NotesId: 

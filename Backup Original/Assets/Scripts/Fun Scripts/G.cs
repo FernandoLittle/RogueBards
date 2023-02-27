@@ -850,6 +850,52 @@ public class G : MonoBehaviour
                 d.Description.text += "<color=#D90000>Scar</color>: Opponent cannot gain life. This is very cruel.\n";
                 d.KeywordsT[x].text = "<color=#D90000>Scar</color> ";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 36)
+            {
+                d.Description.text += "<color=#D90000>Obliterate</color>: Deals true damage if your power is at least twice the opponent's power.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Obliterate</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 37)
+            {
+                d.Description.text += "<color=blue>Mana Recovery Mana</color>: Recovers all mana spent on this skill.\n";
+                d.KeywordsT[x].text = "<color=blue>Mana Recovery Mana</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 38)
+            {
+                d.Description.text += "<color=red>Mana Sacrifice</color>: Takes true damage equal to the amount of mana spent on this skill.\n";
+                d.KeywordsT[x].text = "<color=red>Mana Sacrifice</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 39)
+            {
+                d.Description.text += "<color=#FF62B4>Pacifism</color>: At the end of the match, if you have more than 0 life and the opponent has at least 15 more life than you, gain 40 life.\n";
+                d.KeywordsT[x].text = "<color=#FF62B4>Pacifism</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 40)
+            {
+                d.Description.text += "<color=#FF62B4>Compassion</color>: You start to feel compassion.\n";
+                d.KeywordsT[x].text = "<color=#FF62B4>Compassion</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 41)
+            {
+                d.Description.text += "<color=blue>Mana Strike</color>: Deals damage equal to the amount of mana spent on this skill.\n";
+                d.KeywordsT[x].text = "<color=blue>Mana Strike</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 42)
+            {
+                d.Description.text += "<color=yellow>Heroism/color>: At the end of each turn, deal 4 true damage if you have less mana than your opponent.\n";
+                d.KeywordsT[x].text = "<color=yellow>Heroism</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 43)
+            {
+                d.Description.text += "<color=blue>Mana + /color>: Gains mana.\n";
+                d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
+            }
+
+
+
+
+
+
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {
                 NoDuplicates[0] = true;
@@ -1067,6 +1113,47 @@ public class G : MonoBehaviour
                 d.Description.text += "<color=#D90000>Cicatriz</color>: O oponente não consegue recuperar vida. Isso é muito cruel.\n";
                 d.KeywordsT[x].text = "<color=#D90000>Cicatriz</color> ";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 36)
+            {
+                d.Description.text += "<color=#D90000>Obliterar</color>: Causa dano verdadeiro se seu poder for pelo menos o dobro do poder do oponente.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Obliterar</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 37)
+            {
+                d.Description.text += "<color=blue>Recuperação de Mana</color>: Recupera todo o mana gasto nessa habilidade.\n";
+                d.KeywordsT[x].text = "<color=blue>Recuperação de Mana</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 38)
+            {
+                d.Description.text += "<color=red>Sacrifício de Mana</color>: Recebe dano verdadeiro igual a quantidade de mana gasto nessa habilidade.\n";
+                d.KeywordsT[x].text = "<color=red>Sacrifício de Mana</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 39)
+            {
+                d.Description.text += "<color=#FF62B4>Pacifismo</color>: No final da partida, se você tiver mais que 0 de vida e o oponente tiver pelo menos 15 de vida a mais que você, ganhe 40 de vida.\n";
+                d.KeywordsT[x].text = "<color=#FF62B4>Pacifismo</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 40)
+            {
+                d.Description.text += "<color=#FF62B4>Compaixão</color>: Você começa a sentir compaixão.\n";
+                d.KeywordsT[x].text = "<color=#FF62B4>Compaixão</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 41)
+            {
+                d.Description.text += "<color=blue>Golpe de Mana</color>: Causa dano igual a quantidade de mana gasto nessa habilidade.\n";
+                d.KeywordsT[x].text = "<color=blue>Golpe de Mana</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 42)
+            {
+                d.Description.text += "<color=yellow>Heroísmo/color>: No fim de cada turno cause 4 de dano verdadeiro se você tiver menos mana que o oponente.\n";
+                d.KeywordsT[x].text = "<color=yellow>Heroísmo</color> ";
+            }
+            if (d.Generic.Desc(action.KeywordId[x]) == 43)
+            {
+                d.Description.text += "<color=blue>Mana + /color>: Ganhe mana.\n";
+                d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
+            }
+
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {
                 NoDuplicates[0] = true;

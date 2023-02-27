@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
+  m_Name: Lei Acima de Tudo
+  m_EditorClassIdentifier: 
+  Name: <color=yellow>Law Above All</color>
+  NameBR: <color=yellow>Lei Acima de Tudo</color>
+  GodText: Patriotic men are part of <color=yellow>Lyoko</color>.
+  GodTextBR: Os patriotas fazem parte de <color=yellow>Lyoko</color>.
+  sprite: {fileID: 21300000, guid: 5d3ae0e734a7d1b4f837e5b31116817e, type: 3}
+  id: 0
+  Texto0: If you have 0 mana, you gain 5 mana.
+  Texto0br: "Se voc\xEA tiver 0 de mana, ganha 5 de mana."
+  scale: 6
+  IAturn: 0
+  KeywordId: 
+  KeywordValues: []
+  NotesId: 

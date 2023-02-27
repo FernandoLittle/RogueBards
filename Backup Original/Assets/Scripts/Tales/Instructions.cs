@@ -558,11 +558,11 @@ public class Instructions : MonoBehaviour
             //*****************************************************
             case 1000: //GreatReward
                 SkillA.RelicReward();
-                SkillA.GodReward1();
+                SkillA.TrueTrueGodReward();
                 TalesVariables.ShowText();
                 break;
             case 1001: //Reward
-                SkillA.GodReward1();
+                SkillA.TrueTrueGodReward();
                 TalesVariables.ShowText();
                 break;
             case 1002: //NextDay
@@ -583,6 +583,203 @@ public class Instructions : MonoBehaviour
 
 
             //*****************************************************
+            //2000 RewardTale
+            //*****************************************************
+
+            case 2150:
+                SkillA.RewardTale(a-2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2151:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2152:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2153:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2154:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2155:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2156:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2157:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2158:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2159:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2160:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+            case 2161:
+                SkillA.RewardTale(a - 2100, 1);
+                TalesVariables.ShowText();
+                break;
+
+            case 2250:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2251:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2252:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2253:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2254:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2255:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2256:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2257:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2258:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2259:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2260:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2261:
+                SkillA.RewardTale(a - 2200, 2);
+                TalesVariables.ShowText();
+                break;
+            case 2350:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2351:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2352:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2353:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2354:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2355:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2356:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2357:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2358:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2359:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2360:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2361:
+                SkillA.RewardTale(a - 2300, 3);
+                TalesVariables.ShowText();
+                break;
+            case 2450:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2451:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2452:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2453:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2454:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2455:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2456:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2457:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2458:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2459:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2460:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+            case 2461:
+                SkillA.RewardTale(a - 2400, 4);
+                TalesVariables.ShowText();
+                break;
+
             case -1:
                 RandomActions();
                 break;

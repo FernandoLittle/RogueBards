@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
+  m_Name: "L\xE1grima de um Filho"
+  m_EditorClassIdentifier: 
+  Name: <color=#FF0080>Tear of a Child</color>
+  NameBR: "<color=#FF0080>L\xE1grima de um Filho</color>"
+  GodText: "Men who cry are blessed by <color=#FF0080>Shu\xE1</color>."
+  GodTextBR: "Os homens que choram s\xE3o aben\xE7oados por <color=#FF0080>Shu\xE1</color>."
+  sprite: {fileID: 21300000, guid: 51158ac7ec641f44d804760492ed36d8, type: 3}
+  id: 0
+  Texto0: 'Victory: Opponent gains 4 attack, defense, and life.
+
+    Victory: Gain
+    12 health.'
+  Texto0br: "Vit\xF3ria: O oponente ganha 4 de ataque, defesa e vida.\nVit\xF3ria:
+    Ganhe 12 de vida. "
+  scale: 10
+  IAturn: 0
+  KeywordId: 1c000000
+  KeywordValues:
+  - 12
+  NotesId: 

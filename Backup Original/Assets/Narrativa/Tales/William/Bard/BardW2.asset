@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - What existed in <color=cyan>Bel Mont</color>? The <color=00FFBF>bard</color>
+  - What existed in <color=cyan>Belo Monte</color>? The <color=00FFBF>bard</color>
     asked this question several times in his song, but never answered it. This made
     <color=purple>William</color> curious.
   - Hey <color=#00FFBF>bard</color>, I'll buy you a drink if you answer a question.
   - I will be happy to answer you, <color=purple>young man</color>.
-  - What was in <color=cyan>Bel Mont</color>?
+  - What was in <color=cyan>Belo Monte</color>?
   - The <color=#00FFBF>bard</color> laughed.
   - This is a very difficult question, my friend. What would motivate a man to fight
     an invincible enemy?
@@ -44,13 +44,13 @@ MonoBehaviour:
     pretend I didn't hear that.
   - It will be my pleasure to teach you, <color=purple>young man</color>.
   DialogueBR:
-  - "O que existia em <color=cyan>Bel Mont</color>? O <color=00FFBF>bardo</color>
+  - "O que existia em <color=cyan>Belo Monte</color>? O <color=00FFBF>bardo</color>
     fez essa pergunta v\xE1rias vezes em sua m\xFAsica, mas nunca respondeu. Isso
     deixou <color=purple>William</color> curioso."
   - "Ei <color=#00FFBF>bardo</color>, eu te pago uma bebida se voc\xEA responder
     a uma pergunta."
   - Ficarei feliz em te responder, <color=purple>jovem</color>.
-  - O que existia em <color=cyan>Bel Mont</color>?
+  - O que existia em <color=cyan>Belo Monte</color>?
   - O <color=#00FFBF>bardo</color> riu.
   - "Esta \xE9 uma pergunta muito dif\xEDcil, meu amigo. O que motivaria um homem
     a lutar contra um inimigo invenc\xEDvel?"
@@ -76,5 +76,5 @@ MonoBehaviour:
     tocar, vou fingir que n\xE3o ouvi isso."
   - "Ser\xE1 um prazer ensin\xE1-lo, <color=purple>jovem</color>."
   idchara: 000000001c0000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
-  Cenario: 45
+  instruction: 000000006f080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
+  Cenario: 66

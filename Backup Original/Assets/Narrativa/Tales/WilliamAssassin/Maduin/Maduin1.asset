@@ -33,7 +33,7 @@ MonoBehaviour:
   - I didn't think much of it.
   - Oh, I'm sorry...
   - Every wind had a feeling in <color=#FF0080>Maduin</color>'s opinion. According
-    to him, the <color=blue>Mana</color> determined the nature of the wind, a summer
+    to him, the <color=blue>Mana</color> determined the nature of the wind. A summer
     breeze could be a boon to one who was at peace with himself, while the same wind
     would be torturous to those who rejected the flow of the world.
   - <color=#FF0080>Maduin</color>'s instruments were stored under a sad, lonely wind.
@@ -62,7 +62,7 @@ MonoBehaviour:
   - "N\xE3o achei nada de especial."
   - "Oh, eu sinto muito\u2026 "
   - "Cada vento tinha um sentimento na opini\xE3o de <color=#FF0080>Maduin</color>.
-    Segundo ele, o Mana determinava a natureza do vento, uma brisa de ver\xE3o poderia
+    Segundo ele, o Mana determinava a natureza do vento. Uma brisa de ver\xE3o poderia
     ser uma d\xE1diva para quem estivesse em paz consigo mesmo, enquanto o mesmo
     vento seria torturante para aqueles que rejeitassem o fluxo do mundo."
   - "Os instrumentos de <color=#FF0080>Maduin</color> foram guardados sob um vento
@@ -73,5 +73,5 @@ MonoBehaviour:
   - "\u201CPor que eu estou falando isso?\u201D"
   - "Ent\xE3o \xE9 a sua vez de tocar, <color=purple>William</color>."
   idchara: 
-  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
+  instruction: 000000000000000000000000000000000000000000000000d4080000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
   Cenario: 48

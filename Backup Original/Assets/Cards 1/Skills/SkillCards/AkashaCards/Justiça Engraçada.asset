@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
+  m_Name: "Justi\xE7a Engra\xE7ada"
+  m_EditorClassIdentifier: 
+  Name: <color=green>Funny Justice</color>
+  NameBR: "<color=green>Justi\xE7a Engra\xE7ada</color>"
+  GodText: Empty men understand <color=green>Akasha</color>.
+  GodTextBR: Os homens vazios entendem <color=green>Akasha</color>.
+  sprite: {fileID: 21300000, guid: 3fa71f9d6f25d344f92e2443498eb47c, type: 3}
+  id: 0
+  Texto0: The opponent gains 5 defense.
+  Texto0br: 'O oponente ganha 5 de defesa. '
+  scale: 9
+  IAturn: 0
+  KeywordId: 04000000
+  KeywordValues:
+  - 8
+  NotesId: 

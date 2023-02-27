@@ -31,7 +31,7 @@ MonoBehaviour:
   - Want to learn to play? <color=#FF0080>Maduin</color> approached his face and
     brought his flute to <color=purple>William</color>'s lips.
   - Why would I learn to play? I am an assassin, not a bard.
-  - A lot of assassins work as bards in their spare time, the former guild leader
+  - A lot of assassins work as bards in their spare time, the former Guild leader
     became a bard after he retired, you know?
   - What's the point in that? What music has to do with murder?
   - The essence of music is in the feelings it arouses. Murder, war, justice and
@@ -73,7 +73,7 @@ MonoBehaviour:
   - "Quer aprender a tocar? <color=#FF0080>Maduin</color> aproximou seu rosto e levou
     sua flauta at\xE9 os l\xE1bios de <color=purple>William</color>."
   - "Por que eu iria aprender a tocar? Eu sou um assassino, n\xE3o um bardo."
-  - "Muitos assassinos trabalham como bardos nas horas vagas, o ex-l\xEDder da guilda
+  - "Muitos assassinos trabalham como bardos nas horas vagas, o ex-l\xEDder da Guilda
     se tornou um bardo depois que se aposentou, sabia?"
   - "Qual o sentido nisso? O que m\xFAsica tem a ver com assassinato?"
   - "A ess\xEAncia da m\xFAsica est\xE1 nos sentimentos que ela desperta. Assassinato,
@@ -101,5 +101,5 @@ MonoBehaviour:
   - "Talvez\u2026 "
   - Tudo bem, eu vou tentar aprender a tocar.
   idchara: 
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c010000
-  Cenario: 48
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009b0900000000000000000000000000003c010000
+  Cenario: 69
