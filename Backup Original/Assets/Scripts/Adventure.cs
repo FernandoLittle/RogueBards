@@ -23,7 +23,7 @@ public class Adventure : MonoBehaviour
     {
         PlayerPrefs.SetInt("Batalha", 0);
         //temporario
-        PlayerPrefs.SetInt("Tale", FightID);
+        PlayerPrefs.SetInt("Tale", 1);
         //temporario, mudar com sistema de load
         StaticPlayer.Adventure = true;
         StaticPlayer.Fight = 1;

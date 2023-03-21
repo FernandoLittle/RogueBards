@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 5
   SpriteRelic: {fileID: 21300000, guid: 7c7cf1715afd87d46b84f93dfe4a7b73, type: 3}
-  Description: You gain 2 life at the end of the turn if you have <color=#FF62B4>Bravery</color>.
-  DescriptionBR: "Voc\xEA ganha 2 pontos de vida no final do turno se voc\xEA tiver
-    <color=#FF62B4>Coragem</color>."
+  Description: '<color=blue>Sentimental bonus</color>: Gain 1 defense.'
+  DescriptionBR: "<color=blue>B\xF4nus sentimental</color>: Ganha 1 de defesa."
   Name: <color=yellow>Lyoko Code</color>
   NameBR: <color=yellow>Lyoko Code </color>
   Type: 1

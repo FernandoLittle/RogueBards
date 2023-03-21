@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ddd83babbe3e8f499ed318839388642, type: 3}
   m_Name: "Man\xE1 Mana Potion"
   m_EditorClassIdentifier: 
-  IdRelic: 9
+  IdRelic: 18
   SpriteRelic: {fileID: 21300000, guid: cf6be1edd1dd13346884a3358d15e7a9, type: 3}
-  Description: 
-  DescriptionBR: 
+  Description: No fim de cada turno perca 1 de vida e ganhe 2 de mana.
+  DescriptionBR: At the end of each turn, lose 1 life and gain 2 mana.
   Name: <color=blue>Potion of Mana</color>
   NameBR: "<color=blue>Po\xE7\xE3o de Mana</color>"
   Type: 1

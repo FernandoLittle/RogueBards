@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ddd83babbe3e8f499ed318839388642, type: 3}
   m_Name: Lyoko Lyoko Wolf
   m_EditorClassIdentifier: 
-  IdRelic: 0
-  SpriteRelic: {fileID: 0}
-  Description: 
-  DescriptionBR: 
+  IdRelic: 14
+  SpriteRelic: {fileID: 21300000, guid: 108265d41f0fe19458fc2ddb03d30fa5, type: 3}
+  Description: Take 4 true damage at the start of the game, gain 2 life at the end
+    of each turn.
+  DescriptionBR: "Receba 4 de dano verdadeiro no in\xEDcio da partida, ganhe 2 de
+    vida no fim de cada turno."
   Name: <color=yellow>Lyoko Wolf</color>
   NameBR: <color=yellow>Lyoko Wolf</color>
   Type: 0

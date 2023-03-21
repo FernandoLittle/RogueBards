@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
-  m_Name: Simon
+  m_Name: Caesar
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 75e828e07011e9a488062639987bd47b, type: 3}
   sprite1: {fileID: 0}
-  Name: <color=blue>Simon</color>
-  id: 0
+  Name: <color=yellow>Caesar</color>
+  id: 42
   idPersonagem: 0
-  AtaqueForte: 
-  "AtaqueR\xE1pido": 
-  Bloqueio: 
-  Esquiva: 
-  Vida: 0
-  Ataque: 0
-  Defesa: 0
+  AtaqueForte: 2a000000
+  "AtaqueR\xE1pido": 2a000000
+  Bloqueio: 2a000000
+  Esquiva: 2a000000
+  Vida: 10
+  Ataque: 5
+  Defesa: 3
   act: 0
   mov: 0
-  Level: 0
+  Level: 12
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 
+  skin: 1e00000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
   SentimentoType: 0
   idFace: 0

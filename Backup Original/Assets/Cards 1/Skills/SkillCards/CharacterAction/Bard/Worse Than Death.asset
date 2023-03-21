@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: <color=red>Worse Than Death</color>
   NameBR: <color=red>Pior do que a Morte</color>
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: 8e66fb67964752a4886bb6764256a73e, type: 3}
   id: 10
   Texto0: 
   Texto0br: 
   scale: 10
   IAturn: 3
-  KeywordId: 040000000b040000
+  KeywordId: 04000000
   KeywordValues:
   - 9
   - 

@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 8
   SpriteRelic: {fileID: 21300000, guid: c99f64e50e4d76649b01af331705d8e8, type: 3}
-  Description: <color=#67B2FF>Wisdom</color> gives 4 mana instead of 2.
-  DescriptionBR: "<color=#67B2FF>Sabedoria</color> fornece de 4 mana ao inv\xE9s
-    de 2."
+  Description: At the start of the fight, lose all your attack and deal 6 true damage.
+  DescriptionBR: "No come\xE7o da luta, perca todo seu ataque e cause 6 de dano verdadeiro."
   Name: <color=green>Akashic Records</color>
   NameBR: <color=green>Registros Akashicos</color>
   Type: 1

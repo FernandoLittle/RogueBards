@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "AssassinFightImigra\xE7\xE3o"
   m_EditorClassIdentifier: 
   IdFight: 32
-  IdChara: 00000000000000001c00000000000000000000001d00000000000000
+  IdChara: 00000000000000002600000000000000000000001d00000000000000
   Dialogue1:
   - Don't Kil me
   - ...
@@ -27,7 +27,7 @@ MonoBehaviour:
   IdDialogue2: 
   IdDialogue3: 
   IdDialogue4: 0b0000001b000000
-  TaleVictory: 3
+  TaleVictory: 2
   TaleDefeat: 0
   "Cen\xE1rio": 1
   TaleTypeV: 6

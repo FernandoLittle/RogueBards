@@ -19,6 +19,6 @@ MonoBehaviour:
   DialogueBR:
   - Eu toquei muito mal.
   - "Como assim? Voc\xEA melhorou bastante desde a \xFAltima vez."
-  idchara: 0000000000000000
+  idchara: 1c0000001f000000
   instruction: 0000000000000000ea030000
   Cenario: 48

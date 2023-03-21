@@ -17,7 +17,7 @@ MonoBehaviour:
   - 'In <color=yellow>Sarka</color> an assassin said:'
   - What is the difference between the assassin and the warrior? Is one kinder than
     the other? Is one smarter than the other? Is one more virtuous than the other?
-  - No no and no. They did not trace different paths through a difference of morals,
+  - No, no and no. They did not trace different paths through a difference of morals,
     intellect, or virtue.
   - Even if they don't consciously realize it, humans rarely care about what's good
     and moral, what's priority for them is reputation, in other words, it's more
@@ -32,7 +32,7 @@ MonoBehaviour:
   - "Qual \xE9 a diferen\xE7a entre um assassino e um guerreiro? Um \xE9 mais gentil
     que o outro? Um \xE9 mais inteligente que o outro? Um \xE9 mais virtuoso que
     o outro?"
-  - "N\xE3o n\xE3o e n\xE3o. Eles n\xE3o tra\xE7aram caminhos diferentes por uma
+  - "N\xE3o, n\xE3o e n\xE3o. Eles n\xE3o tra\xE7aram caminhos diferentes por uma
     diferen\xE7a de moral, intelecto ou virtude."
   - "Mesmo que eles n\xE3o percebam conscientemente, os humanos raramente se preocupam
     com o que \xE9 bom e moral, o que \xE9 prioridade para eles \xE9 a reputa\xE7\xE3o,
@@ -43,5 +43,5 @@ MonoBehaviour:
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - Assassinos falam pra caralho.
   idchara: 00000000000000000000000000000000000000000000000000000000
-  instruction: 0000000000000000000000000000000069080000000000000000000069000000
+  instruction: 000000000000000000000000ec03000069080000000000000000000069000000
   Cenario: 72

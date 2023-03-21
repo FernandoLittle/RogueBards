@@ -14,8 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 0
   SpriteRelic: {fileID: 21300000, guid: c8914ab2ac412554a94b59953ed9d411, type: 3}
-  Description: 
-  DescriptionBR: 
+  Description: 'If you spend all your mana on the first turn, your opponent gets
+    <color=red>Scar</color>, he can never gain life again.
+
+    Never.'
+  DescriptionBR: "Se voc\xEA gastar toda sua mana no primeiro turno, seu oponente
+    ganha  <color=red>cicatriz</color>, ele nunca mais poder\xE1 ganhar vida. \r\nNunca
+    mais."
   Name: <color=#00FFBF>Old Violin</color>
   NameBR: <color=#00FFBF>Violino Antigo</color>
   Type: 0

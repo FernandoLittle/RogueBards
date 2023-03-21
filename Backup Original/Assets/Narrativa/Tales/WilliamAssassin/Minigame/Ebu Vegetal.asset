@@ -69,7 +69,7 @@ MonoBehaviour:
   - "Ebu, <color=purple>William</color> e <color=#FF0080>Maduin</color> estavam almo\xE7ando
     juntos. Assassinos n\xE3o costumavam ter muitos amigos, exatamente por isso eles
     valorizavam bastante a companhia de outros assassinos."
-  - "Essa companhia n\xE3o reduzia a solid\xE3o do <color=purple>William</color>,
+  - "Essa companhia n\xE3o reduzia a solid\xE3o de <color=purple>William</color>,
     pois o vazio em sua alma era imensur\xE1vel. Por\xE9m essa solid\xE3o parecia
     menos pat\xE9tica quando ele tinha pessoas ao seu redor."
   - "Eu nunca vi voc\xEA comendo carne, Ebu, voc\xEA \xE9 vegetariana?"
@@ -127,6 +127,6 @@ MonoBehaviour:
     pessoa, mas para uma assassina como eu essa \xE9 uma afirma\xE7\xE3o banal.\r\n"
   - "Ebu mentiu da primeira palavra at\xE9 a \xFAltima.\r\n"
   - "Como voc\xEA deseja passar o seu tempo livre?"
-  idchara: 
+  idchara: 00000000000000001c000000010000001c0000001f000000010000001c0000000100000001000000010000000100000000000000000000001c000000010000000100000001000000000000001f000000010000001c000000010000000100000001000000010000000100000001000000010000001c00000001000000010000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
   Cenario: 52

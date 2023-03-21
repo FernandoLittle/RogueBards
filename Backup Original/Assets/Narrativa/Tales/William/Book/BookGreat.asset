@@ -21,7 +21,7 @@ MonoBehaviour:
   DialogueBR:
   - <color=purple>William</color> entendeu as mentiras daquele livro e contemplou
     a verdadeira natureza da <color=green>Akasha</color>.
-  - "i><color=Black>Voc\xEA apenas teve sorte, n\xE3o foi? Ou voc\xEA trapaceou?
+  - "<i><color=Black>Voc\xEA apenas teve sorte, n\xE3o foi? Ou voc\xEA trapaceou?
     Tanto faz, eu tamb\xE9m sou um trapaceiro sortudo.</color> </i>"
   idchara: 0000000000000000
   instruction: 00000000e8030000ea030000

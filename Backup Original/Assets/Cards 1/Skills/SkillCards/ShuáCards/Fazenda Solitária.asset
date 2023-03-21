@@ -18,8 +18,10 @@ MonoBehaviour:
   GodTextBR: "Os gentis s\xE3o aben\xE7oados por <color=#FF0080>Shu\xE1</color>."
   sprite: {fileID: 21300000, guid: 53ac40688f2dc6a4db4a0baaa88266df, type: 3}
   id: 0
-  Texto0: Gains life equal to half your life plus your opponent's life.
-  Texto0br: 'Ganha vida igual a metade da sua vida mais a vida do seu oponente.  '
+  Texto0: 'Victory: Gains life equal to half the sum of your life plus your opponent''s
+    life (max 12).'
+  Texto0br: "Vit\xF3ria: Ganha vida igual a metade da soma da sua vida mais a vida
+    do seu oponente (max 12). "
   scale: 6
   IAturn: 0
   KeywordId: 

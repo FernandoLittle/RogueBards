@@ -186,35 +186,45 @@ public class FantasyRivalsIA : MonoBehaviour
         if (A.Zone[F.z].sentimento == 1)//medo
         {
 
-            
+            Debug.Log("Oponente com medo");
                 if (TotalManaA < 5)
                 {
                     IdealManaA = TotalManaA;
                 }
                 else
+                {              
+                    IdealManaA = Random.Range(3, TotalManaA);
+                if (IdealManaA > 7)
                 {
-                    IdealManaA = Random.Range(1, TotalManaA-3);
+                    IdealManaA = 7;
+                }
+                Debug.Log("Ideal Mana = " + IdealManaA.ToString());
                 }
                
                     
         }
         
+
+        if (A.turn == 2)
+        {
+            int chaos;
+            chaos=Random.Range(0, 3);
+            if (chaos == 0)
+            {
+                Debug.Log("Ultra turno 2!");
+                IdealManaA = TotalManaA;
+            }
+           
+        }
+        if (A.turn ==3)
+        {
+            IdealManaA = TotalManaA;            
+        }
         if (A.Zone[F.z].sentimento == 4)//compaixão
         {
             IdealManaA = -1;
         }
-        if(A.turn ==3)
-        {
-            IdealManaA = TotalManaA;            
-        }
-
         IdealManaA = Generic.Smaller(IdealManaA, TotalManaA);
-        if (A.turn > 2)
-        {
-
-            IdealManaA = 10;
-
-        }
         if (SelectorAlly == 0)
         {
             IdealScaleA=D.AttackS[SkillIDA[0]].scale;

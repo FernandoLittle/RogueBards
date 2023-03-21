@@ -40,11 +40,11 @@ MonoBehaviour:
   - Remembering this, <color=purple>William</color> went to his room and began to
     pray.
   - While you teach us to love our enemies, we kill and spread terror.
-  - "Do you hear me Shu\xE1, God of Love? I want to make a pact, if you heal <color=#FF0080>Jorja</color>
-    I will drop my dagger, more than that, I will abandon what is most precious to
-    me, my revenge."
-  - I hope that at least the God of Forgiveness will be able to forgive my sins and
-    help a poor girl.
+  - "Do you hear me <color=#FF0080>Shu\xE1, God of Love</color>? I want to make a
+    pact, if you heal <color=#FF0080>Jorja</color> I will drop my dagger, more than
+    that, I will abandon what is most precious to me, my revenge."
+  - I hope that at least the <color=#FF0080>God of Forgiveness</color> will be able
+    to forgive my sins and help a poor girl.
   DialogueBR:
   - <color=purple>William</color>, <color=#FF0080>Maduin</color>, venham aqui.
   - Estamos ocupados.
@@ -68,18 +68,18 @@ MonoBehaviour:
   - "Ap\xF3s Ebu partir, <color=#FF0080>Maduin</color> se direcionou para o quarto
     onde <color=#FF0080>Jorja</color> dormia."
   - Vou rezar por ela.
-  - "<color=blue>Roy</color> sempre dizia que <color=#FF0080>Jorja</color> s\xF3
+  - "<color=blue>Roy</color> sempre dizia que <color=#FF0080>Shu\xE1</color> s\xF3
     ouvia as ora\xE7\xF5es daqueles que rezavam em segredo."
   - "Lembrando-se disso, <color=purple>William</color> se dirigiu ao seu quarto e
     come\xE7ou a orar."
   - "Enquanto voc\xEA nos ensina a amar nossos inimigos, n\xF3s matamos e espalhamos
     o terror."
-  - "Voc\xEA est\xE1 me ouvindo <color=#FF0080>Shu\xE1</color>, Deus do Amor? Eu
+  - "Voc\xEA est\xE1 me ouvindo <color=#FF0080>Shu\xE1, Deus do Amor</color>? Eu
     quero fazer um pacto, se voc\xEA curar a <color=#FF0080>Jorja</color> eu irei
     largar minha adaga, mais que isso, eu irei abandonar aquilo que \xE9 mais precioso
     para mim, a minha vingan\xE7a."
-  - "Espero que pelo menos o Deus do Perd\xE3o seja capaz de perdoar os meus pecados
-    e ajudar uma pobre garota."
-  idchara: 020000001f0000000200000000000000020000001c0000001f000000020000001f000000020000001f000000020000001f0000000200000002000000000000001f00000000000000000000001c0000001c0000001c000000
+  - "Espero que pelo menos o <color=#FF0080>Deus do Perd\xE3o</color> seja capaz
+    de perdoar os meus pecados e ajudar uma pobre garota."
+  idchara: 010000001f0000000100000000000000010000001c0000001f000000010000001f000000010000001f000000010000001f0000000100000001000000000000001f00000000000000000000001c0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000670800000000000000000000000000000000000000000000000000000000000000000000bc020000
   Cenario: 43

@@ -513,7 +513,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7e5f59152a6bf2041bb68ca0de454570, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2fa4a24dd43176e469d5ca63da4f3927, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -905,6 +905,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 496287910}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &861836936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861836937}
+  m_Layer: 0
+  m_Name: SpawObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &861836937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861836936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 539.90796, y: 386.78763, z: -17.6636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888195331
 GameObject:
@@ -1647,7 +1677,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3b891d6b8dde5804ea3eea3719ef6159, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e168e267913628e498752c30f7049d3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1968,7 +1998,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dad91f0ef5bc3094aa08b0c7e1fb0395, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 03406e4cb6759dd4987d5a0c3cc250a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2253,6 +2283,9 @@ MonoBehaviour:
   ScoreJudge: {fileID: 23446916}
   Idle: 0
   GodCube: {fileID: 347330725}
+  end: 0
+  ParentTransform: {fileID: 861836937}
+  ParentTransformObject: {fileID: 861836936}
 --- !u!4 &2114863185
 Transform:
   m_ObjectHideFlags: 0

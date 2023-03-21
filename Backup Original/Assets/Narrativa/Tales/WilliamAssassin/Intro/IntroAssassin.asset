@@ -20,9 +20,9 @@ MonoBehaviour:
   - That would be a really fun scene.
   DialogueBR:
   - "<color=purple>William</color> escolheu o caminho do mal e se tornou um assassino.
-    Ele lutar\xE1 por dinheiro, pelo caos, por criminosos, por vingan\xE7a e talvez
+    Ele lutar\xE1 pelo caos, por dinheiro, por criminosos, por vingan\xE7a e talvez
     encontre a pessoa que mais odeia dentro da Guilda dos Assassinos."
   - Seria uma cena muito divertida.
   idchara: 0000000000000000
-  instruction: 0000000000000000f5010000
-  Cenario: 4
+  instruction: ed030000ef030000f5010000
+  Cenario: 31

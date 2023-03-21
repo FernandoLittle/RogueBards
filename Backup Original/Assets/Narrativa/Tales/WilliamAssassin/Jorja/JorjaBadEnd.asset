@@ -44,7 +44,7 @@ MonoBehaviour:
   - "<color=purple>William</color>, Ebu est\xE1 nos chamando."
   - "Ebu estava sentada com um semblante triste e olhando para uma inje\xE7\xE3o."
   - "As flores que desabrocharam no in\xEDcio da esta\xE7\xE3o ficavam realmente
-    lindas sob a luz do sol."
+    lindas sob a luz do Sol."
   - "Chegou a hora. A Charlotte atingiu seu est\xE1gio final. "
   - "Digam as suas \xFAltimas palavras para a <color=#FF0080>Jorja</color>, eu irei
     acabar com o sofrimento dela. "
@@ -66,6 +66,6 @@ MonoBehaviour:
     seu passado o ensinou que discursos eram in\xFAteis nesse tipo de situa\xE7\xE3o.\r"
   - "Afinal, os mortos n\xE3o se importam com os sentimentos dos vivos."
   - "Aquele c\xE9u azul era realmente lindo."
-  idchara: 000000001f000000000000000000000002000000020000001c0000000000000000000000000000001f0000001f0000000200000002000000000000000000000000000000
+  idchara: 000000001f000000000000000000000001000000010000001c0000000000000000000000000000001f0000001f0000000100000001000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007a000000
   Cenario: 50

@@ -20,84 +20,151 @@ public class ButtonInstructions : MonoBehaviour
             case -6:
 
                 break;
+
+
+
             //-100 Special Instruction.
             case -101:
                 PlayerPrefs.SetInt("Anne", 0);
                 TalesVariables.SetTale(13);
+                TalesVariables.Index += 1;
                 break;
             case -102:
                 PlayerPrefs.SetInt("Anne", 1);
                 TalesVariables.SetTale(12);
+                TalesVariables.Index += 1;
+                break;
+
+
+            //Warrior
+            case 1:
+             
+                PlayerPrefs.SetInt("Batalha", 0);
+                //temporario
+                PlayerPrefs.SetInt("Tale", 1);
+                //temporario, mudar com sistema de load
+
+                StaticPlayer.Adventure = true;
+                StaticPlayer.Fight = 1;
+                StaticPlayer.PlayerId[0] = 28;
+                StaticPlayer.Day = 1;
+                StaticPlayer.PlayerLife[0] = 3;
+                StaticPlayer.ManaRegen[0] = 0;
+                StaticPlayer.Mana[0] = 0;
+                StaticPlayer.Defense[0] = 0;
+                StaticPlayer.PlayerMaxLife[0] = 0;
+                StaticPlayer.Attack[0] = 0;
+
+
+
+                TalesVariables.Index = 0;
+                TalesVariables.SelectTale.NextTale();
+                break;
+                //Assassin
+            case 2:
+                TalesVariables.Day.RandomIntroAS();
                 break;
             //Set Tale 1000
+            //Eu acho que tem que aumentar o index manualmente,
             case 1000:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1001:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1002:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
+                break;
+            case 1003:
+                TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
+                break;
+            case 1004:
+                TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1005:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1006:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1007:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1008:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1009:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1010:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1011:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1012:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1013:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1014:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1015:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1016:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1017:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1018:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1019:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1020:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1021:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1022:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1023:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             case 1024:
                 TalesVariables.SetTale(a - 1000);
+                TalesVariables.Index += 1;
                 break;
             //1300 Set MiniGame
             case 1301:
@@ -136,32 +203,48 @@ public class ButtonInstructions : MonoBehaviour
 
             //1400 Set Tale for other List
             case 1401:
+                PlayerPrefs.SetInt("OldFight", 0);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
+               
                 TalesVariables.SetTale(0);
+                TalesVariables.Index += 1;
+
                 break;
             case 1402:
+                PlayerPrefs.SetInt("OldFight", 1);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(1);
+                TalesVariables.Index += 1;
                 break;
             case 1403:
+                PlayerPrefs.SetInt("OldFight", 2);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(2);
+                TalesVariables.Index += 1;
                 break;
             case 1404:
+                PlayerPrefs.SetInt("OldFight", 3);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(3);
+                TalesVariables.Index += 1;
                 break;
             case 1405:
+                PlayerPrefs.SetInt("OldFight", 4);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(4);
+                TalesVariables.Index += 1;
                 break;
             case 1406:
+                PlayerPrefs.SetInt("OldFight", 5);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(5);
+                TalesVariables.Index += 1;
                 break;
             case 1407:
+                PlayerPrefs.SetInt("OldFight", 6);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFight;
                 TalesVariables.SetTale(6);
+                TalesVariables.Index += 1;
                 break;
 
             //1500 Set Tale for CustonRoute
@@ -169,57 +252,75 @@ public class ButtonInstructions : MonoBehaviour
             case 1501:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
                 TalesVariables.SetTale(0);
+                TalesVariables.Index += 1;
                 break;
             case 1502:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
                 TalesVariables.SetTale(1);
+                TalesVariables.Index += 1;
                 break;
             case 1503:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
                 TalesVariables.SetTale(2);
+                TalesVariables.Index += 1;
                 break;
             case 1504:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
                 TalesVariables.SetTale(3);
+                TalesVariables.Index += 1;
                 break;
             case 1505:
                 TalesVariables.Tales = TalesVariables.TalesCustonRoute;
                 TalesVariables.SetTale(25);
+                TalesVariables.Index += 1;
                 break;
 
             //1600 Set Tale for other List Assassin
             case 1601:
                 TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
                 TalesVariables.SetTale(0);
+                TalesVariables.Index += 1;
                 break;
             case 1602:
                 TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
                 TalesVariables.SetTale(12);
+                TalesVariables.Index += 1;
                 break;
             case 1603:
                 TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
                 TalesVariables.SetTale(19);
+                TalesVariables.Index += 1;
                 break;
 
             case 1701:
+                PlayerPrefs.SetInt("OldFight", 0);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
                 TalesVariables.SetTale(0);
+                TalesVariables.Index += 1;
                 break;
             case 1702:
+                PlayerPrefs.SetInt("OldFight", 1);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
                 TalesVariables.SetTale(1);
+                TalesVariables.Index += 1;
                 break;
             case 1703:
+                PlayerPrefs.SetInt("OldFight", 2);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
                 TalesVariables.SetTale(2);
+                TalesVariables.Index += 1;
                 break;
             case 1704:
+                PlayerPrefs.SetInt("OldFight", 3);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
                 TalesVariables.SetTale(4);
+                TalesVariables.Index += 1;
                 break;
             case 1705:
+                PlayerPrefs.SetInt("OldFight", 4);
                 TalesVariables.Tales = TalesVariables.TalesWilliamWFightAS;
                 TalesVariables.SetTale(3);
+                TalesVariables.Index += 1;
                 break;
         
 
@@ -495,6 +596,12 @@ public class ButtonInstructions : MonoBehaviour
             case 28:
                 ButtonText = "Screw this.";
                 break;
+            case 29:
+                ButtonText = "Follow the Path of Warrior.";
+                break;
+            case 30:
+                ButtonText = "Follow the Path of Assassin.";
+                break;
 
         }
         TalesVariables.OptionsText1[nextbutton].text = ButtonText;
@@ -593,6 +700,12 @@ public class ButtonInstructions : MonoBehaviour
                 break;
             case 28:
                 ButtonText = "Foda-se.";
+                break;
+            case 29:
+                ButtonText = "Seguir o Caminho do Guerreiro.";
+                break;
+            case 30:
+                ButtonText = "Seguir o Caminho do Assassino.";
                 break;
         }
         Debug.Log(ButtonText);

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Ulrych
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 360280113d33fa8409be6d3a95c50120, type: 3}
   sprite1: {fileID: 0}
   Name: <color=cyan>Corn Guy</color>
   id: 0
@@ -33,3 +33,4 @@ MonoBehaviour:
   Relics: 
   skin: 
   SentimentoType: 0
+  idFace: 0

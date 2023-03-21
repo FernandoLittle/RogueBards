@@ -293,6 +293,12 @@ public class Instructions : MonoBehaviour
             case 102:
                 TalesVariables.SetTale(a - 100);
                 break;
+            case 103:
+                TalesVariables.SetTale(a - 100);
+                break;
+            case 104:
+                TalesVariables.SetTale(a - 100);
+                break;
             case 105:
                 TalesVariables.SetTale(a - 100);
                 break;
@@ -499,6 +505,12 @@ public class Instructions : MonoBehaviour
                 TalesVariables.ButtonInstructions.TranslateButton(27, 28, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
+            case 326:
+                SetButtonST("Follow the Path of Warrior.", "Follow the Path of Assassin.", "", "", "");
+                SetButton(1, 2, 0, 0, 0);
+                TalesVariables.ButtonInstructions.TranslateButton(29, 30, 0, 0, 0);
+                TalesVariables.ShowText();
+                break;
             //500 Genecric
 
             case 500:
@@ -554,6 +566,21 @@ public class Instructions : MonoBehaviour
                 GodCube.TakeScreenshot("Pray");
                 break;
 
+
+            //800 Relic Reward
+            case 821: //Milho
+                SkillA.SpecificRelicReward(a - 800);
+                TalesVariables.ShowText();
+                break;
+            case 832: //Garrafa
+                SkillA.SpecificRelicReward(a - 800);
+                TalesVariables.ShowText();
+                break;
+            case 833: //Caixão
+                SkillA.SpecificRelicReward(a-800);
+                TalesVariables.ShowText();
+                break;
+
             //1000 Special Instructions
             //*****************************************************
             case 1000: //GreatReward
@@ -579,7 +606,22 @@ public class Instructions : MonoBehaviour
             case 1003: //Minigame
                 TalesVariables.Day.Minigame();
                 break;
-
+            case 1004: //Relic Reward
+                SkillA.RelicReward();
+                TalesVariables.ShowText();
+                break;
+            case 1005: //Old Fight Reset
+                PlayerPrefs.SetInt("OldFight", -1);
+                TalesVariables.ShowText();
+                break;
+            case 1006: //Relic Sword
+                SkillA.RelicRewardSword();
+                TalesVariables.ShowText();
+                break;
+            case 1007: //Relic Dagger
+                SkillA.RelicRewardDagger();
+                TalesVariables.ShowText();
+                break;
 
 
             //*****************************************************
@@ -1026,11 +1068,17 @@ public class Instructions : MonoBehaviour
     {
         int CountFightL1;
         int RandomRemove;
+        int OldFight;
+        OldFight = PlayerPrefs.GetInt("OldFight");
         TalesVariables.FightL.Clear();
         TalesVariables.FightL1.Clear();
         for (int x = 0; x < TalesVariables.TalesWilliamWFight.Count; x = x + 1)
         {
-            TalesVariables.FightL.Add(x);
+            if (x != OldFight)
+            {
+                TalesVariables.FightL.Add(x);
+            }
+           
         }
         for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
         {
@@ -1127,11 +1175,17 @@ public class Instructions : MonoBehaviour
     {
         int CountFightL1;
         int RandomRemove;
+        int OldFight;
+        OldFight = PlayerPrefs.GetInt("OldFight");
         TalesVariables.FightL.Clear();
         TalesVariables.FightL1.Clear();
         for (int x = 0; x < TalesVariables.TalesWilliamWFightAS.Count; x = x + 1)
         {
-            TalesVariables.FightL.Add(x);
+            if (x != OldFight)
+            {
+                TalesVariables.FightL.Add(x);
+            }
+            
         }
         for (int x = 0; x < TalesVariables.FightL.Count; x = x + 1)
         {
@@ -1158,7 +1212,7 @@ public class Instructions : MonoBehaviour
                 }
                 if (TalesVariables.FightL1[x] == 1)
                 {
-                    Inteiro[x] = 14703;
+                    Inteiro[x] = 1702;
                     Caracter[x] = "Drug Trafficking.";
                 }
                 if (TalesVariables.FightL1[x] == 2)

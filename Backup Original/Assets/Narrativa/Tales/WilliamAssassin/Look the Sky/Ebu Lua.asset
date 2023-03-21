@@ -22,9 +22,9 @@ MonoBehaviour:
     each other.
   - <color=purple>William</color> felt afraid and decided to look at something more
     beautiful.
-  - As if nostalgic for the past, Ebu looked sad. William had the impression that
-    she was only thinking about obscenities and sexual jokes, but at that moment
-    she seemed to be contemplating something deeper.
+  - As if he was nostalgic for the past, Ebu had a sad countenance. William had the
+    impression that she was only thinking about obscenities and sexual jokes, but
+    at that moment she seemed to be contemplating something deeper.
   - What are you thinking, Ebu?
   - About my choices. I took a very unexpected path becoming an assassin.
   - You regret?
@@ -54,7 +54,7 @@ MonoBehaviour:
 
 '
   - <color=purple>William</color> sentiu medo e decidiu olhar para algo mais belo.
-  - "Como se estivesse com saudades do passado, Ebu parecia triste. <color=purple>William</color>
+  - "Como se estivesse com saudades do passado, Ebu tinha um semblante triste. <color=purple>William</color>
     tinha a impress\xE3o que ela s\xF3 pensava em obscenidades e piadas de mau gosto,
     por\xE9m naquele momento ela parecia estar contemplando algo mais profundo."
   - "No que voc\xEA est\xE1 pensando, Ebu?"
@@ -75,6 +75,6 @@ MonoBehaviour:
   - "Consigo imaginar como essa piada deve ser. Eu estava estranhando ver voc\xEA
     toda s\xE9ria falando sobre Lua e destino. \xC9 bom ver voc\xEA voltando a falar
     besteira normalmente.\r"
-  idchara: 
+  idchara: 01000000000000000000000000000000000000001c000000010000001c0000000100000001000000010000001c000000000000001c000000000000001c000000
   instruction: 000000000000000000000000000000003709000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007a000000
   Cenario: 51

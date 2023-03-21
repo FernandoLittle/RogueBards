@@ -160,18 +160,58 @@ public class F : MonoBehaviour
     public Generic Generic;
 
 
+    public void SlowEffects()
+    {
+        //Fast Effects (Efeitos ativados após os outros)
+        k = 0;
 
+        Debug.Log("SlowEffects");
+
+        for (int x = 0; x < 2; x = x + 1)//SlowEffects
+        {
+            ExChange(x);
+
+
+            if (x10 == 55)// Olho por Olho
+            {
+                if (Zone[y0].Lyoko[0] <= 0)
+                {
+                    NormalDamage(30);
+                }
+                else
+                {
+                    TrueDamageAlly(30);
+                }
+            }
+            if (x30 == 58)// Sorriso Misterioso 
+            {
+                if (Zone[y0].Lyoko[0] < 3)
+                {
+                    TrueDamage(6);
+                }
+            }
+            if (x40 == 58)// Ataque Cruel 
+            {
+                //Victory Mana +4 Vitória: Se você tiver menos que 3 de vida, ganhe 8 de vida. 
+
+                if (Win == 1)
+                {
+                    if (Zone[y0].Lyoko[0] < 3)
+                    {
+                        UpLife(8);
+                    }
+
+                }
+
+            }
+            a.RelicEffects.EndTurnEffectRelic(y0);
+            Debug.Log("FY0" + "=" + y0);
+            StatusEffect();
+        }
+    }
     public void PassiveEffects()
 
     {
-        if (o.NexusE.id * o.NexusE.side < 0)
-        {
-            Attacking = 1;
-        }
-        else
-        {
-            Attacking = 0;
-        }
 
         k = 0;
 
@@ -181,6 +221,91 @@ public class F : MonoBehaviour
         {
             ExChange(x);
             a.RelicSystem.BonusSentimento(y0, z0, x);
+
+            if (x10 == 38)//Postura Defensiva
+            {
+
+                UpAttribute(5,2,true);
+
+            }
+
+            if (x10 == 52)// Duelo da Amizade
+            {
+                if (Win == 0)
+                {
+                    UpAttribute(3, 2, true);
+                }
+            }
+
+            if (x10 == 59)//Origem de Belmont 
+            {
+                //Defense = 0;
+
+                SacrificeAttribute(Zone[y0].Lyoko[2], 2, true);
+
+            }
+
+            if (x10 == 60)//Som da Gratidão
+            {
+                // Passive Mana Attack Derrota: (Mana Regen) Regenere toda a mana que você gastou nessa habilidade. Derrota Defense +2
+
+                if (Win == 0)
+                {
+                    UpAttribute(2, 2, true);
+                }
+               
+
+            }
+
+            if (x20 == 38)//Postura Defensiva
+            {
+
+                UpAttribute(5, 2, true);
+
+            }
+            if (x20 == 54)//Último Beijo
+            {
+                //Triple Attack, Seu ataque, defesa e vida torna-se igual a 1.
+
+                //SacrificeDefenseFast
+                SacrificeAttribute(Zone[y0].Lyoko[2] - 1, 2, true);
+
+            }
+
+            if (x20 == 56)//Silêncio do Guerreiro
+            {
+                //Se você tiver 0 mana, ganha 4 de defesa. 
+                if (Zone[y0].Mana == 0)
+                {
+                    UpAttribute(4, 2, true);
+                }
+            }
+
+            if (x20 == 58)// Compaixão de Lyoko
+            {
+                //Se você gastar 0 de mana, ganhe 2 de defesa. 
+
+                //Gain Defense
+                if (y0 == 5)
+                {
+                    if (D.Combat.ManaSpendA == 0)
+                    {
+                        UpAttribute(2, 2, true);
+                    }
+
+                       
+
+                }
+                else
+                {
+
+                    if (D.Combat.ManaSpendE == 0)
+                    {
+                        UpAttribute(2, 2, true);
+                    }
+                }
+
+            }
 
 
             if (x30 == 1)//Shua Protects
@@ -200,6 +325,19 @@ public class F : MonoBehaviour
                 }
                 
 
+
+            }
+            if (x30 == 38)//Postura Ofensiva
+            {
+
+                SacrificeAttribute(5, 2, true);
+
+            }
+            if (x30 == 59)// Beleza da Lua
+            {
+                //Victory: Mana Attack Passive Defense +2 
+                UpAttribute(2, 2, true);
+                //Defense+2
 
             }
 
@@ -224,6 +362,20 @@ public class F : MonoBehaviour
                 {
                     //UpAttribute(1, 2, false);
                 }
+            }
+
+
+            if (x40 == 38)//Postura Ofensiva
+            {
+
+                SacrificeAttribute(5, 2, true);
+
+            }
+            if (x40 == 55)//Liberdade Fútil
+            {
+                //Strike Sua Defesa se torna igual a 0 Vitória: Mana + 3
+                SacrificeAttribute(Zone[y0].Lyoko[2],2, true);
+
             }
         }
     }
@@ -357,10 +509,7 @@ public class F : MonoBehaviour
             }
             if (x10 == 10)//Um Fim (Bardo)
             {
-                if (Win == 0)
-                {
-                    AddStatus(4, -1);
-                }
+
                 if (Win == 1)
                 {
                     TripleAttack();
@@ -546,6 +695,280 @@ public class F : MonoBehaviour
                 }
 
             }
+
+            if (x10 == 31)//Ataque Fraco
+            {
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+            }
+
+            if (x10 == 32)//Sabedoria dos Tolos
+            {
+                
+                if (Zone[y0].Mana< Zone[z0].Mana)
+                {
+                    UpAttribute(3, 1, true);
+                    UpMana(3);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+
+            if (x10 == 36)//Calma Selvagem
+            {
+                UpLife(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] > 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x10 == 37)//Punição
+            {
+
+                if (Win == 0)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x10 == 38)//Postura Defensiva
+            {
+
+                if (Win == 1)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x10 == 39)//Iniciativa Poderosa
+            {
+
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                if (Win ==0)
+                {
+                    SacrificeAttribute(1, 1, true);
+                }
+
+            }
+            if (x10 == 41)//Fúria Selvagem
+            {
+
+                TrueDamageAlly(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] < 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x10 == 42)//Tolice dos Sábios
+            {
+
+                if (Zone[y0].Mana > Zone[z0].Mana)
+                {
+                    UpAttribute(2, 1, true);
+                    UpMana(2);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            if (x10 == 50)//Pacifismo
+            {
+                // Pacifismo
+                AddStatus(5, 1);
+
+            }
+            if (x10 == 51)//Oração Redentora
+            {
+                if (Win == 1)
+                {
+                    TrueDamageAlly(5);
+                }
+                UpAttribute(5, 0, true);
+
+            }
+            if (x10 == 52)//Duelo da Amizade
+            {
+                // Altruísmo 4, derrota: Defesa +3.
+
+                //Defense+3
+                Altruism(4);
+
+            }
+
+            if (x10 == 53)//Estética da Vontade
+            {
+                //Derrota: Você ganha 3 de vida para cada mana que gastar. 
+                if (Win == 0)
+                {
+                    if (y0 == 5)
+                    {
+                    
+                            UpAttribute(D.Combat.ManaSpendA*3, 0, true);
+                        
+                    }
+                    else
+                    {
+
+                        UpAttribute(D.Combat.ManaSpendE * 3, 0, true);
+                    }
+                }
+
+
+            }
+            if (x10 == 54)//Justiçs Engraçada
+            {
+
+                //Passive: O oponente ganha 5 de defesa. True Damage 8. 
+                UpOppAttribute(5, 2);
+                if (Win == 1)
+                {
+                    TrueDamage(8);
+                }
+                
+
+            }
+            if (x10 == 55)//Olho por Olho
+            {
+
+                //Mana Sacrifice Passive: Life + 8. Se você tiver 0 de vida ou menos, cause 30 de dano no oponente. Caso contrário receba 30 de dano 
+
+                ManaSacrifice();
+                UpAttribute(8, 0, true);
+               //Verifica vida no Slow Effects
+               
+            }
+            if (x10 == 56)//Bem sobre o Mal
+            {
+
+                //Triple Attack, Defeat Sacrifice 20.
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                if (Win == 0)
+                {
+                    TrueDamageAlly(20);
+                }
+
+
+            }
+            if (x10 == 57)//ArgumentoRuim
+            {
+                //Sacrifice 4 Triple Strike. 
+
+
+                TrueDamageAlly(4);
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+
+            }
+            if (x10 == 58)//Heroísmo
+            {
+                //No fim de cada turno, cause 5 de dano se você tiver menos mana que seu oponente. 
+                if (Win == 1)
+                {
+                    AddStatus(6, 1);
+                }
+              
+                //heroísmo
+
+
+            }
+            if (x10 == 59)//Origem de Belmont 
+            {
+                // Strike. Mana + 2 Passive Defense= 0
+
+                //-Defense
+                if (Win == 1)
+                {
+                    UpMana(2);
+                    Attack();
+                }
+
+
+            }
+            if (x10 == 60)//Som da Gratidão
+            {
+                // Passive Mana Attack Derrota: (Mana Regen) Regenere toda a mana que você gastou nessa habilidade. Derrota Defense +2
+
+                //Defense+2
+                if (y0 == 5)
+                {
+                    NormalDamage(D.Combat.ManaSpendA);
+                }
+                else
+                {
+                    NormalDamage(D.Combat.ManaSpendE);
+                }
+                if (Win == 0)
+                {
+                    ManaRecover();
+                }
+
+
+            }
+            if (x10 == 61)//Completude Real
+            {
+                // Mana sacrifice. Strike. Vitória: Recupere uma quantidade de mana igual a que você gastou(Mana recover)
+
+
+                ManaSacrifice();
+                ManaRecover();
+
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+
+            }
+
+
+          
+
+
+
+
+
+
             //Ataques Rápidos Ally
 
             if (x20 == 1)//Shua Bless
@@ -616,10 +1039,6 @@ public class F : MonoBehaviour
             if (x20 == 10)//Pior do que a morte
             {
 
-                if (Win == 0)
-                {
-                    AddStatus(4, -1);
-                }
                 if (Win == 1)
                 {
                     TrueDamage(9);
@@ -811,6 +1230,260 @@ public class F : MonoBehaviour
 
             }
 
+
+            if (x20 == 31)//Ataque Fraco
+            {
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+            }
+            if (x20 == 32)//Sabedoria dos Tolos
+            {
+
+                if (Zone[y0].Mana < Zone[z0].Mana)
+                {
+                    UpAttribute(3, 1, true);
+                    UpMana(3);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+            if (x20 == 36)//Calma Selvagem
+            {
+                UpLife(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] > 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x20 == 37)//Punição
+            {
+
+                if (Win == 0)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x20 == 38)//Postura Defensiva
+            {
+
+                if (Win == 1)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x20 == 39)//Iniciativa Poderosa
+            {
+
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                if (Win == 0)
+                {
+                    SacrificeAttribute(1, 1, true);
+                }
+
+            }
+            if (x20 == 41)//Fúria Selvagem
+            {
+
+                TrueDamageAlly(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] < 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x20 == 42)//Tolice dos Sábios
+            {
+
+                if (Zone[y0].Mana > Zone[z0].Mana)
+                {
+                    UpAttribute(2, 1, true);
+                    UpMana(2);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+
+
+
+            if (x20 == 50)//Lágrima de um Pai
+            {
+                //Altruísmo 3, Se você tiver menos que 10 de vida, ganha vida igual a metade da vida do seu oponente. 
+
+                Altruism(3);
+                if (Zone[y0].Lyoko[0] < 10)
+                {
+                    UpAttribute((Zone[z0].Lyoko[0]/2), 0, true);
+                }
+
+
+            }
+            if (x20 == 51)// Last Desire
+            {
+                //Vitória: Se a vida do oponente for maior que 15 o ataque do seu oponente e o seu tornam-se iguais a 0.
+
+                if (Zone[z0].Lyoko[0] > 15)
+                {
+                    SacrificeAttribute(Zone[y0].Lyoko[1], 1, true);
+                    DamageAttribute(Zone[z0].Lyoko[1], 1, true);
+                }
+
+
+            }
+            if (x20 == 52)//Conselho Engraçado
+            {
+                //Vitória Altruísmo 3: Se você tiver 15 de vida ou mais, ganhe 3 mana.
+
+                if (Win == 1)
+                {
+                    Altruism(3);
+                }
+
+                if (Zone[y0].Lyoko[0] >= 15)
+                {
+                    UpMana(3);
+                }
+
+
+            }
+            if (x20 == 53)//Adubo Patriótico
+            {
+                // Passive: O oponente ganha 5 de ataque. Double Strike.
+
+                UpOppAttribute(5, 1);
+
+                if (Win == 1)
+                {
+                    DoubleAttack();
+                }
+
+            }
+            if (x20 == 54)//Último Beijo
+            {
+                //Triple Attack, Seu ataque, defesa e vida torna-se igual a 1.
+               
+
+
+                if (Win == 1)
+                {
+                   TripleAttack();
+                }
+                TrueDamageAlly(Zone[y0].Lyoko[0] - 1);
+                SacrificeAttribute(Zone[y0].Lyoko[1] - 1, 1, true);
+                //SacrificeDefenseFast
+  
+            }
+            if (x20 == 55)//Last Attack
+            {
+                //Double Strike Seu ataque torna-se igual a 0. 
+
+
+
+                if (Win == 1)
+                {
+                    DoubleAttack();
+                }
+                SacrificeAttribute(Zone[y0].Lyoko[1], 1, true);
+
+            }
+            if (x20 == 56)//Silêncio do Guerreiro
+            {
+                //Se você tiver 0 mana, ganha 4 de defesa. 
+
+
+            }
+            if (x20 == 57)// Lei Acima de Tudo
+            {
+                //Strike, Se você tiver 0 mana, ganha 5 de Mana.
+                if (Win == 1)
+                {
+                    Attack();
+                }
+                if (Zone[y0].Mana == 0)
+                {
+                    UpMana(5);
+                }
+
+            }
+            //xxxxxxxxxxxxxxxxxxxxxxxx
+
+            if (x20 == 58)// Compaixão de Lyoko
+            {
+                //Se você gastar 0 de mana, ganhe 2 de defesa. 
+
+                //Gain Defense
+
+            }
+       
+            if (x20 == 59)//  Confiança Tola 
+            {
+                //Strike Mana+5 Passive Life = 1
+                if (Win == 1)
+                {
+                    Attack();
+                    UpMana(5);
+                }
+                TrueDamageAlly(Zone[y0].Lyoko[0]-1);
+
+
+            }
+            if (x20 == 60)// Vento Frio
+            {
+                //Causa dano igual a diferença de mana entre você e seu oponente.
+
+                NormalDamage(Generic.Module(Zone[y0].Mana- Zone[z0].Mana));
+
+            }
+            if (x20 == 61)// Compaixão de Mana
+            {
+                //Se você gastar 0 de mana, ganha 3 de mana.
+
+                if (y0 == 5)
+                {
+                    if (D.Combat.ManaSpendA == 0)
+                    {
+                        UpMana(3);
+                    }
+
+
+
+                }
+                else
+                {
+
+                    if (D.Combat.ManaSpendE == 0)
+                    {
+                        UpMana(3);
+                    }
+                }
+            }
+
+
+
             //Bloqueios Ally
 
             if (x30 == 1)//Shuá Protege
@@ -986,6 +1659,282 @@ public class F : MonoBehaviour
             }
 
 
+            if (x30 == 31)//Ataque Fraco
+            {
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+            }
+            if (x30 == 32)//Sabedoria dos Tolos
+            {
+
+                if (Zone[y0].Mana < Zone[z0].Mana)
+                {
+                    UpAttribute(3, 1, true);
+                    UpMana(3);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+            if (x30 == 36)//Calma Selvagem
+            {
+                UpLife(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] > 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x30 == 37)//Punição
+            {
+
+                if (Win == 0)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x30 == 38)//Postura Ofensiva
+            {
+
+                if (Win == 1)
+                {
+                    TrueDamage(8);
+                }
+
+            }
+            if (x30 == 39)//Iniciativa Poderosa
+            {
+
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                if (Win == 0)
+                {
+                    SacrificeAttribute(1, 1, true);
+                }
+
+            }
+            if (x30 == 41)//Fúria Selvagem
+            {
+
+                TrueDamageAlly(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] < 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x30 == 42)//Tolice dos Sábios
+            {
+
+                if (Zone[y0].Mana > Zone[z0].Mana)
+                {
+                    UpAttribute(2, 1, true);
+                    UpMana(2);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+
+
+
+
+
+            if (x30 == 50)//Compaixão de Shuá
+            {
+                //y0==5 significa que é aliado, verifica mana aliado, se igual a 0 ativa efeito
+                if (y0 == 5)
+                {
+                    if (D.Combat.ManaSpendA == 0)
+                    {
+                        UpAttribute(5, 0, true);
+                    }
+                }
+                else
+                {
+                    if (D.Combat.ManaSpendE == 0)
+                    {
+                        UpAttribute(5, 0, true);
+                    }
+                }
+            }
+    
+            if (x30 == 51)// História de ninar
+            {
+                //Compaixão: Dobra sua vida se gastar pelo menos 10 de mana.
+                AddStatus(7, 1);
+                if (y0 == 5)
+                {
+                    if (D.Combat.ManaSpendA >= 10)
+                    {
+                        UpLife(Zone[y0].Lyoko[0]);
+                    }
+                }
+                if (y0 == 2)
+                {
+                    if (D.Combat.ManaSpendE >= 10)
+                    {
+                        UpLife(Zone[y0].Lyoko[0]);
+                    }
+                }
+                //Status
+
+            }
+            if (x30 == 52)// Lágrima de um Filho
+            {
+                //Vitória: O oponente ganha 4 de ataque, defesa e vida: Vitória: Ganhe 12 de vida. 
+                if (Win == 1)
+                {
+                    UpOppAttribute(4, 1);
+                    UpOppAttribute(4, 2);
+                    UpOppAttribute(4, 0);
+                    UpLife(12);
+                }
+
+            }
+            if (x30 == 53)// Lei da Força 
+            {
+                //Defeat: Mana Regen Mana Regen .  
+                if (Win == 0)
+                {
+                    ManaRecover();
+                    ManaRecover();
+                }
+
+            }
+            if (x30 == 54)// Troca Animal 
+            {
+                // Passive: Troque o seu ataque e defesa com o ataque e defesa do seu oponente. Double Strike. 
+                SwampAttributes();
+                if (Win == 1)
+                {
+                    DoubleAttack();
+                }
+              
+            }
+            if (x30 == 55)// Muro Cruel
+            {
+                if (Win == 1)
+                {
+                    TrueDamage(6);
+                    UpMana(3);
+                }
+                SacrificeAttribute(Zone[y0].Lyoko[1], 1, true);
+                //True Damage 6, Mana +3 Passive Attack= 0.
+
+
+            }
+            if (x30 == 56)// Vida pela Nação 
+            {
+                if (Win == 1)
+                {
+                    NormalDamage(Generic.Module(Zone[y0].Lyoko[0] - Zone[z0].Lyoko[0]));
+                }
+               
+                //Causa dano igual a diferença de vida entre você e seu oponente.
+
+
+            }
+            if (x30 == 57)// Surra Misteriosa
+            {
+                //Sacrifice 4 True Damage 10 . 
+                TrueDamageAlly(4);
+                if (Win == 1)
+                {
+                    TrueDamage(10);
+                }
+                
+
+            }
+            if (x30 == 58)// Sorriso Misterioso 
+            {
+                if (Win == 1)
+                {
+                    UpMana(4);
+                }
+               //SlowDamage 6;
+
+                //Victory Mana +4 Vitória: Se você tiver menos que 3 de vida, Cause 6 de dano verdadeiro. 
+
+
+            }
+
+
+            if (x30 == 59)// Beleza da Lua
+            {
+                //Victory: Mana Attack Passive Defense +2 
+                if (Win == 1)
+                {
+                    if (y0 == 5)
+                    {
+                        NormalDamage(D.Combat.ManaSpendA);
+                    }
+                    else
+                    {
+                        NormalDamage(D.Combat.ManaSpendE);
+                    }
+                    
+                   
+                }
+                //Defense+2
+
+            }
+            if (x30 == 60)//  Idioma Nobre
+            {
+                //Obliterar 10. Cause dano verdadeiro no oponente se você tiver o dobro do poder dele. Mana Sacrifice. Mana Regen
+                if (Win == 1)
+                {
+                    Obliterar(10);
+
+
+                }
+                ManaSacrifice();
+                ManaRecover();
+            }
+            if (x30 == 61)// Limite da mana
+            {
+                //Regenere vida igual a quantidade de mana gasta     Obliterar 10
+
+
+                if (Win == 1)
+                {
+                    Obliterar(10);
+
+
+                }
+                if (y0 == 5)
+                {
+                    UpLife(D.Combat.ManaSpendA);
+                }
+                else
+                {
+                    UpLife(D.Combat.ManaSpendE);
+                }
+            }
+
+
+
+
             //Esquivas Ally
             if (x40 == 1)//Shuá Chora
             {
@@ -1148,11 +2097,266 @@ public class F : MonoBehaviour
 
             }
 
-            a.RelicEffects.EndTurnEffectRelic(y0);
-            Debug.Log("FY0" + "=" + y0);
-            StatusEffect();
-        }
 
+
+            if (x40 == 31)//Ataque Fraco
+            {
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+
+            }
+
+
+            if (x40 == 32)//Sabedoria dos Tolos
+            {
+
+                if (Zone[y0].Mana < Zone[z0].Mana)
+                {
+                    UpAttribute(3, 1, true);
+                    UpMana(3);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+            if (x40 == 36)//Calma Selvagem
+            {
+                UpLife(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] > 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+            if (x40 == 37)//Punição
+            {
+
+                if (Win == 0)
+                {
+                    TrueDamage(6);
+                }
+
+            }
+            if (x40 == 38)//Postura Ofensiva
+            {
+
+                if (Win == 1)
+                {
+                    TrueDamage(8);
+                }
+
+            }
+            if (x40 == 39)//Iniciativa Poderosa
+            {
+
+                if (Win == 1)
+                {
+                    TripleAttack();
+                }
+                if (Win == 0)
+                {
+                    SacrificeAttribute(1, 1, true);
+                }
+
+            }
+            if (x40 == 41)//Fúria Selvagem
+            {
+
+                TrueDamageAlly(2);
+
+                if (Win == 1)
+                {
+                    Attack();
+                    if (Zone[y0].Lyoko[0] < 10)
+                    {
+                        Attack();
+                    }
+                }
+
+            }
+
+            if (x10 == 42)//Tolice dos Sábios
+            {
+
+                if (Zone[y0].Mana > Zone[z0].Mana)
+                {
+                    UpAttribute(2, 1, true);
+                    UpMana(2);
+                }
+                if (Win == 1)
+                {
+                    Attack();
+                }
+
+            }
+
+            if (x40 == 50)// Pergunta Triste
+            {
+                //Compaixão. Vitória, ganha vida igual ao dobro do seu ataque. Seu ataque torna-se igual a 0. 
+                //Status
+                AddStatus(7, 1);
+                if (Win == 1)
+                {
+                    UpLife(Zone[y0].Lyoko[1] * 2);
+                }
+              
+                SacrificeAttribute(Zone[y0].Lyoko[1],1,true);
+            }
+            if (x40 == 51)// Fazenda Solitária
+            {
+                // Ganha vida igual a metade da sua vida mais a vida do seu oponente (Max 12). 
+                if (Win == 1)
+                {
+                    if((Zone[y0].Lyoko[0] + Zone[z0].Lyoko[0]) / 2 > 12)
+                    {
+                        UpLife(12);
+                    }
+                    else
+                    {
+                        UpLife((Zone[y0].Lyoko[0] + Zone[z0].Lyoko[0]) / 2);
+                    }
+                    
+                }
+                
+
+            }
+            if (x40 == 52)//  Amor Shuano 
+            {
+                //Vitória Se você tiver 15 de vida ou mais, ganhe vida igual a metade da vida do oponente
+                if (Zone[y0].Lyoko[0] >= 15)
+                {
+                    UpLife(Zone[z0].Lyoko[0] / 2);
+                }
+
+            }
+            if (x40 == 53)// Troca Racional
+            {
+                //Passive: Troque o seu ataque e defesa com o ataque e defesa do seu oponente. Strike.
+                SwampAttributes();
+                if (Win == 1)
+                {
+                    Attack();
+                }
+           
+
+            }
+            if (x40 == 54)// Compaixão de Akasha
+            {
+                //Se você gastar 0 de mana ganhe nada.
+                
+
+            }
+            if (x40 == 55)//Liberdade Fútil
+            {
+                //Strike Sua Defesa se torna igual a 0 Vitória: Mana + 3
+                if (Win == 1)
+                {
+                    Attack();
+                    UpMana(3);
+                }
+                
+            }
+            if (x40 == 56)// Sacrifício de Lyoko
+            {
+                //Passive: Sacrifice 4, Attack+3, Defense+2, Mana+1.
+                TrueDamageAlly(4);
+                UpAttribute(3, 1, true);
+                UpAttribute(2, 2, true);
+                UpMana(1);
+
+            }
+            if (x40 == 57)//Liberdade de Lyoko 
+            {
+                //Causa dano verdadeiro igual ao seu ataque + sua defesa.
+                if (Win == 1)
+                {
+                    TrueDamage(Zone[y0].Lyoko[1] + Zone[y0].Lyoko[2]);
+
+                }
+                
+
+            }
+            if (x40 == 58)// Ataque Cruel 
+            {
+                //Victory Mana +4 Vitória: Se você tiver menos que 3 de vida, ganhe 8 de vida. 
+
+                if (Win == 1)
+                {
+                    UpMana(4);
+
+                    //Slow Effect Life
+                }
+
+            }
+            if (x40 == 59)// Paixão Noturna
+            {
+                // Defeat: Mana Attack 2x 
+                if (Win == 0)
+                {
+                    if (y0 == 5)
+                    {
+                        NormalDamage(D.Combat.ManaSpendA);
+                        NormalDamage(D.Combat.ManaSpendA);
+                    }
+                    else
+                    {
+                        NormalDamage(D.Combat.ManaSpendE);
+                        NormalDamage(D.Combat.ManaSpendE);
+                    }
+
+                }
+
+            }
+            if (x40 == 60)// Nome Maldito
+            {
+                //Victory: Mana Attack Vitória: Ganhe 1 de vida para cada mana que você possuir.
+                if (Win == 1)
+                {
+                    if (y0 == 5)
+                    {
+                        NormalDamage(D.Combat.ManaSpendA);
+                        
+                    }
+                    else
+                    {
+                        NormalDamage(D.Combat.ManaSpendE);
+                    }
+                    UpLife(Zone[y0].Mana);
+                }
+
+            }
+            if (x40 == 61)// Limite da mana 
+            {
+                //Regenere vida igual a quantidade de mana gasta Obliterar 10
+                if (y0 == 5)
+                {
+                    UpLife(D.Combat.ManaSpendA);
+
+                }
+                else
+                {
+                    UpLife(D.Combat.ManaSpendE);
+                }
+                if (Win == 1)
+                {
+                    Obliterar(10);
+                }
+
+            }
+
+           
+
+        }
+        SlowEffects();
         D.B();
     }
     public void AnimeSkill()
@@ -1649,6 +2853,47 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void Obliterar(int a)
+    {
+        if (y0 == 5)
+        {
+            if (D.Combat.AttackA >= (D.Combat.AttackE * 2))
+            {
+                Damage = a;
+            }
+            else
+            {
+                Damage = 0;
+            }
+        }
+        else
+        {
+            if (D.Combat.AttackE >= (D.Combat.AttackA * 2))
+            {
+                Damage = a;
+            }
+            else
+            {
+                Damage = 0;
+            }
+        }
+
+        if (Damage > 0)
+        {
+            Zone[z0].Lyoko[0] -= Damage;
+            Zone[z0].Code[4] = true;
+
+            c6.Add(1);
+            AttackId.Add(2);
+            target = -1;
+            X();
+            DrainLife();
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
     public void TrueDamageAlly(int a)
     {
         Damage = a;
@@ -1668,7 +2913,104 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void ManaSacrifice()
+    {
 
+        if (y0 == 5)
+        {
+            Damage=D.Combat.ManaSpendA;
+        }
+        else
+        {
+            Damage = D.Combat.ManaSpendE;
+        }
+      
+
+        if (Damage > 0)
+        {
+            Zone[y0].Lyoko[0] -= Damage;
+            Zone[y0].Code[4] = true;
+
+            c6.Add(11);
+            AttackId.Add(3);
+            target = 1;
+            X();
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
+    public void SacrificeAttribute(int a, int attribute, bool permanent)
+    {
+
+        Damage = a;
+        if (Damage != 0)
+        {
+            Zone[y0].Lyoko[attribute] -= Damage;
+            if (Zone[y0].Lyoko[attribute] < 0)
+            {
+                Zone[y0].Lyoko[attribute] = 0;
+            }
+            if (permanent == true)
+            {
+                Zone[y0].Lyoko1[attribute] -= Damage;
+            }
+            if (attribute == 0)
+            {
+                c6.Add(6);
+                AttackId.Add(3);
+            }
+            if (attribute == 1)
+            {
+                c6.Add(8);
+                AttackId.Add(3);
+            }
+            if (attribute == 2)
+            {
+                c6.Add(7);
+                AttackId.Add(3);
+            }
+
+            target = 1;
+            X();
+        }
+    }
+    public void SacrificeAttributeRelic(int a, int attribute, bool permanent, int idrelic)
+    {
+
+        Damage = a;
+        if (Damage != 0)
+        {
+            Zone[y0].Lyoko[attribute] -= Damage;
+            if (Zone[y0].Lyoko[attribute] < 0)
+            {
+                Zone[y0].Lyoko[attribute] = 0;
+            }
+            if (permanent == true)
+            {
+                Zone[y0].Lyoko1[attribute] -= Damage;
+            }
+            if (attribute == 0)
+            {
+                c6.Add(6);
+                AttackId.Add(3);
+            }
+            if (attribute == 1)
+            {
+                c6.Add(8);
+                AttackId.Add(3);
+            }
+            if (attribute == 2)
+            {
+                c6.Add(7);
+                AttackId.Add(3);
+            }
+
+            target = 1;
+            XRelic(idrelic);
+        }
+    }
     public void NormalDamage(int a)
     {
         Damage = a - Zone[z0].Lyoko[2];
@@ -1694,6 +3036,10 @@ public class F : MonoBehaviour
         //Sabedoria 1
         // Coragem 2
         //Paixão 3
+        //Scar 4
+        //Pacifismo5
+        //Heroísmo6
+        //Compaixão 7
         int indexo = 0;
 
         Damage = 0;
@@ -1764,6 +3110,49 @@ public class F : MonoBehaviour
             Damage = 0;
         }
     }
+    public void UpMana(int a)
+    {
+        Debug.Log("ManaUP");
+        Damage = a;
+        if (Damage > 0)
+        {
+            Zone[y0].Mana += Damage;
+            c6.Add(10);
+            AttackId.Add(3);
+            target = 1;
+            X();
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
+    public void ManaRecover()
+    {
+        if (y0 == 5)
+        {
+
+            Damage= D.Combat.ManaSpendA;
+
+        }
+        else
+        {
+
+            Damage = D.Combat.ManaSpendE;
+        }
+        if (Damage > 0)
+        {
+            Zone[y0].Mana += Damage;
+            c6.Add(10);
+            AttackId.Add(3);
+            target = 1;
+            X();
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
     public void Altruism(int a)
     {
         Damage = a;
@@ -1781,6 +3170,41 @@ public class F : MonoBehaviour
         AttackId.Add(3);
         target = 1;
         X();
+    }
+    public void SwampAttributes()
+    {
+        int Swamp;
+        Swamp = Zone[y0].Lyoko[1];
+        Zone[y0].Lyoko[1] = Zone[z0].Lyoko[1];
+        Zone[z0].Lyoko[1] = Swamp;
+        Swamp = Zone[y0].Lyoko[2];
+        Zone[y0].Lyoko[2] = Zone[z0].Lyoko[2];
+        Zone[z0].Lyoko[2] = Swamp;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = -1;
+        X();
+
+
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = 1;
+        X();
+    }
+    public void UpOppAttribute(int a, int attribute)
+    {
+        Damage = a;
+
+        Zone[z0].Lyoko[attribute] += Damage;
+
+        c6.Add(1);
+        AttackId.Add(3);
+        target = -1;
+        X();
+
+      
     }
     public void UpLife(int a)
     {
@@ -1819,6 +3243,44 @@ public class F : MonoBehaviour
                 AttackId.Add(3);
             }
 
+            target = 1;
+            XRelic(idrelic);
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
+    public void TrueDamageRelic(int a, int idrelic)
+    {
+
+        Damage = a;
+        if (Damage > 0)
+        {
+            Zone[z0].Lyoko[0] -= Damage;
+            Zone[z0].Code[4] = true;
+
+            c6.Add(1);
+            AttackId.Add(2);
+            target = -1;
+            XRelic(idrelic);
+        }
+        else
+        {
+            Damage = 0;
+        }
+    }
+    public void TrueDamageAllyRelic(int a, int idrelic)
+    {
+
+        Damage = a;
+        if (Damage > 0)
+        {
+            Zone[y0].Lyoko[0] -= Damage;
+            Zone[y0].Code[4] = true;
+
+            c6.Add(11);
+            AttackId.Add(3);
             target = 1;
             XRelic(idrelic);
         }
@@ -2043,6 +3505,36 @@ public class F : MonoBehaviour
                 {
                     UpAttributeRelic(3, 0, true, 1);
                 }
+            }
+            if (Zone[y0].status[x] == 4)//Scar
+            {
+
+            }
+            if (Zone[y0].status[x] == 5)//Pacifismo
+            {
+
+                //Se no final da partida você estiver vivo e o oponente tiver pelo menos 15 de vida a mais que você, ganhe 40 de vida.
+                if (a.turn > 2 && Zone[y0].Lyoko[0]>0)
+                {
+                    if (Zone[z0].Lyoko[0] - Zone[y0].Lyoko[0] >= 15)
+                    {
+                        Zone[y0].Lyoko[0] += 40;
+                    }
+                }
+            }
+            if (Zone[y0].status[x] == 6)//Heroísmo
+            {
+                //No fim de cada turno, cause 5 de dano se você tiver menos mana que seu oponente. 
+                if (Zone[y0].Mana< Zone[z0].Mana)
+                {
+                    TrueDamage(5);
+                }
+            }
+            if (Zone[y0].status[x] == 7)//Compaixão
+            {
+                //Seu sentimento torna-se compaixão
+                //SetSentimento() if status==7 sentimento = compaixão
+
             }
         }
     }

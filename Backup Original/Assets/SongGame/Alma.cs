@@ -18,6 +18,9 @@ public class Alma : MonoBehaviour
     public ScoreJudge ScoreJudge;
     public int Idle;
     public GodCube GodCube;//x
+    public bool end;
+    public Transform ParentTransform;
+    public GameObject ParentTransformObject;
     // Start is called before the first frame update
 
     private void FixedUpdate()
@@ -30,8 +33,11 @@ public class Alma : MonoBehaviour
         if (timer > 2000)
         {
             END();
+            timer = 0;
+            end = true;
+
         }
-        if (period != 0 && Starto == true)
+        if (period != 0 && Starto == true && end==false)
         {
             if (timer % period == 0)
             {
@@ -47,10 +53,11 @@ public class Alma : MonoBehaviour
     }
     public void Spawn()
     {
-
-        GameObject Notinha = Instantiate(Nota) as GameObject;
+      
+        GameObject Notinha = Instantiate(Nota,ParentTransform) as GameObject;
         positionY = Random.Range(MinY, MaxY);
         Notinha.transform.position = new Vector2(positionX, positionY);
+       
     }
     public void TrigerYes()
     {
@@ -111,6 +118,7 @@ public class Alma : MonoBehaviour
 
 
             GodCube.TakeScreenshot("Tales");
+            ParentTransformObject.SetActive(false);
             //SceneManager.LoadScene("Tales");
         }
 

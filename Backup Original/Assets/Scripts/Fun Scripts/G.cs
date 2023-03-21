@@ -837,8 +837,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 33)
             {
-                d.Description.text += "<color=#D90000>Sacrifice Attack</color>: Reduces your own attack.\n";
-                d.KeywordsT[x].text = "<color=#D90000>Sacrifice Attack</color> ";
+                d.Description.text += "<color=#D90000>Attack Sacrifice</color>: Reduces your own attack.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Attack Sacrifice</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 34)
             {
@@ -882,15 +882,19 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 42)
             {
-                d.Description.text += "<color=yellow>Heroism/color>: At the end of each turn, deal 4 true damage if you have less mana than your opponent.\n";
+                d.Description.text += "<color=yellow>Heroism</color>: At the end of each turn, deal 5 true damage if you have less mana than your opponent.\n";
                 d.KeywordsT[x].text = "<color=yellow>Heroism</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 43)
             {
-                d.Description.text += "<color=blue>Mana + /color>: Gains mana.\n";
+                d.Description.text += "<color=blue>Mana + </color>: Gains mana.\n";
                 d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
             }
-
+            if (d.Generic.Desc(action.KeywordId[x]) == 44)
+            {
+                d.Description.text += "<color=#D90000>Defense Sacrifice</color>: Reduces your own defense.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Defense Sacrifice</color> ";
+            }
 
 
 
@@ -899,21 +903,31 @@ public class G : MonoBehaviour
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
             {
                 NoDuplicates[0] = true;
-                d.Description.text += "<color=#007CD9>Blue Keyword</color>: Activates when you have more power than your opponent <color=#007CD9>(Victory)</color>.\n";
+              
                 d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
+                if (NoDuplicates[0] == false)
+                {
+                    d.Description.text += "<color=#007CD9>Blue Keyword</color>: Activates when you have more power than your opponent <color=#007CD9>(Victory)</color>.\n";
+                }
             }
-            if (action.KeywordId[x] < 0 && NoDuplicates[1] == false)
+            if (action.KeywordId[x] < 0)
             {
                 NoDuplicates[1] = true;
-                d.Description.text += "<color=#E0B900>Golden Keyword</color>: Activates regardless of whether you win or lose <color=#E0B900>(Passive)</color>.\n";
+               
                 d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
-
+                if (NoDuplicates[1] == false)
+                {
+                    d.Description.text += "<color=#E0B900>Golden Keyword</color>: Activates regardless of whether you win or lose <color=#E0B900>(Passive)</color>.\n";
+                }
             }
-            if (action.KeywordId[x] > 1000 && NoDuplicates[2] == false)
+            if (action.KeywordId[x] > 1000)
             {
-                NoDuplicates[2] = true;
-                d.Description.text += "<color=#FF0000>Red Keyword</color>: Activates when you have less power than your opponent <color=#FF0000>(Defeat)</color>.\n";
+                NoDuplicates[2] = true;              
                 d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
+                if(NoDuplicates[2] == false)
+                {
+                    d.Description.text += "<color=#FF0000>Red Keyword</color>: Activates when you have less power than your opponent <color=#FF0000>(Defeat)</color>.\n";
+                }
             }
             d.KeywordsT[x].text += action.KeywordValues[x];
             //Translate: Add (Replace "min")
@@ -1068,12 +1082,12 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 27)
             {
-                d.Description.text += "<color=#FF62B4>Altruísmo</color>: Ambos os humanos ganham vida.\n";
+                d.Description.text += "<color=#7300FF>Altruísmo</color>: Ambos os humanos ganham vida.\n";
                 d.KeywordsT[x].text = "<color=#7300FF>Altruísmo</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 28)
             {
-                d.Description.text += "<color=#FF62B4>Vida + </color>: Ganhe vida.\n";
+                d.Description.text += "<color=#7300FF>Vida + </color>: Ganhe vida.\n";
                 d.KeywordsT[x].text = "<color=#7300FF>Vida + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 29)
@@ -1085,7 +1099,7 @@ public class G : MonoBehaviour
 
             if (d.Generic.Desc(action.KeywordId[x]) == 30)
             {
-                d.Description.text += "<color=#FF62B4>Coragem</color>: Ganha 2 de ataque se o humano tiver menos mana que o oponente no final do turno.\n";
+                d.Description.text += "<color=#7300FF>Coragem</color>: Ganha 2 de ataque se o humano tiver menos mana que o oponente no final do turno.\n";
                 d.KeywordsT[x].text = "<color=#7300FF>Coragem</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 31)
@@ -1145,33 +1159,51 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 42)
             {
-                d.Description.text += "<color=yellow>Heroísmo/color>: No fim de cada turno cause 4 de dano verdadeiro se você tiver menos mana que o oponente.\n";
+                d.Description.text += "<color=yellow>Heroísmo</color>: No fim de cada turno cause 5 de dano verdadeiro se você tiver menos mana que o oponente.\n";
                 d.KeywordsT[x].text = "<color=yellow>Heroísmo</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 43)
             {
-                d.Description.text += "<color=blue>Mana + /color>: Ganhe mana.\n";
+                d.Description.text += "<color=blue>Mana + </color>: Ganhe mana.\n";
                 d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
             }
+            if (d.Generic.Desc(action.KeywordId[x]) == 44)
+            {
+                d.Description.text += "<color=#D90000>Sacrifício de Defesa</color>: Reduz sua própria defesa.\n";
+                d.KeywordsT[x].text = "<color=#D90000>Sacrifício de Defesa</color> ";
+            }
 
-            if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
+
+
+            if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000)
             {
                 NoDuplicates[0] = true;
-                d.Description.text += "<color=#007CD9>Keyword Azul</color>: Ativa quando você tem mais poder que seu oponente <color=#007CD9>(Vitória)</color>.\n";
+               
                 d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
+                if (NoDuplicates[0] == false)
+                {
+                    d.Description.text += "<color=#007CD9>Keyword Azul</color>: Ativa quando você tem mais poder que seu oponente <color=#007CD9>(Vitória)</color>.\n";
+                }
             }
-            if (action.KeywordId[x] < 0 && NoDuplicates[1] == false)
+            if (action.KeywordId[x] < 0)
             {
                 NoDuplicates[1] = true;
-                d.Description.text += "<color=#E0B900>Keyword Dourada</color>: Ativa independentemente de você ganhar ou perder <color=#E0B900>(Passivo)</color>.\n";
+               
                 d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
-
+                if (NoDuplicates[1] == false)
+                {
+                    d.Description.text += "<color=#E0B900>Keyword Dourada</color>: Ativa independentemente de você ganhar ou perder <color=#E0B900>(Passivo)</color>.\n";
+                }
             }
-            if (action.KeywordId[x] > 1000 && NoDuplicates[2] == false)
+            if (action.KeywordId[x] > 1000)
             {
                 NoDuplicates[2] = true;
-                d.Description.text += "<color=#FF0000>Keyword Vermelha</color>: Ativa quando você tem menos poder que seu oponente <color=#FF0000>(Derrota)</color>.\n";
+               
                 d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
+                if (NoDuplicates[2] == false)
+                {
+                    d.Description.text += "<color=#FF0000>Keyword Vermelha</color>: Ativa quando você tem menos poder que seu oponente <color=#FF0000>(Derrota)</color>.\n";
+                }
             }
             d.KeywordsT[x].text += action.KeywordValues[x];
             //Translate: Add (Replace "min")

@@ -47,9 +47,9 @@ MonoBehaviour:
     logic, but fear or another very special feeling.
   - Think of our fight against the warriors. Warriors and assassins promote their
     respective wills by arousing the feeling of fear. People avoid breaking guild
-    laws and Sarka's laws, simply because they fear death.
+    laws and <color=yellow>Sarka</color>'s laws, simply because they fear death.
   - But there is another feeling that guides people, the feeling that bards cultivate,
-    the feeling that beautiful music awakens, the feeling that I like best.
+    the feeling that beautiful music awakens, the feeling that I like the most.
   - The word feeling echoed over and over in <color=purple>William</color>'s head,
     as if he had to solve a riddle.
   - That feeling is passion.
@@ -90,8 +90,8 @@ MonoBehaviour:
     especial."
   - "Pense na nossa luta contra os guerreiros. Os guerreiros e assassinos promovem
     suas respectivas vontades despertando o sentimento de medo. As pessoas evitam
-    descumprir as leis da guilda e as leis de Sarka, simplesmente porque elas temem
-    a morte.\r"
+    descumprir as leis da guilda e as leis de <color=yellow>Sarka</color>, simplesmente
+    porque elas temem a morte.\r"
   - "Mas existe outro sentimento que guia as pessoas, o sentimento que os bardos
     cultivam, o sentimento que uma m\xFAsica bela desperta, o sentimento que eu mais
     gosto."
@@ -100,6 +100,6 @@ MonoBehaviour:
   - "Esse sentimento \xE9 a paix\xE3o."
   - "Talvez\u2026 "
   - Tudo bem, eu vou tentar aprender a tocar.
-  idchara: 
+  idchara: 000000000000000000000000000000001f0000001c000000000000001f0000001c0000001f0000001c0000001f0000001c0000001f000000000000001c0000001f0000001f0000001f0000001f000000000000001f0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009b0900000000000000000000000000003c010000
   Cenario: 69

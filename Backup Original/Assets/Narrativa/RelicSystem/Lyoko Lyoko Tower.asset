@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 6
   SpriteRelic: {fileID: 21300000, guid: 3f8ea721bcb8993408d515636cb748ba, type: 3}
-  Description: Gain <color=#FF62B4>Bravery</color> at the start of the fight.
-  DescriptionBR: "Ganhe <color=#FF62B4>Coragem</color> no in\xEDcio da luta."
+  Description: At end of turn, gain 3 attack if you have less mana than your opponent.
+  DescriptionBR: "No fim do turno, ganhe 3 de ataque se voc\xEA tiver menos mana
+    que o oponente."
   Name: <color=yellow>Tower Lyoko </color>
   NameBR: <color=yellow>Torre de Lyoko </color>
   Type: 1

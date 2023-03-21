@@ -175,4 +175,15 @@ public class Generic : MonoBehaviour
             return true;
         }
     }
+    public int Enemy(int Ally)
+    {
+        if (Ally == 2)
+        {
+            return 5;
+        }
+        else
+        {
+            return 2;
+        }
+    }
 }

@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
-  m_Name: MaduinAssassin
+  m_Name: Simon
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 895411c73e52a3446990c54d2537dc5c, type: 3}
+  sprite: {fileID: 21300000, guid: 98a320a1b1fc0de4faf58492785481e1, type: 3}
   sprite1: {fileID: 0}
-  Name: <color=#FF0080>Maduin</color>
-  id: 0
+  Name: <color=blue>Simon</color>
+  id: 37
   idPersonagem: 0
-  AtaqueForte: 
-  "AtaqueR\xE1pido": 
-  Bloqueio: 
-  Esquiva: 
-  Vida: 0
+  AtaqueForte: 25000000
+  "AtaqueR\xE1pido": 25000000
+  Bloqueio: 25000000
+  Esquiva: 25000000
+  Vida: 14
   Ataque: 0
-  Defesa: 0
+  Defesa: 2
   act: 0
   mov: 0
-  Level: 0
+  Level: 10
   Passive: 
   Passivebr: 
   KeyordId: 
   Relics: 
-  skin: 
+  skin: 2b00000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
   SentimentoType: 0
-  idFace: 31
+  idFace: 0

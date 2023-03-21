@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
+  m_Name: "Puni\xE7\xE3o"
+  m_EditorClassIdentifier: 
+  Name: <color=blue>Punishment</color>
+  NameBR: "<color=blue>Puni\xE7\xE3o</color>"
+  GodText: 
+  GodTextBR: 
+  sprite: {fileID: 21300000, guid: 4de4ae7b300701f45841ea4db93ac092, type: 3}
+  id: 0
+  Texto0: 
+  Texto0br: 
+  scale: 1
+  IAturn: 0
+  KeywordId: ec030000
+  KeywordValues:
+  - 6
+  NotesId: 

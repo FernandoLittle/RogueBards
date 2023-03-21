@@ -63,7 +63,8 @@ public class Day : MonoBehaviour
         //Sincroniza 3 Controlers
         if (day == 1)
         {
-            RandomIntroAS();
+            FirstTale();
+            //RandomIntroAS();
         }
         if (day == 2)
         {
@@ -108,7 +109,7 @@ public class Day : MonoBehaviour
     public void RandomIntro()
     {
         int caos;
-        caos = Random.Range(0, TalesVariables.TalesIntro.Count);
+        caos = Random.Range(0, TalesVariables.TalesIntro.Count -2);
         TalesVariables.Tales = TalesVariables.TalesIntro;
         TalesVariables.SetTale(caos);
         TalesVariables.Index += 1;
@@ -140,9 +141,15 @@ public class Day : MonoBehaviour
     public void RandomIntroAS()
     {
         int caos;
-        caos = Random.Range(0, TalesVariables.TalesIntroAS.Count);
+        caos = Random.Range(0, TalesVariables.TalesIntroAS.Count-1);
         TalesVariables.Tales = TalesVariables.TalesIntroAS;
         TalesVariables.SetTale(caos);
+        TalesVariables.Index += 1;
+    }
+    public void FirstTale()
+    {
+        TalesVariables.Tales = TalesVariables.FirstTale;
+        TalesVariables.SetTale(0);
         TalesVariables.Index += 1;
     }
     public void RandomMaduin()

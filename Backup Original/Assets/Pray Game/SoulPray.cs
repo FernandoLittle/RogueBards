@@ -27,6 +27,7 @@ public class SoulPray : MonoBehaviour
     public int EndTimer;
     public int Idle;
     public GodCube GodCube;//x
+    public bool endbool;
     private void Start()
     {
         language = PlayerPrefs.GetInt("Language");
@@ -38,9 +39,10 @@ public class SoulPray : MonoBehaviour
     private void FixedUpdate()
     {
         Timer += 1;
-        if (Timer > EndTimer)
+        if (Timer > EndTimer && endbool==false)
         {
             EndPray();
+            endbool = true;
         }
     }
     private void Update()

@@ -30,6 +30,7 @@ public class SkillA : MonoBehaviour
     public List<int> LyokoRelic;
     public List<int> AkashaRelic;
     public List<int> ManaRelic;
+    public List<int> RelicRelic;
     public int RelicId;
     public GameObject RelicObject;
     public Text RelicText;
@@ -69,8 +70,15 @@ public class SkillA : MonoBehaviour
     {
         GainSkill.SetActive(false);
     }
+    public void SpecificRelicReward(int idRelic)
+    {
+        RelicId = idRelic;
+        GainRelic(RelicId);
+        EyeRelic(RelicId);
+    }
     public void RelicReward()
     {
+        /*
         int God;
         int chaos;
         God = PlayerPrefs.GetInt("God");
@@ -94,6 +102,24 @@ public class SkillA : MonoBehaviour
             chaos = Random.Range(0, ManaRelic.Count);
             RelicId = ManaRelic[chaos];
         }
+        */
+        int chaos;
+        chaos= Random.Range(0, RelicRelic.Count);
+        RelicId = RelicRelic[chaos];
+        GainRelic(RelicId);
+        EyeRelic(RelicId);
+    }
+    public void RelicRewardDagger()
+    {
+
+        RelicId = 19;
+        GainRelic(RelicId);
+        EyeRelic(RelicId);
+    }
+    public void RelicRewardSword()
+    {
+
+        RelicId = 1;
         GainRelic(RelicId);
         EyeRelic(RelicId);
     }
@@ -112,8 +138,8 @@ public class SkillA : MonoBehaviour
         }
         if (language == 1)
         {
-            RelicName.text = d.Relics[id].Name;
-            RelicText.text = d.Relics[id].Description;
+            RelicName.text = d.Relics[id].NameBR;
+            RelicText.text = d.Relics[id].DescriptionBR;
         }
     }
     public void GainRelic(int a)
@@ -160,7 +186,7 @@ public class SkillA : MonoBehaviour
     }
     public void RewardTale(int id, int type)
     {
-        int chaos;
+
         GainSkill.SetActive(true);
         OldSkill();
       
@@ -322,7 +348,7 @@ public class SkillA : MonoBehaviour
             chaos = Random.Range(0, ShuaSkills.Count);
 
             NewIdSkill = ShuaSkills[chaos];
-            TypeSkill = chaos + 1;
+            TypeSkill = Random.Range(1, 5);
 
             
         }
@@ -331,7 +357,7 @@ public class SkillA : MonoBehaviour
             chaos = Random.Range(0, LyokoSkills.Count);
 
             NewIdSkill = LyokoSkills[chaos];
-            TypeSkill = chaos + 1;
+            TypeSkill = Random.Range(1, 5);
 
 
         }
@@ -340,7 +366,7 @@ public class SkillA : MonoBehaviour
             chaos = Random.Range(0, AkashaSkills.Count);
 
             NewIdSkill = AkashaSkills[chaos];
-            TypeSkill = chaos + 1;
+            TypeSkill = Random.Range(1, 5);
 
 
         }
@@ -349,7 +375,7 @@ public class SkillA : MonoBehaviour
             chaos = Random.Range(0, ManaSkills.Count);
 
             NewIdSkill = ManaSkills[chaos];
-            TypeSkill = chaos + 1;
+            TypeSkill = Random.Range(1, 5);
 
 
         }

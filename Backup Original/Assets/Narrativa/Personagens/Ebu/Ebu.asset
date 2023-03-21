@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Ebu
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: ea8867e826f6aaa41884e662107d9a42, type: 3}
+  sprite: {fileID: 21300000, guid: ddbb6eb2608924d45b5100803655aea7, type: 3}
   sprite1: {fileID: 0}
   Name: <color=white>Ebu</color>
   id: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 11
   SpriteRelic: {fileID: 21300000, guid: 590a76ed8e9b38d42bda3a4ef074ab14, type: 3}
-  Description: Gains +3 starting life.
-  DescriptionBR: Ganha +3 de vida inicial.
+  Description: Gain 3 life at the start of the fight.
+  DescriptionBR: "Ganhe 3 de vida no come\xE7o da luta."
   Name: <color=#FF0080>Shua's Rabbit</color>
   NameBR: "<color=#FF0080>Coelho de Shu\xE1</color>"
   Type: 1

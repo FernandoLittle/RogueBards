@@ -119,6 +119,7 @@ public class RelicSystem : MonoBehaviour
     }
     public void BonusSentimento1(int ally)
     {
+        Debug.Log("RelicSentimentos");
         F.Zone[ally].SentimentalBool = true;
         F.Zone[ally].SentimentalInt += 1;
         RelicSentimento(ally);
@@ -127,6 +128,7 @@ public class RelicSystem : MonoBehaviour
     // Tipos de efeitos************************************************************************************************************
     public void RelicSentimento(int ally)
     {
+        Debug.Log("SENTIMENTOSAAA");
         A.RelicEffects.SentimentalBonus(ally);
     }
     // Tipos de efeitos************************************************************************************************************

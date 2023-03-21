@@ -85,9 +85,22 @@ public class Tradutor : MonoBehaviour
             {
                 textinho.text = "O jogo falso não será destruído e você ainda poderá jogar O Caminho da Felicidade.\n No entanto, você precisará ganhar muito dinheiro para ter acesso ao jogo verdadeiro.\n O dinheiro pode lhe trazer o prazer que o mundo material traz, mas ganhar dinheiro nem sempre é divertido.";
             }
-
-
-
+            if (id == 16)
+            {
+                textinho.text = "Novo";
+            }
+            if (id == 17)
+            {
+                textinho.text = "Antigo";
+            }
+            if (id == 18)
+            {
+                textinho.text = "Você deseja substituir sua habilidade por uma nova?";
+            }
+            if (id == 19)
+            {
+                textinho.text = "Você ganhou uma nova relíquia.";
+            }
 
 
             if (id == 0)

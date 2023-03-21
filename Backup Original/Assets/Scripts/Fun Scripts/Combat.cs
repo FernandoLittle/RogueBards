@@ -494,6 +494,7 @@ public class Combat : MonoBehaviourPunCallbacks
         }
         F.PassiveEffects();
         F.A();
+
     }
     public void Victory2()
     {

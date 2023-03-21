@@ -59,10 +59,10 @@ MonoBehaviour:
     l\xE1 ou se eu n\xE3o encontr\xE1-los r\xE1pido eu posso ser pego\u201D\r.\n"
   - "\u201C\xC9 um plano muito arriscado\u201D."
   - "<color=#FF0080>Maduin</color>, o quarto dos documentos t\xE1 todo bagun\xE7ado,
-    organiza aquela porra."
+    arruma essa porra."
   - "\u201COu eu posso ganhar um pouco da confian\xE7a deles at\xE9 que a Ebu me
     permita entrar no quarto, talvez demore um pouco, mas \xE9 um plano bem mais
     seguro\u201D."
-  idchara: 
+  idchara: 00000000010000001c0000000100000001000000000000001c0000001c0000001c0000001c000000010000001c000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
   Cenario: 33

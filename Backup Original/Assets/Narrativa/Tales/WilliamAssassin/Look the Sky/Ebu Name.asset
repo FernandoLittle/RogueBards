@@ -22,9 +22,9 @@ MonoBehaviour:
     each other.
   - <color=purple>William</color> felt afraid and decided to look at something more
     beautiful.
-  - As if nostalgic for the past, Ebu looked sad. <color=purple>William</color> had
-    the impression that she was only thinking about obscenities and sexual jokes,
-    but at that moment she seemed to be contemplating something deeper.
+  - As if he was nostalgic for the past, Ebu had a sad countenance. William had the
+    impression that she was only thinking about obscenities and sexual jokes, but
+    at that moment she seemed to be contemplating something deeper.
   - What are you thinking, Ebu?
   - About good and evil.
   - I think I'm a bad person.
@@ -88,9 +88,9 @@ MonoBehaviour:
 
 '
   - "<color=purple>William</color> sentiu medo e decidiu olhar para algo mais belo.\r"
-  - "Como se estivesse com saudades do passado, Ebu parecia triste. William tinha
-    a impress\xE3o que ela s\xF3 pensava em obscenidades e piadas de mau gosto, por\xE9m
-    naquele momento ela parecia estar contemplando algo mais profundo."
+  - "Como se estivesse com saudades do passado, Ebu tinha um semblante triste. <color=purple>William</color>
+    tinha a impress\xE3o que ela s\xF3 pensava em obscenidades e piadas de mau gosto,
+    por\xE9m naquele momento ela parecia estar contemplando algo mais profundo."
   - "No que voc\xEA est\xE1 pensando, Ebu?"
   - Sobre o bem e o mal.
   - "Eu acho que sou uma pessoa m\xE1."
@@ -103,7 +103,7 @@ MonoBehaviour:
   - "Mas eu sou uma pessoa m\xE1 por um outro motivo."
   - "Eu gosto de ver o terror na face das minhas v\xEDtimas."
   - "Quanto mais poderosa e arrogante uma pessoa \xE9, mais prazer eu sinto ao ver
-    o medo delas.\r\n"
+    o medo dela.\r\n"
   - "Isso \xE9 uma caracter\xEDstica essencialmente s\xE1dica e maligna minha, mas
     o que eu posso fazer? \r\n"
   - Acho que isso acontece porque eu sempre gostei de coisas assustadoras.
@@ -120,6 +120,6 @@ MonoBehaviour:
   - 'To falando merda, durma bem.
 
 '
-  idchara: 
+  idchara: 01000000000000000000000000000000000000001c00000001000000010000001c0000000100000001000000010000001c00000001000000010000000100000001000000010000000100000001000000010000001c00000001000000010000001c00000001000000010000001c0000000100000001000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009c090000000000007a000000
   Cenario: 54

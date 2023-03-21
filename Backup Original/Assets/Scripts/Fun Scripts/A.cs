@@ -1051,7 +1051,7 @@ public class A : MonoBehaviourPunCallbacks
         {
             Zone[ally].sentimento = 1;
         }
-        RelicEffects.ChangeFellingRelic(ally);
+        RelicEffects.ChangeFellingRelic(ally);//Muda sentimento via rrlc ou status
     }
     public void SetSentimento()
     {

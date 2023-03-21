@@ -13,6 +13,7 @@ public class IlusControler : MonoBehaviour
     public Animator IlustrationAnime;
     public Image Face;
     public Text Name;
+    public GameObject Gambiarra;
 
     public void SetCenario(int idCenario)
     {
@@ -20,16 +21,20 @@ public class IlusControler : MonoBehaviour
         {
             Debug.Log(idCenario);
             Cenario.sprite = IlustrationList[idCenario];
-            IlustrationChange = true;
+            
         }
         else
         {
+            Debug.Log("MUDA A CENA");
+            Gambiarra.SetActive(false);
+            Gambiarra.SetActive(true);
             IlustrationAnime.Play("IlustrationChange");
+            IlustrationChange = false;
         }
     }
     public void SetCenario2()
     {
-        Cenario.sprite = IlustrationList[TalesVariables.TaleSelect];
+        Cenario.sprite = IlustrationList[TalesVariables.Tales[TalesVariables.TaleSelect].Cenario];
     }
     public void SetFaceName(int idchara)
     {

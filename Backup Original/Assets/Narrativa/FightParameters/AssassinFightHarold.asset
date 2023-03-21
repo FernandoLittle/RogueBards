@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AssassinFightHarold
   m_EditorClassIdentifier: 
   IdFight: 37
-  IdChara: 00000000000000001c00000000000000000000001d00000000000000
+  IdChara: 00000000000000002900000000000000000000001d00000000000000
   Dialogue1:
   - Don't Kil me
   - ...

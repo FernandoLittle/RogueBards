@@ -23,6 +23,7 @@ public class TalesVariables : MonoBehaviour
 
 
     //Tales Assassin
+    public List<Tales> FirstTale;
     public List<Tales> TalesIntroAS;
     public List<Tales> TalesWilliamWFightAS;
     public List<Tales> TalesWilliamWFight2AS;
@@ -66,6 +67,18 @@ public class TalesVariables : MonoBehaviour
         
         Index = 0;
         SelectTale.NextTale();
+        try
+        {
+            Debug.Log("IdCards");
+            Debug.Log(StaticPlayer.TrueAttack[0]);
+            Debug.Log(StaticPlayer.FakeAttack[0]);
+            Debug.Log(StaticPlayer.Block[0]);
+            Debug.Log(StaticPlayer.CounterAttack[0]);
+        }
+        catch
+        {
+            Debug.Log("BugTalesVariables");
+        }
     }
     public void MasterAction()
     {
@@ -78,15 +91,28 @@ public class TalesVariables : MonoBehaviour
     }
     public void SetTale(int TaleS)
     {
+        //Eu odeio essa função, eu não entendo essa porra, em alguns momentos eu vou ter que aumentar o index inicial outras vezes não e eu esqueci porque que essa droga é assim tomanocu 
+        //Eu acho que comecei a entender, no final da Master Action o index aumenta. Se você mudar de tale via button instruction terá que aumentar o index manualmente
         Index = 0;
 
+        if(TaleSelect!= TaleS)
+        {
+            IlusControler.IlustrationChange = true;
+        }
         TaleSelect = TaleS;
-        IlusControler.IlustrationChange = false;
+       
+
+
+
         IlusControler.SetCenario(Tales[TaleSelect].Cenario);
 
 
         MasterAction();        
         Index = 0;
+    }
+    public void SetCenario()
+    {
+
     }
     public void ShowText()
     {
@@ -151,7 +177,7 @@ public class TalesVariables : MonoBehaviour
         {
             if(StaticPlayer.PlayerId[0] == 29)
             {
-                Tales = TalesWilliamMaduin;
+                Tales = TalesWilliamMaduin2;
 
             }
             if (StaticPlayer.PlayerId[0] == 28)
@@ -206,7 +232,7 @@ public class TalesVariables : MonoBehaviour
         Index = 0;
         Tales = TaleGod;
         TaleSelect = 0;
-        IlusControler.IlustrationChange = false;
+        IlusControler.IlustrationChange = true;
         IlusControler.SetCenario(Tales[TaleSelect].Cenario);
 
 

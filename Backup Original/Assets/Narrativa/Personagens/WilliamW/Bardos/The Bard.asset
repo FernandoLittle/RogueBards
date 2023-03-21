@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: The Bard
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 8997541dd7717ea4895652abc52265bd, type: 3}
+  sprite: {fileID: 21300000, guid: 8d449b9146b552045aa5334bf89f2a6c, type: 3}
   sprite1: {fileID: 0}
   Name: <color=#00FFBF>The Bard</color>
   id: 10
@@ -30,7 +30,7 @@ MonoBehaviour:
   Passive: 
   Passivebr: 
   KeyordId: 
-  Relics: 
+  Relics: 16000000
   skin: 0600000006000000060000000600000006000000060000000600000006000000060000000600000006000000060000000600000006000000
   SentimentoType: 0
   idFace: 10
