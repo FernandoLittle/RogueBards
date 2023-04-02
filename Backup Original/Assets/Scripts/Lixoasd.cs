@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Lixoasd : MonoBehaviour
 {
-    public TalesVariables TalesVariables;
+
+    public SoulPray SoulPray;
     // Start is called before the first frame update
     public void A()
     {
-        
+        SoulPray.EndPray();
     }
 }

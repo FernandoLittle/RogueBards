@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: BookSangla1
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: c670d2e61305b8941aa21fceb385f786, type: 3}
+  BookSprite: {fileID: 21300000, guid: 3957a7878c718d34c90537de63c53b73, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 0d87b3223eeaf8c4c8571acc255cd783, type: 3}
   NameBook: 'Productive Determinism and the Development of Societies.
 
     Chapter:
@@ -22,5 +23,13 @@ MonoBehaviour:
   Answer2: Whores and organs
   Answer3: Spices and drugs
   Answer4: Sand and carrots
+  NameBookBR: "Determinismo Produtivo e o Desenvolvimento das Sociedades.\nCap\xEDtulo:
+    As Tr\xEAs Grandes Pot\xEAncias Mundiais."
+  QuestionBR: "Thomas Pinkman fez grandes investimentos na importa\xE7\xE3o de quais
+    produtos?"
+  Answer1BR: "Ch\xE1 e uvas"
+  Answer2BR: "Prostitutas e \xF3rg\xE3os"
+  Answer3BR: Temperos e drogas
+  Answer4BR: Areia e cenoura
   CorrectAnswer: 3
   UltraCorrectAnswer: 2

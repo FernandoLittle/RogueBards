@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: Remulos1
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: 248021dc83a261b448a4279ae852a52d, type: 3}
+  BookSprite: {fileID: 21300000, guid: 2f092a5df6b44284b88d7eb4d193d92d, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: fcdf6426ce6585e43ac0d386fe0488f4, type: 3}
   NameBook: 'Productive Determinism and the Development of Societies.
 
     Chapter:
@@ -22,5 +23,12 @@ MonoBehaviour:
   Answer2: Accepting the world as it is
   Answer3: Gaining the fame of being a sage
   Answer4: Having sex
+  NameBookBR: "Determinismo Produtivo e o Desenvolvimento das Sociedades.\nCap\xEDtulo:
+    As Tr\xEAs Grandes Pot\xEAncias Mundiais."
+  QuestionBR: "Segundo Ivan Tadeu, qual \xE9 o caminho para alcan\xE7ar a felicidade?"
+  Answer1BR: Superar as adversidades
+  Answer2BR: "Aceitar o mundo como ele \xE9"
+  Answer3BR: "Ganhar a fama de ser um s\xE1bio"
+  Answer4BR: Fazer sexo
   CorrectAnswer: 2
   UltraCorrectAnswer: 3

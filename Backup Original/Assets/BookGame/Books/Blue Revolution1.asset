@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: Blue Revolution1
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: f5c11f5161bbd49479afc2b32e0310cd, type: 3}
+  BookSprite: {fileID: 21300000, guid: 054b794848ba5824aa79ab977420349b, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 15abdd09112f7d74fa47d4e165f4362e, type: 3}
   NameBook: 'The Blue Revolution and Sarka''s Independence
 
     Chapter: The Journal
@@ -24,5 +25,12 @@ MonoBehaviour:
   Answer2: Because they are evil
   Answer3: Because taxes on the rich have been eliminated
   Answer4: Because they can use drugs, gamble in casinos and have orgies
+  NameBookBR: "A Revolu\xE7\xE3o Azul e a Independ\xEAncia de Sarka\nCap\xEDtulo:
+    O Jornal da Revolu\xE7\xE3o Azul"
+  QuestionBR: Por que os ricos migraram para Opiuland?
+  Answer1BR: "Porque eles obt\xEAm empr\xE9stimos com juros baixos."
+  Answer2BR: "Porque eles s\xE3o maus"
+  Answer3BR: Porque os impostos sobre os ricos foram eliminados
+  Answer4BR: Porque eles podem usar drogas, jogar em cassinos e fazer orgias
   CorrectAnswer: 3
   UltraCorrectAnswer: 4

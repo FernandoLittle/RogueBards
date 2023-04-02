@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: BardSpell1
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: 2ff455cce20029f41a7e0e286c2532e3, type: 3}
+  BookSprite: {fileID: 21300000, guid: 0b5988ebad30fc94d8be86297fe2746a, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 030834d6d10f42d498770201e33a3daa, type: 3}
   NameBook: Bard's spells
   Question: What are the two types of mystics?
   Answer1: Those who believe in magic and the good ones.
   Answer2: The followers of the gods and the followers of the spirits.
   Answer3: Those who are happy and those who are sad.
   Answer4: Those who believe in magic and the bad ones.
-  CorrectAnswer: 2
+  NameBookBR: Magias de Bardo
+  QuestionBR: "Quais s\xE3o os dois tipos de m\xEDsticos?"
+  Answer1BR: Aqueles que acreditam na magia e os bons.
+  Answer2BR: "Os seguidores dos deuses e os seguidores dos esp\xEDritos."
+  Answer3BR: "Os que s\xE3o felizes e os que s\xE3o tristes."
+  Answer4BR: Aqueles que acreditam na magia e ruins.
+  CorrectAnswer: 4
   UltraCorrectAnswer: 1

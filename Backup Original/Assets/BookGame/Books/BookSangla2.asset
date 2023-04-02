@@ -12,16 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: BookSangla2
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: 06d73ac2cd01f7d4e9705f7ea0249c98, type: 3}
+  BookSprite: {fileID: 21300000, guid: 43f12fc231a296449a982291955af7be, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 6fce9c1940ceec245863ba43fb6ec06b, type: 3}
   NameBook: 'Productive Determinism and the Development of Societies.
 
     Chapter:
     The Three Great World Powers.'
-  Question: According to Jonathan Dickman, Federalmism is the greatest enemy of which
+  Question: According to Jonathan Dickman, Federalmism is the greatest ally of which
     group?
   Answer1: Political class
   Answer2: People
   Answer3: Lazy presidents
   Answer4: Bards
-  CorrectAnswer: 1
+  NameBookBR: "Determinismo Produtivo e o Desenvolvimento das Sociedades.\nCap\xEDtulo:
+    As Tr\xEAs Grandes Pot\xEAncias Mundiais."
+  QuestionBR: "Segundo Jonathan Dickman, o federalismo \xE9 o maior aliado de qual
+    grupo?"
+  Answer1BR: "Classe pol\xEDtica"
+  Answer2BR: Povo
+  Answer3BR: "Presidentes pregui\xE7osos"
+  Answer4BR: Bardos
+  CorrectAnswer: 2
   UltraCorrectAnswer: 3

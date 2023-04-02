@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
+  m_Name: DocumentoGuilda1
+  m_EditorClassIdentifier: 
+  BookSprite: {fileID: 21300000, guid: dca2cecd0fc9ac54a8cafed192fea740, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 84dc2dee5f42218489ec82d777af0b9a, type: 3}
+  NameBook: The Assassin's Guild Document
+  Question: "According to the author of the document, Ant\xF4nio of Belo Monte, the
+    murder reflects what?"
+  Answer1: Fear
+  Answer2: Lust for power
+  Answer3: Human weakness
+  Answer4: Vanity
+  NameBookBR: O Documento da Guilda de Assassinos
+  QuestionBR: "Segundo o autor do documento, Ant\xF4nio de Belo Monte, o assassinato
+    \xE9 reflexo do qu\xEA?"
+  Answer1BR: Medo
+  Answer2BR: Desejo pelo poder
+  Answer3BR: Fraqueza humana
+  Answer4BR: Vaidade
+  CorrectAnswer: 3
+  UltraCorrectAnswer: 2

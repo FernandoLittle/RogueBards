@@ -101,7 +101,42 @@ public class Tradutor : MonoBehaviour
             {
                 textinho.text = "Você ganhou uma nova relíquia.";
             }
-
+            if (id == 20)
+            {
+                textinho.text = "Suas orações são patéticas.";
+            }
+            if (id == 21)
+            {
+                textinho.text = "Suas orações são aceitáveis.";
+            }
+            if (id == 22)
+            {
+                textinho.text = "Parabéns, suas orações são lindas.";
+            }
+            if (id == 23)
+            {
+                textinho.text = "Sua música é irritantemente alegre.";
+            }
+            if (id == 24)
+            {
+                textinho.text = "Sua música é satisfatoriamente tranquila.";
+            }
+            if (id == 25)
+            {
+                textinho.text = "Parabéns, sua música é maravilhosamente triste.";
+            }
+            if (id == 26)
+            {
+                textinho.text = "Resposta errada.";
+            }
+            if (id == 27)
+            {
+                textinho.text = "Resposta correta!";
+            }
+            if (id == 28)
+            {
+                textinho.text = "Resposta errada. Parabéns!";
+            }
 
             if (id == 0)
             {

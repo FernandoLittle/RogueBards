@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
+  m_Name: "Reflex\xF5es1"
+  m_EditorClassIdentifier: 
+  BookSprite: {fileID: 21300000, guid: 9d8b61e5b75d0a6419cd85137b521b83, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 64dd96d850fa37944be96da3c1cc7af6, type: 3}
+  NameBook: Reflections on the Democracy of Sangla
+  Question: Why is income tax unpopular?
+  Answer1: Because a lot of people pay this tax
+  Answer2: Because people realize they pay that tax
+  Answer3: Because he is too big
+  Answer4: Paying taxes is popular and fun, pay your taxes.
+  NameBookBR: "Reflex\xF5es sobre a Democracia de Sangla"
+  QuestionBR: "Por que o imposto de renda \xE9 impopular?"
+  Answer1BR: Porque uma grande quantidade de pessoas paga esse imposto
+  Answer2BR: Porque as pessoas percebem que pagam esse imposto.
+  Answer3BR: "Porque ele \xE9 muito grande"
+  Answer4BR: "Pagar impostos \xE9 popular e divertido, pague seus impostos."
+  CorrectAnswer: 1
+  UltraCorrectAnswer: 2

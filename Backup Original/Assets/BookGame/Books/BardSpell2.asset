@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
   m_Name: BardSpell2
   m_EditorClassIdentifier: 
-  BookSprite: {fileID: 21300000, guid: 82558df1d8c7f6841abe61c5a4e260b0, type: 3}
+  BookSprite: {fileID: 21300000, guid: 00e342f61ed18384090a8b95a4d1309d, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: 4cca0e0215219d74ea9f9eaeb0e73290, type: 3}
   NameBook: Bard's spells
   Question: What is the wise man's main virtue?
   Answer1: Doubt what he wants to believe
   Answer2: Believe what he wants to believe
   Answer3: Study a lot
   Answer4: Speak loudly
+  NameBookBR: Magias de Bardo
+  QuestionBR: "Qual \xE9 a principal virtude do homem s\xE1bio?"
+  Answer1BR: Duvidar do que ele quer acreditar
+  Answer2BR: Acreditar no que ele quer acreditar
+  Answer3BR: Estudar muito
+  Answer4BR: Falar baixo
   CorrectAnswer: 2
   UltraCorrectAnswer: 1

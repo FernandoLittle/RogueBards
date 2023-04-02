@@ -28,6 +28,10 @@ public class SoulPray : MonoBehaviour
     public int Idle;
     public GodCube GodCube;//x
     public bool endbool;
+    public GameObject WrongAnswerGO;
+    public GameObject CorrectAnswerGO;
+    public GameObject UltraCorrectAnswerGO;
+
     private void Start()
     {
         language = PlayerPrefs.GetInt("Language");
@@ -39,11 +43,11 @@ public class SoulPray : MonoBehaviour
     private void FixedUpdate()
     {
         Timer += 1;
-        if (Timer > EndTimer && endbool==false)
-        {
-            EndPray();
-            endbool = true;
-        }
+        //if (Timer > EndTimer && endbool==false)
+        //{
+          //  EndPray();
+           // endbool = true;
+       // }
     }
     private void Update()
     {
@@ -51,6 +55,10 @@ public class SoulPray : MonoBehaviour
         {
             ResultPray();
         }
+    }
+    public void Cubinho()
+    {
+        GodCube.TakeScreenshot("Tales");
     }
     public void EndPray()
     {
@@ -93,21 +101,36 @@ public class SoulPray : MonoBehaviour
             
             if (score >= Gap2)
             {
+                UltraCorrectAnswer();
                 PlayerPrefs.SetInt("Tale", 2);
             }
             else if (score >= Gap1)
             {
+                CorrectAnswer();
                 PlayerPrefs.SetInt("Tale", 1);
             }
             else
             {
+                WrongAnswer();
                 PlayerPrefs.SetInt("Tale", 0);
             }
 
 
-            GodCube.TakeScreenshot("Tales");
+           
             //SceneManager.LoadScene("Tales");
         }
+    }
+    public void CorrectAnswer()
+    {
+        CorrectAnswerGO.SetActive(true);
+    }
+    public void UltraCorrectAnswer()
+    {
+        UltraCorrectAnswerGO.SetActive(true);
+    }
+    public void WrongAnswer()
+    {
+        WrongAnswerGO.SetActive(true);
     }
     public void ResultPray()
     {
@@ -115,7 +138,7 @@ public class SoulPray : MonoBehaviour
         {
             score += 1;
             scoreT.text = score.ToString();
-            UpPray();
+           // UpPray();
             NextWord();
         }
         else

@@ -20,6 +20,7 @@ public class GodCube : MonoBehaviour
     {
         HI = ScreenCapture.CaptureScreenshotAsTexture();
         YEEE = Sprite.Create(HI, new Rect(0, 0, HI.width, HI.height), new Vector2(0.5f, 0.5f));
+
         FaceGod[0].sprite = YEEE;
         ChangeCube.SceneString = SceneS;
         Cube.SetActive(true);

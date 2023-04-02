@@ -21,6 +21,11 @@ public class Alma : MonoBehaviour
     public bool end;
     public Transform ParentTransform;
     public GameObject ParentTransformObject;
+    public GameObject WrongAnswerGO;
+    public GameObject CorrectAnswerGO;
+    public GameObject UltraCorrectAnswerGO;
+
+
     // Start is called before the first frame update
 
     private void FixedUpdate()
@@ -51,6 +56,18 @@ public class Alma : MonoBehaviour
             Pontuation += 1;
         }
     }
+    public void CorrectAnswer()
+    {
+        CorrectAnswerGO.SetActive(true);
+    }
+    public void UltraCorrectAnswer()
+    {
+        UltraCorrectAnswerGO.SetActive(true);
+    }
+    public void WrongAnswer()
+    {
+        WrongAnswerGO.SetActive(true);
+    }
     public void Spawn()
     {
       
@@ -67,6 +84,12 @@ public class Alma : MonoBehaviour
     {
         Triger -= 1;
     }
+    public void Cubinho() 
+    {
+
+        GodCube.TakeScreenshot("Tales"); ;
+    }
+
     public void END()
     {
         int buda;
@@ -76,15 +99,18 @@ public class Alma : MonoBehaviour
       
             if (ScoreJudge.RealScore > 3000)
             {
+                UltraCorrectAnswer();
                 PlayerPrefs.SetInt("Tale", 2);
             }
             else if (ScoreJudge.RealScore > 2000)
             {
                 PlayerPrefs.SetInt("Tale", 1);
+                CorrectAnswer();
             }
             else
             {
                 PlayerPrefs.SetInt("Tale", 0);
+                WrongAnswer();
             }
             buda = PlayerPrefs.GetInt("Buda");
             if (buda == 1)
@@ -105,19 +131,23 @@ public class Alma : MonoBehaviour
             if (ScoreJudge.RealScore > 3000)
             {
                 PlayerPrefs.SetInt("Tale", 2);
+                UltraCorrectAnswer();
             }
             else if (ScoreJudge.RealScore > 2000)
             {
+             
                 PlayerPrefs.SetInt("Tale", 1);
+                CorrectAnswer();
             }
             else
             {
                 PlayerPrefs.SetInt("Tale", 0);
+                WrongAnswer();
             }
 
 
 
-            GodCube.TakeScreenshot("Tales");
+            
             ParentTransformObject.SetActive(false);
             //SceneManager.LoadScene("Tales");
         }

@@ -9,8 +9,8 @@ public class AlmaAdventure : MonoBehaviour
     public List<GameObject> Adventure;
     public static int IntroCount = 0;
     public GodCube GodCube;//x
-
-
+    public GameObject IntroPlay;
+    public GameObject IntroAdventure;
     private void Start()
     {  
         int a;
@@ -52,6 +52,7 @@ public class AlmaAdventure : MonoBehaviour
         {
             Play[x].SetActive(true);
         }
+        IntroPlay.SetActive(true);
     }
     public void AdventureActive()
     {
@@ -64,9 +65,11 @@ public class AlmaAdventure : MonoBehaviour
         {
             Adventure[x].SetActive(true);
         }
+        IntroAdventure.SetActive(true);
     }
     public void PlayGo()
     {
+        PlayerPrefs.SetInt("Aventura", 1);
         int buda;
         int b;
         b= PlayerPrefs.GetInt("Intro0");
@@ -90,6 +93,8 @@ public class AlmaAdventure : MonoBehaviour
                 //SceneManager.LoadScene("Money");
             }
         }
+        IntroPlay.SetActive(false);
+        IntroAdventure.SetActive(false);
   
     }
 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1662d23de0264cbd24180482044a6, type: 3}
+  m_Name: DocumentoGuilda2
+  m_EditorClassIdentifier: 
+  BookSprite: {fileID: 21300000, guid: 1a4aa972f72ad144093af60b1ce349ea, type: 3}
+  BookSpriteBR: {fileID: 21300000, guid: cea09adf30ce08c428c900afcbc8322d, type: 3}
+  NameBook: The Assassin's Guild Document
+  Question: Does this document assume that there is an objective morality?
+  Answer1: Yes
+  Answer2: No
+  Answer3: Maybe
+  Answer4: No, but sometimes yes
+  NameBookBR: O Documento da Guilda de Assassinos
+  QuestionBR: Este documento parte do pressuposto de que existe uma moralidade objetiva?
+  Answer1BR: Sim
+  Answer2BR: "N\xE3o"
+  Answer3BR: Talvez
+  Answer4BR: "N\xE3o, mas \xE0s vezes sim"
+  CorrectAnswer: 2
+  UltraCorrectAnswer: 4
