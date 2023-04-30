@@ -24,12 +24,18 @@ public class Alma : MonoBehaviour
     public GameObject WrongAnswerGO;
     public GameObject CorrectAnswerGO;
     public GameObject UltraCorrectAnswerGO;
+    public GameObject DarkEnd;
 
 
     // Start is called before the first frame update
 
+    private void Start()
+    {
+        PlayerPrefs.SetInt("IntCena", 3);
+    }
     private void FixedUpdate()
     {
+        
         timer += 1;
         if (timer > 100 && Starto==false)
         {
@@ -73,7 +79,7 @@ public class Alma : MonoBehaviour
       
         GameObject Notinha = Instantiate(Nota,ParentTransform) as GameObject;
         positionY = Random.Range(MinY, MaxY);
-        Notinha.transform.position = new Vector2(positionX, positionY);
+        Notinha.transform.localPosition = new Vector2(positionX, positionY);
        
     }
     public void TrigerYes()
@@ -92,6 +98,7 @@ public class Alma : MonoBehaviour
 
     public void END()
     {
+        DarkEnd.SetActive(true);
         int buda;
         Idle = PlayerPrefs.GetInt("Idle");
         if (Idle == 1)

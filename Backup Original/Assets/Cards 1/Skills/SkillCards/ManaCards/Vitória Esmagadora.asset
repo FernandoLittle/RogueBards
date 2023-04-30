@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: "Vit\xF3ria Esmagadora"
   m_EditorClassIdentifier: 
-  Name: <color=blue>Overwhelming Victory</color>
-  NameBR: "<color=blue>Vit\xF3ria Esmagadora</color>"
-  GodText: Moonlight raises <color=blue>Mana</color>.
-  GodTextBR: O luar eleva o <color=blue>Mana</color>.
+  Name: <color=#00B2FF>Overwhelming Victory</color>
+  NameBR: "<color=#00B2FF>Vit\xF3ria Esmagadora</color>"
+  GodText: Moonlight raises <color=#00B2FF>Mana</color>.
+  GodTextBR: O luar eleva o <color=#00B2FF>Mana</color>.
   sprite: {fileID: 21300000, guid: ec466edcfbddc3742b375e5d8be2ed85, type: 3}
   id: 0
   Texto0: 

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Postura Ofensiva
   m_EditorClassIdentifier: 
-  Name: <color=blue>Offensive Stance</color>
-  NameBR: <color=blue>Postura Ofensiva</color>
+  Name: <color=#00B2FF>Offensive Stance</color>
+  NameBR: <color=#00B2FF>Postura Ofensiva</color>
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: 1d45ade89350cb94e8845eb47ccd35d2, type: 3}

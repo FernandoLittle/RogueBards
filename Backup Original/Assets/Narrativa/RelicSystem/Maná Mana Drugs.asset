@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 9
   SpriteRelic: {fileID: 21300000, guid: 0090d0086ce5a274ab3dcbbce82f6423, type: 3}
-  Description: You activate <color=blue>Sentimental Bonus</color> twice.
-  DescriptionBR: "Voc\xEA ativa o <color=blue>B\xF4nus Sentimental</color> duas vezes."
-  Name: <color=blue>Drugs of Mana</color>
-  NameBR: <color=blue>Drogas de Mana</color>
+  Description: You activate <color=#00B2FF>Sentimental Bonus</color> twice.
+  DescriptionBR: "Voc\xEA ativa o <color=#00B2FF>B\xF4nus Sentimental</color> duas
+    vezes."
+  Name: <color=#00B2FF>Drugs of Mana</color>
+  NameBR: <color=#00B2FF>Drogas de Mana</color>
   Type: 1

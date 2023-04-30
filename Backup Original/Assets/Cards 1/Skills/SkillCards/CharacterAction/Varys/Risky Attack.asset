@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Risky Attack
   m_EditorClassIdentifier: 
-  Name: <color=blue>Risky Attack</color>
-  NameBR: <color=blue>Ataque Arriscado</color>
+  Name: <color=#00B2FF>Risky Attack</color>
+  NameBR: <color=#00B2FF>Ataque Arriscado</color>
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: d3eeba239d6f98f4c810ed80ceab18b3, type: 3}
   id: 15
   Texto0: 

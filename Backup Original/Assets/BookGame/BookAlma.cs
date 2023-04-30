@@ -21,18 +21,37 @@ public class BookAlma : MonoBehaviour
     public GameObject UltraCorrectAnswerGO;
     public int Idle;
     public GodCube GodCube;//x
-    
+    public int language;
+    public GameObject DarkEnd;
     // Start is called before the first frame update
     void Start()
     {
-        BookIndex = Random.Range(0, Books.Count);
-        Answer1.text = Books[BookIndex].Answer1;
-        Answer2.text = Books[BookIndex].Answer2;
-        Answer3.text = Books[BookIndex].Answer3;
-        Answer4.text = Books[BookIndex].Answer4;
-        QuestionT.text = Books[BookIndex].Question;
-        NameBook.text= Books[BookIndex].NameBook;
-        BookI.sprite= Books[BookIndex].BookSprite;
+        PlayerPrefs.SetInt("IntCena", 4);
+        language = PlayerPrefs.GetInt("Language");
+        if (language == 0)
+        {
+            BookIndex = Random.Range(0, Books.Count);
+            Answer1.text = Books[BookIndex].Answer1;
+            Answer2.text = Books[BookIndex].Answer2;
+            Answer3.text = Books[BookIndex].Answer3;
+            Answer4.text = Books[BookIndex].Answer4;
+            QuestionT.text = Books[BookIndex].Question;
+            NameBook.text = Books[BookIndex].NameBook;
+            BookI.sprite = Books[BookIndex].BookSprite;
+        }
+        if (language == 1)
+        {
+            BookIndex = Random.Range(0, Books.Count);
+            Answer1.text = Books[BookIndex].Answer1BR;
+            Answer2.text = Books[BookIndex].Answer2BR;
+            Answer3.text = Books[BookIndex].Answer3BR;
+            Answer4.text = Books[BookIndex].Answer4BR;
+            QuestionT.text = Books[BookIndex].QuestionBR;
+            NameBook.text = Books[BookIndex].NameBookBR;
+            BookI.sprite = Books[BookIndex].BookSpriteBR;
+        }
+
+
     }
     public void Answer(int choose)
     {
@@ -66,6 +85,7 @@ public class BookAlma : MonoBehaviour
     }
     public void CorrectAnswer1()
     {
+        DarkEnd.SetActive(true);
         int buda;
 
         PlayerPrefs.SetInt("Batalha", 1);

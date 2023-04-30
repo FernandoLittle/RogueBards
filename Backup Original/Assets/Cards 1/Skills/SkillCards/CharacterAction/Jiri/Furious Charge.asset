@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Furious Charge
   m_EditorClassIdentifier: 
-  Name: <color=blue>Furious Charge</color>
-  NameBR: <color=blue>Investida Furiosa</color>
+  Name: <color=#00B2FF>Furious Charge</color>
+  NameBR: <color=#00B2FF>Investida Furiosa</color>
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: 8355fecf940a5d54895e5933e81b1523, type: 3}
   id: 12
   Texto0: 

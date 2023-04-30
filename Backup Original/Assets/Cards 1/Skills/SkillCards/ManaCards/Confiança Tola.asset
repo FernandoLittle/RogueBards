@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: "Confian\xE7a Tola"
   m_EditorClassIdentifier: 
-  Name: <color=blue>Foolish Confidence</color>
-  NameBR: "<color=blue>Confian\xE7a Tola</color>"
-  GodText: Musicians release <color=blue>Mana</color>.
-  GodTextBR: "Os m\xFAsicos liberam o <color=blue>Mana</color>."
+  Name: <color=#00B2FF>Foolish Confidence</color>
+  NameBR: "<color=#00B2FF>Confian\xE7a Tola</color>"
+  GodText: Musicians release <color=#00B2FF>Mana</color>.
+  GodTextBR: "Os m\xFAsicos liberam o <color=#00B2FF>Mana</color>."
   sprite: {fileID: 21300000, guid: 4fa7bed54a17fb844b1ea1d113113ec1, type: 3}
   id: 0
   Texto0: Your life becomes equal to 1.

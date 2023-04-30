@@ -74,6 +74,7 @@ public class RelicEffects : MonoBehaviour
                 }
             }
         }
+        A.Interface.SetStatos();
     }
     public void EndTurnEffectRelic(int ally)
     {

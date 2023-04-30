@@ -16,11 +16,11 @@ MonoBehaviour:
   Dialogue:
   - "Playing music all day is a bum thing.\r"
   - <color=purple>William</color> as a decent warrior, returned to his job to continue
-    fighting crime.
+    fighting crime. What crime do you want to fight?
   DialogueBR:
   - "Tocar m\xFAsica o dia todo \xE9 coisa de vagabundo."
-  - <color=purple>William</color> como um guerreiro decente, voltou ao seu trabalho
-    para continuar lutando contra o crime.
+  - "<color=purple>William</color> como um guerreiro decente, voltou ao seu trabalho
+    para continuar lutando contra o crime. Qual crime voc\xEA quer combater?"
   idchara: 0000000000000000
   instruction: 0000000000000000ffffffff
   Cenario: 41

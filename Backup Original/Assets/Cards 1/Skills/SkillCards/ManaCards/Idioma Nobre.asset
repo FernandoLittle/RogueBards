@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Idioma Nobre
   m_EditorClassIdentifier: 
-  Name: <color=blue>Noble Language</color>
-  NameBR: <color=blue>Idioma Nobre</color>
-  GodText: Moonlight raises <color=blue>Mana</color>.
-  GodTextBR: O luar eleva o <color=blue>Mana</color>.
+  Name: <color=#00B2FF>Noble Language</color>
+  NameBR: <color=#00B2FF>Idioma Nobre</color>
+  GodText: Moonlight raises <color=#00B2FF>Mana</color>.
+  GodTextBR: O luar eleva o <color=#00B2FF>Mana</color>.
   sprite: {fileID: 21300000, guid: 4c46e10d2f110314d91fc246881e52d4, type: 3}
   id: 0
   Texto0: 

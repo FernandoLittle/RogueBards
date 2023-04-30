@@ -15,11 +15,11 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - (...)
-  - <color=blue>Roy</color> found a very evil cannibal.
+  - <color=green>Roy</color> found a very evil cannibal.
   - Very <color=red>evil</color>.
   DialogueBR:
   - (...)
-  - <color=blue>Roy</color> encontrou um canibal muito malvado.
+  - <color=green>Roy</color> encontrou um canibal muito malvado.
   - Muito <color=red>malvado</color>.
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000002000000

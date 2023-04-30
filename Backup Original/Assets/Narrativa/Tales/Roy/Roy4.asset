@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   Dialogue:
-  - Please <color=blue>warrior</color>, don't kill me, I don't want to die. I do
+  - Please <color=green>warrior</color>, don't kill me, I don't want to die. I do
     anything you want, just don't kill me, please.
   - Do not kill me... please
   DialogueBR:
-  - "Por favor <color=blue>guerreiro</color>, n\xE3o me mate, eu n\xE3o quero morrer.
+  - "Por favor <color=green>guerreiro</color>, n\xE3o me mate, eu n\xE3o quero morrer.
     Eu fa\xE7o o que voc\xEA quiser, s\xF3 n\xE3o me mate, por favor."
-  - Nao me mate... por favor
+  - "N\xE3o me mate... por favor"
   idchara: 0c0000000c000000
   instruction: 000000000000000039010000
   Cenario: 57

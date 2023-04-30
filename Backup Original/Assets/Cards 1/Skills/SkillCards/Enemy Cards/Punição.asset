@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: "Puni\xE7\xE3o"
   m_EditorClassIdentifier: 
-  Name: <color=blue>Punishment</color>
-  NameBR: "<color=blue>Puni\xE7\xE3o</color>"
+  Name: <color=#00B2FF>Punishment</color>
+  NameBR: "<color=#00B2FF>Puni\xE7\xE3o</color>"
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: 4de4ae7b300701f45841ea4db93ac092, type: 3}

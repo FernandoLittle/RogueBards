@@ -440,7 +440,7 @@ public class Instructions : MonoBehaviour
                 //SceneManager.LoadScene("Battle");
                 break;
             case 315:
-                SetButtonST("Accept the bad luck.", "Flip the coin againX.", "", "", "");
+                SetButtonST("Accept the bad luck.", "Flip the coin again.", "", "", "");
                 TalesVariables.ButtonInstructions.TranslateButton(5, 6, 0, 0, 0);
                 SetButton(-101, -102, 0, 0, 0);
                 TalesVariables.ShowText();
@@ -622,7 +622,26 @@ public class Instructions : MonoBehaviour
                 SkillA.RelicRewardDagger();
                 TalesVariables.ShowText();
                 break;
+            case 1008: //Anne Laura
+                int Anne;
+                Anne = PlayerPrefs.GetInt("Anne");
+                if (Anne == 0)
+                {
+                    Debug.Log("Laura");
+                    StaticPlayer.Fight = 15 ;
+                    TalesVariables.Loading.SetActive(true);
+                    GodCube.TakeScreenshot("Battle");
 
+                }
+                if (Anne == 1)
+                {
+                    Debug.Log("Anne1");
+                    StaticPlayer.Fight = 11;
+                    TalesVariables.Loading.SetActive(true);
+                    GodCube.TakeScreenshot("Battle");
+
+                }
+                break;
 
             //*****************************************************
             //2000 RewardTale

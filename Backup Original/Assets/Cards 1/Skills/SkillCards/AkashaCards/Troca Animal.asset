@@ -20,7 +20,7 @@ MonoBehaviour:
   id: 0
   Texto0: Swap your attack and defense with your opponent's attack and defense.
   Texto0br: Troque o seu ataque e a sua defesa com o ataque e defesa do seu oponente.
-  scale: 5
+  scale: 9
   IAturn: 0
   KeywordId: 02000000
   KeywordValues:

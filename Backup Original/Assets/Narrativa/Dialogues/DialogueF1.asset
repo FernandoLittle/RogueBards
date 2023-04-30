@@ -15,16 +15,16 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - ' Do you want to do <color=yellow>The Justice</color> and <color=yellow>The Good</color>?'
-  - Of course! You are a good person and a good person fight against <color=red>Evil</color>
-    and do <color=yellow>The Good</color>.
+  - Of course! You are a good person and a good person fight against <color=red>The
+    Evil</color> and do <color=yellow>The Good</color>.
   - 'I will teach you how to kill these evil cannibals, first select one of your
     skills.
 
     Your skills have a blue border and are at the bottom of the screen.'
   DialogueBR:
   - "Voc\xEA quer fazer <color=yellow>A Justi\xE7a</color> e <color=yellow>O Bem</color>?"
-  - "\xC9 claro! Voc\xEA \xE9 uma boa pessoa e uma boa pessoa luta contra o <color=red>Mal</color>
-    e faz <color=yellow>O Bem</color>."
+  - "\xC9 claro! que sim Voc\xEA \xE9 uma boa pessoa e uma boa pessoa luta contra
+    <color=red>O Mal</color> e faz <color=yellow>O Bem</color>."
   - "Eu vou te ensinar como matar esses canibais malvados, primeiro selecione uma
     de suas habilidades.\nSuas habilidades t\xEAm uma borda azul e est\xE3o na parte
     inferior da tela."

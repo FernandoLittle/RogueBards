@@ -17,6 +17,7 @@ public class Dialogues : MonoBehaviour
     public List<ListString> DarkTextBR;
     public Image Face;
     public Stuff Stuff;
+    public Text DarkText2;
     // Start is called before the first frame update
     void Start()
     {

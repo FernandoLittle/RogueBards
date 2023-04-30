@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - William believed in the depths of his soul that cruel and brutal revenge would
-    be able to atone for his sins and purify his heart.
+  - <color=purple>William</color> believed in the depths of his soul that cruel and
+    brutal revenge would be able to atone for his sins and purify his heart.
   - Two professionals are experts in the art of revenge, the warrior and the assassin.
   - Do you want to become a good warrior who will fight for justice or an evil assassin
     who will fight for crime?
   DialogueBR:
-  - "William acreditava do fundo de sua alma que uma vingan\xE7a cruel e brutal seria
-    capaz de expiar seus pecados e purificar seu cora\xE7\xE3o."
+  - "<color=purple>William</color> acreditava do fundo de sua alma que uma vingan\xE7a
+    cruel e brutal seria capaz de expiar seus pecados e purificar seu cora\xE7\xE3o."
   - "Dois profissionais s\xE3o especialistas na arte da vingan\xE7a, o guerreiro
     e o assassino."
   - "Voc\xEA deseja se tornar um guerreiro do bem que lutar\xE1 pela justi\xE7a ou

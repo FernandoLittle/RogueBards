@@ -181,6 +181,7 @@ public class FantasyRivalsIA : MonoBehaviour
 
         if (A.Zone[F.z].sentimento == 0)//calma
         {
+            Debug.Log("Oponente Calmo");
             IdealManaA = Random.Range(0, 4);
         }
         if (A.Zone[F.z].sentimento == 1)//medo
@@ -196,9 +197,9 @@ public class FantasyRivalsIA : MonoBehaviour
                     IdealManaA = Random.Range(3, TotalManaA);
                 if (IdealManaA > 7)
                 {
-                    IdealManaA = 7;
+                    IdealManaA = Random.Range(4, 6);
                 }
-                Debug.Log("Ideal Mana = " + IdealManaA.ToString());
+               
                 }
                
                     
@@ -225,6 +226,7 @@ public class FantasyRivalsIA : MonoBehaviour
             IdealManaA = -1;
         }
         IdealManaA = Generic.Smaller(IdealManaA, TotalManaA);
+        Debug.Log("Ideal Mana = " + IdealManaA.ToString());
         if (SelectorAlly == 0)
         {
             IdealScaleA=D.AttackS[SkillIDA[0]].scale;

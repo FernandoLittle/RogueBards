@@ -15,7 +15,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 279ecd3a7bdedad4295503e6997668e0, type: 3}
   sprite1: {fileID: 0}
   Name: <color=yellow>Misha</color>
-  id: 0
+  id: 19
   idPersonagem: 0
   AtaqueForte: 0e000000
   "AtaqueR\xE1pido": 0e000000

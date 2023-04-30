@@ -448,14 +448,14 @@ public class B : MonoBehaviourPunCallbacks
         a.SetSentimento();
         unknown = "O sentimento do humano é desconhecido, mas quando ele fica cara a cara com outro humano seus sentimentos vão despertar.";
 
-        calm = "<color=blue>Calma</color>: O humano provavelmente gastará pouca mana. \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
-        fear = "<color=purple>Medo</color>: O humano provavelmente gastará muita mana. \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
+        calm = "<color=#00B2FF>Calma</color>: O humano <i>provavelmente</i> gastará pouca mana. \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
+        fear = "<color=purple>Medo</color>: O humano <i>provavelmente</i> gastará muita mana. \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
 
         rage = "?";
         hate = "?";
         compassion = "<color=#FF0080>Compaixão</color>: Isso é estranho.";
-        calm1 = "<color=blue>Calma</color>: Seu <color=blue>bônus sentimental</color> é ativado quando você gasta pouca mana (menos de 5). \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
-        fear1 = "<color=purple>Medo</color>: Seu <color=blue>bônus sentimental</color> é ativado quando você gasta muita mana (mais de 4). \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
+        calm1 = "<color=#00B2FF>Calma</color>: Seu <color=#00B2FF>bônus sentimental</color> é ativado quando você gasta pouca mana (menos de 5). \n Causa: O humano acha que está ganhando essa luta, isso o acalma.";
+        fear1 = "<color=purple>Medo</color>: Seu <color=#00B2FF>bônus sentimental</color> é ativado quando você gasta muita mana (mais de 4). \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
         rage1 = "?";
         hate1 = "?";
         compassion1 = "<color=#FF0080>Compassion</color>: Você não deveria estar sentindo isso.";
@@ -507,14 +507,14 @@ public class B : MonoBehaviourPunCallbacks
         string compassion1;
         a.SetSentimento();
         unknown= "The human's feeling is unknown, but when he comes face to face with another human his feelings will awaken.";
-        calm = "<color=blue>Calm</color>: The human will probably spend a small amount of mana. \n Cause: The human thinks he is winning this fight, it calms him down.";
-        fear = "<color=purple>Fear</color>: The human will probably spend a large amount of mana. \n Cause: The human thinks he is losing this fight, it scares him.";
+        calm = "<color=#00B2FF>Calm</color>: The human will <i>probably</i> spend a small amount of mana. \n Cause: The human thinks he is winning this fight, it calms him down.";
+        fear = "<color=purple>Fear</color>: The human will <i>probably</i>  spend a large amount of mana. \n Cause: The human thinks he is losing this fight, it scares him.";
 
         rage = "?";
         hate = "?";
         compassion = "<color=#FF0080>Compassion</color>: This is weird.";
-        calm1 = "<color=blue>Calm</color> Your <color=blue>sentimental bonus</color> is activated when you spend a small amount of mana (less than 5). \n Cause: The human thinks he is winning this fight, it calms him down.";
-        fear1 = "<color=purple>Fear</color>:Your <color=blue>sentimental bonus</color> is activated when you spend large amount of mana (more than 4). \n Cause: The human thinks he is losing this fight, it scares him.";
+        calm1 = "<color=#00B2FF>Calm</color> Your <color=#00B2FF>sentimental bonus</color> is activated when you spend a small amount of mana (less than 5). \n Cause: The human thinks he is winning this fight, it calms him down.";
+        fear1 = "<color=purple>Fear</color>:Your <color=#00B2FF>sentimental bonus</color> is activated when you spend large amount of mana (more than 4). \n Cause: The human thinks he is losing this fight, it scares him.";
         rage1 = "?";
         hate1 = "?";
         compassion1 = "<color=#FF0080>Compassion</color>: You shouldn't be feeling this.";

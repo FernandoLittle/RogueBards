@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 1
   SpriteRelic: {fileID: 21300000, guid: ce212faa611a5b540b4481e9832ad663, type: 3}
-  Description: 'Gain 1 attack when you activate your <color=blue>Sentimental Bonus</color>.
+  Description: 'Gain 1 attack when you activate your <color=#00B2FF>Sentimental Bonus</color>.
 
 '
-  DescriptionBR: "Ganhe 1 de ataque ao ativar seu <color=blue>b\xF4nus sentimental\r</color>.\n"
+  DescriptionBR: "Ganhe 1 de ataque ao ativar seu <color=#00B2FF>b\xF4nus sentimental\r</color>.\n"
   Name: <color=red>Sword of William</color>
   NameBR: <color=red>Espada de William</color>
   Type: 1

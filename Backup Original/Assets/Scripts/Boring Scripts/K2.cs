@@ -34,6 +34,22 @@ public class K2 : MonoBehaviour
         {
             DarkText.text = Dialogues.DarkTextBR[idDark].Speak[darktime];
         }
+        if (darktime == 0)
+        {
+            Dialogues.DarkText2.text = "Round 1";
+        }
+        if (darktime == 1)
+        {
+            Dialogues.DarkText2.text = "Round 2";
+        }
+        if (darktime == 2)
+        {
+            Dialogues.DarkText2.text = "Round 3";
+        }
+        if (darktime == 3)
+        {
+            Dialogues.DarkText2.text = "Round 4";
+        }
         darktime += 1;
     }
 }

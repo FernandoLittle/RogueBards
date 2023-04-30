@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - In the end, William died.
+  - In the end, <color=purple>William</color> died.
   - Just like all the people that ever existed.
   - Just like all the people who will be born.
   - Just like <i><color=Black>me</color> </i>.
   - <color=Black>Just like you.</color>
   DialogueBR:
-  - No final, William morreu.
+  - No final, <color=purple>William</color> morreu.
   - "Assim como todas as pessoas que j\xE1 existiram."
   - "Assim como todas as pessoas que v\xE3o nascer."
   - Assim como <i><color=Black>eu</color> </i>.

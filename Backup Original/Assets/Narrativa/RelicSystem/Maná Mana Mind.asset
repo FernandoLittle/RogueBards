@@ -16,6 +16,6 @@ MonoBehaviour:
   SpriteRelic: {fileID: 21300000, guid: 12f54681f86abfc44946dda75435e7a9, type: 3}
   Description: At the end of the fight, deal 2 damage for each remaining mana.
   DescriptionBR: No fim da luta, cause 2 de dano por cada mana restante.
-  Name: <color=blue>Mind of Mana</color>
-  NameBR: <color=blue>Mente de Mana</color>
+  Name: <color=#00B2FF>Mind of Mana</color>
+  NameBR: <color=#00B2FF>Mente de Mana</color>
   Type: 1

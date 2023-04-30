@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Vento Frio
   m_EditorClassIdentifier: 
-  Name: <color=blue>Cold Wind</color>
-  NameBR: <color=blue>Vento Frio</color>
-  GodText: Musicians release <color=blue>Mana</color>.
-  GodTextBR: "Os m\xFAsicos liberam o <color=blue>Mana</color>."
+  Name: <color=#00B2FF>Cold Wind</color>
+  NameBR: <color=#00B2FF>Vento Frio</color>
+  GodText: Musicians release <color=#00B2FF>Mana</color>.
+  GodTextBR: "Os m\xFAsicos liberam o <color=#00B2FF>Mana</color>."
   sprite: {fileID: 21300000, guid: c24b17fb11fbe3f41ba9d57f39eabd3b, type: 3}
   id: 0
   Texto0: Deals damage equal to the mana difference between you and your opponent.

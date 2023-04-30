@@ -5932,6 +5932,8 @@ GameObject:
   - component: {fileID: 1111317434}
   - component: {fileID: 1111317433}
   - component: {fileID: 1111317432}
+  - component: {fileID: 1111317436}
+  - component: {fileID: 1111317435}
   m_Layer: 5
   m_Name: Defeat
   m_TagString: Untagged
@@ -5960,8 +5962,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
+    m_FontSize: 62
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -6000,6 +6002,35 @@ RectTransform:
   m_AnchoredPosition: {x: -32, y: -63.000023}
   m_SizeDelta: {x: 456.2365, y: 263.25708}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1111317435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111317431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1111317436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111317431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef718e3ac32d35b40813410bc90c3b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 33
+  textinho: {fileID: 1111317432}
 --- !u!1 &1189888558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,6 +6117,8 @@ GameObject:
   - component: {fileID: 1234072467}
   - component: {fileID: 1234072466}
   - component: {fileID: 1234072465}
+  - component: {fileID: 1234072469}
+  - component: {fileID: 1234072468}
   m_Layer: 5
   m_Name: Victory
   m_TagString: Untagged
@@ -6114,8 +6147,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
+    m_FontSize: 62
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -6154,6 +6187,35 @@ RectTransform:
   m_AnchoredPosition: {x: -32.000023, y: -63}
   m_SizeDelta: {x: 456.2365, y: 263.25708}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1234072468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234072464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1234072469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234072464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef718e3ac32d35b40813410bc90c3b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 32
+  textinho: {fileID: 1234072465}
 --- !u!1 &1526355606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6165,6 +6227,8 @@ GameObject:
   - component: {fileID: 1526355607}
   - component: {fileID: 1526355609}
   - component: {fileID: 1526355608}
+  - component: {fileID: 1526355611}
+  - component: {fileID: 1526355610}
   m_Layer: 5
   m_Name: EnemyLife
   m_TagString: Untagged
@@ -6204,7 +6268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6212,7 +6276,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
@@ -6233,6 +6297,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526355606}
   m_CullTransparentMesh: 0
+--- !u!114 &1526355610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526355606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1526355611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526355606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef718e3ac32d35b40813410bc90c3b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 31
+  textinho: {fileID: 1526355608}
 --- !u!1 &1558193203
 GameObject:
   m_ObjectHideFlags: 0
@@ -6681,6 +6774,7 @@ GameObject:
   - component: {fileID: 1825701129}
   - component: {fileID: 1825701128}
   - component: {fileID: 1825701127}
+  - component: {fileID: 1825701130}
   m_Layer: 5
   m_Name: AllyLifeINT
   m_TagString: Untagged
@@ -6701,7 +6795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.5411574, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6709,7 +6803,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -6749,6 +6843,21 @@ RectTransform:
   m_AnchoredPosition: {x: -202, y: 43.99998}
   m_SizeDelta: {x: 456.2365, y: 263.25708}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1825701130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825701126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1847093415
 GameObject:
   m_ObjectHideFlags: 0
@@ -6760,6 +6869,8 @@ GameObject:
   - component: {fileID: 1847093416}
   - component: {fileID: 1847093418}
   - component: {fileID: 1847093417}
+  - component: {fileID: 1847093420}
+  - component: {fileID: 1847093419}
   m_Layer: 5
   m_Name: AllyLife
   m_TagString: Untagged
@@ -6783,8 +6894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189.7, y: 143.78003}
-  m_SizeDelta: {x: 276.224, y: 114.2957}
+  m_AnchoredPosition: {x: -224, y: 160}
+  m_SizeDelta: {x: 339.14478, y: 114.330414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847093417
 MonoBehaviour:
@@ -6799,7 +6910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.5411574, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6807,13 +6918,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 70
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6828,6 +6939,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847093415}
   m_CullTransparentMesh: 0
+--- !u!114 &1847093419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847093415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1847093420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847093415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef718e3ac32d35b40813410bc90c3b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 30
+  textinho: {fileID: 1847093417}
 --- !u!1 &1930883857
 GameObject:
   m_ObjectHideFlags: 0
@@ -6839,6 +6979,7 @@ GameObject:
   - component: {fileID: 1930883860}
   - component: {fileID: 1930883859}
   - component: {fileID: 1930883858}
+  - component: {fileID: 1930883861}
   m_Layer: 5
   m_Name: EnemyLifeINT
   m_TagString: Untagged
@@ -6859,7 +7000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7264151, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6867,7 +7008,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a71c724401d4071408c126867076314c, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -6907,6 +7048,21 @@ RectTransform:
   m_AnchoredPosition: {x: 124.1, y: 44}
   m_SizeDelta: {x: 456.2365, y: 263.25708}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1930883861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930883857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2065848599
 GameObject:
   m_ObjectHideFlags: 0

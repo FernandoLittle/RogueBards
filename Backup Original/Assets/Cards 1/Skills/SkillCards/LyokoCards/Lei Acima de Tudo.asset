@@ -20,7 +20,7 @@ MonoBehaviour:
   id: 0
   Texto0: If you have 0 mana, you gain 5 mana.
   Texto0br: "Se voc\xEA tiver 0 de mana, ganha 5 de mana."
-  scale: 6
+  scale: 8
   IAturn: 0
   KeywordId: 
   KeywordValues: []

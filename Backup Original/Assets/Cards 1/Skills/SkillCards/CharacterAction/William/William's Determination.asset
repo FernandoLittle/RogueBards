@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: William's Determination
   m_EditorClassIdentifier: 
-  Name: <color=blue>William's Determination</color>
-  NameBR: "<color=blue>Determina\xE7\xE3o de William</color>"
+  Name: <color=#00B2FF>William's Determination</color>
+  NameBR: "<color=#00B2FF>Determina\xE7\xE3o de William</color>"
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: 17a76833d7da0ca4e804f4b4a2856595, type: 3}
   id: 28
   Texto0: 

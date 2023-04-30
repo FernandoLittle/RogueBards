@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: William's Fury
   m_EditorClassIdentifier: 
-  Name: <color=blue>William's Fury</color>
-  NameBR: "<color=blue>F\xFAria de William</color>"
+  Name: <color=#00B2FF>William's Fury</color>
+  NameBR: "<color=#00B2FF>F\xFAria de William</color>"
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: 2c1c71548061fe34f9690f6bb2d17591, type: 3}
   id: 28
   Texto0: 

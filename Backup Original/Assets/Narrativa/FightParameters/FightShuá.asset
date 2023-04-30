@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0a508b6e0c29246801207cdedec8c8, type: 3}
   m_Name: "FightShu\xE1"
   m_EditorClassIdentifier: 
-  IdFight: 7
+  IdFight: 14
   IdChara: 00000000000000001300000000000000000000001c00000000000000
   Dialogue1: []
   Dialogue2: []

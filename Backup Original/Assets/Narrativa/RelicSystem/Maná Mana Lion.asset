@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 10
   SpriteRelic: {fileID: 21300000, guid: bbd9e12f4ca494045bcee3f5a998bedb, type: 3}
-  Description: '<color=blue>Sentimental Bonus</color>: Gain 2 mana.'
-  DescriptionBR: "<color=blue>B\xF4nus sentimental</color>: Ganhe 2 de mana."
-  Name: <color=blue>Lion of Mana</color>
-  NameBR: "<color=blue>Le\xE3o de Mana</color>"
+  Description: '<color=#00B2FF>Sentimental Bonus</color>: Gain 2 mana.'
+  DescriptionBR: "<color=#00B2FF>B\xF4nus sentimental</color>: Ganhe 2 de mana."
+  Name: <color=#00B2FF>Lion of Mana</color>
+  NameBR: "<color=#00B2FF>Le\xE3o de Mana</color>"
   Type: 1

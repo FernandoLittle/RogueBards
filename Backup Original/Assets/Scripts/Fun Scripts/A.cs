@@ -152,6 +152,7 @@ public class A : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("IntCena",2);
         Stuff.Cards = DD.Chara;
         SetCenario();
         if (StaticPlayer.Adventure == false)

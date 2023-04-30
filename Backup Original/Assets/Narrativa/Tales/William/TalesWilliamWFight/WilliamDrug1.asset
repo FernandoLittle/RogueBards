@@ -47,6 +47,8 @@ MonoBehaviour:
   - The <color=yellow>drug dealer</color> lied, giving the name and address of a
     assassin he knew. <color=purple>William</color> naively believed and, the next
     day, he was faced with an opponent much stronger than he imagined.
+  - An opponent that made <color=purple>William</color> feel stupid and the <color=yellow>drug
+    dealer</color>r feel smart.
   DialogueBR:
   - "<color=purple>William</color> gostava das noites assim como gostava da solid\xE3o.
     Ele estava descansando sentado em um banco em uma pra\xE7a silenciosa, at\xE9
@@ -82,6 +84,8 @@ MonoBehaviour:
   - "O <color=yellow>traficante</color> mentiu, dando o nome e o endere\xE7o de um
     assassino que ele conhecia. <color=purple>William</color> acreditou ingenuamente
     e, no dia seguinte, se deparou com um advers\xE1rio muito mais forte do que imaginava."
-  idchara: 00000000110000001c000000000000001c0000000000000011000000000000001c00000011000000000000001c0000001100000000000000000000001c00000000000000
-  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000
+  - "Um advers\xE1rio que fez <color=purple>William</color> se sentir est\xFApido
+    e o <color=yellow>traficante</color> se sentir inteligente."
+  idchara: 00000000110000001c000000000000001c0000000000000011000000000000001c00000011000000000000001c0000001100000000000000000000001c0000000000000000000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000
   Cenario: 8

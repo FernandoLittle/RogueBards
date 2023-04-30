@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Corno
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: bdf2ad0ce28756645a31589710bca5a3, type: 3}
+  sprite: {fileID: 21300000, guid: d9642ae1d2904484f9bcdae3e51794ca, type: 3}
   sprite1: {fileID: 0}
   Name: ' <color=yellow>Otterg</color>'
   id: 18

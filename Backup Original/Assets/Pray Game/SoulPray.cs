@@ -31,9 +31,11 @@ public class SoulPray : MonoBehaviour
     public GameObject WrongAnswerGO;
     public GameObject CorrectAnswerGO;
     public GameObject UltraCorrectAnswerGO;
-
+    public GameObject DarkEnd;
+    public ParticleSystem ps;
     private void Start()
     {
+        PlayerPrefs.SetInt("IntCena", 5);
         language = PlayerPrefs.GetInt("Language");
         NextTale();
         Timer = 0;
@@ -62,6 +64,7 @@ public class SoulPray : MonoBehaviour
     }
     public void EndPray()
     {
+        DarkEnd.SetActive(true);
         Idle = PlayerPrefs.GetInt("Idle");
         if (Idle == 1)
         {
@@ -136,6 +139,7 @@ public class SoulPray : MonoBehaviour
     {
         if(Pray2.text== Pray.text)
         {
+            ps.Play();
             score += 1;
             scoreT.text = score.ToString();
            // UpPray();

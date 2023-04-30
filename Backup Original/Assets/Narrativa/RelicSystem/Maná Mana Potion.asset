@@ -16,6 +16,6 @@ MonoBehaviour:
   SpriteRelic: {fileID: 21300000, guid: cf6be1edd1dd13346884a3358d15e7a9, type: 3}
   Description: No fim de cada turno perca 1 de vida e ganhe 2 de mana.
   DescriptionBR: At the end of each turn, lose 1 life and gain 2 mana.
-  Name: <color=blue>Potion of Mana</color>
-  NameBR: "<color=blue>Po\xE7\xE3o de Mana</color>"
+  Name: <color=#00B2FF>Potion of Mana</color>
+  NameBR: "<color=#00B2FF>Po\xE7\xE3o de Mana</color>"
   Type: 1

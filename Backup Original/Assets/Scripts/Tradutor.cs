@@ -67,7 +67,7 @@ public class Tradutor : MonoBehaviour
             }
             if (id == 11)
             {
-                textinho.text = "Era uma vez um espantalho...";
+                textinho.text = "Era uma vez um espantalho";
             }
             if (id == 12)
             {
@@ -137,18 +137,46 @@ public class Tradutor : MonoBehaviour
             {
                 textinho.text = "Resposta errada. Parabéns!";
             }
+            if (id == 29)
+            {
+                textinho.text = " Parabéns, você concluiu um dos finais da versão beta do Os Quatro Caminhos.\n Muito obrigado por jogar. Você também é bem-vindo no nosso canal do Discord para dar feedback, relatar bugs ou fazer sugestões.\n :)";
+            }
+
+            if (id == 30)
+            {
+                textinho.text = "Sua vida";
+            }
+            if (id == 31)
+            {
+                textinho.text = "Vida do oponente";
+            }
+            if (id == 32)
+            {
+                textinho.text = "Vitória";
+            }
+            if (id == 33)
+            {
+                textinho.text = "Derrota";
+            }
+
+
+
+
+
+
 
             if (id == 0)
             {
                 textinho.text = "";
             }
         }
-       
+
+
+
+
+
+
 
     }
 
-
-
-
 }
-

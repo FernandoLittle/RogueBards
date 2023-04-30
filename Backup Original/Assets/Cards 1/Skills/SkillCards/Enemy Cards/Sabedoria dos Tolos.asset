@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Sabedoria dos Tolos
   m_EditorClassIdentifier: 
-  Name: <color=blue>Wisdom of the Fool</color>
-  NameBR: <color=blue>Sabedoria do Tolo</color>
+  Name: <color=#00B2FF>Wisdom of the Fool</color>
+  NameBR: <color=#00B2FF>Sabedoria do Tolo</color>
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: 763bff7c308d99646a3d04007698d5ed, type: 3}

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Nome Maldito
   m_EditorClassIdentifier: 
-  Name: <color=blue>Cursed Name</color>
-  NameBR: <color=blue>Nome Maldito</color>
-  GodText: Moonlight raises <color=blue>Mana</color>.
-  GodTextBR: O luar eleva o <color=blue>Mana</color>.
+  Name: <color=#00B2FF>Cursed Name</color>
+  NameBR: <color=#00B2FF>Nome Maldito</color>
+  GodText: Moonlight raises <color=#00B2FF>Mana</color>.
+  GodTextBR: O luar eleva o <color=#00B2FF>Mana</color>.
   sprite: {fileID: 21300000, guid: 93d1fa0d413d16b4cb1d6ba62ae66d9d, type: 3}
   id: 0
   Texto0: 'Victory: Gain 1 life for each mana you have.'

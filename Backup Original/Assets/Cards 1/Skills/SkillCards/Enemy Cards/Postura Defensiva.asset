@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Postura Defensiva
   m_EditorClassIdentifier: 
-  Name: <color=blue>Defensive Stance</color>
-  NameBR: <color=blue>Postura Defensiva</color>
+  Name: <color=#00B2FF>Defensive Stance</color>
+  NameBR: <color=#00B2FF>Postura Defensiva</color>
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: e9a39dacddbbc0649a0e4f3000408118, type: 3}

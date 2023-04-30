@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: "Tolice dos S\xE1bios"
   m_EditorClassIdentifier: 
-  Name: <color=blue>Foolishness of the Wise</color>
-  NameBR: "<color=blue>Tolice do S\xE1bio</color>"
+  Name: <color=#00B2FF>Foolishness of the Wise</color>
+  NameBR: "<color=#00B2FF>Tolice do S\xE1bio</color>"
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: 590f12ccf20e0224b90f1d475715cbb4, type: 3}

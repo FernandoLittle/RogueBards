@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: Kain
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: d2e25c74500df9c4ea4f42dc60fdf311, type: 3}
+  sprite: {fileID: 21300000, guid: d9530848819f0c44fbde139a046a5013, type: 3}
   sprite1: {fileID: 0}
   Name: <color=#FF0080>Kain</color>
   id: 32

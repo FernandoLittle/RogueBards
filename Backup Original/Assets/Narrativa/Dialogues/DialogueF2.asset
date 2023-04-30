@@ -14,33 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Every turn humans will spend <color=blue>mana</color> in an attempt to get more
-    <color=yellow>power</color> than the opponent.
+  - Every turn humans will spend <color=#FF0080>mana</color> in an attempt to get
+    more <color=yellow>power</color> than the opponent.
   - 'Each of your skills has a <color=cyan>level</color> that is represented by this
     symbol:'
-  - Each human has an amount of <color=blue>mana</color> that you can spend on each
-    fight.
+  - Each human has an amount of <color=#FF0080>mana</color> that you can spend on
+    each fight.
   - 'Your power will be equal to the <color=cyan>level</color> of your skill multiplied
-    by the <color=blue>mana</color> you use. '
+    by the <color=#FF0080>mana</color> you use. '
   - Some effects of your skills only activate when you have more <color=yellow>power</color>
     than your opponent.
-  - This turn the humans will beg for their pathetic lives. Don't spend <color=blue>mana</color>
-    on this useless skill, wait for the next turn to spend your <color=blue>mana</color>
+  - This turn the humans will beg for their pathetic lives. Don't spend <color=#FF0080>mana</color>
+    on this useless skill, wait for the next turn to spend your <color=#FF0080>mana</color>
     and kill this damn cannibal.
   DialogueBR:
-  - "A cada turno, os humanos gastar\xE3o <color=blue>mana</color> na tentativa de
-    obter mais <color=yellow>poder</color> do que o oponente."
+  - "A cada turno, os humanos gastar\xE3o <color=#FF0080>mana</color> na tentativa
+    de obter mais <color=yellow>poder</color> do que o oponente."
   - "Cada uma de suas habilidades tem um <color=cyan>n\xEDvel</color> que \xE9 representado
     por este s\xEDmbolo:"
-  - "Cada humano tem uma quantidade de <color=blue>mana</color> que voc\xEA pode
+  - "Cada humano tem uma quantidade de <color=#FF0080>mana</color> que voc\xEA pode
     gastar em cada luta."
   - "Seu poder ser\xE1 igual ao <color=cyan>n\xEDvel</color> de sua habilidade multiplicado
-    pela <color=blue>mana</color> que voc\xEA usa."
+    pela <color=#FF0080>mana</color> que voc\xEA usa."
   - "Alguns efeitos de suas habilidades s\xF3 s\xE3o ativados quando voc\xEA tem
     mais <color=yellow>poder</color> que seu oponente."
   - "Neste turno, os humanos v\xE3o implorar por suas vidas pat\xE9ticas. N\xE3o
-    gaste <color=blue>mana</color> nessa habilidade in\xFAtil, espere o pr\xF3ximo
-    turno para gastar sua <color=blue>mana</color> e mate esse maldito canibal."
+    gaste <color=#FF0080>mana</color> nessa habilidade in\xFAtil, espere o pr\xF3ximo
+    turno para gastar sua <color=#FF0080>mana</color> e mate esse maldito canibal."
   idchara: 000000000000000000000000000000000000000000000000
   instruction: 0b0000000c0000000d0000000e0000000f0000000000000001000000
   Cenario: 0

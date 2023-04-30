@@ -9,6 +9,7 @@ public class Translator : MonoBehaviour
     public int a;
     public List<Text> AdventuresT;
     public List<Text> LanguagesT;
+    public List<Text> TextMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,12 @@ public class Translator : MonoBehaviour
         AdventuresT[1].text = "Adventure of William";
         LanguagesT[0].text = "Language:";
         LanguagesT[1].text = "Play";
+
+
+        TextMenu[0].text = "Volume";
+        TextMenu[1].text = "Language";
+        TextMenu[2].text = "Continue Game";
+        TextMenu[3].text = "Exit Game";
     }
     public void Portuguese()
     {
@@ -49,6 +56,13 @@ public class Translator : MonoBehaviour
         AdventuresT[1].text = "Aventura de William";
         LanguagesT[0].text = "Idioma:";
         LanguagesT[1].text = "Jogar";
+
+        TextMenu[0].text = "Volume";
+        TextMenu[1].text = "Idioma";
+        TextMenu[2].text = "Continuar o jogo";
+        TextMenu[3].text = "Sair do jogo";
+
+
     }
     public void Fantasminha()
     {

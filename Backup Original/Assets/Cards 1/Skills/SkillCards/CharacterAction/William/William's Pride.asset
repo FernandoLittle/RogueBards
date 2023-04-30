@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: William's Pride
   m_EditorClassIdentifier: 
-  Name: <color=blue>William's Pride</color>
-  NameBR: <color=blue>Orgulho de William</color>
+  Name: <color=#00B2FF>William's Pride</color>
+  NameBR: <color=#00B2FF>Orgulho de William</color>
+  GodText: 
+  GodTextBR: 
   sprite: {fileID: 21300000, guid: dc54b44b76709c34aad1ba1fd4a3ac31, type: 3}
   id: 28
   Texto0: 

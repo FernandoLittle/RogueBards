@@ -22,7 +22,7 @@ MonoBehaviour:
   Bloqueio: 0f000000
   Esquiva: 0f000000
   Vida: 11
-  Ataque: 5
+  Ataque: 8
   Defesa: 3
   act: 0
   mov: 0
@@ -33,3 +33,4 @@ MonoBehaviour:
   Relics: 
   skin: 1700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
   SentimentoType: 0
+  idFace: 0

@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 2
   SpriteRelic: {fileID: 21300000, guid: 6bd520995e6313743a94e8a97eb45629, type: 3}
-  Description: 'Gain 2 mana each time you activate your <color=blue>Sentimental Bonus</color>.
+  Description: 'Gain 2 mana each time you activate your <color=#00B2FF>Sentimental
+    Bonus</color>.
 
 
 '
-  DescriptionBR: "Ganhe 2 de mana toda vez que voc\xEA ativar seu <color=blue>B\xF4nus
+  DescriptionBR: "Ganhe 2 de mana toda vez que voc\xEA ativar seu <color=#00B2FF>B\xF4nus
     Sentimental</color>."
   Name: <color=yellow>Unlucky Coin</color>
   NameBR: <color=yellow>Moeda Azarada</color>

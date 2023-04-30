@@ -15,7 +15,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 083ac4ea34111254db09ad93f827c17a, type: 3}
   sprite1: {fileID: 0}
   Name: <color=purple>Laura</color>
-  id: 30
+  id: 44
   idPersonagem: 0
   AtaqueForte: 1e000000
   "AtaqueR\xE1pido": 1e000000
@@ -30,6 +30,7 @@ MonoBehaviour:
   Passive: 
   Passivebr: 
   KeyordId: 
-  Relics: 
+  Relics: 14000000
   skin: 2300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
   SentimentoType: 0
+  idFace: 44

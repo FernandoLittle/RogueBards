@@ -15,30 +15,30 @@ MonoBehaviour:
   id: 7
   Dialogue:
   - "I can't take it anymore, I\u2026 I don't\u2026 no\u2026 what are we doing here?"
-  - Get up <color=blue>Roy</color>! We're not done yet!
+  - Get up <color=green>Roy</color>! We're not done yet!
   - Can't you see what we're doing? Stop it now!
   - Do you understand that you are disobeying the military hierarchy?
   - <color=yellow>Yuri</color>! You are crazy? We can't go on with this!
   - 'Next week:'
-  - You're lucky, <color=blue>Roy</color>, most would have gone to jail for doing
+  - You're lucky, <color=green>Roy</color>, most would have gone to jail for doing
     what you did, but I managed to make you just lose your sword.
   - "I need the sword, I need the salary\u2026"
   - Should have thought of that sooner! You will still earn a bonus for services
     performed so far.
   - "This money is not enough, I need\u2026"
-  - You really like to spit on the plate you ate. Get out of my way, the <color=blue>Roy</color>
+  - You really like to spit on the plate you ate. Get out of my way, the <color=green>Roy</color>
     I knew wasn't a parasite.
   - 'Next week:'
-  - <color=blue>Roy</color>  flips a coin, unfortunately the result is a tail.
+  - <color=green>Roy</color>  flips a coin, unfortunately the result is a tail.
   DialogueBR:
   - "Eu n\xE3o aguento mais, eu... eu n\xE3o... n\xE3o... o que estamos fazendo aqui?"
-  - "Levante-se <color=blue>Roy</color>! Ainda n\xE3o terminamos!"
+  - "Levante-se <color=green>Roy</color>! Ainda n\xE3o terminamos!"
   - "Voc\xEA n\xE3o consegue ver o que estamos fazendo? Pare com isso agora!"
   - "Voc\xEA entende que est\xE1 desobedecendo a hierarquia militar?"
   - "<color=yellow>Yuri</color>! Voc\xEA est\xE1 louco? N\xE3o podemos continuar
     com isso!"
   - 'Na semana seguinte:'
-  - "Voc\xEA tem sorte, <color=blue>Roy</color>, a maioria teria ido para a cadeia
+  - "Voc\xEA tem sorte, <color=green>Roy</color>, a maioria teria ido para a cadeia
     por fazer o que voc\xEA fez, mas eu consegui fazer com que voc\xEA apenas perdesse
     sua espada."
   - "Eu preciso da espada, preciso do sal\xE1rio..."
@@ -46,9 +46,9 @@ MonoBehaviour:
     realizados at\xE9 o momento."
   - "Este dinheiro n\xE3o \xE9 suficiente, eu preciso\u2026"
   - "Voc\xEA realmente gosta de cuspir no prato que comeu. Saia da minha frente,
-    o <color=blue>Roy</color> que eu conhecia n\xE3o era um parasita."
+    o <color=green>Roy</color> que eu conhecia n\xE3o era um parasita."
   - 'Na semana seguinte:'
-  - "<color=blue>Roy</color> joga uma moeda, infelizmente o resultado \xE9 coroa."
+  - "<color=green>Roy</color> joga uma moeda, infelizmente o resultado \xE9 coroa."
   idchara: 1b0000000d0000001b0000000d0000001b000000000000000d0000001b0000000d0000001b0000000d000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003b010000
   Cenario: 61

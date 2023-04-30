@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fa3c9ef74419144a1645583b9df078, type: 3}
   m_Name: Ataque Fraco
   m_EditorClassIdentifier: 
-  Name: <color=blue>Weak Attack</color>
-  NameBR: <color=blue>Ataque Fraco</color>
+  Name: <color=#00B2FF>Weak Attack</color>
+  NameBR: <color=#00B2FF>Ataque Fraco</color>
   GodText: 
   GodTextBR: 
   sprite: {fileID: 21300000, guid: 7e354abea8374bc458af006b675d5e2e, type: 3}

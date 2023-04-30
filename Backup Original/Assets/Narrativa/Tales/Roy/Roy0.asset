@@ -14,47 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Your name is <color=blue>Roy Ulbricht</color>, your duty is to keep the peace,
+  - Your name is <color=green>Roy Ulbricht</color>, your duty is to keep the peace,
     your duty is to protect the weak, your duty is to fight for the nation, your
     duty is to make money.
-  - '<color=blue>Roy</color> was finding it increasingly difficult to get up from
+  - '<color=green>Roy</color> was finding it increasingly difficult to get up from
     his bed because he was getting thinner every day.
 
     Snow couldn''t feed his
     body made of water, just as a lie couldn''t feed his soul made of illusions.'
   - 'One more time.
 
-    Your name is <color=blue>Roy Ulbricht</color>, your duty
+    Your name is <color=green>Roy Ulbricht</color>, your duty
     is to keep the peace, your duty is to protect the weak, your duty is to fight
     for the nation, your duty is to make money.'
-  - After getting up, like every good citizen of <color=green>Sarka</color>, he went
-    to work. But <color=blue>Roy</color> was no ordinary man, he had the noblest
+  - After getting up, like every good citizen of <color=yellow>Sarka</color>, he
+    went to work. But <color=blue>Roy</color> was no ordinary man, he had the noblest
     of jobs, he was a soldier of the <color=red>Blue Guard</color>.
   - Upon arriving at the barracks, he found his superior, <color=yellow>Yuri Vitchi</color>,
     a leader admired for his courage and effort. He was about to announce the task
     that would allow Roy to keep the peace, protect the weak, fight for the nation,
     and make money.
-  - Their mission would be to face <color=green>Sarka</color>'s vilest creatures,
+  - Their mission would be to face <color=yellow>Sarka</color>'s vilest creatures,
     the regicidal cannibals who lived in <color=purple>Denai</color>.
   DialogueBR:
-  - "Seu nome \xE9 <color=blue>Roy Ulbricht</color>, seu dever \xE9 manter a paz,
+  - "Seu nome \xE9 <color=green>Roy Ulbricht</color>, seu dever \xE9 manter a paz,
     seu dever \xE9 proteger os fracos, seu dever \xE9 lutar pela na\xE7\xE3o, seu
     dever \xE9 ganhar dinheiro."
-  - "<color=blue>Roy</color> tinha cada vez mais dificuldade de se levantar da cama,
+  - "<color=green>Roy</color> tinha cada vez mais dificuldade de se levantar da cama,
     pois estava ficando mais magro a cada dia.\r\nA neve n\xE3o conseguia alimentar
-    seu corpo feito de \xE1gua, assim como a mentira n\xE3o conseguia conseguia alimentar
-    sua alma feita de ilus\xF5es."
-  - "Mais uma vez.\nSeu nome \xE9 <color=blue>Roy Ulbricht</color>, seu dever \xE9
+    seu corpo feito de \xE1gua, assim como a mentira n\xE3o conseguia alimentar sua
+    alma feita de ilus\xF5es."
+  - "Mais uma vez.\nSeu nome \xE9 <color=green>Roy Ulbricht</color>, seu dever \xE9
     manter a paz, seu dever \xE9 proteger os fracos, seu dever \xE9 lutar pela na\xE7\xE3o,
     seu dever \xE9 ganhar dinheiro."
-  - "Depois de se levantar, como todo bom cidad\xE3o de <color=green>Sarka</color>,
+  - "Depois de se levantar, como todo bom cidad\xE3o de <color=yellow>Sarka</color>,
     foi trabalhar. Mas <color=blue>Roy</color> n\xE3o era um homem comum, ele tinha
     o mais nobre dos trabalhos, ele era um soldado da <color=red>Guarda Azul</color>."
   - "Ao chegar ao quartel, encontrou seu superior, <color=yellow>Yuri Vitchi</color>,
     um l\xEDder admirado por sua coragem e esfor\xE7o. Ele estava prestes a anunciar
     a tarefa que permitiria a Roy manter a paz, proteger os fracos, lutar pela na\xE7\xE3o
     e ganhar dinheiro."
-  - "Sua miss\xE3o seria enfrentar as criaturas mais vis de <color=green>Sarka</color>,
+  - "Sua miss\xE3o seria enfrentar as criaturas mais vis de <color=yellow>Sarka</color>,
     os canibais regicidas que viviam em <color=purple>Denai</color>."
   idchara: 1b000000000000001b000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000065000000

@@ -659,6 +659,9 @@ public class G : MonoBehaviour
     }
     public void KeywordText(Action action)
     {
+        NoDuplicates[0] = false;
+        NoDuplicates[1] = false;
+        NoDuplicates[2] = false;
         for (int x = 0; x < action.KeywordId.Count; x = x + 1)
         {
             if (d.Generic.Desc(action.KeywordId[x]) == 0)
@@ -805,13 +808,13 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 27)
             {
-                d.Description.text += "<color=#FF62B4>Altruism</color>: Both humans gain life.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Altruism</color> ";
+                d.Description.text += "<color=#00FF00>Altruism</color>: Both humans gain life.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Altruism</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 28)
             {
-                d.Description.text += "<color=#FF62B4>Life + </color>: Gain life.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Life + </color> ";
+                d.Description.text += "<color=#00FF00>Life + </color>: Gain life.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Life + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 29)
             {
@@ -857,8 +860,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 37)
             {
-                d.Description.text += "<color=blue>Mana Recovery Mana</color>: Recovers all mana spent on this skill.\n";
-                d.KeywordsT[x].text = "<color=blue>Mana Recovery Mana</color> ";
+                d.Description.text += "<color=#00B2FF>Mana Recovery Mana</color>: Recovers all mana spent on this skill.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Mana Recovery Mana</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 38)
             {
@@ -877,8 +880,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 41)
             {
-                d.Description.text += "<color=blue>Mana Strike</color>: Deals damage equal to the amount of mana spent on this skill.\n";
-                d.KeywordsT[x].text = "<color=blue>Mana Strike</color> ";
+                d.Description.text += "<color=#00B2FF>Mana Strike</color>: Deals damage equal to the amount of mana spent on this skill.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Mana Strike</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 42)
             {
@@ -887,8 +890,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 43)
             {
-                d.Description.text += "<color=blue>Mana + </color>: Gains mana.\n";
-                d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
+                d.Description.text += "<color=#00B2FF>Mana + </color>: Gains mana.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Mana + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 44)
             {
@@ -898,35 +901,41 @@ public class G : MonoBehaviour
 
 
 
+            Debug.Log("TO AQUI");
 
-
-            if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000 && NoDuplicates[0] == false)
+            if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000)
             {
-                NoDuplicates[0] = true;
+                Debug.Log("BLUE KEYWORD");
+               
               
                 d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
                 if (NoDuplicates[0] == false)
                 {
                     d.Description.text += "<color=#007CD9>Blue Keyword</color>: Activates when you have more power than your opponent <color=#007CD9>(Victory)</color>.\n";
+                    NoDuplicates[0] = true;
                 }
             }
             if (action.KeywordId[x] < 0)
             {
-                NoDuplicates[1] = true;
+                Debug.Log("GOLD KEYWORD");
+                
                
                 d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
                 if (NoDuplicates[1] == false)
                 {
                     d.Description.text += "<color=#E0B900>Golden Keyword</color>: Activates regardless of whether you win or lose <color=#E0B900>(Passive)</color>.\n";
+                    NoDuplicates[1] = true;
                 }
             }
             if (action.KeywordId[x] > 1000)
             {
-                NoDuplicates[2] = true;              
+                Debug.Log("RED KEYWORD");
+                            
                 d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
                 if(NoDuplicates[2] == false)
                 {
                     d.Description.text += "<color=#FF0000>Red Keyword</color>: Activates when you have less power than your opponent <color=#FF0000>(Defeat)</color>.\n";
+                    NoDuplicates[2] = true;
                 }
             }
             d.KeywordsT[x].text += action.KeywordValues[x];
@@ -936,6 +945,9 @@ public class G : MonoBehaviour
     }
     public void KeywordTextBR(Action action)
     {
+        NoDuplicates[0] = false;
+        NoDuplicates[1] = false;
+        NoDuplicates[2] = false;
         for (int x = 0; x < action.KeywordId.Count; x = x + 1)
         {
             if (d.Generic.Desc(action.KeywordId[x]) == 0)
@@ -1082,13 +1094,13 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 27)
             {
-                d.Description.text += "<color=#7300FF>Altruísmo</color>: Ambos os humanos ganham vida.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Altruísmo</color> ";
+                d.Description.text += "<color=#00FF00>Altruísmo</color>: Ambos os humanos ganham vida.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Altruísmo</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 28)
             {
-                d.Description.text += "<color=#7300FF>Vida + </color>: Ganhe vida.\n";
-                d.KeywordsT[x].text = "<color=#7300FF>Vida + </color> ";
+                d.Description.text += "<color=#00FF00>Vida + </color>: Ganhe vida.\n";
+                d.KeywordsT[x].text = "<color=#00FF00>Vida + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 29)
             {
@@ -1134,8 +1146,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 37)
             {
-                d.Description.text += "<color=blue>Recuperação de Mana</color>: Recupera todo o mana gasto nessa habilidade.\n";
-                d.KeywordsT[x].text = "<color=blue>Recuperação de Mana</color> ";
+                d.Description.text += "<color=#00B2FF>Recuperação de Mana</color>: Recupera todo o mana gasto nessa habilidade.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Recuperação de Mana</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 38)
             {
@@ -1154,8 +1166,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 41)
             {
-                d.Description.text += "<color=blue>Golpe de Mana</color>: Causa dano igual a quantidade de mana gasto nessa habilidade.\n";
-                d.KeywordsT[x].text = "<color=blue>Golpe de Mana</color> ";
+                d.Description.text += "<color=#00B2FF>Golpe de Mana</color>: Causa dano igual a quantidade de mana gasto nessa habilidade.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Golpe de Mana</color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 42)
             {
@@ -1164,8 +1176,8 @@ public class G : MonoBehaviour
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 43)
             {
-                d.Description.text += "<color=blue>Mana + </color>: Ganhe mana.\n";
-                d.KeywordsT[x].text = "<color=blue>Mana + </color> ";
+                d.Description.text += "<color=#00B2FF>Mana + </color>: Ganhe mana.\n";
+                d.KeywordsT[x].text = "<color=#00B2FF>Mana + </color> ";
             }
             if (d.Generic.Desc(action.KeywordId[x]) == 44)
             {
@@ -1177,31 +1189,34 @@ public class G : MonoBehaviour
 
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000)
             {
-                NoDuplicates[0] = true;
+               
                
                 d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
                 if (NoDuplicates[0] == false)
                 {
+                    NoDuplicates[0] = true;
                     d.Description.text += "<color=#007CD9>Keyword Azul</color>: Ativa quando você tem mais poder que seu oponente <color=#007CD9>(Vitória)</color>.\n";
                 }
             }
             if (action.KeywordId[x] < 0)
             {
-                NoDuplicates[1] = true;
+
                
                 d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
                 if (NoDuplicates[1] == false)
                 {
+                    NoDuplicates[1] = true;
                     d.Description.text += "<color=#E0B900>Keyword Dourada</color>: Ativa independentemente de você ganhar ou perder <color=#E0B900>(Passivo)</color>.\n";
                 }
             }
             if (action.KeywordId[x] > 1000)
             {
-                NoDuplicates[2] = true;
+
                
                 d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
                 if (NoDuplicates[2] == false)
                 {
+                    NoDuplicates[2] = true;
                     d.Description.text += "<color=#FF0000>Keyword Vermelha</color>: Ativa quando você tem menos poder que seu oponente <color=#FF0000>(Derrota)</color>.\n";
                 }
             }

@@ -63,8 +63,9 @@ public class TalesVariables : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        PlayerPrefs.SetInt("IntCena", 1);
         //select Day
-        
+
         Index = 0;
         SelectTale.NextTale();
         try

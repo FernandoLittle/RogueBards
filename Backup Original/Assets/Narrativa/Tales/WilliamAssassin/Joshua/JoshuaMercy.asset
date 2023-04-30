@@ -20,6 +20,8 @@ MonoBehaviour:
   - A father will never be able to forgive his son's murderer.
   - <color=blue>Joshua</color> wanted to hate <color=purple>William</color>, he really
     did, but after betraying his opponent's mercy, he could only feel guilt.
+  - <color=#FF0080>Maduin</color> never forgave himself for having such a foolish
+    faith.
   DialogueBR:
   - "Depois de guardar suas adagas, <color=purple>William</color> estendeu a m\xE3o
     para cumprimentar seu oponente, por\xE9m <color=blue>Joshua</color> investiu
@@ -28,6 +30,7 @@ MonoBehaviour:
   - "<color=blue>Joshua</color> queria odiar <color=purple>William</color>, realmente
     queria, mas ap\xF3s trair a miseric\xF3rdia de seu oponente, ele apenas conseguiu
     sentir culpa."
-  idchara: 000000002400000000000000
-  instruction: 0000000000000000000000009a020000
+  - "<color=#FF0080>Maduin</color> nunca se perdoou por ter uma f\xE9 t\xE3o tola."
+  idchara: 00000000240000000000000000000000
+  instruction: 000000000000000000000000000000009a020000
   Cenario: 49
