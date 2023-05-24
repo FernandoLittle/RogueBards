@@ -440,73 +440,73 @@ public class Instructions : MonoBehaviour
                 //SceneManager.LoadScene("Battle");
                 break;
             case 315:
-                SetButtonST("Accept the bad luck.", "Flip the coin again.", "", "", "");
+                SetButtonST("Accept the bad luck", "Flip the coin again", "", "", "");
                 TalesVariables.ButtonInstructions.TranslateButton(5, 6, 0, 0, 0);
                 SetButton(-101, -102, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 316:
-                SetButtonST("Play a religious song.", "Play a love song.", "Play a patriotic song.", "Play an instrumental song.", "");
+                SetButtonST("Play a religious song", "Play a love song", "Play a patriotic song", "Play an instrumental song", "");
                 SetButton(1301, 1302, 1303, 1304, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(7, 8, 9, 10, 0);
                 TalesVariables.ShowText();
                 break;
             case 317:
-                SetButtonST("Play a song.", "Read a book.", "", "", "");
+                SetButtonST("Play a song", "Read a book", "", "", "");
                 SetButton(1305, 1306, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(11, 12, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 318:
-                SetButtonST("Follow your heart.", "Follow Shuá.", "", "", "");
+                SetButtonST("Follow your heart", "Follow Shuá", "", "", "");
                 SetButton(1019, 1020, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(13, 14, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 319:
-                SetButtonST("Join the prayer.", "Doubt the existence of Shuá.", "", "", "");
+                SetButtonST("Join the prayer", "Doubt the existence of Shuá", "", "", "");
                 SetButton(1016, 1017, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(15, 16, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 320:
-                SetButtonST("Follow the Path of Shuá.", "Follow the Path of Warrior.", "", "", "");
+                SetButtonST("Follow the Path of Shuá", "Follow the Path of Warrior", "", "", "");
                 SetButton(1014, 1013, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(17, 18, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 321:
-                SetButtonST("Question the monk.", "Ask for the monk's forgiveness.", "", "", "");
+                SetButtonST("Question the monk", "Ask for the monk's forgiveness", "", "", "");
                 SetButton(1022, 1023, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(19, 20, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 322:
-                SetButtonST("Accept the bribe.", "Refuse the bribe.", "", "", "");
+                SetButtonST("Accept the bribe", "Refuse the bribe", "", "", "");
                 SetButton(1009, 1024, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(21, 22, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 323:
-                SetButtonST("Kill him.", "Spare him.", "", "", "");
+                SetButtonST("Kill him", "Spare him", "", "", "");
                 SetButton(1017, 1016, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(23, 24, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 324:
-                SetButtonST("Accept the offer.", "Decline the offer.", "", "", "");
+                SetButtonST("Accept the offer", "Decline the offer", "", "", "");
                 SetButton(1002, 1001, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(25, 26, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 325:
-                SetButtonST("Congratulations!", "Screw this.", "", "", "");
+                SetButtonST("Congratulations!", "Screw this", "", "", "");
                 SetButton(1005, 1006, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(27, 28, 0, 0, 0);
                 TalesVariables.ShowText();
                 break;
             case 326:
-                SetButtonST("Follow the Path of Warrior.", "Follow the Path of Assassin.", "", "", "");
+                SetButtonST("Follow the Path of Warrior", "Follow the Path of Assassin", "", "", "");
                 SetButton(1, 2, 0, 0, 0);
                 TalesVariables.ButtonInstructions.TranslateButton(29, 30, 0, 0, 0);
                 TalesVariables.ShowText();
@@ -529,6 +529,7 @@ public class Instructions : MonoBehaviour
 
             case 666:
                 TalesVariables.Obrigado.SetActive(true);
+                ResetGame();
                 break;
 
 
@@ -580,6 +581,54 @@ public class Instructions : MonoBehaviour
                 SkillA.SpecificRelicReward(a-800);
                 TalesVariables.ShowText();
                 break;
+
+            //900 END
+            case 901:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a-900);
+                ResetGame();
+                break;
+            case 902:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 903:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 904:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900); 
+                ResetGame();
+                break;
+            case 905:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 906:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 907:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 908:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 909:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+
 
             //1000 Special Instructions
             //*****************************************************
@@ -642,6 +691,11 @@ public class Instructions : MonoBehaviour
 
                 }
                 break;
+            case 1009: //song
+                PlayerPrefs.SetInt("God", 4);//Maná
+                GodCube.TakeScreenshot("Song");
+                break;
+
 
             //*****************************************************
             //2000 RewardTale
@@ -1286,5 +1340,25 @@ public class Instructions : MonoBehaviour
         SetButton(Inteiro[0], Inteiro[1], Inteiro[2], 0, 0);
         TalesVariables.ShowText();
 
+    }
+    public void ResetGame()
+    {
+
+        //mover para adventure
+        PlayerPrefs.SetInt("Day", 0);
+
+
+        PlayerPrefs.SetInt("Skill1", 0);
+        PlayerPrefs.SetInt("Skill2", 0);
+        PlayerPrefs.SetInt("Skill3", 0);
+        PlayerPrefs.SetInt("Skill4", 0);
+
+        PlayerPrefs.SetInt("Relic1", 0);
+        PlayerPrefs.SetInt("Relic2", 0);
+        PlayerPrefs.SetInt("Relic3", 0);
+        PlayerPrefs.SetInt("Relic4", 0);
+        PlayerPrefs.SetInt("Relic5", 0);
+
+        StaticPlayer.RelicsAlly.Clear();
     }
 }

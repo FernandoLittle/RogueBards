@@ -513,94 +513,94 @@ public class ButtonInstructions : MonoBehaviour
         switch (idbutton)
         {
             case 1:
-                ButtonText = "I can.";
+                ButtonText = "I can";
                 break;
             case 2:
-                ButtonText = "I can't.";
+                ButtonText = "I can't";
                 break;
             case 3:
-                ButtonText = "Decline offer.";
+                ButtonText = "Decline offer";
                 break;
             case 4:
-                ButtonText = "It's not up to me to make this decision.";
+                ButtonText = "It's not up to me to make this decision";
                 break;
             case 5:
-                ButtonText = "Accept the bad luck.";
+                ButtonText = "Accept the bad luck";
                 break;
             case 6:
-                ButtonText = "Flip the coin againZ.";
+                ButtonText = "Flip the coin againZ";
                 break;
             case 7:
-                ButtonText = "Play a religious song.";
+                ButtonText = "Play a religious song";
                 break;
             case 8:
-                ButtonText = "Play a love song.";
+                ButtonText = "Play a love song";
                 break;
             case 9:
-                ButtonText = "Play a patriotic song.";
+                ButtonText = "Play a patriotic song";
                 break;
             case 10:
-                ButtonText = "Play an instrumental song.";
+                ButtonText = "Play an instrumental song";
                 break;
             case 11:
-                ButtonText = "Play a song.";
+                ButtonText = "Play a song";
                 break;
             case 12:
-                ButtonText = "Read a book.";
+                ButtonText = "Read a book";
                 break;
             case 13:
-                ButtonText = "Follow your heart.";
+                ButtonText = "Follow your heart";
                 break;
             case 14:
-                ButtonText = "Follow Shuá.";
+                ButtonText = "Follow Shuá";
                 break;
             case 15:
-                ButtonText = "Join the prayer.";
+                ButtonText = "Join the prayer";
                 break;
             case 16:
-                ButtonText = "Doubt the existence of Shuá.";
+                ButtonText = "Doubt the existence of Shuá";
                 break;
             case 17:
-                ButtonText = "Follow the Path of Shuá.";
+                ButtonText = "Follow the Path of Shuá";
                 break;
             case 18:
-                ButtonText = "Follow the Path of Warrior.";
+                ButtonText = "Follow the Path of Warrior";
                 break;
             case 19:
-                ButtonText = "Question the monk.";
+                ButtonText = "Question the monk";
                 break;
             case 20:
-                ButtonText = "Ask for the monk's forgiveness.";
+                ButtonText = "Ask for the monk's forgiveness";
                 break;
             case 21:
-                ButtonText = "Accept the bribe.";
+                ButtonText = "Accept the bribe";
                 break;
             case 22:
-                ButtonText = "Refuse the bribe.";
+                ButtonText = "Refuse the bribe";
                 break;
             case 23:
-                ButtonText = "Kill him.";
+                ButtonText = "Kill him";
                 break;
             case 24:
-                ButtonText = "Spare him.";
+                ButtonText = "Spare him";
                 break;
             case 25:
-                ButtonText = "Accept the offer.";
+                ButtonText = "Accept the offer";
                 break;
             case 26:
-                ButtonText = "Decline the offer.";
+                ButtonText = "Decline the offer";
                 break;
             case 27:
                 ButtonText = "Congratulations!";
                 break;
             case 28:
-                ButtonText = "Screw this.";
+                ButtonText = "Screw this";
                 break;
             case 29:
-                ButtonText = "Follow the Path of Warrior.";
+                ButtonText = "Follow the Path of Warrior";
                 break;
             case 30:
-                ButtonText = "Follow the Path of Assassin.";
+                ButtonText = "Follow the Path of Assassin";
                 break;
 
         }
@@ -616,96 +616,96 @@ public class ButtonInstructions : MonoBehaviour
         {
           
             case 1:
-                ButtonText = "Eu consigo.";
+                ButtonText = "Eu consigo";
                 break;
             case 2:
-                ButtonText = "Eu não consigo.";
+                ButtonText = "Eu não consigo";
                 break;
             case 3:
-                ButtonText = "Recusar a oferta.";
+                ButtonText = "Recusar a oferta";
                 break;
             case 4:
-                ButtonText = "Não cabe a mim tomar essa decisão.";
+                ButtonText = "Não cabe a mim tomar essa decisão";
                 break;
             case 5:
                 Debug.Log("AAAAAAAA");
-                ButtonText = "Aceite o azar.";
+                ButtonText = "Aceite o azar";
                 break;
             case 6:
                 Debug.Log("BBBBBBBBBBBBBBBB");
-                ButtonText = "Jogue a moeda novamente.";
+                ButtonText = "Jogue a moeda novamente";
                 break;
             case 7:
-                ButtonText = "Toque uma música religiosa.";
+                ButtonText = "Toque uma música religiosa";
                 break;
             case 8:
-                ButtonText = "Toque uma música de amor.";
+                ButtonText = "Toque uma música de amor";
                 break;
             case 9:
-                ButtonText = "Toque uma música patriótica.";
+                ButtonText = "Toque uma música patriótica";
                 break;
             case 10:
-                ButtonText = "Toque uma música instrumental.";
+                ButtonText = "Toque uma música instrumental";
                 break;
             case 11:
-                ButtonText = "Toque uma música.";
+                ButtonText = "Toque uma música";
                 break;
             case 12:
-                ButtonText = "Leia um livro.";
+                ButtonText = "Leia um livro";
                 break;
             case 13:
-                ButtonText = "Siga seus coração.";
+                ButtonText = "Siga seus coração";
                 break;
             case 14:
-                ButtonText = "Siga Shuá.";
+                ButtonText = "Siga Shuá";
                 break;
             case 15:
-                ButtonText = "Junte-se à oração.";
+                ButtonText = "Junte-se à oração";
                 break;
             case 16:
-                ButtonText = "Duvidar da existência de Shuá.";
+                ButtonText = "Duvidar da existência de Shuá";
                 break;
             case 17:
-                ButtonText = "Siga o Caminho de Shuá.";
+                ButtonText = "Siga o Caminho de Shuá";
                 break;
             case 18:
-                ButtonText = "Siga o Caminho do Guerreiro.";
+                ButtonText = "Siga o Caminho do Guerreiro";
                 break;
             case 19:
-                ButtonText = "Questione o monge.";
+                ButtonText = "Questione o monge";
                 break;
             case 20:
-                ButtonText = "Peça o perdão do monge.";
+                ButtonText = "Peça o perdão do monge";
                 break;
             case 21:
-                ButtonText = "Aceite o suborno.";
+                ButtonText = "Aceite o suborno";
                 break;
             case 22:
-                ButtonText = "Recuse o suborno.";
+                ButtonText = "Recuse o suborno";
                 break;
             case 23:
-                ButtonText = "Mate Joshua.";
+                ButtonText = "Mate Joshua";
                 break;
             case 24:
-                ButtonText = "Poupe Joshua.";
+                ButtonText = "Poupe Joshua";
                 break;
             case 25:
-                ButtonText = "Aceite a oferta.";
+                ButtonText = "Aceite a oferta";
                 break;
             case 26:
-                ButtonText = "Recuse a oferta.";
+                ButtonText = "Recuse a oferta";
                 break;
             case 27:
                 ButtonText = "Parabéns!";
                 break;
             case 28:
-                ButtonText = "Foda-se.";
+                ButtonText = "Foda-se";
                 break;
             case 29:
-                ButtonText = "Seguir o Caminho do Guerreiro.";
+                ButtonText = "Seguir o Caminho do Guerreiro";
                 break;
             case 30:
-                ButtonText = "Seguir o Caminho do Assassino.";
+                ButtonText = "Seguir o Caminho do Assassino";
                 break;
         }
         Debug.Log(ButtonText);

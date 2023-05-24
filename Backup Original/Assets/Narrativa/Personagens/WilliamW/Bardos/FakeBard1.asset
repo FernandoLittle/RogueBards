@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d9aac0bbc64693c458f51e42058ce096, type: 3}
   sprite1: {fileID: 0}
-  Name: <color=blue>Sifio</color>
+  Name: <color=#00B2FF>Sifio</color>
   id: 16
   idPersonagem: 0
   AtaqueForte: 10000000

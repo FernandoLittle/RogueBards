@@ -1836,7 +1836,7 @@ public class F : MonoBehaviour
             {
                 if (Win == 1)
                 {
-                    TrueDamage(6);
+                    TrueDamage(8);
                     UpMana(3);
                 }
                 SacrificeAttribute(Zone[y0].Lyoko[1], 1, true);

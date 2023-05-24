@@ -53,6 +53,9 @@ public class Day : MonoBehaviour
         {
 
         }
+
+        SaveDay();
+
         day += 1;
         StaticPlayer.Day = day;
     }
@@ -103,6 +106,9 @@ public class Day : MonoBehaviour
         {
 
         }
+
+        SaveDay();
+
         day += 1;
         StaticPlayer.Day = day;
     }
@@ -183,4 +189,54 @@ public class Day : MonoBehaviour
         TalesVariables.Tales = TalesVariables.TalesCustonRouteAS;
         TalesVariables.SetTale(29);
     }
+    public void SaveDay()
+    {
+        PlayerPrefs.SetInt("PlayerId", StaticPlayer.PlayerId[0]);
+
+
+        PlayerPrefs.SetInt("Day", StaticPlayer.Day);
+
+
+        PlayerPrefs.SetInt("Skill1", StaticPlayer.TrueAttack[0]);
+        PlayerPrefs.SetInt("Skill2", StaticPlayer.FakeAttack[0]);
+        PlayerPrefs.SetInt("Skill3", StaticPlayer.Block[0]);
+        PlayerPrefs.SetInt("Skill4", StaticPlayer.CounterAttack[0]);
+
+        PlayerPrefs.SetInt("Relic1", StaticPlayer.Day);
+        PlayerPrefs.SetInt("Relic2", StaticPlayer.Day);
+        PlayerPrefs.SetInt("Relic3", StaticPlayer.Day);
+        PlayerPrefs.SetInt("Relic4", StaticPlayer.Day);
+        PlayerPrefs.SetInt("Relic5", StaticPlayer.Day);
+
+        PlayerPrefs.SetInt("Relic1", 0);
+        PlayerPrefs.SetInt("Relic2", 0);
+        PlayerPrefs.SetInt("Relic3", 0);
+        PlayerPrefs.SetInt("Relic4", 0);
+        PlayerPrefs.SetInt("Relic5", 0);
+        for (int x = 0; x < StaticPlayer.RelicsAlly.Count; x = x + 1)
+        {
+            if (x==0)
+            {
+                PlayerPrefs.SetInt("Relic1", StaticPlayer.RelicsAlly[x]);
+            }
+            if (x == 1)
+            {
+                PlayerPrefs.SetInt("Relic2", StaticPlayer.RelicsAlly[x]);
+            }
+            if (x == 2)
+            {
+                PlayerPrefs.SetInt("Relic3", StaticPlayer.RelicsAlly[x]);
+            }
+            if (x == 3)
+            {
+                PlayerPrefs.SetInt("Relic4", StaticPlayer.RelicsAlly[x]);
+            }
+            if (x == 4)
+            {
+                PlayerPrefs.SetInt("Relic5", StaticPlayer.RelicsAlly[x]);
+            }
+        }
+ 
+    }
+
 }

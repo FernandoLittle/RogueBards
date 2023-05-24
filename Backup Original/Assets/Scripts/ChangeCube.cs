@@ -9,9 +9,12 @@ public class ChangeCube : MonoBehaviour
     public string SceneString;
     public List<Sprite> SpriteScene;
     public SpriteRenderer FaceScene;
+    public GameObject Loading;
     public void A()
-    {      
+    {
+        Loading.SetActive(true);
         SceneManager.LoadScene(SceneString);
+
     }
     public void B()
     {

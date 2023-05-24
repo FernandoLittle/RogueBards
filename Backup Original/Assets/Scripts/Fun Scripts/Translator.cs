@@ -39,7 +39,8 @@ public class Translator : MonoBehaviour
         AdventuresT[0].text = "Adventure of Roy (Tutorial)";
         AdventuresT[1].text = "Adventure of William";
         LanguagesT[0].text = "Language:";
-        LanguagesT[1].text = "Play";
+        LanguagesT[1].text = "Play New Game";
+        LanguagesT[2].text = "Continue";
 
 
         TextMenu[0].text = "Volume";
@@ -55,7 +56,8 @@ public class Translator : MonoBehaviour
         AdventuresT[0].text = "Aventura de Roy (Tutorial)";
         AdventuresT[1].text = "Aventura de William";
         LanguagesT[0].text = "Idioma:";
-        LanguagesT[1].text = "Jogar";
+        LanguagesT[1].text = "Jogar Nova Partida";
+        LanguagesT[2].text = "Continuar";
 
         TextMenu[0].text = "Volume";
         TextMenu[1].text = "Idioma";

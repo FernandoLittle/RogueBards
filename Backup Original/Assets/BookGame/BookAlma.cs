@@ -105,7 +105,7 @@ public class BookAlma : MonoBehaviour
             }
             else
             {
-                GodCube.TakeScreenshot("Money");
+                GodCube.TakeScreenshot("Adventure");
                 //SceneManager.LoadScene("Money");
             }
 
@@ -140,7 +140,7 @@ public class BookAlma : MonoBehaviour
             }
             else
             {
-                GodCube.TakeScreenshot("Money");
+                GodCube.TakeScreenshot("Adventure");
                 //SceneManager.LoadScene("Money");
             }
 
@@ -169,7 +169,7 @@ public class BookAlma : MonoBehaviour
                 GodCube.TakeScreenshot("Adventure");
                 //SceneManager.LoadScene("Adventure");
             }
-            GodCube.TakeScreenshot("Money");
+            GodCube.TakeScreenshot("Adventure");
             //SceneManager.LoadScene("Money");
         }
         else

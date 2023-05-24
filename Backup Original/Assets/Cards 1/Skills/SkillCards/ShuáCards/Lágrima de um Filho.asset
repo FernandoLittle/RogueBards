@@ -20,10 +20,8 @@ MonoBehaviour:
   id: 0
   Texto0: 'Victory: Opponent gains 4 attack, defense, and life.
 
-    Victory: Gain
-    12 health.'
-  Texto0br: "Vit\xF3ria: O oponente ganha 4 de ataque, defesa e vida.\nVit\xF3ria:
-    Ganhe 12 de vida. "
+'
+  Texto0br: "Vit\xF3ria: O oponente ganha 4 de ataque, defesa e vida.\n"
   scale: 10
   IAturn: 0
   KeywordId: 1c000000

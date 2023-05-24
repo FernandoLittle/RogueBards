@@ -61,9 +61,9 @@ MonoBehaviour:
   - "I found a document, a\u2026 a list of bounties on the heads of the warriors
     who participated in the massacre."
   - <color=yellow>Yuri Vitch</color>, 30 Golden Owls, <color=yellow>Marcus Orlov</color>,,
-    10 Golden Owls, <color=blue>Roy Ulbricht</color>, 15 Golden Owls.
-  - <color=blue>Ulbricht</color>? What a coincidence, he has the same last name as
-    mine.
+    10 Golden Owls, <color=green>Roy Ulbricht</color>, 15 Golden Owls.
+  - <color=green>Ulbricht</color>? What a coincidence, he has the same last name
+    as mine.
   - <color=purple>William</color>, I already understand what...
   - Be quiet, <color=#FF0080>Maduin</color>, I haven't finished my story.
   - Not only did I find the reward list, but I also found several letters of execution.
@@ -72,12 +72,12 @@ MonoBehaviour:
     well detailed, the <color=yellow>Assassins Guild</color> is very organized.
   - Do you know what I found very curious? Eight warriors received bounties on their
     heads, but I only found seven letters of execution.
-  - The only warrior who didn't have a letter of execution was <color=blue>Roy Ulbricht</color>,
+  - The only warrior who didn't have a letter of execution was <color=green>Roy Ulbricht</color>,
     the warrior who bore my last name. What a strange coincidence, isn't it?
   - I thought I was fooling you, but I was fooled the whole time.
   - You knew the truth from the beginning.
   - Did you know that my father was killed by the Guild and that I only joined you
-    because I wanted to find out who had assassinated my father, <color=blue>Roy
+    because I wanted to find out who had assassinated my father, <color=green>Roy
     Ulbricht</color>.
   - "I just found this out recently, I was sorting through documents and\u2026"
   - <color=purple>William</color> lit a new match.
@@ -169,8 +169,8 @@ MonoBehaviour:
   - "Eu achei um documento, uma\u2026 uma lista de recompensas na cabe\xE7a dos guerreiros
     que participaram do massacre."
   - <color=yellow>Yuri Vitch</color>, 30 corujas de ouro, <color=yellow>Marcus Orlov</color>,
-    10 corujas de ouro, <color=blue>Roy Ulbricht</color>, 15 corujas de ouro.
-  - "<color=blue>Ulbricht</color>? Que coincid\xEAncia, ele tem o mesmo sobrenome
+    10 corujas de ouro, <color=green>Roy Ulbricht</color>, 15 corujas de ouro.
+  - "<color=green>Ulbricht</color>? Que coincid\xEAncia, ele tem o mesmo sobrenome
     que o meu."
   - "<color=purple>William</color>, eu j\xE1 entendi o que\u2026"
   - "Fique quieto, <color=#FF0080>Maduin</color>, eu n\xE3o terminei minha hist\xF3ria."
@@ -182,17 +182,17 @@ MonoBehaviour:
   - "Sabe o que eu achei muito curioso? Oito guerreiros receberam recompensas pelas
     suas cabe\xE7as, mas eu s\xF3 achei sete cartas de execu\xE7\xE3o.\r"
   - "O \xFAnico guerreiro que n\xE3o tinha uma carta de execu\xE7\xE3o era justamente
-    <color=blue>Roy Ulbricht</color>, o guerreiro que tinha o meu sobrenome. Que
+    <color=green>Roy Ulbricht</color>, o guerreiro que tinha o meu sobrenome. Que
     coincid\xEAncia estranha, n\xE3o \xE9 mesmo?"
   - "Eu achei que estava enganando voc\xEAs, mas eu que fui enganado o tempo todo.\r"
   - "Voc\xEAs sabiam da verdade desde o in\xEDcio.\r"
   - "Voc\xEAs sabiam que o meu pai foi morto pela Guilda e que eu me juntei a voc\xEAs
-    apenas porque queria descobrir quem tinha assassinado meu pai, <color=blue>Roy
+    apenas porque queria descobrir quem tinha assassinado meu pai, <color=green>Roy
     Ulbricht</color>.\r"
   - "Eu s\xF3 descobri isso recentemente, eu estava organizando os documentos e\u2026"
   - "<color=purple>William</color> acendeu um novo palito de f\xF3sforo."
-  - "Ent\xE3o foi  voc\xEA que escondeu a carta de execu\xE7\xE3o do meu pai. Me
-    entregue a maldita carta, eu preciso saber quem matou o meu pai."
+  - "Ent\xE3o foi voc\xEA que escondeu a carta de execu\xE7\xE3o do meu pai. Me entregue
+    a maldita carta, eu preciso saber quem matou o meu pai."
   - "<color=purple>William</color>\u2026"
   - Me entregue ou eu boto fogo em tudo.
   - "Apague esse f\xF3sforo, se voc\xEA botar fogo em tudo\u2026"

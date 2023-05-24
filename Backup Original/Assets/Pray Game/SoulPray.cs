@@ -90,7 +90,7 @@ public class SoulPray : MonoBehaviour
             }
             else
             {
-                GodCube.TakeScreenshot("Money");
+                GodCube.TakeScreenshot("Adventure");
                 //SceneManager.LoadScene("Money");
 
             }

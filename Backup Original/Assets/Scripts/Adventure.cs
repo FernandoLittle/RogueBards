@@ -21,6 +21,7 @@ public class Adventure : MonoBehaviour
     }
     public void Roy()
     {
+        ResetGame();
         PlayerPrefs.SetInt("Batalha", 0);
         //temporario
         PlayerPrefs.SetInt("Tale", 0);
@@ -60,9 +61,10 @@ public class Adventure : MonoBehaviour
     }
     public void WilliamAS()
     {
+        ResetGame();
         PlayerPrefs.SetInt("Batalha", 0);
         //temporario
-        PlayerPrefs.SetInt("Tale", FightID);
+        PlayerPrefs.SetInt("Tale", FightID);//Eu acho que isso é do mal e eu deveria ter apagado, mas como o jogo tá funcionando vou deixar quieto
         //temporario, mudar com sistema de load
         StaticPlayer.Adventure = true;
         StaticPlayer.Fight = 1;
@@ -81,5 +83,24 @@ public class Adventure : MonoBehaviour
     public void Discord()
     {
         Application.OpenURL("https://discord.gg/CkNfEPDNhA");
+    }
+    public void ResetGame()
+    {
+
+        //mover para adventure
+
+
+        PlayerPrefs.SetInt("Skill1", 0);
+        PlayerPrefs.SetInt("Skill2", 0);
+        PlayerPrefs.SetInt("Skill3", 0);
+        PlayerPrefs.SetInt("Skill4", 0);
+
+        PlayerPrefs.SetInt("Relic1", 0);
+        PlayerPrefs.SetInt("Relic2", 0);
+        PlayerPrefs.SetInt("Relic3", 0);
+        PlayerPrefs.SetInt("Relic4", 0);
+        PlayerPrefs.SetInt("Relic5", 0);
+
+        StaticPlayer.RelicsAlly.Clear();
     }
 }

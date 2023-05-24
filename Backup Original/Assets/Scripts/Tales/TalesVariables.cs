@@ -57,8 +57,9 @@ public class TalesVariables : MonoBehaviour
     public List<Tales> TaleGod;
     public GameObject Obrigado;
     public GameObject Loading;
-
-
+    public List<Image> FinalImage;
+    public List<int> FinalInt;
+    public List<GameObject> FinalBlue;
 
     // Start is called before the first frame update
     public void Start()
@@ -239,5 +240,69 @@ public class TalesVariables : MonoBehaviour
 
         MasterAction();
         Index = 0;
+    }
+    public void EndScene(int FINAL)
+    {
+        if (FINAL == 1)
+        {
+            PlayerPrefs.SetInt("Final1", 1);
+        }
+        if (FINAL == 2)
+        {
+            PlayerPrefs.SetInt("Final2", 1);
+        }
+        if (FINAL == 3)
+        {
+            PlayerPrefs.SetInt("Final3", 1);
+        }
+        if (FINAL == 4)
+        {
+            PlayerPrefs.SetInt("Final4", 1);
+        }
+        if (FINAL == 5)
+        {
+            PlayerPrefs.SetInt("Final5", 1);
+        }
+        if (FINAL == 6)
+        {
+            PlayerPrefs.SetInt("Final6", 1);
+        }
+        if (FINAL == 7)
+        {
+            PlayerPrefs.SetInt("Final7", 1);
+        }
+        if (FINAL == 8)
+        {
+            PlayerPrefs.SetInt("Final8", 1);
+        }
+        if (FINAL == 9)
+        {
+            PlayerPrefs.SetInt("Final9", 1);
+        }
+
+        FinalInt[0] = PlayerPrefs.GetInt("Final1");
+        FinalInt[1] = PlayerPrefs.GetInt("Final2");
+        FinalInt[2] = PlayerPrefs.GetInt("Final3");
+        FinalInt[3] = PlayerPrefs.GetInt("Final4");
+        FinalInt[4] = PlayerPrefs.GetInt("Final5");
+        FinalInt[5] = PlayerPrefs.GetInt("Final6");
+        FinalInt[6] = PlayerPrefs.GetInt("Final7");
+        FinalInt[7] = PlayerPrefs.GetInt("Final8");
+        FinalInt[8] = PlayerPrefs.GetInt("Final9");
+
+        for (int x = 0; x < FinalInt.Count; x = x + 1)
+        {
+            if (FinalInt[x] == 1)
+            {
+                FinalImage[x].color = new Color(FinalImage[x].color.r, FinalImage[x].color.g, FinalImage[x].color.b, 1);
+
+            }
+            if (FINAL == x+1)
+            {
+                FinalBlue[x].SetActive(true);
+            }
+        }
+
+
     }
 }

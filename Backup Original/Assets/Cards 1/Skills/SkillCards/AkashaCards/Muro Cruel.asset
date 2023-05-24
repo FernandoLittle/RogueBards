@@ -18,12 +18,12 @@ MonoBehaviour:
   GodTextBR: Os homens vazios entendem <color=green>Akasha</color>.
   sprite: {fileID: 21300000, guid: 682f275ec45e8084ab93ba7fbea587e1, type: 3}
   id: 0
-  Texto0: 
-  Texto0br: 
-  scale: 6
+  Texto0: Your attack becomes equal to 0.
+  Texto0br: Seu ataque se torna igual a 0.
+  scale: 7
   IAturn: 0
   KeywordId: 040000002b000000
   KeywordValues:
-  - 6
+  - 8
   - 3
   NotesId: 

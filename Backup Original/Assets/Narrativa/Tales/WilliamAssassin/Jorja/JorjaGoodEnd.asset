@@ -27,7 +27,7 @@ MonoBehaviour:
   - You're boring, <color=#FF0080>Maduin</color>. Fuck it, I'll make some food then.
   - What do you want to eat?
   - I want corn porridge.
-  - Go to hell,  <color=#FF0080>Jorja</color>, corn porridge is beggar's food.
+  - Go to hell, <color=#FF0080>Jorja</color>, corn porridge is beggar's food.
   - "I'm going to make you a chocolate cake with grapes and\u2026 and some strawberries,
     it's gonna be fucked up."
   - 'At the next season:'
@@ -53,7 +53,7 @@ MonoBehaviour:
   - ' <color=#FF0080>Jorja</color>, I''d like to talk to <color=purple>Will</color>
     alone, would you please leave?'
   - No, I want to stay here.
-  - Please,  <color=#FF0080> <color=#FF0080>Jorja</color></color>.
+  - Please, <color=#FF0080> <color=#FF0080>Jorja</color></color>.
   - No, no, no, I want to hear it.
   - If you leave for a centidia, I'll buy you a candy.
   - 'After the girl left, William stated the obvious:'
@@ -114,7 +114,7 @@ MonoBehaviour:
     uma comida ent\xE3o. "
   - "O que voc\xEAs querem comer?"
   - Eu quero mingau de milho.
-  - "V\xE1 pro inferno,  <color=#FF0080>Jorja</color>, mingau de milho \xE9 comida
+  - "V\xE1 pro inferno, <color=#FF0080>Jorja</color>, mingau de milho \xE9 comida
     de mendigo. "
   - "Eu vou preparar pra voc\xEA um bolo de chocolate com uvas e\u2026 e uns morangos,
     vai ficar do caralho."
@@ -141,7 +141,7 @@ MonoBehaviour:
   - " <color=#FF0080>Jorja</color>, eu gostaria de falar sozinho com o <color=purple>Will</color>
     voc\xEA poderia se retirar?"
   - "N\xE3o, eu quero ficar aqui."
-  - Por favor,  <color=#FF0080>Jorja</color>.
+  - Por favor, <color=#FF0080>Jorja</color>.
   - "N\xE3o, n\xE3o, n\xE3o, eu quero ouvir."
   - "Se voc\xEA se retirar por um centidia eu compro um doce para voc\xEA."
   - "Ap\xF3s a garota se retirar, <color=purple>William</color> constatou o \xF3bvio:"
@@ -192,5 +192,5 @@ MonoBehaviour:
   - 32 anos depois <color=purple>William</color> morreu, 52 anos depois  <color=#FF0080>Jorja</color>
     morreu, 71 anos depois <color=#FF0080>Maduin</color> morreu.
   idchara: 01000000000000002200000001000000010000001f000000010000001f0000000100000001000000220000000100000001000000000000001f000000220000001f00000000000000220000001f0000001c0000000000000000000000000000001c000000220000001f0000001f000000220000001f000000220000001c000000000000001c0000001f0000001c0000001f0000001c0000001c0000001c0000001c0000001c0000001f0000001f0000001c0000001f0000001c0000001c0000001f0000001c0000001f0000001c0000001f0000001c0000001f000000000000000000000000000000
-  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a020000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000089030000
   Cenario: 63

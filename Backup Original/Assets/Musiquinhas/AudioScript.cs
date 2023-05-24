@@ -20,11 +20,13 @@ public class AudioScript : MonoBehaviour
     public static int OnlyOneMusic;
     public GameObject MusicJunker;
     public GameObject Menu;
+    public bool TrueAudio;
     private void Start()
     {
 
         if (OnlyOneMusic == 0)
         {
+            TrueAudio = true;
             PlayerPrefs.SetInt("IntCena",0);
             DontDestroyOnLoad(gameObject);
             DontDestroyOnLoad(MusicJunker);
@@ -44,7 +46,12 @@ public class AudioScript : MonoBehaviour
         }
         if (AudioduBem.isPlaying == false)
         {
-            NewMusic();
+            if (TrueAudio == true)
+            {
+
+                NewMusic();
+            }
+
         }
     }
     public void ChangeMusic()

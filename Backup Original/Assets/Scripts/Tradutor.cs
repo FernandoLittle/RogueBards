@@ -158,7 +158,46 @@ public class Tradutor : MonoBehaviour
             {
                 textinho.text = "Derrota";
             }
-
+            if (id == 34)
+            {
+                textinho.text = "Carregando...";
+            }
+            if (id == 35)
+            {
+                textinho.text = "Morte genérica";
+            }
+            if (id == 36)
+            {
+                textinho.text = "William se vinga";
+            }
+            if (id == 37)
+            {
+                textinho.text = "William se torna um mercenário";
+            }
+            if (id == 38)
+            {
+                textinho.text = "O Bardo mata William";
+            }
+            if (id == 39)
+            {
+                textinho.text = "Final feliz";
+            }
+            if (id == 40)
+            {
+                textinho.text = "Ebu mata William";
+            }
+            if (id == 41)
+            {
+                textinho.text = "William perde as pernas";
+            }
+            if (id == 42)
+            {
+                textinho.text = "William é demitido";
+            }
+            if (id == 43)
+            {
+                textinho.text = "William vira um mercenário";
+            }
 
 
 
