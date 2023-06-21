@@ -49,7 +49,7 @@ public class RelicSystem : MonoBehaviour
     }
     public void AddRelic()
     {
-        Debug.Log("AKJSKJ");
+
         Debug.Log(A.Zone[5].idcard1);
         for (int x = 0; x < D.Chara[A.Zone[5].idcard1].Relics.Count; x = x + 1)
         {
@@ -102,7 +102,7 @@ public class RelicSystem : MonoBehaviour
         }
         if (F.Zone[ally].sentimento == 1)
         {
-            Debug.Log("TO com medo");
+
             if (F.Zone[ally].ManaSpend >= 5)
             {
 
@@ -119,7 +119,7 @@ public class RelicSystem : MonoBehaviour
     }
     public void BonusSentimento1(int ally)
     {
-        Debug.Log("RelicSentimentos");
+
         F.Zone[ally].SentimentalBool = true;
         F.Zone[ally].SentimentalInt += 1;
         RelicSentimento(ally);
@@ -128,7 +128,7 @@ public class RelicSystem : MonoBehaviour
     // Tipos de efeitos************************************************************************************************************
     public void RelicSentimento(int ally)
     {
-        Debug.Log("SENTIMENTOSAAA");
+
         A.RelicEffects.SentimentalBonus(ally);
     }
     // Tipos de efeitos************************************************************************************************************
@@ -150,10 +150,9 @@ public class RelicSystem : MonoBehaviour
     }
     public void SetRelicX()
     {
-        Debug.Log("Relic");
+
         if (A.StaticData.RelicsAlly.Count > 0)
         {
-            Debug.Log(A.StaticData.RelicsAlly[0]);
           //  A.Zone[5].Relics.Add(A.StaticData.RelicsAlly[0]);
         }
 

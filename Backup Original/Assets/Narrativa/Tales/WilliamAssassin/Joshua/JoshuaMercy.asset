@@ -31,6 +31,7 @@ MonoBehaviour:
     queria, mas ap\xF3s trair a miseric\xF3rdia de seu oponente, ele apenas conseguiu
     sentir culpa."
   - "<color=#FF0080>Maduin</color> nunca se perdoou por ter uma f\xE9 t\xE3o tola."
+  DialogueES: []
   idchara: 00000000240000000000000000000000
-  instruction: 000000000000000000000000000000009a020000
+  instruction: 000000000000000000000000000000008f030000
   Cenario: 49

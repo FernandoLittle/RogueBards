@@ -57,6 +57,28 @@ MonoBehaviour:
     a tocar alguma m\xFAsica?"
   - "Por mim est\xE1 tudo bem, estou de folga hoje."
   - "Perfeito! Eu vou te ensinar como tocar essa m\xFAsica."
+  DialogueES:
+  - "<color=purple>William</color> derram\xF3 una l\xE1grima, no de tristeza, no
+    de arrepentimiento, sino de gratitud por escuchar una m\xFAsica tan hermosa mientras
+    tomaba una cerveza."
+  - "\xA1Eh, <color=#00FFBF>bardo</color>! Ven aqu\xED, esta noche tu bebida corre
+    por mi cuenta."
+  - Muchas gracias, joven. Es la primera vez que un guerrero me ofrece una bebida.
+  - No tengo prejuicios contra ustedes.
+  - Ainda.
+  - "S\xED, a\xFAn."
+  - "El <color=#00FFBF>bardo</color> se ri\xF3 a carcajadas."
+  - "El <color=#00FFBF>bardo</color> se ri\xF3 mucho."
+  - "Quiz\xE1s deber\xEDas, joven. Un buen bardo es amigo de traficantes y ladrones."
+  - "El <color=#00FFBF>bardo</color> sonri\xF3 amablemente."
+  - No.
+  - "Por eso no tengo prejuicios, nadie imaginar\xEDa que existieran bardos valientes."
+  - "\rEl <color=#00FFBF>bardo</color> se ri\xF3."
+  - "Una bebida gratis y un elogio as\xED, los guerreros son amables hoy en d\xEDa.
+    Debo recompensarte de alguna manera... \xBFQuieres que te ense\xF1e a tocar alguna
+    canci\xF3n?"
+  - "\rPara m\xED est\xE1 bien, hoy estoy libre."
+  - "\xA1Perfecto! Voy a ense\xF1arte c\xF3mo tocar esa canci\xF3n."
   idchara: 000000001c0000000a0000001c0000000a0000001c000000000000000a0000001c000000000000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d30800000000000000000000f1030000
   Cenario: 45

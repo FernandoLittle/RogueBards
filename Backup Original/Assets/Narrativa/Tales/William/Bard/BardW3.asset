@@ -19,7 +19,7 @@ MonoBehaviour:
   - He was grateful thanks to the bard who played beautiful music. Death would one
     day come and he would have wasted most of his life thinking about a future that
     would never come.
-  - In that brief moment he appreciated the present.
+  - But in that brief moment he appreciated the present.
   - That song reminded him that he could breathe and that no matter how ephemeral
     his life was, at least in an instant he was happy, because in that instant he
     noticed everything he had.
@@ -48,7 +48,7 @@ MonoBehaviour:
   - "Ele estava grato gra\xE7as ao bardo que tocava uma m\xFAsica linda. A morte
     um dia chegaria e ele teria desperdi\xE7ado a maior parte de sua vida pensando
     em um futuro que nunca chegaria."
-  - Naquele breve momento ele apreciou o presente.
+  - Mas naquele breve momento ele apreciou o presente.
   - "Aquela m\xFAsica o lembrou que ele podia respirar e que por mais ef\xEAmera
     que fosse sua vida, pelo menos em um instante ele estava feliz, porque naquele
     instante ele percebeu tudo o que tinha."
@@ -69,9 +69,39 @@ MonoBehaviour:
   - "Muito engra\xE7ado. Voc\xEA n\xE3o tem medo de dizer isso a um guerreiro?"
   - O <color=#00FFBF>bardo</color> sorriu gentilmente.
   - "N\xE3o."
-  - "Seja como for, sua m\xFAsica me deixou de bom humor. Se voc\xEA me ensinar a
-    tocar, vou fingir que n\xE3o ouvi isso."
+  - "Tanto faz, sua m\xFAsica me deixou de bom humor. Se voc\xEA me ensinar a tocar,
+    vou fingir que n\xE3o ouvi isso."
   - "Ser\xE1 um prazer ensin\xE1-lo, <color=purple>jovem</color>."
+  DialogueES:
+  - "<color=purple>William</color> estaba pensando en la muerte. Normalmente, sent\xEDa
+    ira al pensar en ello, pero en ese momento experiment\xF3 gratitud."
+  - "\xC9l se sent\xEDa agradecido gracias al bardo que tocaba una hermosa canci\xF3n.
+    La muerte llegar\xEDa alg\xFAn d\xEDa y \xE9l habr\xEDa desperdiciado la mayor
+    parte de su vida pensando en un futuro que nunca llegar\xEDa."
+  - "Pero en ese breve momento, \xE9l apreci\xF3 el presente."
+  - "Aquella m\xFAsica le record\xF3 que pod\xEDa respirar y que, aunque su vida
+    fuera ef\xEDmera, al menos en ese momento estaba feliz porque se dio cuenta de
+    todo lo que ten\xEDa."
+  - "\xA1Hola, <color=#00FFBF>bardo</color>! Gracias por la m\xFAsica, voy a pagarte
+    una bebida."
+  - "El placer de tocar es m\xEDo."
+  - "El placer de beber tambi\xE9n!"
+  - "El <color=00FFBF>bardo</color> solt\xF3 una peque\xF1a risa."
+  - "\r\xBFCu\xE1l es tu nombre, <color=purple>joven</color>?"
+  - <color=purple>Willian Ulbricht</color>.
+  - "Ulbricht? Recuerdo a alguien con ese nombre... \xBFqui\xE9n era? La vejez est\xE1
+    afectando mi memoria. De todas formas, supongo que no era alguien importante."
+  - "\rY tu nombre, \xBFte acuerdas?"
+  - Mi nombre es un secreto, pero puedes llamarme <color=#00FFBF>bardo</color>.
+  - "\rPor qu\xE9 no me dices tu nombre?"
+  - No voy a revelar mi nombre a un guerrero, imagina si descubren que trabajo con
+    traficantes y asesinos. Debo ser discreto.
+  - "Muy gracioso. \xBFNo tienes miedo de decir eso frente a un guerrero?"
+  - "El <color=#00FFBF>bardo</color> sonri\xF3 amablemente."
+  - No.
+  - "\rDe cualquier manera, tu m\xFAsica me ha puesto de buen humor. Si me ense\xF1as
+    a tocar, fingir\xE9 que no escuch\xE9 eso."
+  - "Ser\xE1 un placer ense\xF1arte, <color=purple>joven</color>."
   idchara: 000000000000000000000000000000001c0000000a0000000a000000000000000a0000001c0000000a0000001c0000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 0000000000000000000000007008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f1030000
   Cenario: 67

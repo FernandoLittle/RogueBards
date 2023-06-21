@@ -36,7 +36,8 @@ MonoBehaviour:
   - That's why I dedicate myself to eating only plants, because that way I can maximize
     the amount of misery and suffering in the world.
   - All of that was a lie, the true explanation was a very tasty story.
-  - Even an idiot like William was able to realize that she was lying.
+  - Even an idiot like <color=purple>William</color> was able to realize that she
+    was lying.
   - Okay, now tell the truth.
   - The truth?
   - Truth...
@@ -89,7 +90,8 @@ MonoBehaviour:
     maximizar a quantidade de mis\xE9ria e sofrimento no mundo.\r\n"
   - "Tudo isso era mentira, a verdadeira explica\xE7\xE3o era uma hist\xF3ria muito
     saborosa."
-  - "At\xE9 mesmo um idiota como o William conseguiu perceber que ela estava mentindo.\r\n"
+  - "At\xE9 mesmo um idiota como o <color=purple>William</color> conseguiu perceber
+    que ela estava mentindo.\r\n"
   - Ok, agora fale a verdade.
   - A verdade?
   - "Verdade\u2026"
@@ -127,6 +129,7 @@ MonoBehaviour:
     pessoa, mas para uma assassina como eu essa \xE9 uma afirma\xE7\xE3o banal.\r\n"
   - "Ebu mentiu da primeira palavra at\xE9 a \xFAltima.\r\n"
   - "Como voc\xEA deseja passar o seu tempo livre?"
+  DialogueES: []
   idchara: 00000000000000001c000000010000001c0000001f000000010000001c0000000100000001000000010000000100000000000000000000001c000000010000000100000001000000000000001f000000010000001c000000010000000100000001000000010000000100000001000000010000001c00000001000000010000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
   Cenario: 52

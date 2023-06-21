@@ -213,8 +213,7 @@ public class Comprar : MonoBehaviour
 
         PriceText.text = "";
         Dio.Upgrades[id] += 1;
-        Debug.Log(id);
-        Debug.Log(Dio.Upgrades[id]);
+
         Dio.SaveUpgrade(id, Dio.Upgrades[id]);
         Dio.money -= price;
         Dio.Money.Dio.Money.Dio.Money.MoneyText.text = Dio.money.ToString();

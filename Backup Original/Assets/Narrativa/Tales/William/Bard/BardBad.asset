@@ -27,6 +27,13 @@ MonoBehaviour:
   - "Quero dizer... voc\xEA tem muito potencial, mas precisa treinar mais, por favor,
     n\xE3o me prenda, <color=purple>guerreiro</color>."
   - Vai se foder.
+  DialogueES:
+  - Soy un profesor terrible.
+  - Yo desisto.
+  - El rostro de <color=purple>William</color> se puso serio.
+  - "Quiero decir... tienes mucho potencial, pero necesitas entrenar m\xE1s, por
+    favor no me encierres, <color=purple>guerrero</color>."
+  - Vete a la mierda
   idchara: 0a0000000a000000000000000a0000001c000000
   instruction: 0000000000000000000000000000000000000000ea030000
   Cenario: 45

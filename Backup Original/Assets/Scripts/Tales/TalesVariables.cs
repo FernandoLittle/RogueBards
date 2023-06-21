@@ -64,6 +64,7 @@ public class TalesVariables : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        Debugamento();
         PlayerPrefs.SetInt("IntCena", 1);
         //select Day
 
@@ -71,15 +72,26 @@ public class TalesVariables : MonoBehaviour
         SelectTale.NextTale();
         try
         {
-            Debug.Log("IdCards");
-            Debug.Log(StaticPlayer.TrueAttack[0]);
-            Debug.Log(StaticPlayer.FakeAttack[0]);
-            Debug.Log(StaticPlayer.Block[0]);
-            Debug.Log(StaticPlayer.CounterAttack[0]);
+            Debug.Log("IdCards:" + StaticPlayer.TrueAttack[0].ToString()+"/"+ StaticPlayer.FakeAttack[0].ToString()+ "/" + StaticPlayer.Block[0].ToString()+ "/" + StaticPlayer.CounterAttack[0].ToString());
+
         }
         catch
         {
             Debug.Log("BugTalesVariables");
+        }
+    }
+    public void Debugamento()
+    {
+        try
+        {
+            Debug.Log("TrueAttack:" + StaticPlayer.TrueAttack[0].ToString());
+            Debug.Log("FakeAttack:" + StaticPlayer.FakeAttack[0].ToString());
+            Debug.Log("Block:" + StaticPlayer.Block[0].ToString());
+            Debug.Log("CounterAttack:" + StaticPlayer.CounterAttack[0].ToString());
+        }
+        catch
+        {
+            Debug.Log("Falto Skill");
         }
     }
     public void MasterAction()
@@ -279,6 +291,18 @@ public class TalesVariables : MonoBehaviour
         {
             PlayerPrefs.SetInt("Final9", 1);
         }
+        if (FINAL == 10)
+        {
+            PlayerPrefs.SetInt("Final10", 1);
+        }
+        if (FINAL == 11)
+        {
+            PlayerPrefs.SetInt("Final11", 1);
+        }
+        if (FINAL == 12)
+        {
+            PlayerPrefs.SetInt("Final12", 1);
+        }
 
         FinalInt[0] = PlayerPrefs.GetInt("Final1");
         FinalInt[1] = PlayerPrefs.GetInt("Final2");
@@ -289,6 +313,9 @@ public class TalesVariables : MonoBehaviour
         FinalInt[6] = PlayerPrefs.GetInt("Final7");
         FinalInt[7] = PlayerPrefs.GetInt("Final8");
         FinalInt[8] = PlayerPrefs.GetInt("Final9");
+        FinalInt[9] = PlayerPrefs.GetInt("Final10");
+        FinalInt[10] = PlayerPrefs.GetInt("Final11");
+        FinalInt[11] = PlayerPrefs.GetInt("Final12");
 
         for (int x = 0; x < FinalInt.Count; x = x + 1)
         {

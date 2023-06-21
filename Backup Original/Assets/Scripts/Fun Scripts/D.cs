@@ -156,7 +156,7 @@ public class D : MonoBehaviour
 
         if (a.DeckSystem.FakeAttack.Count > 0)
         {
-            Debug.Log("FakeAttack");
+
             Debug.Log(a.DeckSystem.FakeAttack[0]);
             if (a.DeckSystem.FakeAttack[0] != 0)
             {
@@ -171,7 +171,7 @@ public class D : MonoBehaviour
 
         if (a.DeckSystem.Block.Count > 0)
         {
-            Debug.Log("Block");
+
             Debug.Log(a.DeckSystem.Block[0]);
             if (a.DeckSystem.Block[0] != 0)
             {
@@ -185,8 +185,8 @@ public class D : MonoBehaviour
 
         if (a.DeckSystem.CounterAttack.Count > 0)
         {
-            Debug.Log("CounterAttack");
-            Debug.Log(a.DeckSystem.CounterAttack[0]);
+
+
             if (a.DeckSystem.CounterAttack[0] != 0)
             {
                 a4= a.DeckSystem.CounterAttack[0];
@@ -202,7 +202,7 @@ public class D : MonoBehaviour
     }
     public void SetInfo()
     {
-        Debug.Log("1");
+    
         Combat.NoRepeatKey = false;
         Combat.AllyConfirm = false;
         Combat.EnemyConfirm = false;
@@ -225,7 +225,7 @@ public class D : MonoBehaviour
         {
             ScaleM[x].SetActive(true);
         }
-        Debug.Log("2");
+
         /*
                 if (a.Atacante == true)
                 {
@@ -293,7 +293,7 @@ public class D : MonoBehaviour
             PlayerPrefs.SetInt("A1", a.Zone[2].idcard1);
             PlayerPrefs.SetInt("A", a.Zone[5].idcard1);
         }
-        Debug.Log("3");
+
 
         Ally = PlayerPrefs.GetInt("A");
         Enemy = PlayerPrefs.GetInt("A1");
@@ -311,7 +311,7 @@ public class D : MonoBehaviour
         Rift1.sprite = FantasyBack;
         AllyIm.sprite = Chara[Ally].sprite;
         EnemyIm.sprite = Chara[Enemy].sprite;
-        Debug.Log("4");
+
         f.G();
 
         L[0].at[0] = Zone[p1].Lyoko[0];
@@ -347,7 +347,7 @@ public class D : MonoBehaviour
         at[8].text = Zone[p2].Mana.ToString();
 
 
-        Debug.Log("5");
+
         //Sorteio das habilidades
         h1 = Random.Range(0, Chara[Ally].AtaqueForte.Count);
         a1 = Chara[Ally].AtaqueForte[h1];
@@ -370,7 +370,7 @@ public class D : MonoBehaviour
         h1 = Random.Range(0, Chara[Enemy].Bloqueio.Count);
         a31 = Chara[Enemy].Bloqueio[h1];
 
-        Debug.Log("1");
+
 
         h1 = Random.Range(0, Chara[Ally].Esquiva.Count);
         a4 = Chara[Ally].Esquiva[h1];
@@ -388,7 +388,7 @@ public class D : MonoBehaviour
         FantasyRivalsIA.SkillIDE[2] = a31;
         FantasyRivalsIA.SkillIDE[3] = a41;
 
-        Debug.Log("6");
+
         //Sprites das habilidades
         AF.sprite = AttackS[a1].sprite;
         AFx.id = a1;
@@ -426,7 +426,7 @@ public class D : MonoBehaviour
         Es1x.id = a41;
         ScaleEE.text = Dodge[a41].scale.ToString();
 
-        Debug.Log("7");
+
 
         SetNewCards();
         /* Debug.Log(AtaqueForte1.Count);

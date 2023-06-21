@@ -96,6 +96,49 @@ MonoBehaviour:
   - 'Ele fracassou miseravelmente em obter a felicidade.
 
 '
+  DialogueES:
+  - "Cerca de la casa del <color=cyan>hombre mazorca</color>, William se fij\xF3
+    en los espantap\xE1jaros que hab\xEDa all\xED."
+  - "\r\xBFPor qu\xE9 estos espantap\xE1jaros no tienen cabeza?"
+  - "\rTengo miedo de que cobren vida."
+  - "Este tipo es m\xE1s tonto de lo que parece."
+  - "\rEs una idea rid\xEDcula, \xBFno crees? Despu\xE9s de todo, solo los animales
+    pueden tener conciencia."
+  - "\rS\xED, es una idea rid\xEDcula."
+  - "\r\xBFPodr\xEDas explicarle a un ciego qu\xE9 es el color rojo?"
+  - "\u2026\r"
+  - No.
+  - "\r\xBFPodr\xEDas explicarle a un sordo qu\xE9 es una m\xFAsica, peque\xF1o <color=purple>Ulbrich</color>?"
+  - "\"\xBFPor qu\xE9 me llam\xF3 'peque\xF1o'? Soy m\xE1s alto que \xE9l.\""
+  - "\xBFA d\xF3nde quieres llegar con esto?"
+  - "\rEn matem\xE1ticas, existe una categor\xEDa llamada \"concepto primitivo\".
+    Es un concepto que no tiene una definici\xF3n precisa, pero que define otros
+    conceptos."
+  - "\"No creo ni por un momento que este idiota sepa algo de matem\xE1ticas. Me
+    sorprender\xEDa si supiera que dos mazorcas m\xE1s tres mazorcas son igual a
+    cinco mazorcas.\""
+  - "\rNuestras percepciones de la realidad son conceptos primitivos, no podemos
+    definir colores o sonidos, pero son esas percepciones las que definen nuestra
+    comprensi\xF3n de la realidad."
+  - "\r\xBFDe qu\xE9 est\xE1s hablando?"
+  - Estoy hablando de la vida y la conciencia.
+  - "No s\xE9 si tienes una conciencia igual a la m\xEDa, ya que no puedo observar
+    tus percepciones. No tengo ni idea si el azul que ves es similar al azul que
+    veo."
+  - "Sin embargo, dado que eres f\xEDsicamente similar a m\xED, intuyo que tengas
+    una conciencia similar a la m\xEDa."
+  - "\xBFC\xF3mo llegamos a este tema?"
+  - "Est\xE1bamos hablando de los espantap\xE1jaros. \xBFC\xF3mo podr\xEDa yo saber
+    si piensan o no? No puedo observar la conciencia de nadie, por lo que no puedo
+    distinguir lo que es consciente de lo que no lo es."
+  - "Pero mi intuici\xF3n dice que los seres similares a m\xED son conscientes."
+  - "Si esos espantap\xE1jaros tuvieran cabeza..."
+  - "\rSi ellos sonrieran..."
+  - "Tendr\xEDa miedo."
+  - "\rDijo tantas cosas solo para demostrar que es un idiota con un amplio vocabulario."
+  - "Despu\xE9s de desmalezar un poco, <color=purple>William</color> cen\xF3 el atol
+    de ma\xEDz que prepar\xF3 el <color=cyan>hombre mazorca</color>."
+  - "Fracas\xF3 miserablemente en alcanzar la felicidad."
   idchara: 000000001c000000020000001c000000020000001c000000020000001c0000001c000000020000001c0000001c000000020000001c000000020000001c0000000200000002000000020000001c00000002000000020000000200000002000000020000001c0000000000000000000000
   instruction: 000000000000000000000000930900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d000000
   Cenario: 29

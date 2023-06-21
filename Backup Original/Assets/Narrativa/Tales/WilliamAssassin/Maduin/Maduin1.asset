@@ -51,7 +51,7 @@ MonoBehaviour:
   - "Aquela m\xFAsica logo teria um fim e se tornaria um momento \xFAnico nas mem\xF3rias
     de <color=green>Akasha</color>. Era uma experi\xEAncia maravilhosa ouvir a melodia,
     sentir um vento \xFAmido em sua pele, cheirar as ervas ao seu redor e equilibrar
-    o Mana atrav\xE9s da respira\xE7\xE3o."
+    o <color=blue>Mana</color> atrav\xE9s da respira\xE7\xE3o."
   - "Percebendo o valor do ar, s\xEDmbolo mais comum da efemeridade, <color=purple>William</color>
     come\xE7ou a imaginar a brevidade de sua vida como uma joia rara."
   - "O que tornava sua exist\xEAncia especial no plano ak\xE1shico era justamente
@@ -62,9 +62,10 @@ MonoBehaviour:
   - "N\xE3o achei nada de especial."
   - "Oh, eu sinto muito\u2026 "
   - "Cada vento tinha um sentimento na opini\xE3o de <color=#FF0080>Maduin</color>.
-    Segundo ele, o Mana determinava a natureza do vento. Uma brisa de ver\xE3o poderia
-    ser uma d\xE1diva para quem estivesse em paz consigo mesmo, enquanto o mesmo
-    vento seria torturante para aqueles que rejeitassem o fluxo do mundo."
+    Segundo ele, o <color=blue>Mana</color> determinava a natureza do vento. Uma
+    brisa de ver\xE3o poderia ser uma d\xE1diva para quem estivesse em paz consigo
+    mesmo, enquanto o mesmo vento seria torturante para aqueles que rejeitassem o
+    fluxo do mundo."
   - "Os instrumentos de <color=#FF0080>Maduin</color> foram guardados sob um vento
     triste e solit\xE1rio."
   - "N\xE3o\u2026"
@@ -72,6 +73,7 @@ MonoBehaviour:
   - "A m\xFAsica estava linda, ela me deixou realmente\u2026 feliz."
   - "\u201CPor que eu estou falando isso?\u201D"
   - "Ent\xE3o \xE9 a sua vez de tocar, <color=purple>William</color>."
+  DialogueES: []
   idchara: 00000000000000000000000000000000000000001c0000001c0000001f0000001c0000001f00000000000000000000001c0000001c0000001c0000001c0000001f000000
   instruction: 000000000000000000000000000000000000000000000000d408000000000000000000000000000000000000000000000000000000000000000000000000000000000000f1030000
   Cenario: 48

@@ -27,6 +27,12 @@ MonoBehaviour:
   - Obrigada.
   - "Ap\xF3s v\xE1rias vit\xF3rias, <color=green>Roy</color> encontrou o limite de
     seu amor.\nEle se ajoelhou, come\xE7ou a chorar e mostrou toda a sua fraqueza."
+  DialogueES:
+  - "El capit\xE1n <color=yellow>Yuri</color> puede aceptar tu oferta, trata de razonar
+    con \xE9l."
+  - Gracias.
+  - "Despu\xE9s de varias victorias, <color=green>Roy</color> ha encontrado los l\xEDmites
+    de su amor.\nSe arrodill\xF3, comenz\xF3 a llorar y mostr\xF3 toda su debilidad."
   idchara: 1b0000000c00000000000000
   instruction: 0000000000000000000000006b000000
   Cenario: 57

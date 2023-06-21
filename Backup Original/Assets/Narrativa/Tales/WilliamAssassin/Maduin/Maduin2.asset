@@ -35,7 +35,7 @@ MonoBehaviour:
   - He laughed.
   - It's your turn to play, <color=purple>William</color>.
   DialogueBR:
-  - "Um sentimento que sempre acompanhou <color=purple>William</color> era a solid\xE3o."
+  - "Um sentimento que sempre acompanhava <color=purple>William</color> era a solid\xE3o."
   - "Era uma sensa\xE7\xE3o definitivamente estranha porque quanto mais pessoas estivessem
     ao redor dele, mais ele se sentia solit\xE1rio.\r"
   - "Por\xE9m quando ele estava a s\xF3s com <color=#FF0080>Maduin</color> seu sentimento
@@ -58,6 +58,7 @@ MonoBehaviour:
   - "Ele s\xF3 sabia reagir de uma forma diante de uma situa\xE7\xE3o t\xE3o absurda."
   - Ele riu.
   - "\xC9 a sua vez de tocar, <color=purple>William</color>."
+  DialogueES: []
   idchara: 0000000000000000000000001c0000001c0000001f0000001c0000001f0000001c0000001f0000001c0000000000000000000000000000001f000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000071080000000000000000000000000000f1030000
   Cenario: 68

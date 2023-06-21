@@ -24,6 +24,12 @@ MonoBehaviour:
     acumulado dos livros.
   - <i><color=Black>Trust me like you trust books. I promise we'll have a lot of
     fun this way.</color> </i>
+  DialogueES:
+  - <color=purple>William</color> estaba muy satisfecho de haber comprendido perfectamente
+    ese libro. Como era un hombre inteligente, confiaba en el conocimiento acumulado
+    de los libros.
+  - "<i><color=Black>\rConf\xEDa en m\xED como conf\xEDas en los libros. Te prometo
+    que nos divertiremos mucho de esta manera.</color> </i>"
   idchara: 0000000000000000
   instruction: 00000000e9030000ea030000
   Cenario: 4

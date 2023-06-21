@@ -52,7 +52,7 @@ MonoBehaviour:
     n\xE3o tinha coragem de enfrentar um inimigo que possu\xEDsse armas angelicais."
   - Felizmente, uma carta chegou para resolver todos os problemas dele.
   - "\"Eu sei quem \xE9 o assassino de seu pai, me encontre no topo do Morro de Paz
-    \xE0 meia-noite do dia 105 de inverno.\""
+    \xE0 meia-noite do dia 105 do inverno.\""
   - "Esta \xE9 uma armadilha estupidamente \xF3bvia, claramente um assassino vai
     me emboscar se aproveitando da escurid\xE3o e da vegeta\xE7\xE3o na colina."
   - "Mas <color=purple>William</color> n\xE3o era um covarde, em vez de ignorar a
@@ -70,6 +70,36 @@ MonoBehaviour:
     escondeu."
   - "<color=purple>William</color> atacou com toda sua f\xFAria, mas a assassina
     conseguiu se defender."
+  DialogueES:
+  - "D\xEDa tras d\xEDa <color=purple>William</color> investig\xF3 para tratar de
+    averiguar qui\xE9n fue el asesino de su padre."
+  - "El hombre responsable de matar a los soldados que lucharon en <color=purple>Denai</color>
+    fue el ex l\xEDder del Gremio de Asesinos, pero despu\xE9s de jubilarse dej\xF3
+    pocas pistas de su existencia."
+  - "El plan m\xE1s obvio ser\xEDa capturar a la actual l\xEDder del gremio Ebu Setamo
+    Liada y extraerle informaci\xF3n mediante la tortura. Pero <color=purple>William</color>
+    no tuvo el coraje de enfrentarse a un enemigo que ten\xEDa armas angelicales."
+  - Afortunadamente, ha llegado una carta para solucionar todos sus problemas.
+  - "\"S\xE9 qui\xE9n es el asesino de tu padre, encu\xE9ntrame en la cima de Morro
+    de Paz a la medianoche del 105 de invierno\"."
+  - "Esta es una trampa est\xFApidamente obvia, claramente un asesino me va a tender
+    una emboscada aprovechando la oscuridad y la vegetaci\xF3n en la colina."
+  - "Pero <color=purple>William</color> no era un cobarde, en lugar de ignorar la
+    carta, decidi\xF3 cambiar las tornas y emboscar al asesino."
+  - "Lleg\xF3 a la cima de la colina en la ma\xF1ana del 103 y acamp\xF3 durante
+    dos d\xEDas escondido entre los \xE1rboles y esperando que llegara un asesino."
+  - "La oscuridad del d\xEDa 104 fue aterradora, saber que un asesino vendr\xEDa
+    a por \xE9l en medio de la oscuridad trajo una inmensa agon\xEDa a su alma."
+  - "Pronto se arrepinti\xF3 de sus decisiones, pero ya era demasiado tarde para
+    dar marcha atr\xE1s, lo \xFAnico que pod\xEDa hacer era permanecer en silencio
+    y esperar."
+  - "Cada ruido hac\xEDa que su coraz\xF3n se acelerara, un ruido pod\xEDa ser un
+    viento, un animal o un maldito asesino queriendo cortarle la garganta."
+  - "Ironicamente, la calma recorri\xF3 su cuerpo en el momento en que la <color=purple>asesina</color>
+    apareci\xF3, su silueta era visible a la luz de la luna y extra\xF1amente no
+    se escond\xEDa."
+  - "<color=purple>William</color> atac\xF3 con toda su furia, pero la asesina logr\xF3
+    defenderse."
   idchara: 000000000000000000000000000000001c0000001c00000000000000000000000000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0030000
   Cenario: 22

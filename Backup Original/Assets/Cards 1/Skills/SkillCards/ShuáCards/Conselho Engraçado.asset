@@ -16,7 +16,7 @@ MonoBehaviour:
   NameBR: "<color=#FF0080>Conselho Engra\xE7ado</color>"
   GodText: "Companions are blessed by <color=#FF0080>Shu\xE1</color>."
   GodTextBR: "Os companheiros s\xE3o aben\xE7oados por <color=#FF0080>Shu\xE1</color>. "
-  sprite: {fileID: 21300000, guid: b94b8536741bb5d488a0d618dc40a8a8, type: 3}
+  sprite: {fileID: 21300000, guid: 1cd95e1a19d4c194483c5ca42e954bb8, type: 3}
   id: 0
   Texto0: If you have 15 life or more, gain 3 mana.
   Texto0br: "Se voc\xEA tiver 15 de vida ou mais, ganhe de 3 mana."

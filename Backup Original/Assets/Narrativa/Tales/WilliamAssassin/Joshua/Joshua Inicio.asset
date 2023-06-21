@@ -28,11 +28,12 @@ MonoBehaviour:
   - It's a low price, if no assassin takes the job you can recoup your pay next season.
   - What is the guy's full name?
   - <color=purple>Harold Proust</color>t.
-  - <color=purple>Harold Proust</color>.. Is that Joshua Proust's son?
+  - <color=purple>Harold Proust</color>.. Is that <color=blue>Joshua Proust</color>'s
+    son?
   - Yes.
   - Are you kidding me, nobody calls this guy <color=purple>Harold</color>, everybody
-    knows him as Joshua's son.
-  - I don't know if you know, but the main trading partner of the Guild is Joshua,
+    knows him as <color=blue>Joshua</color>'s son.
+  - I don't know if you know, but the main trading partner of the Guild is <color=blue>Joshua</color>,
     do you want me to kill his son in exchange for three silver coins?
   - You are the only ones who can help me.
   - My daughter, we kill for money, if you want someone who fights in the name of
@@ -48,10 +49,11 @@ MonoBehaviour:
     out. I had another idea, take him to a cemetery, young people nowadays like to
     fuck there, you take advantage of it and bury it later, nobody will find the
     body.
-  - As William listened to this conversation from beginning to end, he knew at once
-    that <color=purple>Harold</color> was to blame for Rose's death when <color=blue>Rose</color>
-    turned up dead ten days later.
-  - Thirsty for justice, he drew his dagger and went to murder Joshua's son.
+  - As <color=purple>William</color> listened to this conversation from beginning
+    to end, he knew at once that <color=purple>Harold</color> was to blame for <color=blue>Rose</color>'s
+    death when <color=blue>Rose</color> turned up dead ten days later.
+  - Thirsty for justice, he drew his dagger and went to murder <color=blue>Joshua</color>'s
+    son.
   DialogueBR:
   - "Eu quero botar uma recompensa na cabe\xE7a do <color=purple>Harold</color>."
   - Ok, qual crime ele cometeu?
@@ -94,6 +96,7 @@ MonoBehaviour:
     ele soube de imediato que <color=purple>Harold</color> era o culpado pela morte
     de <color=blue>Rose</color> quando esta apareceu morta dez dias depois.\r"
   - "Com sede de justi\xE7a ele sacou sua adaga e foi assassinar o filho de <color=blue>Joshua</color>."
+  DialogueES: []
   idchara: 2300000001000000230000000100000001000000010000002300000001000000230000000100000001000000230000000100000023000000010000000100000023000000010000002300000001000000010000000100000023000000010000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025000000
   Cenario: 16

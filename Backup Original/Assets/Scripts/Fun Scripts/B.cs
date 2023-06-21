@@ -238,7 +238,7 @@ public class B : MonoBehaviourPunCallbacks
                 b[2].enabled = true;
                 b[3].enabled = true;
                 b[4].enabled = false;
-                b[5].enabled = false;
+
                 b[6].enabled = false;
                 a.EnablerEye[1].raycastTarget = false;
                 a.EnablerEye[2].raycastTarget = false;
@@ -321,10 +321,10 @@ public class B : MonoBehaviourPunCallbacks
 
             }
             b[1].enabled = false;
-            b[2].enabled = false;
+
             b[3].enabled = false;
             b[4].enabled = false;
-            b[5].enabled = false;
+
             b[6].enabled = false;
             a.EnablerEye[1].raycastTarget = true;
             a.EnablerEye[2].raycastTarget = true;
@@ -458,7 +458,7 @@ public class B : MonoBehaviourPunCallbacks
         fear1 = "<color=purple>Medo</color>: Seu <color=#00B2FF>bônus sentimental</color> é ativado quando você gasta muita mana (mais de 4). \n Causa: O humano acha que está perdendo essa luta, isso o assusta.";
         rage1 = "?";
         hate1 = "?";
-        compassion1 = "<color=#FF0080>Compassion</color>: Você não deveria estar sentindo isso.";
+        compassion1 = "<color=#FF0080>Compassion</color>: Seu <color=#00B2FF>bônus sentimental</color> é ativado quando você gasta 0 de mana. \n Você não deveria estar sentindo isso.";
 
         if (sentimento == -1)
         {
@@ -517,7 +517,7 @@ public class B : MonoBehaviourPunCallbacks
         fear1 = "<color=purple>Fear</color>:Your <color=#00B2FF>sentimental bonus</color> is activated when you spend large amount of mana (more than 4). \n Cause: The human thinks he is losing this fight, it scares him.";
         rage1 = "?";
         hate1 = "?";
-        compassion1 = "<color=#FF0080>Compassion</color>: You shouldn't be feeling this.";
+        compassion1 = "<color=#FF0080>Compassion</color>: Your <color=#00B2FF>sentimental bonus</color> activates when you spend 0 mana. \n You shouldn't be feeling this.";
 
         if (sentimento == -1)
         {
@@ -693,7 +693,7 @@ public class B : MonoBehaviourPunCallbacks
             Blue[idzone1].SetActive(false);
             a.MoldB[idzone1 - 1].SetActive(false);
             a.MoldR[idzone1 - 1].SetActive(false);
-            b[idzone1].enabled = false;
+
             a.EnablerEye[idzone1].raycastTarget = true;
 
             a.Heart[idzone1].SetActive(false);

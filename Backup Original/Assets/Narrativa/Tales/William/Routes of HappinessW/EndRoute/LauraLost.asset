@@ -26,8 +26,9 @@ MonoBehaviour:
   - Why do you think I called you to this place?
   - Because you were going to ambush and kill me.
   - Of course not, silly! This is where our father took us to see the stars. You
-    promised Anne you would marry her, our father was very angry that day. After
-    that, he forbade you to stay in the same room with us when the door was closed.
+    promised <color=purple>Anne</color> you would marry her, our father was very
+    angry that day. After that, he forbade you to stay in the same room with us when
+    the door was closed.
   - <color=purple>William</color> hugged his sister and began to cry like a child.
   - <color=purple>Laura</color>, you're alive! I can't believe it, this is too good
     to be true.
@@ -55,8 +56,8 @@ MonoBehaviour:
     mean nothing.
   - "\u2026"
   - <color=purple>Laura</color> laughed.
-  - I'm kidding, silly. You don't need to be scared. But I bet you're seducing a
-    lot of men with that pretty face of yours.
+  - I'm kidding, silly, you don't need to be scared... I bet you're seducing a lot
+    of men with that pretty face of yours.
   - I wish. There's a friend I like at work, <color=#FF0080>Maduin</color>, but I
     don't have the courage to confess this to him.
   - He is handsome?
@@ -67,8 +68,8 @@ MonoBehaviour:
     that he prepared for the prisoners. The warriors were furious and he lost several
     friends there, but even so he continued to prepare the bandits' favorite foods."
   - How can he be so nice, even to criminals?
-  - <color=purple>Laura</color> laughed because she knew the answer. Soon she started
-    humming.
+  - '<color=purple>Laura</color> laughed because she knew the answer. Soon she started
+    humming:'
   - <color=purple>William</color> is in love, <color=purple>William</color> is in
     love, <color=purple>William</color> is in love.
   - I'm not, I have no right to fall in love and be happy until I fulfill my mission.
@@ -76,6 +77,139 @@ MonoBehaviour:
   - <color=purple>Will</color>, our father's killer is the <color=#00FFBF>Bard</color>.
   - What bard?
   - The <color=#00FFBF>Bard of Bards</color>.
-  idchara: 1f0000001c0000001f0000001f0000001c0000001f0000001c0000001f000000000000001c0000001c0000001c0000001f0000001f0000001f00000000000000000000001f0000001c0000001f000000000000001c0000001c0000001c0000001f0000001c0000001f0000001f0000001c0000001f0000001c0000001f0000001c0000001c000000000000001f0000001c0000001c0000001f0000001c0000001f000000
-  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000
+  DialogueBR:
+  - "Por que voc\xEA est\xE1 me atacando, <color=purple>Will</color>? Sou eu, <color=purple>Laura</color>,
+    sua irm\xE3."
+  - "Minhas irm\xE3s est\xE3o mortas."
+  - "N\xE3o, <color=purple>Will</color>, eu desapareci no dia em que nosso pai morreu
+    porque o assassino me sequestrou."
+  - "Consegui escapar recentemente e logo comecei a te procurar, fiquei muito feliz
+    em ver que voc\xEA seguiu o caminho do nosso pai e se tornou um guerreiro."
+  - "Eu n\xE3o acredito em voc\xEA. Por que voc\xEA demoraria tanto para escapar?
+    Por que voc\xEA estava armada? Por que voc\xEA me convidaria para esta colina?"
+  - "Por que voc\xEA acha que eu te chamei para este lugar?"
+  - "Porque voc\xEA queria me emboscar e me matar."
+  - "Claro que n\xE3o, bobo! Foi aqui que nosso pai nos levou para ver as estrelas.
+    Voc\xEA prometeu \xE0 <color=purple>Anne</color> que se casaria com ela, nosso
+    pai ficou muito zangado naquele dia. Depois disso, ele proibiu voc\xEA de ficar
+    no mesmo quarto que a gente quando a porta estava fechada."
+  - "<color=purple>William</color> abra\xE7ou a irm\xE3 e come\xE7ou a chorar como
+    uma crian\xE7a."
+  - "<color=purple>Laura</color>, voc\xEA est\xE1 viva! Eu n\xE3o posso acreditar,
+    isso \xE9 bom demais para ser verdade."
+  - "Eu\u2026 eu quase matei voc\xEA\u2026 me desculpe. N\xE3o consegui te reconhecer,
+    voc\xEA mudou muito. Eu sou um <color=black>monstro</color>, quase..."
+  - Quase cometi aquele pecado de novo.
+  - "A culpa \xE9 minha <color=purple>Will</color>, eu queria fazer uma surpresa
+    pra voc\xEA."
+  - "Eu deveria ter te encontrado como uma pessoa normal, mas esqueci que voc\xEA
+    sempre teve medo do escuro."
+  - "Esse aqui \xE9 um presente para voc\xEA, \xE9 o meu colar da sorte, espero que
+    goste."
+  - Os dois observaram as estrelas enquanto conversavam sobre tudo o que haviam passado
+    nos anos em que estiveram separados.
+  - <color=purple>William</color> entendia aquele momento tanto quanto entendia o
+    tamanho das estrelas.
+  - "Fiquei com muito ci\xFAme quando voc\xEA disse que ia se casar com <color=purple>Anne</color>.
+    Ela era mais bonita do que eu?"
+  - "Voc\xEAs eram g\xEAmeas, as duas sempre foram muito bonitas."
+  - "Voc\xEA acha que eu sou bonita?"
+  - "O rosto de <color=purple>Laura</color> ficou pr\xF3ximo ao rosto de <color=purple>William</color>."
+  - Eu sou gay.
+  - "\u2026"
+  - "E incesto \xE9 errado."
+  - "Isso \xE9 apenas uma ilus\xE3o que a sele\xE7\xE3o natural criou. La\xE7os de
+    sangue n\xE3o significam nada."
+  - "\u2026"
+  - <color=purple>Laura</color> riu.
+  - "Estou brincando, bobo. N\xE3o precisa ter medo... aposto que voc\xEA est\xE1
+    seduzindo muitos homens com esse seu rostinho bonito."
+  - "Quem me dera. Tem um amigo que eu gosto no trabalho, <color=#FF0080>Maduin</color>,
+    mas n\xE3o tenho coragem de confessar isso a ele."
+  - "Ele \xE9 bonito?"
+  - "Sim, bastante, o mais bonito que j\xE1 vi. Tamb\xE9m \xE9 gentil, carinhoso,
+    nem parece um guerreiro."
+  - "Conta mais! Quando voc\xEA se apaixonou?"
+  - "Quando me apaixonei... acho que foi quando vi que ele sempre trazia refei\xE7\xF5es
+    que ele mesmo preparava para os presidi\xE1rios. Os guerreiros ficaram furiosos
+    e ele perdeu v\xE1rios amigos l\xE1, mas mesmo assim continuou preparando as
+    comidas preferidas dos bandidos."
+  - "Como ele pode ser t\xE3o legal, mesmo com criminosos?"
+  - "<color=purple>Laura</color> riu porque sabia a resposta. Logo ela come\xE7ou
+    a cantarolar:"
+  - "<color=purple>William</color> est\xE1 apaixonado, <color=purple>William</color>
+    est\xE1 apaixonado, <color=purple>William</color> est\xE1 apaixonado."
+  - "N\xE3o estou, n\xE3o tenho o direito de me apaixonar e ser feliz at\xE9 cumprir
+    minha miss\xE3o."
+  - Tenho que matar o assassino do nosso pai.
+  - "<color=purple>William</color>, o assassino de nosso pai \xE9 o <color=#00FFBF>Bardo</color>."
+  - Que bardo?
+  - O <color=#00FFBF>Bardo dos Bardos</color>.
+  DialogueES:
+  - "\xBFPor qu\xE9 me atacas, <color=purple>Will</color>? Soy yo, <color=purple>Laura</color>,
+    tu hermana."
+  - "Mis hermanas est\xE1n muertas."
+  - "No, <color=purple>Will</color>, desaparec\xED el d\xEDa que muri\xF3 nuestro
+    padre porque el asesino me secuestr\xF3."
+  - "Logr\xE9 escapar recientemente y pronto comenc\xE9 a buscarte, estaba tan feliz
+    de ver que segu\xEDas el camino de nuestro padre y te convertiste en un guerrero."
+  - "No te creo. \xBFPor qu\xE9 te tom\xF3 tanto tiempo escapar? \xBFPor qu\xE9 estabas
+    armado? \xBFPor qu\xE9 me invitar\xEDas a este cerro?"
+  - "\xBFPor qu\xE9 crees que te llam\xE9 a este lugar?"
+  - "Porque quer\xEDas tenderme una emboscada y matarme."
+  - "\xA1Claro que no, tonto! Aqu\xED es donde nuestro padre nos llev\xF3 a ver las
+    estrellas. Le prometiste a <color=purple>Anne</color> que te casar\xEDas con
+    ella, nuestro padre estaba muy enojado ese d\xEDa. Despu\xE9s de eso, te prohibi\xF3
+    estar en la misma habitaci\xF3n con nosotros cuando la puerta estaba cerrada."
+  - "<color=purple>William</color> abraz\xF3 a su hermana y comenz\xF3 a llorar como
+    un ni\xF1o."
+  - "\r<color=purple>Laura</color>, \xA1est\xE1s viva! No puedo creerlo, es demasiado
+    bueno para ser verdad."
+  - "Yo... casi te mato... lo siento. No pod\xEDa reconocerte, has cambiado mucho.
+    Soy un <color=black>monstruo</color>, casi..."
+  - "Casi comet\xED ese pecado otra vez."
+  - "Es mi culpa <color=purple>Will</color>, quer\xEDa sorprenderte."
+  - "Deber\xEDa haberte conocido como una persona normal, pero olvid\xE9 que siempre
+    tuviste miedo a la oscuridad."
+  - Este es un regalo para ti, es mi collar de la suerte, espero que te guste.
+  - "Los dos miraron las estrellas mientras hablaban de todo lo que hab\xEDan pasado
+    en los a\xF1os que estuvieron separados."
+  - "<color=purple>William</color> entendi\xF3 ese momento tanto como entendi\xF3
+    el tama\xF1o de las estrellas."
+  - "Estaba muy celoso cuando dijiste que te ibas a casar con <color=purple>Anne</color>.
+    \xBFEra m\xE1s bonita que yo?"
+  - Eran gemelas, ambas siempre fueron muy hermosas.
+  - "\xBFCrees que soy hermosa?"
+  - "<color=purple>Laura</color> acerc\xF3 su rostro al rostro de <color=purple>William</color>."
+  - Soy gay.
+  - "\u2026"
+  - "\rY el incesto es incorrecto."
+  - "Esto es solo una ilusi\xF3n que ha creado la selecci\xF3n natural. Los lazos
+    de sangre no significan nada."
+  - "\u2026"
+  - "<color=purple>Laura</color> se ri\xF3."
+  - "Estoy bromeando, tonto. No tengas miedo... Apuesto a que est\xE1s seduciendo
+    a muchos hombres con esa cara bonita que tienes."
+  - "Quien me diera. Hay un amigo que me gusta en el trabajo, <color=#FF0080>Maduin</color>,
+    pero no tengo el coraz\xF3n para confes\xE1rselo."
+  - "\xBFEl es bonito?"
+  - "S\xED, bastante, es lo m\xE1s hermoso que he visto. Tambi\xE9n es amable, cari\xF1oso,
+    no parece ni siquiera un guerrero."
+  - "\xA1Dime m\xE1s! \xBFCu\xE1ndo te enamoraste?"
+  - "Cuando me enamor\xE9... Creo que fue cuando vi que \xE9l siempre tra\xEDa comidas
+    que preparaba para los reclusos. Los guerreros estaban furiosos y perdi\xF3 varios
+    amigos all\xED, pero aun as\xED continu\xF3 preparando las comidas favoritas
+    de los bandidos."
+  - "\xBFC\xF3mo puede ser tan amable, incluso con los criminales?"
+  - "<color=purple>Laura</color> se ri\xF3 porque sab\xEDa la respuesta. Pronto empez\xF3
+    a tararear:"
+  - "<color=purple>William</color> est\xE1 enamorado, <color=purple>William</color>
+    est\xE1 enamorado, <color=purple>William</color> est\xE1 enamorado."
+  - "No lo soy, no tengo derecho a enamorarme y ser feliz hasta que cumpla mi misi\xF3n."
+  - Tengo que matar al asesino de nuestro padre.
+  - <color=purple>William</color>, el asesino de nuestro padre es el <color=#00FFBF>Bardo</color>.
+  - "\xBFQu\xE9 bardo?"
+  - El <color=#00FFBF>Bardo de los Bardos</color>.
+  idchara: 2c0000001c0000002c0000002c0000001c0000002c0000001c0000002c000000000000001c0000001c0000001c0000002c0000002c0000002c00000000000000000000002c0000001c0000002c000000000000001c0000001c0000001c0000002c0000001c000000000000002c0000001c0000002c0000001c0000002c0000001c0000001c000000000000002c0000001c0000001c0000002c0000001c0000002c000000
+  instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a000000
   Cenario: 22

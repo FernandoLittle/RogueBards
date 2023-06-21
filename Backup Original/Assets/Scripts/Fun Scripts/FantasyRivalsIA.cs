@@ -117,12 +117,12 @@ public class FantasyRivalsIA : MonoBehaviour
 
         if(D.AttackS[SkillIDE[0]].scale > D.AttackQ[SkillIDE[1]].scale)
         {
-            Debug.Log("AttackEnemy1 Maior");
+
             Selector = 0;
         }
         else
         {
-            Debug.Log("AttackEnemy2 Maior/igual");
+
             Selector = 1;
         }
         //Ally Selector
@@ -132,12 +132,12 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[3] = Generic.Module(TurnTemp[3]);
         if (D.Block[SkillIDA[2]].scale > D.Dodge[SkillIDA[3]].scale)
         {
-            Debug.Log("DefenseAlly1 Maior");
+
             SelectorAlly = 2;
         }
         else
         {
-            Debug.Log("DefenseAlly2 Maior");
+
             SelectorAlly = 3;
         }
 
@@ -151,12 +151,12 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[1] = Generic.Module(TurnTemp[1]);
         if (D.Block[SkillIDE[2]].scale > D.Dodge[SkillIDE[3]].scale)
         {
-            Debug.Log("DefenseEnemy1 Maior");
+
             Selector = 2;
         }
         else
         {
-            Debug.Log("DefenseEnemy2 Maior");
+
             Selector = 3;
         }
         //Ally Selector
@@ -166,12 +166,12 @@ public class FantasyRivalsIA : MonoBehaviour
         TurnTemp[3] = Generic.Module(TurnTemp[3]);
         if (D.AttackS[SkillIDA[0]].scale > D.AttackQ[SkillIDA[1]].scale)
         {
-            Debug.Log("AttackAlly1 Maior");
+
             SelectorAlly = 0;
         }
         else
         {
-            Debug.Log("AttackAlly2 Maior");
+
             SelectorAlly = 1;
         }
     }
@@ -219,7 +219,7 @@ public class FantasyRivalsIA : MonoBehaviour
         }
         if (A.turn ==3)
         {
-            IdealManaA = TotalManaA;            
+            IdealManaA = 1000;            
         }
         if (A.Zone[F.z].sentimento == 4)//compaixão
         {

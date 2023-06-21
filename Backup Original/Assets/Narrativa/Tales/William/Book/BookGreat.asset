@@ -23,6 +23,12 @@ MonoBehaviour:
     a verdadeira natureza da <color=green>Akasha</color>.
   - "<i><color=Black>Voc\xEA apenas teve sorte, n\xE3o foi? Ou voc\xEA trapaceou?
     Tanto faz, eu tamb\xE9m sou um trapaceiro sortudo.</color> </i>"
+  DialogueES:
+  - "<color=purple>William</color> comprendi\xF3 las mentiras de aquel libro y contempl\xF3
+    la verdadera naturaleza de <color=green>Akasha</color>."
+  - "<i><color=Black>\rT\xFA simplemente tuviste suerte, \xBFverdad? \xBFO acaso
+    hiciste trampa? No importa, yo tambi\xE9n soy un tramposo afortunado.</color>
+    </i>"
   idchara: 0000000000000000
   instruction: 00000000e8030000ea030000
   Cenario: 4

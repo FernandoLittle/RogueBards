@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Everyone in <color=yellow>Sarka</color> wants to be a vagabond's bitch.
+  - Everyone in <color=yellow>Sarka</color> wants to be a thug's bitch.
   - Speak down, <color=yellow>Mello</color>.
   - <color=purple>William</color> looked around, hoping no one in that bar was paying
     attention to them.
@@ -41,7 +41,7 @@ MonoBehaviour:
   - "My mom\u2026 My mother is sick, she needs me for everything, there is no one
     but me who can take care of her."
   - <color=yellow>Mello</color> started to cry.
-  - "If I die, she will be alone\u2026 Why am I risking my life?"
+  - "If I die she will be alone\u2026 Why am I risking my life?"
   - Why, <color=purple>William</color>? Answer me.
   - This story reminded <color=purple>William</color> of the worst day of his life.
   - I think I know why people sympathize with bandits more than warriors. We risk
@@ -82,7 +82,7 @@ MonoBehaviour:
   - "Minha m\xE3e... Minha m\xE3e est\xE1 doente, ela precisa de mim para tudo, n\xE3o
     h\xE1 ningu\xE9m al\xE9m de mim que possa cuidar dela."
   - "<color=yellow>Mello</color> come\xE7ou a chorar."
-  - "Se eu morrer, ela ficar\xE1 sozinha... Por que eu estou arriscando minha vida?"
+  - "Se eu morrer ela ficar\xE1 sozinha... Por que eu estou arriscando minha vida?"
   - Por que, <color=purple>William</color>? Me responda.
   - "Esta hist\xF3ria lembrou <color=purple>William</color> do pior dia de sua vida."
   - "Acho que sei o porqu\xEA das pessoas simpatizam mais com bandidos do que com
@@ -95,6 +95,51 @@ MonoBehaviour:
   - "N\xE3o desista do caminho da justi\xE7a."
   - <color=purple>William</color> sentiu-se muito orgulhoso por ter dado este excelente
     <color=red>conselho</color>.
+  DialogueES:
+  - "Todo el mundo en <color=yellow>Sarka</color> quiere ser la perra de un mat\xF3n."
+  - "Habla m\xE1s bajo, <color=yellow>Mello</color>."
+  - "<color=purple>William</color> mir\xF3 a su alrededor, esperando que nadie en
+    el bar les prestara atenci\xF3n."
+  - Oye, creo que has bebido suficiente.
+  - "\xBFA qui\xE9n le importa? \xBFA qui\xE9n le importa si muero ahora? Nadie."
+  - "\xBFQu\xE9 quieres decir? Me importa, hombre. \xBFQu\xE9 pas\xF3? T\xFA no eres
+    as\xED."
+  - "Todos los d\xEDas los guerreros arriesgamos nuestras vidas para ... para ...
+    \xBFpara qu\xE9?"
+  - "<color=yellow>Mello</color> solloz\xF3."
+  - "Para proteger a la gente, supongo. Y nos tratan como villanos en este pa\xEDs
+    de mierda."
+  - "\xA1Habla m\xE1s bajo, <color=yellow>Mello</color>! Decir que este pa\xEDs es
+    una mier\u2026 ofender a la patria es un gran delito."
+  - "Me cago, a nadie le importa. Los bardos dicen cosas peores todo el tiempo. Justo
+    ayer hubo un maldito bardo cantando una canci\xF3n que glorificaba a un traficante
+    de drogas que se foll\xF3 a la esposa de un guerrero."
+  - "Apuesto a que era una historia real, este... este mundo est\xE1 podrido."
+  - "<color=amarillo>Mello</color>, s\xE9 c\xF3mo te sientes. Todo guerrero lo siente,
+    arriesgamos la vida por el pueblo y somos tratados como villanos en las canciones,
+    incluso en los diarios a veces. Pero mira el lado positivo, el parlamento ha
+    aprobado una ley que proh\xEDbe a los peri\xF3dicos publicar noticias antipatri\xF3ticas."
+  - Eso no resuelve nada, nos morimos por gente de mierda que nos odia.
+  - "<color=purple>William</color> abraz\xF3 a su amigo."
+  - "Eres una buena persona hombre, conozco tu coraz\xF3n, no dejes que la angustia
+    te consuma."
+  - "Mi madre... Mi madre est\xE1 enferma, me necesita para todo, no hay nadie m\xE1s
+    que yo que pueda cuidarla."
+  - "<color=yellow>Mello</color> comenz\xF3 a llorar."
+  - "Si muero ella estar\xE1 sola... \xBFPor qu\xE9 arriesgo mi vida?"
+  - "\xBFPor qu\xE9, <color=purple>William</color>? Resp\xF3ndeme."
+  - "Esta historia le record\xF3 a <color=purple>William</color> el peor d\xEDa de
+    su vida."
+  - "Creo que s\xE9 por qu\xE9 la gente simpatiza m\xE1s con los bandidos que con
+    los guerreros. Arriesgamos nuestras vidas por algo m\xE1s grande y pocos pueden
+    entenderlo."
+  - "La mayor\xEDa de las personas son ego\xEDstas y, por lo tanto, se identifican
+    con los delincuentes mucho m\xE1s que con nosotros."
+  - Eres un hombre fuerte, <color=yellow>Mello</color>.
+  - Eres un guerrero.
+  - No abandones el camino de la justicia.
+  - <color=purple>William</color> estaba muy orgulloso de haber dado este excelente
+    <color=red>consejo</color>.
   idchara: 210000001c000000000000001c000000210000001c0000002100000000000000210000001c00000021000000210000001c00000021000000000000001c00000021000000000000002100000021000000000000001c0000001c0000001c0000001c0000001c00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cc080000000000006f000000
   Cenario: 26

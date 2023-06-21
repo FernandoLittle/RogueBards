@@ -15,21 +15,22 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - 'Humans have 3 attributes:'
-  - '<color=80FF80>Attack</color>: Many skills deal damage depending on the human''s
+  - '<color=#80FF80>Attack</color>: Many skills deal damage depending on the human''s
     attack.'
-  - '<color=FFFF80>Defense</color>: Reduces the damage your human takes, but does
+  - '<color=#FFFF80>Defense</color>: Reduces the damage your human takes, but does
     not reduce true damage.'
   - '<color=red>Life</color>: When a humans''s life reaches 0 he dies. After 4 rounds
     the human with the highest life wins.'
   - Tonight will be cold.
   DialogueBR:
   - "Os humanos t\xEAm 3 atributos:"
-  - '<color=80FF80>Ataque</color>: Muitas habilidades causam dano dependendo do ataque
-    do humano.'
-  - "<color=FFFF80>Defesa</color>: Reduz o dano que seu humano recebe, mas n\xE3o
+  - '<color=#80FF80>Ataque</color>: Muitas habilidades causam dano dependendo do
+    ataque do humano.'
+  - "<color=#FFFF80>Defesa</color>: Reduz o dano que seu humano recebe, mas n\xE3o
     reduz o dano verdadeiro."
   - '<color=red>Vida</color>: Quando a vida de um humano chega a 0, ele morre.'
   - "Ap\xF3s quatro rodadas, o humano com a vida mais alta vence."
+  DialogueES: []
   idchara: 0000000000000000000000000000000000000000
   instruction: 100000001100000012000000130000001400000001000000
   Cenario: 0

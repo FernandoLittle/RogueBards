@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - <color=purple>William</color> se sentiu idiota.
   - "Ele tinha a sensa\xE7\xE3o de estar conversando consigo mesmo quando orava."
+  DialogueES:
+  - "<color=purple>William</color> se sinti\xF3 est\xFApido."
+  - "Ten\xEDa la sensaci\xF3n de que estaba hablando consigo mismo cuando oraba."
   idchara: 0000000000000000
   instruction: 0000000000000000f6010000
   Cenario: 43

@@ -23,6 +23,12 @@ MonoBehaviour:
     Ele lutar\xE1 pela na\xE7\xE3o, pela lei, pelo povo, por vingan\xE7a e talvez
     encontre a pessoa que mais odeia ao lutar contra a Guilda dos Assassinos."
   - Seria uma cena muito divertida.
+  DialogueES:
+  - "<color=purple>William</color> eligi\xF3 el camino del bien y se convirti\xF3
+    en un guerrero. Luchar\xE1 por la naci\xF3n, por la ley, por la gente, por venganza,
+    y quiz\xE1s encuentre a la persona que m\xE1s odia cuando luche contra el Gremio
+    de Asesinos."
+  - "Ser\xEDa una escena muy divertida."
   idchara: 0000000000000000
   instruction: ed030000ee030000f4010000
   Cenario: 31

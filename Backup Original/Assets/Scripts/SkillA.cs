@@ -144,7 +144,7 @@ public class SkillA : MonoBehaviour
     }
     public void GainRelic(int a)
     {
-        Debug.Log("GainRelic");
+
         try
         {
             StaticPlayer.RelicsAlly.Add(a);
@@ -188,12 +188,13 @@ public class SkillA : MonoBehaviour
     {
 
         GainSkill.SetActive(true);
+        TypeSkill = type;
         OldSkill();
       
 
 
         NewIdSkill = id;
-        TypeSkill = type;
+
 
 
         
@@ -246,7 +247,7 @@ public class SkillA : MonoBehaviour
     {
         int chaos;
         GainSkill.SetActive(true);
-        OldSkill();        
+       
         if (type == 10)//ShuáSkill
         {
             chaos = Random.Range(0, TrueShuaSkills.Count);
@@ -280,13 +281,14 @@ public class SkillA : MonoBehaviour
 
 
         }
+        OldSkill();
         EyeSkill();
     }
     public void SelecTSkill(int type)
     {
         int chaos;
         GainSkill.SetActive(true);
-        OldSkill();
+ 
         if (type == 1)
         {
             chaos=Random.Range(0, Tier1AF.Count);
@@ -379,6 +381,7 @@ public class SkillA : MonoBehaviour
 
 
         }
+        OldSkill();
         EyeSkill();
     }
     public void NewSkill()
@@ -402,21 +405,26 @@ public class SkillA : MonoBehaviour
     }
     public void OldSkill()
     {
+        Debug.Log("TypeSkill: " + TypeSkill.ToString());
         if (TypeSkill == 1)
         {
             OldIdSkill = StaticPlayer.TrueAttack[0];
+            Debug.Log("TrueAttack: " + StaticPlayer.TrueAttack[0].ToString());
         }
         if (TypeSkill == 2)
         {
             OldIdSkill = StaticPlayer.FakeAttack[0];
+            Debug.Log("FakeAttack: " + StaticPlayer.FakeAttack[0].ToString());
         }
         if (TypeSkill == 3)
         {
             OldIdSkill = StaticPlayer.Block[0];
+            Debug.Log("Block: " + StaticPlayer.Block[0].ToString());
         }
         if (TypeSkill == 4)
         {
             OldIdSkill = StaticPlayer.CounterAttack[0];
+            Debug.Log("CounterAttack: " + StaticPlayer.CounterAttack[0].ToString());
         }
     }
     public void EyeSkill()

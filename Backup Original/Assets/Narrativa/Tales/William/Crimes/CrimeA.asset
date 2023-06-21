@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - "O trabalho de um assassino \xE9 defender o crime."
   - "Qual crime voc\xEA quer defender?"
+  DialogueES:
+  - El trabajo de un asesino es defender el crimen.
+  - "\xBFQu\xE9 crimen quieres defender?"
   idchara: 0000000000000000
   instruction: 0000000000000000fdffffff
   Cenario: 31

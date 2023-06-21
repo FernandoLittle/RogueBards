@@ -40,7 +40,7 @@ MonoBehaviour:
   - "He's just a child\u2026 wretched\u2026 that I picked up on the street\u2026"
   - "Those were the last words <color=#FF0080>L\xE1zaro</color> heard."
   DialogueBR:
-  - "V\xE1 para a casa de Ebu, durma com ela, eu te busco amanh\xE3."
+  - "V\xE1 para a casa da Ebu, durma com ela, eu te busco amanh\xE3."
   - "Por que n\xE3o posso ficar aqui, pai?"
   - "Porque eu tenho um trabalho importante, voc\xEA vai me atrapalhar se ficar por
     aqui."
@@ -51,7 +51,7 @@ MonoBehaviour:
   - "Vendo <color=purple>William</color> se divertindo quebrando os bra\xE7os e pernas
     do <color=#00FFBF>bardo</color>, <color=#FF0080>L\xE1zaro</color> correu para
     ajudar seu pai."
-  - Stop! Please don't kill my father!
+  - "Pare! Por favor, n\xE3o mate meu pai!"
   - "As pessoas temem muito a morte, \xE9 estranho porque apenas os vivos s\xE3o
     capazes de sofrer."
   - "N\xE3o se preocupe com ele, jovem, pois n\xE3o vou mat\xE1-lo. E n\xE3o se preocupe
@@ -68,6 +68,34 @@ MonoBehaviour:
   - "Mat\xE1-lo n\xE3o vai me incomodar nem um pouco."
   - "Ele \xE9 apenas uma crian\xE7a... miser\xE1vel... que eu catei na rua..."
   - "Essas foram as \xFAltimas palavras que <color=#FF0080>L\xE1zaro</color> ouviu."
+  DialogueES:
+  - "Ve a casa de Ebu, duerme con ella, ma\xF1ana te paso a buscar."
+  - "\xBFPor qu\xE9 no puedo quedarme aqu\xED, pap\xE1?"
+  - Como tengo un trabajo importante, vas a interponerte en mi camino si te quedas.
+  - "<color=#FF0080>L\xE1zaro</color> sab\xEDa cu\xE1l era el antiguo trabajo de
+    su padre, por lo que se escondi\xF3 cerca de su casa en lugar de refugiarse en
+    la casa de Ebu."
+  - Porque era demasiado valiente para huir mientras su padre estaba en peligro.
+  - <color=green>Akasha</color> reservaba un regalo especial para los valientes.
+  - "Al ver a <color=purple>William</color> divertirse rompiendo los brazos y las
+    piernas del <color=#00FFBF>bardo</color>, <color=#FF0080>L\xE1zaro</color> se
+    apresur\xF3 a ayudar a su padre."
+  - "\xA1Detener! \xA1Por favor, no mates a mi padre!"
+  - La gente le tiene mucho miedo a la muerte, es raro porque solo los vivos son
+    capaces de sufrir.
+  - "No te preocupes por \xE9l, joven, no lo matar\xE9. Y no te preocupes por ti,
+    no sufrir\xE1s m\xE1s."
+  - "Cuando <color=red>William</color> recogi\xF3 su espada, el <color=#00FFBF>bardo</color>
+    reuni\xF3 todas sus fuerzas para superar el dolor de sus miembros rotos y dijo:"
+  - "Matar\xE1s..."
+  - "El <color=#00FFBF>bardo</color> grit\xF3, su dolor f\xEDsico era insoportable."
+  - Vas a matar a una... una persona inocente.
+  - A cambio de nada.
+  - El no es mi hijo...
+  - "Yo no lo amo\u2026"
+  - "Matarlo no me molestar\xE1 ni un poco."
+  - "Es solo un ni\xF1o... miserable... que recog\xED en la calle..."
+  - "Esas fueron las \xFAltimas palabras que escuch\xF3 <color=#FF0080>L\xE1zaro</color>."
   idchara: 0a000000170000000a00000000000000000000000000000000000000170000001c0000001c000000000000000a000000000000000a0000000a0000000a0000000a0000000a0000000a00000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000086030000
   Cenario: 21

@@ -77,7 +77,7 @@ MonoBehaviour:
 '
   - "\u201CFelicidade\u2026\u201D"
   - "Voc\xEA \xE9 de fato muito sorridente, como voc\xEA consegue ser t\xE3o feliz?"
-  - "Como que n\xE3o seria feliz? Eu planto milho, eu vendo milho, eu como milho.\r\n"
+  - "Como que eu n\xE3o seria feliz? Eu planto milho, eu vendo milho, eu como milho.\r\n"
   - "\xC9 imposs\xEDvel ser infeliz com tanto milho."
   - "Que bobagem, n\xE3o d\xE1 para ser feliz s\xF3 com milho.\r\n"
   - "\xC9 claro que d\xE1, eu j\xE1 vi muitas pessoas felizes depois que comeram
@@ -102,6 +102,47 @@ MonoBehaviour:
   - "<color=purple>William</color> duvidava que um imbecil como aquele homem fosse
     capaz de ensin\xE1-lo a ser feliz, mas a proposta de uma janta de gra\xE7a o
     atraiu.\r\n"
+  DialogueES:
+  - "\xBFMa\xEDz, qui\xE9n quiere ma\xEDz? El ma\xEDz es bueno, se puede comer, comer
+    es bueno, \xBFsabes qu\xE9 sucede cuando no comes, alguien sabe?"
+  - "\xA1T\xFA, guerrero! \xA1T\xFA mismo, \xBFsabes?"
+  - No.
+  - "\r\xBFNo sabes qu\xE9 sucede cuando uno no come?"
+  - "No lo s\xE9."
+  - "Uno tiene m\xE1s ganas de comer."
+  - "\xBFDe verdad? Nunca lo hubiera imaginado."
+  - "\rPero es cierto, las personas sienten cada vez m\xE1s ganas de comer."
+  - "Y cuando tienen muchas ganas de comer, empiezan a hacer cosas que no deber\xEDan."
+  - "Entonces come un poco de ma\xEDz, lo vendo barato para ti."
+  - "<color=purple>William</color> compr\xF3, a pesar de no haber simpatizado con
+    el vendedor, al menos el ma\xEDz estaba realmente sabroso."
+  - "\xBFTe gust\xF3?"
+  - "\rS\xED."
+  - "\xA1Qu\xE9 bueno! Eso me alegra mucho."
+  - "\"Alegr\xEDa...\""
+  - "\rEres realmente muy sonriente, \xBFc\xF3mo logras ser tan feliz?"
+  - "\xBFC\xF3mo no ser\xEDa feliz? Yo siembro ma\xEDz, vendo ma\xEDz, como ma\xEDz."
+  - "Es imposible ser infeliz con tanto ma\xEDz."
+  - "Qu\xE9 tonter\xEDa, no se puede ser feliz solo con ma\xEDz."
+  - "Claro que se puede, he visto a muchas personas felices despu\xE9s de comer mi
+    ma\xEDz."
+  - Quedaron muy, muy, muy felices.
+  - "\xBFComo asi? El ma\xEDz es comida para los pobres."
+  - "El ma\xEDz es el alimento de los pobres porque se puede hervir mucha agua quemando
+    una peque\xF1a cantidad de ma\xEDz."
+  - "Y si tienes poca tierra siembras mucho ma\xEDz, la papa puede ser mejor, pero
+    yo prefiero el ma\xEDz."
+  - "\"\xBFDe qu\xE9 est\xE1 hablando este idiota?\""
+  - "Esto no tiene ning\xFAn sentido, est\xE1s completamente alucinando."
+  - No soy un alucinado.
+  - "<color=Black>S\xED, lo eres.</color>"
+  - No soy un alucinado!
+  - "C\xE1lmate hombre, lo escuch\xE9 la primera vez que lo dijiste."
+  - "Te mostrar\xE9 c\xF3mo ser feliz, te llevar\xE9 a sembrar y comer ma\xEDz en
+    mi casa, la cena corre por mi cuenta, as\xED entender\xE1s el verdadero significado
+    de la felicidad."
+  - "<color=purple>William</color> dudaba que un imb\xE9cil como ese hombre pudiera
+    ense\xF1arle a ser feliz, pero la propuesta de una cena gratis lo atrajo."
   idchara: 02000000020000001c000000020000001c000000020000001c00000002000000020000000200000000000000020000001c000000020000001c0000001c00000002000000020000001c00000002000000020000001c00000002000000020000001c0000001c0000000200000000000000020000001c0000000200000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000350300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007e000000
   Cenario: 29

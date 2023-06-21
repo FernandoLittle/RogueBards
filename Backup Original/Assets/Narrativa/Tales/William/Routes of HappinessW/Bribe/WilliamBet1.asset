@@ -32,9 +32,21 @@ MonoBehaviour:
   - "Voc\xEAs vieram mais cedo nessa esta\xE7\xE3o, aqui est\xE1 o pagamento."
   - "<color=purple>William</color> deu a ele um olhar amea\xE7ador."
   - "Voc\xEA est\xE1 tentando me subornar? Voc\xEA ser\xE1 preso."
-  - "Calma, calma, calma, n\xE3o precisa de tanta hostilidade, posso aumentar o sal\xE1rio,
+  - "Calma, calma, calma, n\xE3o precisa de tanta hostilidade, posso aumentar o pagamento,
     assim todo mundo fica feliz, n\xE9?"
   - "Foi um prazer fazer neg\xF3cios com voc\xEA."
+  DialogueES:
+  - "Era f\xE1cil reconocer una casa de apuestas, aunque no tuviera cartel, porque
+    pr\xE1cticamente todos los establecimientos sin nombre y con una cortina ocultando
+    su interior eran casas de apuestas en <color=yellow>Sarka</cor>."
+  - "El asistente r\xE1pidamente se dio cuenta de que <color=purple>William</color>
+    era un guerrero."
+  - "Llegaste temprano esta temporada, aqu\xED est\xE1 el pago."
+  - "<color=purple>William</color> le dirigi\xF3 una mirada amenazadora."
+  - "\xBFEst\xE1s tratando de sobornarme? Ser\xE1s arrestado."
+  - "Tranquila, tranquila, tranquila, no hace falta tanta hostilidad, puedo aumentar
+    el pago, para que todos est\xE9n contentos, \xBFno?"
+  - Fue un placer hacer negocios con usted.
   idchara: 000000000000000010000000000000001c000000100000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000042010000
   Cenario: 44

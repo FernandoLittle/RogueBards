@@ -66,15 +66,47 @@ MonoBehaviour:
   - O <color=#00FFBF>bardo</color> riu.
   - "Um guerreiro aprendendo a tocar uma m\xFAsica onde o ex\xE9rcito nacional \xE9
     o vil\xE3o. \xC9 a primeira vez que vejo isso."
-  - "O ex\xE9rcito \xE9 o vil\xE3o? nem percebi.."
+  - "O ex\xE9rcito \xE9 o vil\xE3o? nem percebi."
   - "Excelente! N\xF3s bardos escrevemos nossas can\xE7\xF5es sutilmente para que
     os guerreiros n\xE3o percebam que estamos fazendo propaganda contra eles."
   - "Voc\xEA n\xE3o tem medo de dizer isso na frente de um guerreiro?"
   - O <color=#00FFBF>bardo</color> sorriu gentilmente.
   - "N\xE3o."
-  - "Seja como for, sua m\xFAsica me deixou de bom humor. Se voc\xEA me ensinar a
-    tocar, vou fingir que n\xE3o ouvi isso."
+  - "Tanto faz, sua m\xFAsica me deixou de bom humor. Se voc\xEA me ensinar a tocar,
+    vou fingir que n\xE3o ouvi isso."
   - "Ser\xE1 um prazer ensin\xE1-lo, <color=purple>jovem</color>."
+  DialogueES:
+  - "\xBFQu\xE9 hab\xEDa en <color=cyan>Belo Monte</color>? El <color=00FFBF>bardo</color>
+    hizo esa pregunta varias veces en su canci\xF3n, pero nunca respondi\xF3. Esto
+    dej\xF3 a <color=purple>William</color> curioso."
+  - "\xA1Eh, <color=#00FFBF>bardo</color>! Te pago una bebida si respondes una pregunta."
+  - "Estar\xE9 encantado de responderte, <color=purple>jovem</color>."
+  - "\xBFQu\xE9 hab\xEDa en <color=cyan>Belo Monte</color>?"
+  - "El <color=#00FFBF>bardo</color> se ri\xF3."
+  - "Esta es una pregunta muy dif\xEDcil, mi amigo. \xBFQu\xE9 motivar\xEDa a un
+    hombre a luchar contra un enemigo invencible?"
+  - No hay enemigos invencibles.
+  - "Est\xE1s absolutamente en lo correcto. Hubo una batalla legendaria en la que
+    los campesinos derrotaron a un ej\xE9rcito completo, a pesar de estar en clara
+    inferioridad num\xE9rica. La \xFAnica fuerza que ten\xEDan era un profundo deseo
+    de proteger a sus familias y sus tierras."
+  - Los bardos tienden a exagerar en todo, eso es imposible.
+  - "El <color=#00FFBF>bardo</color> sonri\xF3."
+  - "\rEst\xE1s absolutamente en lo correcto!"
+  - "No importa, me gust\xF3 esta canci\xF3n, voy a aprender a tocarla."
+  - "El <color=#00FFBF>bardo</color> se ri\xF3."
+  - "\rUn guerrero aprendiendo a tocar una canci\xF3n donde el ej\xE9rcito nacional
+    es el villano. Es la primera vez que veo esto."
+  - "\xBFEl ej\xE9rcito es el villano? Ni siquiera me di cuenta."
+  - "\rExcelente! Nosotros, los bardos, escribimos nuestras canciones de manera sutil
+    para que los guerreros no se den cuenta de que estamos haciendo propaganda en
+    su contra."
+  - "\r\xBFNo tienes miedo de decir eso frente a un guerrero?"
+  - "El <color=#00FFBF>bardo</color> sonri\xF3 amablemente."
+  - No.
+  - "\rNo importa, tu m\xFAsica me ha puesto de buen humor. Si me ense\xF1as a tocarla,
+    fingir\xE9 que no escuch\xE9 eso."
+  - "Ser\xE1 un placer ense\xF1arte, <color=purple>joven</color>."
   idchara: 000000001c0000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a0000001c000000000000000a0000001c0000000a0000001c000000000000000a0000001c0000000a000000
   instruction: 000000006f08000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f1030000
   Cenario: 66

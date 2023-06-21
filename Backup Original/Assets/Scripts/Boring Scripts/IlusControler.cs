@@ -19,13 +19,13 @@ public class IlusControler : MonoBehaviour
     {
         if (IlustrationChange == false)
         {
-            Debug.Log(idCenario);
+
             Cenario.sprite = IlustrationList[idCenario];
             
         }
         else
         {
-            Debug.Log("MUDA A CENA");
+
             Gambiarra.SetActive(false);
             Gambiarra.SetActive(true);
             IlustrationAnime.Play("IlustrationChange");

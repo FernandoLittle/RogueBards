@@ -68,9 +68,9 @@ public class Cubinho : MonoBehaviour
         {
 
             SetChaos();
-            Debug.Log(chaos);
+
             SetFace(1);
-            Debug.Log(chaos);
+
             Quadrados.RemoveAt(chaos);
         }
         else
@@ -88,7 +88,7 @@ public class Cubinho : MonoBehaviour
         {
             SetChaos();
             SetFace(2);
-            Debug.Log(chaos);
+
             Quadrados.RemoveAt(chaos);
         }
         else
@@ -106,7 +106,7 @@ public class Cubinho : MonoBehaviour
         {
             SetChaos();
             SetFace(3);
-            Debug.Log(chaos);
+
            Quadrados.RemoveAt(chaos);
         }
         else
@@ -123,7 +123,7 @@ public class Cubinho : MonoBehaviour
         {
             SetChaos();
             SetFace(4);
-            Debug.Log(chaos);
+
             Quadrados.RemoveAt(chaos);
         }
         else
@@ -140,7 +140,7 @@ public class Cubinho : MonoBehaviour
         {
             SetChaos();
             SetFace(5);
-            Debug.Log(chaos);
+
             Quadrados.RemoveAt(chaos);
         }
         else

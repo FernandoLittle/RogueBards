@@ -37,7 +37,7 @@ MonoBehaviour:
   - "Sempre tem, mas eu gosto de ca\xE7ar eu mesma."
   - "Ser\xE1 que existe profiss\xE3o mais odiada do que essa?"
   - "Voc\xEA sabia que esse \xF3dio n\xE3o \xE9 t\xE3o comum no continente? O problema
-    \xE9 que <color=yellow>Sarka</color> manteve o sistema tribut\xE1rio Sangla,
+    \xE9 que <color=yellow>Sarka</color> manteve o sistema tribut\xE1rio <color=yellow>Sangla</color>,
     onde a tributa\xE7\xE3o \xE9 muito focada na renda."
   - "Se os pol\xEDticos fossem espertos iriam taxar o com\xE9rcio, no resto de <color=yellow>Cadima</color>
     quase ningu\xE9m se importa com impostos porque a maioria nem percebe que eles
@@ -48,6 +48,7 @@ MonoBehaviour:
   - "Eu n\xE3o vou fazer isso."
   - "Ent\xE3o vou pegar todas as cabe\xE7as de publicano para mim."
   - No dia seguinte, <color=purple>William</color> estava diante de um publicano.
+  DialogueES: []
   idchara: 01000000010000001c000000010000001c00000001000000010000001c000000010000001c0000000100000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021000000
   Cenario: 34

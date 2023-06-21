@@ -20,10 +20,10 @@ MonoBehaviour:
     house. As good as the quality of the oak was and as good as the carpenter who
     carved it was, time has not forgiven it.
   - It wasn't just time that didn't forgive her, with a single kick <color=purple>William</color>
-    knocked down that door, <color=#00B2FF>Simon Derrida</color> who was reading
-    the book "Reflections on the Democracy of Sangla" got up terrified and ran towards
-    the room where he kept his weapons as if he were a child running towards his
-    parents after being startled by thunder.
+    knocked down that door, <color=#00B2FF>Simon</color> who was reading the book
+    "Reflections on the Democracy of Sangla" got up terrified and ran towards the
+    room where he kept his weapons as if he were a child running towards his parents
+    after being startled by thunder.
   - Today is the day of your death <color=#00B2FF>Simon Derrida</color>, I have waited
     a long time to avenge my family.
   - Rather than charging his opponent furiously, <color=purple>William</color> continued
@@ -36,15 +36,16 @@ MonoBehaviour:
     Por melhor que fosse a qualidade do carvalho e por melhor que fosse o carpinteiro
     que a talhou, o tempo n\xE3o a perdoou."
   - "N\xE3o foi s\xF3 o tempo que n\xE3o a perdoou, com um \xFAnico chute <color=purple>William</color>
-    derrubou aquela porta, <color=#00B2FF>Simon Derrida</color> que estava lendo
-    o livro \"Reflex\xF5es sobre a Democracia de Sangla\" levantou-se apavorado e
-    correu em dire\xE7\xE3o ao quarto onde guardava seu armas como se fosse uma crian\xE7a
+    derrubou aquela porta, <color=#00B2FF>Simon</color> que estava lendo o livro
+    \"Reflex\xF5es sobre a Democracia de Sangla\" levantou-se apavorado e correu
+    em dire\xE7\xE3o ao quarto onde guardava seu armas como se fosse uma crian\xE7a
     correndo em dire\xE7\xE3o aos pais ap\xF3s ser surpreendida por um trov\xE3o."
   - "Hoje \xE9 o dia de sua morte <color=#00B2FF>Simon Derrida</color>, eu esperei
     por muito tempo para vingar a minha fam\xEDlia."
   - "Ao inv\xE9s de investir furiosamente contra seu advers\xE1rio, <color=purple>William</color>
     continuou com seu discurso desinteressante, permitindo que <color=#00B2FF>Simon</color>
     se preparasse para a luta."
+  DialogueES: []
   idchara: 0000000000000000000000001c00000000000000
   instruction: 000000000000000000000000000000000000000024000000
   Cenario: 60

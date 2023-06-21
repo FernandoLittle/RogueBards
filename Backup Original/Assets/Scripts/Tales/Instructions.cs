@@ -628,6 +628,21 @@ public class Instructions : MonoBehaviour
                 TalesVariables.EndScene(a - 900);
                 ResetGame();
                 break;
+            case 910:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 911:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
+            case 912:
+                TalesVariables.Obrigado.SetActive(true);
+                TalesVariables.EndScene(a - 900);
+                ResetGame();
+                break;
 
 
             //1000 Special Instructions
@@ -971,7 +986,7 @@ public class Instructions : MonoBehaviour
         {
             TalesVariables.CustonRoute.Add(x);
         }
-        Debug.Log("O_O");
+
         Debug.Log(TalesVariables.CustonRoute.Count);
         chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
         Route1 = TalesVariables.CustonRoute[chaos];
@@ -1050,7 +1065,7 @@ public class Instructions : MonoBehaviour
         {
             TalesVariables.CustonRoute.Add(x);
         }
-        Debug.Log("O_O");
+    
         Debug.Log(TalesVariables.CustonRoute.Count);
         chaos = Random.Range(0, TalesVariables.CustonRoute.Count);
         Route1 = TalesVariables.CustonRoute[chaos];
@@ -1189,7 +1204,7 @@ public class Instructions : MonoBehaviour
                 if (TalesVariables.FightL1[x] == 3)
                 {
                     Inteiro[x] = 1404;
-                    Caracter[x] = "Illegal Immigration.";
+                    Caracter[x] = "Illegal Emigration.";
                 }
                 if (TalesVariables.FightL1[x] == 4)
                 {
@@ -1223,7 +1238,7 @@ public class Instructions : MonoBehaviour
                 if (TalesVariables.FightL1[x] == 3)
                 {
                     Inteiro[x] = 1404;
-                    Caracter[x] = "Imigração Ilegal.";
+                    Caracter[x] = "Emigração Ilegal.";
                 }
                 if (TalesVariables.FightL1[x] == 4)
                 {

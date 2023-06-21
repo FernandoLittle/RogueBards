@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - "<color=purple>William</color> rezou fervorosamente com toda a f\xE9 de seu cora\xE7\xE3o."
   - "E por algum motivo que ele n\xE3o compreendia, ele se sentiu em paz."
+  DialogueES:
+  - "<color=purple>William</color> or\xF3 fervientemente con toda la fe en su coraz\xF3n."
+  - "Y por alguna raz\xF3n que no entend\xEDa, se sinti\xF3 en paz."
   idchara: 0000000000000000
   instruction: 00000000e8030000f6010000
   Cenario: 43

@@ -41,6 +41,21 @@ MonoBehaviour:
   - "Voc\xEA est\xE1 dizendo que a beleza \xE9 o que leva as pessoas a fazer o bem?"
   - Exatamente!
   - "A beleza deste mundo n\xE3o era vis\xEDvel para <color=purple>William</color>."
+  DialogueES:
+  - "Yo no creo en eso. \xBFPor qu\xE9 seguir\xEDa un camino de virtud? Conozco a
+    muchas buenas personas que tienen finales tr\xE1gicos."
+  - "\xBFSabes por qu\xE9 sigo a <color=#FF0080>Shu\xE1</color>?"
+  - "\u2026"
+  - "Creo que el camino de <color=#FF0080>Shu\xE1</color> es hermoso. Tengo la teor\xEDa
+    de que las personas solo hacen lo que es moral y virtuoso porque ven la belleza
+    en ello."
+  - "Nunca seguir\xEDa a <color=#FF0080>Shu\xE1</color> si viera fealdad en sus ense\xF1anzas"
+  - "Pero la est\xE9tica inspira mi coraz\xF3n para hacer el bien y convertirme en
+    una mejor persona."
+  - "\xBFEst\xE1s diciendo que la belleza es lo que impulsa a las personas a hacer
+    el bien?"
+  - "\xA1Exactamente!"
+  - La belleza de este mundo no era visible para <color=purple>William</color>.
   idchara: 1c000000190000001c0000001900000019000000190000001c0000001900000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000006d000000
   Cenario: 13

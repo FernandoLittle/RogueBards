@@ -21,6 +21,10 @@ MonoBehaviour:
   - "Sua m\xFAsica est\xE1 perfeita, n\xE3o tenho mais nada para te ensinar."
   - "<color=purple>William</color> n\xE3o sabia como responder a esse elogio, ele
     s\xF3 conseguia sorrir."
+  DialogueES:
+  - "Tu m\xFAsica es perfecta, no tengo nada m\xE1s que ense\xF1arte."
+  - "<color=purple>William</color> no supo c\xF3mo responder a ese cumplido, solo
+    pudo sonre\xEDr."
   idchara: 0a00000000000000
   instruction: 00000000e8030000ea030000
   Cenario: 45

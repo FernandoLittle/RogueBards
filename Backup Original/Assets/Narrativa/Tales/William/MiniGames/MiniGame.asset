@@ -17,6 +17,8 @@ MonoBehaviour:
   - How do you want to spend your free time?
   DialogueBR:
   - "Como voc\xEA quer passar o seu tempo livre?"
+  DialogueES:
+  - "\xBFC\xF3mo quieres pasar tu tiempo libre?"
   idchara: 00000000
   instruction: 3d010000
   Cenario: 3

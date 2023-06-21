@@ -20,7 +20,7 @@ MonoBehaviour:
   id: 0
   Texto0: 'Victory: If you have less than 3 life, gain 8 life.'
   Texto0br: "Vit\xF3ria: Se voc\xEA tiver menos que 3 de vida, ganhe 8 de vida. "
-  scale: 7
+  scale: 8
   IAturn: 0
   KeywordId: 2b000000
   KeywordValues:

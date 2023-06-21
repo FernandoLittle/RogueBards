@@ -49,6 +49,24 @@ MonoBehaviour:
     o <color=green>Roy</color> que eu conhecia n\xE3o era um parasita."
   - 'Na semana seguinte:'
   - "<color=green>Roy</color> joga uma moeda, infelizmente o resultado \xE9 coroa."
+  DialogueES:
+  - "No puedo m\xE1s, yo... yo no... no... \xBFqu\xE9 estamos haciendo aqu\xED?"
+  - "\xA1Ponte de pie <color=green>Roy</color>! \xA1A\xFAn no hemos terminado!"
+  - "\xBFNo puedes ver lo que estamos haciendo? \xA1Detenlo ahora!"
+  - "\xBFEntiende que est\xE1 desobedeciendo a la jerarqu\xEDa militar?"
+  - "\xA1<color=amarillo>Yuri</color>! \xBFEst\xE1s loco? \xA1No podemos seguir con
+    esto!"
+  - "La pr\xF3xima semana:"
+  - "Tienes suerte, <color=green>Roy</color>, la mayor\xEDa habr\xEDa ido a la c\xE1rcel
+    por lo que hiciste, pero logr\xE9 que perdieras tu espada."
+  - Necesito la espada, necesito el salario...
+  - "\xA1Deber\xEDa haber pensado en eso antes! Seguir\xE1 ganando una bonificaci\xF3n
+    por los servicios prestados hasta el momento."
+  - Este dinero no es suficiente, necesito...
+  - "Te gusta mucho escupir en el plato que comiste. Qu\xEDtate de mi camino, el
+    <color=green>Roy</color> que sab\xEDa que no era un par\xE1sito."
+  - "La pr\xF3xima semana:"
+  - <color=green>Roy</color> lanza una moneda, desafortunadamente sale cruz.
   idchara: 1b0000000d0000001b0000000d0000001b000000000000000d0000001b0000000d0000001b0000000d000000000000000000000000000000
-  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003b010000
+  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000090030000
   Cenario: 61

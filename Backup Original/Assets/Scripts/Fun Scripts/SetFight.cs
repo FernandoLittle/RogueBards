@@ -28,8 +28,24 @@ public class SetFight : MonoBehaviour
     {
 
     }
+    public void Debugamento()
+    {
+        try
+        {
+            Debug.Log("TrueAttack:" + StaticPlayer.TrueAttack[0].ToString());
+            Debug.Log("FakeAttack:" + StaticPlayer.FakeAttack[0].ToString());
+            Debug.Log("Block:" + StaticPlayer.Block[0].ToString());
+            Debug.Log("CounterAttack:" + StaticPlayer.CounterAttack[0].ToString());
+        }
+        catch
+        {
+            Debug.Log("Falto Skill");
+        }
+    }
     public void SetFighto()
     {
+        Debugamento();
+
         A.Attacking(true);
 
         PlayerPrefs.SetInt("1", 0);
@@ -60,7 +76,7 @@ public class SetFight : MonoBehaviour
         SetDataChara();
         
 
-        Debug.Log("V");
+
         A.RelicSystem.AddRelic();
         A.RelicSystem.SetRelicX();
         A.RelicSystem.SetRelicSprite();

@@ -901,11 +901,11 @@ public class G : MonoBehaviour
 
 
 
-            Debug.Log("TO AQUI");
+
 
             if (action.KeywordId[x] > 0 && action.KeywordId[x] < 1000)
             {
-                Debug.Log("BLUE KEYWORD");
+
                
               
                 d.KeywordColor[x].color = new Color32(0, 255, 248, 255);
@@ -917,7 +917,7 @@ public class G : MonoBehaviour
             }
             if (action.KeywordId[x] < 0)
             {
-                Debug.Log("GOLD KEYWORD");
+
                 
                
                 d.KeywordColor[x].color = new Color32(255, 165, 0, 255);
@@ -929,7 +929,7 @@ public class G : MonoBehaviour
             }
             if (action.KeywordId[x] > 1000)
             {
-                Debug.Log("RED KEYWORD");
+
                             
                 d.KeywordColor[x].color = new Color32(255, 48, 58, 255);
                 if(NoDuplicates[2] == false)

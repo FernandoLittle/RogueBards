@@ -115,7 +115,7 @@ public class Combat : MonoBehaviourPunCallbacks
     }
     public void Return2()
     {
-        Debug.Log("Invokado");
+
         D.Return();
     }
     public void Fight()

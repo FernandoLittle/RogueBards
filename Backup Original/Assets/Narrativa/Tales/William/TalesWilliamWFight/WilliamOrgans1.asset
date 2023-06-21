@@ -38,8 +38,7 @@ MonoBehaviour:
     vai colocar m\xE9dicos na pris\xE3o, isso \xE9 perigoso."
   - "Mais perigoso que nosso trabalho di\xE1rio?"
   - "Sim. Os m\xE9dicos s\xE3o ricos e a venda de \xF3rg\xE3os \xE9 um crime protegido
-    pela guilda dos assassinos. Isso significa que os assassinos vir\xE3o at\xE9
-    voc\xEA."
+    pela Guilda de Assassinos. Isso significa que os assassinos vir\xE3o at\xE9 voc\xEA."
   - "Esses m\xE9dicos est\xE3o se enriquecendo com os \xF3rg\xE3os de nossos colegas,
     voc\xEA viu o que <color=#FF0080>Kain</color> reportou sobre as investiga\xE7\xF5es,
     <color=yellow>Marlov</color> foi mantido em cativeiro por meses apenas para ser
@@ -54,6 +53,7 @@ MonoBehaviour:
     cirurgi\xF5es ligados ao tr\xE1fico de \xF3rg\xE3os foram presos. Mas a previs\xE3o
     de <color=yellow>Parovy</color> estava correta, um assassino veio para cortar
     a cabe\xE7a de <color=purple>William</color>."
+  DialogueES: []
   idchara: 0f0000001c0000000f0000001c0000000f0000001c0000000f00000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000008000000
   Cenario: 5

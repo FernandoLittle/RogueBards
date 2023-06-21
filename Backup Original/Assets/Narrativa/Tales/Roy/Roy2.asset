@@ -27,6 +27,14 @@ MonoBehaviour:
   - "<color=cyan>Regicida</color>\u2026 sim, obrigado por me lembrar."
   - "O sangue claro do canibal anunciou a gloriosa vit\xF3ria de <color=red>Roy</color>,
     com o tempo ele se acostumaria com o sucesso em suas batalhas desafiadoras."
+  DialogueES:
+  - "Hace fr\xEDo, mucho fr\xEDo... Pens\xE9 que matar al <color=red>rey</color>
+    aliviar\xEDa mi sufrimiento, pero... acaba con eso soldado, quiero calentarme
+    en el fuego del infierno."
+  - "Nos vemos all\xED, <color=cyan>asesino de reyes</color>."
+  - "<color=cyan>Asesino de reyes</color>... s\xED, gracias por record\xE1rmelo."
+  - "La sangre clara del can\xEDbal anunci\xF3 la gloriosa victoria de <color=red>Roy</color>,
+    con el tiempo se acostumbrar\xEDa al \xE9xito en sus desafiantes batallas."
   idchara: 0b0000001b0000000b00000000000000
   instruction: 0000000000000000000000000000000069000000
   Cenario: 31

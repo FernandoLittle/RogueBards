@@ -21,6 +21,10 @@ MonoBehaviour:
   - (...)
   - <color=green>Roy</color> encontrou um canibal muito malvado.
   - Muito <color=red>malvado</color>.
+  DialogueES:
+  - (...)
+  - "<color=green>Roy</color> ha encontrado un can\xEDbal muy malvado."
+  - Muy <color=red>malvado</color>.
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000002000000
   Cenario: 56

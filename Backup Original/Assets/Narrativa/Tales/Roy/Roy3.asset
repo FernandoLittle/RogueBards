@@ -22,6 +22,10 @@ MonoBehaviour:
     azar."
   - "Mas agora vejo que mereci todo esse sofrimento porque eu gostei daquele sabor.
     Voc\xEA consegue imaginar a ang\xFAstia de ter prazer em fazer algo abomin\xE1vel?"
+  DialogueES:
+  - "Me odi\xE9, hice algo que nunca pens\xE9 que har\xEDa, maldije mi mala suerte."
+  - "Pero ahora veo que me merec\xEDa todo este sufrimiento porque me gustaba ese
+    sabor. \xBFPuedes imaginar la angustia de disfrutar haciendo algo abominable?"
   idchara: 0b0000000b000000
   instruction: 000000000000000038010000
   Cenario: 56

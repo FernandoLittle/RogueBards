@@ -17,6 +17,8 @@ MonoBehaviour:
   - <color=green>Roy</color> chose to feed his vanity.
   DialogueBR:
   - <color=green>Roy</color> escolheu alimentar sua vaidade.
+  DialogueES:
+  - "<color=green>Roy</color> eligi\xF3 alimentar su vanidad."
   idchara: 00000000
   instruction: 000000009a020000
   Cenario: 61

@@ -45,13 +45,13 @@ public class Connector : MonoBehaviourPunCallbacks
     {
         testito2.text = ("Create");
         testito.text = PhotonNetwork.CurrentRoom.Name;
-        Debug.Log(PhotonNetwork.CurrentRoom.Name);
+
     }
     public override void OnJoinedRoom()
     {
         //testito2.text = ("Join");
         testito.text = PhotonNetwork.CurrentRoom.Name;
-        Debug.Log(PhotonNetwork.CurrentRoom.Name);
+
     }
     public override void OnJoinRandomFailed(short returnCode, string message)
     {
@@ -62,7 +62,7 @@ public class Connector : MonoBehaviourPunCallbacks
             IsVisible = true
         };
         PhotonNetwork.CreateRoom(null, RO);
-        Debug.Log("JoinFailed");
+
         //test
         //PhotonNetwork.LoadLevel("Main");
     }
@@ -70,18 +70,17 @@ public class Connector : MonoBehaviourPunCallbacks
     {
         testito2.text = ("Enter");
         testito.text = PhotonNetwork.CurrentRoom.Name;
-        Debug.Log(PhotonNetwork.CurrentRoom.Name);
-        Debug.Log(PhotonNetwork.CurrentRoom.PlayerCount);
+
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2 /*&& PhotonNetwork.IsMasterClient*/)
         {
-            Debug.Log("Sucess");
+
             Connect.photonView.RPC("LevelL", RpcTarget.All);
         }
     }
     [PunRPC]
     public void LevelL()
     {
-        Debug.Log("Load");
+
         PhotonNetwork.LoadLevel("Battle");
     }
     public void LeftRoon()

@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - "O trabalho de um guerreiro \xE9 combater o crime."
   - "Qual crime voc\xEA quer combater?"
+  DialogueES:
+  - El trabajo de un guerrero es luchar contra el crimen.
+  - "\xBFQu\xE9 crimen quieres combatir?"
   idchara: 0000000000000000
   instruction: 0000000000000000ffffffff
   Cenario: 31

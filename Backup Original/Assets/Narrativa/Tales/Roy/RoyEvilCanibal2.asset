@@ -17,6 +17,8 @@ MonoBehaviour:
   - Lucky you.
   DialogueBR:
   - Sorte sua.
+  DialogueES:
+  - "Qu\xE9 suerte la tuya."
   idchara: 0b000000
   instruction: 000000006a000000
   Cenario: 56

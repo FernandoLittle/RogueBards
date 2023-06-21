@@ -17,6 +17,8 @@ MonoBehaviour:
   - No... You can't.
   DialogueBR:
   - "N\xE3o... Voc\xEA n\xE3o consegue."
+  DialogueES:
+  - No... No puedes.
   idchara: 0b000000
   instruction: 000000006a000000
   Cenario: 56

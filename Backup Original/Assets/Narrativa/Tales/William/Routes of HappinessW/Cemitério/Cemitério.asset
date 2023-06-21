@@ -48,7 +48,7 @@ MonoBehaviour:
   - "Fique \xE0 vontade."
   - "Tamb\xE9m vim aqui pedir desculpas ao meu pai."
   - Quem diria que um jovem bardo e um guerreiro teriam algo em comum.
-  - "Voc\xEA \xE9 um bardo? Esse dedo ausente n\xE3o te atrapalha a tocar?"
+  - "Voc\xEA \xE9 um bardo? Esse dedo cotocado n\xE3o te atrapalha a tocar?"
   - "Voc\xEA \xE9 bastante soci\xE1vel para um guerreiro. Puxando conversa em um
     cemit\xE9rio, falando descaradamente sobre a defici\xEAncia de algu\xE9m. Voc\xEA
     sabia que existe um ditado entre os bardos que \xE9 \"se voc\xEA n\xE3o quer
@@ -72,6 +72,38 @@ MonoBehaviour:
   - "Que emprego voc\xEA conseguiu depois?"
   - "O <color=#FF0080>jovem bardo</color> ficou em sil\xEAncio at\xE9 que <color=purple>William</color>
     se sentiu desconfort\xE1vel e foi embora."
+  DialogueES:
+  - "Cuando sal\xEDa del cementerio, <color=purple>William</color> escuch\xF3 a un
+    joven hablando solo. Dos palabras llamaron la atenci\xF3n del guerrero, \"padre\"
+    y \"lo siento\"."
+  - "\xBFPuedo sentarme aqu\xED?"
+  - "Si\xE9ntete como en casa."
+  - "Tambi\xE9n vine aqu\xED para disculparme con mi padre."
+  - "Qui\xE9n sab\xEDa que un joven bardo y un guerrero tendr\xEDan algo en com\xFAn."
+  - "\xBFEres un bardo? \xBFEse dedo perdido no se interpone en la forma de tocar?"
+  - "Eres bastante sociable para ser un guerrero. Haciendo conversaci\xF3n en un
+    cementerio, hablando descaradamente de la discapacidad de alguien. \xBFSab\xEDas
+    que hay un dicho entre los bardos que dice \"si no quieres que te arresten, nunca
+    hables con un guerrero\"?"
+  - Lo siento mucho.
+  - "Con pesar, <color=purple>William</color> se levant\xF3 para irse."
+  - "Estoy bromeando contigo. En este cementerio no hay bardos ni guerreros, aqu\xED
+    solo existen vivos y muertos."
+  - "Si\xE9ntate y te cuento la historia de c\xF3mo perd\xED el dedo."
+  - "El <color=purple>guerrero</color> obedeci\xF3 al <color=#FF0080>joven bardo</color>."
+  - "Trabaj\xE9 en una f\xE1brica antes de que el gobierno prohibiera el trabajo
+    infantil."
+  - "Perd\xED mi dedo en un accidente."
+  - ...
+  - "S\xED, s\xE9 que no es una historia interesante."
+  - "Lo siento, es una pena que los ni\xF1os tuvieran que trabajar en esa \xE9poca."
+  - "Todav\xEDa ten\xEDa que trabajar incluso despu\xE9s de que se aboli\xF3 el trabajo
+    infantil. De lo contrario, me morir\xEDa de hambre."
+  - "Al menos consegu\xED un nuevo trabajo despu\xE9s. Pero estar\xEDa feliz de perder
+    una mano en lugar de un dedo si pudiera seguir trabajando en esa f\xE1brica."
+  - "\xBFQu\xE9 trabajo conseguiste despu\xE9s?"
+  - "El <color=#FF0080>joven bardo</color> permaneci\xF3 en silencio hasta que <color=purple>William</color>
+    se sinti\xF3 inc\xF3modo y se fue."
   idchara: 000000001c000000170000001c000000170000001c000000170000001c0000000000000017000000170000000000000017000000170000001c000000170000001c00000017000000170000001c00000000000000
   instruction: 0000000000000000300900000000000000000000000000000000000000000000000000000000000040030000000000000000000000000000000000004103000000000000000000000000000000000000000000006d000000
   Cenario: 23

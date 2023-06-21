@@ -21,6 +21,10 @@ MonoBehaviour:
   - "Tocar m\xFAsica o dia todo \xE9 coisa de vagabundo."
   - "<color=purple>William</color> como um assassino decente, voltou ao seu trabalho
     para continuar defendendo o crime. Qual crime voc\xEA quer defender?"
+  DialogueES:
+  - "Tocar m\xFAsica todo el d\xEDa es una cosa de vagabundos."
+  - "<color=purple>William</color> como un asesino decente, volvi\xF3 a su trabajo
+    para seguir defendiendo el crimen. \xBFQu\xE9 crimen quieres defender?"
   idchara: 0000000000000000
   instruction: 0000000000000000fdffffff
   Cenario: 43

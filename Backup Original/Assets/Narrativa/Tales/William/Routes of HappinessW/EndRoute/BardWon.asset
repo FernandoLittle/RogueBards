@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - I have two questions for you.
-  - First question, how many children did <color=blue>Roy</color> have?
+  - First question, how many children did <color=green>Roy</color> have?
   - <color=purple>William</color> loved talking to his victims after they were defeated.
     Seeing the <color=#00FFBF>bard</color> do the same to him was absolutely unbearable.
   - Three.
@@ -25,17 +25,17 @@ MonoBehaviour:
   - <color=purple>William</color> was losing more blood by the moment, he wanted
     to lose consciousness and bleed to death soon for this humiliating scene to end.
   - Three hundred and one.
-  - Three hundred and one people died in <color=purple>Denai</color>.<color=blue>Roy</color>
+  - Three hundred and one people died in <color=purple>Denai</color>.<color=green>Roy</color>
     participated in this massacre to save you and your sisters.
   - Because at that time the military were the only ones who could provide food security
     for their children.
-  - I understand your father the same way I understand you.. But like <color=blue>Roy</color>,
+  - I understand your father the same way I understand you.. But like <color=green>Roy</color>,
     I'm just doing my job.
   - <color=purple>William</color>'s last wish came true, his conscience blanked before
     he finished listening to that pathetic speech.
   DialogueBR:
   - "Eu tenho duas quest\xF5es para voc\xEA."
-  - Primeira pergunta, quantos filhos <color=blue>Roy</color> teve?
+  - Primeira pergunta, quantos filhos <color=green>Roy</color> teve?
   - "<color=purple>William</color> adorava conversar com suas v\xEDtimas depois que
     elas eram derrotadas. Ver o <color=#00FFBF>bardo</color> fazer o mesmo com ele
     foi absolutamente insuport\xE1vel."
@@ -47,14 +47,36 @@ MonoBehaviour:
     queria perder a consci\xEAncia e sangrar at\xE9 a morte logo para essa cena humilhante
     terminar."
   - Trezentas e uma.
-  - "Trezentas e uma pessoas morreram em <color=purple>Denai</color>. <color=blue>Roy</color>
+  - "Trezentas e uma pessoas morreram em <color=purple>Denai</color>. <color=green>Roy</color>
     participou deste massacre para salvar voc\xEA e suas irm\xE3s."
   - "Porque naquela \xE9poca os militares eram os \xFAnicos que podiam dar seguran\xE7a
     alimentar aos seus filhos."
-  - "Eu entendo seu pai da mesma forma que entendo voc\xEA. Mas assim como o <color=blue>Roy</color>,
+  - "Eu entendo seu pai da mesma forma que entendo voc\xEA. Mas assim como o <color=green>Roy</color>,
     eu estou apenas fazendo meu trabalho."
   - "O \xFAltimo desejo de <color=purple>William</color> se tornou realidade, sua
     consci\xEAncia apagou antes que ele terminasse de ouvir aquele discurso pat\xE9tico."
+  DialogueES:
+  - Tengo dos preguntas para ti.
+  - "Primera pregunta, \xBFcu\xE1ntos hijos tuvo <color=green>Roy</color>?"
+  - "<color=purple>William</color> amaba hablar con sus v\xEDctimas despu\xE9s de
+    que fueran derrotadas. Ver al <color=#00FFBF>bardo</color> hacer lo mismo con
+    \xE9l era absolutamente insoportable."
+  - Tres.
+  - "Tuvo tres hijos. Uno se convirti\xF3 en un <color=purple>guerrero</color>, otro
+    se convirti\xF3 en un <color=purple>demonio</color>, otro muri\xF3 en agon\xEDa."
+  - "Segunda pregunta, \xBFcu\xE1ntas personas murieron en <color=purple>Denai</color>?"
+  - "<color=purple>William</color> estaba perdiendo m\xE1s sangre por momentos, quer\xEDa
+    perder el conocimiento y morir desangrado pronto para que esta escena humillante
+    terminara."
+  - Trescientos uno.
+  - "Trescientas una personas murieron en <color=purple>Denai</color>. <color=green>Roy</color>
+    particip\xF3 en esta masacre para salvarte a ti y a tus hermanas."
+  - "Porque en ese momento los militares eran los \xFAnicos que pod\xEDan dar seguridad
+    alimentaria a sus hijos."
+  - Entiendo a tu padre de la misma manera que te entiendo a ti. Pero como <color=green>Roy</color>,
+    solo estoy haciendo mi trabajo.
+  - "El \xFAltimo deseo de <color=purple>William</color> se hizo realidad, su conciencia
+    se desmay\xF3 antes de que terminara de escuchar ese pat\xE9tico discurso."
   idchara: 0a0000000a000000000000000a0000000a0000000a000000000000000a0000000a0000000a0000000a00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000088030000
   Cenario: 18

@@ -17,14 +17,20 @@ MonoBehaviour:
   - In the end, <color=purple>William</color> died.
   - Just like all the people that ever existed.
   - Just like all the people who will be born.
-  - Just like <i><color=Black>me</color> </i>.
+  - Just like <i><color=Black>me</color></i>.
   - <color=Black>Just like you.</color>
   DialogueBR:
   - No final, <color=purple>William</color> morreu.
   - "Assim como todas as pessoas que j\xE1 existiram."
   - "Assim como todas as pessoas que v\xE3o nascer."
-  - Assim como <i><color=Black>eu</color> </i>.
+  - Assim como <i><color=Black>eu</color></i>.
   - "<color=Black>Assim como voc\xEA.</color>"
+  DialogueES:
+  - "Al final, <color=purple>William</color> muri\xF3."
+  - Al igual que cada persona que alguna vez fue.
+  - Al igual que todas las personas que van a nacer.
+  - Al igual que <i><color=Black>yo</color></i>.
+  - "<color=Black>Igual que t\xFA.</color>"
   idchara: 0000000000000000000000000000000000000000
   instruction: 000000000000000000000000000000000000000085030000
   Cenario: 15

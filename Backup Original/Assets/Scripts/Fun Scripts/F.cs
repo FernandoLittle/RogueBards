@@ -165,7 +165,7 @@ public class F : MonoBehaviour
         //Fast Effects (Efeitos ativados após os outros)
         k = 0;
 
-        Debug.Log("SlowEffects");
+
 
         for (int x = 0; x < 2; x = x + 1)//SlowEffects
         {
@@ -205,7 +205,7 @@ public class F : MonoBehaviour
 
             }
             a.RelicEffects.EndTurnEffectRelic(y0);
-            Debug.Log("FY0" + "=" + y0);
+
             StatusEffect();
         }
     }
@@ -1941,7 +1941,7 @@ public class F : MonoBehaviour
 
                 if (Zone[z0].Lyoko[0] > 20)
                 {
-                    NormalDamage(100);
+                    NormalDamage(1000);
                 }
                 TrueDamageAlly(3);
 
@@ -3112,7 +3112,7 @@ public class F : MonoBehaviour
     }
     public void UpMana(int a)
     {
-        Debug.Log("ManaUP");
+
         Damage = a;
         if (Damage > 0)
         {
@@ -3291,7 +3291,7 @@ public class F : MonoBehaviour
     }
     public void UpManaRelic(int a, int idrelic)
     {
-        Debug.Log("ManaUP");
+
         Damage = a;
         if (Damage > 0)
         {
@@ -3451,7 +3451,7 @@ public class F : MonoBehaviour
     {
 
         SetAttributes();
-        Debug.Log("Xrelic");
+
         if (target == 1)
         {
             c1.Add(Zone[y0].Lyoko[0]);
@@ -3468,8 +3468,7 @@ public class F : MonoBehaviour
 
             c5.Add(Zone[z0].Mana);
         }
-        Debug.Log(e0);
-        Debug.Log(e0 * target);
+
 
         c8.Add(a);
         c9.Add(e0);
@@ -3486,9 +3485,9 @@ public class F : MonoBehaviour
             {
                 if (Win == 1)
                 {
-                    Debug.Log("Bugou");
+
                     UpManaRelic(2, 1);
-                    Debug.Log("Não Bugou");
+
                 }
             }
             if (Zone[y0].status[x] == 2)//Coragem

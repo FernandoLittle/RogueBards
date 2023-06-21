@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3c9d520eb8c454e90046951e1ba5ea, type: 3}
   m_Name: FakeBard1
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: d9aac0bbc64693c458f51e42058ce096, type: 3}
+  sprite: {fileID: 21300000, guid: 1f6290297ba0ffd4698bef0fa023e09e, type: 3}
   sprite1: {fileID: 0}
   Name: <color=#00B2FF>Sifio</color>
   id: 16

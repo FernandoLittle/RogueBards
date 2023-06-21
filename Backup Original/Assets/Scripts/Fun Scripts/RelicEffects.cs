@@ -45,8 +45,10 @@ public class RelicEffects : MonoBehaviour
                 }
                 if (A.Zone[x].Relics[w] == 23)//Maduin Relic
                 {
-                   // Debug.Log("Maduin Relic: Ataque=0");
-                   // A.Zone[x].Lyoko[1] =0;
+                    Debug.Log("Compaixão de Maduin");
+                    A.Zone[x].sentimento = 4;
+                    // Debug.Log("Maduin Relic: Ataque=0");
+                    // A.Zone[x].Lyoko[1] =0;
                 }
                 if (A.Zone[x].Relics[w] == 25)//Chaos 2
                 {
@@ -310,7 +312,7 @@ public class RelicEffects : MonoBehaviour
     }
     public void SentimentalBonus(int ally)
     {
-        Debug.Log("SentimentosBBB");
+
         if (Generic.HaveInt(F.Zone[ally].Relics, 1))//WillianSword
         {
             F.UpAttributeRelic(1, 1, true, 1);

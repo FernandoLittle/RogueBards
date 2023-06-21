@@ -23,8 +23,8 @@ MonoBehaviour:
     could make me more proud.
   - <color=purple>William</color>'s fake laugh wasn't convincing at all.
   - You fought for the law, so cute, we look alike don't you think?
-  - Curiously, the method William used to mock his adversary was to compare himself
-    to him.
+  - Curiously, the method <color=purple>William</color> used to mock his adversary
+    was to compare himself to him.
   - You are a criminal, a worm, we are nothing alike!
   - Normally, <color=purple>William</color> would physically torture a warrior who
     said that, but he believed that psychological torture would be more fun.
@@ -51,8 +51,8 @@ MonoBehaviour:
     poderia me fazer ter mais orgulho."
   - "A risada falsa de <color=purple>William</color> n\xE3o era nem um pouco convincente."
   - "Voc\xEA lutou pela lei, que bonitinho, n\xF3s somos parecidos n\xE3o acha?"
-  - "Curiosamente, o m\xE9todo que William usava para zombar de seu advers\xE1rio
-    era comparar-se a ele."
+  - "Curiosamente, o m\xE9todo que <color=purple>William</color> usava para zombar
+    de seu advers\xE1rio era comparar-se a ele."
   - "Voc\xEA \xE9 um criminoso, um verme, n\xF3s n\xE3o somos nada parecidos!"
   - "Normalmente, <color=purple>William</color> torturaria fisicamente um guerreiro
     que dissesse isso, mas ele acreditava que a tortura psicol\xF3gica seria mais
@@ -71,6 +71,7 @@ MonoBehaviour:
     nosso trabalho \xE9 matar todos aqueles que desagradam os poderosos."
   - "A \xFAnica diferen\xE7a entre n\xF3s \xE9 que o meu trabalho paga muito mais
     que o seu."
+  DialogueES: []
   idchara: 000000001c0000000000000020000000000000001c0000000000000020000000000000001c0000001c00000020000000000000001c000000000000001c0000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b08000000000000ea030000
   Cenario: 62

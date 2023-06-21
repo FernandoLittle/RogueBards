@@ -39,7 +39,7 @@ MonoBehaviour:
   - Are you thanking you for the discount you got at the whorehouse?
   - "It was a gift from <color=#FF0080>Shu\xE1</color>, shouldn't I thank him?"
   - "Of course not. You shouldn't be thankful for that because it wasn't a gift from
-    Shu\xE1. All warriors receive discount at the whorehouse."
+    <color=#FF0080>Shu\xE1</color>. All warriors receive discount at the whorehouse."
   - <color=#FF0080>Kain</color> was perplexed.
   - "Do all warriors receive a discount? Fuck <color=#FF0080>Shu\xE1</color>, <color=yellow>Lyoko</color>
     is the most amazing god of all."
@@ -69,11 +69,43 @@ MonoBehaviour:
   - "Voc\xEA est\xE1 agradecendo o desconto que conseguiu no puteiro?"
   - "Foi um presente do <color=#FF0080>Shu\xE1</color>, eu n\xE3o deveria agradecer?"
   - "Claro que n\xE3o. Voc\xEA n\xE3o deve agradecer por isso porque n\xE3o foi um
-    presente de Shu\xE1. Todos os guerreiros recebem desconto no puteiro."
+    presente de <color=#FF0080>Shu\xE1</color>. Todos os guerreiros recebem desconto
+    no puteiro."
   - <color=#FF0080>Kain</color> ficou perplexo.
   - "Todos os guerreiros recebem desconto? Foda-se <color=#FF0080>Shu\xE1</color>,
     <color=yellow>Lyoko</color> \xE9 o deus mais incr\xEDvel de todos."
   - Obrigado, <color=yellow>Lyoko</color>!
+  DialogueES:
+  - "\xBFPuedo unirme a su oraci\xF3n?"
+  - "Que bueno verte <color=purple>William</color>, ser\xE1 un placer orar contigo."
+  - What are you asking for?
+  - "No estoy pidiendo en esta oraci\xF3n, estoy dando gracias."
+  - "Los guerreros no tenemos mucho que agradecer estos d\xEDas. Todo nos est\xE1
+    saliendo mal."
+  - La vida de todas las personas es rica en miseria. Todos los humanos sienten hambre,
+    enferman y mueren.
+  - "\xA1Exactamente! \xBFPor qu\xE9 dar\xEDa gracias por este maldito mundo?"
+  - "Porque a\xFAn con todas las desgracias, estamos vivos en este breve momento
+    que es diminuto comparado con los millones de a\xF1os antes de nuestro nacimiento
+    y los millones de a\xF1os despu\xE9s de nuestra muerte."
+  - "Porque tenemos agua, tenemos comida, tenemos salud. Todo esto terminar\xE1 y
+    por eso le agradezco este breve momento en el que tengo todo lo que necesito."
+  - "Est\xE1 bien, ganaste, oremos."
+  - "Esta vez <color=#FF0080>Kain</color> comenz\xF3 a rezar en voz alta."
+  - "<color=#FF0080>Shu\xE1</color>, gracias, porque en este mundo de sufrimiento
+    nos has dado fuentes de felicidad. Ayer estuve sumamente feliz con el descuento
+    de un tercio que recib\xED en el burdel, toda mi suerte emana de tu voluntad
+    y por tu voluntad estoy agradecido."
+  - <color=purple>William</color> estaba perplejo.
+  - "\xBFEst\xE1s agradeci\xE9ndote por el descuento que conseguiste en el prost\xEDbulo?"
+  - "Fue un regalo de <color=#FF0080>Shu\xE1</color>, \xBFno deber\xEDa agradecerle?"
+  - "Claro que no. No deber\xEDas estar agradecido por ello porque no fue un regalo
+    de <color=#FF0080>Shu\xE1</color>. Todos los guerreros reciben un descuento en
+    el burdel."
+  - <color = # FF0080> Kain </color> estaba perplejo.
+  - "\xBFTodos los guerreros reciben un descuento? Joder <color=#FF0080>Shu\xE1</color>,
+    <color=yellow>Lyoko</color> es el dios m\xE1s asombroso de todos."
+  - "\xA1Gracias, <color=yellow>Lyoko</color>!"
   idchara: 1c000000200000001c000000200000001c000000200000001c00000020000000200000001c0000000000000020000000000000001c000000200000001c000000000000002000000020000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bf020000
   Cenario: 43

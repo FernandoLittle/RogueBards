@@ -21,6 +21,10 @@ MonoBehaviour:
   - (...)
   - "<color=green>Roy</color> encontrou uma canibal f\xEAmea."
   - "Ela n\xE3o parecia com uma f\xEAmea."
+  DialogueES:
+  - (...)
+  - "<color=green>Roy</color> encontr\xF3 una hembra can\xEDbal."
+  - "Ella no parec\xEDa una hembra."
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000003000000
   Cenario: 57

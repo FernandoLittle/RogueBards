@@ -16,7 +16,7 @@ MonoBehaviour:
   NameBR: <color=green>Muro Cruel</color>
   GodText: Empty men understand <color=green>Akasha</color>.
   GodTextBR: Os homens vazios entendem <color=green>Akasha</color>.
-  sprite: {fileID: 21300000, guid: 682f275ec45e8084ab93ba7fbea587e1, type: 3}
+  sprite: {fileID: 21300000, guid: 94129cf2483fd16498bd3c7644a014a8, type: 3}
   id: 0
   Texto0: Your attack becomes equal to 0.
   Texto0br: Seu ataque se torna igual a 0.

@@ -29,6 +29,14 @@ MonoBehaviour:
   - "Est\xE1vamos apenas seguindo os ensinamentos de <color=#FF0080>Shu\xE1</color>.
     Est\xE1vamos amando nossos inimigos."
   - Podem ir para o inferno com os mirianos, seus bastardos.
+  DialogueES:
+  - "\xBFPor qu\xE9 nos atacas, hijo de puta? Vinimos de otro pa\xEDs solo para ayudar
+    a las v\xEDctimas de la guerra, idiota."
+  - "No finjas ser un idiota. Los mirianos invadieron nuestro pa\xEDs, mataron a
+    mujeres y ni\xF1os, y ustedes los ayudaron."
+  - "Solo est\xE1bamos siguiendo las ense\xF1anzas de <color=#FF0080>Shu\xE1</color>.
+    Est\xE1bamos amando a nuestros enemigos."
+  - "Pod\xE9is iros al infierno con los mirianos, bastardos."
   idchara: 1c000000180000001c00000018000000
   instruction: 000000000000000000000000000000003e010000
   Cenario: 14

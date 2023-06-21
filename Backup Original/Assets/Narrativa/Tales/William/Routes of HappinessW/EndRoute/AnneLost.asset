@@ -56,13 +56,13 @@ MonoBehaviour:
     that he prepared for the prisoners. The warriors were furious and he lost several
     friends there, but even so he continued to prepare the bandits' favorite foods."
   - How can he be so nice, even to criminals?
-  - <color=purple>Anne</color> laughed because she knew the answer. Soon she started
-    humming.
+  - '<color=purple>Anne</color> laughed because she knew the answer. Soon she started
+    humming:'
   - <color=purple>William</color> is in love, <color=purple>William</color> is in
     love, <color=purple>William</color> is in love.
   - I'm not, I have no right to fall in love and be happy until I fulfill my mission.
   - I have to kill our father's assassin.
-  - <color=purple>William</color>, our father's killer is the <color=#00FFBF>bard</color>.
+  - <color=purple>William</color>, our father's killer is the <color=#00FFBF>Bard</color>.
   - What bard?
   - The <color=#00FFBF>Bard of Bards</color>.
   DialogueBR:
@@ -74,7 +74,7 @@ MonoBehaviour:
   - "Consegui escapar recentemente e logo comecei a te procurar, fiquei t\xE3o feliz
     em ver que voc\xEA seguiu o caminho do nosso pai e se tornou um guerreiro."
   - "Eu n\xE3o acredito em voc\xEA. Por que voc\xEA levaria tanto tempo para escapar?
-    Por que voc\xEA estava armado? Por que voc\xEA me convidaria para esta colina?"
+    Por que voc\xEA estava armada? Por que voc\xEA me convidaria para esta colina?"
   - "Por que voc\xEA acha que eu te chamei para este lugar?"
   - "Porque voc\xEA queria me emboscar e me matar."
   - "Claro que n\xE3o, bobo! Foi aqui que papai nos levou para ver as estrelas, prometemos
@@ -85,18 +85,19 @@ MonoBehaviour:
     isso \xE9 bom demais para ser verdade."
   - "Eu\u2026 eu quase matei voc\xEA\u2026 me desculpe. N\xE3o consegui te reconhecer,
     voc\xEA mudou muito. Eu sou um <color=black>monstro</color>, eu quase..."
-  - Eu quase cometi aquele pecado novamente.
-  - "A culpa \xE9 minha <color=purple>Will</color>, eu queria te surpreender."
+  - Quase cometi aquele pecado de novo.
+  - "A culpa \xE9 minha <color=purple>Will</color>, eu queria fazer uma surpresa
+    pra voc\xEA."
   - "Eu deveria ter te encontrado como uma pessoa normal, mas esqueci que voc\xEA
     sempre teve medo do escuro."
-  - "Esse aqui \xE9 um presente para voc\xEA, esse \xE9 meu colar da sorte, espero
-    que goste."
+  - "Esse aqui \xE9 um presente para voc\xEA, \xE9 o meu colar da sorte, espero que
+    goste."
   - Os dois observaram as estrelas enquanto conversavam sobre tudo o que haviam passado
     nos anos em que estiveram separados.
   - <color=purple>William</color> entendia aquele momento tanto quanto entendia o
     tamanho das estrelas.
   - "Sobre o que combinamos de casar, n\xE3o vai acontecer, eu sou gay."
-  - "E o incesto \xE9 errado."
+  - "E incesto \xE9 errado."
   - <color=purple>Anne</color> riu.
   - "Pare de ser bobo, n\xF3s \xE9ramos crian\xE7as. Apesar que voc\xEA ficou bem
     bonito. Aposto que est\xE1 roubando o cora\xE7\xE3o dos homens."
@@ -105,22 +106,77 @@ MonoBehaviour:
   - "Ele \xE9 bonito?"
   - "Sim, muito, o mais bonito que eu j\xE1 vi. Ele tamb\xE9m \xE9 gentil, carinhoso,
     nem parece um guerreiro."
-  - "Me conta mais! Quando voc\xEA se apaixonou?"
+  - "Conta mais! Quando voc\xEA se apaixonou?"
   - "Quando me apaixonei... acho que foi quando vi que ele sempre trazia refei\xE7\xF5es
     que ele mesmo preparava para os presidi\xE1rios. Os guerreiros ficaram furiosos
     e ele perdeu v\xE1rios amigos l\xE1, mas mesmo assim continuou preparando as
     comidas preferidas dos bandidos."
   - "Como ele pode ser t\xE3o legal, mesmo com criminosos?"
   - "<color=purple>Anne</color> riu porque sabia a resposta. Logo ela come\xE7ou
-    a cantarolar."
+    a cantarolar:"
   - "<color=purple>William</color> est\xE1 apaixonado, <color=purple>William</color>
     est\xE1 apaixonado, <color=purple>William</color> est\xE1 apaixonado."
-  - "N\xE3o sou, n\xE3o tenho o direito de me apaixonar e ser feliz at\xE9 cumprir
+  - "N\xE3o estou, n\xE3o tenho o direito de me apaixonar e ser feliz at\xE9 cumprir
     minha miss\xE3o."
   - Tenho de matar o assassino do nosso pai.
-  - "<color=purple>William</color>, o assassino de nosso pai \xE9 o <color=#00FFBF>bardo</color>."
+  - "<color=purple>William</color>, o assassino de nosso pai \xE9 o <color=#00FFBF>Bardo</color>."
   - Que bardo?
   - O <color=#00FFBF>Bardo dos Bardos</color>.
+  DialogueES:
+  - "\xBFPor qu\xE9 me atacas, <color=purple>Will</color>? Soy yo, <color=purple>Anne</color>,
+    tu hermana."
+  - "Mis hermanas est\xE1n muertas."
+  - "No, <color=purple>Will</color>, desaparec\xED el d\xEDa que muri\xF3 nuestro
+    padre porque el asesino me secuestr\xF3."
+  - "Logr\xE9 escapar recientemente y pronto comenc\xE9 a buscarte, estaba tan feliz
+    de ver que segu\xEDas el camino de nuestro padre y te convertiste en un guerrero."
+  - "No te creo. \xBFPor qu\xE9 te tom\xF3 tanto tiempo escapar? \xBFPor qu\xE9 estabas
+    armado? \xBFPor qu\xE9 me invitar\xEDas a este cerro?"
+  - "\xBFPor qu\xE9 crees que te llam\xE9 a este lugar?"
+  - "Porque quer\xEDas tenderme una emboscada y matarme."
+  - "\xA1Claro que no, tonto! Aqu\xED es donde pap\xE1 nos llev\xF3 a ver las estrellas,
+    prometimos que nos casar\xEDamos cuando fu\xE9ramos adultos en una luna llena
+    como esta."
+  - "<color=purple>William</color> abraz\xF3 a su hermana y empez\xF3 a llorar como
+    un ni\xF1o."
+  - "<color=purple>Anne</color>, \xA1est\xE1s viva! No puedo creer que esto sea demasiado
+    bueno para ser verdad."
+  - "Yo... casi te mato... lo siento. No pod\xEDa reconocerte, has cambiado mucho.
+    Soy un <color=black>monstruo</color>, casi..."
+  - "Casi comet\xED ese pecado otra vez."
+  - "Es mi culpa <color=purple>Will</color>, quer\xEDa sorprenderte."
+  - "Deber\xEDa haberte conocido como una persona normal, pero olvid\xE9 que siempre
+    tuviste miedo a la oscuridad."
+  - Este es un regalo para ti, es mi collar de la suerte, espero que te guste.
+  - "Los dos miraron las estrellas mientras hablaban de todo lo que hab\xEDan pasado
+    en los a\xF1os que estuvieron separados."
+  - "<color=purple>William</color> entendi\xF3 ese momento tanto como entendi\xF3
+    el tama\xF1o de las estrellas."
+  - Sobre lo que acordamos para casarnos, no va a pasar, soy gay.
+  - "\rY el incesto es incorrecto."
+  - "<color=purple>Anne</color> se ri\xF3."
+  - "Deja de hacer el tonto, \xE9ramos ni\xF1os. Aunque te ve\xEDas bastante bien.
+    Apuesto a que est\xE1s robando los corazones de los hombres."
+  - "Quien me diera. Hay un amigo que me gusta en el trabajo, <color=#FF0080>Maduin</color>,
+    pero no tengo el coraz\xF3n para confes\xE1rselo."
+  - "\xBFEl es bonito?"
+  - "S\xED, muy, la m\xE1s hermosa que he visto. Tambi\xE9n es amable, cari\xF1oso,
+    ni siquiera parece un guerrero."
+  - "\xA1Dime m\xE1s! \xBFCu\xE1ndo te enamoraste?"
+  - "Cuando me enamor\xE9... Creo que fue cuando vi que \xE9l siempre tra\xEDa comidas
+    que preparaba para los reclusos. Los guerreros estaban furiosos y perdi\xF3 varios
+    amigos all\xED, pero aun as\xED continu\xF3 preparando las comidas favoritas
+    de los bandidos."
+  - "\xBFC\xF3mo puede ser tan amable incluso con los criminales?"
+  - "<color=purple>Anne</color> se ri\xF3 porque sab\xEDa la respuesta. Pronto empez\xF3
+    a tararear:"
+  - "<color=purple>William</color> est\xE1 enamorado, <color=purple>William</color>
+    est\xE1 enamorado, <color=purple>William</color> est\xE1 enamorado."
+  - "No lo soy, no tengo derecho a enamorarme y ser feliz hasta que cumpla mi misi\xF3n."
+  - Tengo que matar al asesino de nuestro padre.
+  - <color=purple>William</color>, el asesino de nuestro padre es el <color=#00FFBF>Bardo</color>.
+  - "\xBFQu\xE9 bardo?"
+  - El <color=#00FFBF>Bardo de Bardos</color>.
   idchara: 1e0000001c0000001e0000001e0000001c0000001e0000001c0000001e000000000000001c0000001c0000001c0000001e0000001e0000001e00000000000000000000001c0000001c000000000000001e0000001c0000001e0000001c0000001e0000001c0000001c000000000000001e0000001c0000001c0000001e0000001c0000001e000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a000000
   Cenario: 22

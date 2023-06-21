@@ -21,6 +21,10 @@ MonoBehaviour:
   - "A maioria das pessoas n\xE3o tem nenhum tipo de talento para m\xFAsica, mas
     voc\xEA \xE9 uma exce\xE7\xE3o, parab\xE9ns."
   - Eu tive um bom professor.
+  DialogueES:
+  - "La mayor\xEDa de la gente no tiene ning\xFAn tipo de talento para la m\xFAsica,
+    pero t\xFA eres una excepci\xF3n, felicidades."
+  - Tuve un buen maestro.
   idchara: 0a0000001c000000
   instruction: 00000000e9030000ea030000
   Cenario: 45

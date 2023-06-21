@@ -35,6 +35,17 @@ MonoBehaviour:
     n\xE3o ver a salva\xE7\xE3o."
   - "Esse sofrimento diante do sentimento fundamental de sobreviv\xEAncia."
   - O <color=red>medo</color>.
+  DialogueES:
+  - "<color=purple>William</color> sinti\xF3 lo que sintieron los dioses."
+  - "Sinti\xF3 el vac\xEDo en su alma."
+  - "Sinti\xF3 la agon\xEDa de no lograr sus objetivos."
+  - "Confusi\xF3n ante tantas elecciones que condujeron al mismo fracaso."
+  - La <color=red>muerte</color>.
+  - <color=purple>William</color> hizo lo que hicieron los dioses.
+  - "Trat\xF3 de hacer alguna actividad que le hiciera olvidar este sufrimiento de
+    no ver la salvaci\xF3n."
+  - Este sufrimiento frente al sentimiento fundamental de supervivencia.
+  - El <color=red>miedo</color>.
   idchara: 000000000000000000000000000000000000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000064000000
   Cenario: 3

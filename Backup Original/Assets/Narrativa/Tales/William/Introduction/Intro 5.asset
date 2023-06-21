@@ -27,6 +27,13 @@ MonoBehaviour:
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - "Lutaremos em batalhas sangrentas, enfrentaremos a mis\xE9ria e a fome pelo bem
     de nossa na\xE7\xE3o."
+  DialogueES:
+  - 'En <color=yellow>Sarka</color> un asesino dijo:'
+  - "Los guerreros luchan en sangrientos combates, enfrentan la miseria y el hambre,
+    y la gente florece en el esti\xE9rcol de sus cad\xE1veres."
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
+  - "Libraremos sangrientas batallas, enfrentaremos la miseria y el hambre por el
+    bien de nuestra naci\xF3n."
   idchara: 00000000000000000000000000000000
   instruction: 00000000ec030000980900000000000069000000
   Cenario: 73

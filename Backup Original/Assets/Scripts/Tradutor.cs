@@ -23,11 +23,11 @@ public class Tradutor : MonoBehaviour
         {
             if (id == 0)
             {
-                textinho.text = "Esta é a versão alfa do Joker of Chaos.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo.";
+                textinho.text = "BUG A UM BUG ISSO TÀ BUGAOJSDLKJLSD.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo.";
             }
             if (id == 1)
             {
-                textinho.text = "Esta é a versão alfa do Joker of Chaos.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo. ";
+                textinho.text = "EstBUAGSGBUGGGGGGGGBBUBUBUBUBGBUGBUGBUGs.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo. ";
             }
             if (id == 2)
             {
@@ -139,7 +139,7 @@ public class Tradutor : MonoBehaviour
             }
             if (id == 29)
             {
-                textinho.text = " Parabéns, você concluiu um dos finais da versão beta do Os Quatro Caminhos.\n Muito obrigado por jogar. Você também é bem-vindo no nosso canal do Discord para dar feedback, relatar bugs ou fazer sugestões.\n :)";
+                textinho.text = " Parabéns, você concluiu um dos finais da versão beta do The Four Paths.\n Muito obrigado por jogar. Você também é bem-vindo no nosso canal do Discord para dar feedback, relatar bugs ou fazer sugestões.\n :)";
             }
 
             if (id == 30)
@@ -196,7 +196,19 @@ public class Tradutor : MonoBehaviour
             }
             if (id == 43)
             {
-                textinho.text = "William vira um mercenário";
+                textinho.text = "Maduin e Ebu vivem felizes para sempre";
+            }
+            if (id == 44)
+            {
+                textinho.text = "William foge como um covarde";
+            }
+            if (id == 45)
+            {
+                textinho.text = "A misericórdia mata William";
+            }
+            if (id == 46)
+            {
+                textinho.text = "Fim do tutorial";
             }
 
 
@@ -210,7 +222,208 @@ public class Tradutor : MonoBehaviour
             }
         }
 
+        if (language == 2)
+        {
+            if (id == 0)
+            {
+                textinho.text = "AAAAAAAAAAAAAAAA BUG THIS IS A BUGs.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo.";
+            }
+            if (id == 1)
+            {
+                textinho.text = "BUG.\n Junte-se ao nosso canal Discord para ser notificado quando novas versões forem lançadas. \n Você também pode colaborar com o jogo dando sugestões, feedback e reportando bugs. \nVocê é muito bem-vindo. ";
+            }
+            if (id == 2)
+            {
+                textinho.text = "Quiero contarte";
+            }
+            if (id == 3)
+            {
+                textinho.text = "una historia";
+            }
+            if (id == 4)
+            {
+                textinho.text = "Una historia muy divertida";
+            }
+            if (id == 5)
+            {
+                textinho.text = "Quieres";
+            }
+            if (id == 6)
+            {
+                textinho.text = "Escucharme?";
+            }
+            if (id == 7)
+            {
+                textinho.text = "Sí";
+            }
+            if (id == 8)
+            {
+                textinho.text = "No";
+            }
+            if (id == 9)
+            {
+                textinho.text = "Omitir Introducción";
+            }
+            if (id == 10)
+            {
+                textinho.text = "Lo que sea, voy a contar esta historia de todos modos.";
+            }
+            if (id == 11)
+            {
+                textinho.text = "Había una vez un espantapájaros";
+            }
+            if (id == 12)
+            {
+                textinho.text = "Caminho da Felicidade";
+            }
+            if (id == 13)
+            {
+                textinho.text = "Você será levado imediatamente para o jogo verdadeiro, O Caminho da Felicidade.\n No entanto, o jogo falso, O Caminho do Dinheiro, será destruído para sempre, você nunca mais poderá jogá-lo.\n O verdadeiro desapego é um dos caminhos para a iluminação.";
+            }
+            if (id == 14)
+            {
+                textinho.text = "Caminho do Dinheiro";
+            }
+            if (id == 15)
+            {
+                textinho.text = "O jogo falso não será destruído e você ainda poderá jogar O Caminho da Felicidade.\n No entanto, você precisará ganhar muito dinheiro para ter acesso ao jogo verdadeiro.\n O dinheiro pode lhe trazer o prazer que o mundo material traz, mas ganhar dinheiro nem sempre é divertido.";
+            }
+            if (id == 16)
+            {
+                textinho.text = "Nuevo";
+            }
+            if (id == 17)
+            {
+                textinho.text = "Antiguo";
+            }
+            if (id == 18)
+            {
+                textinho.text = "¿Quieres reemplazar tu habilidad por una nueva?";
+            }
+            if (id == 19)
+            {
+                textinho.text = "Has ganado una nueva reliquia.";
+            }
+            if (id == 20)
+            {
+                textinho.text = "Tus oraciones son patéticas.";
+            }
+            if (id == 21)
+            {
+                textinho.text = "Sus oraciones son aceptables.";
+            }
+            if (id == 22)
+            {
+                textinho.text = "Felicidades, tus oraciones son hermosas.";
+            }
+            if (id == 23)
+            {
+                textinho.text = "Su música es irritantemente optimista.";
+            }
+            if (id == 24)
+            {
+                textinho.text = "Su música es satisfactoriamente tranquila.";
+            }
+            if (id == 25)
+            {
+                textinho.text = "Felicidades, tu canción es maravillosamente triste.";
+            }
+            if (id == 26)
+            {
+                textinho.text = "Respuesta equivocada.";
+            }
+            if (id == 27)
+            {
+                textinho.text = "¡Respuesta correcta!";
+            }
+            if (id == 28)
+            {
+                textinho.text = "Respuesta equivocada. ¡Felicidades!";
+            }
+            if (id == 29)
+            {
+                textinho.text = " Enhorabuena, has completado una de las finales de la versión beta de The Four Paths.\n Muchas gracias por jugar. También eres bienvenido en nuestro canal de Discord para enviar comentarios, informar errores o hacer sugerencias.\n :)";
+            }
 
+            if (id == 30)
+            {
+                textinho.text = "Su vida";
+            }
+            if (id == 31)
+            {
+                textinho.text = "la vida del oponente";
+            }
+            if (id == 32)
+            {
+                textinho.text = "Victoria";
+            }
+            if (id == 33)
+            {
+                textinho.text = "Fracaso";
+            }
+            if (id == 34)
+            {
+                textinho.text = "Cargando...";
+            }
+            if (id == 35)
+            {
+                textinho.text = "Muerte Genérica";
+            }
+            if (id == 36)
+            {
+                textinho.text = "William se venga";
+            }
+            if (id == 37)
+            {
+                textinho.text = "William se convierte en mercenario";
+            }
+            if (id == 38)
+            {
+                textinho.text = "El Bardo mata a William";
+            }
+            if (id == 39)
+            {
+                textinho.text = "Final feliz";
+            }
+            if (id == 40)
+            {
+                textinho.text = "Ebu mata a William";
+            }
+            if (id == 41)
+            {
+                textinho.text = "William pierde las piernas";
+            }
+            if (id == 42)
+            {
+                textinho.text = "William es despedido";
+            }
+            if (id == 43)
+            {
+                textinho.text = "Maduin y Ebu viven felices para siempre";
+            }
+            if (id == 44)
+            {
+                textinho.text = "William huye como un cobarde";
+            }
+            if (id == 45)
+            {
+                textinho.text = "La misericordia mata a William";
+            }
+            if (id == 46)
+            {
+                textinho.text = "Fin del tutorial";
+            }
+
+
+
+
+
+
+            if (id == 0)
+            {
+                textinho.text = "";
+            }
+        }
 
 
 

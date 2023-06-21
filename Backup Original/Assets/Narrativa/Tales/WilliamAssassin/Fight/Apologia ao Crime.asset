@@ -16,7 +16,7 @@ MonoBehaviour:
   Dialogue:
   - <color=#FF0080>Maduin</color> sang a beautiful song about a beautiful woman.
   - I wrote it, what did you think?
-  - This song sucks, Luna was fucking right
+  - This song sucks, Luna was fucking right.
   - The song is clearly ironic.
   - Fuck if the music is ironic, Luna is still right.
   - Damn <color=white>Ebu</color>, if the song is ironic and says Luna was wrong
@@ -46,7 +46,7 @@ MonoBehaviour:
   DialogueBR:
   - "<color=#FF0080>Maduin</color> cantou uma bela can\xE7\xE3o sobre uma bela mulher."
   - "Eu que compus, o que voc\xEAs acharam?"
-  - Eu achei uma merda, a Luna estava certa pra caralho
+  - Eu achei uma merda, a Luna estava certa pra caralho.
   - "A m\xFAsica \xE9 claramente ir\xF4nica."
   - "Foda-se se ela \xE9 ir\xF4nica, a Luna continua certa."
   - "Porra, <color=white>Ebu</color>, se a m\xFAsica \xE9 ir\xF4nica e diz que a
@@ -74,6 +74,7 @@ MonoBehaviour:
   - "Eu sei resolver as coisas de todos os jeitos poss\xEDveis porque eu sou onipotente,
     mas eu prefiro resolver as coisas do jeito mais divertido que \xE9 matando pessoas."
   - Tipo uma <color=red>deusa da morte</color>.
+  DialogueES: []
   idchara: 000000001f000000010000001f000000010000001f000000010000001c0000001f0000001f0000001f0000001f0000001f0000001f000000010000001f00000001000000010000001c0000001f0000000100000001000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001e000000
   Cenario: 59

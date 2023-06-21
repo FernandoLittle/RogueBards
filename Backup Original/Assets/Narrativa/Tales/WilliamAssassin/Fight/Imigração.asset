@@ -27,8 +27,8 @@ MonoBehaviour:
   - Don't praise <color=green>Lestia</color>, she's an ugly, smelly bitch.
   - But in fact thousands came out of misery.
   - Screw this, I don't like her. And even though her reforms worked, <color=yellow>Sangla</color>
-    is still absurdly richer than <color=yellow>Sarka</color>, so she has a lot of
-    people wanting to flee this shitty country.
+    is still absurdly richer than <color=yellow>Sarka</color>, so there are a lot
+    of people wanting to escape this shitty country.
   - Problem solved, you're going to hunt down the guard.
   - Don't feel sorry for him, if he starts crying remember that he would put his
     sword on your neck just because you tried to jump over a wall.
@@ -52,6 +52,7 @@ MonoBehaviour:
   - "Resolvido, voc\xEA vai ca\xE7ar o guardinha."
   - "N\xE3o tenha pena dele, se ele come\xE7ar a chorar lembre-se que ele passaria
     a espada no seu pesco\xE7o s\xF3 porque voc\xEA tentou pular um muro."
-  idchara: 01000000010000001c000000010000000100000001000000010000001c000000010000001c000000010000000100000001000000
+  DialogueES: []
+  idchara: 01000000010000001c000000010000000100000000000000010000001c000000010000001c000000010000000100000001000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000
-  Cenario: 41
+  Cenario: 76

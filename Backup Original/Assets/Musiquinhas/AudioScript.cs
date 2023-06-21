@@ -42,7 +42,11 @@ public class AudioScript : MonoBehaviour
         if (time > 50)
         {
             time = 0;
-            ChangeMusic();
+            if (TrueAudio == true)
+            {
+                ChangeMusic();
+            }
+
         }
         if (AudioduBem.isPlaying == false)
         {
@@ -59,9 +63,7 @@ public class AudioScript : MonoBehaviour
         intCena = PlayerPrefs.GetInt("IntCena");
         if (intCena != OldIntCena || AudioduBem.isPlaying==false)
         {
-            Debug.Log(intCena);
-            Debug.Log(OldIntCena);
-            Debug.Log(AudioduBem.isPlaying);
+
             OldIntCena = intCena;
             GodMusic = intCena;
             AnimeMusic.Play("AudioAnimeChange");

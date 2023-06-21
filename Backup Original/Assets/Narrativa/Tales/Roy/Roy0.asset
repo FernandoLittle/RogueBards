@@ -28,12 +28,12 @@ MonoBehaviour:
     is to keep the peace, your duty is to protect the weak, your duty is to fight
     for the nation, your duty is to make money.'
   - After getting up, like every good citizen of <color=yellow>Sarka</color>, he
-    went to work. But <color=blue>Roy</color> was no ordinary man, he had the noblest
+    went to work. But <color=green>Roy</color> was no ordinary man, he had the noblest
     of jobs, he was a soldier of the <color=red>Blue Guard</color>.
   - Upon arriving at the barracks, he found his superior, <color=yellow>Yuri Vitchi</color>,
     a leader admired for his courage and effort. He was about to announce the task
-    that would allow Roy to keep the peace, protect the weak, fight for the nation,
-    and make money.
+    that would allow <color=green>Roy</color> to keep the peace, protect the weak,
+    fight for the nation, and make money.
   - Their mission would be to face <color=yellow>Sarka</color>'s vilest creatures,
     the regicidal cannibals who lived in <color=purple>Denai</color>.
   DialogueBR:
@@ -48,14 +48,34 @@ MonoBehaviour:
     manter a paz, seu dever \xE9 proteger os fracos, seu dever \xE9 lutar pela na\xE7\xE3o,
     seu dever \xE9 ganhar dinheiro."
   - "Depois de se levantar, como todo bom cidad\xE3o de <color=yellow>Sarka</color>,
-    foi trabalhar. Mas <color=blue>Roy</color> n\xE3o era um homem comum, ele tinha
+    foi trabalhar. Mas <color=green>Roy</color> n\xE3o era um homem comum, ele tinha
     o mais nobre dos trabalhos, ele era um soldado da <color=red>Guarda Azul</color>."
   - "Ao chegar ao quartel, encontrou seu superior, <color=yellow>Yuri Vitchi</color>,
     um l\xEDder admirado por sua coragem e esfor\xE7o. Ele estava prestes a anunciar
-    a tarefa que permitiria a Roy manter a paz, proteger os fracos, lutar pela na\xE7\xE3o
-    e ganhar dinheiro."
+    a tarefa que permitiria a <color=green>Roy</color> manter a paz, proteger os
+    fracos, lutar pela na\xE7\xE3o e ganhar dinheiro."
   - "Sua miss\xE3o seria enfrentar as criaturas mais vis de <color=yellow>Sarka</color>,
     os canibais regicidas que viviam em <color=purple>Denai</color>."
+  DialogueES:
+  - "Su nombre es <color=green>Roy Ulbricht</color>, su deber es mantener la paz,
+    su deber es proteger a los d\xE9biles, su deber es luchar por la naci\xF3n, su
+    deber es ganar dinero."
+  - "A <color=green>Roy</color> le resultaba cada vez m\xE1s dif\xEDcil levantarse
+    de la cama porque cada d\xEDa estaba m\xE1s delgado.\nLa nieve no pod\xEDa alimentar
+    su cuerpo hecho de agua, as\xED como la mentira no pod\xEDa alimentar su alma
+    hecha de ilusiones."
+  - "Una vez m\xE1s.\nSu nombre es <color=green>Roy Ulbricht</color>, su deber es
+    mantener la paz, su deber es proteger a los d\xE9biles, su deber es luchar por
+    la naci\xF3n, su deber es ganar dinero."
+  - "Despu\xE9s de levantarse, como todo buen ciudadano de <color=yellow>Sarka</color>,
+    se fue a trabajar. Pero <color=green>Roy</color> no era un hombre ordinario,
+    ten\xEDa los trabajos m\xE1s nobles, era un soldado de la <color=red>Blue Guard</color>."
+  - "Al llegar al cuartel se encontr\xF3 con su superior, <color=yellow>Yuri Vitchi</color>,
+    un l\xEDder admirado por su valent\xEDa y esfuerzo. Estaba a punto de anunciar
+    la tarea que permitir\xEDa a <color=green>Roy</color> mantener la paz, proteger
+    a los d\xE9biles, luchar por la naci\xF3n y ganar dinero."
+  - "Tu misi\xF3n ser\xEDa enfrentarte a las criaturas m\xE1s viles de <color=yellow>Sarka</color>,
+    los can\xEDbales regicidas que viv\xEDan en <color=purple>Denai</color>."
   idchara: 1b000000000000001b000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000065000000
   Cenario: 0

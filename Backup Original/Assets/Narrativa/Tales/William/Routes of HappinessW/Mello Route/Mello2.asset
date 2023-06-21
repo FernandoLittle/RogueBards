@@ -25,7 +25,7 @@ MonoBehaviour:
   - <color=yellow>Mello</color>'s head could be mine, it could be yours, it could
     be any warrior's. We can retreat now, or we can advance. We can enforce the law
     or we can let crime proliferate. Our determination will decide whether this land
-    belongs to crime or belongs to Sarka.
+    belongs to crime or belongs to <color=yellow>Sarka</color>.
   - I will not force any of you to fight, but if you want to honor Mello's legacy
     I will be by your side fighting on the front lines.
   - Will you fight?
@@ -55,6 +55,29 @@ MonoBehaviour:
   - "Ele sentiu que n\xE3o tinha escolha, por alguma raz\xE3o ele preferia arriscar
     sua vida lutando contra os assassinos do que ser o \xFAnico covarde na sala que
     n\xE3o levantou sua espada."
+  DialogueES:
+  - "<color=yellow>Cold Mello</color> est\xE1 muerto."
+  - "Ni un solo guerrero en esa sala supo c\xF3mo reaccionar ante esta noticia."
+  - "Estaba realizando un operativo para detener a un bandido que seduc\xEDa a menores
+    para traficar con drogas."
+  - "Durante la operaci\xF3n, los sicarios le tendieron una emboscada y le cortaron
+    la cabeza. Su cabeza qued\xF3 expuesta en una plaza p\xFAblica y conmocion\xF3
+    a todos los vecinos."
+  - El objetivo de los delincuentes es claro, quieren intimidarnos, quieren vencernos
+    por el miedo, quieren crear el caos.
+  - "La cabeza de <color=yellow>Mello</color> podr\xEDa ser m\xEDa, podr\xEDa ser
+    tuya, podr\xEDa ser la de cualquier guerrero. Podemos retirarnos ahora, o podemos
+    avanzar. Podemos hacer cumplir la ley o podemos dejar que prolifere el crimen.
+    Nuestra determinaci\xF3n decidir\xE1 si esta tierra pertenece al crimen o pertenece
+    a <color=yellow>Sarka</color>."
+  - "No obligar\xE9 a ninguno de ustedes a luchar, pero si quieren honrar el legado
+    de Mello, estar\xE9 a su lado luchando en el frente."
+  - "\xBFLuchar\xE1s?"
+  - Uno por uno, los guerreros se levantaron y levantaron sus espadas. <color=purple>William</color>
+    hizo lo mismo.
+  - "Sinti\xF3 que no ten\xEDa elecci\xF3n, por alguna raz\xF3n prefer\xEDa arriesgar
+    su vida luchando contra los asesinos que ser el \xFAnico cobarde en la habitaci\xF3n
+    que no levant\xF3 su espada."
   idchara: 0f000000000000000f0000000f0000000f0000000f0000000f0000000f0000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000d000000
   Cenario: 32

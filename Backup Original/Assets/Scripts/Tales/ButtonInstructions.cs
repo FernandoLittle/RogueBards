@@ -508,7 +508,7 @@ public class ButtonInstructions : MonoBehaviour
 
     public void TranslateButtonEN(int idbutton, int nextbutton)
     {
-        Debug.Log("PIMBA");
+
         string ButtonText = "";
         switch (idbutton)
         {
@@ -608,10 +608,9 @@ public class ButtonInstructions : MonoBehaviour
     }
     public void TranslateButtonBR(int idbutton, int nextbutton)
     {
-        Debug.Log("Foi");
+
         string ButtonText = "";
-        Debug.Log(idbutton);
-        Debug.Log(nextbutton);
+
         switch (idbutton)
         {
           
@@ -628,11 +627,11 @@ public class ButtonInstructions : MonoBehaviour
                 ButtonText = "Não cabe a mim tomar essa decisão";
                 break;
             case 5:
-                Debug.Log("AAAAAAAA");
+
                 ButtonText = "Aceite o azar";
                 break;
             case 6:
-                Debug.Log("BBBBBBBBBBBBBBBB");
+
                 ButtonText = "Jogue a moeda novamente";
                 break;
             case 7:
@@ -708,7 +707,7 @@ public class ButtonInstructions : MonoBehaviour
                 ButtonText = "Seguir o Caminho do Assassino";
                 break;
         }
-        Debug.Log(ButtonText);
+
         TalesVariables.OptionsText[nextbutton] = ButtonText;
         TalesVariables.OptionsText1[nextbutton].text = ButtonText;
     }

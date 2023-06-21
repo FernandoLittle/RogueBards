@@ -22,7 +22,7 @@ MonoBehaviour:
   - So I'm going to kill the guy with the highest rank.
   - In this district, the guy with the highest ranking is <color=yellow>Captain Parovy</color>,
     but you can't kill him.
-  - Why? He is very strong?
+  - Why? Is he very strong?
   - A spontaneous laugh came out of <color=white>Ebu</color>.
   - Not at all, he's out of shape and with an ever-increasing paunch, I think the
     higher the warrior ranks, the weaker he becomes.
@@ -52,8 +52,8 @@ MonoBehaviour:
   - Okay, so which warrior do I kill?
   - Killing a slothful warrior is evil, after all, the lazier they are, the better.
   - I have an idea. Recently some warriors arrested doctors who trafficked organs,
-    Parovy said he tried to stop them but he couldn't convince these warriors to
-    give up.
+    <color=yellow>Parovy</color> said he tried to stop them but he couldn't convince
+    these warriors to give up.
   - Killing them will send an important message.
   DialogueBR:
   - "Hoje temos uma recompensa pela cabe\xE7a de um juiz e de um guarda de fronteira."
@@ -102,6 +102,7 @@ MonoBehaviour:
     \xF3rg\xE3os, o <color=yellow>Parovy</color> disse que tentou impedi-los mas
     n\xE3o conseguiu convencer esses guerreiros a desistirem. "
   - "Mat\xE1-los vai passar um recado importante."
+  DialogueES: []
   idchara: 01000000010000001c000000010000001c000000010000001c0000000000000001000000010000001c000000010000000100000001000000010000001c00000001000000010000000100000001000000010000001c000000010000001c000000010000000100000001000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022000000
   Cenario: 62

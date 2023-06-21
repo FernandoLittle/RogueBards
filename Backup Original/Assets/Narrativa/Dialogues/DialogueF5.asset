@@ -14,25 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - Humans have feelings, you can get a sense of how much mana your opponent will
-    use by looking at their feelings.
+  - Humans have feelings, you can get a sense of how much <color=#00B2FF>mana</color>
+    your opponent will use by looking at their feelings.
   - You can find out the human's feeling by reading his description.
-  - Some relics give  <color=#FF0080>sentimental bonuses</color>. To activate a <color=#FF0080>sentimental
-    bonus</color> you must spend an amount of mana that matches the sentiment of
-    the human you control.
-  - Discover <color=green>Roy</color>'s feelings and try to activate the <color=#FF0080>sentimental
-    bonus</color>. Your relic "Money" will increase your mana by 2. Relics are visible
-    in the upper corner of the screen.
+  - Some relics give  <color=#00B2FF>sentimental bonuses</color>. To activate a <color=#00B2FF>sentimental
+    bonus</color> you must spend an amount of <color=#00B2FF>mana</color> that matches
+    the sentiment of the human you control.
+  - Discover <color=green>Roy</color>'s feelings and try to activate the <color=#00B2FF>sentimental
+    bonus</color>. Your relic "Money" will increase your <color=#00B2FF>mana</color>
+    by 2. Relics are visible in the upper corner of the screen.
   DialogueBR:
-  - "Os humanos t\xEAm sentimentos, voc\xEA pode ter uma no\xE7\xE3o de quanta mana
+  - "Os humanos t\xEAm sentimentos, voc\xEA pode ter uma no\xE7\xE3o de quanta <color=#00B2FF>mana</color>
     seu oponente usar\xE1 observando seus sentimentos."
   - "Voc\xEA pode descobrir o sentimento do humano lendo sua descri\xE7\xE3o."
-  - "Algumas rel\xEDquias d\xE3o <color=#FF0080>b\xF4nus sentimentais</color>. Para
-    ativar um <color=#FF0080>b\xF4nus sentimental</color> voc\xEA deve gastar uma
-    quantidade de mana que corresponda ao sentimento do humano que voc\xEA controla."
-  - "Descubra os sentimentos de <color=#FF0080>Roy</color> e tente ativar o <color=#FF0080>b\xF4nus
-    sentimental</color>. Sua rel\xEDquia \"Dinheiro\" aumentar\xE1 sua mana em 2.
-    As rel\xEDquias s\xE3o vis\xEDveis no canto superior da tela."
+  - "Algumas rel\xEDquias d\xE3o <color=#00B2FF>b\xF4nus sentimentais</color>. Para
+    ativar um <color=#00B2FF>b\xF4nus sentimental</color> voc\xEA deve gastar uma
+    quantidade de <color=#00B2FF>mana</color> que corresponda ao sentimento do humano
+    que voc\xEA controla."
+  - "Descubra os sentimentos de <color=green>Roy</color> e tente ativar o <color=#00B2FF>b\xF4nus
+    sentimental</color>. Sua rel\xEDquia \"Dinheiro\" aumentar\xE1 sua <color=#00B2FF>mana</color>
+    em 2. As rel\xEDquias s\xE3o vis\xEDveis no canto superior da tela."
+  DialogueES: []
   idchara: 00000000000000000000000000000000
   instruction: 1500000000000000000000000000000001000000
   Cenario: 0

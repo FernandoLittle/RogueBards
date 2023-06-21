@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   Dialogue:
-  - This is <color=red>funny</color> .
+  - This is <color=red>funny</color>.
   DialogueBR:
-  - "Isso \xE9 <color=red>divertido</color> ."
+  - "Isso \xE9 <color=red>divertido</color>."
+  DialogueES:
+  - Esto es <color=red>divertido</color>.
   idchara: 00000000
   instruction: 000000009a020000
   Cenario: 61

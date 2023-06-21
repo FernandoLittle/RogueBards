@@ -18,8 +18,8 @@ MonoBehaviour:
   GodTextBR: Os homens vazios entendem <color=green>Akasha</color>.
   sprite: {fileID: 21300000, guid: 2aeb4b25659d18642b3e1d7159ee3353, type: 3}
   id: 0
-  Texto0: Seu ataque, defesa e vida tornam-se iguais a 1.
-  Texto0br: Your attack, defense, and health become equal to 1.
+  Texto0: Your attack, defense, and health become equal to 1.
+  Texto0br: Seu ataque, defesa e vida tornam-se iguais a 1.
   scale: 8
   IAturn: 0
   KeywordId: 06000000

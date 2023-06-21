@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - "<color=purple>William</color> ficou curioso quando viu <color=#FF0080>Kain</color>
     com um sorriso puro fazendo um gesto de ora\xE7\xE3o."
+  DialogueES:
+  - "<color=purple>William</color> sinti\xF3 curiosidad cuando vio a <color=#FF0080>Kain</color>
+    con una sonrisa pura haciendo un gesto de oraci\xF3n."
   idchara: 00000000
   instruction: 000000003f010000
   Cenario: 43

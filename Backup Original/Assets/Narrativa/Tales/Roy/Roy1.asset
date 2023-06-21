@@ -39,6 +39,20 @@ MonoBehaviour:
   - "Isso \xE9 estranho, o <color=red>rei</color> n\xE3o era o tipo de pessoa que..."
   - "<color=green>Roy</color>! Respeitemos a honra do nosso ex-l\xEDder, organize
     suas tropas, depois de amanh\xE3 partiremos, vamos derrotar esses canibais regicidas!"
+  DialogueES:
+  - "<color=green>Roy</color>, nuestra pr\xF3xima misi\xF3n es en <color=purple>Denai</color>,
+    el pueblo de los can\xEDbales que mataron al <color=red>rey</color>."
+  - "<color=purple>Denai</color>... <color=yellow>Yuri</color>, tienes informaci\xF3n
+    privilegiada y todo. \xBFSabes c\xF3mo termin\xF3 el <color=red>rey</color> en
+    ese pueblo?"
+  - "Buena pregunta, tenemos rumores raros sobre eso, pero la explicaci\xF3n m\xE1s
+    razonable que he visto es que estaba llevando comida al pueblo y los bastardos
+    lo mataron."
+  - Divertido.
+  - "Qu\xE9 raro, el <color=red>rey</color> no era el tipo de persona que..."
+  - "\xA1<color=verde>Roy</color>! \xA1Respetemos el honor de nuestro ex l\xEDder,
+    organicen sus tropas, pasado ma\xF1ana saldremos, venceremos a estos regicidas
+    can\xEDbales!"
   idchara: 0d0000001b0000000d000000000000001b0000000d000000
   instruction: 00000000000000000000000000000000000000000000000001000000
   Cenario: 1

@@ -50,7 +50,7 @@ public class Dio : MonoBehaviour
         language = PlayerPrefs.GetInt("Language");
         AudioControler();
         test = PlayerPrefs.GetInt("Animalia");
-        Debug.Log("ok");
+
         LoadCoisas();
         LoadCoisas2();
         ResultGame();
@@ -125,7 +125,7 @@ public class Dio : MonoBehaviour
     }
     public void ResetSave()
     {
-        Debug.Log("A");
+
         money = 0;
         PlayerPrefs.SetInt("Buda", 0);
         PlayerPrefs.SetInt("Intro0", 0);
@@ -193,7 +193,7 @@ public class Dio : MonoBehaviour
         PlayerPrefs.SetInt("Upgrade18", 0);
         PlayerPrefs.SetInt("Upgrade19", 0);
         PlayerPrefs.SetInt("Upgrade20", 0);
-        Debug.Log("B");
+
     }
 
     public void Volume()
@@ -471,7 +471,7 @@ public class Dio : MonoBehaviour
         OldDialogues[32] = Generic.Boolinha(PlayerPrefs.GetInt("Dialogue32"));
         //.................................................
         money = PlayerPrefs.GetInt("Money");
-        Debug.Log("Load");
+
         TraduçãoLoad();
         if (Upgrades[14] > 0)
         {

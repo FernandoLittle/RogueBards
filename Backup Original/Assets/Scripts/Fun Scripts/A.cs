@@ -146,6 +146,7 @@ public class A : MonoBehaviourPunCallbacks
     public RelicEffects RelicEffects;
     public List<Sprite> CenarioSprite;
     public Image Cenario;
+    public Image CenarioAnimado;
     public GameObject TrueDisabler;
     public Stuff Stuff;
 
@@ -207,7 +208,7 @@ public class A : MonoBehaviourPunCallbacks
             StaticData.Set();
 
             offline = true;
-        Debug.Log("A");
+
             SetFight.SetFighto();
             Round.A();
         
@@ -736,12 +737,12 @@ public class A : MonoBehaviourPunCallbacks
         PlayerPrefs.SetInt("AllyLife", ScoreAlly);
         PlayerPrefs.SetInt("EnemyLife", ScoreEnemy);
         GateGO.SetActive(true);
-        Debug.Log("HIHIEHI");
+
 
     }
     public void END()
     {
-        Debug.Log("OIO");
+
         if (X1Lixo == true)
         {
             ActiveSkills();
@@ -801,7 +802,7 @@ public class A : MonoBehaviourPunCallbacks
     //Effects Start of Game
     public void StartofGameEffects()
     {
-        Debug.Log("StartEffects");
+
         RelicSystem.AddRelic2();
         DeckSystem.AddCard();
         RelicEffects.StartEffectRelic();
@@ -1109,6 +1110,9 @@ public class A : MonoBehaviourPunCallbacks
     }
     public void SetCenario()
     {
-        Cenario.sprite = CenarioSprite[Random.Range(0, CenarioSprite.Count)];
+        int a;
+        a = Random.Range(0, CenarioSprite.Count);
+        Cenario.sprite = CenarioSprite[a];
+        CenarioAnimado.sprite = CenarioSprite[a];
     }
 }

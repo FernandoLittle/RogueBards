@@ -22,6 +22,7 @@ MonoBehaviour:
   Texto0br: "Vit\xF3ria: Se voc\xEA tiver menos que 3 de vida, Cause 6 de dano verdadeiro."
   scale: 8
   IAturn: 0
-  KeywordId: 
-  KeywordValues: []
+  KeywordId: 2b000000
+  KeywordValues:
+  - 4
   NotesId: 

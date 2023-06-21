@@ -72,6 +72,37 @@ MonoBehaviour:
     Parovy</color>."
   - "Pode n\xE3o parecer, <color=purple>William</color>, mas isso \xE9 para seu pr\xF3prio
     bem, caso contr\xE1rio as casas de apostas contratariam um assassino para assassin\xE1-lo."
+  DialogueES:
+  - "La semana siguiente, <color=yellow>Capit\xE1n Parovy</color> estaba furioso."
+  - "<color=purple>William</color>, t\xFA..."
+  - "Respir\xF3 hondo y baj\xF3 la voz."
+  - "\rEs verdad que rechazaste un soborno de una casa de apuestas y arrestaste al
+    empleado?"
+  - "S\xED."
+  - "\xBFPor qu\xE9 diablos no aceptaste el maldito soborno?"
+  - "Porque eso estar\xEDa en contra de la <color=yellow>ley</color>."
+  - <color=yellow>Parovy</color> estaba teniendo problemas para controlarse.
+  - "<color=purple>William</color>, \xBFtu salario es bueno?"
+  - "S\xED..."
+  - "\xA1No! No es. El sueldo de todos los guerreros es una mierda porque nos jugamos
+    la vida y eso no tiene precio."
+  - "Las casas de apuestas son nuestro ingreso extra y no hay raz\xF3n para rechazar
+    los malditos sobornos. Nadie gana nada con eso."
+  - "<color=amarillo>Capit\xE1n</color>..."
+  - "\xA1Nadie! \xBFQue estabas pensando? El juego es un delito menor, el tipo ser\xEDa
+    encarcelado por un m\xE1ximo de 20 d\xEDas, \xBFpor qu\xE9 diablos pelear\xEDamos
+    contra las casas de apuestas?"
+  - "\xA1<color=amarillo>Capit\xE1n</color>! No es nuestro deber legislar, solo seguimos
+    las\u2026"
+  - "\xA1Silencio! Me diste mucho trabajo estos d\xEDas, por suerte logr\xE9 negociar
+    con las casas de apuestas, ignorar\xE1n la mierda que hiciste mientras libere
+    al tipo que arrestaste y te despida."
+  - "<color=purple>William</color> no iba a suplicar perd\xF3n, solo lo mir\xF3 con
+    desprecio en sus ojos, esperando que eso molestara al <color=yellow>Capit\xE1n
+    Parovy</color>."
+  - "Puede que no lo parezca, <color=purple>William</color>, pero eso es por tu propio
+    bien, de lo contrario, las casas de apuestas contratar\xEDan a un asesino para
+    asesinarte."
   idchara: 000000000f000000000000000f0000001c0000000f0000001c000000000000000f0000001c0000000f0000000f0000001c0000000f0000001c0000000f000000000000000f000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c030000
   Cenario: 44

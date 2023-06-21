@@ -26,6 +26,12 @@ MonoBehaviour:
   - "Eu s\xF3 quero ser feliz."
   - "Eu abandono minha vingan\xE7a, mas, por favor, me mostre um caminho que me fa\xE7a
     feliz."
+  DialogueES:
+  - "Un amigo me ense\xF1\xF3 a orar. Pens\xE9 que todos los seguidores de <color=#FF0080>Shu\xE1</color>
+    eran idiotas, pero..."
+  - "Cuando oraba me sent\xEDa feliz."
+  - Yo solo quiero ser feliz.
+  - "Abandono mi venganza, pero por favor mu\xE9strame un camino que me haga feliz."
   idchara: 1c0000001c0000001c0000001c000000
   instruction: 0000000000000000000000000000000079000000
   Cenario: 13
