@@ -18,6 +18,7 @@ public class Dialogues : MonoBehaviour
     public Image Face;
     public Stuff Stuff;
     public Text DarkText2;
+    public List<GameObject> Efeitinhos;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,18 +45,31 @@ public class Dialogues : MonoBehaviour
         }
 
     }
+    public void EfeitinhosTrue()
+    {
+        Efeitinhos[0].SetActive(true);
+        Efeitinhos[1].SetActive(true);
+    }
+    public void EfeitinhosFalse()
+    {
+        Efeitinhos[0].SetActive(false);
+        Efeitinhos[1].SetActive(false);
+    }
     public void MasterDialogue()
     {
-
+      
         if (StaticPlayer.Fight == 1)
         {
             if (A.turn == 0)
             {
                 SetDialogue(0);
+                //Se tutorial ativa, efeitinho some
+                EfeitinhosFalse();
             }
             if (A.turn == 1)
             {
                 SetDialogue(1);
+                EfeitinhosFalse();
             }
             
         }
@@ -64,6 +78,7 @@ public class Dialogues : MonoBehaviour
             if (A.turn == 0)
             {
                 SetDialogue(3);
+                EfeitinhosFalse();
             }
 
         }
@@ -72,10 +87,12 @@ public class Dialogues : MonoBehaviour
             if (A.turn == 0)
             {
                 SetDialogue(2);
+                EfeitinhosFalse();
             }
             if (A.turn == 1)
             {
                 SetDialogue(4);
+                EfeitinhosFalse();
             }
         }
         if (StaticPlayer.Fight == 4)
@@ -149,6 +166,7 @@ public class Dialogues : MonoBehaviour
         {
             DialogueObject.SetActive(false);
             TutoIlustration.SetActive(false);
+            EfeitinhosTrue();
         }
         if (Dialogo[DialogueSelect].instruction[Index] >=11 && Dialogo[DialogueSelect].instruction[Index]<=21)
         {

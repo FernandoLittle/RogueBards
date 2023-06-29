@@ -29,7 +29,7 @@ MonoBehaviour:
   - You really like to spit on the plate you ate. Get out of my way, the <color=green>Roy</color>
     I knew wasn't a parasite.
   - 'Next week:'
-  - <color=green>Roy</color>  flips a coin, unfortunately the result is a tail.
+  - <color=green>Roy</color> flips a coin, unfortunately the result is a tail.
   DialogueBR:
   - "Eu n\xE3o aguento mais, eu... eu n\xE3o... n\xE3o... o que estamos fazendo aqui?"
   - "Levante-se <color=green>Roy</color>! Ainda n\xE3o terminamos!"
@@ -68,5 +68,5 @@ MonoBehaviour:
   - "La pr\xF3xima semana:"
   - <color=green>Roy</color> lanza una moneda, desafortunadamente sale cruz.
   idchara: 1b0000000d0000001b0000000d0000001b000000000000000d0000001b0000000d0000001b0000000d000000000000000000000000000000
-  instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000090030000
+  instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003b010000
   Cenario: 61

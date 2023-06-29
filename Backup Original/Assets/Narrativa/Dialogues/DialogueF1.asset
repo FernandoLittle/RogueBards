@@ -23,11 +23,12 @@ MonoBehaviour:
     Your skills have a blue border and are at the bottom of the screen.'
   DialogueBR:
   - "Voc\xEA quer fazer <color=yellow>A Justi\xE7a</color> e <color=yellow>O Bem</color>?"
-  - "\xC9 claro! que sim Voc\xEA \xE9 uma boa pessoa e uma boa pessoa luta contra
+  - "\xC9 claro que sim! Voc\xEA \xE9 uma boa pessoa e uma boa pessoa luta contra
     <color=red>O Mal</color> e faz <color=yellow>O Bem</color>."
   - "Eu vou te ensinar como matar esses canibais malvados, primeiro selecione uma
     de suas habilidades.\nSuas habilidades t\xEAm uma borda azul e est\xE3o na parte
     inferior da tela."
+  DialogueES: []
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000001000000
   Cenario: 0

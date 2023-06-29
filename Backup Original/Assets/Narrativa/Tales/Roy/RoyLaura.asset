@@ -20,5 +20,5 @@ MonoBehaviour:
   DialogueES:
   - "<color=green>Roy</color> eligi\xF3 alimentar su vanidad."
   idchara: 00000000
-  instruction: 000000009a020000
+  instruction: 0000000090030000
   Cenario: 61

@@ -24,6 +24,13 @@ public class SceneT : MonoBehaviour
     }
     public void AhShitHereWeGoAgain()
     {
+       
+        GodCube.TakeScreenshot("Adventure");
+        //SceneManager.LoadScene("Adventure");
+    }
+    public void ObrigadoAdeus()
+    {
+        PlayerPrefs.SetInt("Aventura",1);
         GodCube.TakeScreenshot("Adventure");
         //SceneManager.LoadScene("Adventure");
     }

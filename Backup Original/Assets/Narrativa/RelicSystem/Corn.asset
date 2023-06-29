@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IdRelic: 21
   SpriteRelic: {fileID: 21300000, guid: f2ddcf01ca686c5468ee86e448333170, type: 3}
-  Description: "Se voc\xEA tiver 0 de mana no fim do turno, ganhe 2 de mana."
+  Description: If you have 0 mana at end of turn, gain 2 mana.
   DescriptionBR: "Se voc\xEA tiver 0 de mana no fim do turno, ganhe 2 de mana."
   Name: <color=cyan>Corn</color>
   NameBR: <color=cyan>Milho</color>

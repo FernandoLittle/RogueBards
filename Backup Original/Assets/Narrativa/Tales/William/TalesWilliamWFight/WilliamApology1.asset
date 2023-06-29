@@ -17,7 +17,7 @@ MonoBehaviour:
   - Warriors used to hate <color=yellow>Sarka</color>'s bards, <color=purple>William</color>
     only began to understand this hatred when he heard a terrible song about drugs.
   - Thank you noble warriors.
-  - You are Sarka's heroes.
+  - You are <color=yellow>Sarka</color>'s heroes.
   - Sacrificing your lives
   - to raise the price of my opium.
   - Thank you warriors
@@ -54,8 +54,8 @@ MonoBehaviour:
   - a better home.
   - a better.
   - world.
-  - In his profound ignorance, William concluded that he had never felt such hatred
-    for a bard.
+  - In his profound ignorance, <color=purple>William</color> concluded that he had
+    never felt such hatred for a bard.
   - All my colleagues who died, all the families they left...
   - They risked their lives to protect their families from addiction and that bard...
   - They risked their lives to protect their families from addiction and that bard...
@@ -67,7 +67,7 @@ MonoBehaviour:
     s\xF3 come\xE7ou a entender esse \xF3dio quando ouviu uma m\xFAsica terr\xEDvel
     sobre drogas."
   - Obrigado nobres guerreiros
-  - "Voc\xEAs s\xE3o os her\xF3is de Sarka.\r"
+  - "Voc\xEAs s\xE3o os her\xF3is de <color=yellow>Sarka</color>.\r"
   - Porque sacrificam suas vidas
   - "para encarecerem o pre\xE7o do meu meu \xF3pio."
   - "O pre\xE7o do meu \xF3pio.\r\n"
@@ -136,8 +136,8 @@ MonoBehaviour:
 
 '
   - Melhor
-  - "Em sua profunda ignor\xE2ncia, William conclui que nunca tinha sentido tanto
-    \xF3dio por um bardo.\r\n"
+  - "Em sua profunda ignor\xE2ncia, <color=purple>William</color> conclui que nunca
+    tinha sentido tanto \xF3dio por um bardo.\r\n"
   - "Todos os meus colegas que morreram, todas as fam\xEDlias que eles deixaram\u2026\r\n"
   - "Aquele bardo est\xE1 fazendo piada com tudo isso, dizendo que a luta deles n\xE3o
     serviu para nada.\r\n"
@@ -149,6 +149,7 @@ MonoBehaviour:
 '
   - "Eu nunca ouvi uma m\xFAsica t\xE3o repulsiva, imbecil, mesquinha e nojenta como
     essa.\r\n"
+  DialogueES: []
   idchara: 000000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e000000000000001c0000001c0000001c0000001c0000001c0000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000
   Cenario: 58
