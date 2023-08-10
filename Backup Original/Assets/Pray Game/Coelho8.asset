@@ -49,6 +49,22 @@ MonoBehaviour:
   - pecado
   - "\xE9"
   - existir
+  DialogueES:
+  - mi
+  - pecado
+  - es
+  - alimentarme
+  - de
+  - tu
+  - carne
+  - mi
+  - pecado
+  - es
+  - sobrevivir
+  - mi
+  - pecado
+  - es
+  - existir
   idchara: 
   instruction: 
   Cenario: 0

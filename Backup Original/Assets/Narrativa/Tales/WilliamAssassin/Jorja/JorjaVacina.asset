@@ -35,7 +35,7 @@ MonoBehaviour:
   - After Ebu left, <color=#FF0080>Maduin</color> went to the room where <color=#FF0080>Jorja</color>
     slept.
   - I will pray for her.
-  - "<color=blue>Roy</color> always said that <color=#FF0080>Shu\xE1</color> only
+  - "<color=green>Roy</color> always said that <color=#FF0080>Shu\xE1</color> only
     heard the prayers of those who prayed in secret."
   - Remembering this, <color=purple>William</color> went to his room and began to
     pray.
@@ -68,7 +68,7 @@ MonoBehaviour:
   - "Ap\xF3s Ebu partir, <color=#FF0080>Maduin</color> se direcionou para o quarto
     onde <color=#FF0080>Jorja</color> dormia."
   - Vou rezar por ela.
-  - "<color=blue>Roy</color> sempre dizia que <color=#FF0080>Shu\xE1</color> s\xF3
+  - "<color=green>Roy</color> sempre dizia que <color=#FF0080>Shu\xE1</color> s\xF3
     ouvia as ora\xE7\xF5es daqueles que rezavam em segredo."
   - "Lembrando-se disso, <color=purple>William</color> se dirigiu ao seu quarto e
     come\xE7ou a orar."
@@ -80,6 +80,38 @@ MonoBehaviour:
     para mim, a minha vingan\xE7a."
   - "Espero que pelo menos o <color=#FF0080>Deus do Perd\xE3o</color> seja capaz
     de perdoar os meus pecados e ajudar uma pobre garota."
+  DialogueES:
+  - "<colour=purple>William</colour>, <colour=#FF0080>Maduin</colour>, venid aqu\xED."
+  - Estamos ocupados.
+  - "\xA1Ven ahora!"
+  - Los asesinos se sobresaltaron porque era muy raro ver a Ebu con una voz tan seria.
+  - "\xBFSe ha vacunado contra la enfermedad de Charlotte?"
+  - "S\xED."
+  - "S\xED."
+  - "La <colour=#FF0080>Jorja</colour> no se vacun\xF3."
+  - "\xBFDe verdad? Puedo llevarla hoy para que la vacunen."
+  - "Es demasiado tarde, he descubierto que no se vacun\xF3 porque empez\xF3 a mostrar
+    s\xEDntomas avanzados de la enfermedad."
+  - "\xBFCu\xE1les?"
+  - Le tiemblan las manos y tiene dificultades para mover las piernas.
+  - Esto significa que la enfermedad ya ha alcanzado su sistema nervioso.
+  - "S\xED, ella tendr\xE1 suerte de sobrevivir otra temporada."
+  - "Ordenar\xE9 sedantes, tendremos que matarla antes de que llegue a la fase final
+    de la enfermedad."
+  - "Cuando Ebu se march\xF3, <colour=#FF0080>Maduin</colour> se dirigi\xF3 a la
+    habitaci\xF3n donde dorm\xEDa <colour=#FF0080>Jorja</colour>."
+  - "Rezar\xE9 por ella."
+  - "<color=green>Roy</colour> siempre dec\xEDa que <color=#FF0080>Shu\xE1</colour>
+    s\xF3lo escuchaba las plegarias de los que rezaban en secreto."
+  - "Recordando esto, <color=purple>William</color> se fue a su habitaci\xF3n y se
+    puso a rezar."
+  - "Mientras t\xFA nos ense\xF1as a amar a nuestros enemigos, nosotros matamos y
+    sembramos el terror."
+  - "\xBFMe oyes <colour=#FF0080>Shu\xE1, Dios del Amor</colour>? Quiero hacer un
+    pacto, si curas a <colour=#FF0080>Jorja</colour> soltar\xE9 mi daga, m\xE1s que
+    eso, soltar\xE9 lo m\xE1s preciado para m\xED, mi venganza."
+  - "Espero que al menos el <color=#FF0080>Dios del Perd\xF3n</color> sea capaz de
+    perdonar mis pecados y ayudar a una pobre chica."
   idchara: 010000001f0000000100000000000000010000001c0000001f000000010000001f000000010000001f000000010000001f0000000100000001000000000000001f00000000000000000000001c0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000670800000000000000000000000000000000000000000000000000000000000000000000bc020000
   Cenario: 43

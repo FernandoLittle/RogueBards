@@ -34,6 +34,16 @@ MonoBehaviour:
   - "<color=purple>William</color> sentiu um pouco de pena do distrito deles. Quando
     come\xE7ou a luta entre guerreiros e ladr\xF5es, ficou evidente que os guerreiros
     do outro distrito eram covardes que evitavam ao m\xE1ximo lutar."
+  DialogueES:
+  - "Uno de los bancos de <color=yellow>Sarka</color> recibi\xF3 informaci\xF3n que
+    revelaba que ser\xEDa el objetivo de un gran robo. La misi\xF3n de los guerreros
+    era tender una emboscada al banco y capturar a los atracadores."
+  - "Mientras se preparaba para la emboscada, <color=purple>William</color> se sorprendi\xF3
+    por la presencia de varios guerreros que nunca antes hab\xEDa visto. Seg\xFAn
+    el <color=yellow>Capit\xE1n Parovy</color>, eran guerreros de otro distrito."
+  - "<color=purple>William</color> sinti\xF3 un poco de pena por su distrito. Cuando
+    comenz\xF3 la pelea entre guerreros y ladrones, se hizo evidente que los guerreros
+    del otro distrito eran cobardes que evitaban pelear tanto como les era posible."
   idchara: 000000000000000000000000
   instruction: 0000000000000000000000000a000000
   Cenario: 11

@@ -501,6 +501,10 @@ public class ButtonInstructions : MonoBehaviour
             {
                 TranslateButtonBR(Idbuttons[x], x);
             }
+            if (language == 2)
+            {
+                TranslateButtonES(Idbuttons[x], x);
+            }
 
         }
 
@@ -653,7 +657,7 @@ public class ButtonInstructions : MonoBehaviour
                 ButtonText = "Leia um livro";
                 break;
             case 13:
-                ButtonText = "Siga seus coração";
+                ButtonText = "Siga seu coração";
                 break;
             case 14:
                 ButtonText = "Siga Shuá";
@@ -705,6 +709,111 @@ public class ButtonInstructions : MonoBehaviour
                 break;
             case 30:
                 ButtonText = "Seguir o Caminho do Assassino";
+                break;
+        }
+
+        TalesVariables.OptionsText[nextbutton] = ButtonText;
+        TalesVariables.OptionsText1[nextbutton].text = ButtonText;
+    }
+    public void TranslateButtonES(int idbutton, int nextbutton)
+    {
+
+        string ButtonText = "";
+
+        switch (idbutton)
+        {
+
+            case 1:
+                ButtonText = "Yo consigo";
+                break;
+            case 2:
+                ButtonText = "Yo no consigo";
+                break;
+            case 3:
+                ButtonText = "Rechazar la oferta";
+                break;
+            case 4:
+                ButtonText = "No corresponde a mí tomar esa decisión.";
+                break;
+            case 5:
+
+                ButtonText = "Aceptar la mala suerte";
+                break;
+            case 6:
+
+                ButtonText = "Voltea la moneda otra vez";
+                break;
+            case 7:
+                ButtonText = "Toca una canción religiosa";
+                break;
+            case 8:
+                ButtonText = "Toca una música de amor";
+                break;
+            case 9:
+                ButtonText = "Toca una música patriótica";
+                break;
+            case 10:
+                ButtonText = "Toca una música instrumental";
+                break;
+            case 11:
+                ButtonText = "Toca una música";
+                break;
+            case 12:
+                ButtonText = "Lea un libro";
+                break;
+            case 13:
+                ButtonText = "Sigue seu coração";
+                break;
+            case 14:
+                ButtonText = "Sigue a Shuá";
+                break;
+            case 15:
+                ButtonText = "Únete a la oración";
+                break;
+            case 16:
+                ButtonText = "Dudar de la existencia de Shuá";
+                break;
+            case 17:
+                ButtonText = "Sigue el camino de Shuá";
+                break;
+            case 18:
+                ButtonText = "Sigue el camino del guerrero";
+                break;
+            case 19:
+                ButtonText = "Interroga al monje";
+                break;
+            case 20:
+                ButtonText = "Pide perdón al monje";
+                break;
+            case 21:
+                ButtonText = "Aceptar el soborno";
+                break;
+            case 22:
+                ButtonText = "Rechazar el soborno";
+                break;
+            case 23:
+                ButtonText = "Mata a Joshua";
+                break;
+            case 24:
+                ButtonText = "Perdona a Joshua";
+                break;
+            case 25:
+                ButtonText = "Acepte la oferta";
+                break;
+            case 26:
+                ButtonText = "Rechaza la oferta";
+                break;
+            case 27:
+                ButtonText = "¡Felicidades!";
+                break;
+            case 28:
+                ButtonText = "No me importa";
+                break;
+            case 29:
+                ButtonText = "Seguir el Camino del Guerrero";
+                break;
+            case 30:
+                ButtonText = "Seguir el Camino del Asesino";
                 break;
         }
 

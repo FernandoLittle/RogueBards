@@ -22,7 +22,7 @@ MonoBehaviour:
   - Damn <color=white>Ebu</color>, if the song is ironic and says Luna was wrong
     then the song means Luna was right.
   - It makes no sense.
-  - Calm down, children. Let's change the subject. What do you think happened to
+  - Calm down, children. Let's change the subject, what do you think happened to
     Luna?
   - I studied a lot about it. According to reports, she had several mental problems,
     everyone who lived with her thought she was strange.
@@ -34,7 +34,7 @@ MonoBehaviour:
   - "\u2026"
   - What do you think, <color=white>Ebu</color>?
   - I think you are very gay.
-  - Your imbecility makes me sick.
+  - Your childishness makes me sick.
   - Your mouth on my dick.
   - "I'm going to kill the guys who banned the song \u201CLuna was right\u201D, who
     here is willing to help me?"
@@ -52,7 +52,7 @@ MonoBehaviour:
   - "Porra, <color=white>Ebu</color>, se a m\xFAsica \xE9 ir\xF4nica e diz que a
     Luna estava errada ent\xE3o a m\xFAsica quer dizer que a Luna estava certa."
   - "Isso n\xE3o faz sentido."
-  - "Calma, crian\xE7as. Vamos mudar de assunto. O que voc\xEAs acham que aconteceu
+  - "Calma, crian\xE7as. Vamos mudar de assunto, o que voc\xEAs acham que aconteceu
     com a Luna?"
   - "Eu estudei bastante sobre isso. Segundo os relatos ela tinha v\xE1rios problemas
     mentais, todos que conviviam com ela a achavam estranha."
@@ -65,7 +65,7 @@ MonoBehaviour:
   - "\u2026"
   - "O que voc\xEA acha, <color=white>Ebu</color>?"
   - "Eu acho que voc\xEA \xE9 muito gay."
-  - Sua imbecilidade me deixa mal.
+  - Sua infantilidade me deixa mal.
   - Sua boca no meu pau.
   - "Eu vou matar os caras que proibiram a m\xFAsica \u201CLuna estava certa\u201D,
     quem aqui topa me ajudar?"
@@ -74,7 +74,39 @@ MonoBehaviour:
   - "Eu sei resolver as coisas de todos os jeitos poss\xEDveis porque eu sou onipotente,
     mas eu prefiro resolver as coisas do jeito mais divertido que \xE9 matando pessoas."
   - Tipo uma <color=red>deusa da morte</color>.
-  DialogueES: []
+  DialogueES:
+  - "<colour=#FF0080>Maduin</colour> cant\xF3 una hermosa canci\xF3n sobre una hermosa
+    mujer."
+  - "Lo he compuesto yo, \xBFqu\xE9 te ha parecido?"
+  - "Me pareci\xF3 una mierda, Luna ten\xEDa toda la puta raz\xF3n."
+  - "La canci\xF3n es claramente ir\xF3nica."
+  - "A la mierda si es ir\xF3nica, Luna sigue teniendo raz\xF3n."
+  - "Maldita sea, <color=white>Ebu</color>, si la canci\xF3n es ir\xF3nica y dice
+    que Luna se equivoc\xF3 entonces la canci\xF3n quiere decir que Luna ten\xEDa
+    raz\xF3n."
+  - Eso no tiene sentido.
+  - "C\xE1lmense, ni\xF1os. Cambiemos de tema, \xBFQu\xE9 crees que le pas\xF3 a
+    Luna?"
+  - "Estudi\xE9 mucho sobre ella. Seg\xFAn los informes ten\xEDa varios problemas
+    mentales, todos los que viv\xEDan con ella pensaban que era rara."
+  - "Al parecer, alucinaba con demonios y dec\xEDa cosas sin sentido."
+  - "Probablemente estaba enloquecida cuando pronunci\xF3 el discurso en el que condenaba
+    la pena de muerte para los guerreros y los pol\xEDticos. "
+  - "Creo que huy\xF3 despu\xE9s de toda la reacci\xF3n. O tal vez fue asesinada,
+    eso ser\xEDa bastante ir\xF3nico."
+  - "\u2026"
+  - "\xBFQu\xE9 te parece, <color=white>Ebu</color>?"
+  - Me parece que eres muy gay.
+  - Tu infantilismo me molesta.
+  - Mi pene en tu boca hace fiesta
+  - "Voy a matar a los tipos que prohibieron la canci\xF3n \"Luna ten\xEDa raz\xF3n\",
+    \xBFqui\xE9n de aqu\xED est\xE1 dispuesto a ayudarme?"
+  - Estoy dentro.
+  - "En serio, \xBFsolo sabes c\xF3mo resolver las cosas matando gente?"
+  - "S\xE9 c\xF3mo resolver las cosas de todas las formas posibles porque soy omnipotente,
+    pero prefiero resolver las cosas de la forma m\xE1s divertida, que es matando
+    gente."
+  - Como una <color=red>diosa de la muerte</color>.
   idchara: 000000001f000000010000001f000000010000001f000000010000001c0000001f0000001f0000001f0000001f0000001f0000001f000000010000001f00000001000000010000001c0000001f0000000100000001000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001e000000
   Cenario: 59

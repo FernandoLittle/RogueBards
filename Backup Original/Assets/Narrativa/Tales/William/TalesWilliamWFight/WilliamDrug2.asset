@@ -23,6 +23,12 @@ MonoBehaviour:
     de suas v\xEDtimas. Infelizmente ele derrotou seu oponente com um golpe fatal."
   - Nenhuma palavra foi dita no final dessa luta.
   - "<color=purple>William</color> se sentiu solit\xE1rio."
+  DialogueES:
+  - "Por lo general, <color=purple>William</color> le gustaba escuchar las \xFAltimas
+    palabras de sus v\xEDctimas. Desafortunadamente derrot\xF3 a su oponente con
+    un golpe fatal."
+  - No se dijo una palabra al final de esa pelea.
+  - "<color=purple>William</color> se sent\xEDa solo."
   idchara: 000000000000000000000000
   instruction: 000000006e08000000000000ea030000
   Cenario: 8

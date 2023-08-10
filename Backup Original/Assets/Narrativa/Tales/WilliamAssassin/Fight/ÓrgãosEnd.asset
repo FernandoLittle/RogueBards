@@ -71,7 +71,37 @@ MonoBehaviour:
     nosso trabalho \xE9 matar todos aqueles que desagradam os poderosos."
   - "A \xFAnica diferen\xE7a entre n\xF3s \xE9 que o meu trabalho paga muito mais
     que o seu."
-  DialogueES: []
+  DialogueES:
+  - "El guerrero ya no pod\xEDa blandir su espada despu\xE9s de que <colour=purple>William</colour>
+    le cortara las mu\xF1ecas."
+  - "Pronto llegar\xE1 tu muerte por hemorragia, \xBFte arrepientes ahora de tus
+    decisiones?"
+  - "<colour=purple>A William</colour> le encantaba incapacitar a sus v\xEDctimas
+    y hablarles mirando desde arriba."
+  - "Nunca me arrepentir\xEDa, luch\xE9 por la ley hasta el final de mi vida, nada
+    podr\xEDa hacerme sentir m\xE1s orgulloso."
+  - La risa falsa de <colour=purple>William</colour> no era en absoluto convincente.
+  - "T\xFA luchaste por la ley, qu\xE9 mono, somos parecidos \xBFno crees?"
+  - "Curiosamente, el m\xE9todo que <color=purple>William</color> utiliz\xF3 para
+    burlarse de su oponente fue compararse con \xE9l."
+  - "Eres un criminal, un gusano, \xA1no nos parecemos en nada!"
+  - "Normalmente, <color=purple>William</color> torturar\xEDa f\xEDsicamente a un
+    guerrero que dijera eso, pero cre\xEDa que la tortura psicol\xF3gica ser\xEDa
+    m\xE1s divertida."
+  - Lucho por la voluntad de los ricos que ponen una recompensa por tu cabeza. Soy
+    esclavo de la voluntad de los poderosos.
+  - "\xBFSabes cu\xE1l es la instituci\xF3n m\xE1s rica y poderosa de <color=yellow>Sarka</color>?
+    Es el propio gobierno de <color=yellow>Sarka</color>, la justicia que defiendes
+    con orgullo no es m\xE1s que la voluntad de los pol\xEDticos que crean las leyes."
+  - Usted...
+  - "<color=purple>William</color> pate\xF3 al guerrero en la cabeza."
+  - "No me interrumpas, pierdo mi hilo de pensamiento f\xE1cilmente."
+  - "Esa era una de las razones por las que disfrutaba hablando con las v\xEDctimas
+    discapacitadas."
+  - Somos iguales, servimos a la voluntad de los ricos a cambio de dinero, nuestro
+    trabajo es matar a todos los que disgustan a los poderosos.
+  - "La \xFAnica diferencia entre nosotros es que mi trabajo paga mucho m\xE1s que
+    el tuyo."
   idchara: 000000001c0000000000000020000000000000001c0000000000000020000000000000001c0000001c00000020000000000000001c000000000000001c0000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b08000000000000ea030000
   Cenario: 62

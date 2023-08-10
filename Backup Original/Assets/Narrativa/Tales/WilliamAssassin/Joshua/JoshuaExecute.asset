@@ -25,6 +25,12 @@ MonoBehaviour:
   - "Ap\xF3s a l\xE2mina atravessar seu cora\xE7\xE3o, <color=blue>Joshua</color>
     disse suas \xFAltimas palavras:\r\n"
   - "Me desculpe filho, eu n\xE3o pude ving\xE1-lo."
+  DialogueES:
+  - "Te entiendo perfectamente <color=blue>Joshua</color>, por eso s\xE9 que nunca
+    dejar\xE1s de odiarme."
+  - "Despu\xE9s de que la hoja atravesara su coraz\xF3n, <color=azul>Joshua</color>
+    dijo sus \xFAltimas palabras:"
+  - Lo siento hijo, no pude vengarte.
   idchara: 1c0000000000000024000000
   instruction: 00000000000000000000000076000000
   Cenario: 49

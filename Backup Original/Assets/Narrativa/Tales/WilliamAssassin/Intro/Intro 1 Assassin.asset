@@ -42,6 +42,21 @@ MonoBehaviour:
     onde ser um assassino \xE9 visto como bom."
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - Assassinos falam pra caralho.
+  DialogueES:
+  - 'En <color=yellow>Sarka</color> un asesino dijo:'
+  - "\xBFCu\xE1l es la diferencia entre un asesino y un guerrero? \xBFEs uno m\xE1s
+    amable que el otro? \xBFEs uno m\xE1s inteligente que el otro? \xBFEs uno m\xE1s
+    virtuoso que el otro?"
+  - No, no y no. No tomaron caminos diferentes debido a una diferencia en la moral,
+    el intelecto o la virtud.
+  - "Aunque no se den cuenta conscientemente, los humanos rara vez se preocupan por
+    lo que es bueno y moral, lo prioritario para ellos es la reputaci\xF3n, es decir,
+    es m\xE1s importante parecer bueno que serlo realmente."
+  - "Un guerrero es s\xF3lo un humano que vive en un lugar donde ser guerrero est\xE1
+    bien visto, un asesino es s\xF3lo un humano que vive en un lugar donde ser asesino
+    est\xE1 bien visto."
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
+  - Asesinos hablan mucho.
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 000000000000000000000000ec03000069080000000000000000000069000000
   Cenario: 72

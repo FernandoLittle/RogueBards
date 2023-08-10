@@ -73,6 +73,36 @@ MonoBehaviour:
   - "Para amar precisamos de um mundo onde o sofrimento e a felicidade coexistam
     para que as nossas a\xE7\xF5es tenham algum significado."
   - A dor e o sofrimento estavam prestes a chegar.
+  DialogueES:
+  - "\xBFTorturar\xE1 <colour=#FF0080>Shua</colour> a los pecadores?"
+  - "Tortura es una palabra muy fuerte, las escrituras del monje <colour=#FF0080>Harold</colour>
+    dicen que limpiar\xE1 las almas de los pecadores con el mayor de los dolores."
+  - "<colour=#FF0080>\xBFShu\xE1</colour> es amable por hacerlo?"
+  - "S\xED."
+  - "Cuando dije que quer\xEDa vengarme, me condenaste y dijiste que eso ser\xEDa
+    un pecado, pero cuando <color=#FF0080>Shu\xE1</color> causa el mayor de los dolores
+    a los humanos, dices que eso es algo bondadoso."
+  - "Imagine que un d\xEDa se despierta y descubre que ha matado accidentalmente
+    a un ni\xF1o mientras estaba borracho."
+  - "\xBFSufrir\xEDas?"
+  - "S\xED."
+  - "<color=black>Ese chiste es gracioso, \xBFno crees?<//color>"
+  - "S\xF3lo un hombre con el alma corrompida no sufre despu\xE9s de pecar."
+  - "Cuando <colour=#FF0080>Shu\xE1</colour> purifica nuestras almas despu\xE9s de
+    la muerte, nos arrepentimos de todos nuestros pecados. El mayor dolor que mencionan
+    las escrituras es precisamente el dolor del arrepentimiento. No es un castigo,
+    sino una consecuencia necesaria de la purificaci\xF3n."
+  - "Si <color=#FF0080>Shu\xE1</color> es tan bondadoso, \xBFpor qu\xE9 nos dejar\xEDa
+    sufrir si s\xF3lo pudiera darnos pura felicidad?"
+  - El dolor es importante para que seamos mejores personas y aprendamos.
+  - "<color=#FF0080>Shu\xE1</color> podr\xEDa simplemente arrojar todas las almas
+    a un lago de placer infinito, pero \xBFqu\xE9 significar\xEDa eso?"
+  - "<colour=#FF0080>Shu\xE1</colour> dio a los humanos su mayor virtud, que es la
+    capacidad de amar. C\xF3mo podr\xEDamos amar sin comprender el significado del
+    dolor y el sufrimiento?"
+  - "Para amar necesitamos un mundo en el que coexistan el sufrimiento y la felicidad,
+    de modo que nuestras acciones tengan alg\xFAn sentido."
+  - El dolor y el sufrimiento estaban a punto de llegar.
   idchara: 1c000000190000001c000000190000001c00000019000000190000001c0000000000000019000000190000001c0000001900000019000000190000001900000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000
   Cenario: 14

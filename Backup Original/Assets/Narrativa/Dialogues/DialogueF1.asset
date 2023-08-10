@@ -28,7 +28,13 @@ MonoBehaviour:
   - "Eu vou te ensinar como matar esses canibais malvados, primeiro selecione uma
     de suas habilidades.\nSuas habilidades t\xEAm uma borda azul e est\xE3o na parte
     inferior da tela."
-  DialogueES: []
+  DialogueES:
+  - "\xBFQuieres hacer <color=yellow>La Justicia</color> y <color=yellow>El Bien</color>?"
+  - "\xA1Por supuesto que lo eres! Eres una buena persona y una buena persona lucha
+    contra <colour=red>El Mal</colour> y hace <colour=yellow>El Bien</colour>."
+  - "Te ense\xF1ar\xE9 c\xF3mo matar a estos malvados can\xEDbales, primero selecciona
+    una de sus habilidades.\nSus habilidades tienen un borde azul y est\xE1n en la
+    parte inferior de la pantalla."
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000001000000
   Cenario: 0

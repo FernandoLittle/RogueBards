@@ -57682,25 +57682,25 @@ MonoBehaviour:
     - She smiles mysteriously
     - As if keeping a funny secret
   - Speak:
-    - It's pathetic talking to a dead man.
+    - It's pathetic talking to a dead man
     - Then I make my speeches
     - Before I kill my victims
     - I will not repeat the mistake of my first murder
   - Speak:
     - When I'm in front of a single person
-    - And she is about to die
+    - And death is coming
     - I can be myself
     - And have fun
   - Speak:
-    - When the fight is about to start.
+    - When the fight is about to start
     - I understand that life and death are not in my control
     - The peace of having nothing to lose floods my body
     - And the art of killing and dying becomes a calm and innocent game
   - Speak:
-    - Warriors always attack in a group.
-    - But I like to attack alone.
-    - That way I can be alone with my victim.
-    - And be myself.
+    - Warriors always attack in a group
+    - But I like to attack alone
+    - That way I can be alone with my victim
+    - And be myself
   DarkTextBR:
   - Speak:
     - Laura e Anne
@@ -57733,10 +57733,46 @@ MonoBehaviour:
     - "A paz de n\xE3o ter nada a perder inunda o meu corpo"
     - E a arte de matar e morrer torna-se uma brincadeira calma e inocente
   - Speak:
-    - Guerreiros sempre atacam em grupo.
-    - Mas eu gosto de atacar sozinho.
-    - "Assim posso ficar a s\xF3s com minha v\xEDtima."
-    - E ser eu mesmo.
+    - Guerreiros sempre atacam em grupo
+    - Mas eu gosto de atacar sozinho
+    - "Assim posso ficar a s\xF3s com minha v\xEDtima"
+    - E ser eu mesmo
+  DarkTextES:
+  - Speak:
+    - Laura y Anne
+    - Son mis hermanitas
+    - Son mis hermanitas
+    - "\xBFPor qu\xE9?"
+  - Speak:
+    - Maduin juega en ambos lados
+    - "Pero conf\xEDo en \xE9l"
+    - "\xBF\xC9l conf\xEDa en m\xED?"
+    - "\xBFMerezco confianza?"
+  - Speak:
+    - Ebu Liada
+    - Cada vez que ella se presenta
+    - "Ella sonr\xEDe misteriosamente"
+    - "Como si guardara un secreto c\xF3mico"
+  - Speak:
+    - "Es pat\xE9tico hablar con un hombre muerto"
+    - Entonces hago mis discursos
+    - "Antes de matar a mis v\xEDctimas"
+    - "No repetir\xE9 el error de mi primer asesinato."
+  - Speak:
+    - Cuando estoy frente a una sola persona
+    - "Y ella est\xE1 a punto de morir"
+    - Puedo ser yo mismo
+    - Y divertirme
+  - Speak:
+    - "Cuando la pelea est\xE1 a punto de comenzar"
+    - "Entiendo que la vida y la muerte no est\xE1n bajo mi control"
+    - La paz de no tener nada que perder inunda mi cuerpo
+    - Y el arte de matar y morir se convierte en un juego tranquilo e inocente
+  - Speak:
+    - Los guerreros siempre atacan en grupo
+    - Pero me gusta atacar solo
+    - "De esa manera puedo estar solo con mi v\xEDctima."
+    - Y ser yo mismo
   Face: {fileID: 167792454}
   Stuff: {fileID: 909165723}
   DarkText2: {fileID: 1671242711}

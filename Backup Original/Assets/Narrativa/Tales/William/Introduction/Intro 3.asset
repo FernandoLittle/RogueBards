@@ -20,7 +20,7 @@ MonoBehaviour:
     and became a tool.
   - When the human goes to school, works, pays his taxes and dies in the war he evolves
     as a servant of <color=yellow>Lyoko</color>.
-  - The guild is the civilized world's greatest enemy, as its purpose is to kill
+  - The Guild is the civilized world's greatest enemy, as its purpose is to kill
     all the vagabonds who try to chain others with the chains of civilization.
   - In <color=yellow>Sarka</color> a warrior said.
   - We will lay down our lives for law, order and the nation.
@@ -32,7 +32,7 @@ MonoBehaviour:
     si e tornou-se uma ferramenta."
   - Quando o humano vai para a escola, trabalha, paga seus impostos e morre na guerra
     ele evolui como servo de <color=yellow>Lyoko</color>.
-  - "A guilda \xE9 o maior inimigo do mundo civilizado, pois seu objetivo \xE9 matar
+  - "A Guilda \xE9 o maior inimigo do mundo civilizado, pois seu objetivo \xE9 matar
     todos os vagabundos que tentam acorrentar outros com as correntes da civiliza\xE7\xE3o."
   - Em <color=yellow>Sarka</color> um guerreiro disse.
   - "Daremos nossas vidas pela lei, pela ordem e pela na\xE7\xE3o."
@@ -44,10 +44,10 @@ MonoBehaviour:
     de vivir para s\xED mismo y se convirti\xF3 en una herramienta."
   - Cuando el humano va a la escuela, trabaja, paga sus impuestos y muere en la guerra,
     evoluciona como sirviente de <color=yellow>Lyoko</color>.
-  - "El gremio es el mayor enemigo del mundo civilizado, ya que su objetivo es acabar
+  - "El Gremio es el mayor enemigo del mundo civilizado, ya que su objetivo es acabar
     con todos los vagabundos que intentan encadenar a otros con las cadenas de la
     civilizaci\xF3n."
-  - En <color=amarillo>Sarka</color> dijo un guerrero.
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
   - "Daremos nuestras vidas por la ley, el orden y la naci\xF3n."
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 00000000000000000000000000000000ec030000340900000000000069000000

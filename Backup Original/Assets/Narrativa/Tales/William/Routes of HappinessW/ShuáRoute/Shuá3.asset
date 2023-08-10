@@ -71,6 +71,36 @@ MonoBehaviour:
   - "Sua hist\xF3ria \xE9 bela <color=#FF0080>Kain</color>, se voc\xEA est\xE1 vivo
     gra\xE7as ao <color=#FF0080>Shu\xE1</color> eu tamb\xE9m agradecerei a ele."
   - "Os dois rezaram juntos em sil\xEAncio."
+  DialogueES:
+  - "\xBFDe verdad crees que las oraciones funcionan?"
+  - "Cuando era joven no me lo cre\xEDa. Pensaba que los humanos se hab\xEDan inventado
+    un dios que era un humano poderoso simplemente porque somos animales sociables,
+    nuestras mentes evolucionaron precisamente para tener la capacidad de comunicarnos
+    con otros humanos."
+  - "As\xED que me pareci\xF3 obvio que <color=#FF0080>Shu\xE1</color> era un dios
+    falso creado por la imaginaci\xF3n humana."
+  - "Pero un d\xEDa contraje la peste azul. Lo que m\xE1s odiaba no era la enfermedad,
+    sino el tratamiento. Los medicamentos me hac\xEDan hervir el cuerpo y tuve que
+    seguir tom\xE1ndolos durante meses."
+  - "Varias veces quise rendirme, pens\xE9 que morir de peste ser\xEDa mucho mejor,
+    al menos tendr\xEDa una muerte tranquila. Y aunque tomara todas las medicinas
+    s\xF3lo tendr\xEDa una posibilidad entre cinco de sobrevivir."
+  - "Estaba cansada, dispuesta a rendirme. Y cuando llegu\xE9 a la desesperaci\xF3n
+    m\xE1s profunda, sent\xED a Shu\xE1 a mi lado, en ese momento sent\xED que no
+    estaba sola, en ese momento supe que algo m\xE1s grande me proteg\xEDa y me guiaba."
+  - "En ese momento supe que tendr\xEDa la fuerza necesaria para derrotar a la plaga
+    azul."
+  - "\xBFPor qu\xE9 <color=#FF0080>Shu\xE1</color> no protegi\xF3 a las cuatro de
+    cada cinco personas que se sometieron al tratamiento y murieron?"
+  - "No lo s\xE9, y tal vez no exista, tal vez lo que sent\xED en aquel momento no
+    fuera m\xE1s que una ilusi\xF3n."
+  - "Pero te garantizo que si no le hubiera cre\xEDdo ya estar\xEDa muerto."
+  - "Exista o no, fue mi fe en \xE9l lo que me salv\xF3 no s\xF3lo de la peste, sino
+    de la desesperaci\xF3n y la agon\xEDa de enfrentarme a la muerte de frente, y
+    por eso siempre le estar\xE9 agradecido."
+  - "Tu historia es preciosa <colour=#FF0080>Kain</colour>, si est\xE1s vivo gracias
+    a <colour=#FF0080>Shu\xE1</colour> yo tambi\xE9n se lo agradecer\xE9."
+  - Los dos rezaron juntos en silencio.
   idchara: 1c0000002000000020000000200000002000000020000000200000001c0000002000000020000000200000001c00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bf020000
   Cenario: 43

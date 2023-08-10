@@ -15,7 +15,8 @@ MonoBehaviour:
   id: 0
   Dialogue:
   - Fear.
-  - After <color=purple>William</color> landed several blows, Maduin continued unabated.
+  - After <color=purple>William</color> landed several blows, <color=#FF0080>Maduin</color>
+    continued unabated.
   - Fear.
   - <color=purple>William</color> was very afraid.
   - He felt that <color=#FF0080>Maduin</color> could easily destroy him with a single
@@ -31,8 +32,8 @@ MonoBehaviour:
   - I will hand you <color=green>Roy</color>'s letter of execution.
   DialogueBR:
   - 'Medo. '
-  - "Ap\xF3s <color=purple>William</color> desferir v\xE1rios golpes, Maduin continuava
-    inabal\xE1vel."
+  - "Ap\xF3s <color=purple>William</color> desferir v\xE1rios golpes, <color=#FF0080>Maduin</color>
+    continuava inabal\xE1vel."
   - 'Medo. '
   - <color=purple>William</color> sentiu muito medo.
   - "Ele sentiu que <color=#FF0080>Maduin</color> poderia destru\xED-lo facilmente
@@ -46,6 +47,23 @@ MonoBehaviour:
     subjugar <color=#FF0080>Maduin</color> completamente naquela luta.\r"
   - "Eu senti o \xF3dio de cada um dos seus socos."
   - "Eu irei te entregar a carta de execu\xE7\xE3o do seu pai."
+  DialogueES:
+  - Miedo.
+  - "Despu\xE9s de que <colour=purple>William</colour> descargara varios golpes,
+    <color=#FF0080>Maduin</color> permaneci\xF3 imperturbable."
+  - Miedo.
+  - "<colour=purple>William</colour> sinti\xF3 mucho miedo."
+  - "Sinti\xF3 que <colour=#FF0080>Maduin</colour> podr\xEDa destruirlo f\xE1cilmente
+    con un solo golpe."
+  - "El miedo paraliz\xF3 su cuerpo y se sinti\xF3 completamente indefenso cuando
+    <color=#FF0080>Maduin</color> le agarr\xF3 del hombro"
+  - Alivio.
+  - "En un instante se sinti\xF3 completamente aliviado."
+  - "<colour=#FF0080>Maduin</colour> lloraba pat\xE9ticamente. La idea de que sus
+    golpes no ten\xEDan efecto era un delirio irracional. Consigui\xF3 someter por
+    completo a <colour=#FF0080>Maduin</colour> en aquel combate.\n"
+  - "Sent\xED el odio de cada uno de sus golpes."
+  - "Te dar\xE9 la carta de ejecuci\xF3n de tu padre."
   idchara: 0000000000000000000000000000000000000000000000000000000000000000000000001f0000001f000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000ec030000000000007c000000
   Cenario: 47

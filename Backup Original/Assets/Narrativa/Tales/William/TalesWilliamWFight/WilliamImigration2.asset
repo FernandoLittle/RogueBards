@@ -18,13 +18,19 @@ MonoBehaviour:
   - You have two choices, you can go back to your home country, or you can stay here,
     but if you misbehave I will come back.
   - "Why are you\u2026"
-  - I don't want to talk to you, goodbye.
+  - I respect you... and admire you, goodbye.
   DialogueBR:
   - "Depois de bater no ad\xFAltero <color=purple>William</color> disse:"
   - "Voc\xEA tem duas op\xE7\xF5es, voc\xEA pode voltar para seu pa\xEDs de origem,
     ou voc\xEA pode ficar aqui, mas se voc\xEA se comportar mal, eu voltarei."
   - "Por que voc\xEA est\xE1\u2026"
-  - "Eu n\xE3o quero conversar com voc\xEA, adeus."
+  - Eu te respeito... e te admiro, adeus.
+  DialogueES:
+  - "Despu\xE9s de golpear al ad\xFAltero <color=p\xFArpura>William</color> dijo:"
+  - "Tienes dos opciones: volver a tu pa\xEDs de origen o quedarte aqu\xED, pero
+    si te portas mal, volver\xE9."
+  - "\xBFPor qu\xE9 est\xE1s..."
+  - "Te respeto... y te admiro, adi\xF3s."
   idchara: 000000001c000000130000001c000000
   instruction: 00000000000000003509000000000000ea030000
   Cenario: 9

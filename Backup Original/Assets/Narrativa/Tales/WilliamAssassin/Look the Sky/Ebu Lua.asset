@@ -74,6 +74,36 @@ MonoBehaviour:
   - "Consigo imaginar como essa piada deve ser. Eu estava estranhando ver voc\xEA
     toda s\xE9ria falando sobre Lua e destino. \xC9 bom ver voc\xEA voltando a falar
     besteira normalmente.\r"
+  DialogueES:
+  - "La Luna est\xE1 hermosa hoy, \xBFno crees, <color=purple>William</color>?"
+  - "<color=purple>William</color> mir\xF3 la Luna que estaba en el cielo, en verdad
+    era muy hermosa, pero estaba rodeada por la inmensa oscuridad de la noche."
+  - "Por mucho que la luz de la luna y la oscuridad fueran diferentes, la imagen
+    de los dos uno al lado del otro era extremadamente natural, parec\xEDa que la
+    Luna y la Noche se amaban."
+  - "<color=purple>William</color> sinti\xF3 miedo y decidi\xF3 mirar algo m\xE1s
+    hermoso."
+  - "Como si tuviera nostalgia del pasado, Ebu ten\xEDa un semblante triste. <color=purple>William</color>
+    tuvo la impresi\xF3n de que ella solo pensaba en obscenidades y chistes malos,
+    pero en ese momento parec\xEDa estar contemplando algo m\xE1s profundo."
+  - "\xBFEn qu\xE9 est\xE1s pensando, Ebu?"
+  - "Sobre mis elecciones. Tom\xE9 un camino muy inesperado al convertirme en asesina."
+  - "\xBFSe arrepiente?"
+  - "No. Pero me pregunto si podr\xEDa haber sido diferente."
+  - Guerreros y asesinos miran la misma luna, son iluminados por el mismo sol, respiran
+    el mismo aire y pisan la misma tierra.
+  - "Los guerreros quieren matarnos sin pensarlo dos veces y nosotros hacemos exactamente
+    lo mismo, pero \xBFno terminar\xEDamos convirti\xE9ndonos en guerreros si nuestras
+    elecciones en el pasado fueran un poco diferentes?"
+  - "Eso ser\xEDa imposible. Somos libres de hacer lo que elegimos, pero no somos
+    libres de querer lo que elegimos."
+  - "Ebu solt\xF3 una gran carcajada."
+  - "\xBFDe qu\xE9 te r\xEDes?"
+  - "Cuando dijiste \"imposible\" me acord\xE9 de un chiste sobre un tipo que ten\xEDa
+    la polla grande, no lo entender\xEDas."
+  - "Me imagino c\xF3mo debe ser esa broma. Me extra\xF1aba verte toda seria hablando
+    de la luna y el destino. Es agradable ver que vuelves a decir tonter\xEDas con
+    normalidad."
   idchara: 01000000000000000000000000000000000000001c000000010000001c0000000100000001000000010000001c000000000000001c000000000000001c000000
   instruction: 000000000000000000000000000000003709000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007a000000
   Cenario: 51

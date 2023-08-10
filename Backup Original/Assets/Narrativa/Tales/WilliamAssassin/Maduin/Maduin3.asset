@@ -100,6 +100,52 @@ MonoBehaviour:
   - "Esse sentimento \xE9 a paix\xE3o."
   - "Talvez\u2026 "
   - Tudo bem, eu vou tentar aprender a tocar.
+  DialogueES:
+  - "<i>Sorpresa</i> fue la palabra que mejor defin\xEDa lo que <color=purple>William</color>
+    sent\xEDa al escuchar esa canci\xF3n, la habilidad que ten\xEDa <color=#FF0080>Maduin</color>
+    con la flauta fue definitivamente impresionante."
+  - "Ese sonido no solo era hermoso, tambi\xE9n tra\xEDa una sensaci\xF3n de armon\xEDa
+    con el mundo. Sintiendo el viento en su rostro, <color=purple>William</color>
+    contempl\xF3 la inmensidad del mundo y al mismo tiempo se sinti\xF3 parte de
+    \xE9l."
+  - All thanks to that song.
+  - Gracias a esos suaves labios que soplan suavemente una flauta.
+  - "\xBFEst\xE1 bien <color=purple>William</color>? Pareces un poco hipnotizado."
+  - "Estaba pensando... en esta hoja, en la naturaleza... \xA1S\xED! Estoy pensando
+    en la naturaleza y su m\xFAsica, buena combinaci\xF3n."
+  - "<color=#FF0080>Maduin</color> ri\xF3 dulcemente."
+  - "Te ves hermoso cuando sientes verg\xFCenza."
+  - "No siento verg\xFCenza. \xBFPor qu\xE9 iba a sentirla?"
+  - "\xBFQuieres aprender a tocar? <colour=#FF0080>Maduin</colour> acerc\xF3 su rostro
+    y acerc\xF3 su flauta a los labios de <colour=purple>William</colour>."
+  - "\xBFPor qu\xE9 iba a aprender a tocar? Soy un asesino, no un bardo."
+  - "Muchos asesinos trabajan como bardos en su tiempo libre, el antiguo l\xEDder
+    del Gremio se hizo bardo despu\xE9s de retirarse, \xBFlo sab\xEDas?"
+  - "\xBFQu\xE9 sentido tiene? \xBFQu\xE9 tiene que ver la m\xFAsica con el asesinato?"
+  - "La esencia de la m\xFAsica est\xE1 en los sentimientos que despierta. El asesinato,
+    la guerra, la justicia y la m\xFAsica tienen que ver con los sentimientos."
+  - "Normalmente, <color=purple>William</color> se burlar\xEDa o criticar\xEDa una
+    idea que le pareciera tan extra\xF1a como \xE9sta. Pero un sentimiento crec\xEDa
+    en su interior y le hizo preguntar:"
+  - "\xBFPor qu\xE9?"
+  - "Piensa en una guerra. \xBFPor qu\xE9 un bando mata al otro? \xBFTiene cada soldado
+    una visi\xF3n de la moral, la pol\xEDtica o la justicia tan diferente de la del
+    enemigo que est\xE1 dispuesto a matar o morir?"
+  - "Yo creo que no. Lo que hace que alguien crea en una moral o en una causa no
+    es la raz\xF3n o la l\xF3gica, sino el miedo o alg\xFAn otro sentimiento muy
+    especial."
+  - Piensa en nuestra lucha contra los guerreros. Los guerreros y los asesinos promueven
+    sus respectivas voluntades despertando el sentimiento del miedo. La gente evita
+    infringir las leyes del Gremio y las leyes de <color=yellow>Sarka</color>, simplemente
+    porque temen a la muerte.
+  - "Pero hay otro sentimiento que gu\xEDa a la gente, el sentimiento que cultivan
+    los bardos, el sentimiento que despierta la m\xFAsica hermosa, el sentimiento
+    que m\xE1s me gusta."
+  - La palabra sentimiento resonaba una y otra vez en la cabeza de <color=purple>William</color>,
+    como si tuviera que resolver un acertijo.
+  - "Ese sentimiento es la pasi\xF3n."
+  - 'Tal vez... '
+  - "Muy bien, intentar\xE9 aprender a tocar."
   idchara: 000000000000000000000000000000001f0000001c000000000000001f0000001c0000001f0000001c0000001f0000001c0000001f000000000000001c0000001f0000001f0000001f0000001f000000000000001f0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009b090000000000000000000000000000f1030000
   Cenario: 69

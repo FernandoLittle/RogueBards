@@ -47,6 +47,24 @@ MonoBehaviour:
   - escura
   - ...
   - sorrindo
+  DialogueES:
+  - los
+  - cuervos
+  - desaparecieron
+  - y
+  - el
+  - "espantap\xE1jaros"
+  - se
+  - "qued\xF3"
+  - solo
+  - en
+  - la
+  - noche
+  - "fr\xEDa"
+  - y
+  - oscura
+  - ...
+  - sonriendo
   idchara: 
   instruction: 
   Cenario: 0

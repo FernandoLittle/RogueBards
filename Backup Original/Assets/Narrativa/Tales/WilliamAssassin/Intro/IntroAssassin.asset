@@ -16,13 +16,19 @@ MonoBehaviour:
   Dialogue:
   - <color=purple>William</color> chose the path of evil and became an assassin.
     He will fight for money, for chaos, for criminals, for revenge and maybe find
-    the person he hates the most inside the Assassin's Guild.
+    the person he hates the most inside the <color=yellow>Assassin's Guild</color>.
   - That would be a really fun scene.
   DialogueBR:
   - "<color=purple>William</color> escolheu o caminho do mal e se tornou um assassino.
     Ele lutar\xE1 pelo caos, por dinheiro, por criminosos, por vingan\xE7a e talvez
-    encontre a pessoa que mais odeia dentro da Guilda dos Assassinos."
+    encontre a pessoa que mais odeia dentro da <color=yellow>Guilda dos Assassinos</color>."
   - Seria uma cena muito divertida.
+  DialogueES:
+  - "<color=purple>William</color> eligi\xF3 el camino del mal y se convirti\xF3
+    en un asesino. Luchar\xE1 por el caos, por dinero, por criminales, por venganza
+    y quiz\xE1s encuentre a la persona que m\xE1s odia dentro del <color=yellow>Gremio
+    de Asesinos</color>."
+  - "Ser\xEDa una escena muy divertida."
   idchara: 0000000000000000
   instruction: ed030000ef030000f5010000
   Cenario: 31

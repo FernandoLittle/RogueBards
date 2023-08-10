@@ -23,6 +23,11 @@ MonoBehaviour:
   - "Esse golpe \xE9 a nega\xE7\xE3o de todos os ensinamentos de <color=#FF0080>Shu\xE1</color>.
     Isso combina muito bem com voc\xEA.\r\n"
   - "Eu te entregarei a carta de execu\xE7\xE3o do seu pai."
+  DialogueES:
+  - "<color=#FF0080>Shu\xE1 llora</color>"
+  - "Este golpe es la negaci\xF3n de todas las ense\xF1anzas de <color=#FF0080>Shu\xE1</color>.
+    Te queda muy bien."
+  - "Te entregar\xE9 la carta de ejecuci\xF3n de tu padre."
   idchara: 1f0000001f0000001f000000
   instruction: 0000000000000000000000007c000000
   Cenario: 47

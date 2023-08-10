@@ -57,6 +57,14 @@ public class MenuScript : MonoBehaviour
         TextMenu[2].text = "Continuar o jogo";
         TextMenu[3].text = "Sair do jogo";
     }
+    public void ESTranslate()
+    {
+        PlayerPrefs.SetInt("Language", 2);
+        TextMenu[0].text = "Volumen";
+        TextMenu[1].text = "Idioma";
+        TextMenu[2].text = "Continuar el juego";
+        TextMenu[3].text = "Abandonar el juego";
+    }
     public void SliderVolume(float a)
     {
         //AudioMixer.SetFloat("volume",a);

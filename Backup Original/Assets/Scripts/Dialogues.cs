@@ -15,6 +15,7 @@ public class Dialogues : MonoBehaviour
     public GameObject TutoIlustration;
     public List<ListString> DarkText;
     public List<ListString> DarkTextBR;
+    public List<ListString> DarkTextES;
     public Image Face;
     public Stuff Stuff;
     public Text DarkText2;
@@ -42,6 +43,10 @@ public class Dialogues : MonoBehaviour
         if (language == 1)
         {
             DiagolgueText.text = Dialogo[DialogueSelect].DialogueBR[Index];
+        }
+        if (language == 1)
+        {
+            DiagolgueText.text = Dialogo[DialogueSelect].DialogueES[Index];
         }
 
     }

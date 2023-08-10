@@ -63,6 +63,32 @@ MonoBehaviour:
   - "\u201COu eu posso ganhar um pouco da confian\xE7a deles at\xE9 que a Ebu me
     permita entrar no quarto, talvez demore um pouco, mas \xE9 um plano bem mais
     seguro\u201D."
+  DialogueES:
+  - "Despu\xE9s de que <colour=purple>William</colour> completara un asesinato, Ebu
+    anotaba el nombre del <colour=purple>William</colour>, el nombre de la v\xEDctima,
+    la recompensa y los detalles del asesinato en lo que llamaba una <i>carta de
+    ejecuci\xF3n</i>."
+  - Felicitaciones por el asesinato exitoso, <color=purple>William</color>.
+  - "\xBFPor qu\xE9 grabas esto?"
+  - "Este documento es importante en caso de que quieras un ascenso en el futuro,
+    cuanta m\xE1s gente asesines y mayores sean las recompensas, m\xE1s f\xE1cil
+    te resultar\xE1 ascender en el Gremio."
+  - "Trabaja duro y quiz\xE1 alg\xFAn d\xEDa llegues a ser un Belmont."
+  - "Poco despu\xE9s, guard\xF3 la carta de ejecuci\xF3n en una habitaci\xF3n siempre
+    cerrada con llave."
+  - "\u201C\xBFElla\u2026 Ella registr\xF3 el nombre de la v\xEDctima y el m\xEDo
+    en esa carta? Eso significa que debe haber alg\xFAn documento con el nombre de
+    mi padre y... el nombre de su asesino."
+  - "\"Esto es exactamente lo que he estado buscando durante tanto tiempo, esa habitaci\xF3n
+    probablemente tenga las respuestas que he estado buscando\"."
+  - "\"Necesito encontrar alguna manera de entrar a esa habitaci\xF3n... tal vez
+    pueda robar la llave de Ebu... pero si los documentos no est\xE1n ah\xED o si
+    no los encuentro r\xE1pido, podr\xEDan atraparme\"."
+  - '"Es un plan muy arriesgado".'
+  - "<color=#FF0080>Maduin</color>, la sala de documentos est\xE1 desordenada, limpia
+    esta mierda."
+  - "\"O puedo ganarme algo de su confianza hasta que Ebu me permita entrar en la
+    habitaci\xF3n, tal vez tome un tiempo, pero es un plan mucho m\xE1s seguro\"."
   idchara: 00000000010000001c0000000100000001000000000000001c0000001c0000001c0000001c000000010000001c000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
   Cenario: 33

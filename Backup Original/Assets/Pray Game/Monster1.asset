@@ -52,6 +52,24 @@ MonoBehaviour:
   - e
   - de
   - "ambi\xE7\xE3o"
+  DialogueES:
+  - era
+  - una
+  - noche
+  - con
+  - nubes
+  - grises
+  - y
+  - el
+  - viento
+  - "parec\xEDa"
+  - cantar
+  - una
+  - "canci\xF3n"
+  - de
+  - libertad
+  - y
+  - "ambici\xF3n"
   idchara: 
   instruction: 
   Cenario: 0

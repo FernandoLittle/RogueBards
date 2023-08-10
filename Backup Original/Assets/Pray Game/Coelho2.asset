@@ -36,6 +36,18 @@ MonoBehaviour:
   - banho
   - na
   - covardia
+  DialogueES:
+  - porque
+  - el
+  - mundo
+  - es
+  - injusto
+  - y
+  - me
+  - "ba\xF1o"
+  - en
+  - la
+  - "cobard\xEDa"
   idchara: 
   instruction: 
   Cenario: 0

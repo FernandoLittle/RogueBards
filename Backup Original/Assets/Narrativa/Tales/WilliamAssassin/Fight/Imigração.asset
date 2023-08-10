@@ -41,7 +41,7 @@ MonoBehaviour:
   - "Os guardas alegaram que os jovens atacaram com canivetes e no confronto\u2026"
   - "Ebu come\xE7ou a tirar meleca do nariz."
   - Do que eu estava falando?
-  - "Ainda existem leis anti-imigra\xE7\xE3o? Achei que essas leis tinham desaparecido
+  - "Ainda existem leis anti-emigra\xE7\xE3o? Achei que essas leis tinham desaparecido
     quando a economia de <color=yellow>Sarka</color> come\xE7ou a prosperar sob o
     governo da <color=green>Lestia</color>."
   - "N\xE3o elogie a <color=green>Lestia</color>, ela \xE9 uma puta feia e fedida."
@@ -52,7 +52,26 @@ MonoBehaviour:
   - "Resolvido, voc\xEA vai ca\xE7ar o guardinha."
   - "N\xE3o tenha pena dele, se ele come\xE7ar a chorar lembre-se que ele passaria
     a espada no seu pesco\xE7o s\xF3 porque voc\xEA tentou pular um muro."
-  DialogueES: []
+  DialogueES:
+  - Hoy tenemos una recompensa por la cabeza de un juez y un guardia fronterizo.
+  - "\xBFCu\xE1l quieres, <color=purple>William</color>?"
+  - "\xBFQu\xE9 hizo el guardia fronterizo?"
+  - "Hizo su trabajo. Tres j\xF3venes intentaron salir de <color=yellow>Sarka</color>
+    sin pasaporte, pelearon con los guardias y fueron asesinados."
+  - "Los guardias alegaron que los j\xF3venes atacaron con navajas y en el enfrentamiento..."
+  - "Ebu empez\xF3 a sacarse mocos de la nariz."
+  - "\xBFDe qu\xE9 estaba hablando?"
+  - "Todav\xEDa existen leyes contra la inmigraci\xF3n? Cre\xEDa que esas leyes desaparecieron
+    cuando la econom\xEDa de <colour=yellow>Sarka</colour> empez\xF3 a prosperar
+    bajo el gobierno de <colour=green>Lestia</colour>."
+  - No alabes a <color=green>Lestia</color>, es una zorra fea y apestosa.
+  - Pero miles de personas han salido de la pobreza.
+  - "A m\xED me da igual. Y aunque las reformas han funcionado, <color=yellow>Sangla</color>
+    sigue siendo absurdamente m\xE1s rica que <color=yellow>Sarka</color>, as\xED
+    que hay mucha gente deseando huir de esta mierda de pa\xEDs."
+  - "Resuelto, cazar\xE1s al guardia."
+  - "No sientas pena por \xE9l, si se pone a llorar recuerda que te atravesar\xEDa
+    el cuello con una espada s\xF3lo porque intentaste saltar un muro."
   idchara: 01000000010000001c000000010000000100000000000000010000001c000000010000001c000000010000000100000001000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000
   Cenario: 76

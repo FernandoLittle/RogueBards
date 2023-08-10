@@ -73,7 +73,38 @@ MonoBehaviour:
   - "A m\xFAsica estava linda, ela me deixou realmente\u2026 feliz."
   - "\u201CPor que eu estou falando isso?\u201D"
   - "Ent\xE3o \xE9 a sua vez de tocar, <color=purple>William</color>."
-  DialogueES: []
+  DialogueES:
+  - "Lo ef\xEDmero de la vida trajo una angustia indescriptible al alma de <color=purple>William</color>."
+  - "Pensar que su existencia terminar\xEDa para siempre era una idea aterradora
+    para \xE9l, pero la m\xFAsica que estaba tocando <color=#FF0080>Maduin</color>
+    cambi\xF3 su perspectiva sobre lo ef\xEDmero."
+  - "Esa canci\xF3n pronto llegar\xEDa a su fin y se convertir\xEDa en un momento
+    \xFAnico en los recuerdos de <color=green>Akasha</color>. Fue una experiencia
+    maravillosa escuchar la melod\xEDa, sentir un viento h\xFAmedo en la piel, oler
+    las hierbas a tu alrededor y equilibrar el <color=blue>Mana</color> a trav\xE9s
+    de la respiraci\xF3n."
+  - "Al darse cuenta del valor del aire, el s\xEDmbolo m\xE1s com\xFAn de lo ef\xEDmero,
+    <color=purple>William</color> comenz\xF3 a imaginar la brevedad de su vida como
+    una joya rara."
+  - "Lo que hizo especial su existencia en el plano Ak\xE1shico fue precisamente
+    la rareza de su vida y esos momentos especiales."
+  - "\"\xBFEstoy contento? Esto no es correcto\"."
+  - "\"No debo olvidar por qu\xE9 me un\xED al Gremio\"."
+  - "\xBFQu\xE9 pensaste de esta canci\xF3n?"
+  - "No encontr\xE9 nada especial."
+  - Ay, lo siento mucho...
+  - "Cada viento ten\xEDa un sentimiento en opini\xF3n de <color=#FF0080>Maduin</color>.
+    Seg\xFAn \xE9l, el <color=blue>Mana</color> determinaba la naturaleza del viento.
+    Una brisa de verano podr\xEDa ser una bendici\xF3n para quienes est\xE1n en paz
+    consigo mismos, mientras que el mismo viento ser\xEDa una tortura para quienes
+    rechazan el flujo del mundo."
+  - Los instrumentos de <color=#FF0080>Maduin</color> estaban almacenados bajo un
+    viento triste y solitario.
+  - "No\u2026"
+  - Yo menti.
+  - "La m\xFAsica era hermosa, me hizo realmente\u2026 feliz."
+  - "\"\xBFPor qu\xE9 estoy diciendo esto?\""
+  - Entonces es tu turno de tocar, <color=purple>William</color>.
   idchara: 00000000000000000000000000000000000000001c0000001c0000001f0000001c0000001f00000000000000000000001c0000001c0000001c0000001c0000001f000000
   instruction: 000000000000000000000000000000000000000000000000d408000000000000000000000000000000000000000000000000000000000000000000000000000000000000f1030000
   Cenario: 48

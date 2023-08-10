@@ -20,7 +20,7 @@ MonoBehaviour:
   - Do you want opium?
   - Do you have shit in your head or what? Can't you recognize a warrior when you
     see one?
-  - The <color=yellow>dealer</color> never felt so stupid and never got so scared,
+  - The <color=yellow>drug dealer</color> never felt so stupid and never got so scared,
     he apologized and tried to run, but <color=purple>William</color> grabbed his
     arm.
   - Don't worry, I won't arrest you or hurt you, but you have to tell me where the
@@ -30,10 +30,10 @@ MonoBehaviour:
   - The guy who hired me? He's fucking your mother, that bitch.
   - '<color=purple>William</color> took a deep breath:'
   - I'll ask again, please answer me, who hired you?
-  - It is not obvious? Your father hired me, but you mustn't know him, he's a bard
-    with a half-meter dick.
-  - <color=purple>William</color> was silent, looking at the <color=yellow>dealer</color>
-    for a long, unpleasant time.
+  - It is not obvious? Your father hired me, but you may not know him, he's a bard
+    with a dick the size of a log.
+  - <color=purple>William</color> was silent, looking at the <color=yellow>drug dealer</color>
+    for a long and unpleasant time.
   - I don't usually lie, so pay attention, it's in your best interest to answer this
     question. Who hired you and where is he?
   - Fuck you.
@@ -68,7 +68,7 @@ MonoBehaviour:
   - '<color=purple>William</color> respirou fundo:'
   - Vou perguntar de novo, por favor me responda, quem te contratou?
   - "N\xE3o \xE9 \xF3bvio? Seu pai me contratou, mas voc\xEA n\xE3o deve conhec\xEA-lo,
-    ele \xE9 um bardo com um pau de meio metro."
+    ele \xE9 um bardo com um pau do tamanho de uma tora."
   - "<color=purple>William</color> ficou em sil\xEAncio, olhando para o <color=yellow>traficante</color>
     por um longo e desagrad\xE1vel tempo."
   - "Eu n\xE3o costumo mentir, ent\xE3o preste aten\xE7\xE3o, \xE9 do seu interesse
@@ -86,6 +86,45 @@ MonoBehaviour:
     e, no dia seguinte, se deparou com um advers\xE1rio muito mais forte do que imaginava."
   - "Um advers\xE1rio que fez <color=purple>William</color> se sentir est\xFApido
     e o <color=yellow>traficante</color> se sentir inteligente."
+  DialogueES:
+  - "<colour=purple>A William</colour> le gustaban tanto las noches como la soledad.
+    Descansaba sentado en un banco de una tranquila plaza, hasta que su momento de
+    paz se vio interrumpido por un <color=yellow>traficante</color> que pregunt\xF3:"
+  - "\xBFQuieres opio?"
+  - "\xBFTienes mierda en la cabeza o qu\xE9? \xBFNo puedes reconocer a un guerrero
+    cuando lo ves?"
+  - "El <color=yellow>traficante</color> nunca se hab\xEDa sentido tan est\xFApido
+    ni se hab\xEDa asustado tanto, se disculp\xF3 e intent\xF3 huir, pero <color=purple>William</color>
+    le agarr\xF3 del brazo."
+  - "No te preocupes, no te detendr\xE9 ni te har\xE9 da\xF1o, pero tienes que decirme
+    d\xF3nde est\xE1 el tipo que te contrat\xF3."
+  - "El <color=yellow>traficante de drogas</color> se sinti\xF3 est\xFApido una vez
+    m\xE1s, no ten\xEDa por qu\xE9 tener miedo, ese <color=purple>guerrero</color>
+    nunca le har\xEDa da\xF1o."
+  - "\xBFEl tipo que me contrat\xF3? Se est\xE1 tirando a tu madre, esa perra."
+  - "<color=purple>William</color> respir\xF3 hondo:"
+  - "Vuelvo a preguntar, por favor resp\xF3ndeme, \xBFqui\xE9n te contrat\xF3?"
+  - "\xBFNo es obvio? Tu padre me contrat\xF3, pero es posible que no lo conozcas,
+    es un bardo con una polla del tama\xF1o de un tronco."
+  - "<color=purple>William</color> permaneci\xF3 en silencio, mirando al <color=yellow>traficante
+    de drogas</color> durante un rato largo y desagradable."
+  - "No suelo mentir, as\xED que presta atenci\xF3n, te interesa responder a esta
+    pregunta. \xBFQui\xE9n te contrat\xF3 y d\xF3nde est\xE1?"
+  - Vete a la mierda.
+  - "El <color=yellow>traficante</color> se sinti\xF3 idiota una vez m\xE1s, aquel
+    <color=purple>guerrero</color> s\xED que era capaz de hacerle da\xF1o. El pu\xF1etazo
+    fue tan fuerte que perdi\xF3 un diente. Afortunadamente, no fue un problema muy
+    grave, pues ya estaba creciendo un diente nuevo para sustituir al viejo."
+  - "Despu\xE9s de sujetar al traficante por la boca, <color=purple>William</color>
+    dijo:"
+  - "Te interesa dejar de llorar y responderme, \xBFqui\xE9n te contrat\xF3 y d\xF3nde
+    est\xE1?"
+  - "El <color=yellow>traficante</color> minti\xF3 y dio el nombre y la direcci\xF3n
+    de un asesino que conoc\xEDa. <color=purple>William</color> crey\xF3 ingenuamente
+    y, al d\xEDa siguiente, se enfrent\xF3 a un oponente mucho m\xE1s fuerte de lo
+    que imaginaba."
+  - "Un oponente que hizo <color=purple>William</color> se sintiera est\xFApido y
+    el <color=yellow>traficante</color>r se sintiera inteligente."
   idchara: 00000000110000001c000000000000001c0000000000000011000000000000001c00000011000000000000001c0000001100000000000000000000001c0000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000
   Cenario: 8

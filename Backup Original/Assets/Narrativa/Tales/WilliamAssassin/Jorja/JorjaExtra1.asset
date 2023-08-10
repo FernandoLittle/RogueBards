@@ -88,6 +88,44 @@ MonoBehaviour:
   - "<color=#FF0080>Maduin</color> escutou Ebu falar uma lista de palavr\xF5es."
   - "Droga, ela est\xE1 ensinando a garota a falar palavr\xF5es de novo. \xC9 melhor
     eu ir l\xE1. "
+  DialogueES:
+  - "\xBFQuieres escuchar una historia de terror antes de dormir?"
+  - No, quiero escuchar una historia de princesas.
+  - Las historias de princesas son aburridas, quiero contar una historia de terror.
+  - "\xA1Pero quiero escuchar una historia de princesas!"
+  - Vale, ganaste.
+  - "Hab\xEDa una vez una princesa que... sal\xEDa con un monstruo."
+  - "Ese monstruo conoc\xEDa los secretos de este mundo."
+  - "\xBFEra bella la princesa?"
+  - "S\xED, era jodidamente sexy."
+  - "\xBFY el monstruo?"
+  - "No lo s\xE9."
+  - "El monstruo era capaz de ser bello, ya que pod\xEDa controlar libremente su
+    apariencia."
+  - "\xBFD\xF3nde estaba?"
+  - "El monstruo conoc\xEDa la Verdad y la Mentira."
+  - "Y el monstruo hablaba: Bla, bla, bla, humanos y... \xA1Buh!"
+  - "Ebu puso una cara extra\xF1a."
+  - "\xBFTe asustaste?"
+  - No.
+  - "\xA1Bah!"
+  - "\xBFY ahora?"
+  - "Ebu hizo una mueca a\xFAn m\xE1s torpe y <colour=#FF0080>Jorja</colour> solt\xF3
+    una risita."
+  - "Es para asustarte, no para hacerte re\xEDr. \xA1Ya lo s\xE9! Eso es lo que hizo
+    el monstruo."
+  - "Ebu se adelant\xF3 haci\xE9ndole cosquillas a <colour=#FF0080>Jorja</colour>."
+  - "Ebu se lleva bien con la <colour=#FF0080>Jorja</colour> \xBFno crees, <colour=#FF0080>Maduin</colour>?"
+  - "La historia que contaste sobre la madre de <colour=#FF0080>Jorja</colour> le
+    record\xF3 a Ebu a su propio padre."
+  - "Vaya, as\xED que ten\xEDa un padre de mierda."
+  - "Creo que creci\xF3 en un entorno de gente que no se preocupaba por ella, por
+    eso Ebu act\xFAa como si no se preocupara por los dem\xE1s."
+  - Pero creo sinceramente que siente verdadero afecto por nosotros, aunque rara
+    vez lo demuestre.
+  - "<colour=#FF0080>Maduin</colour> oy\xF3 a Ebu pronunciar una lista de palabrotas."
+  - "Maldici\xF3n, est\xE1 ense\xF1ando a la ni\xF1a a decir palabrotas otra vez.
+    Mejor voy para all\xE1. "
   idchara: 01000000220000000100000022000000010000000100000001000000220000000100000022000000010000000000000001000000010000000100000000000000010000002200000001000000010000000000000001000000000000001c0000001f0000001c0000001f0000001f000000000000001f000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f090000000000000000000000000000000000000000000000000000000000000000000000000000bd020000
   Cenario: 39

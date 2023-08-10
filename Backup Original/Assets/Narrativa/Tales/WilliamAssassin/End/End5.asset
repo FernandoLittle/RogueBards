@@ -16,7 +16,7 @@ MonoBehaviour:
   Dialogue:
   - <color=white>Ebu</color>'s laughter echoed through the room as she treated <color=#FF0080>Maduin</color>'s
     bruises.
-  - You got it from <color=purple>William</color>! The strongest guy in the guild
+  - You got beaten by <color=purple>William</color>! The strongest guy in the Guild
     took a beating, that's beautiful.
   - Stop it <color=white>Ebu</color>, I'm really sad.
   - Don't be sad, I'll tell you a story to make you happy and...
@@ -30,24 +30,24 @@ MonoBehaviour:
   - Let me guess, her name was <color=white>Ebu</color>.
   - All right, <color=#FF0080>Maduin</color>, you're smarter than you look, where
     was I? Once upon a time... once upon a time there was a villain named Simon something.
-  - <color=blue>Simon Derrida</color>.
+  - <color=#00B2FF>Simon Derrida</color>
   - That's right, he was ugly, mean and a pedophile.
   - The princess wanted to kill the villain, after all nothing is more fun than brutally
     killing a pedophile, do you agree?
   - "\u2026 I agree."
   - Did you see? Even a pacifist agrees with that.
-  - But we had a problem on the table, <color=blue>Simon</color> was a very brilliant
+  - But we had a problem on the table, <color=#00B2FF>Simon</color> was a very brilliant
     assassin and had a very good relationship with the drug dealers. If <color=white>Ebu</color>
-    just killed him, the drug dealers and the guild would piss her off.
+    just killed him, the drug dealers and the Guild would piss her off.
   - I hate being criticized in meetings. I'm a fucking Belmont, I literally hold
     the highest rank in the Guild and at every damn meeting there's some motherfucker
     complaining about the things I do.
   - Where was I?
-  - You couldn't kill <color=blue>Simon</color> because drug dealers and assassins
+  - You couldn't kill <color=#00B2FF>Simon</color> because drug dealers and assassins
     would protest.
   - That! But the princess besides being hot was smart as fuck, so she forged several
-    false documents that said that the head of a certain <color=blue>Roy Ulbricht</color>
-    had been hunted by this <color=blue>Simon</color>.
+    false documents that said that the head of a certain <color=green>Roy Ulbricht</color>
+    had been hunted by this <color=#00B2FF>Simon</color>.
   - Then a troubled young man named <color=purple>William Ulbricht</color>...
   - Did you trick me into carrying out your plan?
   - You weren't supposed to find the documents, <color=purple>William</color> was
@@ -68,7 +68,7 @@ MonoBehaviour:
   DialogueBR:
   - As gargalhadas de <color=white>Ebu</color> ecoavam pela sala enquanto ela tratava
     os hematomas do <color=#FF0080>Maduin</color>.
-  - "Voc\xEA apanhou do <color=purple>William</color>! O cara mais forte da guilda
+  - "Voc\xEA apanhou do <color=purple>William</color>! O cara mais forte da Guilda
     tomou uma surra, isso \xE9 lindo."
   - Pare com isso <color=white>Ebu</color>, eu estou realmente triste.
   - "N\xE3o fique triste, eu vou contar uma hist\xF3ria pra te deixar feliz e..."
@@ -85,25 +85,25 @@ MonoBehaviour:
   - "Muito bem, <color=#FF0080>Maduin</color>, voc\xEA \xE9 mais inteligente do que
     parece, onde eu estava? Era uma vez... era uma vez um vil\xE3o chamado Simon
     alguma coisa."
-  - <color=blue>Simon Derrida</color>.
+  - <color=#00B2FF>Simon Derrida</color>
   - "Isso mesmo, ele era feio, maldoso e ped\xF3filo."
   - "A princesa queria matar o vil\xE3o, afinal nada \xE9 mais divertido do que matar
     um ped\xF3filo brutalmente, voc\xEA n\xE3o concorda?"
   - "\u2026Concordo."
   - "Viu? At\xE9 um pacifista concorda com isso."
-  - "Mas n\xF3s t\xEDnhamos um problema em cima da mesa, <color=blue>Simon</color>
+  - "Mas n\xF3s t\xEDnhamos um problema em cima da mesa, <color=#00B2FF>Simon</color>
     era um assassino muito brilhante e se relacionava muito bem com os traficantes.
-    Se <color=white>Ebu</color> simplesmente o matasse, os traficantes e a guilda
+    Se <color=white>Ebu</color> simplesmente o matasse, os traficantes e a Guilda
     iam encher o saco dela. "
   - "Eu odeio ficar levando esporro em reuni\xF5es. Eu sou uma Belmont, caralho,
     eu tenho literalmente a maior posi\xE7\xE3o hier\xE1rquica da Guilda e em toda
     maldita reuni\xE3o tem um filho da puta pra reclamar das coisas que eu fa\xE7o."
   - Onde que eu estava?
-  - "Voc\xEA n\xE3o podia matar o <color=blue>Simon</color> porque os traficantes
+  - "Voc\xEA n\xE3o podia matar o <color=#00B2FF>Simon</color> porque os traficantes
     e assassinos iriam protestar."
   - "Isso! Mas a princesa al\xE9m de gostosa era inteligente pra caralho, ent\xE3o
     ela forjou v\xE1rios documentos falsos que diziam que a cabe\xE7a de um tal de
-    <color=blue>Roy Ulbricht</color> tinha sido ca\xE7ada por esse <color=blue>Simon</color>."
+    <color=green>Roy Ulbricht</color> tinha sido ca\xE7ada por esse <color=#00B2FF>Simon</color>."
   - "Ent\xE3o um jovem problem\xE1tico chamado <color=purple>William Ulbricht</color>\u2026"
   - "Voc\xEA me enganou para realizar seu plano?"
   - "N\xE3o era pra voc\xEA encontrar os documentos, era pro <color=purple>William</color>
@@ -121,6 +121,61 @@ MonoBehaviour:
   - Claro!
   - No fim, <color=#FF0080>Maduin</color> e <color=white>Ebu</color> viveram felizes
     para sempre.
+  DialogueES:
+  - "La risa de <color=white>Ebu</color> reson\xF3 en la habitaci\xF3n mientras trataba
+    los moratones de <color=#FF0080>Maduin</color>."
+  - "\xA1Fuiste derrotado por <color=purple>William</color>! Al t\xEDo m\xE1s fuerte
+    del Gremio le han pateado el culo, qu\xE9 bonito."
+  - Para <color=white>Ebu</color>, estoy muy triste.
+  - "No est\xE9s triste, te contar\xE9 una historia para alegrarte y..."
+  - "Todos los momentos que estuvimos con \xE9l fueron falsos, s\xF3lo nos manipulaba
+    para averiguar qui\xE9n era el asesino de su padre, nos enga\xF1aba todo el tiempo."
+  - "\xC9l no nos enga\xF1\xF3, s\xF3lo te enga\xF1\xF3 a ti, idiota."
+  - "\xBFLo sab\xEDas todo?"
+  - "Claro que s\xED, \xBFcrees que no investigo los antecedentes de las personas
+    que contrato?"
+  - "Ahora d\xE9jame contarte una historia que te har\xE1 olvidar tus lesiones."
+  - "\xC9rase una vez una princesa muy caliente, sexy, inteligente y caliente."
+  - "D\xE9jame adivinar, su nombre era <colour=white>Ebu</colour>."
+  - "Muy bien, <color=#FF0080>Maduin</color>, eres m\xE1s listo de lo que pareces,
+    \xBFd\xF3nde estaba yo? Hab\xEDa una vez... hab\xEDa una vez un villano llamado
+    Sim\xF3n algo."
+  - <color=#00B2FF>Simon Derrida</color>
+  - "As\xED es, era feo, malo y ped\xF3filo."
+  - "La princesa quer\xEDa matar al villano, despu\xE9s de todo nada es m\xE1s divertido
+    que matar brutalmente a un ped\xF3filo, \xBFno est\xE1s de acuerdo?"
+  - ...Estoy de acuerdo.
+  - "\xBFVes? Hasta un pacifista est\xE1 de acuerdo con eso."
+  - "Pero ten\xEDamos un problema sobre la mesa, <color=#00B2FF>Simon</color> era
+    un asesino muy brillante y se relacionaba muy bien con los traficantes. Si <colour=white>Ebu</colour>
+    simplemente lo mataba, los traficantes y el Gremio se le echar\xEDan al cuello. "
+  - "Odio que me pateen el culo en las reuniones. Soy una maldita Belmont, literalmente
+    tengo el puesto de mayor jerarqu\xEDa en el Gremio y en cada jodida reuni\xF3n
+    hay un hijo de puta para quejarse de las cosas que hago."
+  - "\xBFD\xF3nde estaba?"
+  - "No se pod\xEDa matar a <color=#00B2FF>Simon</color> porque traficantes y asesinos
+    protestar\xEDan."
+  - "As\xED es. Pero la princesa, adem\xE1s de caliente, era inteligente como el
+    infierno, as\xED que falsific\xF3 varios documentos falsos que dec\xEDan que
+    la cabeza de un tal <color=green>Roy Ulbricht</color> hab\xEDa sido cazada por
+    el tal <color=#00B2FF>Simon</color>."
+  - "Entonces, un joven problem\xE1tico llamado <color=purple>William Ulbricht</color>..."
+  - "\xBFMe enga\xF1aste para llevar a cabo tu plan?"
+  - "No quer\xEDa que encontraras los documentos. <colour=purple>William</colour>
+    deb\xEDa encontrarlos, \xBFes culpa m\xEDa que hayas rebuscado entre mis cosas,
+    hijo de puta?"
+  - "T\xFA fuiste quien me dijo que organizara los documentos."
+  - Oh, es verdad... lo siento.
+  - "Da igual, lo que importa es que todos tuvieron un final feliz. <colour=purple>William</colour>
+    sentir\xE1 por fin que ha vengado a su padre, tenemos un ped\xF3filo menos en
+    el mundo y yo he llevado a cabo mi plan con gracia."
+  - "Y me lastim\xE9 por nada... y perd\xED un amigo."
+  - "<color=purple>William</color> era un mal amigo, no te compraba dulces, pero
+    yo s\xED."
+  - "\xBFCompraste dulces?"
+  - "\xA1Claro que s\xED!"
+  - Al final, <colour=#FF0080>Maduin</colour> y <colour=white>Ebu</colour> vivieron
+    felices para siempre.
   idchara: 00000000010000001f000000010000001f000000010000001f0000000100000001000000010000001f000000010000001f00000001000000010000001f000000010000000100000001000000010000001f00000001000000010000001f000000010000001f00000001000000010000001f000000010000001f0000000100000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008d030000
   Cenario: 65

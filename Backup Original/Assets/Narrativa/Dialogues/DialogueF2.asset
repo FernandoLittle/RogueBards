@@ -41,7 +41,20 @@ MonoBehaviour:
   - "Neste turno, os humanos v\xE3o implorar por suas vidas pat\xE9ticas. N\xE3o
     gaste <color=#00B2FF>mana</color> nessa habilidade in\xFAtil, espere o pr\xF3ximo
     turno para gastar sua <color=#00B2FF>mana</color> e mate esse maldito canibal."
-  DialogueES: []
+  DialogueES:
+  - "Cada turno, los humanos gastar\xE1n <color=#00B2FF>mana</color> en un intento
+    de obtener m\xE1s <color=yellow>poder</color> que el oponente."
+  - "Cada una de tus habilidades tiene un <color=cyan>nivel</color> que se representa
+    con este s\xEDmbolo:"
+  - Cada humano tiene una cantidad de <color=#00B2FF>mana</color> que puedes gastar
+    en cada combate.
+  - "Tu poder ser\xE1 igual al <colour=cyan>nivel</colour> de tu habilidad multiplicado
+    por el <colour=#00B2FF>mana</colour> que utilices."
+  - "Algunos efectos de tus habilidades s\xF3lo se activan cuando tienes m\xE1s <color=yellow>poder</color>
+    que tu oponente."
+  - "Este turno, los humanos suplicar\xE1n por sus pat\xE9ticas vidas. No gastes
+    <color=#00B2FF>mana</color> en esta in\xFAtil habilidad, espera al siguiente
+    turno para gastar tu <color=#00B2FF>mana</color> y matar a este maldito can\xEDbal."
   idchara: 000000000000000000000000000000000000000000000000
   instruction: 0b0000000c0000000d0000000e0000000f0000000000000001000000
   Cenario: 0

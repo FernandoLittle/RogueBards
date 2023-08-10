@@ -43,6 +43,21 @@ MonoBehaviour:
   - "Voc\xEA fala cada coisa m\xE1, Ebu."
   - "Eu sou m\xE1."
   - "Voc\xEA tamb\xE9m \xE9."
+  DialogueES:
+  - Hoy tenemos una recompensa por la cabeza de un juez y un guardia fronterizo.
+  - "\xBFCu\xE1l quieres, <color=purple>William</color>?"
+  - Elijo la que mejor paga.
+  - "El personal est\xE1 pagando un buen dinero por la cabeza del juez."
+  - "No creo que sea tan dif\xEDcil eliminarlos."
+  - "Los traficantes que est\xE1n pagando. Recuerda, el objetivo principal del Gremio
+    es sembrar el miedo en <color=yellow>Sarka</color>."
+  - La gente ya ha naturalizado la muerte de los guerreros, pero cuando muere un
+    juez, todo el mundo se escandaliza.
+  - "La verdad es que la vida de los jueces vale m\xE1s, al fin y al cabo son ricos
+    y poderosos."
+  - Dices muchas cosas malas, Ebu.
+  - Soy mala.
+  - "T\xFA tambi\xE9n lo eres."
   idchara: 01000000010000001c000000010000001c0000000100000001000000010000001c0000000100000001000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f000000
   Cenario: 35

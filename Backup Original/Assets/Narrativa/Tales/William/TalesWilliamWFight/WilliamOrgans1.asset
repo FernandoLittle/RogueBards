@@ -53,7 +53,26 @@ MonoBehaviour:
     cirurgi\xF5es ligados ao tr\xE1fico de \xF3rg\xE3os foram presos. Mas a previs\xE3o
     de <color=yellow>Parovy</color> estava correta, um assassino veio para cortar
     a cabe\xE7a de <color=purple>William</color>."
-  DialogueES: []
+  DialogueES:
+  - "<color=purple>William</color>, \xBFde verdad quieres emprender esta b\xFAsqueda?
+    Vas a meter a los m\xE9dicos en la c\xE1rcel, eso es peligroso."
+  - "\xBFM\xE1s peligroso que nuestro trabajo diario?"
+  - "S\xED. Los m\xE9dicos son ricos y vender \xF3rganos es un delito protegido por
+    el Gremio de Asesinos. Esto significa que los asesinos vendr\xE1n a ti."
+  - "Estos m\xE9dicos se est\xE1n enriqueciendo con los \xF3rganos de nuestros colegas,
+    viste lo que <color=#FF0080>Kain</color> inform\xF3 sobre las investigaciones,
+    <color=yellow>Marlov</color> estuvo cautivo durante meses solo para ser desmembrado
+    y haz implantar tus \xF3rganos en arist\xF3cratas corruptos."
+  - "<color=yellow>Marlov</color> hab\xEDa sido mi amigo durante a\xF1os, cenamos
+    juntos al menos una vez cada temporada. Gracias por vengarlo, <color=purple>William</color>.
+    Pero cuidado, todo buen guerrero termina recibiendo una recompensa por su cabeza.
+    Una gran recompensa significa asesinos persigui\xE9ndote y..."
+  - "\xBFY qu\xE9?"
+  - Y eres muy buen guerrero, ten cuidado.
+  - "La misi\xF3n de <color=purple>William</color> tuvo mucho \xE9xito y tres cirujanos
+    vinculados al tr\xE1fico de \xF3rganos fueron arrestados. Pero la predicci\xF3n
+    de <color=yellow>Parovy</color> fue correcta, un asesino vino a cortarle la cabeza
+    a <color=purple>William</color>."
   idchara: 0f0000001c0000000f0000001c0000000f0000001c0000000f00000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000008000000
   Cenario: 5

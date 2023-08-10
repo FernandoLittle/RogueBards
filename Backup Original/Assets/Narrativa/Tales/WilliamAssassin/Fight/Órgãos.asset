@@ -102,7 +102,50 @@ MonoBehaviour:
     \xF3rg\xE3os, o <color=yellow>Parovy</color> disse que tentou impedi-los mas
     n\xE3o conseguiu convencer esses guerreiros a desistirem. "
   - "Mat\xE1-los vai passar um recado importante."
-  DialogueES: []
+  DialogueES:
+  - Hoy tenemos una recompensa por la cabeza de un juez y un guardia fronterizo.
+  - "\xBFCu\xE1l quieres, <color=purple>William</color>?"
+  - "\xBFNo hay recompensa por la cabeza de un guerrero?"
+  - "Los guerreros son un caso especial, puedes matar a cualquier guerrero y recibir\xE1s
+    una recompensa proporcional a su rango."
+  - "As\xED que voy a matar al tipo con el rango m\xE1s alto."
+  - "En este distrito, el tipo con el rango m\xE1s alto es <color=yellow>Captain
+    Parovy</color>, pero no puedes matarlo"
+  - "\xBFPor qu\xE9? \xBFEs demasiado fuerte?"
+  - "Una risita espont\xE1nea sali\xF3 del interior del <color=white>Ebu</color>."
+  - "Para nada, est\xE1 fuera de forma y con una barriga cada vez mayor, creo que
+    cuanto m\xE1s alto es el rango del guerrero, m\xE1s d\xE9bil se vuelve."
+  - No puedes matarlo porque es un buen tipo que aprecia un buen soborno.
+  - "\xBFEl Gremio soborn\xF3 a los guerreros?"
+  - "Los traficantes sobornados, \xBFcrees que voy a gastar mi preciado dinero en
+    sobornos cuando puedo simplemente matar al hijo de puta?"
+  - "Os hago un resumen de la historia. <color=yellow>Parovy</color> es un tipo pragm\xE1tico,
+    sabe que los guerreros nunca podr\xE1n derrotar a los traficantes y a los asesinos,
+    as\xED que hizo un pacto de paz."
+  - "Los guerreros se rascar\xE1n la cabeza fingiendo que trabajan, como mucho abofetear\xE1n
+    a un chaval que venda opio y lo meter\xE1n en la c\xE1rcel un par de d\xEDas."
+  - "A cambio, los traficantes dan un buen dinero al capit\xE1n y los asesinos se
+    comprometen a no dar espect\xE1culo."
+  - "\xBFEspect\xE1culos?"
+  - "\xBFNunca has visto un espect\xE1culo? En los buenos tiempos del Gremio no s\xF3lo
+    mat\xE1bamos guerreros, sino que los descuartiz\xE1bamos y esparc\xEDamos los
+    pedazos en una plaza p\xFAblica."
+  - "El <color=yellow>Parovy</color> dej\xF3 claro que si volv\xEDamos a hacer esto
+    reunir\xEDa a todos los guerreros e invertir\xEDa contra nosotros."
+  - "Era una condici\xF3n razonable porque, de hecho, se ver\xEDa presionado a tomar
+    medidas si continu\xE1bamos con los espect\xE1culos."
+  - "Lo dif\xEDcil fue convencer a la <color=purple>Dama de la Muerte</color>, ella
+    tiene fuego en el culo para montar un espect\xE1culo."
+  - Es una loca.
+  - "Si ella es loca para tus est\xE1ndares, entonces debe ser aterradora."
+  - "Peor es verdad, es la persona m\xE1s aterradora del Gremio, al\xE9jate de ella."
+  - "Bien, \xBFa qu\xE9 guerrero mato?"
+  - "Matar a un guerrero vagabundo es malo, despu\xE9s de todo, cuanto m\xE1s vagabundo
+    mejor."
+  - "Lo se. Hace poco unos guerreros detuvieron a unos m\xE9dicos que traficaban
+    con \xF3rganos, el <color=yellow>Parovy</color> dijo que intent\xF3 detenerlos
+    pero no pudo convencer a esos guerreros de que desistieran. "
+  - "Matarlos enviar\xE1 un mensaje importante."
   idchara: 01000000010000001c000000010000001c000000010000001c0000000000000001000000010000001c000000010000000100000001000000010000001c00000001000000010000000100000001000000010000001c000000010000001c000000010000000100000001000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022000000
   Cenario: 62

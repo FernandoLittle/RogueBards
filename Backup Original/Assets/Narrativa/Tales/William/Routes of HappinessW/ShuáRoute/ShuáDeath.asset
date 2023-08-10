@@ -22,11 +22,9 @@ MonoBehaviour:
     me.
   - <color=#FF0080>Shu</color>'s path isn't about violence and revenge, it's about
     mercy and...
-  - 'I''m tired of hearing speeches about love and kindness. This is a world of war
-    and pain where the powerful rule and the weak obey.
-
-    It makes me happy, you
-    know why?'
+  - I'm tired of hearing speeches about love and kindness. This is a world of war
+    and pain where the powerful rule and the weak obey. It makes me happy, you know
+    why?
   - Because I'm strong and I'm on the side that rules.
   - This talk of loving sinners and doing good is just a talk for the weak to feel
     better while obeying the strong.
@@ -34,8 +32,8 @@ MonoBehaviour:
     war, make money and then... I don't know, I'm going to eat some whores in my
     personal harem.
   - (...)
-  - Seasons came and went and <color=purple>William</color> finally found happiness,
-    not in money, not in whores, but in the blood of his enemies, for in their death
+  - The seasons came, went and <color=purple>William</color> finally found happiness,
+    not in money, not in whores, but in the blood of his enemies, for in their deaths
     he felt alive and strong.
   DialogueBR:
   - "O sangue quente daquele homem fez com que <color=purple>William</color> se sentisse
@@ -48,8 +46,8 @@ MonoBehaviour:
   - "O caminho de <color=#FF0080>Shu</color> n\xE3o \xE9 sobre viol\xEAncia e vingan\xE7a,
     \xE9 sobre miseric\xF3rdia e..."
   - "Estou cansado de ouvir discursos sobre amor e bondade. Este \xE9 um mundo de
-    guerra e dor onde os poderosos governam e os fracos obedecem.\nIsso me deixa
-    feliz, sabe por qu\xEA?"
+    guerra e dor onde os poderosos governam e os fracos obedecem. Isso me deixa feliz,
+    sabe por qu\xEA?"
   - Porque eu sou forte e estou do lado que manda.
   - "Essa conversa de amar os pecadores e fazer o bem \xE9 apenas uma conversa para
     que os fracos se sintam melhor enquanto obedecem aos fortes."
@@ -60,6 +58,28 @@ MonoBehaviour:
   - "As esta\xE7\xF5es vieram, foram e <color=purple>William</color> finalmente encontrou
     a felicidade, n\xE3o no dinheiro, n\xE3o nas prostitutas, mas no sangue de seus
     inimigos, pois na morte deles ele se sentia vivo e forte."
+  DialogueES:
+  - "La sangre caliente de aquel hombre hizo que <color=p\xFArpura>William</color>
+    se sintiera feliz por primera vez en aquella misi\xF3n."
+  - "Est\xE1s <color=red>sonriendo</color>."
+  - <color=purple>William</color> estaba cansado de fingir ser alguien que no era.
+  - "S\xED, estoy sonriendo, mat\xE9 a un hijo de puta que te matar\xEDa si no fuera
+    por m\xED."
+  - <color=#FF0080>El camino de Shu</color> no trata de violencia y venganza, sino
+    de piedad y...
+  - "Estoy cansado de o\xEDr discursos sobre el amor y la bondad. Este es un mundo
+    de guerra y dolor donde los poderosos mandan y los d\xE9biles obedecen. Me hace
+    feliz, \xBFsabes por qu\xE9?"
+  - Porque soy fuerte y estoy del lado que manda.
+  - "Eso de amar a los pecadores y hacer el bien no es m\xE1s que una palabrer\xEDa
+    para que los d\xE9biles se sientan mejor mientras obedecen a los fuertes."
+  - "Encontr\xE9 el camino a mi felicidad, voy a unirme a los mercenarios de esta
+    maldita guerra, ganar dinero y luego... No s\xE9, me voy a comer algunas putas
+    en mi har\xE9n personal."
+  - (...)
+  - "Las estaciones llegaron, las estaciones pasaron y <color=purple>William</color>
+    encontr\xF3 por fin la felicidad, no en el dinero, no en las putas, sino en la
+    sangre de sus enemigos, pues en sus muertes se sent\xEDa vivo y fuerte."
   idchara: 0000000019000000000000001c000000190000001c0000001c0000001c0000001c0000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000087030000
   Cenario: 14

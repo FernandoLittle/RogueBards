@@ -85,6 +85,44 @@ MonoBehaviour:
   - "Piratas gays\u2026 fodendo."
   - "Acabei de lembrar que tenho que cortar as unhas e ir dormir, at\xE9 amanh\xE3,
     <color=purple>William</color>."
+  DialogueES:
+  - "Era una noche con nubes grises que cubr\xEDan la luz de la luna y Ebu parec\xEDa
+    entonar una canci\xF3n que reflejaba sus sentimientos m\xE1s profundos."
+  - I want it all.
+  - I want it all...
+  - Hola, Ebu...
+  - "\xA1Hijo de puta! Me diste un susto."
+  - Oh, lo siento, me voy a ir.
+  - "No te preocupes, chico, ven aqu\xED, vamos a mirar al cielo juntos."
+  - "\xBFPor qu\xE9 cantabas con un acento tan extra\xF1o?"
+  - Cantaba en el idioma puro de Sangla.
+  - "\u2026"
+  - Esta era la lengua que se hablaba en <color=yellow>Sangla</color> antes incluso
+    de que existiera.
+  - Eso no tiene sentido.
+  - "Tienes raz\xF3n."
+  - "\xBFC\xF3mo aprendi\xF3 este idioma?"
+  - "Normalmente dos cosas preservan una lengua, el aislacionismo de un pueblo y
+    la ense\xF1anza p\xFAblica de la norma est\xE1ndar de esa lengua."
+  - "\"\xBFEsto va en serio? \xBFIgnor\xF3 mi pregunta y empez\xF3 a ense\xF1ar de
+    la nada?\""
+  - "<color=yellow>Sangla</color> no tiene lengua est\xE1ndar ni educaci\xF3n p\xFAblica,
+    y es el pa\xEDs menos aislado del mundo."
+  - "En pocos siglos su lengua qued\xF3 completamente destruida, ni siquiera se conservaron
+    palabras fundamentales como \"yo\", \"querer\" y \"todo\"."
+  - "<color=yellow>Sangla</color> es un pa\xEDs de locos."
+  - "Pens\xE9 que te gustar\xEDa <color=yellow>Sangla</color>."
+  - "Me mojo toda cuando estudio la historia de <color=yellow>Sangla</color>. La
+    capital del pa\xEDs fue construida por piratas, \xBFqu\xE9 puede molar m\xE1s?
+    Los t\xEDos eran bastante macarras."
+  - No es como hoy, que los presidentes son todos gays, pero antiguamente eran piratas
+    con pollas grandes.
+  - "\xBFCrees que docenas de piratas atrapados en un barco durante cientos de d\xEDas
+    no tendr\xEDan sexo gay?"
+  - "Tienes raz\xF3n."
+  - Piratas gays... follando.
+  - "Acabo de recordar que tengo que cortarme las u\xF1as e irme a la cama, hasta
+    ma\xF1ana, <color=purple>William</color>."
   idchara: 0000000001000000010000001c000000010000001c000000010000001c000000010000001c000000010000001c000000010000001c000000010000001c0000000100000001000000010000001c00000001000000010000001c000000010000000100000001000000
   instruction: 00000000000000000000000000000000380900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007a000000
   Cenario: 36

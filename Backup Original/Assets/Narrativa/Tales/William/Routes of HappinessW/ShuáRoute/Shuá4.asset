@@ -103,6 +103,51 @@ MonoBehaviour:
     se voc\xEA quiser, posso ajud\xE1-lo a seguir esse caminho."
   - "Mas voc\xEA ter\xE1 que abandonar tudo que vai contra a vontade de <color=#FF0080>Shu\xE1</color>.
     Isso inclui abandonar seus planos de vingan\xE7a e seu trabalho como guerreiro."
+  DialogueES:
+  - "Dime, <color=#FF0080>monje</color>. <color=#FF0080>\xBFShu\xE1</color> es bueno?"
+  - "Por supuesto, mi <color=purple>se\xF1or</color>. El amor de <color=#FF0080>Shu\xE1</color>
+    por la humanidad es infinito."
+  - "Entonces, \xBFpor qu\xE9 dej\xF3 que asesinaran a mi familia?"
+  - "Lo siento por ti, mi <color=p\xFArpura>se\xF1or</color>, no puedo ni imaginar
+    cu\xE1nto has sufrido."
+  - "<color=#FF0080>Shu\xE1</color> no protegi\xF3 a tu familia porque no es omnipotente.
+    Su poder depende del amor que los humanos sienten unos por otros. Mientras la
+    gente se odie, los asesinos destruir\xE1n las vidas de familias inocentes."
+  - "Por eso tengo que matar asesinos. Para que dejen de hacer da\xF1o a gente inocente."
+  - Debo vengarme.
+  - "La venganza no traer\xE1 la paz a tu alma, mi <color=purple>sir</color>."
+  - "\xBFQu\xE9 debo hacer entonces? He perdido todo lo que ten\xEDa, he perdido
+    toda mi felicidad, \xBFqu\xE9 me queda sino mi venganza?"
+  - "<colour=#FF0080>Kain</colour> hab\xEDa dicho que <colour=#FF0080>Shu\xE1</colour>
+    tra\xEDa paz y felicidad a su coraz\xF3n."
+  - "<color=p\xFArpura>William</color> quer\xEDa ser feliz como \xE9l, pero se culpaba
+    por tener ese deseo. El guerrero pensaba que s\xF3lo tendr\xEDa derecho a ser
+    feliz despu\xE9s de haber cumplido con sus deberes."
+  - "Porque fue lo suficientemente est\xFApido como para creer que sus pecados podr\xEDan
+    ser expiados de esa manera."
+  - "A pesar de ello, dese\xF3 con todas sus fuerzas que el <color=#FF0080>monje</color>
+    Shuano le ense\xF1ara a ser feliz."
+  - "Me recuerdas a <colour=#FF0080>Shu</colour> en la par\xE1bola del guerrero solitario.
+    En ella, pierde a todos sus compa\xF1eros guerreros, pierde tambi\xE9n todas
+    sus esperanzas y sue\xF1os."
+  - "Pero en medio de esta guerra conoce a una ni\xF1a cuyos padres han sido asesinados
+    ante sus propios ojos."
+  - "Adopt\xF3 a esa ni\xF1a y la protegi\xF3. Despu\xE9s de eso, su vida volvi\xF3
+    a tener sentido y prop\xF3sito."
+  - "\xBFComprendes las similitudes de esta par\xE1bola y tu historia, mi <color=p\xFArpura>se\xF1or</color>?"
+  - Tanto <color=#FF0080>Shu</color> como yo somos guerreros.
+  - "No s\xF3lo eso, los dos lo perdieron todo. Pero cuando <color=#FF0080>Shu</color>
+    encontr\xF3 a alguien a quien proteger, su vida empez\xF3 a tener sentido de
+    nuevo."
+  - "La pr\xF3xima temporada ir\xE9 en misi\xF3n junto con otros seguidores de <color=#FF0080>Shu\xE1</color>
+    a la <color=#yellow>Guerra de Varsa</color>. Proporcionaremos atenci\xF3n m\xE9dica
+    y alimentos a las v\xEDctimas de esta guerra."
+  - "Es una zona peligrosa, as\xED que necesitamos un hombre fuerte como t\xFA para
+    defendernos."
+  - "He encontrado mi prop\xF3sito en la vida siguiendo el <color=#FF0080>Camino
+    de Shu</color>, si quieres, puedo ayudarte a seguir ese camino."
+  - "Pero tendr\xE1s que abandonar todo lo que vaya en contra de la voluntad de <colour=#FF0080>Shu\xE1</colour>.
+    Esto incluye abandonar tus planes de venganza y tu trabajo como guerrero."
   idchara: 1c000000190000001c00000019000000190000001c0000001c000000190000001c00000000000000000000000000000000000000190000001900000019000000190000001c0000001900000019000000190000001900000019000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002e090000000000000000000000000000000000000000000000000000000000000000000040010000
   Cenario: 13

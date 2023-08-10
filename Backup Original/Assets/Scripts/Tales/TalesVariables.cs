@@ -140,7 +140,11 @@ public class TalesVariables : MonoBehaviour
         {
             TaleText.text = Tales[TaleSelect].DialogueBR[Index];
         }
-        
+        if (language == 2)
+        {
+            TaleText.text = Tales[TaleSelect].DialogueES[Index];
+        }
+
 
         try
         {

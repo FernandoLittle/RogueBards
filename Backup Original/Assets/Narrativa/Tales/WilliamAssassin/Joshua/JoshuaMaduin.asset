@@ -68,7 +68,7 @@ MonoBehaviour:
   - "Sim, meu passatempo preferido \xE9 cozinhar porque eu me lembro da minha falecida
     esposa me ensinando\u2026 s\xE3o boas mem\xF3rias."
   - "Mas isso j\xE1 n\xE3o importa."
-  - "N\xF3s traficantes n\xE3o somos gentis, mas n\xF3s temos um lema."
+  - "N\xF3s, traficantes, n\xE3o somos gentis, mas n\xF3s temos um lema."
   - "Amor infinito para a nossa fam\xEDlia\u2026"
   - "\u2026e \xF3dio infinito para os nossos inimigos."
   - "Exatamente, <color=purple>William</color> \xE9 meu verdadeiro inimigo, eu te
@@ -108,6 +108,53 @@ MonoBehaviour:
   - "<color=blue>Joshua</color> come\xE7ou a chorar."
   - "O duelo entre <color=purple>William</color> e <color=blue>Joshua</color> estava
     prestes a come\xE7ar."
+  DialogueES:
+  - "\xBFTe trataron bien?"
+  - "No sab\xEDa que los narcotraficantes eran tan amables al realizar secuestros,
+    esta celda es muy c\xF3moda y la comida era deliciosa."
+  - "\xBFTe gust\xF3? Yo mismo lo prepar\xE9."
+  - "\xBFLo juras?"
+  - "S\xED, mi pasatiempo favorito es cocinar porque recuerdo que mi difunta esposa
+    me ense\xF1\xF3... son buenos recuerdos."
+  - Pero eso ya no importa.
+  - Los traficantes no somos amables, pero tenemos un lema.
+  - Amor infinito por nuestra familia....
+  - ...y odio infinito por nuestros enemigos.
+  - "Exacto, <color=purple>William</color> es mi verdadero enemigo, te secuestr\xE9
+    s\xF3lo para que aceptara batirse en duelo conmigo."
+  - "Sin embargo, el Gremio de Asesinos no es mi enemigo y no deseo la enemistad
+    de Belmont Ebu. \xBFAceptar\xE1s mis disculpas por confinarte?"
+  - No pasa nada, al fin y al cabo todos estamos confinados.
+  - "No todo estaba bien para <colour=#FF0080>Maduin</colour>, despu\xE9s de todo
+    tem\xEDa que <colour=purple>William</colour> muriera en el duelo, pero lo ignor\xF3
+    porque quer\xEDa discurrir por el camino de la iluminaci\xF3n. "
+  - "Siempre que pod\xEDa, intentaba parecer sabio exponiendo sus reflexiones sobre
+    este tema."
+  - "\xBFQu\xE9 quieres decir?"
+  - "Estamos atrapados en el concepto de riqueza, gloria y poder. Lo buscamos todo
+    el tiempo pensando que as\xED alcanzaremos la paz y la felicidad."
+  - <color=blue>Joshua</color>, eres un hombre que ha conseguido todo aquello a lo
+    que la gente aspira. A pesar de crecer en la pobreza, acabaste construyendo un
+    imperio.
+  - "\xBFEl dinero y el poder que ha conseguido le han tra\xEDdo la paz o s\xF3lo
+    le han hecho estar m\xE1s sediento de nuevas conquistas?"
+  - "Hoy tengo una vida c\xF3moda y estoy orgulloso del imperio que he construido."
+  - "Pero creo que s\xE9 a lo que te refieres, chico, yo nunca estuve satisfecho
+    con mis logros, sino que s\xF3lo buscaba alcanzar metas a\xFAn m\xE1s altas."
+  - "S\xF3lo me di cuenta de todo lo que ten\xEDa cuando perd\xED."
+  - "Ojal\xE1 hubiera pasado m\xE1s tiempo con <color=purple>Harold</color>."
+  - "Lamento su p\xE9rdida."
+  - "\xBFQu\xE9 dec\xEDa esa poes\xEDa shuana? \"Un hombre iluminado aprecia la m\xFAsica
+    del universo y el silencio de su propia alma\". \xBFSabes lo que significa?"
+  - "Si no me equivoco, significa que la felicidad reside en aceptar qui\xE9n eres
+    y el mundo que te rodea."
+  - "\xBFC\xF3mo podr\xEDa aceptar este mundo despu\xE9s de la muerte de mi hijo?
+    \xBFC\xF3mo podr\xEDa aceptar qui\xE9n soy despu\xE9s de desperdiciar tantos
+    momentos que podr\xEDa haber tenido con \xE9l?"
+  - "No lo s\xE9."
+  - "<colour=blue>Joshua</colour> empez\xF3 a llorar."
+  - El duelo entre <color=purple>William</color> y <color=blue>Joshua</color> estaba
+    a punto de comenzar.
   idchara: 240000001f000000240000001f000000240000002400000024000000240000001f00000024000000240000001f0000000000000000000000240000001f0000001f0000001f000000240000002400000024000000240000001f000000240000001f000000240000001f0000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ca0800000000000026000000
   Cenario: 28

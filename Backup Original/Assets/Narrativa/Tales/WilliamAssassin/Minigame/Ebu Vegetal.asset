@@ -129,7 +129,60 @@ MonoBehaviour:
     pessoa, mas para uma assassina como eu essa \xE9 uma afirma\xE7\xE3o banal.\r\n"
   - "Ebu mentiu da primeira palavra at\xE9 a \xFAltima.\r\n"
   - "Como voc\xEA deseja passar o seu tempo livre?"
-  DialogueES: []
+  DialogueES:
+  - "Ebu, <color=purple>William</color> y <color=#FF0080>Maduin</color> estaban almorzando
+    juntos. Los asesinos no sol\xEDan tener muchos amigos, raz\xF3n por la cual valoraban
+    tanto la compa\xF1\xEDa de otros asesinos."
+  - "Tal compa\xF1\xEDa no disminuy\xF3 la soledad de <color=purple>William</color>,
+    ya que el vac\xEDo en su alma era inconmensurable. Pero esa soledad parec\xEDa
+    menos pat\xE9tica cuando ten\xEDa gente a su alrededor."
+  - "Nunca te he visto comer carne, Ebu, \xBFeres vegetariana?"
+  - "S\xED."
+  - "El mejor asesina del Gremio es vegetariana, eso es bastante ir\xF3nico."
+  - De hecho, el Documento del Gremio fomenta el vegetarianismo.
+  - Sabiendo esto me dan ganas de hacer una parrillada.
+  - "\xBFPor qu\xE9 no comes carne?"
+  - "Si matara a la mitad de los animales de este mundo no habr\xEDa ninguna diferencia
+    a largo plazo, porque se generar\xEDa una abundancia de alimentos vegetales en
+    el mundo y esa abundancia har\xEDa crecer la poblaci\xF3n animal."
+  - "En pocas generaciones la cantidad de animales en el mundo volver\xEDa a ser
+    la de antes."
+  - "Pero si matara a la mitad de los vegetales del mundo, los animales empezar\xEDan
+    a morir de hambre y su poblaci\xF3n disminuir\xEDa gradualmente.\n"
+  - "Por eso me dedico a comer solo vegetales, porque as\xED puedo maximizar la cantidad
+    de miseria y sufrimiento en el mundo."
+  - "Todo esto era mentira, la verdadera explicaci\xF3n era una historia muy sabrosa."
+  - "Incluso un idiota como <color=purple>William</color> podr\xEDa decir que estaba
+    mintiendo."
+  - Bien, ahora di la verdad.
+  - "\xBFLa verdad?"
+  - "Verdad\u2026"
+  - "La verdad es que no soy ni superior a un humano ni inferior a un \xE1ngel."
+  - Esa frase hizo que <color=#FF0080>Maduin</color> entendiera lo que estaba pasando
+    por su mente.
+  - <color=purple>William</color>, este es un tema delicado para ella, cambiemos
+    de tema.
+  - "Vete a la mierda <color=#FF0080>Maduin</color>, ning\xFAn tema es demasiado
+    delicado para m\xED. \xBFQu\xE9 quieres saber, <color=purple>William</color>?"
+  - "Quiero saber por qu\xE9 una asesina como t\xFA es vegetariana."
+  - "Lo explicar\xE9."
+  - "Los humanos miran a los animales de arriba abajo por superioridad intelectual,
+    como si la racionalidad fuera la virtud m\xE1s importante que daba valor a la
+    vida."
+  - "Pero no estoy de acuerdo con eso, las virtudes m\xE1s importantes para m\xED
+    son las virtudes animales, no me importa mi raz\xF3n, me importan mis deseos."
+  - Mis ganas de dormir, comer y follar.
+  - "Mis ganas de vivir al m\xE1ximo hasta el \xFAltimo segundo."
+  - Estos deseos que me hacen valorar mi vida.
+  - "Como los animales tambi\xE9n tienen estos deseos, no puedo decir que sus vidas
+    valen menos que la m\xEDa."
+  - "\xBFDe verdad crees que la vida de los humanos y los animales tienen el mismo
+    valor?"
+  - "Despu\xE9s de matar a tanta gente, dej\xE9 de ver la vida humana como sagrada."
+  - "Para los humanos normales es absurdo decir que un animal vale tanto como una
+    persona, pero para un asesino como yo es una afirmaci\xF3n banal."
+  - "Ebu minti\xF3 desde la primera palabra hasta la \xFAltima."
+  - "\xBFC\xF3mo quieres pasar tu tiempo libre?"
   idchara: 00000000000000001c000000010000001c0000001f000000010000001c0000000100000001000000010000000100000000000000000000001c000000010000000100000001000000000000001f000000010000001c000000010000000100000001000000010000000100000001000000010000001c00000001000000010000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
   Cenario: 52

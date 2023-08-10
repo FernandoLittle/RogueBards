@@ -43,7 +43,20 @@ MonoBehaviour:
   - "Eu... eu tenho fam\xEDlia, eles n\xE3o sobreviveriam se eu largasse este emprego."
   - "N\xE3o se preocupe com isso, sua fam\xEDlia vai sobreviver."
   - "Ela receber\xE1 uma boa pens\xE3o depois que voc\xEA morrer em servi\xE7o."
-  DialogueES: []
+  DialogueES:
+  - "Despu\xE9s de ser derrotado, <color=yellow>Raskorv</color> suplic\xF3 clemencia."
+  - "Mira a la derecha, \xBFves esa multitud?"
+  - "<colour=yellow>Raskorv</colour> mir\xF3 a la derecha."
+  - "Mira a mi derecha, imb\xE9cil."
+  - Por favor, no me mates.
+  - "Esta es una simple pregunta de s\xED o no, contesta, \xBFves a esa multitud?"
+  - No... no.
+  - "Imagin\xE9. Eso no es una multitud de personas, es una multitud de almas."
+  - "No mataste a las tres personas, mataste a miles de personas que ten\xEDan miedo
+    de huir y murieron miserables en <color=yellow>Sarka</color>."
+  - "Yo... tengo una familia, no sobrevivir\xEDan si dejo este trabajo."
+  - "No te preocupes por eso, tu familia sobrevivir\xE1."
+  - "Ella recibir\xE1 una buena pensi\xF3n despu\xE9s de que mueras en servicio."
   idchara: 000000001c000000000000001c000000260000001c000000260000001c0000001c000000260000001c0000001c000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000330900000000000000000000ea030000
   Cenario: 76

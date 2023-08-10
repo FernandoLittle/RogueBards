@@ -38,6 +38,19 @@ MonoBehaviour:
   - "Ou talvez ele apenas fosse um homem solit\xE1rio e pat\xE9tico."
   - No fim, esse homem, <color=purple>William Ulbricht</color>, morreu de hemorragia
     sem conseguir fazer nenhum discurso, nada muito interessante.
+  DialogueES:
+  - "Sangre... esa sangre es m\xEDa. Morir\xE9 as\xED."
+  - "Ten\xEDa dos opciones en mi vida, matar o limpiar heces."
+  - "Eleg\xED matar."
+  - "Mat\xE9, mat\xE9 mucho, mat\xE9...."
+  - Yo...
+  - "\xC9rase una vez un hombre normalmente silencioso, pero le encantaba despotricar
+    frente a sus v\xEDctimas."
+  - Tal vez estaba practicando para un discurso si se encontraba con el asesino de
+    su padre.
+  - "O tal vez s\xF3lo era un hombre solitario y pat\xE9tico."
+  - "Al final, este hombre, <color=purple>William Ulbricht</color>, muri\xF3 de una
+    hemorragia sin poder pronunciar ning\xFAn discurso, nada muy interesante."
   idchara: 1c0000001c0000001c0000001c0000001c00000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000007e000000
   Cenario: 27

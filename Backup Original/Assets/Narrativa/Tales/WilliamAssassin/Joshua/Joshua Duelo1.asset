@@ -58,7 +58,7 @@ MonoBehaviour:
     uma condi\xE7\xE3o, voc\xEA ter\xE1 que participar de um duelo at\xE9 a morte
     contra <color=blue>Joshua</color>."
   - "Um duelo at\xE9 a morte?"
-  - "Sim, faz anos que eu n\xE3o presencio um duelo, vou apostar um dinheiro na sua
+  - "Sim, faz anos que eu n\xE3o assisto um duelo, vou apostar um dinheiro na sua
     vit\xF3ria.\r"
   - "Se eu ganhar, tudo voltar\xE1 ao normal?\r"
   - "Claro que n\xE3o, voc\xEA ser\xE1 expulso da Guilda de Assassinos, mas o que
@@ -69,7 +69,7 @@ MonoBehaviour:
   - "Que leis? N\xF3s n\xE3o somos guerreiros, n\xF3s somos assassinos, <color=purple>William</color>."
   - "Sim, mas isso n\xE3o muda o fato de que  temos que cumprir as regras do Documento
     da Guilda."
-  - "<color=purple>William</color>, o documento da guilda foi escrito por um idiota,
+  - "<color=purple>William</color>, o Documento da Guilda foi escrito por um idiota,
     voc\xEA n\xE3o reparou que o Documento \xE9 mal escrito pra caralho?\r"
   - "A gente resolve isso depois, voc\xEA tem que se preparar para uma luta at\xE9
     a morte, esqueceu?"
@@ -77,6 +77,38 @@ MonoBehaviour:
   - Eu jamais abandonaria ele.
   - "O tom amea\xE7ador na voz da Ebu n\xE3o permitia que <color=purple>William</color>
     desse qualquer outra resposta."
+  DialogueES:
+  - "Un amigo tuyo fue secuestrado, su nombre empieza con \u201Cma\u201D y termina
+    con \u201Cduin\u201D."
+  - "\xBFHa sido secuestrado <color=#FF0080>Maduin</color>? \xBFC\xF3mo puedes dar
+    esas noticias con tanta calma?"
+  - "Estoy muy tranquilo, despu\xE9s de todo todo est\xE1 saliendo bien, en condiciones
+    normales los traficantes le habr\xEDan declarado la guerra al Gremio de Asesinos
+    y estar\xEDas acuartelado en la plaza p\xFAblica."
+  - "\xBFPensaste que todo estar\xEDa bien despu\xE9s de matar al hijo de <color=blue>Joshua</color>?
+    \xBFCre\xEDas que todos se reconciliar\xEDan y la vida continuar\xEDa con normalidad?"
+  - "\u2026"
+  - "Los traficantes liberar\xE1n a <color=#FF0080>Maduin</color> con una condici\xF3n,
+    tendr\xE1s que participar en un duelo a muerte contra <color=blue>Joshua</color>."
+  - "\xBFUn duelo a muerte?"
+  - "S\xED, hace a\xF1os que no veo un duelo, voy a apostar un buen dinero a tu victoria."
+  - "\xBFVolver\xE1 todo a la normalidad si gano?"
+  - "Por supuesto que no, ser\xE1s expulsado del Gremio de Asesinos, pero lo que
+    importa es que los narcotraficantes dejen de molestarme."
+  - ...
+  - "Y el <color=#FF0080>Maduin</color> ser\xE1 liberado, eso tambi\xE9n es importante."
+  - "\xBFMe expulsar\xE1n por cumplir las leyes del Gremio?"
+  - "\xBFQu\xE9 leyes? No somos guerreros, somos asesinos, <color=purple>William</color>."
+  - "S\xED, pero eso no cambia el hecho de que tenemos que cumplir las normas del
+    Documento del Gremio."
+  - "<color=purple>William</color>, el Documento del Gremio lo escribi\xF3 un idiota,
+    \xBFno te diste cuenta de que el Documento est\xE1 jodidamente mal escrito?"
+  - "Lo arreglaremos m\xE1s tarde, tienes que prepararte para una lucha a muerte,
+    \xBFlo has olvidado?"
+  - "\xBFO abandonar\xE1s el <color=#FF0080>Maduin</color>?"
+  - "Nunca lo dejar\xEDa."
+  - "El tono amenazador de la voz de Ebu no permiti\xF3 a <color=purple>William</color>
+    dar ninguna otra respuesta."
   idchara: 010000001c00000001000000010000001c000000010000001c000000010000001c0000000100000001000000010000001c000000010000001c0000000100000001000000010000001c00000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000068080000000000000000000000000000000000000000000072000000
   Cenario: 30

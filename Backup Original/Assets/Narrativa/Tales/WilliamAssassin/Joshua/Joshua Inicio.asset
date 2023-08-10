@@ -96,7 +96,48 @@ MonoBehaviour:
     ele soube de imediato que <color=purple>Harold</color> era o culpado pela morte
     de <color=blue>Rose</color> quando esta apareceu morta dez dias depois.\r"
   - "Com sede de justi\xE7a ele sacou sua adaga e foi assassinar o filho de <color=blue>Joshua</color>."
-  DialogueES: []
+  DialogueES:
+  - Quiero ofrecer una recompensa por la cabeza de <color=purple>Harold</color>.
+  - "Bien, \xBFqu\xE9 crimen cometi\xF3?"
+  - "\xC9l me viol\xF3."
+  - Oh, lo siento.
+  - "Este es un crimen complicado, la mayor\xEDa de las v\xEDctimas no tienen pruebas."
+  - "\xBFPuedes probarlo?"
+  - "El propio <color=purple>Harold</color> se lo confes\xF3 a sus amigos, todo el
+    barrio ya lo sabe."
+  - "Hm... Vale, ya he matado gente con pruebas menores, pero tendr\xE9 que comprobarlo
+    m\xE1s tarde. \xBFCuanto pagas?"
+  - Tres tigres de plata.
+  - "Es un precio bajo, si ning\xFAn asesino acepta el trabajo, puedes recuperar
+    tu paga la pr\xF3xima temporada."
+  - Cual es el nombre completo del tipo?
+  - <color=purple>Harold Proust</color>.
+  - "<color=purple>Harold Proust</color>\u2026 \xBFEs este el hijo de <color=blue>Joshua
+    Proust</color>?"
+  - "S\xED."
+  - "\xBFEst\xE1s bromeando? Nadie llama a este tipo <color=purple>Harold</color>,
+    todo el mundo lo conoce como el hijo de <color=blue>Joshua</color>."
+  - "No s\xE9 si lo sabes, pero el principal socio comercial del gremio es <color=blue>Joshua</color>,
+    \xBFquieres que mate a su hijo a cambio de tres monedas de plata?"
+  - "Ustedes son los \xFAnicos que pueden ayudarme."
+  - "Hija m\xEDa, matamos por dinero, si quieres a alguien que luche en nombre de
+    la justicia, busca un guerrero."
+  - Sabes que no van a hacer nada.
+  - "Mira, lo siento por ti, \xBFde acuerdo?"
+  - "No quiero aparecer en connivencia con un violador, as\xED que..."
+  - "Lo s\xE9, no se lo digas a nadie, te doy un pu\xF1al, lo seduces o algo as\xED
+    y le cortas la pija. Es m\xE1s divertido que tener a alguien que haga el trabajo
+    por ti."
+  - "Me matar\xE1n si hago esto."
+  - "S\xE9 creativa, ll\xE9vale a un lugar desierto, m\xE1tale all\xED y nadie se
+    enterar\xE1. Ya s\xE9, ll\xE9valo a un cementerio, a los j\xF3venes de hoy en
+    d\xEDa les gusta follar all\xED, aprovecha y enti\xE9rralo despu\xE9s, nadie
+    encontrar\xE1 el cuerpo."
+  - "Como <colour=purple>William</colour> escuch\xF3 esta conversaci\xF3n de principio
+    a fin, supo de inmediato que <colour=purple>Harold</colour> era el culpable de
+    la muerte de <colour=blue>Rose</colour> cuando \xE9sta apareci\xF3 muerta diez
+    d\xEDas despu\xE9s.\n"
+  - "Sediento de justicia desenvain\xF3 su daga y fue a asesinar al hijo de <color=azul>Joshua</color>."
   idchara: 2300000001000000230000000100000001000000010000002300000001000000230000000100000001000000230000000100000023000000010000000100000023000000010000002300000001000000010000000100000023000000010000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025000000
   Cenario: 16

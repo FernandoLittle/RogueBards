@@ -53,7 +53,7 @@ MonoBehaviour:
   - ' <color=#FF0080>Jorja</color>, I''d like to talk to <color=purple>Will</color>
     alone, would you please leave?'
   - No, I want to stay here.
-  - Please, <color=#FF0080> <color=#FF0080>Jorja</color></color>.
+  - Please, <color=#FF0080>Jorja</color></color>.
   - No, no, no, I want to hear it.
   - If you leave for a centidia, I'll buy you a candy.
   - 'After the girl left, William stated the obvious:'
@@ -91,8 +91,9 @@ MonoBehaviour:
     I couldn't even absorb the fact that you lied to us and only joined the Guild
     to get revenge.
   - You're a spy, lies shouldn't shock you.
-  - But this idea of living in another country with you and <color=#FF0080>Maduin</color>
-    is something very different. I need to think about it.
+  - I'm not too surprised, but this idea of living in another country with you and
+    <color=#FF0080>Maduin</color> is something very different. I need to think about
+    it.
   - He didn't intend to think about it, after all, <color=#FF0080>Maduin</color>
     dreamed of the possibility of living together with William and adopting a child
     to call his daughter.
@@ -102,7 +103,7 @@ MonoBehaviour:
   DialogueBR:
   - "Ela se curou? N\xE3o \xE9 poss\xEDvel."
   - Ver a  <color=#FF0080>Jorja</color> andando deixou Ebu completamente perplexa.
-  - "Mas voc\xEAs rezaram pro  <color=#FF0080>Shu\xE1</color>, foi um milagre."
+  - "Mas voc\xEAs rezaram pro <color=#FF0080>Shu\xE1</color>, foi um milagre."
   - "Shu\xE1 n\xE3o consegue curar a doen\xE7a de Charlotte. O seu caso tem que ser
     estudado pelos cientistas, isso vai mudar tudo o que conhecemos sobre essa doen\xE7a.\r"
   - "Ser\xE1 que eu dei um diagn\xF3stico errado? Ou ser\xE1 que voc\xEA foi afetada
@@ -110,7 +111,7 @@ MonoBehaviour:
   - "Ebu, que tal voc\xEA comemorar conosco e pensar nisso depois?"
   - "Boa ideia , a bebida hoje \xE9 por minha conta, voc\xEA toma vinho,  <color=#FF0080>Jorja</color>?"
   - Tenha bom senso, Ebu.
-  - "Voc\xEA \xE9 chato, <color=purple>William</color>. Foda-se, eu vou preparar
+  - "Voc\xEA \xE9 chato, <color=#FF0080>Maduin</color>. Foda-se, eu vou preparar
     uma comida ent\xE3o. "
   - "O que voc\xEAs querem comer?"
   - Eu quero mingau de milho.
@@ -121,14 +122,14 @@ MonoBehaviour:
   - "Na esta\xE7\xE3o seguinte:"
   - "Hoje eu vou te levar para um orfanato,  <color=#FF0080>Jorja</color>, l\xE1
     tem v\xE1rias crian\xE7as como voc\xEA."
-  - "Eu n\xE3o quero ir para o orfanato, eu quero ficar com voc\xEAs, porque voc\xEAs
+  - "Eu n\xE3o quero ir pro orfanato, eu quero ficar com voc\xEAs, porque voc\xEAs
     n\xE3o me adotam?"
   - " <color=#FF0080>Jorja</color>, l\xE1 no\u2026"
   - "Um grito estridente e irritante de uma garota mimada interrompeu a fala de <color=#FF0080>Maduin</color>.\r"
   - "Voc\xEAs n\xE3o gostam de mim?"
   - "\xC9 claro que n\xF3s gostamos, mas n\xF3s n\xE3o podemos adotar voc\xEA, l\xE1
     no orfanato voc\xEA encontrar\xE1 novos pais que ir\xE3o te adotar.\r"
-  - "O <color=purple>William</color> est\xE1 mentindo.\r"
+  - "O <color=#FF0080>Maduin</color> est\xE1 mentindo.\r"
   - " <color=#FF0080>Jorja</color> pensou que a mentira era a afirma\xE7\xE3o de
     que os dois gostavam dela.\n"
   - "<color=#FF0080>Maduin</color> sabia que a mentira era a afirma\xE7\xE3o de que
@@ -183,14 +184,106 @@ MonoBehaviour:
     pra mim, eu nem consegui absorver direito o fato de que voc\xEA mentiu pra n\xF3s
     e s\xF3 se juntou a Guilda pra se vingar.\r"
   - "Voc\xEA \xE9 um espi\xE3o, mentiras n\xE3o deveriam te chocar."
-  - "Mas essa ideia de morar em outro pa\xEDs com voc\xEA e a <color=#FF0080>Jorja</color>
-    \xE9 algo muito diferente. Eu preciso pensar sobre isso.\r"
+  - "Pior que eu n\xE3o estou surpreso, mas essa ideia de morar em outro pa\xEDs
+    com voc\xEA e a <color=#FF0080>Jorja</color> \xE9 algo muito diferente. Eu preciso
+    pensar sobre isso.\r"
   - "Ele n\xE3o pretendia pensar sobre isso, afinal, <color=#FF0080>Maduin</color>
     sonhava com a possibilidade de morar junto com <color=purple>William</color>
     e adotar uma crian\xE7a para chamar de filha."
   - Ver isso se tornando realidade parecia bom demais para ser verdade.
   - 32 anos depois <color=purple>William</color> morreu, 52 anos depois  <color=#FF0080>Jorja</color>
     morreu, 71 anos depois <color=#FF0080>Maduin</color> morreu.
+  DialogueES:
+  - "\xBFSe mejor\xF3? No es posible."
+  - "Ver pasar a <colour=#FF0080>Jorja</colour> dej\xF3 a Ebu completamente desconcertada."
+  - "Pero rezaste a <color=#FF0080>Shu\xE1</color>, fue un milagro."
+  - "Shu\xE1 no puede curar la enfermedad de Charlotte. Tu caso tiene que ser estudiado
+    por cient\xEDficos, esto cambiar\xE1 todo lo que sabemos sobre esta enfermedad."
+  - "\xBFLe he dado un diagn\xF3stico equivocado? \xBFO le ha afectado una variante
+    distinta de la enfermedad?"
+  - "Ebu, \xBFqu\xE9 tal si lo celebras con nosotros y lo piensas despu\xE9s?"
+  - "Buena idea, la bebida la pago yo hoy, \xBFbebes vino, <color=#FF0080>Jorja</color>?"
+  - "Ten sentido com\xFAn, Ebu."
+  - 'Eres aburrido, <colour=#FF0080>Maduin</colour>. A la mierda, voy a preparar
+    algo de comer entonces. '
+  - "\xBFQu\xE9 quieres comer?"
+  - "Quiero gachas de ma\xEDz."
+  - "Vete al infierno, <colour=#FF0080>Jorja</colour>, las gachas de ma\xEDz son
+    comida para mendigos. "
+  - Te voy a hacer una tarta de chocolate con uvas y... y unas fresas, va a estar
+    de puta madre.
+  - "Pr\xF3xima temporada:"
+  - "Hoy te voy a llevar a un orfanato, <color=#FF0080>Jorja</color>, all\xED hay
+    muchos ni\xF1os como t\xFA."
+  - "No quiero ir al orfanato, quiero quedarme contigo, \xBFpor qu\xE9 no me adoptas?"
+  - "<colour=#FF0080>Jorja</colour>, all\xED en el..."
+  - "Un grito estridente y molesto de una ni\xF1a mimada interrumpi\xF3 el discurso
+    de <color=#FF0080>Maduin</color>."
+  - "\xBFOs molesto a los dos?"
+  - "No nos molestas, pero no podemos adoptarte, all\xED en el orfanato encontrar\xE1s
+    nuevos padres que te adoptar\xE1n.\n"
+  - El <colour=#FF0080>Maduin</colour> miente.
+  - "<colour=#FF0080>Jorja</colour> pens\xF3 que la mentira era la afirmaci\xF3n
+    de que no les molestaba a los dos."
+  - "<colour=#FF0080>Maduin</colour> sab\xEDa que la mentira era la afirmaci\xF3n
+    de que encontrar\xEDa nuevos padres en el orfanato, dif\xEDcilmente una ni\xF1a
+    de su edad podr\xEDa ser adoptada."
+  - "Pero <color=purple>William</color> se refer\xEDa a la afirmaci\xF3n restante:"
+  - "Podemos adoptarte, \xBFde verdad quieres eso?"
+  - "\xA1Lo quiero!"
+  - "\u2026"
+  - "<colour=#FF0080>Jorja</colour>, me gustar\xEDa hablar con <colour=purple>Will</colour>
+    a solas \xBFpodr\xEDas retirarte?"
+  - "No, quiero quedarme aqu\xED."
+  - Por favor, <color=#FF0080>Jorja</color>.
+  - "No, no, no, quiero o\xEDrlo."
+  - "Si te retiras una cent\xE9sima de d\xEDa te invito a un dulce."
+  - "Cuando la chica se march\xF3, <color=purple>William</color> afirm\xF3 lo obvio:"
+  - "\xBFDe verdad cre\xEDas que ibas a convencer a una ni\xF1a pidi\xE9ndole un
+    favor? Ofr\xE9celes dulces y obedecer\xE1n."
+  - "Sospecho que no es una buena manera de educar a una chica. Pero esa no es la
+    cuesti\xF3n, \xBFest\xE1s seguro de lo que haces?"
+  - Tuvo una madre horrible, tan mala que le hizo simpatizar con una panda de asesinos
+    como nosotros, no creo que sea correcto abandonarla.
+  - "Esa no es la cuesti\xF3n, \xBFde verdad quieres adoptarla? Es una responsabilidad
+    muy grande."
+  - "Esa tampoco es la cuesti\xF3n, \xBFde verdad quieres adoptarla? Es una responsabilidad
+    muy grande."
+  - "El Gremio de Asesinos mat\xF3 a mi familia, me un\xED a ustedes porque quer\xEDa
+    averiguar qui\xE9n era el asesino."
+  - "Pero eso ya no importa, abandon\xE9 mis planes de venganza, pact\xE9 con <color=#FF0080>Shu\xE1</color>
+    que si curaba a la ni\xF1a renunciar\xEDa a matar al asesino de mi padre."
+  - Ya no me queda mucho, pues mis planes de venganza me han guiado toda la vida.
+  - "Creo que es hora de empezar una nueva vida, tener una familia, vivir m\xE1s
+    tranquilo."
+  - Una vida tranquila...
+  - "Ojal\xE1 pudiera tener eso."
+  - "T\xFA puedes, \xBFpor qu\xE9 no vienes a vivir con nosotros?"
+  - "<color=purple>William</color>, sabes que soy un esp\xEDa, si adopto a una ni\xF1a
+    junto con un novio asesino ser\xEDa muy obvio que estoy del lado del Gremio,
+    los guerreros ya est\xE1n sospechando de m\xED porque no estoy pasando alguna
+    informaci\xF3n sobre Ebu."
+  - "Deja tu trabajo de esp\xEDa, podemos irnos a vivir a una caba\xF1a en medio
+    del bosque."
+  - "Tendr\xEDamos tiempo de sobra para nosotros."
+  - No seas tonto, <color=purple>Will</color>.
+  - "Podemos vivir en <colour=yellow>Sangla</colour>, yo estar\xEDa todo el d\xEDa
+    ganando dinero en el casino mientras t\xFA cuidas de <colour=#FF0080>Jorja</colour>."
+  - No parece una buena idea.
+  - "Es una gran idea, la <colour=#FF0080>Jorja</colour> simpatiza contigo m\xE1s
+    que conmigo."
+  - "Hablaba de ti jugando en el casino. Eso es mucha informaci\xF3n para m\xED,
+    ni siquiera pude asimilar el hecho de que nos mentiste y s\xF3lo te uniste al
+    Gremio para vengarte."
+  - "Eres un esp\xEDa, las mentiras no deber\xEDan sorprenderte."
+  - "No me sorprende demasiado, pero esta idea de vivir en otro pa\xEDs contigo y
+    <color=#FF0080>Jorja</color> es algo muy diferente. Necesito pensarlo."
+  - "No ten\xEDa intenci\xF3n de pensar en ello, al fin y al cabo, <colour=#FF0080>Maduin</colour>
+    so\xF1aba con la posibilidad de vivir junto a <colour=purple>William</colour>
+    y adoptar a una ni\xF1a para llamar a su hija. "
+  - "Verlo hecho realidad parec\xEDa demasiado bueno para ser verdad."
+  - "32 a\xF1os despu\xE9s muri\xF3 <color=purple>William</color>, 52 a\xF1os despu\xE9s
+    muri\xF3 <color=#FF0080>Jorja</color>, 71 a\xF1os despu\xE9s muri\xF3 <color=#FF0080>Maduin</color>."
   idchara: 01000000000000002200000001000000010000001f000000010000001f0000000100000001000000220000000100000001000000000000001f000000220000001f00000000000000220000001f0000001c0000000000000000000000000000001c000000220000001f0000001f000000220000001f000000220000001c000000000000001c0000001f0000001c0000001f0000001c0000001c0000001c0000001c0000001c0000001f0000001f0000001c0000001f0000001c0000001c0000001f0000001c0000001f0000001c0000001f0000001c0000001f000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000089030000
   Cenario: 63

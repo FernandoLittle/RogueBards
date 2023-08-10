@@ -29,6 +29,14 @@ MonoBehaviour:
   - "N\xE3o, eu como no restaurante."
   - "Entre l\xE1 dentro. Voc\xEA vai encontrar um mo\xE7o chamado <color=#FF0080>Maduin</color>.
     Ele vai fazer mingau para voc\xEA."
+  DialogueES:
+  - "\xBFCu\xE1l es tu comida favorita, ni\xF1a?"
+  - "Gachas de ma\xEDz."
+  - "<colour=purple>William</colour> consider\xF3 extra\xF1a aquella respuesta."
+  - "\xBFTu madre te hace gachas?"
+  - No, yo como en el restaurante.
+  - "Entra en esta casa. Encontrar\xE1s a un muchacho llamado <colour=#FF0080>Maduin</colour>.
+    \xC9l te preparar\xE1 gachas."
   idchara: 1c00000022000000000000001c000000220000001c000000
   instruction: 00000000000000000000000000000000000000000000000067000000
   Cenario: 40

@@ -170,6 +170,11 @@ public class SoulPray : MonoBehaviour
             Pray.text = TalesL[indexTale].DialogueBR[indexWord];
             PrayT = TalesL[indexTale].DialogueBR[indexWord];
         }
+        if (language == 2)
+        {
+            Pray.text = TalesL[indexTale].DialogueES[indexWord];
+            PrayT = TalesL[indexTale].DialogueES[indexWord];
+        }
 
     }
     public void SelectTale()
@@ -226,6 +231,26 @@ public class SoulPray : MonoBehaviour
                     Pray.text = TalesL[indexTale].DialogueBR[indexWord];
                     PrayT = TalesL[indexTale].DialogueBR[indexWord];
                 
+            }
+
+
+        }
+        if (language == 2)
+        {
+
+            if (indexWord >= TalesL[indexTale].DialogueES.Count)
+            {
+                indexTale += 1;
+                PlayerPrefs.SetInt("TaleI", indexTale);
+                NextTale();
+            }
+            else
+            {
+
+
+                Pray.text = TalesL[indexTale].DialogueES[indexWord];
+                PrayT = TalesL[indexTale].DialogueES[indexWord];
+
             }
 
 

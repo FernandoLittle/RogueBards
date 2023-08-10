@@ -66,6 +66,24 @@ public class Translator : MonoBehaviour
 
 
     }
+    public void Spanish()
+    {
+        PlayerPrefs.SetInt("Language", 2);
+        Fantasminha();
+        Fundinhos[1].color = new Color(1, 0, 0, 1);
+        AdventuresT[0].text = "La aventura de Roy (Tutorial)";
+        AdventuresT[1].text = "La aventura de William";
+        LanguagesT[0].text = "Idioma:";
+        LanguagesT[1].text = "Nuevo juego";
+        LanguagesT[2].text = "Continuar";
+
+        TextMenu[0].text = "Volumen";
+        TextMenu[1].text = "Idioma";
+        TextMenu[2].text = "Continuar el juego";
+        TextMenu[3].text = "Abandonar el juego";
+
+
+    }
     public void Fantasminha()
     {
         for (int x = 0; x < Fundinhos.Count; x = x + 1)

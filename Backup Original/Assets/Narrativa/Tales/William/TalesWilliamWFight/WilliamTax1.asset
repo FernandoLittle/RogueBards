@@ -52,6 +52,26 @@ MonoBehaviour:
   - "Desta vez ele conseguiu arrancar uma resposta do <color=green>burgu\xEAs</color>:"
   - Eu nunca faria isso.
   - Cinco dias depois, um assassino estava diante dele.
+  DialogueES:
+  - "<color=purple>William</color> comenz\xF3 a sentir miedo, su trabajo era simple,
+    solo necesitaba arrestar a <color=green>Vlad Burarth</color>, un burgu\xE9s acusado
+    de evasi\xF3n de impuestos."
+  - "Ese burgu\xE9s era d\xE9bil, no ofreci\xF3 resistencia al arresto y sigui\xF3
+    las \xF3rdenes de <color=purple>William</color> sin dudarlo. Desobedeci\xF3 una
+    sola orden:"
+  - Di algo.
+  - Silencio.
+  - Ese silencio era aterrador.
+  - "\xBFPor qu\xE9 sonr\xEDes? \xA1Resp\xF3ndeme!"
+  - Silencio.
+  - "<color=purple>William</color> trat\xF3 de ignorarlo, pero era dif\xEDcil, nunca
+    hab\xEDa conocido a alguien tan tranquilo y con tal aire de superioridad."
+  - "Su sonrisa de pura satisfacci\xF3n era aterradora."
+  - "S\xE9 por qu\xE9 est\xE1s sonriendo, vas a contratar a un asesino para que me
+    mate, calla si mi hip\xF3tesis es correcta."
+  - "Esta vez consigui\xF3 obtener una respuesta del <color=green>burgu\xE9s</color>:"
+  - "Yo nunca har\xEDa eso."
+  - "Cinco d\xEDas despu\xE9s, un asesino se par\xF3 frente a \xE9l."
   idchara: 00000000000000001c00000000000000000000001c0000000000000000000000000000001c000000000000001500000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000
   Cenario: 10

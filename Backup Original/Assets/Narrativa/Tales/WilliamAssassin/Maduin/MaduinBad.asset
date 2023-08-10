@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - Eu toquei muito mal.
   - "Como assim? Voc\xEA melhorou bastante desde a \xFAltima vez."
+  DialogueES:
+  - He tocado muy mal.
+  - "\xBFQu\xE9 quieres decir? Has mejorado mucho desde la \xFAltima vez."
   idchara: 1c0000001f000000
   instruction: 0000000000000000ea030000
   Cenario: 48

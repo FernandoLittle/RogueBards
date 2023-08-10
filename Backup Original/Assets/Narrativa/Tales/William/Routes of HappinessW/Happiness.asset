@@ -21,6 +21,10 @@ MonoBehaviour:
   - <color=purple>William</color>, como todo primata, queria ser feliz.
   - "Este era um desejo tolo que trazia ainda mais ang\xFAstia para sua alma miser\xE1vel."
   - "O que voc\xEA far\xE1 para alcan\xE7ar a felicidade?"
+  DialogueES:
+  - "<color=p\xFArpura>William</color>, como todo primate, quer\xEDa ser feliz."
+  - "Era un deseo insensato que trajo a\xFAn m\xE1s angustia a su alma miserable."
+  - "\xBFQu\xE9 har\xE1s para alcanzar la felicidad?"
   idchara: 000000000000000000000000
   instruction: 000000000000000000000000feffffff
   Cenario: 17

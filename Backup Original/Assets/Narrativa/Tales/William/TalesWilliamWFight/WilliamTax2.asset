@@ -28,6 +28,14 @@ MonoBehaviour:
   - "Voc\xEA est\xE1 feliz, <color=green>Vlad Burarth</color>? Eu estou, olhe para
     o meu <color=red>sorriso</color>."
   - O sonegador nunca mais sorriu.
+  DialogueES:
+  - "Si me dices qui\xE9n te contrat\xF3, te perdonar\xE9 la vida."
+  - <color=green>Vlad Burarth</color>.
+  - "<color=purple>William</color> mat\xF3 a ese asesino con mucho gusto."
+  - "Al d\xEDa siguiente, decidi\xF3 hacerle una visita al sonriente evasor."
+  - "\xBFEst\xE1s contento, <color=green>Vlad Burarth</color>? Lo estoy, mira mi
+    <color=red>sonrisa</color>."
+  - "El evasor de impuestos no volvi\xF3 a sonre\xEDr."
   idchara: 1c0000001600000000000000000000001c00000000000000
   instruction: 000000000000000000000000000000003609000000000000ea030000
   Cenario: 10

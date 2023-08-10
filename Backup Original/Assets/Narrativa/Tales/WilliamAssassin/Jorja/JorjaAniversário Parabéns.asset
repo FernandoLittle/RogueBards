@@ -33,6 +33,16 @@ MonoBehaviour:
   - "\"Odeio crian\xE7as.\""
   - "\"Pelo menos <color=#FF0080>Maduin</color> vai lev\xE1-la para um orfanato em
     breve e eu n\xE3o terei que lidar com isso novamente.\""
+  DialogueES:
+  - "Felicitaciones, \xBFcu\xE1ntos a\xF1os vas a cumplir?"
+  - Ocho.
+  - "Eso est\xE1 bien, no compr\xE9 nada, pero cuando cumplas nueve a\xF1os te comprar\xE9
+    un gran regalo."
+  - "<color=#FF0080>Jorja</color> empez\xF3 a llorar."
+  - "\"\xBFEst\xE1 llorando solo porque no le compr\xE9 un regalo?\""
+  - "\"Odio a los ni\xF1os\"."
+  - "\"Al menos <colour=#FF0080>Maduin</colour> la llevar\xE1 pronto a un orfanato
+    y no tendr\xE9 que volver a lidiar con esto\"."
   idchara: 1c000000220000001c000000000000001c0000001c0000001c000000
   instruction: 000000000000000000000000000000000000000000000000000000006b000000
   Cenario: 46

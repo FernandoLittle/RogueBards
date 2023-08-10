@@ -116,10 +116,49 @@ MonoBehaviour:
   - "Desculpa, eu bebi muito vinho, t\xF4 come\xE7ando a falar merda."
   - Vou beber mais uma garrafa e dormir.
   - Durma bem, Ebu.
-  - "Ebu \xE9 o caralho, meu nome \xE9 grande mestra Ebu Belmont Adae\u2026"
+  - "Ebu \xE9 o caralho, meu nome \xE9 Grande Mestra Ebu Belmont Adae\u2026"
   - 'To falando merda, durma bem.
 
 '
+  DialogueES:
+  - "La Luna est\xE1 hermosa hoy, \xBFno crees, <color=purple>William</color>?"
+  - "<color=purple>William</color> mir\xF3 la Luna que estaba en el cielo, en verdad
+    era muy hermosa, pero estaba rodeada por la inmensa oscuridad de la noche."
+  - "Por mucho que la luz de la luna y la oscuridad fueran diferentes, la imagen
+    de los dos uno al lado del otro era extremadamente natural, parec\xEDa que la
+    Luna y la Noche se amaban."
+  - "<color=purple>William</color> sinti\xF3 miedo y decidi\xF3 mirar algo m\xE1s
+    hermoso."
+  - "Como si tuviera nostalgia del pasado, Ebu ten\xEDa un semblante triste. <color=purple>William</color>
+    tuvo la impresi\xF3n de que ella solo pensaba en obscenidades y chistes malos,
+    pero en ese momento parec\xEDa estar contemplando algo m\xE1s profundo."
+  - "\xBFEn qu\xE9 est\xE1s pensando, Ebu?"
+  - Sobre el bien y el mal.
+  - Creo que soy una mala persona.
+  - "\xBFTiene alguna duda sobre esto?"
+  - Vete a la mierda.
+  - No creo que un asesino sea necesariamente malvado.
+  - "Al fin y al cabo, el orden de una civilizaci\xF3n nace de la violencia sistem\xE1tica."
+  - "\xBFDesea crear una nueva orden?"
+  - Al contrario, deseo destruir los engranajes de este mundo.
+  - "Pero soy una mala persona por otra raz\xF3n."
+  - "Disfruto viendo el terror en las caras de mis v\xEDctimas."
+  - "Cuanto m\xE1s poderosa y arrogante es una persona, m\xE1s placer me produce
+    ver su miedo."
+  - "Es un rasgo m\xEDo esencialmente s\xE1dico y malvado, pero \xBFqu\xE9 puedo
+    hacer? "
+  - Creo que es porque siempre me han gustado las cosas que dan miedo.
+  - Siempre me han apasionado las cosas que dan miedo.
+  - "\xBFSab\xEDas que mi nombre hace referencia a esto?"
+  - "\xBFA qu\xE9 te refieres?"
+  - Bu es el sonido que hace la gente cuando quiere asustar a alguien.
+  - Bu!
+  - "\xBFSe encuentra bien?"
+  - "Lo siento, he bebido demasiado vino, estoy empezando a decir tonter\xEDas."
+  - "Me tomar\xE9 otra botella y me ir\xE9 a dormir."
+  - Duerme bien, Ebu.
+  - Ebu es mi polla, mi nombre es Gran Maestra Ebu Belmont Adae...
+  - Estoy hablando mierda, duerme bien.
   idchara: 01000000000000000000000000000000000000001c00000001000000010000001c0000000100000001000000010000001c00000001000000010000000100000001000000010000000100000001000000010000001c00000001000000010000001c00000001000000010000001c0000000100000001000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009c090000000000007a000000
   Cenario: 54

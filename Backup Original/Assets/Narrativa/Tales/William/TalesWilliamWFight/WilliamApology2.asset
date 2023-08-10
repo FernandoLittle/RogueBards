@@ -76,6 +76,40 @@ MonoBehaviour:
   - "Aquele bardo come\xE7ou a ter dificuldade para respirar."
   - "Voc\xEA \xE9 mais... feliz... do que eu."
   - A <color=red>felicidade</color> de <color=red>William</color> aumentou.
+  DialogueES:
+  - 'El tercer pilar...
+
+'
+  - "<color=purple>William</color> ya se imaginaba que aquel bardo argumentar\xEDa
+    en contra del arresto y dir\xEDa algo sobre la libertad de expresi\xF3n.\n"
+  - "C\xE1llate, nada de lo que digas puede evitar que vayas a prisi\xF3n."
+  - "El tercer pilar de <color=red>Kuvira</color>... la libertad de expresi\xF3n.\n"
+  - "<colour=purple>William</colour> pens\xF3 en lo predecible que era aquel bardo,
+    ni siquiera comprend\xEDa que dormir\xEDa en la c\xE1rcel por alzar sus pu\xF1ales
+    contra un guerrero y no por la m\xFAsica que tocaba."
+  - "Los bardos sois demasiado cobardes para cometer cr\xEDmenes con vuestras propias
+    manos, pero vuestras canciones animan constantemente a la gente a infringir la
+    ley. <color=red>Kuvira</color> siempre ha dejado claro que nunca se permitir\xEDa
+    la apolog\xEDa del crimen."
+  - "S\xF3lo somos libres para estar de acuerdo con la <color=yellow>ley</color>."
+  - "El bardo se ech\xF3 a re\xEDr."
+  - "\xBFPor qu\xE9 te r\xEDes? Has perdido."
+  - "Perd\xED una pelea, pero gan\xE9 donde importa. Gan\xE9 en ser m\xE1s feliz,
+    porque mientras t\xFA decidiste ser esclavo de la <color=yellow>ley</color>,
+    yo decid\xED ser esclavo de mis pasiones. Incluso si muero ahora, estar\xE9 satisfecho
+    de haber vivido mi vida al m\xE1ximo."
+  - "\xBFEres m\xE1s feliz que yo?"
+  - "<color=p\xFArpura>William</color> redujo la felicidad de ese bardo."
+  - "\xBFY ahora?"
+  - Lo siento.
+  - "\r<color=purple>William</color> redujo la felicidad de ese bardo.\r\n\r\n\r\n\r\n\r\n\r\n"
+  - "\xA1Por favor! Para... por favor."
+  - "\xBFEres m\xE1s feliz que yo?"
+  - "\xA1Por favor! Para... por favor."
+  - "\xA1No... no!"
+  - "Ese bardo empez\xF3 a tener dificultades para respirar."
+  - "Eres m\xE1s... feliz... que yo."
+  - La <color=red>felicidad</color> de <color=red>William</color> ha aumentado.
   idchara: 0e000000000000001c0000000e000000000000001c0000000e000000000000001c0000000e0000001c000000000000001c0000000e000000000000000e0000001c0000000e0000000e000000000000000e00000000000000
   instruction: 00000000000000000000000000000000000000000000000099090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ea030000
   Cenario: 58

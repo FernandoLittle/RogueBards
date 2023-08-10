@@ -23,7 +23,7 @@ MonoBehaviour:
     <color=yellow>Sarka</color> had the courage to face <color=white>Ebu</color>.
   - Before long, <color=purple>William</color> found a list of rewards for warriors
     who had fought on <color=purple>Denai</color>.
-  - "\u201C<color=blue>Roy Ulbricht</color>\u201D."
+  - "\u201C<color=green>Roy Ulbricht</color>\u201D."
   - '"I''m on the right track, if the bounty on my father''s head is here then his
     letter of execution must be nearby as well."'
   - <color=purple>William</color>'s head began to itch.
@@ -53,7 +53,7 @@ MonoBehaviour:
   - Do not do it! Put out that match.
   - Want to hear a story, <color=#FF0080>Maduin</color>?
   - Put that matchstick out and I'll do whatever you want.
-  - William blew out the match and smiled.
+  - <color=purple>William</color> blew out the match and smiled.
   - Have you heard of the <color=purple>Denai</color> Massacre? A troop of warriors
     killed all the cannibals who lived in a village called <color=purple>Denai</color>,
     the same village where the former <color=red>king</color> of <color=yellow>Sarka</color>
@@ -87,8 +87,8 @@ MonoBehaviour:
   - Give it to me or I'll set everything on fire.
   - Put out that match, if you set everything on fire...
   - You will enter a path of no return.
-  - I entered a path of no return a long time ago just when I entered the Assassin's
-    Guild.
+  - I entered a path of no return a long time ago just when I entered the <color=yellow>Assassins
+    Guild</color>.
   - <color=purple>William</color> blew out the match again.
   - Exactly, <color=purple>William</color>, what will you do when you leave the Guild?
     Where are you going to live? Where are you going to work?
@@ -130,7 +130,7 @@ MonoBehaviour:
     coragem para enfrentar <color=white>Ebu</color>.\r\n"
   - "Em pouco tempo, <color=purple>William</color> encontrou uma lista de recompensas
     para os guerreiros que lutaram em <color=purple>Denai</color>.\r"
-  - "\u201C<color=blue>Roy Ulbricht</color>\u201D."
+  - "\u201C<color=green>Roy Ulbricht</color>\u201D."
   - "\u201CEstou no caminho certo, se a recompensa pela cabe\xE7a do meu pai est\xE1
     aqui ent\xE3o a carta de execu\xE7\xE3o dele tamb\xE9m deve estar por perto.\u201D\r"
   - "A cabe\xE7a de <color=purple>William</color> come\xE7ou a co\xE7ar.\r"
@@ -198,7 +198,7 @@ MonoBehaviour:
   - "Apague esse f\xF3sforo, se voc\xEA botar fogo em tudo\u2026"
   - "Voc\xEA entrar\xE1 em um caminho sem volta."
   - "Eu entrei em um caminho sem volta a muito tempo atr\xE1s justamente quando eu
-    entrei na Guilda de Assassinos.\r"
+    entrei na <color=yellow>Guilda de Assassinos</color>.\r"
   - "<color=purple>William</color> soprou o f\xF3sforo novamente.\r\n"
   - "Exatamente, <color=purple>William</color>, o que voc\xEA far\xE1 quando abandonar
     a Guilda? Onde voc\xEA vai morar? Onde voc\xEA vai trabalhar?"
@@ -227,11 +227,123 @@ MonoBehaviour:
   - "Eu n\xE3o tenho amigos, as \xFAnicas pessoas que me amam s\xE3o a minha fam\xEDlia."
   - "<color=purple>William</color>, sua fam\xEDlia est\xE1 morta!"
   - "Eu disse para voc\xEA n\xE3o falar da minha fam\xEDlia, filho da puta."
-  - "Maduin n\xE3o tentou se defender quando <color=purple>William</color> o socou."
+  - "<color=#FF0080>Maduin</color> n\xE3o tentou se defender quando <color=purple>William</color>
+    o socou."
   - "Voc\xEA quer brigar, <color=purple>William</color>? \r"
   - "\xD3timo."
   - "Porque se voc\xEA quiser que eu te d\xEA a carta de execu\xE7\xE3o do seu pai,
     voc\xEA ter\xE1 que me derrotar."
+  DialogueES:
+  - "El gran d\xEDa ha llegado."
+  - "El cuarto prohibido finalmente se abri\xF3."
+  - "<color=white>Ebu</color> finalmente asign\xF3 a <color=purple>William</color>
+    para organizar la sala de documentos."
+  - "En esa sala se almacenaban varios l\xEDquidos inflamables para que las pruebas
+    contra el Gremio pudieran destruirse r\xE1pidamente. Esto no fue muy \xFAtil
+    ya que ning\xFAn guerrero en <color=yellow>Sarka</color> tuvo el coraje de enfrentarse
+    a <color=white>Ebu</color>."
+  - "En poco tiempo, <color=purple>William</color> encontr\xF3 una lista de recompensas
+    para los guerreros que hab\xEDan luchado en <color=purple>Denai</color>."
+  - "\u201C<color=green>Roy Ulbricht</color>\u201D."
+  - "\"Estoy en el camino correcto, si la recompensa por la cabeza de mi padre est\xE1
+    aqu\xED, entonces su carta de ejecuci\xF3n tambi\xE9n debe estar cerca\"."
+  - "La cabeza de <color=purple>William</color> comenz\xF3 a picar."
+  - "Ley\xF3 varias cartas de ejecuci\xF3n."
+  - Le picaba mucho la cabeza.
+  - "Encontr\xF3 las cartas de ejecuci\xF3n de casi todos los guerreros que participaron
+    en la Masacre de <color=purple>Denai</color>."
+  - Su cabeza no dejaba de picar.
+  - "Los l\xEDquidos inflamables se derramaron por toda la habitaci\xF3n y empaparon
+    la mayor\xEDa de los papeles."
+  - "<color=#FF0080>Maduin</color>, ven a ayudarme aqu\xED, por favor."
+  - "Un fuerte olor a alcohol llam\xF3 la atenci\xF3n de <color=#FF0080>Maduin</color>
+    y cuando entr\xF3 en la sala de documentos una escena horrible lo sorprendi\xF3."
+  - "Casi todos los documentos fueron tirados al piso como si un tornado hubiera
+    pasado por esa habitaci\xF3n. Cientos de papeles amarillentos por el tiempo y
+    empapados de alcohol cubr\xEDan el lugar."
+  - El cabello de <color=purple>William</color> estaba todo desordenado como si el
+    tornado hubiera nacido en su cabeza y su rostro mostraba una sonrisa loca como
+    si disfrutara del caos que traen los tornados.
+  - "Pero en su mano hab\xEDa algo diferente, papel seco y claro como la nieve, completamente
+    intacto, como si nunca hubiera sido golpeado por ning\xFAn viento."
+  - "Termin\xE9 dejando caer estos papeles por accidente\u2026 Tambi\xE9n derram\xE9
+    alcohol por todo el lugar."
+  - Soy muy torpe...
+  - Yo...
+  - "Yo... yo\u2026"
+  - "<color=purple>William</color> encendi\xF3 una cerilla."
+  - "\xA1No hagas eso! Apaga esa cerilla."
+  - "\xBFQuieres o\xEDr una historia, <color=#FF0080>Maduin</color>? "
+  - "Apaga la llama de esa cerilla y har\xE9 lo que quieras."
+  - "<color=purple>William</color> apag\xF3 la cerilla y sonri\xF3."
+  - "\xBFHas o\xEDdo hablar de la Masacre de <color=purple>Denai</color>? Una tropa
+    de guerreros mat\xF3 a todos los can\xEDbales que viv\xEDan en un pueblo llamado
+    <color=purple>Denai</color>, el mismo pueblo donde el antiguo <color=red>rey</color>
+    de <color=yellow>Sarka</ color> fue asesinado."
+  - "Encontr\xE9 un documento, una... una lista de recompensas por las cabezas de
+    los guerreros que participaron en la masacre."
+  - <color=yellow>Yuri Vitch</color>, 30 Golden Owls, <color=yellow>Marcus Orlov</color>,,
+    10 Golden Owls, <color=green>Roy Ulbricht</color>, 15 Golden Owls.
+  - "\xBF<color=green>Ulbricht</color>? Qu\xE9 casualidad, tiene el mismo apellido
+    que el m\xEDo."
+  - <color=purple>William</color>, ya entiendo lo que...
+  - "C\xE1llate, <color=#FF0080>Maduin</color>, no he terminado mi historia."
+  - "No solo encontr\xE9 la lista de recompensas, sino que tambi\xE9n encontr\xE9
+    varias cartas de ejecuci\xF3n. Este, por ejemplo, dice que <color=yellow>Yuri
+    Vitch</color> fue asesinado a pu\xF1aladas por <color=yellow>Jiri</color> hace
+    5 a\xF1os, estos documentos est\xE1n muy bien detallados, el <color=yellow>El
+    Gremio de Asesinos</color> es muy organizado."
+  - "\xBFSabes lo que me pareci\xF3 muy curioso? Ocho guerreros recibieron recompensas
+    por sus cabezas, pero s\xF3lo encontr\xE9 siete cartas de ejecuci\xF3n."
+  - "El \xFAnico guerrero que no ten\xEDa carta de ejecuci\xF3n era <color=green>Roy
+    Ulbricht</color>, el guerrero que llevaba mi apellido. Qu\xE9 extra\xF1a coincidencia,
+    \xBFno?"
+  - "Cre\xED que os enga\xF1aba, pero el enga\xF1ado fui yo todo el tiempo."
+  - "Sab\xEDas la verdad desde el principio."
+  - "Sab\xEDas que mi padre fue asesinado por el Gremio y que me un\xED a vosotros
+    s\xF3lo porque quer\xEDa averiguar qui\xE9n hab\xEDa asesinado a mi padre, <color=green>Roy
+    Ulbricht</color>."
+  - Acabo de descubrir esto hace poco, estaba ordenando documentos y...
+  - "<colour=purple>William</colour> encendi\xF3 una nueva cerilla."
+  - "As\xED que fuiste t\xFA quien escondi\xF3 la carta de ejecuci\xF3n de mi padre.
+    Dame la maldita carta, necesito saber qui\xE9n mat\xF3 a mi padre."
+  - "<color=purple>William</color>\u2026"
+  - "Entr\xE9game o le prender\xE9 fuego a todo."
+  - Apaga esa cerilla, si prendes fuego a todo....
+  - "Entrar\xE1s en un camino sin retorno."
+  - "Entr\xE9 en un camino sin retorno hace mucho tiempo, justo cuando me un\xED
+    al <color=yellow>El Gremio de Asesinos</color>."
+  - "<colour=purple>William</colour> volvi\xF3 a soplar la cerilla."
+  - "Exactamente, <color=purple>William</color>, \xBFqu\xE9 har\xE1s cuando dejes
+    el Gremio? \xBFD\xF3nde vivir\xE1s? \xBFD\xF3nde trabajar\xE1s?"
+  - "No me interesa, duermo en la calle y me convierto en mendigo si hace falta,
+    lo \xFAnico que me interesa es la maldita venganza que he planeado durante a\xF1os."
+  - "\xBFCrees que la venganza te traer\xE1 la paz? \xBFTe levantar\xE1s cada d\xEDa
+    feliz por haberte vengado? "
+  - "No, no lo har\xE1s. La felicidad no est\xE1 en un gran momento de tu vida, la
+    felicidad est\xE1 en las peque\xF1as experiencias de tu d\xEDa. La felicidad
+    est\xE1 en un chiste divertido, en una comida sabrosa, en una m\xFAsica profunda.
+    La felicidad est\xE1 en los momentos que pasamos junto a nuestros amigos."
+  - "Ya tienes las manos manchadas de sangre, <color=purple>William</color>, los
+    \xFAnicos amigos de verdad que tendr\xE1s est\xE1n aqu\xED. Nadie m\xE1s que
+    nosotros te aceptar\xE1 como eres despu\xE9s de haber matado a tanta gente."
+  - "\xBFMe aceptar\xE1s despu\xE9s de que mate al asesino de mi padre? Claro que
+    no, al final no sois mis amigos."
+  - "Piensa, <color=purple>William</color>, t\xFA mismo has matado a personas que
+    cometieron cr\xEDmenes mucho menores que los de tu padre."
+  - "Su padre llev\xF3 a cabo una masacre."
+  - No hables de mi padre con tu boca sucia.
+  - Tienes que elegir.
+  - "\xBFQu\xE9 es m\xE1s importante para ti? \xBFTu venganza o tus amigos?"
+  - "No tengo amigos, los \xFAnicos que me aman son mi familia."
+  - "<color=purple>William</color>, \xA1tu familia est\xE1 muerta!"
+  - Te dije que no hablaras de mi familia, hijo de puta.
+  - "<colour=#FF0080>Maduin</colour> no intent\xF3 defenderse cuando <colour=purple>William</colour>
+    le propin\xF3 un golpe."
+  - "\xBFQuieres pelear, <color=purple>William</color>? "
+  - Muy bien.
+  - "Porque si quieres que te d\xE9 la carta de ejecuci\xF3n de tu padre, tendr\xE1s
+    que vencerme."
   idchara: 00000000000000000000000000000000000000001c0000001c0000000000000000000000000000000000000000000000000000001c000000000000000000000000000000000000001c0000001c0000001c0000001c000000000000001f0000001c0000001f000000000000001c0000001c0000001c0000001c0000001f0000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001f000000000000001c0000001f0000001c0000001f0000001f0000001c000000000000001f0000001c0000001f0000001f0000001f0000001c0000001f0000001f0000001c0000001f0000001f0000001c0000001f0000001c000000000000001f0000001f0000001f000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000023000000
   Cenario: 47

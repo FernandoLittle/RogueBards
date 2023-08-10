@@ -43,6 +43,21 @@ MonoBehaviour:
   - que
   - "voc\xEA"
   - implore
+  DialogueES:
+  - escribe
+  - mis
+  - palabras
+  - el
+  - "d\xE9bil"
+  - ruega
+  - el
+  - fuerte
+  - determina
+  - yo
+  - determino
+  - que
+  - "t\xFA"
+  - ruegues
   idchara: 
   instruction: 
   Cenario: 0

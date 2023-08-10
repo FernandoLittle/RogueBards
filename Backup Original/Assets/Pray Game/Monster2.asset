@@ -55,6 +55,25 @@ MonoBehaviour:
   - da
   - vida
   - humana
+  DialogueES:
+  - estoy
+  - imaginando
+  - cosas
+  - "espantap\xE1jaros"
+  - "qu\xE9date"
+  - "aqu\xED"
+  - no
+  - quiero
+  - ver
+  - "m\xE1s"
+  - cuervos
+  - picando
+  - la
+  - fuente
+  - de
+  - la
+  - vida
+  - humana
   idchara: 
   instruction: 
   Cenario: 0

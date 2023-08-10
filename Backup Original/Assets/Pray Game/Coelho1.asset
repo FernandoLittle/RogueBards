@@ -43,6 +43,19 @@ MonoBehaviour:
   - um
   - ser
   - indefeso
+  DialogueES:
+  - yo
+  - 'te '
+  - "matar\xE9"
+  - porque
+  - soy
+  - fuerte
+  - y
+  - "t\xFA"
+  - eres
+  - un
+  - ser
+  - indefenso
   idchara: 
   instruction: 
   Cenario: 0

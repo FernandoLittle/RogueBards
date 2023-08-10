@@ -33,6 +33,16 @@ MonoBehaviour:
     poderosos que criam e executam as leis."
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - "Daremos nossa espada e nosso cora\xE7\xE3o para cumprir a lei."
+  DialogueES:
+  - 'En <color=yellow>Sarka</color> un asesino dijo:'
+  - "La ley que crea todas las dem\xE1s es la ley del m\xE1s fuerte, lo que los asesinos
+    llaman el Documento del Gremio y lo que los guerreros llaman la Constituci\xF3n
+    Federal no son m\xE1s que manifestaciones de la voluntad del fuerte."
+  - "La voluntad del fuerte no tiene obligaci\xF3n de ser consecuente con la justa
+    y la moral, y eso es exactamente lo que vemos por todas partes, reglas que sirven
+    a los poderosos que crean y ejecutan las leyes."
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
+  - "Daremos nuestra espada y nuestro coraz\xF3n para ejecutar la ley."
   idchara: 0000000000000000000000000000000000000000
   instruction: 00000000ec03000031090000000000000000000069000000
   Cenario: 70

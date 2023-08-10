@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - Acho que ficou bom.
   - "Como assim? Voc\xEA tocou bem melhor do que eu."
+  DialogueES:
+  - "Creo que est\xE1 bien."
+  - "\xBFComo asi? Tocaste mucho mejor que yo."
   idchara: 1c0000001f000000
   instruction: 00000000e8030000ea030000
   Cenario: 48

@@ -35,6 +35,17 @@ MonoBehaviour:
     do mal."
   - 'Em <color=yellow>Sarka</color> um guerreiro disse:'
   - "Assassinos s\xE3o maus."
+  DialogueES:
+  - 'En <color=yellow>Sarka</color> un asesino dijo:'
+  - "La rana no es mala por matar una mosca porque no eligi\xF3 ser una rana. El
+    humano no es malvado por matar una rana porque no eligi\xF3 ser humano. El \xE1ngel
+    no es malvado por matar a un humano porque no eligi\xF3 ser un \xE1ngel."
+  - "Pero todo ser ve a sus depredadores como malvados, porque aunque ese mismo ser
+    tambi\xE9n sea un depredador, todo maldito animal se cree el ser m\xE1s importante
+    del universo y cualquiera que atente contra su existencia ser\xE1 la encarnaci\xF3n
+    del mal."
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
+  - Los asesinos son malvados.
   idchara: 0000000000000000000000000000000000000000
   instruction: 00000000ec03000032090000000000000000000069000000
   Cenario: 74

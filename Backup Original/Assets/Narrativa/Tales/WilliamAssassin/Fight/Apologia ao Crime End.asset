@@ -86,7 +86,47 @@ MonoBehaviour:
   - "Quem governa este mundo \xE9 quem est\xE1 disposto a usar a viol\xEAncia contra
     aqueles que v\xE3o contra a sua vontade."
   - "Essa \xE9 a verdadeira <color=yellow>Lei</color> deste mundo."
-  DialogueES: []
+  DialogueES:
+  - "\xBFPor qu\xE9 yo?"
+  - "Y nunca he robado, siempre he sido un pol\xEDtico honrado, siempre he pensado
+    en el bien de <color=yellow>Sarka</color>."
+  - "\xBFPor qu\xE9 me elegiste como v\xEDctima?"
+  - "Porque votaste por una ley que prohib\xEDa a los peri\xF3dicos publicar noticias
+    antipatri\xF3ticas."
+  - "\xA1Yo vot\xE9 en contra de esta ley!"
+  - "Oh, lo siento, me confund\xED, tu nombre es <color=yellow>Romeu Hatter</color>
+    \xBFverdad?"
+  - "<color=yellow>Romeu</color>... hab\xEDas votado a favor de la ley...."
+  - "\xA1Ya me acord\xE9! Votaste a favor de la ley que prohib\xEDa la canci\xF3n
+    \"Luna ten\xEDa raz\xF3n\". "
+  - "No sab\xEDa que las leyes pod\xEDan ser tan espec\xEDficas como para citar una
+    canci\xF3n en particular."
+  - "\xBFHablas en serio? El parlamento de <color=yellow>Sarka</color> est\xE1 totalmente
+    podrido, aqu\xED se han aprobado leyes verdaderamente absurdas, leyes que realmente
+    han destruido este pa\xEDs, y ni siquiera he empezado a hablar de toda la corrupci\xF3n
+    que existe."
+  - "\xBFY vas a matarme por una ley rid\xEDcula como esa? Yo s\xF3lo he seguido
+    la l\xEDnea del partido a la hora de votar, me importa un bledo lo que canten
+    los bardos."
+  - "Los pol\xEDticos son muy buenos dando discursos, incluso ante la muerte conseguiste
+    elaborar buenos argumentos que casi me hacen cambiar de opini\xF3n."
+  - "Pero est\xE1s ignorando algo."
+  - "Te eleg\xED precisamente porque no hiciste nada muy grave."
+  - "Como dir\xEDa <color=blue>Adams</color>:"
+  - "\"La verdadera libertad s\xF3lo se obtiene cuando defendemos el derecho a practicar
+    lo f\xFAtil y lo inmoral\"."
+  - "Si un pol\xEDtico sufre un castigo brutal por atacar una peque\xF1a libertad,
+    imag\xEDnese el miedo que tendr\xE1n otros pol\xEDticos a atacar las libertades
+    realmente importantes."
+  - No puedes...
+  - "<colour=purple>William</colour> tap\xF3 la boca del pol\xEDtico y desenvain\xF3
+    su daga."
+  - Silencio, ya hemos hablado bastante.
+  - "Eres muy bueno argumentando y persuadiendo, pero no son los pol\xEDticos los
+    que gobiernan este mundo."
+  - "Los que gobiernan este mundo son los que est\xE1n dispuestos a utilizar la violencia
+    contra los que van en contra de su voluntad."
+  - Esa es la verdadera <color=yellow>Ley</color> de este mundo.
   idchara: 2700000027000000270000001c000000270000001c0000001c0000001c0000001c00000027000000270000001c0000001c0000001c0000001c0000001c0000001c00000027000000000000001c0000001c0000001c0000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000097090000000000000000000000000000ea030000
   Cenario: 59

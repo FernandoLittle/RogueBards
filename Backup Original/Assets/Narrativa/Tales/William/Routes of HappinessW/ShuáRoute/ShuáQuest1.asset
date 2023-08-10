@@ -57,6 +57,27 @@ MonoBehaviour:
   - "\u201CSe <color=#FF0080>Shu\xE1</color> perdoa essa esc\xF3ria ent\xE3o eu sou
     um idiota, \xE9 muito melhor ser um criminoso e viver para si mesmo. Eu s\xF3
     preciso de um <color=#FF0080>monge</color> para me perdoar antes que eu morra.\u201D"
+  DialogueES:
+  - "\xBFDe d\xF3nde ven\xEDa esa ira?"
+  - "<colour=purple>\xBFWilliam</colour> estaba furioso con esos pecadores?"
+  - No.
+  - "Aunque esos matones fueran violadores e infanticidas, no le molestaba porque
+    se acostumbr\xF3 a convivir con ese tipo de escoria cuando trabajaba como guerrero."
+  - "<colour=purple>William</colour> estaba furioso con el <colour=#FF0080>monje</colour>.
+    Aquel maldito seguidor de <colour=#FF0080>Shu\xE1</colour> estaba curando las
+    heridas de aquellos bandidos, escuchando sus pecados y perdon\xE1ndolos."
+  - "El dolor f\xEDsico de los criminales no desaparec\xEDa cuando sus heridas eran
+    tratadas, pero el dolor mental desaparec\xEDa cuando eran perdonados por el <color=#FF0080>monje</color>."
+  - "Aquel est\xFApido monje cre\xEDa que los criminales estaban arrepentidos, pero
+    <color=purple>William</color> sab\xEDa que s\xF3lo tem\xEDan el castigo divino."
+  - "\"Espero que cojan una infecci\xF3n y mueran\"."
+  - "\"Ese <color=#FF0080>monje</color> hijo de puta me minti\xF3, pens\xE9 que esta
+    misi\xF3n ayudar\xEDa a las verdaderas v\xEDctimas de la guerra\"."
+  - "\"No dej\xE9 <colour=yellow>Sarka</colour> y vine a un pa\xEDs en guerra queriendo
+    ayudar a esos malditos criminales\"."
+  - "\"Si <color=#FF0080>Shu\xE1</color> perdona a esta escoria entonces soy un idiota,
+    es mucho mejor ser un criminal y vivir para uno mismo. S\xF3lo necesito un <color=#FF0080>monge</color>
+    que me perdone antes de morir\"."
   idchara: 000000000000000000000000000000000000000000000000000000001c0000001c0000001c0000001c000000
   instruction: 000000000000000000000000000000000000000066080000000000000000000000000000000000000000000041010000
   Cenario: 42

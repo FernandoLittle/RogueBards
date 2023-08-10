@@ -122,6 +122,62 @@ MonoBehaviour:
   - "<color=#FF0080>Jorja</color> olhou para cima tentando ver o rosto de <color=purple>William</color>,
     por\xE9m ela n\xE3o conseguia j\xE1 que ele tamb\xE9m estava olhando para cima."
   - "Dessa forma, ele foi capaz de esconder suas l\xE1grimas."
+  DialogueES:
+  - Al diablo esto.
+  - "<colour=#FF0080>Jorja</colour> empez\xF3 a llorar."
+  - "\u2026"
+  - "\xBFPor qu\xE9 has hecho eso, <colour=purple>William</colour>? La <colour=#FF0080>Jorja</colour>
+    est\xE1 herida."
+  - "\u2026"
+  - "Disc\xFAlpate con ella."
+  - "\xBFDisculparme? Yo destru\xED su vida. "
+  - "Yo mat\xE9 a su madre. \xBFC\xF3mo puedo disculparme?"
+  - "No puedo hacer nada para arreglar mis errores, as\xED que no voy a tener el
+    valor de pedir perd\xF3n."
+  - "La \xFAnica opci\xF3n que tengo es cargar con mis pecados."
+  - Ya veo, fuiste grosero porque quieres que la chica te odie.
+  - "Somos asesinos, no ni\xF1eras, esta ni\xF1a deber\xEDa estar en un orfanato,
+    \xBFpor qu\xE9 no te la llevaste todav\xEDa?"
+  - "Porque tendr\xEDa que explicar la misteriosa desaparici\xF3n de su madre al
+    orfanato."
+  - "Y supongo que decir la verdad no es una opci\xF3n, \xBFverdad?"
+  - "Unas d\xE9cimas de d\xEDa despu\xE9s, <color=purple>William</color> comenz\xF3
+    a cuestionarse a s\xED mismo:"
+  - "\xBFLe gustar\xE1 esta mu\xF1eca? No parece muy bonita, pero era la m\xE1s grande
+    que hab\xEDa. A la mierda, si no le gusta es su problema."
+  - "Afortunadamente, a <colour=#FF0080>Jorja</colour> le gust\xF3 mucho el regalo."
+  - "Nunca me gustaron los cumplea\xF1os."
+  - "\xBFPor qu\xE9?"
+  - "Para m\xED no es m\xE1s que una tradici\xF3n hecha para que la gente demuestre
+    afecto falso y finja que son especiales una vez al a\xF1o."
+  - "No creo que seas especial en tu cumplea\xF1os, <color=#FF0080>Jorja</color>."
+  - "Creo que eres especial todos los d\xEDas."
+  - "\xBFEs verdad?"
+  - "No, solo te conozco desde hace unos d\xEDas, as\xED que realmente no me preocupo
+    por ti. Pero no siento apat\xEDa por ti, eso significa que eres mucho mejor que
+    el promedio de la humanidad."
+  - "El rostro de <color=#FF0080>Jorja</color> volvi\xF3 a la tristeza."
+  - "\xA1Ey! No llores, compr\xE9 una mu\xF1eca, \xBFrecuerdas?"
+  - "M\xEDrame, soy una mu\xF1eca voladora, ieeeee."
+  - "Ver a <colour=purple>William</colour> jugando con una mu\xF1eca hizo re\xEDr
+    a <colour=#FF0080>Jorja</colour>."
+  - Gracias, <color=purple>Will</color>.
+  - ...
+  - "No deber\xEDas agradec\xE9rmelo, ni\xF1a."
+  - "\xBFPor qu\xE9?"
+  - "\xBFRecuerdas las inyecciones que se pon\xEDa tu madre? Yo era quien vend\xEDa
+    esas inyecciones."
+  - 'Esas inyecciones destruyeron la vida de su madre y destruyeron su vida. '
+  - "Sab\xEDa que eso iba a pasar, pero no me importaba, s\xF3lo quer\xEDa dinero. "
+  - Soy malvado, <color=#FF0080>Jorja</color>.
+  - "Era completamente en vano intentar parecer serio y fr\xEDo, <colour=purple>William</colour>
+    no pod\xEDa disimular la tristeza en su rostro. <colour=#FF0080>Jorja</colour>
+    fue inmediatamente hacia \xE9l para abrazarlo."
+  - No eres malo, eres bueno.
+  - "<colour=#FF0080>Jorja</colour> levant\xF3 la vista intentando ver la cara de
+    <colour=purple>William</colour>, pero no pudo ya que \xE9l tambi\xE9n estaba
+    mirando hacia arriba."
+  - "As\xED pudo ocultar sus l\xE1grimas."
   idchara: 1c00000000000000000000001f0000001c0000001f0000001c0000001c0000001c0000001c0000001f0000001c0000001f0000001f000000000000001c000000000000001c000000220000001c0000001c0000001c000000220000001c000000000000001c0000001c00000000000000220000001c0000001c000000220000001c0000001c0000001c0000001c00000000000000220000000000000000000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b000000
   Cenario: 46

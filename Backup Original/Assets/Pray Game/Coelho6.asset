@@ -49,6 +49,20 @@ MonoBehaviour:
   - apagar
   - meus
   - erros
+  DialogueES:
+  - "cargar\xE9"
+  - todos
+  - mis
+  - pecados
+  - sobre
+  - mi
+  - espalda
+  - para
+  - siempre
+  - y
+  - nadie
+  - "podr\xE1"
+  - perdonarme
   idchara: 
   instruction: 
   Cenario: 0

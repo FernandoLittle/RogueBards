@@ -36,6 +36,19 @@ MonoBehaviour:
     todos os vagabundos que tentam acorrentar outros com as correntes da civiliza\xE7\xE3o."
   - Em <color=yellow>Sarka</color> um guerreiro disse.
   - "Daremos nossas vidas pela lei, pela ordem e pela na\xE7\xE3o."
+  DialogueES:
+  - 'En <color=yellow>Sarka</color> un asesino dice:'
+  - "La civilizaci\xF3n ha sabido convertir la naturaleza en una herramienta a lo
+    largo de las estaciones."
+  - "Pero el ser humano tambi\xE9n es parte de la naturaleza, por lo que dej\xF3
+    de vivir para s\xED mismo y se convirti\xF3 en una herramienta."
+  - Cuando el humano va a la escuela, trabaja, paga sus impuestos y muere en la guerra,
+    evoluciona como sirviente de <color=yellow>Lyoko</color>.
+  - "El Gremio es el mayor enemigo del mundo civilizado, ya que su objetivo es acabar
+    con todos los vagabundos que intentan encadenar a otros con las cadenas de la
+    civilizaci\xF3n."
+  - 'En <color=yellow>Sarka</color> un guerrero dijo:'
+  - "Daremos nuestras vidas por la ley, el orden y la naci\xF3n."
   idchara: 00000000000000000000000000000000000000000000000000000000
   instruction: 0000000000000000ec0300009509000000000000000000000000000069000000
   Cenario: 71

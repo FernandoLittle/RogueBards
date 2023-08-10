@@ -69,7 +69,35 @@ MonoBehaviour:
   - "Os varsianos mataram brutalmente o <color=#FF0080>monge</color> shuano porque\u2026"
   - "Este n\xE3o \xE9 o mundo de <color=#FF0080>Shu\xE1</color>."
   - "<color=black>Este \xE9 o meu mundo. </color>"
-  DialogueES: []
+  DialogueES:
+  - "Podr\xEDa matarte aqu\xED, pero eso no es lo que <color=#FF0080>Shu\xE1</color>
+    nos ense\xF1\xF3. Hemos venido a ayudar a todas las v\xEDctimas y a todos los
+    heridos que hay en ambos bandos. Dejadnos en paz."
+  - "No me gustas, pero recompensar\xE9 tu misericordia. Tengo informaci\xF3n que
+    podr\xEDa salvarte."
+  - "Vienen m\xE1s soldados hacia aqu\xED. Eres fuerte, pero no podr\xE1s derrotarlos
+    a todos, te sugiero que huyas. S\xF3lo queremos matar a los Mirian que est\xE1n
+    aqu\xED."
+  - "Huye, <color=purple>William</color>, has hecho un buen trabajo, <color=#FF0080>Shu\xE1</color>
+    se alegra de ver tus virtudes."
+  - "Me quedar\xE9 aqu\xED para defender a los mirianos."
+  - "O\xEDste los pecados que cometieron estos bastardos, \xBFpor qu\xE9 arriesgar\xEDas
+    tu vida por ellos?"
+  - "La verdadera misi\xF3n de los seguidores de <color=#FF0080>Shu\xE1</color> es
+    conducir a los pecadores al camino de la virtud. Esos mirianos se arrepintieron
+    de sus pecados, no puedo permitir que tengan una muerte brutal."
+  - "No hay forma de que puedas calmar la ira de los Varsianos. Si te quedas aqu\xED
+    morir\xE1s por nada."
+  - "Un monje no teme a la muerte, nuestro \xFAnico temor es desviarnos del camino
+    de la virtud."
+  - Vete, mi <color=purple>sir</color>.
+  - "Vete, <color=purple>William</color>, encuentra tu felicidad como yo he encontrado
+    la m\xEDa. Encuentra el amor Shuano y dif\xFAndelo por este mundo de guerra."
+  - "<colour=purple>William</colour> no mir\xF3 hacia atr\xE1s cuando sali\xF3 corriendo,
+    pero sab\xEDa lo que hab\xEDa pasado, ya que era algo obvio."
+  - Los varsianos mataron brutalmente al <color=#FF0080>monge</color> shuano porque....
+  - "Este no es el mundo de <colour=#FF0080>Shu\xE1</colour>."
+  - <color=black>Este es mi mundo. </color>
   idchara: 1c000000180000001800000019000000190000001c000000190000001c00000019000000190000001900000000000000000000000000000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008e030000
   Cenario: 14

@@ -45,7 +45,22 @@ MonoBehaviour:
   - "Ao inv\xE9s de investir furiosamente contra seu advers\xE1rio, <color=purple>William</color>
     continuou com seu discurso desinteressante, permitindo que <color=#00B2FF>Simon</color>
     se preparasse para a luta."
-  DialogueES: []
+  DialogueES:
+  - "Por muy bello que sea algo, todo en este mundo se descompondr\xE1 ante las arenas
+    del tiempo. "
+  - "Un ejemplo de este divertido hecho fue la puerta de la casa de <color=#00B2FF>Simon
+    Derrida</color>. Por muy buena que fuera la calidad del roble y por muy bueno
+    que fuera el carpintero que la tall\xF3, el tiempo no la ha perdonado."
+  - "No s\xF3lo el tiempo no la perdon\xF3, de una sola patada <color=p\xFArpura>William</color>
+    derrib\xF3 aquella puerta, <color=#00B2FF>Simon</color> que le\xEDa el libro
+    \"Reflexiones sobre la democracia de Sangla\" se levant\xF3 despavorido y corri\xF3
+    hacia la sala donde guardaba sus armas como si fuera un ni\xF1o corriendo hacia
+    sus padres tras ser sorprendido por un trueno."
+  - "Hoy es el d\xEDa de su muerte <color=#00B2FF>Simon Derrida</color>, he esperado
+    mucho tiempo para vengar a mi familia."
+  - "En lugar de cargar furiosamente contra su adversario, <colour=purple>William</colour>
+    continu\xF3 con su poco interesante discurso, permitiendo que <colour=#00B2FF>Simon</colour>
+    se preparara para el combate."
   idchara: 0000000000000000000000001c00000000000000
   instruction: 000000000000000000000000000000000000000024000000
   Cenario: 60

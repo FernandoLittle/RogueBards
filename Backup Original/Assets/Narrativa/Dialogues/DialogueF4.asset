@@ -30,7 +30,14 @@ MonoBehaviour:
     reduz o dano verdadeiro."
   - '<color=red>Vida</color>: Quando a vida de um humano chega a 0, ele morre.'
   - "Ap\xF3s quatro rodadas, o humano com a vida mais alta vence."
-  DialogueES: []
+  DialogueES:
+  - 'Los humanos tienen 3 atributos:'
+  - "<colour=#80FF80>Ataque</colour>: muchas habilidades infligen da\xF1o en funci\xF3n
+    del ataque del humano."
+  - "<color=#FFFF80>Defensa</color>: reduce el da\xF1o que recibe tu humano, pero
+    no reduce el da\xF1o verdadero."
+  - "<color=red>Vida</color>: Cuando la vida de un humano llega a 0, \xE9ste muere."
+  - "Despu\xE9s de cuatro rondas, gana el humano con m\xE1s vida."
   idchara: 0000000000000000000000000000000000000000
   instruction: 100000001100000012000000130000001400000001000000
   Cenario: 0

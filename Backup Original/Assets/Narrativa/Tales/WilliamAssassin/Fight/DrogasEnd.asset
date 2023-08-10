@@ -49,6 +49,25 @@ MonoBehaviour:
     da justi\xE7a."
   - "A lei nada mais \xE9 do que a vontade dos fortes."
   - "E a minha for\xE7a me deu o direito de impor minhas leis sobre voc\xEA."
+  DialogueES:
+  - La justicia siempre gana.
+  - "Un d\xEDa ser\xE1s arrestado, asesino."
+  - "He luchado toda mi vida por la ley de <color=yellow>Sarka</color>, incluso despu\xE9s
+    de que muera, otros heredar\xE1n mi prop\xF3sito."
+  - "Porque la ley est\xE1 por encima de todo."
+  - "\xBFHas terminado tu discurso?"
+  - "\u2026"
+  - "Estoy de acuerdo contigo, \xBFsabes?"
+  - "La ley est\xE1 por encima de todo, lamentablemente mi ley prev\xE9 la pena de
+    muerte para delincuentes como t\xFA."
+  - "\xBFDe qu\xE9 est\xE1s hablando? Nunca comet\xED un solo crimen en mi vida."
+  - "Tu ley dice que eres un trabajador honesto que mand\xF3 a la c\xE1rcel a traficantes
+    criminales."
+  - "Pero mi ley dice que estos narcotraficantes eran trabajadores honrados que fueron
+    secuestrados por orden de un juez delincuente que dice ser el guardi\xE1n de
+    la justicia."
+  - "La ley no es m\xE1s que la voluntad de los fuertes."
+  - Y mi fuerza me dio el derecho de imponerte mis leyes.
   idchara: 2a0000002a0000002a0000002a0000001c0000002a0000001c0000001c0000002a0000001c0000001c0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a08000000000000ea030000
   Cenario: 35

@@ -47,6 +47,19 @@ MonoBehaviour:
   - pode
   - me
   - redimir
+  DialogueES:
+  - necesito
+  - matarte
+  - para
+  - vivir
+  - pero
+  - nada
+  - "justificar\xE1"
+  - mis
+  - acciones
+  - nada
+  - puede
+  - redimirme
   idchara: 
   instruction: 
   Cenario: 0

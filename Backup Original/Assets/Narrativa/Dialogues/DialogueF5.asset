@@ -34,7 +34,17 @@ MonoBehaviour:
   - "Descubra os sentimentos de <color=green>Roy</color> e tente ativar o <color=#00B2FF>b\xF4nus
     sentimental</color>. Sua rel\xEDquia \"Dinheiro\" aumentar\xE1 sua <color=#00B2FF>mana</color>
     em 2. As rel\xEDquias s\xE3o vis\xEDveis no canto superior da tela."
-  DialogueES: []
+  DialogueES:
+  - "Los humanos tienen sentimientos, puedes hacerte una idea de cu\xE1nta <color=#00B2FF>mana</color>
+    usar\xE1 tu oponente observando sus sentimientos."
+  - "Puedes averiguar el sentimiento del humano leyendo su descripci\xF3n."
+  - "Algunas reliquias otorgan <colour=#00B2FF>bonificaciones de sentimiento</color>.
+    Para activar una <colour=#00B2FF>bonificaci\xF3n de sentimiento</color> debes
+    gastar una cantidad de <colour=#00B2FF>mana</color> que coincida con el sentimiento
+    del humano que controlas."
+  - "Descubre <color=green>los sentimientos de Roy</color> e intenta activar la <color=#00B2FF>bonificaci\xF3n
+    de sentimientos</color>. Tu reliquia \"Dinero\" aumentar\xE1 tu <color=#00B2FF>mana</color>
+    en 2. Las reliquias est\xE1n visibles en la esquina superior de la pantalla."
   idchara: 00000000000000000000000000000000
   instruction: 1500000000000000000000000000000001000000
   Cenario: 0

@@ -28,7 +28,8 @@ MonoBehaviour:
   - I think so.
   - So that's what I felt, fulfillment.
   - Is my song really that beautiful?
-  - Song? I wasn't paying attention, it was just her presence that made me feel complete.
+  - Song? I wasn't paying attention to her, it was just her presence that made me
+    feel fulfillment.
   - <color=#FF0080>Maduin</color> didn't know how to respond for a few seconds, on
     the one hand his music was despised, on the other hand he felt extremely praised.
   - He only knew how to react in one way to such an absurd situation.
@@ -58,7 +59,31 @@ MonoBehaviour:
   - "Ele s\xF3 sabia reagir de uma forma diante de uma situa\xE7\xE3o t\xE3o absurda."
   - Ele riu.
   - "\xC9 a sua vez de tocar, <color=purple>William</color>."
-  DialogueES: []
+  DialogueES:
+  - "Un sentimiento que siempre acompa\xF1\xF3 a <color=purple>William</color> fue
+    la soledad."
+  - "Definitivamente era un sentimiento extra\xF1o porque cuanta m\xE1s gente lo
+    rodeaba, m\xE1s solo se sent\xEDa."
+  - "Pero cuando estaba a solas con <color=#FF0080>Maduin</color> su sentimiento
+    de soledad desaparec\xEDa."
+  - "\u201CMi vida es completamente miserable, me han robado tantas cosas y\u2026
+    solo quiero tener una vida normal con mi familia\u201D."
+  - "\u201CPero por alguna raz\xF3n olvido lo que me estoy perdiendo cuando estoy
+    al lado de <color=#FF0080>Maduin</color>. Siento... \xBFplenitud? existe esa
+    palabra?"
+  - "\xBFQu\xE9 pensaste de esta canci\xF3n?"
+  - "\xBFExiste la palabra <i>plenitud</i>?"
+  - Creo que si.
+  - "As\xED que eso es lo que sent\xED, plenitud."
+  - "\xBFEn serio que mi m\xFAsica era tan hermosa?"
+  - "\xBFM\xFAsica? No le prestaba atenci\xF3n, s\xF3lo su presencia me hac\xEDa
+    sentir plenitud."
+  - "<color=#FF0080>Maduin</color> pas\xF3 unos segundos sin saber que responder,
+    por un lado su m\xFAsica era despreciada, por otro lado se sent\xEDa sumamente
+    elogiado."
+  - "Solo supo reaccionar de una manera ante una situaci\xF3n tan absurda."
+  - "\xC9l ri\xF3."
+  - Entonces es tu turno de tocar, <color=purple>William</color>.
   idchara: 0000000000000000000000001c0000001c0000001f0000001c0000001f0000001c0000001f0000001c0000000000000000000000000000001f000000
   instruction: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000071080000000000000000000000000000f1030000
   Cenario: 68

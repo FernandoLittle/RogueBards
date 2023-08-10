@@ -65,6 +65,28 @@ MonoBehaviour:
   - "m\xEDnimo"
   - de
   - culpa
+  DialogueES:
+  - no
+  - me
+  - "arrepentir\xE9"
+  - "estar\xE9"
+  - feliz
+  - de
+  - derramar
+  - tu
+  - sangre
+  - "repetir\xE9"
+  - ese
+  - pecado
+  - siempre
+  - que
+  - pueda
+  - sin
+  - sentir
+  - la
+  - "m\xE1s"
+  - "m\xEDnima"
+  - culpa
   idchara: 
   instruction: 
   Cenario: 0

@@ -492,6 +492,65 @@ public class B : MonoBehaviourPunCallbacks
         }
 
     }
+    public void SentimentoTextES()
+    {
+        string unknown;
+        string calm;
+        string fear;
+        string rage;
+        string hate;
+        string compassion;
+        string calm1;
+        string fear1;
+        string rage1;
+        string hate1;
+        string compassion1;
+        a.SetSentimento();
+        unknown = "O sentimento do humano é desconhecido, mas quando ele fica cara a cara com outro humano seus sentimentos vão despertar.";
+
+        calm = "<color=#00B2FF>Calma</color>: El humano <i>probablemente</i> gastará poca mana. \nCausa: El humano cree que está ganando este combate, eso le tranquiliza.";
+        fear = "<color=purple>Miedo</color>: El humano <i>probablemente</i> gastará mucha mana. \n<color=purple>Causa: El humano cree que está perdiendo este combate, eso le asusta.";
+
+        rage = "?";
+        hate = "?";
+        compassion = "<color=#FF0080>Compasión</color>: Eso es raro.";
+        calm1 = "<color=#00B2FF>Calma</color>: Tu <color=#00B2FF>bonificación sentimental</color> se activa cuando gastas poca mana (menos de 5). \nCausa: El humano cree que está ganando este combate, eso le tranquiliza.";
+        fear1 = "<colour=purple>Miedo</colour>: Tu <color=#00B2FF>bonificación sentimental</color> se activa cuando gastas demasiada mana (más de 4). \n Causa: El humano cree que está perdiendo este combate, eso le asusta.";
+        rage1 = "?";
+        hate1 = "?";
+        compassion1 = "<color=#FF0080>Compasión</color>: Tu <color=#00B2FF>bonificación sentimental</color> se activa cuando gastas 0 mana. \n No deberías sentir esto.";
+
+        if (sentimento == -1)
+        {
+            a.EyeT[0].text = unknown;
+            a.EyeTx[0].text = unknown;
+        }
+        if (sentimento == 0)
+        {
+            a.EyeT[0].text = calm;
+            a.EyeTx[0].text = calm1;
+        }
+        if (sentimento == 1)
+        {
+            a.EyeT[0].text = fear;
+            a.EyeTx[0].text = fear1;
+        }
+        if (sentimento == 2)
+        {
+            a.EyeT[0].text = rage;
+            a.EyeTx[0].text = rage1;
+        }
+        if (sentimento == 3)
+        {
+            a.EyeT[0].text = hate;
+            a.EyeTx[0].text = hate1;
+        }
+        if (sentimento == 4)
+        {
+            a.EyeT[0].text = compassion;
+            a.EyeTx[0].text = compassion1;
+        }
+    }
     public void SentimentoText()
     {
         string unknown;
@@ -563,6 +622,10 @@ public class B : MonoBehaviourPunCallbacks
         if (language == 1)
         {
             SentimentoTextBR();
+        }
+        if (language == 2)
+        {
+            SentimentoTextES();
         }
 
         a.EyeNameLeft.text = d.Chara[a.Generic.Module(idcard1)].Name;

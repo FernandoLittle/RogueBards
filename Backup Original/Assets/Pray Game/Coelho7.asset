@@ -43,6 +43,20 @@ MonoBehaviour:
   - "perd\xE3o"
   - ou
   - "reden\xE7\xE3o"
+  DialogueES:
+  - "caminar\xE9"
+  - por
+  - siempre
+  - como
+  - un
+  - pecador
+  - en
+  - un
+  - camino
+  - sin
+  - "perd\xF3n"
+  - ni
+  - "redenci\xF3n"
   idchara: 
   instruction: 
   Cenario: 0

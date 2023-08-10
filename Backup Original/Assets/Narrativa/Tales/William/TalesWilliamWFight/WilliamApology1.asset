@@ -57,8 +57,8 @@ MonoBehaviour:
   - In his profound ignorance, <color=purple>William</color> concluded that he had
     never felt such hatred for a bard.
   - All my colleagues who died, all the families they left...
-  - They risked their lives to protect their families from addiction and that bard...
-  - They risked their lives to protect their families from addiction and that bard...
+  - That bard is making a joke of it all, saying their fight was pointless.
+  - They risked their lives to protect families from addiction and that bard...
   - that parasite...
   - that filthy worm mocks their deaths with childish irony.
   - I've never heard such repulsive, stupid, petty, disgusting music as this one.
@@ -149,7 +149,58 @@ MonoBehaviour:
 '
   - "Eu nunca ouvi uma m\xFAsica t\xE3o repulsiva, imbecil, mesquinha e nojenta como
     essa.\r\n"
-  DialogueES: []
+  DialogueES:
+  - "Los guerreros sol\xEDan odiar a los bardos de <color=yellow>Sarka</color>, <color=purple>William</color>
+    s\xF3lo empez\xF3 a comprender este odio cuando escuch\xF3 una terrible canci\xF3n
+    sobre drogas."
+  - Gracias nobles guerreros.
+  - "Sois los h\xE9roes de <color=yellow>Sarka</color>."
+  - Sacrificando sus vidas.
+  - Para subir el precio de mi opio.
+  - Gracias guerreros
+  - Por subir el precio de mi opio.
+  - El precio de mi opio.
+  - "Si segu\xEDs sacrificando vuestras vidas"
+  - "En esta noble misi\xF3n"
+  - "En esta importante misi\xF3n"
+  - "En esta heroica misi\xF3n"
+  - "tal vez un d\xEDa"
+  - el precio del opio se duplica
+  - tal vez triple
+  - "tal vez el cu\xE1druple"
+  - Seguid sacrificando vuestras vidas
+  - y llegaremos
+  - "en este hermoso d\xEDa"
+  - "donde el precio de mi opio ser\xE1 jodidamente caro."
+  - Y cada vez que compro mi opio
+  - "recordar\xE9"
+  - de todo sacrificio
+  - de todo coraje
+  - "de todo hero\xEDsmo"
+  - de todos los guerreros
+  - que han subido el precio de mi opio.
+  - "Y estar\xE9 feliz de pagar"
+  - "cada peque\xF1a moneda."
+  - "y cada peque\xF1a moneda."
+  - "Contin\xFAa esta guerra y el mundo ser\xE1"
+  - un lugar mejor.
+  - "Porque aunque mi opio sea m\xE1s caro."
+  - "Vuestros heroicos sacrificios har\xE1n este mundo."
+  - un lugar mejor.
+  - "un pa\xEDs mejor."
+  - un hogar mejor.
+  - Un mundo
+  - mejor.
+  - "En su profunda ignorancia, <color=purple>William</color> concluy\xF3 que nunca
+    hab\xEDa sentido tanto odio por un bardo."
+  - Todos mis colegas que murieron, todas las familias que dejaron...
+  - "Ese bardo est\xE1 haciendo una broma de todo, diciendo que sus peleas no ten\xEDan
+    sentido."
+  - Arriesgaron sus vidas para proteger a todas las familias del vicio y ese bardo...
+  - "ese par\xE1sito..."
+  - "ese gusano asqueroso se burla de sus muertes con iron\xEDa infantil."
+  - "Nunca he escuchado una canci\xF3n tan repugnante, imb\xE9cil, mezquina y asquerosa
+    como esta."
   idchara: 000000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e0000000e000000000000001c0000001c0000001c0000001c0000001c0000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000
   Cenario: 58

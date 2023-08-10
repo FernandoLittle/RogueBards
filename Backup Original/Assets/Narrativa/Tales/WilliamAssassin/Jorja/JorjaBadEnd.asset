@@ -66,6 +66,34 @@ MonoBehaviour:
     seu passado o ensinou que discursos eram in\xFAteis nesse tipo de situa\xE7\xE3o.\r"
   - "Afinal, os mortos n\xE3o se importam com os sentimentos dos vivos."
   - "Aquele c\xE9u azul era realmente lindo."
+  DialogueES:
+  - "Era una hermosa ma\xF1ana de primavera con un cielo azul sin nubes. En ese hermoso
+    d\xEDa, los asesinos se despertaron escuchando los gritos de una ni\xF1a."
+  - <color=purple>William</color>, Ebu nos llama.
+  - "Ebu estaba sentado con una cara triste y mirando una inyecci\xF3n."
+  - "Las flores que florecieron al comienzo de la temporada se ve\xEDan realmente
+    hermosas a la luz del sol."
+  - "Lleg\xF3 la hora. Charlotte ha llegado a su etapa final."
+  - "Di tus \xFAltimas palabras a <color=#FF0080>Jorja</color>, la sacar\xE9 de su
+    miseria."
+  - "No. Yo administrar\xE9 la inyecci\xF3n, es mi responsabilidad."
+  - "En silencio, Ebu entreg\xF3 la inyecci\xF3n a <color=purple>William</color>."
+  - "El canto de los p\xE1jaros era un sonido muy agradable de escuchar por la ma\xF1ana,
+    por desgracia los molestos gritos de una ni\xF1a no permitieron a los asesinos
+    o\xEDr a los p\xE1jaros."
+  - "Reunidos en la habitaci\xF3n de <color=#FF0080>Jorja</color>, los asesinos alzaron
+    la voz en un intento de hacerse o\xEDr por encima del estruendo de los gritos."
+  - "Empezar\xE9 yo."
+  - "<color=#FF0080>Jorja</color>, gracias por los momentos que pasaste con nosotros,
+    fuiste querida por todos nosotros y siempre te recordaremos con mucho cari\xF1o."
+  - "<color=#FF0080>Jorja</color>, sufriste m\xE1s que todos nosotros y aun as\xED
+    lograste sonre\xEDr. Eres una ni\xF1a fuerte."
+  - "Eres m\xE1s fuerte que todos en esta habitaci\xF3n."
+  - "<color=purple>William</color> no pudo pronunciar una sola palabra porque su
+    pasado le hab\xEDa ense\xF1ado que los discursos no serv\xEDan de nada en este
+    tipo de situaciones."
+  - "Despu\xE9s de todo, a los muertos no les importan los sentimientos de los vivos."
+  - Ese cielo azul era realmente hermoso.
   idchara: 000000001f000000000000000000000001000000010000001c0000000000000000000000000000001f0000001f0000000100000001000000000000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007a000000
   Cenario: 50

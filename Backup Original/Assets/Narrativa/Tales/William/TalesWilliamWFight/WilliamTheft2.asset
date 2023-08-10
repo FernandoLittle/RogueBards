@@ -24,8 +24,7 @@ MonoBehaviour:
   - The <color=yellow>thief</color> with his pants down begged for mercy with all
     the desperation of his soul, but that didn't stop <color=purple>William</color>
     from making a show that turned cries of despair into cries of pain.
-  - Don't make such a fuss, that's no big deal, you've only lost three centimeters
-    of dick.
+  - Don't make so much noise, he was so small you won't even miss him.
   - <color=purple>William</color> gave a gentle smile.
   - The choice is yours, dear friends.
   - In less than one miliday all the hostages were freed, after the screams stopped
@@ -45,8 +44,8 @@ MonoBehaviour:
   - "O <color=yellow>ladr\xE3o</color> com as cal\xE7as abaixadas implorou por miseric\xF3rdia
     com todo o desespero de sua alma, mas isso n\xE3o impediu <color=purple>William</color>
     de fazer um show que transformou gritos de desespero em gritos de dor."
-  - "N\xE3o fa\xE7a tanto barulho, isso n\xE3o \xE9 grande coisa, voc\xEA s\xF3 perdeu
-    tr\xEAs cent\xEDmetros de pau."
+  - "N\xE3o fa\xE7a tanto barulho, ele era t\xE3o pequeno que voc\xEA nem vai sentir
+    falta."
   - <color=purple>William</color> deu um sorriso gentil.
   - "A escolha \xE9 de voc\xEAs, queridos amigos."
   - "Em menos de um milidia todos os ref\xE9ns foram libertados, ap\xF3s os gritos
@@ -54,6 +53,27 @@ MonoBehaviour:
     com as cal\xE7as arriadas."
   - "Olhe pelo lado bom, seu pau salvou a vida de v\xE1rios ref\xE9ns."
   - "Um ano depois, <color=yellow>Capit\xE3o Parovy</color> foi brutalmente assassinado.\r"
+  DialogueES:
+  - "Despu\xE9s de unos minutos de lucha, los ladrones fueron sometidos, pero algunos
+    de ellos lograron tomar rehenes."
+  - "Despu\xE9s de doscientos d\xEDas de negociaci\xF3n, <color=purple>William</color>
+    baj\xF3 los pantalones de uno de los ladrones capturados y comenz\xF3 a hablar."
+  - Caballeros, a partir de ahora tienen dos opciones, una aburrida y otra divertida.
+  - "La opci\xF3n aburrida es que sueltes a los rehenes y aceptes el encarcelamiento."
+  - "La opci\xF3n divertida es que mates a los rehenes y veas c\xF3mo te amputo los
+    palos."
+  - "El <colour=yellow>ladr\xF3n</colour> con los pantalones bajados ped\xEDa clemencia
+    con toda la desesperaci\xF3n de su alma, pero eso no impidi\xF3 que <colour=purple>William</colour>
+    montara un espect\xE1culo que convirti\xF3 los gritos de desesperaci\xF3n en
+    alaridos de dolor."
+  - "No hag\xE1is tanto ruido, era tan peque\xF1o que ni lo echar\xE9is de menos."
+  - "<color=purple>William</color> sonri\xF3 amablemente."
+  - "La decisi\xF3n es vuestra, queridos amigos."
+  - "En menos de un milid\xEDa  todos los rehenes fueron liberados, despu\xE9s de
+    que cesaran los gritos <colour=purple>William</colour> le dijo al <colour=yellow>ladr\xF3n</colour>
+    con los pantalones bajados."
+  - "M\xEDralo por el lado bueno, tu polla salv\xF3 la vida de varios rehenes."
+  - "Un a\xF1o despu\xE9s, el capit\xE1n Parovy fue brutalmente asesinado."
   idchara: 00000000000000001c0000001c0000001c000000000000001c000000000000001c000000000000001c00000000000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000009a0900000000000000000000ea030000
   Cenario: 11

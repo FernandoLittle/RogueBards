@@ -50,6 +50,23 @@ MonoBehaviour:
   - mortos
   - "n\xE3o"
   - perdoam
+  DialogueES:
+  - "Cometer\xE9"
+  - un
+  - pecado
+  - que
+  - nadie
+  - "m\xE1s"
+  - que
+  - "t\xFA"
+  - puede
+  - perdonarme
+  - por
+  - desgracia
+  - los
+  - muertos
+  - no
+  - perdonan
   idchara: 
   instruction: 
   Cenario: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 2
   Dialogue:
   - Fuck where he was born, I've got better things to do than kick him out of the
-    country.
+    country. We have so few immigrants in Sarka.
   - You are unpatriotic.
   - Yes, I am. Believe what you want, the door is there, buddy.
   - 'Just after <color=yellow>Otterg</color> opened the door, <color=purple>William</color>
@@ -33,10 +33,11 @@ MonoBehaviour:
     which is admirable.
   - I'll help you then.
   - After the <color=yellow>cuckold</color> left the room, <color=purple>William</color>
-    let out the laugh that he struggled to hold back.
+    let out the laugh that he struggled to hold back. He was looking forward to having
+    fun.
   DialogueBR:
   - "Foda-se onde ele nasceu, tenho coisas melhores a fazer do que expuls\xE1-lo
-    do pa\xEDs."
+    do pa\xEDs. Temos t\xE3o poucos imigrantes em Sarka."
   - "Voc\xEA \xE9 antipatri\xF3tico."
   - "Sim, eu sou. Acredite no que quiser, a porta est\xE1 ali, amigo."
   - "Logo ap\xF3s <color=yellow>Otterg</color> abrir a porta, <color=purple>William</color>
@@ -49,13 +50,35 @@ MonoBehaviour:
     av\xF4 tamb\xE9m veio da <color=yellow>Sericia</color>. De qualquer forma, n\xE3o
     faz sentido voc\xEA odiar os imigrantes a ponto de querer expuls\xE1-los se voc\xEA
     \xE9 parente recente de imigrantes. Existe outra raz\xE3o por tr\xE1s do seu
-    pedido, estou errado?"
+    pedido, n\xE3o \xE9?"
   - "A verdadeira raz\xE3o \xE9... minha esposa me traiu com aquele homem."
   - "Hm, ent\xE3o voc\xEA \xE9 um corno, \xE9 um bom motivo e voc\xEA teve a coragem
     de revel\xE1-lo, o que \xE9 admir\xE1vel."
   - "Eu te ajudo ent\xE3o."
   - Depois que o <color=yellow>corno</color> saiu da sala, <color=purple>William</color>
-    soltou a grande risada que estava segurando.
+    soltou a grande risada que estava segurando. Ele estava ansioso para se divertir.
+  DialogueES:
+  - "A la mierda donde naci\xF3, tengo mejores cosas que hacer que echarlo del pa\xEDs.
+    Tenemos tan pocos inmigrantes en Sarka."
+  - Eres antipatriota.
+  - "S\xED yo soy. Cree lo que quieras, la puerta est\xE1 ah\xED, amigo."
+  - "Justo despu\xE9s de que <color=yellow>Otterg</color> abriera la puerta, <color=purple>William</color>
+    grit\xF3:"
+  - "\xA1Af\xE9rrate!"
+  - "Me mentiste, \xBFno?"
+  - "\xBFQu\xE9? No ment\xED, te juro que es un inmigrante ilegal."
+  - "No en esa parte. Tu nombre es <color=yellow>Otterg Sasmark</color>, claramente
+    vienes de una familia de inmigrantes sericios, por cierto, mi abuelo tambi\xE9n
+    vino de <color=yellow>Sericia</color>. De todos modos, no tiene sentido que odies
+    a los inmigrantes hasta el punto de querer echarlos si eres un familiar reciente
+    de inmigrantes. \xBFHay otra raz\xF3n detr\xE1s de su solicitud, me equivoco?"
+  - "La verdadera raz\xF3n es... que se foll\xF3 a mi mujer."
+  - "Hm, as\xED que eres un cornudo, esa es una buena raz\xF3n y tuviste el coraje
+    de revelarlo, lo cual es admirable."
+  - "Te ayudar\xE9 entonces."
+  - "Despu\xE9s de que el <colour=yellow>horn</colour> saliera de la habitaci\xF3n,
+    <colour=purple>William</colour> dej\xF3 escapar la gran carcajada que hab\xEDa
+    estado conteniendo. Ten\xEDa ganas de divertirse."
   idchara: 1c000000120000001c000000000000001c0000001c000000120000001c000000120000001c0000001c00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000
   Cenario: 9

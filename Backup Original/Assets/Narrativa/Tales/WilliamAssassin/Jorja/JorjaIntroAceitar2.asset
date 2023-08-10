@@ -19,7 +19,7 @@ MonoBehaviour:
   - You know what's better than two injections?
   - Three injections.
   - You know...
-  - Hey boy, calm down, calm down, I'm fine, I'm fine.
+  - Hey boy, calm down, calm down, I'm fine, I'm fine...
   - Four injections.
   - Porridge is the free meal the government offers to the hungry.
   - Five injections.
@@ -35,7 +35,7 @@ MonoBehaviour:
   - "Sabe o que \xE9 melhor que duas inje\xE7\xF5es?"
   - "Tr\xEAs inje\xE7\xF5es."
   - "Sabe\u2026"
-  - "Ei mo\xE7o, calma, calma, eu to bem, eu to muito bem."
+  - "Ei mo\xE7o, calma, calma, eu to bem, eu to muito bem..."
   - "Quatro inje\xE7\xF5es."
   - "Mingau \xE9 a refei\xE7\xE3o que o governo oferece de gra\xE7a aos fam\xE9licos."
   - "Cinco inje\xE7\xF5es."
@@ -45,6 +45,22 @@ MonoBehaviour:
   - "Sete inje\xE7\xF5es."
   - "E voc\xEA vai merecer cada uma delas."
   - "Oito inje\xE7\xF5es."
+  DialogueES:
+  - "\xBFSabes qu\xE9 es mejor que una inyecci\xF3n?"
+  - Dos inyecciones.
+  - "\xBFSabes qu\xE9 es mejor que dos inyecciones?"
+  - Tres inyecciones.
+  - Sabes...
+  - "Hey chico, c\xE1lmate, c\xE1lmate, estoy bien, estoy bien..."
+  - Cuatro inyecciones.
+  - Las gachas son la comida gratuita que el gobierno ofrece a los hambrientos.
+  - Cinco inyecciones.
+  - Dejaste de alimentar bien a tu hija para comprar inyecciones.
+  - Seis inyecciones.
+  - "Entonces recibir\xE1 las inyecciones."
+  - Siete inyecciones.
+  - "Y te merecer\xE1s cada una de ellas."
+  - Ocho inyecciones.
   idchara: 1c0000001c0000001c0000001c0000001c000000230000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c0000001c000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000068000000
   Cenario: 40

@@ -82,6 +82,40 @@ MonoBehaviour:
   - "Ok! Basta dessa conversa, foi um prazer almo\xE7ar com voc\xEAs, eu vou fazer
     alguma outra coisa bem longe daqui.\r"
   - "Como voc\xEA deseja passar o seu tempo livre?"
+  DialogueES:
+  - "Ebu, <color=purple>William</color> y <color=#FF0080>Maduin</color> estaban almorzando
+    juntos. Los asesinos no sol\xEDan tener muchos amigos, raz\xF3n por la cual valoraban
+    tanto la compa\xF1\xEDa de otros asesinos."
+  - "Esta compa\xF1\xEDa no hizo nada para disminuir la soledad de <color=purple>William</color>,
+    ya que el vac\xEDo en su alma era inconmensurable. Pero esa soledad parec\xEDa
+    menos pat\xE9tica cuando ten\xEDa gente a su alrededor."
+  - "Ebu, siempre comes alimentos crudos sin ning\xFAn tipo de preparaci\xF3n. Ni
+    siquiera los cortas, adem\xE1s siempre comes lo mismo todos los d\xEDas, pepinos,
+    zanahorias y lechuga, \xBFno te cansas?"
+  - "Cocinar es herej\xEDa, <color=#FF0080>Shu\xE1</color> cre\xF3 este mundo y toda
+    la comida para nuestro bien."
+  - Cuando condimentamos la comida despreciamos el sabor natural de la comida.
+  - "El sabor que <color=#FF0080>Shu\xE1</color> cre\xF3 con todo su amor divino."
+  - En lugar de apreciar el regalo de un dios, nos ahogamos en el hedonismo de este
+    mundo de ilusiones.
+  - "Todo esto era mentira, ella no preparaba la comida que com\xEDa por pura pereza."
+  - "Adem\xE1s, todos los d\xEDas com\xEDa lo mismo, ya que desde peque\xF1a era
+    una ni\xF1a mimada que se negaba a probar comidas y especias diferentes."
+  - <color=#FF0080>Maduin</color> se dio cuenta de que estaba mintiendo.
+  - "Dudo que sigas alguna religi\xF3n Shuana, y eso no explica por qu\xE9 siempre
+    comes lo mismo todos los d\xEDas."
+  - "Bien, la verdadera raz\xF3n es que me gusta comer alimentos f\xE1licos, no los
+    rompo ni los cocino porque prefiero comerlos duros y enteros, porque\u2026 porque
+    s\xED."
+  - "Adem\xE1s, como como todo el d\xEDa, la gente no se asusta cuando encuentra
+    pepinos y zanahorias en mi habitaci\xF3n, as\xED que no sospechan que me divierto
+    con ellos."
+  - "\xA1Yo sab\xEDa! Apuesto a que esas cadenas en tu habitaci\xF3n tambi\xE9n son
+    parte de alg\xFAn fetiche tuyo."
+  - Esas cadenas me recuerdan a mi familia porque...
+  - "\xA1Bueno! Basta de charla, fue un placer almorzar contigo, me voy a hacer otra
+    cosa lejos de aqu\xED."
+  - "\xBFC\xF3mo quieres pasar tu tiempo libre?"
   idchara: 00000000000000001c000000010000000100000001000000010000000000000000000000000000001f00000001000000010000001f000000010000001c00000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003d010000
   Cenario: 53

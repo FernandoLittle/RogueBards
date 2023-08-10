@@ -36,6 +36,17 @@ MonoBehaviour:
   - "N\xE3o, eu tamb\xE9m nunca odiei seu filho, a \xFAnica pessoa que eu odiei foi
     o assassino do meu pai, e por isso eu entendo perfeitamente seus sentimentos.\r"
   - "Voc\xEA venceu esse duelo, eu me rendo."
+  DialogueES:
+  - "Todo esto es mi culpa, no le ense\xF1\xE9 a mi hijo a ser una buena persona."
+  - "Entiendo tu sentido de la justicia <color=purple>William</color>, incluso lo
+    admiro, pero un padre siempre amar\xE1 a su hijo, siempre lo proteger\xE1, siempre
+    lo vengar\xE1. Incluso si se convierte en un violador. Quiz\xE1s alg\xFAn d\xEDa
+    lo entiendas."
+  - Yo entiendo.
+  - "Aunque no te odio, \xBFt\xFA me odias?"
+  - "No, yo tampoco odi\xE9 nunca a tu hijo, la \xFAnica persona a la que odi\xE9
+    fue al asesino de mi padre, y por eso entiendo perfectamente tus sentimientos."
+  - Ganaste este duelo, me rindo.
   idchara: 24000000240000001c000000240000001c00000024000000
   instruction: 00000000000000000000000000000000000000000000000043010000
   Cenario: 49

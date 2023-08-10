@@ -26,6 +26,12 @@ MonoBehaviour:
     e o assassino."
   - "Voc\xEA deseja se tornar um guerreiro do bem que lutar\xE1 pela justi\xE7a ou
     um assassino do mal que lutar\xE1 pelo crime?"
+  DialogueES:
+  - "<color=purple>William</color> cre\xEDa desde el fondo de su alma que una venganza
+    cruel y brutal podr\xEDa expiar sus pecados y purificar su coraz\xF3n."
+  - Dos profesionales son expertos en el arte de la venganza, el guerrero y el asesino.
+  - "\xBFQuieres convertirte en un buen guerrero que luchar\xE1 por la justicia o
+    en un malvado asesino que luchar\xE1 por el crimen?"
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000046010000
   Cenario: 75

@@ -50,6 +50,25 @@ MonoBehaviour:
     entende seu sofrimento, ele entende perfeitamente."
   - "A guerra n\xE3o \xE9 um lugar para perd\xE3o e miseric\xF3rdia."
   - "A guerra \xE9 um lugar de morte e viol\xEAncia."
+  DialogueES:
+  - "\xBFExiste alg\xFAn pecado que <colour=#FF0080>Shu\xE1</colour> no pueda perdonar?"
+  - "El \xFAnico pecador que <colour=#FF0080>Shuah</colour> no perdona es el que
+    no se arrepiente."
+  - "<colour=purple>William</colour> estaba seguro de que <colour=#FF0080>Shu\xE1</colour>
+    le perdonar\xEDa, por monstruoso que fuera su pecado."
+  - "Le cont\xF3 al <colour=#FF0080>monje</colour> su mayor secreto. Su mayor crueldad.
+    El fruto podrido de su ego\xEDsmo."
+  - "El <color=#FF0080>monje</color> ya hab\xEDa visto y o\xEDdo cosas terribles,
+    pecadores extremadamente crueles y repulsivos ya se hab\xEDan confesado ante
+    \xE9l."
+  - "Pero cuando oy\xF3 los pecados de <color=purple>William</color>, sinti\xF3 algo
+    que nunca hab\xEDa sentido al o\xEDr una confesi\xF3n."
+  - "Sinti\xF3 l\xE1stima."
+  - "Lo siento, mi se\xF1or. Lo siento, <color=purple>William</color>."
+  - "Debes haber sufrido mucho, no te preocupes, <color=#FF0080>Shu\xE1</color> entiende
+    tu sufrimiento, te comprende perfectamente."
+  - "La guerra no es un lugar para el perd\xF3n y la misericordia."
+  - La guerra es un lugar de muerte y violencia.
   idchara: 1c00000019000000000000000000000000000000000000000000000019000000190000000000000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000
   Cenario: 14

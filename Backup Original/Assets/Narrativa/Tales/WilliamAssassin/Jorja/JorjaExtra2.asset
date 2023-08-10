@@ -29,6 +29,14 @@ MonoBehaviour:
   - Eu quero aprender a cozinhar.
   - Eu quero viver.
   - "Por que eu n\xE3o posso viver?"
+  DialogueES:
+  - Tuve la oportunidad de ser un regalo para el angelito, pero tuve miedo, soy muy
+    miedosa.
+  - "Hiciste bien, no ser\xEDamos amigos si te convirtieras en un regalo."
+  - Yo... no quiero morir, quiero jugar contigo, I....
+  - Quiero aprender a cocinar.
+  - Quiero vivir.
+  - "\xBFPor qu\xE9 no puedo vivir?"
   idchara: 220000001f00000022000000220000002200000022000000
   instruction: 000000000000000000000000000000009209000000000000be020000
   Cenario: 41

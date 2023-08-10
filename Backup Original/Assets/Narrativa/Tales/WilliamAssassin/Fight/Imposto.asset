@@ -48,7 +48,25 @@ MonoBehaviour:
   - "Eu n\xE3o vou fazer isso."
   - "Ent\xE3o vou pegar todas as cabe\xE7as de publicano para mim."
   - No dia seguinte, <color=purple>William</color> estava diante de um publicano.
-  DialogueES: []
+  DialogueES:
+  - Hoy tenemos una recompensa por la cabeza de un juez y un guardia fronterizo.
+  - "\xBFCu\xE1l quieres, <color=purple>William</color>?"
+  - "\xBFNo hay recompensa por la cabeza de un publicano?"
+  - "Siempre hay, pero me gusta cazar a m\xED mismo."
+  - "\xBFHay alguna profesi\xF3n m\xE1s odiada que \xE9sta?"
+  - "Sab\xEDas que este odio no es tan com\xFAn en el continente? El problema es
+    que <colour=yellow>Sarka</colour> ha conservado el sistema fiscal de <colour=yellow>Sangla</colour>,
+    en el que la fiscalidad se centra mucho en los ingresos."
+  - "Si los pol\xEDticos fueran inteligentes gravar\xEDan el comercio, en el resto
+    de <color=yellow>Cadima</color> a casi nadie le importan los impuestos porque
+    la mayor\xEDa ni se entera de que existen."
+  - "Lo que sea, lib\xE9rame una misi\xF3n de caza de publicanos, <colour=white>Ebu</colour>."
+  - "S\xF3lo si imitas a un pollo delante de <color=#FF0080>Maduin</color> sin dar
+    ninguna explicaci\xF3n."
+  - No voy a hacer eso.
+  - "Entonces tomar\xE9 todas las cabezas de los publicanos para m\xED."
+  - "Al d\xEDa siguiente, <colour=purple>William</colour> se present\xF3 ante un
+    publicano."
   idchara: 01000000010000001c000000010000001c00000001000000010000001c000000010000001c0000000100000000000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021000000
   Cenario: 34

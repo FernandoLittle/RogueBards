@@ -19,6 +19,9 @@ MonoBehaviour:
   DialogueBR:
   - "<color=purple>Will</color>, hoje \xE9 o meu anivers\xE1rio."
   - ...
+  DialogueES:
+  - "<color=purple>Will</color>, hoy es mi cumplea\xF1os."
+  - ...
   idchara: 220000001c000000
   instruction: 000000000000000045010000
   Cenario: 46

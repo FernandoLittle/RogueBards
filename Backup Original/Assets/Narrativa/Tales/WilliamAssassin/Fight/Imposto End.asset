@@ -77,6 +77,39 @@ MonoBehaviour:
   - "<color=purple>William</color> logo o abra\xE7ou e deu um beijo em sua testa."
   - "Mas isso n\xE3o muda o fato de que eu terei muito prazer em matar um parasita
     como voc\xEA."
+  DialogueES:
+  - "Por favor no me mates, te dar\xE9 todo el dinero que tengo."
+  - Tranquila, acepto, dame el dinero y te perdono la vida.
+  - "Despu\xE9s de que el publicano le entregara todo el dinero que hab\xEDa guardado
+    en la caja fuerte, crey\xF3 que ya no corr\xEDa peligro de morir. Esto era exactamente
+    lo que <color=purple>William</color> quer\xEDa, ya que era muy dif\xEDcil hablar
+    con gente desesperada que suplicaba por su vida."
+  - "\xBFConoces a Vlad Burarth?"
+  - No.
+  - Es un hombre que fue arrestado por tu culpa y me dio buen dinero para matarte.
+  - "Cuando <colour=yellow>Levi</colour> se dio cuenta de que <colour=purple>William</colour>
+    no era un simple ladr\xF3n, sino un asesino, el terror volvi\xF3 a su alma."
+  - Por favor, no me mates, solo estaba haciendo mi trabajo, nunca quise lastimar
+    a nadie.
+  - "C\xE1lmate, s\xE9 que s\xF3lo quer\xEDas el bien de <colour=yellow>Sarka</colour>,
+    quer\xEDas cumplir la <colour=yellow>Ley</colour>, quer\xEDas que la <colour=yellow>Naci\xF3n</colour>
+    tuviera recursos para desarrollarse. \xBFNo es as\xED?"
+  - "S\xED, as\xED es."
+  - Nos parecemos.
+  - Los publicanos y los asesinos son odiados en <color=yellow>Sarka</color>, ambos
+    ganan mucho dinero, ambos siguen una ley y ambos justifican el pecado con excusas
+    tontas.
+  - "La verdad es que ambos traemos sufrimiento a este mundo, tu dedo ha llevado
+    a un hombre a la c\xE1rcel y mi mano llevar\xE1 a un hombre a la muerte."
+  - "Y por \xFAltimo, ambos s\xF3lo hacemos estas crueldades porque ganamos mucho
+    dinero."
+  - Por favor, no me mates.
+  - "El publicano se puso a llorar como un ni\xF1o."
+  - No llores, somos muy parecidos y entiendo perfectamente todo lo que has hecho.
+  - "<colour=purple>William</colour> no tard\xF3 en abrazarle y darle un beso en
+    la frente."
+  - "Pero eso no cambia el hecho de que sentir\xE9 un gran placer matando a un par\xE1sito
+    como t\xFA."
   idchara: 280000001c000000000000001c000000280000001c00000000000000280000001c000000280000001c0000001c0000001c0000001c00000028000000000000001c000000000000001c000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ce08000000000000ea030000
   Cenario: 34

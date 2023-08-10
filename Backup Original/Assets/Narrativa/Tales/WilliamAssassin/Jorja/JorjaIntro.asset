@@ -47,12 +47,32 @@ MonoBehaviour:
     pode fazer o que quiser, s\xF3 me d\xEA a inje\xE7\xE3o."
   - "Eu estou com medo, m\xE3e."
   - "Eu sei que voc\xEA est\xE1 com medo! Voc\xEA tem medo de tudo! Nem me lembre
-    do que voc\xEA fez na frente do anjo"
+    do que voc\xEA fez na frente do anjo."
   - "Ela \xE9 comportada e obediente, juro que n\xE3o vai fazer birra. Por favor,
     me d\xEA a inje\xE7\xE3o."
   - Por favor.
   - "Voc\xEA est\xE1 vendendo sua filha em troca de inje\xE7\xE3o?"
   - "Isso! Ela j\xE1 me deu muito problema."
+  DialogueES:
+  - "Por mucho que un asesino disfrutara con su trabajo, pocos ten\xEDan la incre\xEDble
+    determinaci\xF3n de Ebu para matar a diario, muchos asesinos trabajaban como
+    traficantes de forma rutinaria y llevaban a cabo asesinatos de forma espor\xE1dica."
+  - "Mientras <color=purple>William</color> trabajaba como traficante de drogas,
+    lleg\xF3 una de sus peores clientas, esta vez con su hija al lado. "
+  - "El asesino no sab\xEDa qu\xE9 era m\xE1s repulsivo en aquella chica, si su olor
+    o la extra\xF1a mancha negra de su mejilla."
+  - "Inyecci\xF3n de felicidad. Necesito la inyecci\xF3n."
+  - "No hay inyecci\xF3n mientras no pagues tus deudas."
+  - "Toma, toma, se llama <colour=#FF0080>Jorja</colour>, es tuya, puedes hacer lo
+    que quieras, s\xF3lo dame la inyecci\xF3n."
+  - "Tengo miedo, mam\xE1."
+  - "\xA1S\xE9 que tienes miedo! \xA1Tienes miedo de todo! Ni siquiera me recuerdes
+    lo que hiciste delante del \xE1ngel."
+  - "Ella se porta bien y es obediente, te juro que no har\xE1 ning\xFAn berrinche.
+    Por favor, p\xF3ngame la inyecci\xF3n."
+  - Por favor.
+  - "\xBFEst\xE1s vendiendo a tu hija a cambio de inyecci\xF3n?"
+  - "S\xED. Ella me ha dado muchos problemas."
   idchara: 000000000000000000000000230000001c00000023000000220000002300000023000000230000001c00000023000000
   instruction: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044010000
   Cenario: 40

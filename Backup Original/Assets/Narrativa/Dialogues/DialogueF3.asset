@@ -23,6 +23,12 @@ MonoBehaviour:
   - "A <color=#FF6C88>caniba f\xEAmeal</color> tem alta defesa, habilidades de dano
     verdadeiro s\xE3o boas neste caso."
   - Use a habilidade "<color=red>Fim da Fome</color>" para matar essa humana repulsiva.
+  DialogueES:
+  - "Cada habilidad es buena en una situaci\xF3n espec\xEDfica."
+  - "La <color=#FF6C88>caniba hembra</color> tiene una defensa alta, las habilidades
+    de da\xF1o verdadero son buenas en este caso."
+  - Usa la habilidad "<color=red>Fin del Hambre</color>" para matar a esta repulsiva
+    humana.
   idchara: 000000000000000000000000
   instruction: 00000000000000000000000001000000
   Cenario: 0

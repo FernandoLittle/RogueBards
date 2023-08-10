@@ -44,7 +44,7 @@ MonoBehaviour:
     taxes, we can't kill our customers, simple as that.
   - You have to see that we work at the service of a demand.
   - That demand is freedom, <color=yellow>Sarka</color> inherited <color=yellow>Sangla</color>'s
-    love of freedom and <color=yellow>Kuvira</color> was unable to change that.
+    love of freedom and <color=red>Kuvira</color> was unable to change that.
   - "So\u2026"
   - "\u2026"
   - What was I talking about?
@@ -53,9 +53,9 @@ MonoBehaviour:
   - Why do you want to be a killer?
   - "Because\u2026"
   - Because I want to defend freedom.
-  - Tell the truth, <color=purple>William Ulbricht</color>.
+  - Tell the truth, <color=purple>Ulbricht</color>.
   - I'm telling the truth.
-  - Wait, how do you know my last name?
+  - You don't usually call me by my last name...
   - You just want to stay in the Guild because you think you'll find your father's
     killer here.
   - How do you know that?
@@ -67,7 +67,7 @@ MonoBehaviour:
   - Much of <color=purple>William</color>'s life was spent on his revenge plan, seeing
     that his plan was doomed to failure from the start made him feel dead inside.
   - In a few moments, frustration turned to despair and despair turned to foolishness.
-  - 'E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:'
+  - 'And foolishness in turn made him draw his dagger and say:'
   - If you don't tell me who my father's assassin is, I will kill you, and it will
     be a very painful death, so I suggest that...
   - Ebu's angelic weapon caused <color=purple>William</color> to die quickly and
@@ -113,8 +113,8 @@ MonoBehaviour:
     assim.\r"
   - "Voc\xEA tem que ver que trabalhamos a servi\xE7o de uma demanda."
   - "Essa demanda \xE9 a liberdade, <color=yellow>Sarka</color> herdou o amor pela
-    liberdade de <color=yellow>Sangla</color> e <color=yellow>Kuvira</color> foi
-    incapaz de mudar isso."
+    liberdade de <color=yellow>Sangla</color> e <color=red>Kuvira</color> foi incapaz
+    de mudar isso."
   - "Ent\xE3o\u2026"
   - "\u2026"
   - Do que eu estava falando?
@@ -123,9 +123,9 @@ MonoBehaviour:
   - "Por que voc\xEA quer ser um assassino?\r"
   - "Porque\u2026\r"
   - Porque eu quero defender a liberdade.
-  - Diga a verdade, <color=purple>William Ulbricht</color>.
+  - Diga a verdade, <color=purple>Ulbricht</color>.
   - Eu estou dizendo a verdade.
-  - "Espere um pouco, como voc\xEA sabe meu sobrenome?\r"
+  - "Voc\xEA n\xE3o costuma me chamar pelo sobrenome..."
   - "Voc\xEA apenas quer continuar na Guilda porque acha que ir\xE1 encontrar o assassino
     do seu pai aqui."
   - "Como voc\xEA sabe disso?"
@@ -139,7 +139,7 @@ MonoBehaviour:
     o fez se sentir morto por dentro."
   - "Em alguns instantes a frustra\xE7\xE3o se transformou em desespero e o desespero
     se transformou em tolice.\r"
-  - "E, por sua vez, a tolice fez com que ele sacasse sua espada e dissesse:\r"
+  - "E, por sua vez, a tolice fez com que ele sacasse sua adaga e dissesse:\r"
   - "Se voc\xEA n\xE3o me contar quem \xE9 o assassino do meu pai eu irei te matar,
     e ser\xE1 uma morte bem dolorosa, ent\xE3o eu sugiro que\u2026"
   - "A arma angelical de Ebu fez com que <color=purple>William</color> morresse de
@@ -149,6 +149,77 @@ MonoBehaviour:
   - "Droga! Agora o ch\xE3o est\xE1 todo sujo de sangue e o <color=#FF0080>Maduin</color>
     vai ficar puto comigo se descobrir que eu matei o namoradinho dele. "
   - "Onde que eu enterro esse filho da puta?\r"
+  DialogueES:
+  - "\xBFMe vas a echar del Gremio por matar a un violador?"
+  - Tu forma de hablar me hace sonar como una mala persona, me encanta matar violadores,
+    es muy divertido mutilarlos vivos.
+  - "La forma en que hablas suena como si fueras una mala persona, el Documento del
+    Gremio deja muy claro que los asesinos no deben ser s\xE1dicos."
+  - <color=purple>William</color>, <color=purple>William</color>, <color=purple>William</color>,
+    ese es exactamente el problema, el Documento del Gremio, te lo tomas demasiado
+    en serio.
+  - "\xBFNo deber\xEDa tomarlo en serio ya que es el texto fundacional del Gremio?"
+  - "Piensas como un guerrero, te dir\xE9 algo que te har\xE1 explotar la mente."
+  - El Gremio de Asesinos es una empresa.
+  - "\xBFY entonces?"
+  - "\xBFNo te he volado la cabeza? Ya ver\xE1s, al final de esta conversaci\xF3n
+    tu mente explotar\xE1."
+  - "\xBFDe qu\xE9 estaba hablando?"
+  - Estabas...
+  - "\xA1Lo he recordado! El Gremio es una empresa."
+  - "Una empresa no se somete a la \xE9tica, a un conjunto de valores ni a nada por
+    el estilo, una empresa se somete a sus clientes, porque son ellos los que ponen
+    dinero sobre la mesa."
+  - "El guerrero es diferente, ya que su salario proviene de los impuestos, no tiene
+    que complacer a ning\xFAn cliente. "
+  - "Entonces podr\xE1 aferrarse a leyes, \xE9tica y abstracciones in\xFAtiles, porque
+    el dinero caer\xE1 en su bolsillo haga lo que haga."
+  - "Mataste a un violador, eso est\xE1 bien y seguiste el Documento del Gremio,
+    estupendo."
+  - Pero mataste al hijo de nuestro mayor cliente.
+  - En resumen, el problema es el dinero.
+  - "\xA1Exacto! <color=blue>Joshua</color> pondr\xEDa dinero sobre la mesa, como
+    no cobramos impuestos, no podemos matar a nuestros clientes, as\xED de simple."
+  - Hay que ver que trabajamos al servicio de una demanda.
+  - "Esa demanda es la libertad, <colour=yellow>Sarka</colour> hered\xF3 el amor
+    a la libertad de <colour=yellow>Sangla</colour> y <colour=red>Kuvira</colour>
+    fue incapaz de de cambiar eso."
+  - Entonces...
+  - "\u2026"
+  - "\xBFDe qu\xE9 estaba hablando?"
+  - "Dime qu\xE9 tengo que hacer para seguir en el Gremio, quiz\xE1 pueda trabajar
+    sin que se enteren los traficantes, \xBFqu\xE9 te parece?"
+  - "\xBFPor qu\xE9 quieres ser un asesino?"
+  - 'Porque...
+
+'
+  - Porque quiero defender la libertad.
+  - Di la verdad, <color=purple>Ulbricht</color>.
+  - Estoy diciendo la verdad.
+  - Normalmente no me llamas por mi apellido...
+  - "Solo quieres quedarte en el Gremio porque crees que encontrar\xE1s al asesino
+    de tu padre aqu\xED."
+  - "\xBFComo sabes eso?"
+  - Lo supe todo el tiempo, chico, estuviste mintiendo todo el tiempo y me hice el
+    tonta porque eras un buen asesino.
+  - Ahora que el teatro ha terminado, renuncia a tu venganza y vete.
+  - "S\xED, el teatro ha terminado. Ahora que no tengo que mentir, puedo resolver
+    las cosas m\xE1s directamente."
+  - "Gran parte de la vida de <color=purple>William</color> se dedic\xF3 a su plan
+    de venganza, ver que su plan estaba condenado al fracaso desde el principio hizo
+    que se sintiera muerto por dentro."
+  - "En unos momentos, la frustraci\xF3n se convirti\xF3 en desesperaci\xF3n y la
+    desesperaci\xF3n en necedad."
+  - 'Y a su vez, la estupidez le hizo desenvainar su daga y decir:'
+  - "Si no me dices qui\xE9n es el asesino de mi padre, te matar\xE9 y ser\xE1 una
+    muerte muy dolorosa, as\xED que sugiero que..."
+  - "El arma angelical de Ebu hizo que <color=purple>William</color> muriera r\xE1pidamente
+    y sin dolor."
+  - "Qu\xE9 idiota, \xBFqui\xE9n sigue hablando en medio de una pelea?"
+  - Aunque eso no fue exactamente una pelea.
+  - "\xA1Joder! Ahora el suelo est\xE1 todo ensangrentado y <color=#FF0080>Maduin</color>
+    se cabrear\xE1 conmigo si se entera de que he matado a su noviecito. "
+  - "\xBFD\xF3nde entierro a este hijo de puta?"
   idchara: 1c000000010000001c000000010000001c00000001000000010000001c00000001000000010000001c0000000100000001000000010000000100000001000000010000001c0000000100000001000000010000000100000001000000010000001c000000010000001c0000001c000000010000001c0000001c000000010000001c00000001000000010000001c0000000000000000000000000000001c0000000000000001000000010000000100000001000000
   instruction: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008a030000
   Cenario: 64
